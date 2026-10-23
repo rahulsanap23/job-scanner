@@ -1,0 +1,2030 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-currency="" data-currencylabel="AED"
+      dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script>
+  var excludedParams = ['webview','position'];
+  var currentParams = new URLSearchParams(window.location.search);                                                      
+  if (excludedParams.some(function(param) {
+    return currentParams.has(param);
+  })) {
+    window.cmp_noscreen = true;
+  }
+</script>            <script type="text/javascript" data-cmp-ab="1" src="https://cdn.consentmanager.net/delivery/autoblocking/d7452db5e20a4.js" data-cmp-host="c.delivery.consentmanager.net" data-cmp-cdn="cdn.consentmanager.net" data-cmp-codesrc="0"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <title>Careers at Emirates NBD | Join Our Team and Grow Your Career</title>
+    <meta name="description" content="Explore rewarding career opportunities at Emirates NBD. Join our team and take your career to new heights in the banking industry." />
+    <meta name="keywords" content="careers, job vacancies, job openings, job opportunities, banking industry, banking career, future of banking, banking jobs, Emirates NBD" />
+    <!--OG tags-->
+    <meta property="og:url" content="https://www.emiratesnbd.com/en/careers" />
+    <meta property="og:title" content="Careers at Emirates NBD | Join Our Team and Grow Your Career" />
+    <meta property="og:description" content="Explore rewarding career opportunities at Emirates NBD. Join our team and take your career to new heights in the banking industry." />
+    <meta property="og:keywords" content="careers, job vacancies, job openings, job opportunities, banking industry, banking career, future of banking, banking jobs, Emirates NBD" />
+    <meta property="og:image" content="" />
+    <meta property="og:site_name" content="Emirates NBD" />
+    <meta property="og:type" content="website" />
+    <!--twitter tags-->
+    <meta name="twitter:title" content="Careers at Emirates NBD | Join Our Team and Grow Your Career">
+    <meta name="twitter:description" content="Explore rewarding career opportunities at Emirates NBD. Join our team and take your career to new heights in the banking industry.">
+    <meta name="twitter:keywords" content="careers, job vacancies, job openings, job opportunities, banking industry, banking career, future of banking, banking jobs, Emirates NBD">
+    <meta name="twitter:image" content="https://www.emiratesnbd.com/-/media/enbd/images/logos/emiratesnbd_touch-icon.png">
+    <meta name="twitter:site" content="@EmiratesNBD_AE">
+    <meta name="twitter:url" content="https://www.emiratesnbd.com/en/careers">
+    <meta name="twitter:creator" content="@EmiratesNBD_AE">
+
+    <!--Multiple metatags-->
+    <script>
+document.addEventListener("DOMContentLoaded", function () {
+ // Replace with your GTM container ID
+ var GTM_ID = "GTM-57SLSDN";
+ // Create the dataLayer
+ window.dataLayer = window.dataLayer || [];
+ window.dataLayer.push({
+   'gtm.start': new Date().getTime(),
+   event: 'gtm.js'
+ });
+ // Dynamically inject the GTM script
+ var gtmScript = document.createElement("script");
+ gtmScript.async = true;
+ gtmScript.src = "https://www.googletagmanager.com/gtm.js?id=" + GTM_ID;
+ document.head.appendChild(gtmScript);
+});
+</script><script>
+  !function(e,a,n,t){
+if (a) return;
+var i=e.head;if(i){
+var o=e.createElement("style");
+ o.id="alloy-prehiding",o.innerText=n,i.appendChild(o),
+setTimeout(function(){o.parentNode&&o.parentNode.removeChild(o)},t)}}
+(document, document.location.href.indexOf("adobe_authoring_enabled") !== -1, "body { opacity: 0 !important }", 3000);
+</script>
+<script src="https://assets.adobedtm.com/f38911e57abc/9f6583850369/launch-a35afee18b44.min.js" async></script>
+
+<script>
+window.addEventListener('load',function(){
+    $('a[href*="https://digital.emiratesnbd.com/claimaccount"]').each(function(index,element){
+        var domHref=$(element).attr('href');
+        var updatedQuery="";
+        if(domHref.includes(location.hostname.slice(4))){
+            
+            updatedQuery=domHref.split("?").length>1?domHref+"&"+location.search.slice(1) : domHref+location.search;
+            $(element).attr('href',updatedQuery).data('processed', true);
+        }
+    });
+
+let query = location.search;
+    if (query) {
+        let utmParts = query.slice(1).split('&').filter(function(p) {
+            let part = p.substr(0, 4);
+            return ['utm_', 'etm_'].indexOf(part) > -1;
+        });
+    
+        if (utmParts.length) {
+            let utmString = utmParts.join('&');
+    
+            $('a').each(function() {
+                let $self = $(this);
+
+                if ($self.data('processed')) return;
+
+                let href = $self.attr('href');
+                if (href && !(href.substr(0, 1) === '#' || href.search('javascript') > -1)) {
+                    let hrefParts = href.split('?'),
+                        newHref = hrefParts[0] + '?' + utmString;
+
+                    if (hrefParts.length === 2) {
+                        let queryParts = hrefParts[1].split('#');
+                        newHref += '&' + queryParts[0];
+                    }
+
+                    //let hashParts = href.split('#');
+                    //if (hashParts.length === 2) newHref += '#' + hashParts[1];
+
+                    $self.attr('href', newHref);
+                }
+            });
+        }
+    }
+});
+</script>
+<script>
+window.addEventListener('load',function(){
+
+    
+if($("#survey_listing").length > 0){
+var surveyCount = $("#survey_listing .survey__item").length
+var completed = $("#survey_listing .survey__item.completed").length
+var isLastSurvey = surveyCount - completed == 1 ? true : false;
+if (isLastSurvey) {
+    var href = $("#survey_listing .survey__item.pending a").attr("href");
+    href = href + "&finalsubmit=true";
+    $("#survey_listing .survey__item.pending a").attr("href", href);
+}
+}
+$(document).ready(function () {
+    if ($(".survey__form").length > 0) {
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+
+        if (urlParams.has('finalsubmit')) {
+            const paramValue = urlParams.get('finalsubmit');
+            if (paramValue == "true") {
+               $(".survey-form-success .message-block.text-center p").addClass("d-none");
+                $(".survey-form-success .message-block.text-center h3").text($(".survey-msg").text());
+            }
+        }
+    }
+});
+});
+</script>        <!--Head Widget Settings-->
+
+        <script>
+            window.dataLayer = window.dataLayer || [];
+
+            dataLayer.push({
+                "pageCurrency": "",
+                "pageLanguage": "en",
+                "contentSegement": "Personal Banking",
+                "contentType": "",
+                "contentCategory": "",
+            });
+        </script>
+    <script>
+        var pageData = {
+            "web": {
+            },
+            "_emiratesnbd": {
+                "userInfo": { "userLoginMethod": "", "userLoginStatus": "non logged in" },
+                "pageInfo": {
+                    "pageName": "careers",
+                    "language": "en",
+                    "previousPage": "",
+                    "platform": "website",
+                    "channel": "WEB",
+                    "siteSection": "",
+                    "segment": "personal-banking",
+                    "category": "",
+                    "subCategory": "",
+                    "pageType": "",
+                    "productName": ""
+                }
+            }
+        };
+    </script>
+        <script>
+            var PageViewData = {
+                "event": "pageView",
+                "web": {
+                    "webPageDetails": {
+                        "name": "careers",
+                        "pageLoadTime": {
+                            "value": ""
+                        },
+                        "timeSpentOnPreviousPage": {
+                            "value": ""
+                        },
+                        "pageViews": {
+                            "value": 1
+                        }
+                    }
+                },
+                "_emiratesnbd": {
+                    "userInfo": { "userLoginMethod": "", "userLoginStatus": "non logged in" },
+                    "pageInfo": {
+                        "pageName": "careers",
+                        "language": "en",
+                        "previousPage": "",
+                        "platform": "website",
+                        "channel": "WEB",
+                        "siteSection": "",
+                        "segment": "personal-banking",
+                        "category": "",
+                        "subCategory": "",
+                        "pageType": "",
+                        "productName": ""
+                    }
+                }
+            };
+            var TrackAdobe = 1;
+        </script>
+    
+    <script type="application/ld+json">
+        {
+        "@context": "https://schema.org/",
+        "@type": "WebPage",
+        "breadcrumb": "Home/Careers",
+        "name": "Careers at Emirates NBD | Join Our Team and Grow Your Career",
+        "author": "Emirates NBD",
+        "headline": "Careers at Emirates NBD | Join Our Team and Grow Your Career",
+        "description": "Explore rewarding career opportunities at Emirates NBD. Join our team and take your career to new heights in the banking industry.",
+        "keywords": "careers, job vacancies, job openings, job opportunities, banking industry, banking career, future of banking, banking jobs, Emirates NBD"
+        }
+    </script>
+
+
+        <link rel="icon" type="image/png" href="/-/media/enbd/images/logos/favicon.png">
+    <!--Apple touch icon-->
+        <link rel="apple-touch-icon" type="image/png" href="/-/media/enbd/images/logos/favicon.png">
+                <link rel="alternate" hreflang="en" href="https://www.emiratesnbd.com/en/careers" />
+            <link rel="alternate" hreflang="ar" href="https://www.emiratesnbd.com/ar/careers" />
+    <!-- http equiv meta -- Not recommended by W3c -->
+            <meta http-equiv="content-language" content="en" />
+    <!--Canonical Url-->
+    <link rel="canonical" href="https://www.emiratesnbd.com/en/careers" />
+    
+    
+    <!-- google fonts -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"></noscript>
+    <!-- KYC Verification Styles (EFR, OCR, SmartPass) -->
+    <link rel="stylesheet" href="/assets/enbd/css/kyc/kyc-verification.css" />
+<link href="/bundles/enbd/br/minifiedcss.css?v=NQOh6KB9gY_iGWiUefdBnD7uRi5KHgr50dL2CNcugWI1" rel="stylesheet"/>
+    <link rel="stylesheet" href="/assets/webxv2/css/fonts.css">
+    <link rel="stylesheet" href="/assets/webxv2/css/header-footer.css">
+
+    
+</head>
+<body  data-cmpEnabled="True">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id= GTM-57SLSDN"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<script>
+   const gtmparams = new URLSearchParams(window.location.search);
+
+   if (gtmparams .get('webview') !== 'webview') {
+      (function(d){var s = d.createElement("script");s.setAttribute("data-account", "J5iSAFpjR7");s.setAttribute("src", "https://cdn.userway.org/widget.js");(d.body || d.head).appendChild(s);})(document)
+   }
+</script>
+
+<noscript>Please ensure Javascript is enabled for purposes of <a href="https://userway.org">website accessibility</a></noscript>
+
+<style>
+
+/* new */
+.cardlist .cardlist_selection .cardlist__header .cardlist-filter-slider .irs .irs-line { background-color: #fff; } .cardlist .cardlist_selection .cardlist__header ~ .cardlist__main { padding-top: 0; } .card--action-hover:hover .card__icon-picture img {filter: none !important;} .swiper-slide .link--bordered { margin-bottom:0.0625rem;} @media (min-width: 1200px) {     html[dir=rtl] .topbar-nav__menu>li>a { padding: .75rem 0.3rem !important; } }
+
+</style>
+    <!-- /.site-header -->
+    
+<!-- header -->
+
+    <!--
+           TODO: Search box,Notification Center,Mobile bottom menu
+        -->
+        <header id="site_header" class="site-header microsite-header"   data-segmentcookietracking="5"  >
+                <div class="position-relative">
+                    <div class="topbar container container-lg px-0">
+                        <div class="topbar__left"></div>
+                        <div class="topbar__right">
+
+
+                            <!-- online banking dropdown -->
+                                <div id="online_banking_dropdown" class="menu-online-banking bg-secondary ml-xl-3 ml-2">
+                                            <a title="View all vacancies " href="javascript:void(0);" class="topbar__item" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-label="toggle-bar">
+                                                    <i class="icomoon  mr-2 fs-16"></i>
+                                                View all vacancies 
+                                                <i class="icomoon icon-chevron-down ml-2"></i>
+                                            </a>
+                                            <div class="dropdown-menu dropdown-menu-right">
+                                                <ul class="dropdown-menu__list">
+                                                            <li>
+<a href="https://fa-evlo-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1" title="481ff8db5ffa4c878f7be7cff93e0061" >                                                                    <picture class="dropdown-menu__icon-img">
+                                                                        <img src="" alt="Brokerage" data-src="/-/media/enbd/images/header/icons/icon-brokerage.svg?la=en&amp;hash=3B3BEB3F2DDE8A1860FABF7BABD33DB0" class="lazy-image">
+                                                                    </picture>
+                                                                    <span>Career site</span>
+</a>                                                            </li>
+                                                </ul>
+                                            </div>
+                                    <!-- /.dropdown-menu -->
+                                </div>
+                            <!-- /.menu-online-banking -->
+
+                        </div>
+                        <!-- /.topbar__right -->
+
+                    </div>
+                </div>
+                <!-- /.topbar -->
+            <div class="navbar">
+                <div class="container container-lg">
+                    <div class="navbar__inner">
+<a href="/en/careers" class="navbar__brand " title="Logo" ><img src="/-/media/enbd/images/logos/horizontal_logo.svg?la=en&amp;hash=A33654369475CF9B1FA76FEB570F9B9D" alt="Logo" />                                <span class="d-none">logo image</span>
+</a>                        <!-- /.navbar__brand -->
+
+                        <div class="navbar__content">
+
+                            <div class="navbar__mobile-only mobile-hamburger-parent mr-2 mr-sm-2">
+                                <span class="mobile-hamburger">
+                                    <span class="sr-only">Mobile menu</span>
+                                </span>
+                            </div>
+                                <a title="" href="/ar/careers" class="d-block d-xl-none"></a>
+                            <!-- main menu -->
+                            <nav class="main-menu-wrapper">
+                                <ul class="main-menu">
+                                                    <li>
+                                                        <a title="Home" href="     /en/careers"
+                                                                                                                      aria-label="navigation-menu" data-segmentid="0b59e428-e776-4054-88ff-710f00c848ca">
+                                                            Home
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a title="Why join us" href="     /en/careers/why-join-us"
+                                                                                                                      aria-label="navigation-menu" data-segmentid="0b59e428-e776-4054-88ff-710f00c848ca">
+                                                            Why join us
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a title="Tech opportunities" href="     /en/careers/opportunities-for-tech-digital-and-data-professionals"
+                                                                                                                      aria-label="navigation-menu" data-segmentid="0b59e428-e776-4054-88ff-710f00c848ca">
+                                                            Tech opportunities
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a title="Global reach" href="     /en/careers/our-global-reach"
+                                                                                                                      aria-label="navigation-menu" data-segmentid="0b59e428-e776-4054-88ff-710f00c848ca">
+                                                            Global reach
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a title="Emiratisation programmes" href="     /en/careers/join-emirates-nbd"
+                                                                                                                      aria-label="navigation-menu" data-segmentid="0b59e428-e776-4054-88ff-710f00c848ca">
+                                                            Emiratisation programmes
+                                                        </a>
+                                                    </li>
+                                </ul>
+                            </nav>
+                            <!-- /.main-menu-wrapper -->
+                            <!-- navbar lang -->
+                            <div class="d-flex align-items-center ml-auto ml-xl-0">
+                                <!-- /.lang-menu -->
+                                <!-- navbar search -->
+                                <!-- /.search-bar__toggle -->
+                            </div>
+                            <a title="search-bar" href="javascript:void(0);" class="navbar__mobile-only mobile-menu-btn fs-20 py-2 ml-3 ml-sm-4">
+                                <span class="sr-only"></span>
+                                <i class="icomoon icon-lock"></i>
+                            </a>
+
+                            <a title="search-bar" href="javascript:void(0);" class="menu__mobile-close mt-2 ml-3">
+                                <span class="sr-only"></span>
+                            </a>
+                        </div>
+
+                        <!-- /.navbar__content -->
+                        <div class="navbar__right">
+                            <div class="lang-menu mr-auto mr-xl-2 d-none d-xl-block">
+                                    <a title="Choose your website  " href="javascript:void(0);" class="d-flex align-items-center" data-toggle="modal" data-target="#lang-modal">
+                                        <span class="sr-only"> Choose your website / عربي</span>
+                                        <img src="/-/media/enbd/images/header/icons/flag-uae.svg?la=en&amp;hash=881ABC69F3DE1B8D43082716126E15C4" class="d-none d-xl-inline-block " alt="Emirates NBD" />
+                                        <span class="lang-menu-text mx-1"> Choose your website / عربي</span>
+                                        
+                                    </a>
+                            </div>
+                        </div>
+                        <!-- /.menu-online-banking-mobile -->
+                    </div>
+                    <!-- /.navbar__inner -->
+                </div>
+                <!-- /.container -->
+            </div>
+            <!-- /.navbar -->
+                        <div class="mobile-menu-popup d-xl-none">
+                            <ul class="dropdown-menu__list">
+                                        <li>
+<a href="https://fa-evlo-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1" title="481ff8db5ffa4c878f7be7cff93e0061" >                                                <picture class="dropdown-menu__icon-img">
+                                                    <img src="" alt="icon-brokerage" data-src="/-/media/enbd/images/header/icons/icon-brokerage.svg?la=en&amp;hash=3B3BEB3F2DDE8A1860FABF7BABD33DB0" class="lazy-image">
+                                                </picture>
+                                                <span>Career site</span>
+</a>                                        </li>
+                            </ul>
+                        </div>
+
+            <div id="megamenu" class="megamenu">
+                <div class="megamenu__inner">
+
+                    <div class="container">
+                        <div class="megamenu__content-wrapper">
+
+                            <div class="megamenu__content megamenu__content-mobile" data-content="mobile-menu">
+                                    <ul class="megamenu__menu-list-mobile">
+
+                                                <li class="main-menu-top bg-secondary">
+                                                    
+<a href="/en/careers" title="ENBD New Logo" data-target="top-menu" >                                                        <i class="icomoon icon-angle-right"></i>
+</a>                                                </li>
+
+                                            <li>
+                                                <a title="Choose your website  " href="javascript:void(0)" class="d-flex align-items-center" data-toggle="modal" data-target="#lang-modal">
+                                                    <span class="sr-only"> Choose your website / عربي</span>
+                                                    <img src="/-/media/enbd/images/header/icons/flag-uae.svg?la=en&amp;hash=881ABC69F3DE1B8D43082716126E15C4" class="d-none d-xl-inline-block " alt="Emirates NBD" />
+                                                    <span class="lang-menu-text mx-1"> Choose your website / عربي</span>
+                                                    
+                                                </a>
+                                            </li>
+                                    </ul>
+                            </div>
+                            <!-- /.megamenu-content (mobile-menu) -->
+
+                            <div class="megamenu__content" data-content="top-menu">
+                                <a title="Back" href="javascript:void(0);" class="megamenu__mobile-back">
+                                    <i class="icomoon icon-angle-left"></i> <span class="text-primary"> Back</span>
+                                </a>
+                                    <i class="icomoon icon-globe mr-2"></i>
+Visit Emirates NBD Group Website                                    <i class="icomoon icon-full-screen ml-auto"></i>
+                            </div>
+                            <!-- /.megamenu-content (top-menu) -->
+                                    <!-- /.megamenu__content (accounts)-->
+                        </div>
+                    </div>
+                    <!-- /.megamenu__content-wrapper -->
+                </div>
+                <!-- /.megamenu__inner -->
+
+                <div class="megamenu-mobile-bar">
+
+                                                            <i class="icomoon "></i>
+View all vacancies                                     </div>
+                <!-- /.mobile-bar -->
+            </div>
+
+            <!-- /.megamenu -->
+
+            <div class="menu-for-mobile">
+                <div class="menu-nav">
+                        <ul>
+                                <li class="parent no-collapes">
+                                        <ul class="child" style="display:block">
+                                                <li>
+                                                    <a title="Home" class="javascript:void(0);" href="/en/careers"
+                                                                                                              data-segmentid="0b59e428-e776-4054-88ff-710f00c848ca">
+                                                        Home
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a title="Why join us" class="javascript:void(0);" href="/en/careers/why-join-us"
+                                                                                                              data-segmentid="0b59e428-e776-4054-88ff-710f00c848ca">
+                                                        Why join us
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a title="Tech opportunities" class="javascript:void(0);" href="/en/careers/opportunities-for-tech-digital-and-data-professionals"
+                                                                                                              data-segmentid="0b59e428-e776-4054-88ff-710f00c848ca">
+                                                        Tech opportunities
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a title="Global reach" class="javascript:void(0);" href="/en/careers/our-global-reach"
+                                                                                                              data-segmentid="0b59e428-e776-4054-88ff-710f00c848ca">
+                                                        Global reach
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a title="Emiratisation programmes" class="javascript:void(0);" href="/en/careers/join-emirates-nbd"
+                                                                                                              data-segmentid="0b59e428-e776-4054-88ff-710f00c848ca">
+                                                        Emiratisation programmes
+                                                    </a>
+                                                </li>
+                                        </ul>
+                                </li>
+
+                                <li class="parent no-collapes">
+                                    <a title="UAE" href="javascript:void(0)" class="d-flex align-items-center justify-content-between" data-toggle="modal" data-target="#lang-modal">
+                                         Choose your website / عربي
+                                        <span class="d-flex align-items-center">
+                                            <img src="/-/media/enbd/images/header/icons/flag-uae.svg?la=en&amp;w=20&amp;hash=94B9018960402A60271D5DC59E94FCBA" class="mr-2" alt="Emirates NBD" />
+                                            UAE
+                                        </span>
+                                    </a>
+                                </li>
+                        </ul>
+
+                </div>
+
+                <div class="megamenu-mobile-bar">
+                                                            <i class="icomoon "></i>
+View all vacancies                 </div>
+            </div>
+
+
+
+        </header>
+    <!-- Modal -->
+    <div class="modal fade editor-detail" id="lang-modal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-fullWidth">
+            <div class="modal-content">
+                <!-- <div class="globe-bg"></div> -->
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">&nbsp;</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <i class="icomoon icon-close-thin"></i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="pb-5 text-center">
+                        <h2 class="fw-light fs-lg-32 fs-24 text-center mb-4">
+                            Choose your language
+                        </h2>
+                                <a title="  " href="/ar/careers" class="btn btn-primary link-arrow"
+                                   data-ctacategory="Navigation" data-ctaregion="Top Nav" data-event="ctaClick" data-ctatext="عربی"
+                                   data-ctatype="link" data-ctalink="/ar/careers">
+                                    التغيير الى العربية
+                                </a>
+                            <a title="English"  href="#" class="btn btn-link">English</a>
+                    </div>
+                    <div class="container p-0 mt-3 mt-lg-4">
+                        <div class="row">
+                                    <div class="col-12 col-md-12 col-lg-6 mb-4 mb-lg-0">
+                                        <h3 class="fs-20 fs-lg-26 fw-normal mb-3 mb-4">Emirates NBD International</h3>
+                                        <div class="web-list">
+                                                    <div class="d-flex align-items-center mb-4">
+                                                        <div class="">
+                                                            <img src="/-/media/enbd/images/siteflags/uae_cyw.png" alt="flag image" width="53" height="53"/>
+                                                        </div>
+                                                        <div class="px-3">
+                                                            <h4 class="fs-14 fs-lg-16 mb-1"><a title="United Arab Emirates"  href="#"> United Arab Emirates</a></h4>
+                                                            <div class="">
+                                                                <a href="/en" class="" data-ctatext="english" data-ctaregion="Top Nav" data-ctacategory="Navigation" title="Arabic Link" data-ctalink="https://www.emiratesnbd.com/en" data-event="ctaClick" data-ctatype="link" >English</a>
+                                                                    <span>&nbsp;| &nbsp;</span>
+<a href="https://www.emiratesnbd.com/ar" class="" data-ctatext="عربي" data-ctaregion="Top Nav" data-ctacategory="Navigation" title="English Link" data-ctalink="https://www.emiratesnbd.com/en" data-event="ctaClick" data-ctatype="link" >عربي</a>                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-flex align-items-center mb-4">
+                                                        <div class="">
+                                                            <img src="/-/media/enbd/images/siteflags/sar.png" alt="flag image" width="53" height="53"/>
+                                                        </div>
+                                                        <div class="px-3">
+                                                            <h4 class="fs-14 fs-lg-16 mb-1"><a title="Saudi Arabia"  href="#"> Saudi Arabia</a></h4>
+                                                            <div class="">
+                                                                <a href="http://www.emiratesnbd.com.sa/en/?ref=lang" class="" data-ctatext="english" data-ctaregion="Top Nav" data-ctacategory="Navigation" title="Arabic Link" data-ctalink="http://www.emiratesnbd.com.sa/en/?ref=lang" data-event="ctaClick" data-ctatype="link" >English</a>
+                                                                    <span>&nbsp;| &nbsp;</span>
+<a href="http://www.emiratesnbd.com.sa/ar/?ref=lang" class="" data-ctatext="عربي" data-ctaregion="Top Nav" data-ctacategory="Navigation" title="English Link" data-ctalink="http://www.emiratesnbd.com.sa/en/?ref=lang" data-event="ctaClick" data-ctatype="link" >عربي</a>                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-flex align-items-center mb-4">
+                                                        <div class="">
+                                                            <img src="/-/media/enbd/images/siteflags/egp.png" alt="flag image" width="53" height="53"/>
+                                                        </div>
+                                                        <div class="px-3">
+                                                            <h4 class="fs-14 fs-lg-16 mb-1"><a title="Egypt"  href="#"> Egypt</a></h4>
+                                                            <div class="">
+                                                                <a href="http://www.emiratesnbd.com.eg/egypt-en/?ref=lang" class="" data-ctatext="english" data-ctaregion="Top Nav" data-ctacategory="Navigation" title="Arabic Link" data-ctalink="http://www.emiratesnbd.com.eg/egypt-en/?ref=lang" data-event="ctaClick" data-ctatype="link" >English</a>
+                                                                    <span>&nbsp;| &nbsp;</span>
+<a href="http://www.emiratesnbd.com.eg/egypt-ar/?ref=lang" class="" data-ctatext="عربي" data-ctaregion="Top Nav" data-ctacategory="Navigation" title="English Link" data-ctalink="http://www.emiratesnbd.com.eg/egypt-en/?ref=lang" data-event="ctaClick" data-ctatype="link" >عربي</a>                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-flex align-items-center mb-4">
+                                                        <div class="">
+                                                            <img src="/-/media/enbd/images/siteflags/sgd.png" alt="flag image" width="53" height="53"/>
+                                                        </div>
+                                                        <div class="px-3">
+                                                            <h4 class="fs-14 fs-lg-16 mb-1"><a title="Singapore"  href="#"> Singapore</a></h4>
+                                                            <div class="">
+                                                                <a href="http://www.emiratesnbd.sg/en/?ref=lang" class="" data-ctatext="english" data-ctaregion="Top Nav" data-ctacategory="Navigation" title="Arabic Link" data-ctalink="http://www.emiratesnbd.sg/en/?ref=lang" data-event="ctaClick" data-ctatype="link" >English</a>
+                                                                    <span>&nbsp;| &nbsp;</span>
+<a href="http://www.emiratesnbd.sg/ar/?ref=lang" class="" data-ctatext="عربي" data-ctaregion="Top Nav" data-ctacategory="Navigation" title="English Link" data-ctalink="http://www.emiratesnbd.sg/en/?ref=lang" data-event="ctaClick" data-ctatype="link" >عربي</a>                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-flex align-items-center mb-4">
+                                                        <div class="">
+                                                            <img src="/-/media/enbd/images/siteflags/gbp.png" alt="flag image" width="53" height="53"/>
+                                                        </div>
+                                                        <div class="px-3">
+                                                            <h4 class="fs-14 fs-lg-16 mb-1"><a title="United Kingdom"  href="#"> United Kingdom</a></h4>
+                                                            <div class="">
+                                                                <a href="http://www.emiratesnbd.co.uk/en-uk/?ref=lang" class="" data-ctatext="english" data-ctaregion="Top Nav" data-ctacategory="Navigation" title="Arabic Link" data-ctalink="http://www.emiratesnbd.co.uk/en-uk/?ref=lang" data-event="ctaClick" data-ctatype="link" >English</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-flex align-items-center mb-4">
+                                                        <div class="">
+                                                            <img src="/-/media/enbd/images/siteflags/inr.png" alt="flag image" width="53" height="53"/>
+                                                        </div>
+                                                        <div class="px-3">
+                                                            <h4 class="fs-14 fs-lg-16 mb-1"><a title="India"  href="#"> India</a></h4>
+                                                            <div class="">
+                                                                <a href="http://www.emiratesnbd.co.in/en/?ref=lang" class="" data-ctatext="english" data-ctaregion="Top Nav" data-ctacategory="Navigation" title="Arabic Link" data-ctalink="http://www.emiratesnbd.co.in/en/?ref=lang" data-event="ctaClick" data-ctatype="link" >English</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-12 col-lg-6 mb-4 mb-lg-0">
+                                        <h3 class="fs-20 fs-lg-26 fw-normal mb-3 mb-4">Our Websites</h3>
+                                        <div class="web-list">
+                                                    <div class="d-flex align-items-center mb-4">
+                                                        <div class="">
+                                                            <img src="/-/media/enbd/images/siteflags/am_cyw.png" alt="flag image" width="53" height="53"/>
+                                                        </div>
+                                                        <div class="px-3">
+                                                            <h4 class="fs-14 fs-lg-16 mb-1"><a title="Emirates NBD Asset Management"  href="#"> Emirates NBD Asset Management</a></h4>
+                                                            <div class="">
+                                                                <a href="https://www.emiratesnbd.com/en/asset-management/?ref=lang" class="" data-ctatext="english" data-ctaregion="Top Nav" data-ctacategory="Navigation" title="Arabic Link" data-ctalink="https://www.emiratesnbd.com/en/asset-management/?ref=lang" data-event="ctaClick" data-ctatype="link" >English</a>
+                                                                    <span>&nbsp;| &nbsp;</span>
+<a href="https://www.emiratesnbd.com/ar/asset-management/?ref=lang" class="" data-ctatext="عربي" data-ctaregion="Top Nav" data-ctacategory="Navigation" title="English Link" data-ctalink="https://www.emiratesnbd.com/en/asset-management/?ref=lang" data-event="ctaClick" data-ctatype="link" >عربي</a>                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-flex align-items-center mb-4">
+                                                        <div class="">
+                                                            <img src="/-/media/enbd/images/siteflags/research_cyw.png" alt="flag image" width="53" height="53"/>
+                                                        </div>
+                                                        <div class="px-3">
+                                                            <h4 class="fs-14 fs-lg-16 mb-1"><a title="Emirates NBD Research"  href="#"> Emirates NBD Research</a></h4>
+                                                            <div class="">
+                                                                <a href="http://www.emiratesnbdresearch.com/research/?ref=lang" class="" data-ctatext="english" data-ctaregion="Top Nav" data-ctacategory="Navigation" title="Arabic Link" data-ctalink="http://www.emiratesnbdresearch.com/research/?ref=lang" data-event="ctaClick" data-ctatype="link" >English</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-flex align-items-center mb-4">
+                                                        <div class="">
+                                                            <img src="/-/media/enbd/images/siteflags/securities_cyw.png" alt="flag image" width="53" height="53"/>
+                                                        </div>
+                                                        <div class="px-3">
+                                                            <h4 class="fs-14 fs-lg-16 mb-1"><a title="Emirates NBD Securities"  href="#"> Emirates NBD Securities</a></h4>
+                                                            <div class="">
+                                                                <a href="http://www.emiratesnbdsecurities.com/en-sec/?ref=lang" class="" data-ctatext="english" data-ctaregion="Top Nav" data-ctacategory="Navigation" title="Arabic Link" data-ctalink="http://www.emiratesnbdsecurities.com/en-sec/?ref=lang" data-event="ctaClick" data-ctatype="link" >English</a>
+                                                                    <span>&nbsp;| &nbsp;</span>
+<a href="http://www.emiratesnbdsecurities.com/ar-sec/?ref=lang" class="" data-ctatext="عربي" data-ctaregion="Top Nav" data-ctacategory="Navigation" title="English Link" data-ctalink="http://www.emiratesnbdsecurities.com/en-sec/?ref=lang" data-event="ctaClick" data-ctatype="link" >عربي</a>                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-flex align-items-center mb-4">
+                                                        <div class="">
+                                                            <img src="/-/media/enbd/images/siteflags/reit_cyw.jpg" alt="flag image" width="53" height="53"/>
+                                                        </div>
+                                                        <div class="px-3">
+                                                            <h4 class="fs-14 fs-lg-16 mb-1"><a title="ENBD Reit"  href="#"> ENBD Reit</a></h4>
+                                                            <div class="">
+                                                                <a href="http://www.enbdreit.com/reit/?ref=lang" class="" data-ctatext="english" data-ctaregion="Top Nav" data-ctacategory="Navigation" title="Arabic Link" data-ctalink="http://www.enbdreit.com/reit/?ref=lang" data-event="ctaClick" data-ctatype="link" >English</a>
+                                                                    <span>&nbsp;| &nbsp;</span>
+<a href="http://www.enbdreit.com/reit-ar/?ref=lang" class="" data-ctatext="عربي" data-ctaregion="Top Nav" data-ctacategory="Navigation" title="English Link" data-ctalink="http://www.enbdreit.com/reit/?ref=lang" data-event="ctaClick" data-ctatype="link" >عربي</a>                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-flex align-items-center mb-4">
+                                                        <div class="">
+                                                            <img src="/-/media/enbd/images/siteflags/ksa_capital_cyw.png" alt="flag image" width="53" height="53"/>
+                                                        </div>
+                                                        <div class="px-3">
+                                                            <h4 class="fs-14 fs-lg-16 mb-1"><a title="KSA Capital"  href="#"> KSA Capital</a></h4>
+                                                            <div class="">
+                                                                <a href="http://www.emiratesnbdcapital.com.sa/esa/?ref=lang" class="" data-ctatext="english" data-ctaregion="Top Nav" data-ctacategory="Navigation" title="Arabic Link" data-ctalink="http://www.emiratesnbdcapital.com.sa/esa/?ref=lang" data-event="ctaClick" data-ctatype="link" >English</a>
+                                                                    <span>&nbsp;| &nbsp;</span>
+<a href="http://www.emiratesnbdcapital.com.sa/asa/?ref=lang" class="" data-ctatext="عربي" data-ctaregion="Top Nav" data-ctacategory="Navigation" title="English Link" data-ctalink="http://www.emiratesnbdcapital.com.sa/esa/?ref=lang" data-event="ctaClick" data-ctatype="link" >عربي</a>                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-flex align-items-center mb-4">
+                                                        <div class="">
+                                                            <img src="/-/media/enbd/images/siteflags/liv_cyw.png" alt="flag image" width="53" height="53"/>
+                                                        </div>
+                                                        <div class="px-3">
+                                                            <h4 class="fs-14 fs-lg-16 mb-1"><a title="Liv."  href="#"> Liv.</a></h4>
+                                                            <div class="">
+                                                                <a href="https://www.liv.me/?ref=lang" class="" data-ctatext="english" data-ctaregion="Top Nav" data-ctacategory="Navigation" title="Arabic Link" data-ctalink="https://www.liv.me/?ref=lang" data-event="ctaClick" data-ctatype="link" >English</a>
+                                                                    <span>&nbsp;| &nbsp;</span>
+<a href="https://www.liv.me/ar/?ref=lang" class="" data-ctatext="عربي" data-ctaregion="Top Nav" data-ctacategory="Navigation" title="English Link" data-ctalink="https://www.liv.me/?ref=lang" data-event="ctaClick" data-ctatype="link" >عربي</a>                                                            </div>
+                                                        </div>
+                                                    </div>
+                                        </div>
+                                    </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+        <div class="header-sticky-space"></div>
+    <div class="megamenu-overlay"></div>
+
+<!-- header -->
+<!-- main -->
+<div class="site-main">
+    
+
+
+<section class="banner-slider banner-slider_large card-banner banner-slider_filled-mobile banner-with-highlight " style=""><div class="banner-slider__container swiper-container position-relative">    <div class="swiper-wrapper">
+            <div class="swiper-slide">
+
+                <div class="banner-slider__slide">
+
+                    <picture class="banner-slider__bg d-block">
+                            <source media="(min-width:576px)" srcset="/-/media/enbd/images/Careers/2025/new/careers_homepage_banner.jpg">
+                        <img src="" alt="BannerWithHighLights top" data-src="/-/media/enbd/images/Careers/2025/new/careers_homepage_mob_banner.jpg?la=en&amp;h=390&amp;w=780&amp;hash=D961AB83D88495A970EF0138D9D2F9ED" class="lazy-image" width="780" height="390">
+                    </picture>
+
+                    <div class="banner-slider__inner container">
+
+
+                        <div class="banner-slider__content pb-lg-4">
+                            <h2 class="banner-slider__title">
+                                Join an organisation that’s as ambitious and innovative as the city we were founded in.
+                            </h2>
+                            <div class="banner-slider__desc">
+                                
+                            </div>
+                                                            <div class="banner-slider__buttons pb-0 d-lg-block d-flex">
+<a href="https://fa-evlo-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1" class="btn btn--wide btn btn-primary text-white link-arrow mb-3" data-ctatext="check out our current vacancies" data-ctaregion="Banner With Highlight" data-ctacategory="Interested" target="_blank" title="Check out our current vacancies " data-ctalink="https://fa-evlo-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1" data-event="ctaClick" data-ctatype="button" rel="noopener noreferrer" >Check out our current vacancies </a>                                </div>
+                                                    </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+</div></section>
+
+
+
+
+
+
+
+
+<section class="section section--bg-light pb-0 cardiconlist__withborderleftaligned py-5" style=""><div class="container">            <!-- Common Heading tags -->
+                <div class="pb-2">
+                                            <h2 class="fw-light fs-lg-32 fs-24 text-center">
+                            Emirates NBD at a glance 
+                        </h2>
+                                    </div>
+            <!--/ Common Heading tags -->
+            <div class="row row-sm justify-content-center">
+                        <div class="col-md-6 col-lg-2 mb-3">
+
+                            <div class="card card--image card--image-icon card--no-border pt-4 text-left h-100">
+                                <div class="card__icon px-4">
+                                        <picture class="card__picture">
+                                            <source srcset="/-/media/enbd/images/Careers/2025/employee.png" media="(min-width: 768px)">
+                                            <img src="" alt="Employees" data-src="/-/media/enbd/images/Careers/2025/employee.png?la=en&amp;h=120&amp;w=120&amp;hash=FA7DB4E97D16DB3358B73A6D97BF1D30" class="lazy-image" width="120" height="120">
+                                        </picture>
+                                </div>
+                                <div class="card__body pb-4">
+                                        <h4 class="card__title"><strong>30,000</strong></h4>
+                                    <div class="card__text d-block fs-14">
+                                        <p>Employees</p>
+                                    </div>
+                                </div>
+                                <!-- /.card-footer -->
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-2 mb-3">
+
+                            <div class="card card--image card--image-icon card--no-border pt-4 text-left h-100">
+                                <div class="card__icon px-4">
+                                        <picture class="card__picture">
+                                            <source srcset="/-/media/enbd/images/Careers/2023/May/accepted-worldwide-blue_icon.png" media="(min-width: 768px)">
+                                            <img src="" alt="countries" data-src="/-/media/enbd/images/Careers/2023/May/accepted-worldwide-blue_icon.png?la=en&amp;h=500&amp;w=500&amp;hash=C9220544A99E78A6820279AD808895AE" class="lazy-image" width="500" height="500">
+                                        </picture>
+                                </div>
+                                <div class="card__body pb-4">
+                                        <h4 class="card__title"><strong>13</strong></h4>
+                                    <div class="card__text d-block fs-14">
+                                        <p>Countries</p>
+                                    </div>
+                                </div>
+                                <!-- /.card-footer -->
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-2 mb-3">
+
+                            <div class="card card--image card--image-icon card--no-border pt-4 text-left h-100">
+                                <div class="card__icon px-4">
+                                        <picture class="card__picture">
+                                            <source srcset="/-/media/enbd/images/Careers/2023/May/foreign-executive_icon.png" media="(min-width: 768px)">
+                                            <img src="" alt="Futurist" data-src="/-/media/enbd/images/Careers/2023/May/foreign-executive_icon.png?la=en&amp;h=500&amp;w=500&amp;hash=D77B557505340E4B9F7C5F7B3B2E0157" class="lazy-image" width="500" height="500">
+                                        </picture>
+                                </div>
+                                <div class="card__body pb-4">
+                                        <h4 class="card__title"><strong>9M+</strong></h4>
+                                    <div class="card__text d-block fs-14">
+                                        <p>Customers</p>
+                                    </div>
+                                </div>
+                                <!-- /.card-footer -->
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-2 mb-3">
+
+                            <div class="card card--image card--image-icon card--no-border pt-4 text-left h-100">
+                                <div class="card__icon px-4">
+                                        <picture class="card__picture">
+                                            <source srcset="/-/media/enbd/images/Careers/2023/May/women_icon_new.png" media="(min-width: 768px)">
+                                            <img src="" alt="Futurist" data-src="/-/media/enbd/images/Careers/2023/May/women_icon_new.png?la=en&amp;h=500&amp;w=500&amp;hash=399E1C2A14CBEB1EC506631B66A5C1F7" class="lazy-image" width="500" height="500">
+                                        </picture>
+                                </div>
+                                <div class="card__body pb-4">
+                                        <h4 class="card__title"><strong>40%</strong></h4>
+                                    <div class="card__text d-block fs-14">
+                                        <p>Females</p>
+                                    </div>
+                                </div>
+                                <!-- /.card-footer -->
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-2 mb-3">
+
+                            <div class="card card--image card--image-icon card--no-border pt-4 text-left h-100">
+                                <div class="card__icon px-4">
+                                        <picture class="card__picture">
+                                            <source srcset="/-/media/enbd/images/Careers/2025/nationality.png" media="(min-width: 768px)">
+                                            <img src="" alt="nationalities" data-src="/-/media/enbd/images/Careers/2025/nationality.png?la=en&amp;h=120&amp;w=120&amp;hash=10A49E55AF430EE077C28A8E7B18120B" class="lazy-image" width="120" height="120">
+                                        </picture>
+                                </div>
+                                <div class="card__body pb-4">
+                                        <h4 class="card__title"><strong>100+</strong></h4>
+                                    <div class="card__text d-block fs-14">
+                                        <p>Nationalities</p>
+                                    </div>
+                                </div>
+                                <!-- /.card-footer -->
+                            </div>
+                        </div>
+                <!-- /.col -->
+            </div>
+</div></section>
+
+<section class="card-list color-switch pb-3 text--top text--top-center" style=""><div class="container">            <!-- Common Heading tags -->
+                <div class="pb-5">
+                                            <h2 class="fw-light fs-lg-32 fs-24 text-center">
+                            Why join us?
+                        </h2>
+                                            <div class="fw-light fs-18 text-center">
+                            <p>There&rsquo;s never been a better time to join Emirates NBD. We&rsquo;re one of the region&rsquo;s most recognisable brands. We&rsquo;re banking innovation leaders. We&rsquo;re growing across both the UAE and our global offices. We offer a huge range of professional development opportunities to accelerate your career. It also goes without saying that we provide extremely competitive rewards, benefits and perks too, like our flexible work policy so you can work from home whenever it suits.</p>
+
+                        </div>
+                </div>
+            <!--/ Common Heading tags -->
+            <div class="row row-md">
+                            <div class="col-md-6 col-lg-6 mb-4">
+                                <div class="ccbenefits ccbenefits--large hover-up h-100">
+                                    <picture class="picture-overlay">
+                                        <img src="" alt="1" data-src="/-/media/enbd/images/Careers/2025/new/build-your-career-homepage.jpg?la=en&amp;h=998&amp;w=700&amp;hash=DBC0D5B8C791C3E83920A807C484B74B" class="lazy-image" width="700" height="998">
+                                    </picture>
+                                    <div class="ccbenefits__body">
+                                                                                <h4 class="ccbenefits__title mb-2">
+                                            What we offer
+                                        </h4>
+                                        
+                                        <a href="/en/careers/why-join-us" class="link-arrow smooth-scroll" data-ctatext="learn about why people join us" data-ctaregion="Card List - what we offer" data-ctacategory="Interaction" target="_blank" title="What we offer" data-ctalink="https://www.emiratesnbd.com/en/careers/why-join-us" data-event="ctaClick" data-ctatype="link" rel="noopener noreferrer" data-ctaposition="Card List" >Learn about why people join us</a>
+
+                                    </div>
+                                    <!-- /.body -->
+                                </div>
+                                <!-- /.ccbenefits -->
+                            </div>
+                        <!-- /.col -->
+                            <div class="col-md-6 col-lg-6 mb-4">
+                                <div class="ccbenefits ccbenefits--large hover-up h-100">
+                                    <picture class="picture-overlay">
+                                        <img src="" alt="2" data-src="/-/media/enbd/images/Careers/2025/new/why_join_us_homepage_lat.jpg?la=en&amp;h=998&amp;w=700&amp;hash=35EA8BED1C42FD22F4A3FF13055EE29F" class="lazy-image" width="700" height="998">
+                                    </picture>
+                                    <div class="ccbenefits__body">
+                                                                                <h4 class="ccbenefits__title mb-2">
+                                            Build your career 
+                                        </h4>
+                                        
+                                        <a href="/en/careers/your-professional-development-opportunities" class="link-arrow smooth-scroll" data-ctatext="explore our professional development opportunities" data-ctaregion="Card List - build your career" data-ctacategory="Interaction" target="_blank" title="Build your career " data-ctalink="https://www.emiratesnbd.com/en/careers/your-professional-development-opportunities" data-event="ctaClick" data-ctatype="link" rel="noopener noreferrer" data-ctaposition="Card List" >Explore our professional development opportunities</a>
+
+                                    </div>
+                                    <!-- /.body -->
+                                </div>
+                                <!-- /.ccbenefits -->
+                            </div>
+                        <!-- /.col -->
+            </div>
+            <!-- /.row -->
+</div></section>
+
+
+<section class="section video-component " style=""><div class="container">        <div class="video-component__image">
+            <img src="" alt="Video Component  popup" data-src="/-/media/enbd/images/Careers/2025/new/careers_more_than_bankers_video_banner.jpg?la=en&amp;h=321&amp;w=627&amp;hash=29DD8721D6373BEC0F533D4784AC84A7" class="lazy-image" width="627" height="321">
+        </div>
+        <a href="javascript:void(0)" data-toggle="modal" data-target="#video-component-modal" class="stretched-link"></a>
+    <div class="video-component__content">
+            <h2 class="video-component__title">
+                We’re more than bankers
+            </h2>
+                    <div class="video-component__desc">
+                <p>Emirates NBD is a place where your talent and skills can take you in unexpected directions. So whether you’re looking for a traditional banking career or want to explore something totally new, we’ll help you get there.
+
+</p>
+            </div>
+                    <a href="javascript:void(0)" class="play-button">
+<img src="" alt="Video Component  popup" data-src="/-/media/enbd/videos/play.png?la=en&amp;hash=47AAA8020A186D871C2AB52425C941FD" class="lazy-image">            </a>
+    </div>
+</div></section><!-- Modal -->
+    <div class="modal fade video-component-modal" id="video-component-modal" tabindex="-1" role="dialog" aria-labelledby="videoFwModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">&nbsp;</h5>
+                    <button type="button" class="close btn" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body p-0">
+                    <iframe height="500"
+                            src="https://youtu.be/PIKM2LD0few?si=AN-X0sRfQQFRKWjn" allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+<section class="ccbenefits--right-col banking-card promocard-with-highlights--right-aligned color-switch fluid--fw-container alt-v text--middle pb-0 pt-lg-0" style=""><div class="container">        <div class="row row-md">
+            <div class="col-md-12">
+
+                <div class="ccbenefits ccbenefits--large">
+                        <picture class="picture-overlay">
+
+                            <source srcset="/-/media/enbd/images/Careers/2023/emiratization-program/join_enbd_top_banner_ar.jpg" media="(min-width: 576px)">
+                            <source srcset="">
+                            <img src="" alt="Promo  Accelerated career paths for UAE Nationals" data-src="/-/media/enbd/images/Careers/2023/emiratization-program/join_enbd_top_banner_ar.jpg?la=en&amp;h=1250&amp;w=2500&amp;hash=3D867B5C71DC8195EFC9A4EDEDC6A51B" class="lazy-image" width="2500" height="1250">
+                        </picture>
+
+                    <div class="ccbenefits__body">
+
+                                                    <h4 class="ccbenefits__title ccbenefits__title--40">Accelerated career paths for UAE Nationals</h4>
+                                                    <div class="fw-normal"><p>If you’re an Emirati looking to either start your career or take your next step, we offer unparalleled opportunities. From our outstanding graduate programs, to accelerated promotional opportunities, and prioritised access to professional development and career mobility programmes, Emirates NBD is the best place to build your career.</p>
+</div>
+
+
+
+                            <div class="ccbenefits__body-btns">
+
+<a href="/en/careers/join-emirates-nbd" class="btn btn-primary text-white link-arrow mb-3 mr-3" data-ctatext="read about what we offer emiratis" data-ctaregion="Benefits Banner click" data-ctacategory="Interaction" data-ctalink="https://www.emiratesnbd.com/en/careers/join-emirates-nbd" data-event="ctaClick" data-ctatype="button" data-ctaposition="" >Read about what we offer Emiratis</a>                            </div>
+
+                    </div>
+                    <!-- /.body -->
+                </div>
+                <!-- /.ccbenefits -->
+
+            </div>
+            <!-- /.col -->
+        </div>
+</div></section>
+<section class="card-list color-switch pb-0" style=""><div class="container">            <!-- Common Heading tags -->
+            <!--/ Common Heading tags -->
+            <div class="row row-md">
+                            <div class="col-md-6 col-lg-4 mb-4">
+                                <div class="ccbenefits ccbenefits--large hover-up h-100">
+                                    <picture class="picture-overlay">
+                                        <img src="" alt="1" data-src="/-/media/enbd/images/Careers/2025/new/tech_professionals.jpg?la=en&amp;h=1000&amp;w=667&amp;hash=85B7F09BCC4DF434B60874576281A592" class="lazy-image" width="667" height="1000">
+                                    </picture>
+                                    <div class="ccbenefits__body">
+                                                                                <h4 class="ccbenefits__title mb-2">
+                                            Tech, digital and data professionals
+                                        </h4>
+                                        
+                                        <a href="javascript:ENBD.OpenDialog(&#39;tech&#39;)" class="link-arrow smooth-scroll" data-ctatext="know more" data-ctaregion="Card List - tech digital and data professionals" data-ctacategory="Interaction" title="Tech digital and data professionals" data-ctalink="javascript:ENBD.OpenDialog('tech')" data-event="ctaClick" data-ctatype="link" data-ctaposition="Card List" >Know more</a>
+
+                                    </div>
+                                    <!-- /.body -->
+                                </div>
+                                <!-- /.ccbenefits -->
+                            </div>
+                        <!-- /.col -->
+                            <div class="col-md-6 col-lg-4 mb-4">
+                                <div class="ccbenefits ccbenefits--large hover-up h-100">
+                                    <picture class="picture-overlay">
+                                        <img src="" alt="2" data-src="/-/media/enbd/images/Careers/2025/new/opportunities_for_females2.jpg?la=en&amp;h=1000&amp;w=667&amp;hash=46EE7C10D7876D034E6883CAD5AA3ECB" class="lazy-image" width="667" height="1000">
+                                    </picture>
+                                    <div class="ccbenefits__body">
+                                                                                <h4 class="ccbenefits__title mb-2">
+                                            Opportunities for females
+                                        </h4>
+                                        
+                                        <a href="javascript:ENBD.OpenDialog(&#39;opportunities&#39;)" class="link-arrow smooth-scroll" data-ctatext="know more" data-ctaregion="Card List - opportunities for females" data-ctacategory="Interaction" title="Opportunities for females" data-ctalink="javascript:ENBD.OpenDialog('opportunities')" data-event="ctaClick" data-ctatype="link" data-ctaposition="Card List" >Know more</a>
+
+                                    </div>
+                                    <!-- /.body -->
+                                </div>
+                                <!-- /.ccbenefits -->
+                            </div>
+                        <!-- /.col -->
+                            <div class="col-md-6 col-lg-4 mb-4">
+                                <div class="ccbenefits ccbenefits--large hover-up h-100">
+                                    <picture class="picture-overlay">
+                                        <img src="" alt="3" data-src="/-/media/enbd/images/Careers/2025/new/global_reach.jpg?la=en&amp;h=1000&amp;w=667&amp;hash=D8A52EAD1C4460F40CCD269661297AA0" class="lazy-image" width="667" height="1000">
+                                    </picture>
+                                    <div class="ccbenefits__body">
+                                                                                <h4 class="ccbenefits__title mb-2">
+                                            Our global reach
+                                        </h4>
+                                        
+                                        <a href="javascript:ENBD.OpenDialog(&#39;global&#39;)" class="link-arrow smooth-scroll" data-ctatext="know more" data-ctaregion="Card List - our global reach" data-ctacategory="Interaction" title="Our global reach" data-ctalink="javascript:ENBD.OpenDialog('global')" data-event="ctaClick" data-ctatype="link" data-ctaposition="Card List" >Know more</a>
+
+                                    </div>
+                                    <!-- /.body -->
+                                </div>
+                                <!-- /.ccbenefits -->
+                            </div>
+                        <!-- /.col -->
+            </div>
+            <!-- /.row -->
+</div></section>
+<section class="card-list color-switch py-0" style=""><div class="container">            <!-- Common Heading tags -->
+            <!--/ Common Heading tags -->
+            <div class="row row-md">
+                            <div class="col-md-6 col-lg-6 mb-4">
+                                <div class="ccbenefits ccbenefits--large hover-up h-100">
+                                    <picture class="picture-overlay">
+                                        <img src="" alt="4" data-src="/-/media/enbd/images/Careers/2025/new/careers_benefits.jpg?la=en&amp;h=1000&amp;w=1000&amp;hash=234E906C90F7B5E105DFB56C2CD74067" class="lazy-image" width="1000" height="1000">
+                                    </picture>
+                                    <div class="ccbenefits__body">
+                                                                                <h4 class="ccbenefits__title mb-2">
+                                            Rewards, benefits and perks
+                                        </h4>
+                                        
+                                        <a href="javascript:ENBD.OpenDialog(&#39;rewards&#39;)" class="link-arrow smooth-scroll" data-ctatext="know more" data-ctaregion="Card List - rewards benefits and perks" data-ctacategory="Interaction" title="Rewards benefits and perks" data-ctalink="javascript:ENBD.OpenDialog('rewards')" data-event="ctaClick" data-ctatype="link" data-ctaposition="Card List" >Know more</a>
+
+                                    </div>
+                                    <!-- /.body -->
+                                </div>
+                                <!-- /.ccbenefits -->
+                            </div>
+                        <!-- /.col -->
+                            <div class="col-md-6 col-lg-6 mb-4">
+                                <div class="ccbenefits ccbenefits--large hover-up h-100">
+                                    <picture class="picture-overlay">
+                                        <img src="" alt="5" data-src="/-/media/enbd/images/Careers/2025/new/careers_code_values.jpg?la=en&amp;h=1000&amp;w=1000&amp;hash=DF2499ED3898E78780D327FC17A689D1" class="lazy-image" width="1000" height="1000">
+                                    </picture>
+                                    <div class="ccbenefits__body">
+                                                                                <h4 class="ccbenefits__title mb-2">
+                                            Our CODE values
+                                        </h4>
+                                        
+                                        <a href="javascript:ENBD.OpenDialog(&#39;code&#39;)" class="link-arrow smooth-scroll" data-ctatext="know more" data-ctaregion="Card List - our code values" data-ctacategory="Interaction" title="Our CODE values" data-ctalink="javascript:ENBD.OpenDialog('code')" data-event="ctaClick" data-ctatype="link" data-ctaposition="Card List" >Know more</a>
+
+                                    </div>
+                                    <!-- /.body -->
+                                </div>
+                                <!-- /.ccbenefits -->
+                            </div>
+                        <!-- /.col -->
+            </div>
+            <!-- /.row -->
+</div></section>
+
+
+
+<section class="promo-banner " style=""><div class="section--overlay section--center-content section__inner section__overlay-text text-center" style="background-image: url(/-/media/enbd/images/Careers/2025/quotes_generic_image_new.jpg)">        <h3 class="section__title">
+            Join us to help
+        </h3>
+        <div class="fw-light"><p class="fs-lg-40 mt-2 mb-3">Shape the future of banking, together.</p></div>
+            <div class="d-inline-flex">
+
+                        <p>
+<a href="https://fa-evlo-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1" class="btn btn-primary text-white link-arrow mb-3 mr-3" target="_blank" title="View all vacancies" rel="noopener noreferrer" >View all vacancies</a>                        </p>
+            </div>
+</div></section>
+
+<section class="modal fade " id="tech" style="" tabindex="-1">    <div class="modal-dialog modal-md modal-dialog-centered mt-5">
+        <div class="modal-content">
+                <div class="modal-header modal-header--notitle">
+                    <button type="button" class="close fs-18" data-dismiss="modal" aria-label="Close">
+                        <i class="icomoon icon-close-thin"></i>
+                    </button>
+                </div>
+            <div class="modal-body p-lg-45 p-md-4">
+                <div class="container">
+<h4><strong>Tech, digital and data professionals </strong></h4>
+<p>We&rsquo;re always searching for the best tech, digital and data experts to join our ranks, especially across our IT, Digital Office and Agile teams. You&rsquo;ll apply world-class technology, work on our biggest and most innovative projects, and we&rsquo;ll invest heavily in your career too.
+</p>
+<p><a href="/en/careers/opportunities-for-tech-digital-and-data-professionals" target="_blank"><strong class="link-arrow">Learn about the benefits we offer technical experts </strong></a></p>
+</div>
+
+            </div>
+            <!-- /.modal-body -->
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</section>
+
+
+<section class="modal fade " id="opportunities" style="" tabindex="-1">    <div class="modal-dialog modal-md modal-dialog-centered mt-5">
+        <div class="modal-content">
+                <div class="modal-header modal-header--notitle">
+                    <button type="button" class="close fs-18" data-dismiss="modal" aria-label="Close">
+                        <i class="icomoon icon-close-thin"></i>
+                    </button>
+                </div>
+            <div class="modal-body p-lg-45 p-md-4">
+                <div class="container">
+<h4><strong>Opportunities for females
+</strong></h4>
+<p>Diversity and inclusion is a big strategic focus for us and one of our major ambitions is to see more females join our ranks, especially at management levels. That&rsquo;s why we&rsquo;ve launched initiatives like our Career Comeback Programme to attract more fantastic women to our company, and there&rsquo;s plenty more on offer too.</p>
+<p><a href="/en/careers/life-at-emirates-nbd/culture-engagement-and-wellbeing" target="_blank"><strong class="link-arrow">Learn about our diversity and inclusion programmes including for women </strong></a></p>
+</div>
+
+            </div>
+            <!-- /.modal-body -->
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</section>
+
+
+<section class="modal fade " id="global" style="" tabindex="-1">    <div class="modal-dialog modal-md modal-dialog-centered mt-5">
+        <div class="modal-content">
+                <div class="modal-header modal-header--notitle">
+                    <button type="button" class="close fs-18" data-dismiss="modal" aria-label="Close">
+                        <i class="icomoon icon-close-thin"></i>
+                    </button>
+                </div>
+            <div class="modal-body p-lg-45 p-md-4">
+                <div class="container">
+<h4><strong>Our global reach
+</strong></h4>
+<p>Not only does international expansion sit at the core of our growth strategy but we also encourage every employee to explore opportunities across our different global offices too. Our highest growth markets are Saudi Arabia, Egypt and India, and we&rsquo;ve got a big team over at DenizBank based out of Türkiye too.
+</p>
+<p><a href="/en/careers/our-global-reach" data-ctatext="check out where we operate" data-ctalink="/en/careers/our-global-reach" target="_blank" data-ctaregion="Benefits Banner click" rel="noopener noreferrer" data-ctacategory="Interaction" data-event="ctaClick" class="link-arrow" data-ctatype="button">Check out where we operate</a></p>
+</div>
+
+            </div>
+            <!-- /.modal-body -->
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</section>
+
+
+<section class="modal fade " id="rewards" style="" tabindex="-1">    <div class="modal-dialog modal-md modal-dialog-centered mt-5">
+        <div class="modal-content">
+                <div class="modal-header modal-header--notitle">
+                    <button type="button" class="close fs-18" data-dismiss="modal" aria-label="Close">
+                        <i class="icomoon icon-close-thin"></i>
+                    </button>
+                </div>
+            <div class="modal-body p-lg-45 p-md-4">
+                <div class="container">
+<h4><strong>Rewards, benefits and perks
+</strong></h4>
+<p>Aside from our extremely competitive rewards and benefits, we offer market leading perks. We&rsquo;ve expanded our maternity and paternity leave options, while adding parental and adoption leave too. We&rsquo;re also one of the only large UAE companies where you can work from home whenever it suits you, thanks to our flexible-work policy.</p>
+<p><a href="/en/careers/rewards-benefits-and-perks" target="_blank"><strong class="link-arrow">Read about our benefits and perks </strong></a></p>
+</div>
+
+            </div>
+            <!-- /.modal-body -->
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</section>
+
+
+<section class="modal fade " id="code" style="" tabindex="-1">    <div class="modal-dialog modal-md modal-dialog-centered mt-5">
+        <div class="modal-content">
+                <div class="modal-header modal-header--notitle">
+                    <button type="button" class="close fs-18" data-dismiss="modal" aria-label="Close">
+                        <i class="icomoon icon-close-thin"></i>
+                    </button>
+                </div>
+            <div class="modal-body p-lg-45 p-md-4">
+                <div class="container">
+<h4><strong>Our CODE values
+</strong></h4>
+<p>Our &ldquo;CODE&rdquo; values stand for Collaboration, Ownership, Drive and Enterprising. Our values aren&rsquo;t just posters on the wall either; they&rsquo;re the compass that guides our actions and decisions.</p>
+<p><a rel="noopener noreferrer" href="/about-emirates-nbd/our-vision-purpose-values" target="_blank"><strong class="link-arrow">Learn more about CODE</strong></a></p>
+</div>
+
+            </div>
+            <!-- /.modal-body -->
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</section>
+
+
+</div>
+<!-- main -->
+<!-- Footer  -->
+
+<section class="web-experience " style=""><div class="container">    <p class="web-experience__title fs-md-32 fs-24 fw-bold lh-11 msg">
+        Thank you for your feedback!
+    </p>
+    <div class="row align-items-center">
+        <div class="col-lg-5 col-md-4 text-center text-md-left mb-25 mb-mb-0">
+            <div class="web-experience__msg" id="cta-category-ratingcard" data-ctacategory="how was your experience">
+                <h4 class="web-experience__subtitle">
+                    How was your experience?
+                </h4>
+                <p class="web-experience__title fs-md-32 fs-24 fw-bold lh-11">
+                     We'd love to know.
+                </p>
+            </div>
+        </div>
+        <!-- /.col -->
+        <div class="col-lg-7 col-md-8 text-center text-md-right web-experience__msg">
+            <div class="web-vote">
+                <span class="web-vote__label">
+                    <span class="d-inline-block">1 = Poor</span>,
+                    <span class="d-inline-block">10 = Excellent</span>
+                </span>
+                <div class="web-vote__input">
+                        <input type="radio" name="web-rating" value="10" id="web_rating_10">
+                        <label for="web_rating_10"><span>10</span></label>
+                        <input type="radio" name="web-rating" value="9" id="web_rating_9">
+                        <label for="web_rating_9"><span>9</span></label>
+                        <input type="radio" name="web-rating" value="8" id="web_rating_8">
+                        <label for="web_rating_8"><span>8</span></label>
+                        <input type="radio" name="web-rating" value="7" id="web_rating_7">
+                        <label for="web_rating_7"><span>7</span></label>
+                        <input type="radio" name="web-rating" value="6" id="web_rating_6">
+                        <label for="web_rating_6"><span>6</span></label>
+                        <input type="radio" name="web-rating" value="5" id="web_rating_5">
+                        <label for="web_rating_5"><span>5</span></label>
+                        <input type="radio" name="web-rating" value="4" id="web_rating_4">
+                        <label for="web_rating_4"><span>4</span></label>
+                        <input type="radio" name="web-rating" value="3" id="web_rating_3">
+                        <label for="web_rating_3"><span>3</span></label>
+                        <input type="radio" name="web-rating" value="2" id="web_rating_2">
+                        <label for="web_rating_2"><span>2</span></label>
+                        <input type="radio" name="web-rating" value="1" id="web_rating_1">
+                        <label for="web_rating_1"><span>1</span></label>
+
+                </div>
+                <!-- /.web-experience-rating -->
+            </div>
+            <!-- /.web-experience-rating-wrapper -->
+        </div>
+        <!-- /.col -->
+    </div>
+    <!-- /.row -->
+</div></section>
+
+
+
+        <div class="footer-top py-45 overflow-hidden">
+            <div class="container">
+                <div class="footer-top__row">
+                    <div class="footer-top__col">
+                        <div class="d-flex justify-content-center flex-column flex-lg-row justify-content-md-start mb-md-0 mb-4">
+                                <span class="mr-3 mb-2 mb-lg-0">Website Settings</span>
+                            <div class="lang-menu">
+
+                                    <a title="Arabic  " href="/ar/careers" class="text-white" aria-label="language"
+                                       data-ctaCategory="Navigation" data-event="ctaClick" data-ctatext="Choose Language"
+                                       data-ctatype="link" data-ctaregion="Footer Nav" data-ctacategory="Navigation">
+                                        <img src="/-/media/enbd/images/header/icons/flag-uae.svg?la=en&amp;hash=881ABC69F3DE1B8D43082716126E15C4" alt="Emirates NBD" />
+                                        <span class="lang-menu-text mx-1">Arabic : العربية</span>
+                                        <i class="icomoon icon-angle-down fs-12"></i>
+                                    </a>
+                            </div>
+                            <!-- /.topbar-lang -->
+                        </div>
+                    </div>
+                    <!-- /.col -->
+                    <div class="footer-top__col">
+                        <div class="d-flex justify-content-center flex-column flex-lg-row justify-content-md-end">
+                                    <span class="mr-2 mb-2 mb-lg-0">
+                                        Emirates NBD on Social
+                                    </span>
+                                <div class="social-links">
+<a href="https://www.facebook.com/EmiratesNBD/" aria-label="Facebook" data-ctatext="icon-facebook" data-ctaregion="Footer Nav" target="_blank" title="Facebook" data-ctaCategory="Navigation" data-ctalink="https://www.facebook.com/EmiratesNBD/" data-event="ctaClick" data-ctatype="link" rel="noopener noreferrer" >                                                <i class="icomoon icon-facebook"></i>
+                                            <span class="d-none">social icons</span>
+</a><a href="https://twitter.com/EmiratesNBD_AE" aria-label="Twitter" data-ctatext="" data-ctaregion="Footer Nav" target="_blank" title="Twitter" data-ctaCategory="Navigation" data-ctalink="https://twitter.com/EmiratesNBD_AE" data-event="ctaClick" data-ctatype="link" rel="noopener noreferrer" >                                                <picture>
+                                                    <img src="" alt="Twitter" data-src="/-/media/enbd/icons/white-icons/x_white-logo.png?la=en&amp;h=300&amp;w=300&amp;hash=AA5CA739DF4B2ABF4E4BEDB1C714D92A" class="lazy-image" width="300" height="300">
+                                                </picture>
+                                            <span class="d-none">social icons</span>
+</a><a href="https://www.youtube.com/user/EmiratesNBDChannel" aria-label="Youtube" data-ctatext="icon-youtube" data-ctaregion="Footer Nav" target="_blank" title="Youtube" data-ctaCategory="Navigation" data-ctalink="https://www.youtube.com/user/EmiratesNBDChannel" data-event="ctaClick" data-ctatype="link" rel="noopener noreferrer" >                                                <i class="icomoon icon-youtube"></i>
+                                            <span class="d-none">social icons</span>
+</a><a href="https://www.instagram.com/emiratesnbd_ae/" aria-label="Instagram" data-ctatext="icon-instagram" data-ctaregion="Footer Nav" target="_blank" title="Instagram" data-ctaCategory="Navigation" data-ctalink="https://www.instagram.com/emiratesnbd_ae/" data-event="ctaClick" data-ctatype="link" rel="noopener noreferrer" >                                                <i class="icomoon icon-instagram"></i>
+                                            <span class="d-none">social icons</span>
+</a><a href="https://www.linkedin.com/company/emirates-nbd" aria-label="LinkedIn" data-ctatext="" data-ctaregion="Footer Nav" target="_blank" title="LinkedIn" data-ctaCategory="Navigation" data-ctalink="https://www.linkedin.com/company/emirates-nbd" data-event="ctaClick" data-ctatype="link" rel="noopener noreferrer" >                                                <picture>
+                                                    <img src="" alt="Emirates NBD" data-src="/-/media/enbd/images/footer/icons/linkedin.svg?la=en&amp;hash=0316362E3ECD1582B0AB9C8BB6924032" class="lazy-image">
+                                                </picture>
+                                            <span class="d-none">social icons</span>
+</a>                                </div>
+                            <!-- /.social-links -->
+                        </div>
+
+                    </div>
+                    <!-- /.col -->
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /.footer-top -->
+        <!-- /.footer-main -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="footer-bottom__row">
+                    <div class="footer-bottom__col">
+                        <nav class="mb-2 footer-bottom-links">
+                        </nav>
+                        <p class="mb-0">
+Copyright &copy; 2026
+<div><span>Emirates NBD Bank (P.J.S.C.) is licensed by&nbsp;the&nbsp;Central Bank of the UAE, Baniyas Road, Deira, P.O. Box: 777, Dubai, UAE</span></div>
+                        </p>
+                    </div>
+                    <!-- /.col -->
+                    <div class="footer-bottom__col">
+<img src="" alt="Careers Footer Settings" data-src="/-/media/enbd/images/header/icons/footer_logo.png?la=en&amp;h=375&amp;w=570&amp;hash=ABA69927ECCEA1C971C271499FED6AC0" class="lazy-image" width="570" height="375">                    </div>
+                    <!-- /.col -->
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /.footer-bottom -->
+        <!-- /.site-footer -->
+
+
+<!-- Footer  -->
+
+
+    <script src="/bundles/enbd/scripts.js?v=1zV6zbthjqOSP4N1z_GgbaUvokN4FqsMRi20pjJ0KGg1"></script>
+
+            <script src="https://www.google.com/recaptcha/api.js?render=explicit" data-cmp-ab="2"></script>
+        <script>
+        ENBD.CopyURLClipBoardText = 'URL Copied';
+        ENBD.UTMHostnames = '';
+        ENBD.UTMPaths = '';
+    </script>
+                <script>
+           ENBD.AdobeEvents = [];
+        </script>
+        <!--chatbot new-->
+    <!--Widget Settings-->
+<style>
+header.site-header .menu-online-banking .dropdown-menu {
+    max-height:unset;
+}
+.atm-branches__panel .atm-branches__social picture img{
+    width:auto;
+}
+.ccbenefits .ccbenefits__grid .ccbenefits__desc p.fw-bold{
+    font-weight:400 !important;
+}
+.campaign-banner--default.campaign-form-bg-white .btn-primary>*{
+    color:white;
+}
+</style>
+
+<script>
+var ENBDUTM = {
+    TrackAnalyticsQuery: function() {
+        var params = [];
+        var paramList = ['utm_','etm_','gcli','fbcl'];
+        var hasParam = false;
+        window.location.search.replace('?','').split('&').forEach(function(param) {
+            if (paramList.indexOf(param.substr(0,4)) !== -1) {
+                params.push(param);
+                hasParam = true;
+            }
+        });
+        
+        if (hasParam) ENBD.SetCookie('utm_query', params.join('&'), 1);
+        else if (document.referrer) {
+            var regex = /^.*(((facebook)|(google)|(twitter)|(linkedin)).com).*$/
+            if (regex.test(document.referrer)) {
+                var a = document.createElement('a');
+                a.href= document.referrer;
+                var parts = a.hostname.split('.');
+                
+                ENBD.SetCookie('utm_query', 'utm_source=Organic-' + parts[parts.length-2], 1);
+            }
+        }
+    },
+    TriggerAnalyticsQueryEvent: function() {
+        var legacyQuery = ENBD.GetCookie('utm_query');
+        if (legacyQuery) {
+            var paths = ['/campaigns/','/survey/','self-service'];
+            var isValidPath = function(pathname) {
+                var matchFound = false;
+                paths.forEach(function(path) {
+                    if (pathname.search(path) >= 0) {
+                        matchFound = true;
+                    }
+                });
+
+                return matchFound;
+            }
+            var hostnames = [
+                'application.emiratesnbd.com','application.emiratesnbdsecurities.com'
+            ];
+            var isValidHost = function(hostname) {
+                return hostnames.indexOf(hostname) !== -1;
+            }
+
+            $('a').each(function () {
+                if ((isValidHost(this.hostname) || isValidPath(this.pathname)) && $(this).attr('data-query') != 'true') {
+                    var tempLink = $(this).attr('href');
+                    if (tempLink.indexOf('.pdf') == -1 && tempLink.indexOf('.jpg') == -1 && tempLink.indexOf('.png') == -1 && tempLink.substr(0, 1) != '#') {
+                        tempLink = tempLink + (tempLink.indexOf('?') > -1 ? '&' : '?') + legacyQuery;
+                        $(this).attr('href', tempLink);
+                        $(this).attr('data-query', true);
+                    }
+                }
+            });
+        }
+    }
+}
+
+ENBDUTM.TrackAnalyticsQuery();
+ENBDUTM.TriggerAnalyticsQueryEvent();
+setTimeout(function() {
+    ENBDUTM.TriggerAnalyticsQueryEvent();
+}, 5000);
+</script>
+<script>
+setTimeout(() => {
+   var lzyajaxload = new LazyLoad({
+        elements_selector: ".lazy-component",
+        callback_enter: component_load,
+    });
+    //Ajax render
+    function component_load(element) {
+        //check lazy load alreadey added
+        var isLazyLoaded = $(element).data("lazyloaded");
+        var orignalparameters = $(element).data("parameters");
+        var parameters = orignalparameters;
+        if (parameters && parameters.indexOf("Lazy Load") <= -1) {
+            parameters = parameters + "&Lazy Load=1";
+        }
+        else if (!parameters) {
+            parameters = "Lazy Load=1";
+        }
+        if (isLazyLoaded == undefined || isLazyLoaded == "") {
+            $.ajax({
+                type: 'GET',
+                url: '/api/sitecore/ajaxrender/rendercomponent?renderingId=' + $(element).data("renderingid") + "&dataSourceId=" + $(element).data("datasourceid") + "&renderingParameters=" + encodeURIComponent(parameters) + "&language=" + ENBD.CurrentLanguage,
+                success: function (data) {
+                    if (data.success) {
+                        element.innerHTML = data.data;
+                        $(element).data("lazyloaded", true)
+                       
+                        ENBD.ExternalLinkModal();
+                        ENBD.LazyLoad();
+                        //For inside lazy component
+                        var lzyajaxload = new LazyLoad({
+                            elements_selector: ".lazy-component",
+                            callback_enter: component_load,
+                        });
+                    } else {
+                        $(element).html('');
+                    }
+                }
+            });
+        }
+    }
+}, 5000);
+
+window.addEventListener('load', function() {
+	$(".js-search-nevigation-link").off('click').on("click", function (ev) {
+            SearchBar.SearchBarRecommendedLinks($(this).data('ctaname'), $(this).attr('href'), $(this).data('ctacategory'));
+            ENBD.PushDataLayer({
+                'event': 'quick_search',
+                'search_term': $(this).attr('data-title') + '–' + $(this).text().trim()
+            });
+        });
+});
+</script>
+<script>window.addEventListener('load', function() {
+$('a.smooth-scroll').off('click').on('click', function (event) {
+              //event.preventDefault();
+              if (this.hash !== '' && $(this.hash).length) {
+                  var hash = this.hash;
+                  let offSet=0;
+                  offSet=window.innerWidth > 768?arg.desktopOffset:arg.mobileOffset
+                  $('html, body').animate({
+                      scrollTop: $(hash).offset().top - offSet
+                  }, 0);
+              }
+          });
+		  });</script>
+<script>
+setTimeout(function () {
+    $('.navbar-search-toggle').on('click', function(){
+        $('#enbd-topsearch-bar').focus();
+      });
+}, 500);
+</script>
+<style>
+@media (max-width: 1198.98px) {
+    #site_header {
+        width: 100%;
+    }
+}
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+@media screen and (max-width:767px) {
+.ccbenefits .ccbenefits__body .ccbenefits__body-btns a:not(.text-white),.ccbenefits .ccbenefits__body .ccbenefits__body-btns a.btn.btn--link-white{
+    color: #000 !important;
+}
+.ccbenefits .ccbenefits__body .ccbenefits__body-btns a.btn {
+    color: #fff !important;
+}
+}
+.typo--primary.heading-block>.container div>p.jumbotron__title.text-center {
+  color: #000 !important;
+}
+.banking-card .text-gray.fs-12 {
+  color:#fff !important
+}
+.survey__item .icon { display: none; }
+</style>
+<script>
+if($(".survey .survey__form").length > 0){
+     function getQueryParam(param) {
+      const urlParams = new URLSearchParams(window.location.search);
+      return urlParams.get(param);
+    }
+    var customerId = getQueryParam('customerId');
+    if (customerId) {
+      const button = $('.steps.survey-form-success .btn-primary');
+      const currentHref = button.attr('href');
+      const updatedHref = currentHref.replace(/customerId=[^&]*/, `customerId=${customerId}`);
+      button.attr('href', updatedHref);
+    }
+}
+
+ENBD.UpdateCookie('dealBackPageUrl',encodeURIComponent('https://www.emiratesnbd.com/en/deals?webview=webview'));
+</script>
+<style>
+.webview .cube-slider__left ul li:before{
+    height:auto;
+}
+.webview .cube-slider__left ul li span {
+    margin: .25rem;
+}
+.webview .cube-slider__left ul li {
+    align-items: flex-start;
+}
+
+.deal-info .swiper-slide img{
+    position:relative;
+    top:-6px;
+}
+</style>
+<style>
+:root {
+    --font-base: "UAEDirham", "Plus Jakarta Sans", sans-serif, "saudi_riyal";
+    --font-ibm-plex: "Ibm Plex Sans", "UAEDirham", sans-serif, "saudi_riyal";
+    --font-base-ar: "UAEDirham", "Tajawal", sans-serif, "saudi_riyal";
+}
+</style>
+<script>
+
+function replaceWordWithEntity(rootEl, target, htmlEntity, caseInsensitive = false) {
+  const decoder = document.createElement('textarea');
+  decoder.innerHTML = htmlEntity;
+  const symbol = decoder.value;
+  const isArabic = /[\u0600-\u06FF]/.test(target);
+  const escapedTarget = target.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const digitPattern = '[0-9\u0660-\u0669]';
+  const ws = '[\\s\\u00A0\\u200C\\u200D\\u202F\\u2060]*';
+  // For Arabic: match digit + optional whitespace + 'درهم' as a word
+  const pattern = isArabic
+    ? `(${digitPattern}${ws})${escapedTarget}(?=\\s|$)`
+    : `\\b${escapedTarget}\\b${ws}(?=${digitPattern})`;
+  const re = new RegExp(pattern, caseInsensitive ? 'gi' : 'g');
+  const walker = document.createTreeWalker(
+    rootEl,
+    NodeFilter.SHOW_TEXT,
+    null,
+    false
+  );
+  let node;
+  while (node = walker.nextNode()) {
+    node.nodeValue = node.nodeValue.replace(re, (match, p1) => {
+      // For Arabic, preserve the number and whitespace before the symbol
+      return isArabic ? (p1 + symbol) : symbol;
+    });
+  }
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+ setTimeout(() => {
+   replaceWordWithEntity(document.body, 'AED', '&#xEADF;&nbsp;');
+replaceWordWithEntity(document.body, 'Aed', '&#xEADF;&nbsp;');
+replaceWordWithEntity(document.body, 'درهم', '&#xEADF;');
+replaceWordWithEntity(document.body, 'درهمًا', '&#xEADF;');
+ }, 1000);
+});
+
+</script>
+<script>function initiChatbot(){
+$('.chatbot-close-icon').on('click', function (event) {
+event.preventDefault();
+$('#chatbot-widget').removeClass('h-500');
+$('#chat-open').show();
+$(this).addClass('d-none');
+});
+
+    $('#chat-open').on('click', function (event) {
+	event.preventDefault();
+	$('#chatbot-widget').addClass('h-500');
+	$(this).hide();
+	$('.chatbot-close-icon').removeClass('d-none');
+	$('#chat-iframe-container').removeClass('d-none');
+	});
+ } 
+ __cmp("addEventListener",["consentrejected",initiChatbot,false],null);
+  __cmp("addEventListener",["consentapproved",initiChatbot,false],null);
+</script>
+<style>
+.cards-mobile .swiper {   touch-action: pan-y; }
+</style>
+
+<style>
+@media (max-width: 767.5px) {
+  .credit-cardwizard .form-control,
+  .select2-container .select2-selection .select2-selection__rendered,
+  .credit-cardwizard input[type=number]
+  .credit-cardwizard input[type=search]  {
+    font-size: 1rem !important;
+  }
+ 
+  .credit-cardwizard .form-group .select2-container--bootstrap4 .select2-selection {
+    height: auto !important;
+    min-height: 48px;
+  }
+}
+</style>
+<script>
+function waitForCardsContent(callback) {
+    const desktopEl = document.querySelector('.cards-desktop');
+    const mobileEl = document.querySelector('.cards-mobile');
+
+    if (!desktopEl || !mobileEl) return;
+
+    const hasContent = () =>
+      desktopEl.innerHTML.trim() !== '' && mobileEl.innerHTML.trim() !== '';
+
+    // Already rendered by the time this runs
+    if (hasContent()) {
+      callback(desktopEl, mobileEl);
+      return;
+    }
+
+    const observer = new MutationObserver(() => {
+      if (hasContent()) {
+        observer.disconnect();
+        callback(desktopEl, mobileEl);
+      }
+    });
+
+    const config = { childList: true, subtree: true };
+    observer.observe(desktopEl, config);
+    observer.observe(mobileEl, config);
+  }
+
+  // Usage
+  waitForCardsContent((desktop, mobile) => {
+    // Your logic here — both elements have rendered HTML
+    // console.log('Cards are ready', desktop, mobile);
+
+    replaceWordWithEntity(document.body, 'AED', '&#xEADF;&nbsp;');
+    replaceWordWithEntity(document.body, 'Aed', '&#xEADF;&nbsp;');
+    replaceWordWithEntity(document.body, 'درهم', '&#xEADF;');
+    replaceWordWithEntity(document.body, 'درهمًا', '&#xEADF;');
+  });
+  const observer = new MutationObserver(function () {
+    const dropdowns = document.querySelectorAll('.card-dropdown-select');
+
+    if (dropdowns.length > 0) {
+      observer.disconnect(); // stop watching once elements are found
+
+      $('.card-dropdown-select').on('select2:select', function (e) {
+        replaceWordWithEntity(document.body, 'AED', '&#xEADF;&nbsp;');
+        replaceWordWithEntity(document.body, 'Aed', '&#xEADF;&nbsp;');
+        replaceWordWithEntity(document.body, 'درهم', '&#xEADF;');
+        replaceWordWithEntity(document.body, 'درهمًا', '&#xEADF;');
+      });
+    }
+  });
+
+  observer.observe(document.body, { childList: true, subtree: true });
+
+ 
+ </script>
+ <style>
+ @media (width < 767px) {
+    .credit-cardwizard .steps .buttons-parentcards .btn-primary {
+        margin-top: 0;
+    }
+}
+@media (width < 767px) {
+.cards-desktop-wizard_rowholder { display: none !important; }    
+}
+</style>
+<style>
+#lead-form-success #downloadDoc{
+  display: none;
+  }
+</style>
+<style>
+@media (min-width: 1200px) {
+    html[dir=rtl] .topbar-nav__menu>li>a {
+          padding: .75rem 0.2rem;
+    }
+
+    [dir="rtl"] .topbar__item, .topbar__link {
+        padding: 0.4rem;
+    }
+}
+@media (min-width: 1200px) {
+    html {
+        font-size: 90% !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container, .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 1332px;
+    }
+}
+</style>
+<style>
+.fonts-loaded #site_header .navbar {
+    background: #072447;
+}
+</style>
+<script>
+(function(){function removeLinks(){if(!document.querySelector('header.site-header'))return;document.querySelectorAll('link[href="/assets/webxv2/css/fonts.css"],link[href="/assets/webxv2/css/header-footer.css"]').forEach(function(link){link.parentNode.removeChild(link);});}if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',removeLinks);}else{removeLinks();}})();
+</script>
+ 
+    <script src="/assets/enbd/js/components/card-list.js" type="text/javascript"></script>
+<script src="/assets/enbd/js/components/rating-card.js" type="text/javascript"></script>
+    
+<script type="application/ld+json">
+{
+"@context": "schema.org",
+"@graph": [
+{
+"@type": "Organization",
+"@id": "www.emiratesnbd.com/#organization",
+"name": "Emirates NBD",
+"url": "www.emiratesnbd.com",
+"logo": {
+"@type": "ImageObject",
+"url": "www.emiratesnbd.com/-/media/enbd/images/logos/horizontal_logo.svg"
+},
+"sameAs": [
+"www.facebook.com/EmiratesNBD",
+"x.com/EmiratesNBD_AE",
+"www.youtube.com/user/EmiratesNBDChannel",
+"www.instagram.com/emiratesnbd_ae",
+"www.linkedin.com/company/emirates-nbd"
+],
+"address": {
+"@type": "PostalAddress",
+"streetAddress": "Baniyas Road, Deira",
+"addressLocality": "Dubai",
+"postalCode": "777",
+"addressCountry": "AE"
+},
+"description": "Emirates NBD is a leading banking group with a strong regional and international presence, serving millions of customers and offering career opportunities across banking, technology, digital, data and corporate functions.",
+"keywords": "Emirates NBD careers, jobs at Emirates NBD, banking jobs UAE, Emirates NBD vacancies, tech jobs Dubai, digital jobs UAE, data jobs UAE, Emiratisation programmes, UAE National careers, women careers banking, banking careers Dubai, careers in finance UAE, employer brand Emirates NBD"
+},
+{
+"@type": "WebPage",
+"@id": "www.emiratesnbd.com/en/careers#webpage",
+"url": "www.emiratesnbd.com/en/careers",
+"name": "Careers at Emirates NBD | Join Our Team and Grow Your Career",
+"description": "Explore careers at Emirates NBD, view current vacancies, discover professional development opportunities, and learn about tech careers, global opportunities, Emiratisation programmes, rewards and flexible work benefits.",
+"inLanguage": "en",
+"isPartOf": {
+"@id": "www.emiratesnbd.com/#organization"
+},
+"keywords": [
+"Emirates NBD careers",
+"Emirates NBD jobs",
+"banking careers UAE",
+"vacancies Emirates NBD",
+"tech careers Dubai",
+"digital and data jobs UAE",
+"Emiratisation careers",
+"UAE National graduate programmes",
+"women in banking careers",
+"global banking careers"
+],
+"about": [
+{
+"@type": "Thing",
+"name": "Career opportunities"
+},
+{
+"@type": "Thing",
+"name": "Employer branding"
+},
+{
+"@type": "Thing",
+"name": "Professional development"
+},
+{
+"@type": "Thing",
+"name": "Tech, digital and data careers"
+},
+{
+"@type": "Thing",
+"name": "Emiratisation programmes"
+},
+{
+"@type": "Thing",
+"name": "Diversity and inclusion"
+}
+],
+"mainEntity": {
+"@id": "www.emiratesnbd.com/en/careers#careerspage"
+},
+"potentialAction": {
+"@type": "ViewAction",
+"name": "View all vacancies",
+"target": {
+"@type": "EntryPoint",
+"urlTemplate": "fa-evlo-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1",
+"inLanguage": "en",
+"actionPlatform": [
+"schema.org/DesktopWebPlatform",
+"schema.org/MobileWebPlatform"
+]
+}
+}
+},
+{
+"@type": "CollectionPage",
+"@id": "www.emiratesnbd.com/en/careers#careerspage",
+"url": "www.emiratesnbd.com/en/careers",
+"name": "Emirates NBD Careers",
+"description": "A careers hub for prospective candidates to explore job opportunities, employer value proposition, diversity and inclusion programmes, Emiratisation pathways, and global career mobility at Emirates NBD.",
+"inLanguage": "en",
+"mainEntityOfPage": {
+"@id": "www.emiratesnbd.com/en/careers#webpage"
+},
+"publisher": {
+"@id": "www.emiratesnbd.com/#organization"
+},
+"about": {
+"@type": "Service",
+"name": "Career Discovery and Job Application",
+"provider": {
+"@id": "www.emiratesnbd.com/#organization"
+},
+"serviceType": [
+"Career information",
+"Job vacancy discovery",
+"Employer brand content",
+"Professional development information",
+"Graduate and Emiratisation opportunities"
+],
+"areaServed": {
+"@type": "Country",
+"name": "United Arab Emirates"
+}
+},
+"additionalProperty": [
+{
+"@type": "PropertyValue",
+"name": "Employees",
+"value": "30,000"
+},
+{
+"@type": "PropertyValue",
+"name": "Countries",
+"value": "13"
+},
+{
+"@type": "PropertyValue",
+"name": "Customers",
+"value": "9M+"
+},
+{
+"@type": "PropertyValue",
+"name": "Females",
+"value": "40%"
+},
+{
+"@type": "PropertyValue",
+"name": "Nationalities",
+"value": "100+"
+},
+{
+"@type": "PropertyValue",
+"name": "Career Focus Areas",
+"value": "Banking, Technology, Digital, Data, Agile, Global Mobility, Emiratisation"
+},
+{
+"@type": "PropertyValue",
+"name": "Flexible Work",
+"value": "Flexible work policy with work-from-home support"
+}
+],
+"hasPart": [
+{
+"@type": "WebPageElement",
+"name": "Why join us",
+"text": "The page positions Emirates NBD as a recognisable regional brand, a banking innovation leader, and a company offering professional development, competitive rewards, benefits, perks and flexible work."
+},
+{
+"@type": "WebPageElement",
+"name": "Build your career",
+"text": "Candidates are encouraged to explore professional development opportunities designed to accelerate career growth."
+},
+{
+"@type": "WebPageElement",
+"name": "Tech, digital and data professionals",
+"text": "The bank highlights opportunities for technology, digital and data talent across IT, Digital Office and Agile teams, with emphasis on innovative projects and career investment."
+},
+{
+"@type": "WebPageElement",
+"name": "Accelerated career paths for UAE Nationals",
+"text": "The page promotes graduate programmes, accelerated promotions, and prioritised access to development and career mobility opportunities for Emiratis."
+},
+{
+"@type": "WebPageElement",
+"name": "Opportunities for females",
+"text": "The page highlights diversity and inclusion initiatives, including programmes designed to attract more women, especially at management levels."
+},
+{
+"@type": "WebPageElement",
+"name": "Our global reach",
+"text": "The page highlights international growth and mobility opportunities across Emirates NBD offices, with growth markets including Saudi Arabia, Egypt and India, and reference to DenizBank in Türkiye."
+},
+{
+"@type": "WebPageElement",
+"name": "Rewards, benefits and perks",
+"text": "The page highlights competitive rewards, expanded maternity and paternity leave, parental and adoption leave, and flexible work arrangements."
+},
+{
+"@type": "WebPageElement",
+"name": "Our CODE values",
+"text": "CODE stands for Collaboration, Ownership, Drive and Enterprising, and is presented as the values framework guiding actions and decisions."
+}
+]
+},
+{
+"@type": "FAQPage",
+"@id": "www.emiratesnbd.com/en/careers#faq",
+"name": "Careers FAQs",
+"mainEntity": [
+{
+"@type": "Question",
+"name": "Where can I view current vacancies at Emirates NBD?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "Candidates can use the View all vacancies link on the Emirates NBD careers page to access the external career site and browse current openings."
+}
+},
+{
+"@type": "Question",
+"name": "Does Emirates NBD highlight opportunities for tech, digital and data professionals?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "Yes. The careers page specifically highlights opportunities for tech, digital and data professionals across IT, Digital Office and Agile teams."
+}
+},
+{
+"@type": "Question",
+"name": "Does Emirates NBD offer programmes for UAE Nationals?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "Yes. The page promotes accelerated career paths for UAE Nationals, including graduate programmes, promotional opportunities and prioritised access to development and mobility programmes."
+}
+},
+{
+"@type": "Question",
+"name": "Does the careers page mention flexible work benefits?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "Yes. The page states that Emirates NBD offers a flexible work policy and mentions work-from-home flexibility as part of its benefits and perks."
+}
+},
+{
+"@type": "Question",
+"name": "What do Emirates NBD CODE values stand for?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "CODE stands for Collaboration, Ownership, Drive and Enterprising."
+}
+}
+],
+"isPartOf": {
+"@id": "www.emiratesnbd.com/en/careers#webpage"
+}
+}
+]
+}
+</script></body>
+</html>

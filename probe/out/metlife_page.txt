@@ -1,0 +1,1356 @@
+
+    
+    
+    
+    
+        
+    
+                
+    
+    
+                
+                
+            
+                    
+    
+                    
+    
+            
+        
+                
+        
+        
+                
+    
+    <!DOCTYPE html>
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" menu-type="visible" menu-toggleSide="right" menu-panelFrom="right" menu-panelEffect="over">
+    <head><meta name="csp-nonce-style" content="2f070c8c23c376ff8b5addef1b8e46898cac46766bc18949beb62457cecfa7a6"/><meta name="csp-nonce-script" content="2f070c8c23c376ff8b5addef1b8e46898cac46766bc18949beb62457cecfa7a6"/><meta name="avature.wizard.registrars" content="[{&quot;wizardId&quot;:69,&quot;settings&quot;:{&quot;isInternationalizationEnabled&quot;:true,&quot;autoPartialSaveInterval&quot;:null,&quot;shouldShowFieldByField&quot;:false,&quot;isSearchWizard&quot;:true,&quot;uploadedResumeId&quot;:null,&quot;largeFilesUploadParams&quot;:[]},&quot;fields&quot;:[{&quot;fieldId&quot;:&quot;4873&quot;,&quot;registrars&quot;:[{&quot;type&quot;:&quot;Field&quot;,&quot;name&quot;:&quot;KeywordsField&quot;}],&quot;validationConditions&quot;:[{&quot;type&quot;:&quot;MinLengthValidator&quot;,&quot;errorMessage&quot;:&quot;Type at least 2 characters.&quot;,&quot;minLength&quot;:2},{&quot;type&quot;:&quot;BooleanQueryValidator&quot;,&quot;errorMessages&quot;:{&quot;maxLengthExceeded&quot;:&quot;The keyword search query exceeds the maximum allowed length.&quot;,&quot;unbalancedGroupingSymbols&quot;:&quot;Use matching opening and closing parentheses.&quot;,&quot;invalidNotPosition&quot;:&quot;Add AND or OR before NOT, or move NOT to the beginning of the expression.&quot;,&quot;unbalancedQuotes&quot;:&quot;Use matching opening and closing quotation marks.&quot;,&quot;invalidSyntax&quot;:&quot;The keyword search query syntax is invalid.&quot;}}]},{&quot;fieldId&quot;:&quot;12423&quot;,&quot;registrars&quot;:[{&quot;type&quot;:&quot;ValuesDatasource&quot;,&quot;name&quot;:&quot;InstantSearchDatasource&quot;,&quot;settings&quot;:{&quot;listSpecId&quot;:&quot;gcL4pbEH4m0AchyTkX1PAs\/uLd8BHT7OKftluejJyOJr4wgKBymleK8=&quot;,&quot;requestType&quot;:&quot;job&quot;,&quot;searchIndexId&quot;:&quot;cEF6Mr\/hTtwJQ\/ttXAL4ET0ucoXs0rYrUUiMwJPkRGuhbceLotSKng==&quot;,&quot;contextValues&quot;:&quot;bclvIqBP72MYL2sb831s\/sqNkJf3R9ydnyPG3BiPHQl5wpc1OO1vu+U=&quot;,&quot;isSemanticSearch&quot;:false,&quot;portalUrlPath&quot;:&quot;\/en_US\/ml&quot;}},{&quot;type&quot;:&quot;Field&quot;,&quot;name&quot;:&quot;InstantSearchField&quot;,&quot;settings&quot;:{&quot;delayBeforeRequestMs&quot;:1000,&quot;minimumLengthToSearch&quot;:2,&quot;isSemanticSuggestionsEnabled&quot;:false,&quot;translations&quot;:{&quot;semanticResults&quot;:&quot;Suggestions based on your input&quot;,&quot;semanticNoResults&quot;:&quot;No suggestions found&quot;}}}],&quot;validationConditions&quot;:[{&quot;type&quot;:&quot;MinLengthValidator&quot;,&quot;errorMessage&quot;:&quot;Type at least 2 characters.&quot;,&quot;minLength&quot;:2},{&quot;type&quot;:&quot;BooleanQueryValidator&quot;,&quot;errorMessages&quot;:{&quot;maxLengthExceeded&quot;:&quot;The keyword search query exceeds the maximum allowed length.&quot;,&quot;unbalancedGroupingSymbols&quot;:&quot;Use matching opening and closing parentheses.&quot;,&quot;invalidNotPosition&quot;:&quot;Add AND or OR before NOT, or move NOT to the beginning of the expression.&quot;,&quot;unbalancedQuotes&quot;:&quot;Use matching opening and closing quotation marks.&quot;,&quot;invalidSyntax&quot;:&quot;The keyword search query syntax is invalid.&quot;}}]},{&quot;fieldId&quot;:&quot;28675&quot;,&quot;registrars&quot;:[{&quot;type&quot;:&quot;Field&quot;,&quot;name&quot;:&quot;KeywordsField&quot;}],&quot;validationConditions&quot;:[{&quot;type&quot;:&quot;MinLengthValidator&quot;,&quot;errorMessage&quot;:&quot;Type at least 3 characters.&quot;,&quot;minLength&quot;:3},{&quot;type&quot;:&quot;BooleanQueryValidator&quot;,&quot;errorMessages&quot;:{&quot;maxLengthExceeded&quot;:&quot;The keyword search query exceeds the maximum allowed length.&quot;,&quot;unbalancedGroupingSymbols&quot;:&quot;Use matching opening and closing parentheses.&quot;,&quot;invalidNotPosition&quot;:&quot;Add AND or OR before NOT, or move NOT to the beginning of the expression.&quot;,&quot;unbalancedQuotes&quot;:&quot;Use matching opening and closing quotation marks.&quot;,&quot;invalidSyntax&quot;:&quot;The keyword search query syntax is invalid.&quot;}}]},{&quot;fieldId&quot;:&quot;12310&quot;,&quot;registrars&quot;:[{&quot;type&quot;:&quot;ValuesDatasource&quot;,&quot;name&quot;:&quot;DatasetSingleColumnFieldOptionsDatasource&quot;,&quot;settings&quot;:{&quot;datasetFilters&quot;:[{&quot;datasetSpecIdFilter&quot;:&quot;a+1emmG25AKd3sFsuS\/kvLaiu0qcXSIMg\/SrLywgVZXoGe9pkEFVsD6\/&quot;,&quot;operator&quot;:&quot;==&quot;,&quot;schemaFieldNumberFilter&quot;:&quot;PAR44PKot0C5anq58N70uzBtnqXCJx9nhnOHGr1giAoxnNU8tMq94yU=&quot;,&quot;value&quot;:37,&quot;type&quot;:&quot;fixed&quot;}],&quot;optionFormatComponents&quot;:[{&quot;type&quot;:&quot;field&quot;,&quot;order&quot;:0,&quot;fieldNumberOrText&quot;:&quot;vk1G8mJHYAfJTmk4AsdRsBLil86TVAhsB7nWjTINSZtEs8jFf0c27JQ=&quot;}],&quot;schemaFieldIdToUseForIndirectFiltering&quot;:&quot;8MgigCvozdA7DyD5ywtWmsMDbZkXJNzUiXkrMZiK1iqAzjjcs7\/n&quot;,&quot;datasetSchemaSpecId&quot;:&quot;wDhh2pAR54W7T3a3sNRXaxDt0ivQpFM7rh+I1TxvxKB\/ULxEa6HucFH9&quot;,&quot;datasetSchemaFieldId&quot;:&quot;M1rTLqy5a1Xy11ibDB+dAXwG7dx6zjn02enV9baldfk99JsXLHCIfMcAdA==&quot;,&quot;savedOptionsIds&quot;:[],&quot;ignoreFilterIfNoValueIsSelected&quot;:false,&quot;portalUrlPath&quot;:&quot;\/en_US\/ml&quot;}},{&quot;type&quot;:&quot;Field&quot;,&quot;name&quot;:&quot;AutocompleteMultipleSelectField&quot;,&quot;settings&quot;:{&quot;dropdownCssClass&quot;:&quot;bigdrop&quot;,&quot;placeholderText&quot;:&quot;Select an option&quot;,&quot;minimumInputLength&quot;:0,&quot;ajaxDelayMs&quot;:1000,&quot;visibleOptionsLimit&quot;:10,&quot;optionIdsToSearchLimit&quot;:100,&quot;dictionary&quot;:{&quot;optionSelectedNotice&quot;:&quot;{option} selected&quot;,&quot;clearValue&quot;:&quot;Press enter or backspace to remove this option&quot;,&quot;removeOption&quot;:&quot;Press Backspace to remove this value&quot;,&quot;removeOptionButton&quot;:&quot;Remove {option}&quot;,&quot;removeAllOptions&quot;:&quot;Remove all options&quot;,&quot;searchResults&quot;:&quot;new search results&quot;,&quot;navigationAdvice&quot;:&quot;Press the up and down arrow keys to navigate the list&quot;,&quot;totalResults&quot;:&quot;total results&quot;,&quot;totalResult&quot;:&quot;total result&quot;,&quot;optionRemoved&quot;:&quot;{option} removed&quot;,&quot;allOptionsRemoved&quot;:&quot;All options removed&quot;,&quot;enterTextToSearch&quot;:&quot;Enter text to search&quot;,&quot;firstFocusInstruction&quot;:&quot;Type to search, or press Enter to open the list of values.&quot;,&quot;optionsSelectedFocusInstruction&quot;:&quot;{n} options selected: {choices}. Type to search, or press Enter to open the list of values. Press Backspace to remove all options.&quot;,&quot;expandedStateInstruction&quot;:&quot;{n} options available. Use the up and down keys to navigate. Press Enter to select an option, or press Escape to exit the list.&quot;,&quot;optionFocusSelected&quot;:&quot;{option}, selected, {n} of {d}.&quot;,&quot;optionFocusNotSelected&quot;:&quot;{option}, not selected, {n} of {d}.&quot;},&quot;label&quot;:&quot;Country&quot;,&quot;isRequired&quot;:false,&quot;isAccessible&quot;:true,&quot;keepTextInField&quot;:true}}]},{&quot;fieldId&quot;:&quot;4877&quot;,&quot;registrars&quot;:[{&quot;type&quot;:&quot;ValuesDatasource&quot;,&quot;name&quot;:&quot;DatasetSingleColumnFieldOptionsDatasource&quot;,&quot;settings&quot;:{&quot;datasetFilters&quot;:[{&quot;datasetSpecIdFilter&quot;:&quot;63c3ZnMFbSK1OEOk0bRUMiovtD1a3hnbUJy9KuxCiJwNTbIQOsAyCUrj&quot;,&quot;operator&quot;:&quot;==&quot;,&quot;schemaFieldNumberFilter&quot;:&quot;ZMcUDelG8Po9sxjG8FwiF7QEWkb4CyTFX2A0GUqaeB8kHa+l89\/S8Q==&quot;,&quot;value&quot;:37,&quot;type&quot;:&quot;fixed&quot;}],&quot;optionFormatComponents&quot;:[{&quot;type&quot;:&quot;field&quot;,&quot;order&quot;:0,&quot;fieldNumberOrText&quot;:&quot;6j0anu7Xd6ZpTdswtjAV7ulXW+AgKxVEgZ29sEdheejHPHiAq1sNiw==&quot;}],&quot;schemaFieldIdToUseForIndirectFiltering&quot;:&quot;mmW3BO9vsFb98RNtfAf6GXIWt1buggKnTthrGzdQ4Jv7nAWomMcK&quot;,&quot;datasetSchemaSpecId&quot;:&quot;Tk1NBreN5qXvrtUWqmgi95cDsPwQMj\/zCitNNjIvN4TGz0kW6Y9xaazz&quot;,&quot;datasetSchemaFieldId&quot;:&quot;25HrJHVkdFMqfa4QOXP\/IThWoAIuGqRx8ZNILyi26vAGqQRGv\/GYGzoH1g==&quot;,&quot;savedOptionsIds&quot;:[],&quot;ignoreFilterIfNoValueIsSelected&quot;:false,&quot;portalUrlPath&quot;:&quot;\/en_US\/ml&quot;}},{&quot;type&quot;:&quot;Field&quot;,&quot;name&quot;:&quot;AutocompleteMultipleSelectField&quot;,&quot;settings&quot;:{&quot;dropdownCssClass&quot;:&quot;bigdrop&quot;,&quot;placeholderText&quot;:&quot;Select an option&quot;,&quot;minimumInputLength&quot;:0,&quot;ajaxDelayMs&quot;:1000,&quot;visibleOptionsLimit&quot;:10,&quot;optionIdsToSearchLimit&quot;:100,&quot;dictionary&quot;:{&quot;optionSelectedNotice&quot;:&quot;{option} selected&quot;,&quot;clearValue&quot;:&quot;Press enter or backspace to remove this option&quot;,&quot;removeOption&quot;:&quot;Press Backspace to remove this value&quot;,&quot;removeOptionButton&quot;:&quot;Remove {option}&quot;,&quot;removeAllOptions&quot;:&quot;Remove all options&quot;,&quot;searchResults&quot;:&quot;new search results&quot;,&quot;navigationAdvice&quot;:&quot;Press the up and down arrow keys to navigate the list&quot;,&quot;totalResults&quot;:&quot;total results&quot;,&quot;totalResult&quot;:&quot;total result&quot;,&quot;optionRemoved&quot;:&quot;{option} removed&quot;,&quot;allOptionsRemoved&quot;:&quot;All options removed&quot;,&quot;enterTextToSearch&quot;:&quot;Enter text to search&quot;,&quot;firstFocusInstruction&quot;:&quot;Type to search, or press Enter to open the list of values.&quot;,&quot;optionsSelectedFocusInstruction&quot;:&quot;{n} options selected: {choices}. Type to search, or press Enter to open the list of values. Press Backspace to remove all options.&quot;,&quot;expandedStateInstruction&quot;:&quot;{n} options available. Use the up and down keys to navigate. Press Enter to select an option, or press Escape to exit the list.&quot;,&quot;optionFocusSelected&quot;:&quot;{option}, selected, {n} of {d}.&quot;,&quot;optionFocusNotSelected&quot;:&quot;{option}, not selected, {n} of {d}.&quot;},&quot;label&quot;:&quot;Work Arrangement&quot;,&quot;isRequired&quot;:false,&quot;isAccessible&quot;:true,&quot;keepTextInField&quot;:true}}]},{&quot;fieldId&quot;:&quot;8862&quot;,&quot;registrars&quot;:[{&quot;type&quot;:&quot;ValuesDatasource&quot;,&quot;name&quot;:&quot;DatasetSingleColumnFieldOptionsDatasource&quot;,&quot;settings&quot;:{&quot;datasetFilters&quot;:[],&quot;optionFormatComponents&quot;:[{&quot;type&quot;:&quot;field&quot;,&quot;order&quot;:0,&quot;fieldNumberOrText&quot;:&quot;YDG5YLjW7MRkshJSRXYtEhLFL60huj5J7gSRJU4FEl9ncl4YGJXqOw==&quot;}],&quot;schemaFieldIdToUseForIndirectFiltering&quot;:&quot;oC2RjZm8RDD1DK4OYL4LeOWQuudwktagqjzc\/qE+ZFtlbtz1myY9&quot;,&quot;datasetSchemaSpecId&quot;:&quot;h\/dBb8EE7b0ugNUIm9AG8Wwg0dZNUtsXQpeq5uWA\/f0XkaJDuIXFHhGs&quot;,&quot;datasetSchemaFieldId&quot;:&quot;W+mEyW9qsZEGIHiP9F4gnbFdnetQzGieErGnUfZQ1wfA80Yxs12vnKK2+w==&quot;,&quot;savedOptionsIds&quot;:[],&quot;ignoreFilterIfNoValueIsSelected&quot;:false,&quot;portalUrlPath&quot;:&quot;\/en_US\/ml&quot;}},{&quot;type&quot;:&quot;Field&quot;,&quot;name&quot;:&quot;SelectField&quot;,&quot;settings&quot;:{&quot;notSelectedOptionValue&quot;:&quot;&quot;}}]},{&quot;fieldId&quot;:&quot;7518&quot;,&quot;registrars&quot;:[{&quot;type&quot;:&quot;ValuesDatasource&quot;,&quot;name&quot;:&quot;DatasetSingleColumnFieldOptionsDatasource&quot;,&quot;settings&quot;:{&quot;datasetFilters&quot;:[],&quot;optionFormatComponents&quot;:[{&quot;type&quot;:&quot;field&quot;,&quot;order&quot;:0,&quot;fieldNumberOrText&quot;:&quot;+BEfs7TUwFIayaAdbx+5yULK04Xj2OosN5QrX4TUKIrIcexspGsmTA==&quot;}],&quot;schemaFieldIdToUseForIndirectFiltering&quot;:&quot;td2HsabCPPPDUADtOnpPvidD1BY2uXW7PXmSY6vVfya1ntUYNdts&quot;,&quot;datasetSchemaSpecId&quot;:&quot;sITXqr7keLs3PhwwO9Y1BBz\/0YJKYXmoEja9Igx+iDUGMkzzD0gJeQkP&quot;,&quot;datasetSchemaFieldId&quot;:&quot;+2+pc1daBuzjAFPBPu+TYE\/aSkTCfPjbvjcQ9ov8CuDZE6vYco5+vKBbBg==&quot;,&quot;savedOptionsIds&quot;:[],&quot;ignoreFilterIfNoValueIsSelected&quot;:false,&quot;portalUrlPath&quot;:&quot;\/en_US\/ml&quot;}},{&quot;type&quot;:&quot;Field&quot;,&quot;name&quot;:&quot;SelectField&quot;,&quot;settings&quot;:{&quot;notSelectedOptionValue&quot;:&quot;&quot;}}]},{&quot;fieldId&quot;:&quot;4878&quot;,&quot;registrars&quot;:[{&quot;type&quot;:&quot;Field&quot;,&quot;name&quot;:&quot;ButtonBarField&quot;,&quot;settings&quot;:{&quot;buttonsData&quot;:[{&quot;buttonId&quot;:106,&quot;buttonType&quot;:&quot;submitButton&quot;,&quot;workflowStepUpdateIds&quot;:&quot;&quot;,&quot;isAutomaticAction&quot;:false,&quot;disableButtonConditions&quot;:[]},{&quot;buttonId&quot;:107,&quot;buttonType&quot;:&quot;clearButton&quot;,&quot;workflowStepUpdateIds&quot;:&quot;&quot;,&quot;isAutomaticAction&quot;:false,&quot;disableButtonConditions&quot;:[]}]}}]}]}]"/><meta name="avature.portal.id" content="37"/><meta name="avature.portal.name" content="MetLife Careers"/><meta name="avature.portal.urlPath" content="ml"/><meta name="avature.portal.lang" content="en_US"/><meta name="avature.portal.page" content="SearchJobs"/><meta name="avature.portal.cookies" content="true"/><meta name="avature.portallist.search" content="data"/>
+        <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0, user-scalable=1" />
+        <meta name="google-site-verification" content="6NoZ95ApvyPmu7TKeaHNsGcUy7yVJsiCL6aDnb2XwNM" />
+                    <meta property="og:title" content="Open Positions | MetLife Careers" />
+    
+    <meta property="og:type" content="MetaOgTypeSearchJobs" />
+    <meta property="og:url" content="MetaOgUrlSearchJobs" />
+    <meta property="og:description" content="MetaOgDescriptionSearchJobs" />
+    <meta property="og:site_name" content="MetaOgSite_nameSearchJobs" />
+
+            <meta property="og:image" content="https://www.metlifecareers.com/_cms/37/image/MetaOgImgSearchJobs/1?version=660821" />
+    
+    <meta name="Description" content="MetaDescriptionSearchJobs" />
+
+            <title>
+        Open Positions    </title>
+        <link href="/ASSET/portal/jquery/UI/1.13.2/jquery-ui.min.css?version=10.85.85-stable" rel="stylesheet"></link><link href="/portalpacks/web/assets/session-popup._xa4D8v5.css" rel="stylesheet"></link><link href="/portalpacks/web/assets/index.CoB8YEta.css" rel="stylesheet"></link><link rel="stylesheet" href="/portalpacks/web/assets/body.C9CX2Y2H.css"><link rel="stylesheet" href="/portalpacks/web/assets/index.CoB8YEta.css"><link rel="stylesheet" href="/portalpacks/web/assets/vendor-fortawesome-fontawesome-svg-core.DuaSt5cF.css"><link href="/ASSET/wizard/portal/jquery/plugin/select2/select2.min.css?version=10.85.85-stable" rel="stylesheet"></link><link href="/portalpacks/web/assets/wizard-legacy.Bpy3i56j.css" rel="stylesheet"></link><link id="dynamic-styles-marker">
+<link rel="stylesheet" type="text/css" media="all" href="/portal/37/css/library__theme.css?v=1791575837" />
+<style type="text/css">
+/* ==========================================================================
+    LIBRARY THEME (Version: 23.3)
+    --------------------------------------------------------------------------
+    * ELEMENTS
+        : Actions
+        : Fields
+        : Thumbnails
+            : FileField
+
+    * COMPONENTS
+        : Expired session
+
+    * MODULES
+        : Banner
+
+    * PAGETYPES
+        : Blocking login
+     ========================================================================== */
+
+/* ELEMENTS: Actions
+    -------------------------------------------------------------------------- */
+
+:root {
+    --action--icon--remove: url(https://www.metlifecareers.com/portal/37/images/icon--remove.svg);
+    --action--icon--remove--hover: url(https://www.metlifecareers.com/portal/37/images/icon--remove--hover.svg);
+    --action--icon--add: url(https://www.metlifecareers.com/portal/37/images/icon--add.svg);
+    --action--icon--add--hover: url(https://www.metlifecareers.com/portal/37/images/icon--add--hover.svg);
+    --action--icon--delete: url(https://www.metlifecareers.com/portal/37/images/icon--remove.svg);
+    --action--icon--delete--hover: url(https://www.metlifecareers.com/portal/37/images/icon--remove--hover.svg);
+    --action--icon--edit: url(https://www.metlifecareers.com/portal/37/images/icon--edit.svg);
+    --action--icon--edit--hover: url(https://www.metlifecareers.com/portal/37/images/icon--edit--hover.svg);
+    --icon--youtube: url(https://www.metlifecareers.com/portal/37/images/social-media--youtube-white.svg);
+    --icon--linkedin: url(https://www.metlifecareers.com/portal/37/images/social-media--linkedin-white.svg);
+    --icon--twitter: url(https://www.metlifecareers.com/portal/37/images/social-media--twitter-white.svg);
+    --icon--quote: url(https://www.metlifecareers.com/portal/37/images/icon--quote.svg);
+    --check--steps: url(https://www.metlifecareers.com/portal/37/images/check--steps.svg);
+}
+
+/* ELEMENTS: Fields
+    -------------------------------------------------------------------------- */
+
+:root {
+    --fields--icon--caret--down: url(https://www.metlifecareers.com/portal/37/images/icon--caret--down.svg);
+    --fields--icon--caret--down--disabled: url(https://www.metlifecareers.com/portal/37/images/icon--caret--down--disabled.svg);
+    --fields--icon--caret--up: url(https://www.metlifecareers.com/portal/37/images/icon--caret--up.svg);
+    --fields--icon--clear: url(https://www.metlifecareers.com/portal/37/images/icon--clear.svg);
+}
+
+/* ELEMENTS: Thumbnails: FileField
+    -------------------------------------------------------------------------- */
+
+.FileField {
+    --thumbnail--background--image: url(https://www.metlifecareers.com/portal/37/images/icon--user.svg);
+}
+
+/* COMPONENTS: Expired session
+    -------------------------------------------------------------------------- */
+
+:root {
+    --session--icon--closethick: url(https://www.metlifecareers.com/portal/37/images/close.svg);
+}
+
+/* MODULES: Banner Main
+    -------------------------------------------------------------------------- */
+
+:root {
+    --banner--background--main: url(https://www.metlifecareers.com/portal/37/images/banner1980.webp);
+    --banner--background--image: url(https://www.metlifecareers.com/portal/37/images/bannerInner1980.webp);
+    --banner--recognition: url(https://www.metlifecareers.com/_cms/37/image/bannerRecognition/1?version=23987);
+    --home__banner--title: url(https://www.metlifecareers.com/portal/37/images/bannerTitle.svg);
+    --background--shapes--right: url(https://www.metlifecareers.com/portal/37/images/shapes--right--desktop.webp);
+    --background--shapes--left: url(https://www.metlifecareers.com/portal/37/images/shapes--left.webp);
+    --background--shapes--left--countries: url(https://www.metlifecareers.com/portal/37/images/shapes--left--countries.webp);
+    --background--shapes--right--countries: url(https://www.metlifecareers.com/portal/37/images/shapes--right--countries.webp);
+    --background--shapes--bottom--careers: url(https://www.metlifecareers.com/portal/37/images/shapes--bottom--careers--mobile480.webp);
+    --banner--topBannerContentPageExtra1: url(https://www.metlifecareers.com/_cms/37/image/bannerCPExtraOne1980/1?version=49350);
+    --banner--topBannerContentPageExtra2: url(https://www.metlifecareers.com/_cms/37/image/bannerCPExtraTwo1980/1?version=49351);
+    --banner--topBannerContentPageUS: url(https://www.metlifecareers.com/_cms/37/image/USHeroImageAsset1980x480/1?version=651532);
+    --banner--topBannerContentPageJapan: url(https://www.metlifecareers.com/_cms/37/image/JapanHeroImageAsset1980x480/1?version=3259491);
+    --banner--topBannerContentPageKorea: url(https://www.metlifecareers.com/_cms/37/image/KoreaHeroImageAsset1980x480/1?version=3259492);
+    --banner--topBannerContentPageArgentina: url(https://www.metlifecareers.com/_cms/37/image/ArgentinaHeroImageAsset1980x480/1?version=651533);
+    --banner--topBannerContentPageUKI: url(https://www.metlifecareers.com/_cms/37/image/UKIHeroImageAsset1980x480/1?version=651534);
+    --banner--topBannerContentPageBrazil: url(https://www.metlifecareers.com/_cms/37/image/BrazilHeroImageAsset1980x480/1?version=651535);
+    --banner--topBannerContentPageChile: url(https://www.metlifecareers.com/_cms/37/image/ChileHeroImageAsset1980x480/1?version=651536);
+    --banner--topBannerContentPageColombia: url(https://www.metlifecareers.com/_cms/37/image/ColombiaHeroImageAsset1980x480/1?version=651538);
+    --banner--topBannerContentPageIndia: url(https://www.metlifecareers.com/_cms/37/image/IndiaHeroImageAsset1980x480/1?version=651539);
+    --banner--topBannerContentPageAustralia: url(https://www.metlifecareers.com/_cms/37/image/AustraliaHeroImageAsset1980x480/1?version=651540);
+    --banner--topBannerContentPageMexico: url(https://www.metlifecareers.com/_cms/37/image/MexicoHeroImageAsset1980x480/1?version=651541);
+    --banner--topBannerContentPageFrance: url(https://www.metlifecareers.com/_cms/37/image/FranceHeroImageAsset1980x480/1?version=1412209);
+    --banner--topBannerContentPagePoland: url(https://www.metlifecareers.com/_cms/37/image/PolandHeroImageAsset1980x480/1?version=1412210);
+    --banner--topBannerContentPageTurkey: url(https://www.metlifecareers.com/_cms/37/image/TurkeyHeroImageAsset1980x480/1?version=1412211);
+    --banner--topBannerContentPageRomania: url(https://www.metlifecareers.com/_cms/37/image/RomaniaHeroImageAsset1980x480/1?version=1412212);
+    --banner--topBannerContentPageGulf: url(https://www.metlifecareers.com/_cms/37/image/GulfHeroImageAsset1980x480/1?version=1412213);
+    --banner--topBannerContentPageCzechRepublic: url(https://www.metlifecareers.com/_cms/37/image/CzechRepublicHeroImageAsset1980x480/1?version=1412214);
+    --banner--topBannerContentPageSlovakia: url(https://www.metlifecareers.com/_cms/37/image/SlovakiaHeroImageAsset1980x480/1?version=1412215);
+    --banner--topBannerContentPageAuditRiskCompliance: url(https://www.metlifecareers.com/_cms/37/image/bannerCPAuditRiskCompliance1980/1?version=145908);
+    --banner--topBannerContentPageCorporateFunctions: url(https://www.metlifecareers.com/_cms/37/image/bannerCPCorporate1980/1?version=49320);
+    --banner--topBannerContentPageCustomerCareOperations: url(https://www.metlifecareers.com/_cms/37/image/bannerCPCustomer1980/1?version=49321);
+    --banner--topBannerContentPageFinance: url(https://www.metlifecareers.com/_cms/37/image/bannerCPFinance1980/1?version=49322);
+    --banner--topBannerContentPageInsuranceProductsServices: url(https://www.metlifecareers.com/_cms/37/image/bannerCPInsurance1980/1?version=49323);
+    --banner--topBannerContentPageInvestmentManagement: url(https://www.metlifecareers.com/_cms/37/image/bannerCPInvestment1980/1?version=49324);
+    --banner--topBannerContentPageSales: url(https://www.metlifecareers.com/_cms/37/image/bannerCPSales1980/1?version=49325);
+    --banner--topBannerContentPageTechnology: url(https://www.metlifecareers.com/_cms/37/image/bannerCPTechnology1980/1?version=49326);
+    --banner--topBannerContentPageTransitioningMilitarySpouses: url(https://www.metlifecareers.com/_cms/37/image/bannerCPTransitioning1980/1?version=49327);
+    --banner--topBannerContentPageUniversityDevelopmentPrograms: url(https://www.metlifecareers.com/_cms/37/image/bannerCPUniversity1980/1?version=49328);
+}
+
+/* Media query to target only second stage on desktop changed value from 1025 to 1240 */
+@media all and (min-width:1241px) and (max-width:1440px){
+    :root {
+        --banner--background--image: url(https://www.metlifecareers.com/portal/37/images/bannerInner1440.webp);
+    }
+}
+
+/* Media query to target only tablet */
+@media all and (min-width:751px) and (max-width:1240px) {
+    :root {
+        --banner--topBannerContentPageExtra1: url(https://www.metlifecareers.com/_cms/37/image/bannerCPExtraOne1240/1?version=651474);
+        --banner--topBannerContentPageExtra2: url(https://www.metlifecareers.com/_cms/37/image/bannerCPExtraTwo1240/1?version=651504);
+        --banner--topBannerContentPageUS: url(https://www.metlifecareers.com/_cms/37/image/USHeroImageAsset1240x480/1?version=651503);
+        --banner--topBannerContentPageJapan: url(https://www.metlifecareers.com/_cms/37/image/JapanHeroImageAsset1240x480/1?version=3259493);
+        --banner--topBannerContentPageKorea: url(https://www.metlifecareers.com/_cms/37/image/KoreaHeroImageAsset1240x480/1?version=3259494);
+        --banner--topBannerContentPageArgentina: url(https://www.metlifecareers.com/_cms/37/image/ArgentinaHeroImageAsset1240x480/1?version=651495);
+        --banner--topBannerContentPageUKI: url(https://www.metlifecareers.com/_cms/37/image/UKIHeroImageAsset1240x480/1?version=651496);
+        --banner--topBannerContentPageBrazil: url(https://www.metlifecareers.com/_cms/37/image/BrazilHeroImageAsset1240x480/1?version=651497);
+        --banner--topBannerContentPageChile: url(https://www.metlifecareers.com/_cms/37/image/ChileHeroImageAsset1240x480/1?version=651498);
+        --banner--topBannerContentPageColombia: url(https://www.metlifecareers.com/_cms/37/image/ColombiaHeroImageAsset1240x480/1?version=651499);
+        --banner--topBannerContentPageIndia: url(https://www.metlifecareers.com/_cms/37/image/IndiaHeroImageAsset1240x480/1?version=651500);
+        --banner--topBannerContentPageAustralia: url(https://www.metlifecareers.com/_cms/37/image/AustraliaHeroImageAsset1240x480/1?version=651501);
+        --banner--topBannerContentPageMexico: url(https://www.metlifecareers.com/_cms/37/image/MexicoHeroImageAsset1240x480/1?version=651502);
+        --banner--topBannerContentPageFrance: url(https://www.metlifecareers.com/portal/37/images/bannerHome1240.webp);
+        --banner--topBannerContentPagePoland: url(https://www.metlifecareers.com/portal/37/images/bannerHome1240.webp);
+        --banner--topBannerContentPageTurkey: url(https://www.metlifecareers.com/portal/37/images/bannerHome1240.webp);
+        --banner--topBannerContentPageRomania: url(https://www.metlifecareers.com/portal/37/images/bannerHome1240.webp);
+        --banner--topBannerContentPageGulf: url(https://www.metlifecareers.com/portal/37/images/bannerHome1240.webp);
+        --banner--topBannerContentPageCzechRepublic: url(https://www.metlifecareers.com/portal/37/images/bannerHome1240.webp);
+        --banner--topBannerContentPageSlovakia: url(https://www.metlifecareers.com/portal/37/images/bannerHome1240.webp);
+        --banner--topBannerContentPageAuditRiskCompliance: url(https://www.metlifecareers.com/_cms/37/image/bannerCPAuditRiskCompliance1240/1?version=145909);
+        --banner--topBannerContentPageCorporateFunctions: url(https://www.metlifecareers.com/_cms/37/image/bannerCPCorporate1240/1?version=651505);
+        --banner--topBannerContentPageCustomerCareOperations: url(https://www.metlifecareers.com/_cms/37/image/bannerCPCustomer1240/1?version=651506);
+        --banner--topBannerContentPageFinance: url(https://www.metlifecareers.com/_cms/37/image/bannerCPFinance1240/1?version=49331);
+        --banner--topBannerContentPageInsuranceProductsServices: url(https://www.metlifecareers.com/_cms/37/image/bannerCPInsurance1240/1?version=651507);
+        --banner--topBannerContentPageInvestmentManagement: url(https://www.metlifecareers.com/_cms/37/image/bannerCPInvestment1240/1?version=651508);
+        --banner--topBannerContentPageSales: url(https://www.metlifecareers.com/_cms/37/image/bannerCPSales1240/1?version=651509);
+        --banner--topBannerContentPageTechnology: url(https://www.metlifecareers.com/_cms/37/image/bannerCPTechnology1240/1?version=49335);
+        --banner--topBannerContentPageTransitioningMilitarySpouses: url(https://www.metlifecareers.com/_cms/37/image/bannerCPTransitioning1240/1?version=49336);
+        --banner--topBannerContentPageUniversityDevelopmentPrograms: url(https://www.metlifecareers.com/_cms/37/image/bannerCPUniversity1240/1?version=49337);
+        --banner--background--main: url(https://www.metlifecareers.com/portal/37/images/banner1240.webp);
+        --banner--background--image: url(https://www.metlifecareers.com/portal/37/images/bannerInner1240.webp);
+        --background--shapes--right: url(https://www.metlifecareers.com/portal/37/images/shapes--right--tablet.webp);
+    }
+
+}
+
+/* Media query to target only mobile */
+@media all and (max-width:750px) {
+    :root {
+        --banner--topBannerContentPageExtra1: url(https://www.metlifecareers.com/_cms/37/image/bannerCPExtraOne750/1?version=49354);
+        --banner--topBannerContentPageExtra2: url(https://www.metlifecareers.com/_cms/37/image/bannerCPExtraTwo750/1?version=49355);
+        --banner--topBannerContentPageUS: url(https://www.metlifecareers.com/_cms/37/image/USHeroImageAsset750x290/1?version=651542);
+        --banner--topBannerContentPageJapan: url(https://www.metlifecareers.com/_cms/37/image/JapanHeroImageAsset750x290/1?version=3259495);
+        --banner--topBannerContentPageKorea: url(https://www.metlifecareers.com/_cms/37/image/KoreaHeroImageAsset750x290/1?version=3259496);
+        --banner--topBannerContentPageArgentina: url(https://www.metlifecareers.com/_cms/37/image/ArgentinaHeroImageAsset750x290/1?version=651543);
+        --banner--topBannerContentPageUKI: url(https://www.metlifecareers.com/_cms/37/image/UKIHeroImageAsset750x290/1?version=651544);
+        --banner--topBannerContentPageBrazil: url(https://www.metlifecareers.com/_cms/37/image/BrazilHeroImageAsset750x290/1?version=651545);
+        --banner--topBannerContentPageChile: url(https://www.metlifecareers.com/_cms/37/image/ChileHeroImageAsset750x290/1?version=651546);
+        --banner--topBannerContentPageColombia: url(https://www.metlifecareers.com/_cms/37/image/ColombiaHeroImageAsset750x290/1?version=651551);
+        --banner--topBannerContentPageIndia: url(https://www.metlifecareers.com/_cms/37/image/IndiaHeroImageAsset750x290/1?version=651549);
+        --banner--topBannerContentPageAustralia: url(https://www.metlifecareers.com/_cms/37/image/AustraliaHeroImageAsset750x290/1?version=651548);
+        --banner--topBannerContentPageMexico: url(https://www.metlifecareers.com/_cms/37/image/MexicoHeroImageAsset750x290/1?version=651547);
+        --banner--topBannerContentPageFrance: url(https://www.metlifecareers.com/portal/37/images/bannerHome750.webp);
+        --banner--topBannerContentPagePoland: url(https://www.metlifecareers.com/portal/37/images/bannerHome750.webp);
+        --banner--topBannerContentPageTurkey: url(https://www.metlifecareers.com/portal/37/images/bannerHome750.webp);
+        --banner--topBannerContentPageRomania: url(https://www.metlifecareers.com/portal/37/images/bannerHome750.webp);
+        --banner--topBannerContentPageGulf: url(https://www.metlifecareers.com/portal/37/images/bannerHome750.webp);
+        --banner--topBannerContentPageCzechRepublic: url(https://www.metlifecareers.com/portal/37/images/bannerHome750.webp);
+        --banner--topBannerContentPageSlovakia: url(https://www.metlifecareers.com/portal/37/images/bannerHome750.webp);
+        --banner--topBannerContentPageAuditRiskCompliance: url(https://www.metlifecareers.com/_cms/37/image/bannerCPAuditRiskCompliance750/1?version=145910);
+        --banner--topBannerContentPageCorporateFunctions: url(https://www.metlifecareers.com/_cms/37/image/bannerCPCorporate750/1?version=49338);
+        --banner--topBannerContentPageCustomerCareOperations: url(https://www.metlifecareers.com/_cms/37/image/bannerCPCustomer750/1?version=49339);
+        --banner--topBannerContentPageFinance: url(https://www.metlifecareers.com/_cms/37/image/bannerCPFinance750/1?version=49340);
+        --banner--topBannerContentPageInsuranceProductsServices: url(https://www.metlifecareers.com/_cms/37/image/bannerCPInsurance750/1?version=49341);
+        --banner--topBannerContentPageInvestmentManagement: url(https://www.metlifecareers.com/_cms/37/image/bannerCPInvestment750/1?version=49342);
+        --banner--topBannerContentPageSales: url(https://www.metlifecareers.com/_cms/37/image/bannerCPSales750/1?version=49343);
+        --banner--topBannerContentPageTechnology: url(https://www.metlifecareers.com/_cms/37/image/bannerCPTechnology750/1?version=49344);
+        --banner--topBannerContentPageTransitioningMilitarySpouses: url(https://www.metlifecareers.com/_cms/37/image/bannerCPTransitioning750/1?version=49345);
+        --banner--topBannerContentPageUniversityDevelopmentPrograms: url(https://www.metlifecareers.com/_cms/37/image/bannerCPUniversity750/1?version=49346);
+        --banner--background--main: url(https://www.metlifecareers.com/portal/37/images/banner480.webp);
+        --banner--background--image: url(https://www.metlifecareers.com/portal/37/images/bannerInner750.webp);
+        --background--shapes--right: url(https://www.metlifecareers.com/portal/37/images/shapes--bottom--careers--mobile480.webp);
+        --background--shapes--left--countries: url(https://www.metlifecareers.com/portal/37/images/shapes--right--mobile.webp);
+    }
+
+}
+
+/* Media query to target only mobile */
+@media all and (max-width:480px) {
+    :root {
+        --banner--background--main: url(https://www.metlifecareers.com/portal/37/images/banner480.webp);
+        --banner--background--image: url(https://www.metlifecareers.com/portal/37/images/bannerInner480.webp);
+        --background--shapes--right: url(https://www.metlifecareers.com/portal/37/images/shapes--right--mobile.webp);
+    }
+
+}
+
+/* MODULES: Home Banner
+    -------------------------------------------------------------------------- */
+
+:root {
+    --banner--background--home: url(https://www.metlifecareers.com/portal/37/images/bannerHome1980.webp);
+}
+
+/* Media query to target only second stage on desktop changed value from 1025 to 1240 */
+@media all and (min-width:1241px) and (max-width:1440px){
+    :root {
+        --banner--background--home: url(https://www.metlifecareers.com/portal/37/images/bannerHome1440.webp);
+    }
+}
+
+/* Media query to target only tablet */
+@media all and (min-width:751px) and (max-width:1240px) {
+    :root {
+        --banner--background--home: url(https://www.metlifecareers.com/portal/37/images/bannerHome1240.webp);
+    }
+
+}
+
+/* Media query to target only mobile */
+@media all and (max-width:750px) {
+    :root {
+        --banner--background--home: url(https://www.metlifecareers.com/portal/37/images/bannerHome750.webp);
+    }
+
+}
+
+/* MODULES: Blog Banner
+    -------------------------------------------------------------------------- */
+
+:root {
+    --banner--background--blog: url(https://www.metlifecareers.com/portal/37/images/bannerBlog1980.webp);
+}
+
+/* Media query to target only second stage on desktop changed value from 1025 to 1240 */
+@media all and (min-width:1241px) and (max-width:1440px){
+    :root {
+        --banner--background--blog: url(https://www.metlifecareers.com/portal/37/images/bannerBlog1440.webp);
+    }
+}
+
+/* Media query to target only tablet */
+@media all and (min-width:751px) and (max-width:1240px) {
+    :root {
+        --banner--background--blog: url(https://www.metlifecareers.com/portal/37/images/bannerBlog1240.webp);
+    }
+
+}
+
+/* Media query to target only mobile */
+@media all and (max-width:750px) {
+    :root {
+        --banner--background--blog: url(https://www.metlifecareers.com/portal/37/images/bannerBlog750.webp);
+    }
+
+}
+
+/* Media query to target only mobile */
+@media all and (max-width:480px) {
+    :root {
+        --banner--background--blog: url(https://www.metlifecareers.com/portal/37/images/bannerBlog480.webp);
+    }
+
+}
+
+/* MODULES: Inner Banner
+    -------------------------------------------------------------------------- */
+
+:root {
+    --banner--background--inner: url(https://www.metlifecareers.com/portal/37/images/bannerInner1980.webp);
+}
+
+/* Media query to target only second stage on desktop changed value from 1025 to 1240 */
+@media all and (min-width:1241px) and (max-width:1440px){
+    :root {
+        --banner--background--inner: url(https://www.metlifecareers.com/portal/37/images/bannerInner1440.webp);
+    }
+}
+
+/* Media query to target only tablet */
+@media all and (min-width:751px) and (max-width:1240px) {
+    :root {
+        --banner--background--inner: url(https://www.metlifecareers.com/portal/37/images/bannerInner1240.webp);
+    }
+
+}
+
+/* Media query to target only mobile */
+@media all and (max-width:750px) {
+    :root {
+        --banner--background--inner: url(https://www.metlifecareers.com/portal/37/images/bannerInner750.webp);
+    }
+
+}
+
+/* Media query to target only mobile */
+@media all and (max-width:480px) {
+    :root {
+        --banner--background--inner: url(https://www.metlifecareers.com/portal/37/images/bannerInner480.webp);
+    }
+
+}
+
+/* MODULES: CARDS
+    -------------------------------------------------------------------------- */
+
+:root {
+    --arrow--blue: url(https://www.metlifecareers.com/portal/37/images/arrow--blue.svg);
+    --arrow--lightBlue: url(https://www.metlifecareers.com/portal/37/images/arrow--lightBlue.svg);
+    --arrow--white: url(https://www.metlifecareers.com/portal/37/images/arrow--white.svg);
+    --arrow--up: url(https://www.metlifecareers.com/portal/37/images/arrow--up.svg);
+    --arrow--down: url(https://www.metlifecareers.com/portal/37/images/arrow--down.svg);
+}
+
+/* MODULES: FOOTER
+    -------------------------------------------------------------------------- */
+
+:root {
+    --banner--background--footer: url(https://www.metlifecareers.com/portal/37/images/bannerFooter1980.webp);
+}
+
+/* Media query to target only second stage on desktop changed value from 1025 to 1240 */
+@media all and (min-width:1241px) and (max-width:1440px){
+    :root {
+        --banner--background--footer: url(https://www.metlifecareers.com/portal/37/images/bannerFooter1440.webp);
+    }
+}
+
+/* Media query to target only tablet */
+@media all and (min-width:901px) and (max-width:1240px) {
+    :root {
+        --banner--background--footer: url(https://www.metlifecareers.com/portal/37/images/bannerFooter1240.webp);
+    }
+
+}
+
+/* Media query to target only mobile */
+@media all and (max-width:900px) {
+    :root {
+        --banner--background--footer: url(https://www.metlifecareers.com/portal/37/images/bannerFooter750.webp);
+    }
+
+}
+
+/* Media query to target only mobile */
+@media all and (max-width:560px) {
+    :root {
+        --banner--background--footer: url(https://www.metlifecareers.com/portal/37/images/bannerFooter375.webp);
+    }
+
+}
+
+/* PAGETYPES: Blockin login
+    -------------------------------------------------------------------------- */
+
+:root {
+    --login__body--background--image: url(https://www.metlifecareers.com/portal/37/images/login--bg--desktop.jpg);
+}
+
+/* Media query to target only tablet */
+@media all and (min-width:751px) and (max-width:1024px) {
+    :root {
+        --login__body--background--image: url(https://www.metlifecareers.com/portal/37/images/login--bg--tablet.jpg);
+    }
+
+}
+
+/* Media query to target only mobile */
+@media all and (max-width:750px) {
+    :root {
+        --login__body--background--image: url(https://www.metlifecareers.com/portal/37/images/login--bg--mobile.jpg);
+    }
+
+}
+
+</style><link id="corecss" rel="stylesheet" type="text/css" media="all" href="https://templates-static-assets.avacdn.net/cssLibrary/23.3/core.min.css" />
+
+    <link rel="stylesheet" type="text/css" media="all" href="https://templates-static-assets.avacdn.net/cookieUserConsent/23.3/cookieUserConsent.min.css" />
+<link type="text/css" rel="stylesheet" media="all" href="https://templates-static-assets.avacdn.net/assets/fonts/NotoSans/NotoSans.css"/>
+<link rel="stylesheet" type="text/css" media="all" href="/portal/37/css/specifics.css?v=1791575837" />
+        <script src="/ASSET/portal/jquery/jquerycore/3.7.1/jquery.min.js?version=10.85.85-stable"></script><script src="/ASSET/portal/jquery/UI/1.13.2/jquery-ui.min.js?version=10.85.85-stable"></script><script src="/ASSET/portal/pjquery/pjQueryDeclaration.js?version=10.85.85-stable"></script><script src="/portalpacks/web/js/head/head.D99csnyB.iife.js"></script><script src="/portalpacks/web/js/body.DmIiuvlh.js" type="module"></script>
+
+    <script src="https://templates-static-assets.avacdn.net/cookieUserConsent/23.3/cookieUserConsent.min.js" defer="defer"></script>
+    <script type='text/javascript'>        ServiceFactory.getEventManager().attachToLoadEvent(function(){
+            CookieConsentPopupService.getInstance().initialise({"content":{"description":"This website uses cookies to give you the most relevant experience by remembering your preferences. By clicking \u201cAccept\u201d, you consent to the use of ALL cookies. You can change these preferences by clicking the filter button at the lower right.","acceptAll":"Accept all","rejectAll":"Reject all","save":"Save and close","cancel":"Cancel","settings":"Advanced settings","cookiesDisabled":"Error: Cookies are blocked or not supported by your browser. You must enable cookies to use this site.","warning":"This page needs the following cookie\/s to work:","settingsLink":"Cookies settings"},"styles":{"background":"#000","color":"#fff","fontFamily":"Arial, Helvetica, sans-serif","highlight":"#1063BA","lowlight":"#51555C"},"showOnTop":false,"hideRejectButton":true,"hideAcceptButton":false,"settingsIconAsText":false,"initialNonEssentialCookieState":true,"openPopupForRejectedCookies":false});
+        });
+    </script>
+        <script type='text/javascript'>    window.digitalData = {
+        page: {
+            pageInfo: {
+                pageName: [location.hostname, location.pathname].join(''),
+                geoRegion: "",
+                language: "en",
+                JobID: "",
+                domain: "www.metlifecareers.com"
+            },
+            attributes:{
+                country: 'united states',
+                audience: 'consumers',
+                currency: 'usd'
+            },
+            user:{
+                attributes:{
+                    status: "unauthenticated"
+                }
+            }
+        },
+        event: [],
+        eventTrack: function(cevt, eventDetail) {
+            var msg = 'The 1st argument (required) is a string defining the Javascript custom event name to trigger';
+            if (typeof cevt !== 'string' || cevt.length < 1) throw msg;
+            if (typeof digitalData.event !== 'object') digitalData.event = [];
+            if (typeof eventDetail !== 'object') eventDetail = { eventName: cevt };
+
+            digitalData.event.push(eventDetail);
+            var ev = new CustomEvent(cevt, { 'detail': eventDetail });
+            document.querySelector('body.body').dispatchEvent(ev);
+        },
+        getEventAttr: function() {
+            var ev = [], i;
+            try { ev = digitalData.event } catch(e) {}
+            i = ev.length - 1;
+            if (i < 0) throw 'event attributes not available';
+            return ev[i].attributes;
+        }
+    };
+</script>
+        <script src="https://assets.adobedtm.com/6279662c4fd9/c8b1ebe660a2/launch-707a210d82c8.min.js" async></script>
+        <link href="/portal/37/favicon.ico" rel="shortcut icon" id="favico" type="image/vnd.microsoft.icon"></link>
+                        <link rel="canonical" href="https://www.metlifecareers.com/en_US/ml/SearchJobs" />
+        
+
+            <link rel="alternate" type="application/rss+xml" title="Find Jobs - MetLife Careers - RSS" href="https://www.metlifecareers.com/en_US/ml/SearchJobs/data/feed/?jobRecordsPerPage=6&amp;" />
+    
+    
+                                                            <link rel="alternate" hreflang="en" href="https://www.metlifecareers.com/en_US/ml/SearchJobs">
+                                            <link rel="alternate" hreflang="pt" href="https://www.metlifecareers.com/pt_BR/ml/SearchJobs">
+                                            <link rel="alternate" hreflang="es" href="https://www.metlifecareers.com/es_ES/ml/SearchJobs">
+                    
+    <script type="module">
+    EventManager.getInstance().addEventHandler(EventManager.EVENT_LOAD_NAME, function () {
+
+
+
+    }, EventManager.PRIORITY_HIGH);
+</script></head>
+
+    <body class="
+        body
+        body--header-fixed-on-scroll                                                                body--footer-sticky
+                body--Chrome body--Chrome129
+        body--search-jobs    ">
+        <div class="body__content">
+                            <header class="header">
+                    <a class="visibility--hidden--visually skip-content focusable tpt_localAnchor" href="#main" tabindex="0">
+                        Skip to content                    </a>
+
+                    <div class="header__wrapper">
+                        <div class="header__content">
+                                                            <div class="header__logo">
+    <a class="logo logo--header" href="https://www.metlifecareers.com/en_US/ml" tabindex="0">
+                    <img src="https://www.metlifecareers.com/portal/37/images/logo.webp" alt="Home" loading="lazy">
+                <h1 class="visibility--hidden--visually">MetLife</h1>
+    </a>
+</div>
+                            
+                                                            
+
+
+<div class="header__menu">
+    <nav class="menu menu--visible" aria-label="Main menu">
+        <a class="toggle toggle--menu" aria-controls="menu__panel" aria-expanded="false" aria-haspopup="true" aria-label="Main menu toggle" href="#" role="button" tabindex="0">
+            <div class="toggle__icon" aria-hidden="true"></div>
+        </a>
+
+        <div class="menu__panel" id="menu__panel">
+                                    <ul class="menu__list">
+                                                                                                    
+    <li class="menu__item visibility--mobile-and-tablet ">
+        <a class="menu__link" href="https://www.metlifecareers.com/en_US/ml/Home" tabindex="0">
+            
+            <span class="menu__text">
+                Home
+            </span>
+        </a>
+            </li>
+    
+
+                                                                                                                                        
+    <li class="menu__item ">
+        <a class="menu__link" href="https://www.metlifecareers.com/en_US/ml/CareerAreas" tabindex="0" aria-expanded="false" aria-haspopup="true">
+            
+            <span class="menu__text">
+                Career Areas
+            </span>
+        </a>
+    
+
+                                                                <ul class="submenu__list submenu__list--overflows-not">
+                                                                                                                                                
+    <li class="submenu__item ">
+        <a class="submenu__link" href="https://www.metlifecareers.com/en_US/ml/AuditRiskCompliance" tabindex="0">
+            
+            <span class="submenu__text">
+                Audit, Risk &amp; Compliance
+            </span>
+        </a>
+            </li>
+    
+                                                                                                                                                                                            
+    <li class="submenu__item ">
+        <a class="submenu__link" href="https://www.metlifecareers.com/en_US/ml/CorporateFunctions" tabindex="0">
+            
+            <span class="submenu__text">
+                Corporate Functions
+            </span>
+        </a>
+            </li>
+    
+                                                                                                                                                                                            
+    <li class="submenu__item ">
+        <a class="submenu__link" href="https://www.metlifecareers.com/en_US/ml/CustomerCare" tabindex="0">
+            
+            <span class="submenu__text">
+                Customer Care &amp; Operations
+            </span>
+        </a>
+            </li>
+    
+                                                                                                                                                                                            
+    <li class="submenu__item ">
+        <a class="submenu__link" href="https://www.metlifecareers.com/en_US/ml/Finance" tabindex="0">
+            
+            <span class="submenu__text">
+                Finance
+            </span>
+        </a>
+            </li>
+    
+                                                                                                                                                                                            
+    <li class="submenu__item ">
+        <a class="submenu__link" href="https://www.metlifecareers.com/en_US/ml/Insurance" tabindex="0">
+            
+            <span class="submenu__text">
+                Insurance Products &amp; Services
+            </span>
+        </a>
+            </li>
+    
+                                                                                                                                                                                            
+    <li class="submenu__item ">
+        <a class="submenu__link" href="https://www.metlifecareers.com/en_US/ml/InvestmentManagement" tabindex="0">
+            
+            <span class="submenu__text">
+                Investment Management
+            </span>
+        </a>
+            </li>
+    
+                                                                                                                                                                                            
+    <li class="submenu__item ">
+        <a class="submenu__link" href="https://www.metlifecareers.com/en_US/ml/Sales" tabindex="0">
+            
+            <span class="submenu__text">
+                Sales
+            </span>
+        </a>
+            </li>
+    
+                                                                                                                                                                                            
+    <li class="submenu__item ">
+        <a class="submenu__link" href="https://www.metlifecareers.com/en_US/ml/Technology" tabindex="0">
+            
+            <span class="submenu__text">
+                Technology
+            </span>
+        </a>
+            </li>
+    
+                                                                                                                                                                                            
+    <li class="submenu__item ">
+        <a class="submenu__link" href="https://www.metlifecareers.com/en_US/ml/Military" tabindex="0">
+            
+            <span class="submenu__text">
+                Transitioning Military &amp; Spouses
+            </span>
+        </a>
+            </li>
+    
+                                                                                                                                                                                            
+    <li class="submenu__item ">
+        <a class="submenu__link" href="https://www.metlifecareers.com/en_US/ml/EarlyCareer" tabindex="0">
+            
+            <span class="submenu__text">
+                University &amp; Development Programs
+            </span>
+        </a>
+            </li>
+    
+                                                                                                                                                                                            
+    <li class="submenu__item ">
+        <a class="submenu__link" href="https://www.metlifecareers.com/en_US/ml/CareerAreas" tabindex="0">
+            
+            <span class="submenu__text">
+                All Career Areas
+            </span>
+        </a>
+            </li>
+    
+                                                                                                                        </ul>
+                                </li>
+                                                                                                                                        
+    <li class="menu__item ">
+        <a class="menu__link" href="https://www.metlifecareers.com/en_US/ml/Americas" tabindex="0" aria-expanded="false" aria-haspopup="true">
+            
+            <span class="menu__text">
+                Locations
+            </span>
+        </a>
+    
+
+                                                                <ul class="submenu__list submenu__list--overflows-not">
+                                                                                                                                                
+    <li class="submenu__item ">
+        <a class="submenu__link" href="https://www.metlifecareers.com/en_US/ml/Americas" tabindex="0">
+            
+            <span class="submenu__text">
+                Americas
+            </span>
+        </a>
+            </li>
+    
+                                                                                                                                                                                            
+    <li class="submenu__item ">
+        <a class="submenu__link" href="https://www.metlifecareers.com/en_US/ml/Asia" tabindex="0">
+            
+            <span class="submenu__text">
+                Asia
+            </span>
+        </a>
+            </li>
+    
+                                                                                                                                                                                            
+    <li class="submenu__item ">
+        <a class="submenu__link" href="https://www.metlifecareers.com/en_US/ml/Europe" tabindex="0">
+            
+            <span class="submenu__text">
+                Europe
+            </span>
+        </a>
+            </li>
+    
+                                                                                                                                                                                            
+    <li class="submenu__item ">
+        <a class="submenu__link" href="https://www.metlifecareers.com/en_US/ml/MiddleEastAfrica" tabindex="0">
+            
+            <span class="submenu__text">
+                Middle East &amp; Africa
+            </span>
+        </a>
+            </li>
+    
+                                                                                                                        </ul>
+                                </li>
+                                                                        
+                                                    <li class="menu__item" >
+            <a class="menu__link" href="https://metlife.avature.net/eventlisting" target="_blank">Events</a>
+        </li>
+            <li class="menu__item" >
+            <a class="menu__link" href="https://www.metlifecareers.com/en_US/ml/SearchBlogs" target="_blank">Careers blog</a>
+        </li>
+            <li class="menu__item" >
+            <a class="menu__link" href="https://www.metlifecareers.com/en_US/ml/TalentCommunity" target="_blank">Join Our Talent Community</a>
+        </li>
+                                </ul>
+
+                                                                
+                                        <ul class="menu__list menu__list--separator-left">
+                                                                                    
+    <li class="menu__item ">
+        <a class="menu__link" href="https://www.metlifecareers.com/en_US/ml/Login" tabindex="0" data-map="user-signin-link">
+            
+            <span class="menu__text">
+                Log In
+            </span>
+        </a>
+            </li>
+    
+
+                                                                                        </ul>
+            
+                            <ul class="menu__list">
+                    <li class="menu__item menu__item--languages">
+                        <a class="menu__link" href="#" aria-expanded="false" aria-haspopup="true" tabindex="0">
+                            <span class="menu__thumbnail">
+                                <img class="thumbnail" src="https://templates-static-assets.avacdn.net/assets/flags/en_US.svg" alt="Current language flag" loading="lazy" aria-hidden="true" />
+                            </span>
+
+                            <span class="menu__text">
+                                English - US
+                            </span>
+                        </a>
+
+                        <div class="submenu__list submenu__list--overflows-not ">
+                            <ul class="portalLanguages" role="menu" id="portalLanguagesMenu"><li class="portalLanguages__item portalLanguages__item--en_US portalLanguages__item--selected" role="none"><a class="portalLanguages__link" role="menuitem" lang="en" aria-current="page" href="https://www.metlifecareers.com/en_US/ml/SearchJobs?search=data">English - US</a></li><li class="portalLanguages__item portalLanguages__item--es_ES" role="none"><a class="portalLanguages__link" role="menuitem" lang="es" aria-current="false" href="https://www.metlifecareers.com/es_ES/ml/SearchJobs?search=data">Español</a></li><li class="portalLanguages__item portalLanguages__item--fr_FR" role="none"><a class="portalLanguages__link" role="menuitem" lang="fr" aria-current="false" href="https://www.metlifecareers.com/fr_FR/ml/SearchJobs?search=data">Français</a></li><li class="portalLanguages__item portalLanguages__item--pt_BR" role="none"><a class="portalLanguages__link" role="menuitem" lang="pt" aria-current="false" href="https://www.metlifecareers.com/pt_BR/ml/SearchJobs?search=data">Português</a></li><li class="portalLanguages__item portalLanguages__item--tr_TR" role="none"><a class="portalLanguages__link" role="menuitem" lang="tr" aria-current="false" href="https://www.metlifecareers.com/tr_TR/ml/SearchJobs?search=data">Türkçe</a></li><li class="portalLanguages__item portalLanguages__item--ja_JP" role="none"><a class="portalLanguages__link" role="menuitem" lang="ja" aria-current="false" href="https://www.metlifecareers.com/ja_JP/ml/SearchJobs?search=data">日本語</a></li><li class="portalLanguages__item portalLanguages__item--ko_KR" role="none"><a class="portalLanguages__link" role="menuitem" lang="ko" aria-current="false" href="https://www.metlifecareers.com/ko_KR/ml/SearchJobs?search=data">한국어</a></li></ul>
+                        </div>
+                    </li>
+                </ul>
+                    </div>
+    </nav>
+</div>
+                            
+                                                    </div>
+                    </div>
+                </header>
+            
+                            <div class="banner banner--main ">
+                    <div class="banner__wrapper">
+                                                    <h2 class="banner__image banner--logo">
+                                Here at MetLife, we believe in the power of collective expertise and diverse perspectives. It takes a village to forge lasting changes the way we do, and our village is made up of dynamic individuals driven by purpose and kindness.                            </h2>
+                        
+                                                    <div class="banner__text">
+                                    <h2 class="banner__text__title title title--banner">
+        Career Opportunities
+    </h2>
+                                                                                            </div>
+                                                                                            </div>
+                </div>
+            
+                        
+            <main class="main" id="main">
+                
+                                <div class="main__wrapper">
+                    <div class="main__content clearfix">
+                                        
+    
+                                    
+                            
+    
+
+                        
+
+    
+        
+
+            
+    <section class="section section--search-jobs" search-type="visible">
+        <div class="grid grid--2--sidebar grid--2--sidebar--filters">
+            <div class="grid__item grid__item--filters">
+                <div class="section__header">
+                    <div class="section__header__text">
+                        <h2 class="section__header__text__title title title--09">
+                            Filter jobs by:                        </h2>
+                    </div>
+
+                    <div class="section__header__actions">
+                        <a class="toggle toggle--search" aria-controls="search" aria-expanded="false" aria-haspopup="true" aria-label="Search form toggle" href="#" role="button" tabindex="0">
+                            <span class="toggle__icon" aria-hidden="true"></span>
+                        </a>
+                    </div>
+
+                    <div class="section__header__search">
+                        <div class="search search--visible search--open" aria-label="Search form" id="search">
+                            <div class="search__panel">
+                                <form class="form clearfix" action="https://www.metlifecareers.com/en_US/ml/SearchJobs" autocomplete="on" id="tpt_jobSortableForm" method="post" role="search" >
+                                                                        <input type="hidden" name="jobSort" id="tpt_jobSort" value="" />
+                                    <input type="hidden" name="jobSortDirection" id="tpt_jobSortDirection" value="" />
+
+                                    <fieldset>
+                                        <legend class="visibility--hidden--visually">
+                                            Filter Jobs By                                        </legend>
+
+                                        <div id="wizard-id-69" class="wizard" data-id="69"><div id="liveErrorsContainer" role="alert" aria-live="polite" class="screenReaderVisibility"></div><input type="hidden" name="listFilterMode" value="true"/><fieldset class="Section Section1"><div class="fieldSpec WizardFieldHidden TextField fieldSpecPadder" id="fieldSpecContainer4873"><label class="WizardFieldLabel tc_formLabel" for="4873" id="4873-label">Keywords</label><input type="text" id="4873" name="search" tabindex="0" class="WizardFieldHidden TextField WizardFieldInputContainer WizardFieldInput" value="data" dir="auto" placeholder autocomplete="on" aria-labelledby="4873-label"/></div><div class="fieldSpec  TextField fieldSpecPadder" id="fieldSpecContainer12423"><label class="WizardFieldLabel tc_formLabel" for="12423" id="12423-label">Keywords</label><input type="text" id="12423" name="search" tabindex="0" class=" TextField WizardFieldInputContainer WizardFieldInput" value="data" dir="auto" placeholder autocomplete="on" role="combobox" aria-expanded="false" aria-haspopup="listbox" aria-autocomplete="list" aria-activedescendant aria-owns="12423-live-search-results" aria-labelledby="12423-label"/></div><div class="fieldSpec  TextField fieldSpecPadder" id="fieldSpecContainer28675"><label class="WizardFieldLabel tc_formLabel" for="28675" id="28675-label">Location</label><input type="text" id="28675" name="semanticSearch" tabindex="0" class=" TextField WizardFieldInputContainer WizardFieldInput" value dir="auto" placeholder="Search location by city, state or country" autocomplete="on" aria-labelledby="28675-label"/></div><div class="fieldSpec  CheckBoxListFormField AutoCompleteField fieldSpecPadder" id="fieldSpecContainer12310"><label class="WizardFieldLabel tc_formLabel" for="12310" id="12310-label">Country</label><div id="ui-widget_12310" class="ui-widget AutocompleteSelectFieldUIWidget tc_formField" lang="en"><div id="12310-liveContainer" class="screenReaderVisibility" aria-live="assertive" aria-atomic="true"></div><select name="12310[]" tabindex="0" class=" CheckBoxListFormField AutoCompleteField AutocompleteSelectFieldChildHtmlElement" id="12310" multiple="1"></select></div></div><div class="fieldSpec  CheckBoxListFormField AutoCompleteField fieldSpecPadder" id="fieldSpecContainer4877"><label class="WizardFieldLabel tc_formLabel" for="4877" id="4877-label">Work Arrangement</label><div id="ui-widget_4877" class="ui-widget AutocompleteSelectFieldUIWidget tc_formField" lang="en"><div id="4877-liveContainer" class="screenReaderVisibility" aria-live="assertive" aria-atomic="true"></div><select name="4877[]" tabindex="0" class=" CheckBoxListFormField AutoCompleteField AutocompleteSelectFieldChildHtmlElement" id="4877" multiple="1"></select></div></div><div class="fieldSpec  SelectFormField SelectFormField fieldSpecPadder" id="fieldSpecContainer8862"><label class="WizardFieldLabel tc_formLabel" for="8862" id="8862-label">Career Level</label><select name="8862" tabindex="0" class=" SelectFormField SelectFormField WizardFieldInputContainer WizardFieldInput" id="8862" aria-labelledby="8862-label"><option class="WizardFieldInput" value>Select an option</option><option id="8862_446412" class="WizardFieldInput" value="446412">Early Career</option><option id="8862_446411" class="WizardFieldInput" value="446411">Mid-Level</option><option id="8862_446413" class="WizardFieldInput" value="446413">Executive</option></select></div><div class="fieldSpec  SelectFormField SelectFormField fieldSpecPadder" id="fieldSpecContainer7518"><label class="WizardFieldLabel tc_formLabel" for="7518" id="7518-label">Area of Expertise</label><select name="7518" tabindex="0" class=" SelectFormField SelectFormField WizardFieldInputContainer WizardFieldInput" id="7518" aria-labelledby="7518-label"><option class="WizardFieldInput" value>Select an option</option><option id="7518_7417" class="WizardFieldInput" value="7417">Audit, Risk and Compliance</option><option id="7518_81478" class="WizardFieldInput" value="81478">Corporate Functions</option><option id="7518_81481" class="WizardFieldInput" value="81481">Customer Care Operations</option><option id="7518_81480" class="WizardFieldInput" value="81480">Finance</option><option id="7518_81477" class="WizardFieldInput" value="81477">Insurance Products and Services</option><option id="7518_7418" class="WizardFieldInput" value="7418">Investment Management</option><option id="7518_81479" class="WizardFieldInput" value="81479">Sales</option><option id="7518_81476" class="WizardFieldInput" value="81476">Technology</option></select></div><div class="fieldSpec button-bar ButtonBarField fieldSpecPadder" id="fieldSpecContainer4878"><fieldset><legend class="WizardFieldLabel tc_formLabel" id="4878-label"></legend><div id="4878" class="button-bar__wrap tc_formField"><button class="submitButton WizardButtonPrimary tc_formButton" id="4878-submit" name="action" tabindex="0" type="submit" value="search" data-buttonId="106" formnovalidate>Search</button> <button class="clearButton WizardButtonTertiary tc_formButton" id="4878-clear" name="action" tabindex="0" type="submit" value="reset" data-buttonId="107" formnovalidate>Clear</button> </div></fieldset></div></fieldset></div>
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid__item grid__item--main">
+                <div class="section__content">
+                    <div class="list-controls list-controls--top clearfix">
+                                                    
+
+<div class="list-controls__text">
+                        <div class="list-controls__text__legend visibility--hidden--visually" aria-label="39 results" tabindex="0">
+                1-6
+                                    of 39                
+                 Results
+            </div>
+        
+        
+    
+                    
+                                                        
+        <div class="list-controls__text__reset">
+                            Filters applied (<a class="link" data-map="cancel-link" href="https://www.metlifecareers.com/en_US/ml/SearchJobs" aria-label="Reset search filters">Reset</a>)
+                    </div>
+    </div>
+
+
+    <div class="list-controls__sort">
+        <div class="dropdown dropdown--opens-bottom dropdown--overflows-left" aria-label="Sort by">
+            <a class="dropdown__placeholder" href="#" role="button" aria-haspopup="true" aria-expanded="false" aria-controls="dropdown__list" tabindex="0">
+                Sort by
+            </a>
+
+            <ul class="dropdown__list" id="dropdown__list">
+                
+<li                            class="sort__item  tpt_listSortableItem sort__item--job dropdown__item "
+                data-entity="job"
+                data-sortBy="jobname"
+                aria-label="Sort jobs by Name"
+                tabindex="0"
+            
+            
+            
+        >
+                            <span class="sort__item__icon"></span>
+            
+            <span class="dropdown__text">
+                Name
+            </span>
+        </li><li                            class="sort__item  tpt_listSortableItem sort__item--job dropdown__item "
+                data-entity="job"
+                data-sortBy="postedDate"
+                aria-label="Sort jobs by Posted date"
+                tabindex="0"
+            
+            
+            
+        >
+                            <span class="sort__item__icon"></span>
+            
+            <span class="dropdown__text">
+                Posted date
+            </span>
+        </li>            </ul>
+        </div>
+    </div>
+
+                                            </div>
+                    <div class="section__content__results">
+                                                                            <div class="results results--listed">
+                                                                                                                                                            
+                                                                                                                                                                                                    
+                                                                                                
+                                
+                                                                                                                                    
+                                <article class="article article--result" id="article--1">
+                                    <div class="article__header">
+                                        <div class="article__header__text">
+                                                                                            <h3 class="article__header__text__title title title--07">
+                                                                                                        <a class="link" href="https://www.metlifecareers.com/en_US/ml/JobDetail/Data-Automation-Analyst/20294">
+                                                        Data Automation Analyst
+                                                    </a>
+                                                </h3>
+                                            
+                                            
+                                                                                            <div class="article__header__text__subtitle">
+                                                    
+                                                                                                                                                                
+                                                                                                                                                                
+                                                                                                                                                                
+                                                                                                                                                        <span class="list-item-location">Santiago, Chile</span> <span class="separator" aria-hidden="true">&nbsp;&#8226;&nbsp;</span> <span class="list-item-ref">Job ID: 20294</span> <span class="separator" aria-hidden="true">&nbsp;&#8226;&nbsp;</span> <span class="list-item-posted">03-Sep-2026</span>
+
+                                                </div>
+                                                                                    </div>
+
+                                                                            </div>
+
+                                    
+                                    <div class="article__footer">
+                                                                                    <a class="button button--secondary button--apply" href="https://www.metlifecareers.com/en_US/ml/JobDetail/Data-Automation-Analyst/20294" tabindex="0">
+                                                Apply                                            </a>
+                                        
+                                                                                        
+                                                                            </div>
+                                </article>
+                                                                                                                                                            
+                                                                                                                                                                                                    
+                                                                                                
+                                
+                                                                                                                                    
+                                <article class="article article--result" id="article--2">
+                                    <div class="article__header">
+                                        <div class="article__header__text">
+                                                                                            <h3 class="article__header__text__title title title--07">
+                                                                                                        <a class="link" href="https://www.metlifecareers.com/en_US/ml/JobDetail/Data-Engineer/19324">
+                                                        Data Engineer
+                                                    </a>
+                                                </h3>
+                                            
+                                            
+                                                                                            <div class="article__header__text__subtitle">
+                                                    
+                                                                                                                                                                
+                                                                                                                                                                
+                                                                                                                                                                
+                                                                                                                                                        <span class="list-item-location">Galway, Ireland</span> <span class="separator" aria-hidden="true">&nbsp;&#8226;&nbsp;</span> <span class="list-item-ref">Job ID: 19324</span> <span class="separator" aria-hidden="true">&nbsp;&#8226;&nbsp;</span> <span class="list-item-posted">23-Jul-2026</span>
+
+                                                </div>
+                                                                                    </div>
+
+                                                                            </div>
+
+                                    
+                                    <div class="article__footer">
+                                                                                    <a class="button button--secondary button--apply" href="https://www.metlifecareers.com/en_US/ml/JobDetail/Data-Engineer/19324" tabindex="0">
+                                                Apply                                            </a>
+                                        
+                                                                                        
+                                                                            </div>
+                                </article>
+                                                                                                                                                            
+                                                                                                                                                                                                    
+                                                                                                
+                                
+                                                                                                                                    
+                                <article class="article article--result" id="article--3">
+                                    <div class="article__header">
+                                        <div class="article__header__text">
+                                                                                            <h3 class="article__header__text__title title title--07">
+                                                                                                        <a class="link" href="https://www.metlifecareers.com/en_US/ml/JobDetail/Principal-Data-Analytics-Lead/20295">
+                                                        Principal Data &amp; Analytics Lead
+                                                    </a>
+                                                </h3>
+                                            
+                                            
+                                                                                            <div class="article__header__text__subtitle">
+                                                    
+                                                                                                                                                                
+                                                                                                                                                                
+                                                                                                                                                                
+                                                                                                                                                        <span class="list-item-location">Virtual, United States</span> <span class="separator" aria-hidden="true">&nbsp;&#8226;&nbsp;</span> <span class="list-item-ref">Job ID: 20295</span> <span class="separator" aria-hidden="true">&nbsp;&#8226;&nbsp;</span> <span class="list-item-posted">08-Sep-2026</span>
+
+                                                </div>
+                                                                                    </div>
+
+                                                                            </div>
+
+                                    
+                                    <div class="article__footer">
+                                                                                    <a class="button button--secondary button--apply" href="https://www.metlifecareers.com/en_US/ml/JobDetail/Principal-Data-Analytics-Lead/20295" tabindex="0">
+                                                Apply                                            </a>
+                                        
+                                                                                        
+                                                                            </div>
+                                </article>
+                                                                                                                                                            
+                                                                                                                                                                                                    
+                                                                                                
+                                
+                                                                                                                                    
+                                <article class="article article--result" id="article--4">
+                                    <div class="article__header">
+                                        <div class="article__header__text">
+                                                                                            <h3 class="article__header__text__title title title--07">
+                                                                                                        <a class="link" href="https://www.metlifecareers.com/en_US/ml/JobDetail/Big-Data-Engineer-GG9-Deepak-Sharma/20923">
+                                                        Associate Big Data Engineer
+                                                    </a>
+                                                </h3>
+                                            
+                                            
+                                                                                            <div class="article__header__text__subtitle">
+                                                    
+                                                                                                                                                                
+                                                                                                                                                                
+                                                                                                                                                                
+                                                                                                                                                        <span class="list-item-location">Pune, India</span> <span class="separator" aria-hidden="true">&nbsp;&#8226;&nbsp;</span> <span class="list-item-ref">Job ID: 20923</span> <span class="separator" aria-hidden="true">&nbsp;&#8226;&nbsp;</span> <span class="list-item-posted">12-Oct-2026</span>
+
+                                                </div>
+                                                                                    </div>
+
+                                                                            </div>
+
+                                    
+                                    <div class="article__footer">
+                                                                                    <a class="button button--secondary button--apply" href="https://www.metlifecareers.com/en_US/ml/JobDetail/Big-Data-Engineer-GG9-Deepak-Sharma/20923" tabindex="0">
+                                                Apply                                            </a>
+                                        
+                                                                                        
+                                                                            </div>
+                                </article>
+                                                                                                                                                            
+                                                                                                                                                                                                    
+                                                                                                
+                                
+                                                                                                                                    
+                                <article class="article article--result" id="article--5">
+                                    <div class="article__header">
+                                        <div class="article__header__text">
+                                                                                            <h3 class="article__header__text__title title title--07">
+                                                                                                        <a class="link" href="https://www.metlifecareers.com/en_US/ml/JobDetail/2027-METx-Data-Analytics-Internship-Program/20702">
+                                                        METx D&amp;A Intern
+                                                    </a>
+                                                </h3>
+                                            
+                                            
+                                                                                            <div class="article__header__text__subtitle">
+                                                    
+                                                                                                                                                                
+                                                                                                                                                                
+                                                                                                                                                                
+                                                                                                                                                        <span class="list-item-location">Cary, United States</span> <span class="separator" aria-hidden="true">&nbsp;&#8226;&nbsp;</span> <span class="list-item-ref">Job ID: 20702</span> <span class="separator" aria-hidden="true">&nbsp;&#8226;&nbsp;</span> <span class="list-item-posted">30-Sep-2026</span>
+
+                                                </div>
+                                                                                    </div>
+
+                                                                            </div>
+
+                                    
+                                    <div class="article__footer">
+                                                                                    <a class="button button--secondary button--apply" href="https://www.metlifecareers.com/en_US/ml/JobDetail/2027-METx-Data-Analytics-Internship-Program/20702" tabindex="0">
+                                                Apply                                            </a>
+                                        
+                                                                                        
+                                                                            </div>
+                                </article>
+                                                                                                                                                            
+                                                                                                                                                                                                    
+                                                                                                
+                                
+                                                                                                                                    
+                                <article class="article article--result" id="article--6">
+                                    <div class="article__header">
+                                        <div class="article__header__text">
+                                                                                            <h3 class="article__header__text__title title title--07">
+                                                                                                        <a class="link" href="https://www.metlifecareers.com/en_US/ml/JobDetail/Senior-Data-Quality-Analyst-I-GPM-Mod/21040">
+                                                        Senior Data Quality Analyst I
+                                                    </a>
+                                                </h3>
+                                            
+                                            
+                                                                                            <div class="article__header__text__subtitle">
+                                                    
+                                                                                                                                                                
+                                                                                                                                                                
+                                                                                                                                                                
+                                                                                                                                                        <span class="list-item-location">Pune, India</span> <span class="separator" aria-hidden="true">&nbsp;&#8226;&nbsp;</span> <span class="list-item-ref">Job ID: 21040</span> <span class="separator" aria-hidden="true">&nbsp;&#8226;&nbsp;</span> <span class="list-item-posted">12-Oct-2026</span>
+
+                                                </div>
+                                                                                    </div>
+
+                                                                            </div>
+
+                                    
+                                    <div class="article__footer">
+                                                                                    <a class="button button--secondary button--apply" href="https://www.metlifecareers.com/en_US/ml/JobDetail/Senior-Data-Quality-Analyst-I-GPM-Mod/21040" tabindex="0">
+                                                Apply                                            </a>
+                                        
+                                                                                        
+                                                                            </div>
+                                </article>
+                                                    </div>
+                                    </div>
+
+                <div class="list-controls list-controls--bottom clearfix">
+                    
+
+<div class="list-controls__text">
+                        <div class="list-controls__text__legend " aria-label="39 results" tabindex="0">
+                1-6
+                                    of 39                
+                 Results
+            </div>
+        
+                                | Displaying                            6
+            
+             Results
+        
+    
+    </div>
+
+
+
+            
+    <div class="list-controls__pagination">
+        <nav aria-label="Pagination Navigation">
+                                                                        <span class="list-controls__pagination__item paginationLink currentPageLink" aria-label="Page 1" aria-current="true">
+                            <span class="visibility--hidden--visually">
+                                Page                            </span>
+
+                            1
+                        </span>
+                                                                                                                                                                                                            
+                        <a class="list-controls__pagination__item paginationLink"
+                            href="https://www.metlifecareers.com/en_US/ml/SearchJobs/data?jobRecordsPerPage=6&amp;jobOffset=6"
+                            aria-label="Go to Page Number 2"
+                        >
+                            2
+                        </a>
+                                                                                                                                                                                                            
+                        <a class="list-controls__pagination__item paginationLink"
+                            href="https://www.metlifecareers.com/en_US/ml/SearchJobs/data?jobRecordsPerPage=6&amp;jobOffset=12"
+                            aria-label="Go to Page Number 3"
+                        >
+                            3
+                        </a>
+                                                                                                                                                                                                                                                                                                                            
+                        <a class="list-controls__pagination__item paginationNextLink"
+                            href="https://www.metlifecareers.com/en_US/ml/SearchJobs/data?jobRecordsPerPage=6&amp;jobOffset=6"
+                            aria-label="Go to Next Page, Number 2"
+                        >
+                            Next &gt;
+                        </a>
+                                                        </nav>
+    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+                                            </div>
+                </div>
+                            </main>
+
+                            <div class="banner banner--secondary banner--secondary--bottom">
+        <div class="banner__wrapper">
+            <div class="banner__text banner__text--center">
+                <h2 class="banner__text__title title title--07">
+                    <span class="banner__text__title__phrase">
+                        Didn't find what you're looking for?                    </span>
+                                            <a class="button button--primary" href="https://www.metlifecareers.com/en_US/ml/TalentCommunity">Join Our Talent Community</a>
+                    
+                                    </h2>
+            </div>
+        </div>
+    </section>
+    
+                            
+                <footer class="footer" aria-label="WEWF">
+                    <div class="footer__content--links ">
+                        <div class="links__wrapper">
+                            <div class="footer__social">
+                                                                    <a class="footer__social__linkedin link" href="https://www.linkedin.com/company/metlife" target="_blank" rel="noopener noreferrer"></a>
+
+                                    <a class="footer__social__youtube link" href="https://www.youtube.com/@Metlife" target="_blank" rel="noopener noreferrer"></a>
+                                                            </div>
+                            <div class="footer__links">
+                                                                    <a class="footer__links__item link" href="https://www.metlife.com/about-us/" target="_blank" rel="noopener noreferrer">
+                                        About MetLife                                    </a>
+
+                                    <a class="footer__links__item link" href="https://www.metlife.com/recruitmentprivacynotice/" target="_blank" rel="noopener noreferrer">
+                                        Privacy Notice                                    </a>
+
+                                    <a class="footer__links__item link" href="#" target="_blank" rel="noopener noreferrer">
+                                            <p> </p>                                    </a>
+                                                            </div>
+                            <div class="footer__rights__copy">
+                                &copy;
+                                2026
+                                                                    MetLife
+                                    Services and Solutions, LLC.                                    <span class="footer__rights--text">New York, NY 10166 - All Rights Reserved.</span>
+                                                            </div>
+                        </div>
+                    </div>
+                </footer>
+                    </div>
+
+        <script type='text/javascript'>/**
+    * This variable will define every property we need to pass to Templates core library as we can't define twig variables on JS files.
+*/
+
+var twigConfig = {
+        "pageParameters": {
+            "personSort": null,
+            "personSortDirection": null,
+            "jobSort": null,
+            "jobSortDirection": null,
+            "jobRecordsPerPage": "",
+            "personRecordsPerPage": ""
+        },
+        "jobLabel": "job",
+        "STEP_INDEX": "" || null,
+        "wizardModalViewEnabled": "" || false,
+        "wizardHasErrors": "" || false,
+        "sortedBy": "Sorted by ",
+        "loading": "Loading ",
+        "plugins": {
+            "popper": {
+                "js": "https://templates-static-assets.avacdn.net/jsLibrary/plugins/tippy/popper.min.js"
+            },
+            "tooltip": {
+                "js": "https://templates-static-assets.avacdn.net/jsLibrary/plugins/tippy/tippy-bundle.umd.js",
+                "css": "https://templates-static-assets.avacdn.net/jsLibrary/plugins/tippy/tippy.css"
+            },
+            "popup": {
+                "js": "https://templates-static-assets.avacdn.net/jsLibrary/plugins/glightbox/glightbox.min.js",
+                "css": "https://templates-static-assets.avacdn.net/jsLibrary/plugins/glightbox/glightbox.min.css"
+            },
+            "slider": {
+                "js": "https://templates-static-assets.avacdn.net/jsLibrary/plugins/swiper/swiper-bundle.min.js",
+                "css": "https://templates-static-assets.avacdn.net/jsLibrary/plugins/swiper/swiper-bundle.min.css"
+            },
+            "google": {
+                "jsMarkerCluster": "https://templates-static-assets.avacdn.net/jsLibrary/plugins/googlemaps/markerclusterer.js",
+                "apiKey": ""
+            }
+        },
+        "menu": {"typeByDefault":"visible","typeBelowBreakpoint":{"enabled":true,"type":"toggleable","breakpoint":1024},"toggleSide":"right","panelFrom":"right","panelEffect":"over"},
+        "search": {"typeByDefault":"visible","typeBelowBreakpoint":{"enabled":true,"type":"toggleable","breakpoint":1024,"preventTabsConflicts":true}},
+        "results": {"resultsDisplayTypeByDefault":"listed","resultsDisplayTypeBelowBreakpoint":{"enabled":true,"type":"grided","breakpoint":750},"resultsItemTypeByDefault":"result","resultsItemTypeBelowBreakpoint":{"enabled":true,"type":"card","breakpoint":750}},
+        "stickyAside": 0,
+        "stickyHeader": 1,
+        "stickyBanner": 0,
+        "page": {
+            "PORTAL_BASE_REAL_URL": "https://www.metlifecareers.com/portal/37",
+            "wizardPageBackTo": "",
+        },
+        "relatedJobs": {
+            "relatedJobsEnabled": 1,
+            "url": "",
+            "selector": "#relatedJobs"
+        },
+        "convertDatesToUserTZ": {
+            "CSSClass": "timelocal",
+            "convertDatesToUserTZEnabled": 1,
+            "loggedUserTZ": Intl.DateTimeFormat().resolvedOptions().timeZone,
+            "weekday": "long",
+            "day": "numeric",
+            "month": "long",
+            "hour": "numeric",
+            "minute": "numeric",
+            "hour12": "1",
+        },
+        "userLang": "en_US",
+        "breadcrumbsEnabled": 0,
+        "googleMapsEnabled": 0,
+        "googleMarkerClusterEnabled": 0,
+        "googleParameters": {
+            "dataUrl": "//www.metlifecareers.com/en_US/ml/SearchJobs/data?search=data",
+            "centerLatitude": 0,
+            "centerLongitude": 0,
+            "startZoom": 3,
+            "infoWindowCSSClassDiv": "info-window",
+            "infoWindowCSSClassHeader": "info-window__header",
+            "infoWindowCSSClassLink": "link info-window__link"
+        },
+        "browsingHistory": {
+            "browsingHistoryEnabled": 1,
+            "url": "",
+            "selector": "#browsingHistory"
+        },
+        "widgetRelatedJobs": {
+            "relatedJobsEnabled": 1,
+            "url": "",
+            "selector": "#widgetRelatedJobs"
+        },
+        "widgetOpenPositions":{
+            "url": "",
+            "selector": "#widgetOpenPositions"
+        },
+        "widgetRecommendations":{
+            "widgetRecommendationsEnabled": 1,
+            "url": "",
+            "selector": "#widgetRecommendations"
+        },
+        "languageSwitcherFlagsPath": "https://templates-static-assets.avacdn.net/assets/flags",
+        "enableLanguageSwitcherFlags": 0,
+        "enableSectionCollapsibleAccordionDisplay": 0,
+        "adobeAnalytics": {
+            "enabled": 1,
+            "linkClickEventInNavbar": {
+                "enabled": 1,
+                "componentName": "Megamenu",
+                "redirectDelay": 500
+            },
+            "searchCompleteEvent": {
+                "enabled": 1,
+                "attributesOfSearch": {"keywords":"data"}
+            }
+        }
+    };
+
+var lightbox;
+var slider;
+var Templates;
+</script>        <script src="https://templates-static-assets.avacdn.net/jsLibrary/23.3/core.min.js" defer></script>
+        <script src="/portal/37/js/specifics.js?v=1791575837" defer></script>
+
+    <script src="/portalpacks/web/js/session-popup.WW7-Ji2q.js" type="module"></script><script>pjQuery(function() { var domManager = new DomManager(); domManager.run(); });</script><script src="/ASSET/wizard/portal/jquery/plugin/select2/select2.full.min.js?version=10.85.85-stable"></script><script src="/ASSET/wizard/portal/jquery/plugin/select2/select2_locale_en.js?version=10.85.85-stable"></script><script src="/portalpacks/web/js/wizard-legacy.JHFvg0ob.js" type="module"></script><script type="text/javascript">
+        var service = EventManager.getInstance();
+        service.addEventHandler(EventManager.EVENT_LOAD_NAME, function() {AccessibleErrorValidationHandler.setWizardValidationAccessible.apply(this, ["There are some errors, please correct them.","Show details","Hide details",""])}, EventManager.PRIORITY_MEDIUM);
+</script><portal-data id="synapserBootstrap" data-enabled data-usePermanentConnection="true" data-pageSessionId data-applicationName="customPortal" data-applicationCode="customPortal_37" data-logoutUrl data-publicSessionName="o3bO-hNZkZ-QZFqf6WZtE27NNSCE" data-cortex="2" data-trackerCode="ic1cBGLwMWTNVX0vmb8MyRciyVTk" data-packVersion="609173fec67fc4fb0ac7d1f209709d210e6ff697"></portal-data><portal-data id="showAlertOnSessionIdleTimeout" data-title="Your session has expired" data-message="For the privacy and security of your information, sessions automatically end after a long period of inactivity." data-mainButton="Go back to home page" data-timeout="3601000" data-portalUrl="https://www.metlifecareers.com/en_US/ml"></portal-data><portal-data id="showAlertOnSessionMaxLifetime" data-title="Your session has expired" data-message="For privacy and security reasons, your user session expired because it reached its maximum duration." data-mainButton="Go back to home page" data-timeout="86401000" data-portalUrl="https://www.metlifecareers.com/en_US/ml"></portal-data><portal-data id="sessionConfigData" data-checkInterval="600000" data-interceptorCheckInterval="1000" data-maxLifetimeVerificationMode="local" data-interceptorEnabled="1"></portal-data></body>
+</html>
+                                                        
+
+                
+    
+    
+
+        
+    
+
+    
+        
+        
+
+    
