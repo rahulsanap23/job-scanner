@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-10-23T19:29:46+00:00",
+  "generated_at": "2026-10-23T19:33:48+00:00",
   "date": "2026-10-24",
   "recency_days": 30,
   "companies_total": 190,
@@ -63,8 +63,8 @@
    "Yes Bank"
   ],
   "jobs": 94,
-  "companies_with_jobs": 33,
-  "uncertain": 5
+  "companies_with_jobs": 31,
+  "uncertain": 13
  },
  "jobs": [
   {
@@ -143,7 +143,9 @@
    "url": "https://jobs.smartrecruiters.com/Avaloq1/744000154960286",
    "source": "smartrecruiters",
    "match": "keyword:data platform",
-   "flags": [],
+   "flags": [
+    "title borderline"
+   ],
    "first_seen": "2026-10-24",
    "new": true
   },
@@ -559,7 +561,9 @@
    "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Pyspark-Data-Analyst_26998266",
    "source": "workday",
    "match": "keyword:pyspark",
-   "flags": [],
+   "flags": [
+    "title borderline"
+   ],
    "first_seen": "2026-10-24",
    "new": true
   },
@@ -646,7 +650,7 @@
   {
    "company": "Cummins",
    "title": "AI Data Engineer - Senior",
-   "location": "Pune, IND; Pune; Pune,; India",
+   "location": "Pune, India",
    "location_tags": [
     "Pune"
    ],
@@ -671,7 +675,9 @@
    "url": "https://jobs.ashbyhq.com/ddn/bb7c31e5-4a28-4dfc-bc19-7ac5e3d5f21b",
    "source": "ashby",
    "match": "keyword:data platform",
-   "flags": [],
+   "flags": [
+    "title borderline"
+   ],
    "first_seen": "2026-10-24",
    "new": true
   },
@@ -894,7 +900,7 @@
   {
    "company": "Google",
    "title": "Data Analytics Customer Engineer, Google Cloud (English)",
-   "location": "Mumbai, IND; Mumbai; Mumbai,; India",
+   "location": "Mumbai, India",
    "location_tags": [
     "Mumbai"
    ],
@@ -903,14 +909,16 @@
    "url": "https://dejobs.org/mumbai-ind/data-analytics-customer-engineer-google-cloud-english/43BF194B9C2A4FE0A4D8B92B97B1CC40/job/",
    "source": "jobsyn",
    "match": "pattern",
-   "flags": [],
+   "flags": [
+    "title borderline"
+   ],
    "first_seen": "2026-10-24",
    "new": true
   },
   {
    "company": "HSBC",
    "title": "SSIS, ETL, Dynamics CRM, Kingswaysoft, ADF/Senior Consultant Specialist",
-   "location": "Pune, IND; Pune; Pune,; India",
+   "location": "Pune, India",
    "location_tags": [
     "Pune"
    ],
@@ -919,7 +927,9 @@
    "url": "https://dejobs.org/pune-ind/ssis-etl-dynamics-crm-kingswaysoft-adfsenior-consultant-specialist/7545901A74B24812894DBFB61D5E25A3/job/",
    "source": "jobsyn",
    "match": "keyword:etl",
-   "flags": [],
+   "flags": [
+    "title borderline"
+   ],
    "first_seen": "2026-10-24",
    "new": true
   },
@@ -940,40 +950,6 @@
    "new": true
   },
   {
-   "company": "JPMorgan Chase",
-   "title": "Software Engineer II - Agentic AI, Java , AWS , Springboot , Kafka",
-   "location": "Mumbai, Maharashtra, India",
-   "location_tags": [
-    "Mumbai"
-   ],
-   "posted": "2026-09-30",
-   "days_ago": 24,
-   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210788631",
-   "source": "oracle",
-   "match": "keyword:kafka",
-   "flags": [],
-   "first_seen": "2026-10-24",
-   "new": true
-  },
-  {
-   "company": "Johnson Controls",
-   "title": "Engineering Manager (Java, .NET, Kafka, Angular): Building Management & Controls",
-   "location": "Pune-Maharashtra-India",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": "2026-10-23",
-   "days_ago": 1,
-   "url": "https://jci.wd5.myworkdayjobs.com/en-US/JCI/job/Pune-Maharashtra-India/Engineering-Manager_WD30281723-1",
-   "source": "workday",
-   "match": "keyword:kafka",
-   "flags": [
-    "title borderline"
-   ],
-   "first_seen": "2026-10-24",
-   "new": true
-  },
-  {
    "company": "M&G",
    "title": "Test Lead - Enterprise Data Platform",
    "location": "Pune",
@@ -985,7 +961,9 @@
    "url": "https://mgpru.wd3.myworkdayjobs.com/en-US/mandgprudential/job/Pune/Test-Lead---Enterprise-Data-Platform_R20203",
    "source": "workday",
    "match": "keyword:data platform",
-   "flags": [],
+   "flags": [
+    "title borderline"
+   ],
    "first_seen": "2026-10-24",
    "new": true
   },
@@ -1017,22 +995,6 @@
    "url": "https://maersk.wd3.myworkdayjobs.com/en-US/Maersk_Careers/job/IN---Pune/Sr-Data-Architect---BI-Analyst_R200012",
    "source": "workday",
    "match": "title",
-   "flags": [],
-   "first_seen": "2026-10-24",
-   "new": true
-  },
-  {
-   "company": "Mastercard",
-   "title": "Lead Software Engineer - Java Spring Boot, Kafka and Event-Driven Architecture",
-   "location": "Pune, India",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": "2026-10-24",
-   "days_ago": 0,
-   "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Lead-Software-Engineer---Java-Spring-Boot--Kafka-and-Event-Driven-Architecture_R-294147",
-   "source": "workday",
-   "match": "keyword:kafka",
    "flags": [],
    "first_seen": "2026-10-24",
    "new": true
@@ -1407,6 +1369,22 @@
   },
   {
    "company": "Siemens Digital Industries Software",
+   "title": "Data Engineer",
+   "location": "Multiple Locations",
+   "location_tags": [],
+   "posted": null,
+   "days_ago": null,
+   "url": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/525786",
+   "source": "avature",
+   "match": "title",
+   "flags": [
+    "multiple locations - check"
+   ],
+   "first_seen": "2026-10-24",
+   "new": true
+  },
+  {
+   "company": "Siemens Digital Industries Software",
    "title": "Data Engineer ( 2 to 5 Years)",
    "location": "Pune",
    "location_tags": [
@@ -1434,6 +1412,38 @@
    "source": "avature",
    "match": "pattern",
    "flags": [],
+   "first_seen": "2026-10-24",
+   "new": true
+  },
+  {
+   "company": "Siemens Digital Industries Software",
+   "title": "Senior Analytics Engineer (m/f/d)",
+   "location": "Multiple Locations",
+   "location_tags": [],
+   "posted": null,
+   "days_ago": null,
+   "url": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/525818",
+   "source": "avature",
+   "match": "title",
+   "flags": [
+    "multiple locations - check"
+   ],
+   "first_seen": "2026-10-24",
+   "new": true
+  },
+  {
+   "company": "Siemens Digital Industries Software",
+   "title": "Senior Analytics Engineer - Data Domain Material Supply",
+   "location": "Multiple Locations",
+   "location_tags": [],
+   "posted": null,
+   "days_ago": null,
+   "url": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/525927",
+   "source": "avature",
+   "match": "title",
+   "flags": [
+    "multiple locations - check"
+   ],
    "first_seen": "2026-10-24",
    "new": true
   },

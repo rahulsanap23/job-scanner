@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-10-23T19:29:46+00:00",
+  "generated_at": "2026-10-23T19:33:48+00:00",
   "date": "2026-10-24",
   "recency_days": 30,
   "companies_total": 190,
@@ -63,8 +63,8 @@
    "Yes Bank"
   ],
   "jobs": 94,
-  "companies_with_jobs": 33,
-  "uncertain": 5
+  "companies_with_jobs": 31,
+  "uncertain": 13
  },
  "companies": [
   {
@@ -98,7 +98,7 @@
     "location: Snowflake Platform Leader | NJ-Jersey City; NJ-Parsippany; NY-New York; NC-Charlotte"
    ],
    "requests": 28,
-   "secs": 24.6
+   "secs": 24.8
   },
   {
    "company": "Abbott",
@@ -116,7 +116,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 12,
-   "secs": 13.3
+   "secs": 12.4
   },
   {
    "company": "Air Products",
@@ -134,7 +134,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 10,
-   "secs": 8.0
+   "secs": 7.5
   },
   {
    "company": "Airbnb",
@@ -159,7 +159,7 @@
     "location: Staff Software Engineer, Data Warehouse | USA"
    ],
    "requests": 1,
-   "secs": 0.2
+   "secs": 0.1
   },
   {
    "company": "AllianceBernstein (Equitable)",
@@ -177,7 +177,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 10,
-   "secs": 5.4
+   "secs": 6.8
   },
   {
    "company": "Allstate",
@@ -195,7 +195,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 10,
-   "secs": 8.0
+   "secs": 7.2
   },
   {
    "company": "Amadeus",
@@ -233,7 +233,7 @@
     "location: Data Engineer II, SPIV Data Engineering | Bengaluru, Karnataka, IND; IN, KA, Bengaluru"
    ],
    "requests": 14,
-   "secs": 7.2
+   "secs": 6.6
   },
   {
    "company": "Atlas Copco",
@@ -254,7 +254,7 @@
     "atlassian"
    ],
    "status": "ok",
-   "fetched": 358,
+   "fetched": 357,
    "title_matches": 14,
    "matched": 5,
    "errors": [],
@@ -271,7 +271,7 @@
     "location: Senior Data Engineer, DX | Salt Lake City - United States -   Salt Lake City, Utah 84044 United States; Rem"
    ],
    "requests": 1,
-   "secs": 0.4
+   "secs": 0.3
   },
   {
    "company": "Autodesk",
@@ -289,7 +289,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 10,
-   "secs": 6.9
+   "secs": 10.8
   },
   {
    "company": "Automattic",
@@ -323,7 +323,7 @@
     "older than 30d: Senior Snowflake Data & AI Platform Engineer | 2026-05-04T07:13:07.074Z"
    ],
    "requests": 1,
-   "secs": 0.5
+   "secs": 0.4
   },
   {
    "company": "Axis Bank",
@@ -356,7 +356,7 @@
     "location: Senior AI Data Architect / Solution Engineer - India based | Bangalore, India"
    ],
    "requests": 9,
-   "secs": 8.2
+   "secs": 8.3
   },
   {
    "company": "BMW TechWorks India",
@@ -413,7 +413,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 11,
-   "secs": 8.7
+   "secs": 8.2
   },
   {
    "company": "Bank of America",
@@ -431,7 +431,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 15,
-   "secs": 4.4
+   "secs": 4.1
   },
   {
    "company": "Barclays",
@@ -456,7 +456,7 @@
     "older than 30d: Senior ETL Data Egg | Posted 30+ Days Ago"
    ],
    "requests": 20,
-   "secs": 9.7
+   "secs": 10.1
   },
   {
    "company": "BillDesk",
@@ -499,7 +499,7 @@
     "avature"
    ],
    "status": "ok",
-   "fetched": 110,
+   "fetched": 109,
    "title_matches": 8,
    "matched": 0,
    "errors": [],
@@ -516,7 +516,7 @@
     "location: Senior Platform Engineer - Data License Plus | Dublin, Ireland"
    ],
    "requests": 15,
-   "secs": 19.4
+   "secs": 19.5
   },
   {
    "company": "BrightEdge",
@@ -532,7 +532,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.5
+   "secs": 0.6
   },
   {
    "company": "BrowserStack",
@@ -550,7 +550,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 11,
-   "secs": 6.3
+   "secs": 5.8
   },
   {
    "company": "CRED",
@@ -566,7 +566,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 5.2
+   "secs": 1.3
   },
   {
    "company": "Canonical",
@@ -605,7 +605,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 9,
-   "secs": 3.1
+   "secs": 3.2
   },
   {
    "company": "Cimpress",
@@ -644,7 +644,7 @@
     "older than 30d: Data Architect - 13+ years exp, Snowflake, dbt, Python | 2026-07-27"
    ],
    "requests": 41,
-   "secs": 15.5
+   "secs": 14.6
   },
   {
    "company": "Citi",
@@ -671,7 +671,7 @@
     "location: Intermediate Software Engineer – Data Application Developer | Chennai Tamil Nadu India"
    ],
    "requests": 46,
-   "secs": 41.6
+   "secs": 41.1
   },
   {
    "company": "Claroda",
@@ -715,7 +715,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 10,
-   "secs": 5.0
+   "secs": 5.7
   },
   {
    "company": "Coinbase",
@@ -737,7 +737,7 @@
     "location: Staff Data Engineer, Market Data | Remote - USA"
    ],
    "requests": 1,
-   "secs": 0.1
+   "secs": 0.2
   },
   {
    "company": "Confluent",
@@ -769,7 +769,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.2
+   "secs": 0.1
   },
   {
    "company": "CrowdStrike",
@@ -787,7 +787,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 10,
-   "secs": 5.2
+   "secs": 5.1
   },
   {
    "company": "Cummins",
@@ -812,7 +812,7 @@
     "older than 30d: Data Engineer 8 | 2026-08-25T08:30:38Z"
    ],
    "requests": 36,
-   "secs": 3.8
+   "secs": 3.4
   },
   {
    "company": "DBS Bank",
@@ -832,7 +832,7 @@
     "location: Associate, Data Engineer, Transformation and Data | Hyderabad - DTI Skyview SEZ"
    ],
    "requests": 16,
-   "secs": 9.8
+   "secs": 9.9
   },
   {
    "company": "DDN",
@@ -853,7 +853,7 @@
     "location: Senior Analytics Engineer | New York Office"
    ],
    "requests": 1,
-   "secs": 0.2
+   "secs": 0.1
   },
   {
    "company": "DNV",
@@ -924,7 +924,7 @@
     "location: AVP – Data Engineer | Bangalore Velankani ISC"
    ],
    "requests": 25,
-   "secs": 17.8
+   "secs": 18.1
   },
   {
    "company": "DoorDash",
@@ -992,7 +992,7 @@
     "older than 30d: Software Engineer (Data Engineering) | 1671896011139"
    ],
    "requests": 1,
-   "secs": 1.5
+   "secs": 2.2
   },
   {
    "company": "Druva",
@@ -1050,7 +1050,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 20,
-   "secs": 6.2
+   "secs": 6.4
   },
   {
    "company": "Ecolab",
@@ -1077,7 +1077,7 @@
     "location: AI engineer-Data Databricks Pltform | IND - Karnataka - Bangalore - EDC"
    ],
    "requests": 16,
-   "secs": 6.0
+   "secs": 6.3
   },
   {
    "company": "Emerson",
@@ -1095,7 +1095,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 15,
-   "secs": 8.7
+   "secs": 8.5
   },
   {
    "company": "Emirates NBD",
@@ -1113,7 +1113,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 10,
-   "secs": 6.7
+   "secs": 4.9
   },
   {
    "company": "Equinix",
@@ -1133,7 +1133,7 @@
     "location: Senior Associate GCP Data Engineer | Bangalore Office BLS2"
    ],
    "requests": 10,
-   "secs": 11.4
+   "secs": 6.0
   },
   {
    "company": "Eruditus",
@@ -1166,7 +1166,7 @@
     "location: Software Engineer Senior(Snowflake, DBT) | IND BNGL FL2-3 TWR 3"
    ],
    "requests": 14,
-   "secs": 6.2
+   "secs": 5.0
   },
   {
    "company": "FORVIA",
@@ -1262,7 +1262,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 10,
-   "secs": 3.6
+   "secs": 4.2
   },
   {
    "company": "Fivetran",
@@ -1287,7 +1287,7 @@
     "location: Staff Product Manager - dbt v2 | Remote, Colorado, United States, AMER"
    ],
    "requests": 1,
-   "secs": 0.1
+   "secs": 0.2
   },
   {
    "company": "Freshworks",
@@ -1303,7 +1303,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.5
+   "secs": 0.4
   },
   {
    "company": "Gallagher",
@@ -1326,7 +1326,7 @@
     "older than 30d: Senior Gen AI Data Engineer | 2026-09-11T10:52:00+0000"
    ],
    "requests": 39,
-   "secs": 11.5
+   "secs": 12.9
   },
   {
    "company": "General Mills",
@@ -1353,7 +1353,7 @@
     "older than 30d: Senior Data Engineer (10–12 Years' Experience Required) | Posted 30+ Days Ago"
    ],
    "requests": 24,
-   "secs": 14.0
+   "secs": 15.9
   },
   {
    "company": "GitLab",
@@ -1413,7 +1413,7 @@
     "location: The Core Engineering-Compliance, Senior Backend Engineer (Java & ETL Specialist), Vice President, Dallas | Dallas, TX, United States"
    ],
    "requests": 30,
-   "secs": 3.6
+   "secs": 4.1
   },
   {
    "company": "Google",
@@ -1429,7 +1429,7 @@
    "careers_url": "https://www.google.com/about/careers/applications/jobs/results?location=India",
    "rejected_examples": [],
    "requests": 22,
-   "secs": 3.1
+   "secs": 1.8
   },
   {
    "company": "HDFC Bank",
@@ -1471,7 +1471,7 @@
    "careers_url": "https://mycareer.hsbc.com/en_GB/external/SearchJobs",
    "rejected_examples": [],
    "requests": 25,
-   "secs": 2.7
+   "secs": 2.1
   },
   {
    "company": "HighLevel",
@@ -1490,7 +1490,7 @@
     "older than 30d: Sr. Product Manager - Custom Objects & CRM Data Platform | 1789037867856"
    ],
    "requests": 1,
-   "secs": 16.5
+   "secs": 1.1
   },
   {
    "company": "Hitachi (Vantara, Payment Services)",
@@ -1512,7 +1512,7 @@
     "location: Legal & Integrity Operations Developer & Data Analyst | Bengaluru, Karnataka, India"
    ],
    "requests": 26,
-   "secs": 22.6
+   "secs": 23.7
   },
   {
    "company": "Honeywell",
@@ -1530,7 +1530,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 16,
-   "secs": 9.7
+   "secs": 9.5
   },
   {
    "company": "ICE",
@@ -1550,7 +1550,7 @@
     "location: Senior Developer, Data Engineer | Hyderabad, India; Hyderabad, India"
    ],
    "requests": 25,
-   "secs": 6.7
+   "secs": 7.7
   },
   {
    "company": "ICICI Bank",
@@ -1607,7 +1607,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 10,
-   "secs": 5.5
+   "secs": 5.9
   },
   {
    "company": "IndusInd Bank",
@@ -1628,25 +1628,23 @@
     "oracle"
    ],
    "status": "ok",
-   "fetched": 253,
-   "title_matches": 8,
-   "matched": 1,
+   "fetched": 254,
+   "title_matches": 5,
+   "matched": 0,
    "errors": [],
    "notes": [
     "oracle: locationId=India"
    ],
    "careers_url": "https://careers.jpmorgan.com/",
    "rejected_examples": [
-    "location: Lead Software Engineer - Java, Oracle, Kafka, MongoDB | Bengaluru, Karnataka, India",
     "location: Data Engineer III - Databricks, Pyspark, Python, AWS | Bengaluru, Karnataka, India",
     "location: Lead Software Engineer - Python, Data, Cloud, AIML | Bengaluru, Karnataka, India",
     "location: Principal Software Engineer -Forward Deployment Engineer - Databricks | Hyderabad, Telangana, India",
-    "location: Software Engineer II - Java, Spring , Mongo DB, Kafka , Kubernetes | Bengaluru, Karnataka, India",
     "location: Data Engineer II - SRE | Bengaluru, Karnataka, India",
     "location: Senior Lead Software Engineer  Data Platform Python or Java, big data | Bengaluru, Karnataka, India"
    ],
    "requests": 21,
-   "secs": 9.7
+   "secs": 11.0
   },
   {
    "company": "Jefferies",
@@ -1701,7 +1699,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 18,
-   "secs": 7.8
+   "secs": 6.0
   },
   {
    "company": "Johnson & Johnson",
@@ -1719,7 +1717,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 13,
-   "secs": 5.3
+   "secs": 5.2
   },
   {
    "company": "Johnson Controls",
@@ -1728,8 +1726,8 @@
    ],
    "status": "ok",
    "fetched": 114,
-   "title_matches": 2,
-   "matched": 1,
+   "title_matches": 1,
+   "matched": 0,
    "errors": [],
    "notes": [
     "workday: locations in [Ahmedabad-Gujarat-India, Andheri(East), Mumbai-Maharashtra-India, Bangalore-Karnataka-India, Bengaluru-Karnataka-India, Chennai-Tamil Nadu-India, Gurgaon-Haryana-India…]"
@@ -1739,7 +1737,7 @@
     "location: Security Data & SIEM Engineer | Bangalore-Karnataka-India"
    ],
    "requests": 15,
-   "secs": 8.0
+   "secs": 7.6
   },
   {
    "company": "KONE",
@@ -1759,7 +1757,7 @@
     "older than 30d: Principal Data Engineer, Data Products | Posted 30+ Days Ago"
    ],
    "requests": 12,
-   "secs": 10.1
+   "secs": 9.1
   },
   {
    "company": "Kotak Mahindra Bank",
@@ -1798,7 +1796,7 @@
     "location: Data Platform Administrator | IND-Bangalore-TowerE,RMZ Infin"
    ],
    "requests": 24,
-   "secs": 20.4
+   "secs": 19.4
   },
   {
    "company": "Lentra",
@@ -1829,7 +1827,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 11,
-   "secs": 7.0
+   "secs": 7.4
   },
   {
    "company": "MSD (Merck & Co.)",
@@ -1853,7 +1851,7 @@
     "location: Lead Semantic Data Engineer | CZE - Central Bohemian - Prague (Five); IND - Telangana - Hyderabad; IND - Telan"
    ],
    "requests": 14,
-   "secs": 4.7
+   "secs": 5.0
   },
   {
    "company": "Maersk",
@@ -1874,7 +1872,7 @@
     "location: Lead Engineer - Data & AI | India, Bengaluru, 560064"
    ],
    "requests": 15,
-   "secs": 5.9
+   "secs": 6.1
   },
   {
    "company": "Marsh McLennan",
@@ -1895,7 +1893,7 @@
     "location: Oliver Wyman - Lead Data Engineer - Data and Analytics (DNA) - Gurugram, India | Gurugram - Horizon"
    ],
    "requests": 12,
-   "secs": 10.3
+   "secs": 10.5
   },
   {
    "company": "Marvell",
@@ -1913,7 +1911,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 11,
-   "secs": 6.6
+   "secs": 4.5
   },
   {
    "company": "Mastercard",
@@ -1922,8 +1920,8 @@
    ],
    "status": "ok",
    "fetched": 225,
-   "title_matches": 28,
-   "matched": 15,
+   "title_matches": 27,
+   "matched": 14,
    "errors": [],
    "notes": [
     "workday: locations in [Bangalore, India, Gurgaon, India, Gurgaon, India, Hyderabad, India, Mumbai, India, Mumbai, India…]"
@@ -1940,7 +1938,7 @@
     "location: Director Data Engineering | Hyderabad, India"
    ],
    "requests": 29,
-   "secs": 24.7
+   "secs": 23.5
   },
   {
    "company": "Media.net",
@@ -1971,7 +1969,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 12,
-   "secs": 6.4
+   "secs": 8.1
   },
   {
    "company": "Meesho",
@@ -1989,7 +1987,7 @@
     "location: Software Development Engineer III Data | Bangalore, Karnataka; Bangalore, Karnataka"
    ],
    "requests": 1,
-   "secs": 0.7
+   "secs": 1.2
   },
   {
    "company": "MetLife",
@@ -2008,7 +2006,7 @@
     "location: Lead Data Engineer | Cary, United States"
    ],
    "requests": 9,
-   "secs": 6.3
+   "secs": 6.6
   },
   {
    "company": "Michelin",
@@ -2026,7 +2024,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 10,
-   "secs": 9.5
+   "secs": 8.8
   },
   {
    "company": "Microsoft",
@@ -2045,7 +2043,7 @@
     "location: Principal Software Engineer - Data Platform | India, Karnataka, Bangalore; India, Telangana, Hyderabad"
    ],
    "requests": 28,
-   "secs": 5.6
+   "secs": 6.6
   },
   {
    "company": "Mindtickle",
@@ -2061,7 +2059,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.6
+   "secs": 1.0
   },
   {
    "company": "Mitsubishi Electric India",
@@ -2092,7 +2090,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 10,
-   "secs": 5.4
+   "secs": 5.5
   },
   {
    "company": "Mondelez",
@@ -2110,7 +2108,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 13,
-   "secs": 12.0
+   "secs": 12.2
   },
   {
    "company": "MongoDB",
@@ -2147,7 +2145,7 @@
     "location: HR Strats / Data Engineer _Vice President_HR Business Management | Bengaluru, Karnataka, India"
    ],
    "requests": 18,
-   "secs": 5.8
+   "secs": 6.8
   },
   {
    "company": "Mrsool",
@@ -2165,7 +2163,7 @@
     "older than 30d: Data Engineer II | 2026-09-17T00:00:00.000Z"
    ],
    "requests": 2,
-   "secs": 0.3
+   "secs": 0.2
   },
   {
    "company": "NEC Software Solutions",
@@ -2181,7 +2179,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.5
+   "secs": 0.4
   },
   {
    "company": "NICE",
@@ -2239,7 +2237,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.5
+   "secs": 0.6
   },
   {
    "company": "Nomura",
@@ -2255,7 +2253,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 26,
-   "secs": 8.4
+   "secs": 7.9
   },
   {
    "company": "Northern Trust",
@@ -2277,7 +2275,7 @@
     "older than 30d: Sr Analyst- L1 Support Engineer- Data platform Cloud support | Posted 30+ Days Ago"
    ],
    "requests": 14,
-   "secs": 10.2
+   "secs": 12.3
   },
   {
    "company": "Novartis",
@@ -2297,7 +2295,7 @@
     "location: Data Engineering Manager | Hyderabad (Office)"
    ],
    "requests": 15,
-   "secs": 11.6
+   "secs": 10.7
   },
   {
    "company": "Nutanix",
@@ -2316,7 +2314,7 @@
     "location: Sr. Manager, Analytics Engineering | San Jose, California"
    ],
    "requests": 1,
-   "secs": 0.7
+   "secs": 0.8
   },
   {
    "company": "Nvidia",
@@ -2334,7 +2332,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 20,
-   "secs": 16.3
+   "secs": 18.2
   },
   {
    "company": "Nykaa",
@@ -2374,7 +2372,7 @@
     "location: Sr. Sales Manager, Data Platform SLED | Sacramento, CA, United States; San Francisco, CA, United States; CA, United Stat"
    ],
    "requests": 37,
-   "secs": 30.5
+   "secs": 32.0
   },
   {
    "company": "P&G",
@@ -2397,7 +2395,7 @@
     "location: Senior Data Engineer (TOP Organization) | HYDERABAD OFFICE APAC PSC GDOP"
    ],
    "requests": 11,
-   "secs": 9.7
+   "secs": 9.8
   },
   {
    "company": "Panasonic Avionics",
@@ -2413,7 +2411,7 @@
    "careers_url": "https://www.panasonic.aero/join-us",
    "rejected_examples": [],
    "requests": 21,
-   "secs": 2.1
+   "secs": 2.7
   },
   {
    "company": "Pfizer",
@@ -2431,7 +2429,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 10,
-   "secs": 8.8
+   "secs": 8.7
   },
   {
    "company": "Philips",
@@ -2449,7 +2447,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 11,
-   "secs": 15.6
+   "secs": 16.9
   },
   {
    "company": "PhonePe",
@@ -2493,7 +2491,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 10,
-   "secs": 9.5
+   "secs": 4.3
   },
   {
    "company": "Principal Global Services",
@@ -2513,7 +2511,7 @@
     "location: Senior Data Engineer | Hyderabad, India; Hyderabad, Telangana, India"
    ],
    "requests": 18,
-   "secs": 5.0
+   "secs": 1.9
   },
   {
    "company": "PubMatic",
@@ -2562,7 +2560,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.2
+   "secs": 13.1
   },
   {
    "company": "Red Hat",
@@ -2580,7 +2578,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 10,
-   "secs": 5.2
+   "secs": 5.0
   },
   {
    "company": "Resilinc",
@@ -2598,7 +2596,7 @@
     "older than 30d: Senior Data Engineer | 1785403229609"
    ],
    "requests": 1,
-   "secs": 0.4
+   "secs": 0.5
   },
   {
    "company": "Rockwell Automation",
@@ -2616,7 +2614,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 11,
-   "secs": 12.1
+   "secs": 7.4
   },
   {
    "company": "Rubrik",
@@ -2655,7 +2653,7 @@
     "location: Principal / Associate Director – Data Management Engineering | Noida, Uttarpradesh"
    ],
    "requests": 13,
-   "secs": 9.2
+   "secs": 10.3
   },
   {
    "company": "SAP",
@@ -2671,7 +2669,7 @@
    "careers_url": "https://jobs.sap.com/",
    "rejected_examples": [],
    "requests": 21,
-   "secs": 2.8
+   "secs": 1.7
   },
   {
    "company": "SBI",
@@ -2693,7 +2691,7 @@
    ],
    "status": "ok",
    "fetched": 113,
-   "title_matches": 4,
+   "title_matches": 3,
    "matched": 0,
    "errors": [],
    "notes": [
@@ -2703,11 +2701,10 @@
    "rejected_examples": [
     "location: Data Engineering SMTS/LMTS | India - Hyderabad",
     "location: Customer Success Manager – Informatica Implementation Experience (CDI / Data Governance/ MDM) | India - Bangalore",
-    "location: Software Engineering PMTS (Apache, Kafka, Terraform) | India - Hyderabad",
     "location: Success Guide - Informatica Product experience mandatory | India - Bangalore"
    ],
    "requests": 17,
-   "secs": 9.7
+   "secs": 9.5
   },
   {
    "company": "Sandvik",
@@ -2727,7 +2724,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 20,
-   "secs": 13.8
+   "secs": 13.2
   },
   {
    "company": "Sciative",
@@ -2750,22 +2747,19 @@
    "status": "ok",
    "fetched": 41,
    "title_matches": 14,
-   "matched": 6,
+   "matched": 9,
    "errors": [],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [
-    "location: Data Engineer | Multiple Locations",
     "location: Senior Data Engineer - AI Solutions | Bangalore",
     "location: Data Platform Ops Engineer | Bangalore",
     "location: Marketing Data Engineer - (m/f/d) | Prague",
     "location: Senior Analytics Engineer | Bangalore",
-    "location: Senior Analytics Engineer - Anaplan | Bangalore",
-    "location: Senior Analytics Engineer (m/f/d) | Multiple Locations",
-    "location: Senior Analytics Engineer - Data Domain Material Supply | Multiple Locations"
+    "location: Senior Analytics Engineer - Anaplan | Bangalore"
    ],
    "requests": 16,
-   "secs": 23.4
+   "secs": 23.0
   },
   {
    "company": "Snowflake",
@@ -2790,7 +2784,7 @@
     "location: Senior Frontend Engineer, AI Product -  Observe by Snowflake | US-CA-Menlo Park"
    ],
    "requests": 1,
-   "secs": 0.4
+   "secs": 0.3
   },
   {
    "company": "Société Générale",
@@ -2821,7 +2815,7 @@
     "location: VP - Lead Data Engineer, AI & Delivery | Chennai, IND"
    ],
    "requests": 36,
-   "secs": 8.9
+   "secs": 9.2
   },
   {
    "company": "TIAA",
@@ -2877,7 +2871,7 @@
     "location: CDP - Lead Data Engineer | Bangalore HQ"
    ],
    "requests": 1,
-   "secs": 0.1
+   "secs": 0.2
   },
   {
    "company": "Telstra",
@@ -2895,7 +2889,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 10,
-   "secs": 6.8
+   "secs": 6.5
   },
   {
    "company": "Teradata",
@@ -2911,7 +2905,7 @@
    "careers_url": "https://careers.teradata.com/jobs",
    "rejected_examples": [],
    "requests": 22,
-   "secs": 2.1
+   "secs": 1.9
   },
   {
    "company": "Tesla",
@@ -2940,7 +2934,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 11,
-   "secs": 3.8
+   "secs": 4.1
   },
   {
    "company": "Thermo Fisher Scientific",
@@ -2967,7 +2961,7 @@
     "location: Data Engineer II | Bangalore, India"
    ],
    "requests": 19,
-   "secs": 6.9
+   "secs": 6.6
   },
   {
    "company": "Tietoevry",
@@ -3078,7 +3072,7 @@
     "location: Staff Software Engineer (L4) Data Platform | Remote - US"
    ],
    "requests": 1,
-   "secs": 0.1
+   "secs": 0.2
   },
   {
    "company": "UBS",
@@ -3138,7 +3132,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 10,
-   "secs": 3.5
+   "secs": 3.4
   },
   {
    "company": "Vector Informatik",
@@ -3174,7 +3168,7 @@
     "location: Solutions Engineer, Veeam Data Cloud Vault | Remote, France"
    ],
    "requests": 1,
-   "secs": 0.2
+   "secs": 0.1
   },
   {
    "company": "Veritas Technologies",
@@ -3205,7 +3199,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 18,
-   "secs": 10.1
+   "secs": 10.5
   },
   {
    "company": "Visa",
@@ -3221,7 +3215,7 @@
    "careers_url": "https://corporate.visa.com/en/jobs/",
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.5
+   "secs": 0.4
   },
   {
    "company": "Vodafone (VOIS)",
@@ -3245,7 +3239,7 @@
     "older than 30d: OSS Performance Management & Analytics Engineer(InfoVista & Kibana)  -Pune | 1786516586"
    ],
    "requests": 27,
-   "secs": 9.4
+   "secs": 8.7
   },
   {
    "company": "Volkswagen Group Digital Solutions",
@@ -3266,7 +3260,7 @@
     "workday"
    ],
    "status": "ok",
-   "fetched": 95,
+   "fetched": 96,
    "title_matches": 0,
    "matched": 0,
    "errors": [],
@@ -3276,7 +3270,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 14,
-   "secs": 11.4
+   "secs": 13.1
   },
   {
    "company": "Whirlpool",
@@ -3312,7 +3306,7 @@
     "older than 30d: Senior Data Engineer – Microsoft Fabric & Data Integration - Pune/Chennai | 2026-07-22"
    ],
    "requests": 12,
-   "secs": 10.7
+   "secs": 11.2
   },
   {
    "company": "Workday",
@@ -3330,7 +3324,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 12,
-   "secs": 27.2
+   "secs": 25.8
   },
   {
    "company": "Worldline",
@@ -3346,7 +3340,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 17,
-   "secs": 4.3
+   "secs": 4.1
   },
   {
    "company": "Wärtsilä",
@@ -3425,7 +3419,7 @@
    "careers_url": "https://www.bp.com/en/global/corporate/careers.html",
    "rejected_examples": [],
    "requests": 11,
-   "secs": 10.0
+   "secs": 10.3
   }
  ]
 }
