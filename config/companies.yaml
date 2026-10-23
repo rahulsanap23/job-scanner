@@ -1,0 +1,1072 @@
+# Target companies and where their jobs come from.
+#
+# Every company here is scanned daily by scanner/run.py. `sources` lists the
+# careers platforms to read (tried in order; a source marked `fallback: true`
+# only runs when the ones before it fail or return nothing). A company with no
+# sources is shown on the board as "not scanned automatically" with a link to
+# its careers page, so nothing is silently skipped.
+#
+# To add a company, copy an entry with the same platform and change the ids.
+# Platform ids come from the company's careers URL, e.g.
+#   https://citi.wd5.myworkdayjobs.com/2         -> workday host citi.wd5.myworkdayjobs.com, site "2"
+#   https://job-boards.greenhouse.io/databricks  -> greenhouse token databricks
+#   https://jobs.lever.co/cred                   -> lever site cred
+#   https://jobs.ashbyhq.com/snowflake           -> ashby org snowflake
+#   https://jobs.smartrecruiters.com/Ubisoft2    -> smartrecruiters company_id Ubisoft2
+
+companies:
+- name: Amazon
+  sources:
+  - type: amazon
+  careers_url: https://www.amazon.jobs/en/search?country=IND
+- name: PhonePe
+  sources: []
+  careers_url: https://www.phonepe.com/careers/
+  note: Greenhouse board stopped answering; check by hand
+- name: Google
+  sources:
+  - type: jobsyn
+    companies:
+    - Google
+  careers_url: https://www.google.com/about/careers/applications/jobs/results?location=India
+- name: Microsoft
+  sources:
+  - type: eightfold
+    host: apply.careers.microsoft.com
+    domain: microsoft.com
+  careers_url: https://apply.careers.microsoft.com/careers?location=India
+- name: JPMorgan Chase
+  aliases:
+  - JPMC
+  - JPMorganChase
+  - J.P. Morgan
+  sources:
+  - type: oracle
+    host: jpmc.fa.oraclecloud.com
+    site: CX_1001
+  careers_url: https://careers.jpmorgan.com/
+- name: Nvidia
+  sources:
+  - type: workday
+    host: nvidia.wd5.myworkdayjobs.com
+    tenant: nvidia
+    site: NVIDIAExternalCareerSite
+- name: bp
+  sources:
+  - type: workday
+    host: bpinternational.wd3.myworkdayjobs.com
+    tenant: bpinternational
+    site: bpCareers
+  careers_url: https://www.bp.com/en/global/corporate/careers.html
+- name: Bank of America
+  aliases:
+  - BofA
+  sources:
+  - type: workday
+    host: ghr.wd1.myworkdayjobs.com
+    tenant: ghr
+    site: lateral-ba_continuum
+  - type: jobsyn
+    companies:
+    - Bank of America
+    fallback: true
+- name: Citi
+  aliases:
+  - Citigroup
+  - Citibank
+  sources:
+  - type: workday
+    host: citi.wd5.myworkdayjobs.com
+    tenant: citi
+    site: '2'
+- name: BNP Paribas
+  sources: []
+  careers_url: https://group.bnpparibas/en/careers/all-job-offers/india
+  note: site blocks automated access
+- name: HSBC
+  sources:
+  - type: jobsyn
+    companies:
+    - HSBC
+  careers_url: https://mycareer.hsbc.com/en_GB/external/SearchJobs
+- name: Goldman Sachs
+  aliases:
+  - GS
+  sources:
+  - type: goldman
+  careers_url: https://higher.gs.com/results
+- name: Morgan Stanley
+  aliases:
+  - MS
+  sources:
+  - type: eightfold
+    host: morganstanley.eightfold.ai
+    domain: morganstanley.com
+- name: Tesla
+  sources: []
+  careers_url: https://www.tesla.com/careers/search/?country=IN
+  note: site blocks automated access
+- name: Johnson & Johnson
+  aliases:
+  - J&J
+  sources:
+  - type: workday
+    host: jj.wd5.myworkdayjobs.com
+    tenant: jj
+    site: jj
+- name: FedEx
+  sources: []
+  careers_url: https://careers.fedex.com/jobs
+  note: no India job feed found
+- name: UBS
+  aliases:
+  - Credit Suisse
+  sources: []
+  careers_url: https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012
+  note: BrassRing site, no public API
+- name: P&G
+  aliases:
+  - Procter & Gamble
+  sources:
+  - type: workday
+    host: pg.wd5.myworkdayjobs.com
+    tenant: pg
+    site: '1000'
+- name: MetLife
+  sources:
+  - type: avature
+    base: https://www.metlifecareers.com/en_US/ml
+- name: Société Générale
+  sources: []
+  careers_url: https://careers.societegenerale.com/en/search?refinementList%5BjobLocation%5D%5B0%5D=India
+  note: no public job feed found
+- name: Barclays
+  sources:
+  - type: workday
+    host: barclays.wd3.myworkdayjobs.com
+    tenant: barclays
+    site: External_Career_Site_Barclays
+- name: Deutsche Bank
+  sources:
+  - type: workday
+    host: db.wd3.myworkdayjobs.com
+    tenant: db
+    site: DBWebsite
+- name: SBI
+  sources: []
+  careers_url: https://sbi.co.in/web/careers
+  note: recruitment notices only, no job board
+- name: Allstate
+  sources:
+  - type: workday
+    host: allstate.wd5.myworkdayjobs.com
+    tenant: allstate
+    site: allstate_careers
+- name: MSD (Merck & Co.)
+  aliases:
+  - MSD
+  - Merck
+  sources:
+  - type: workday
+    host: msd.wd5.myworkdayjobs.com
+    tenant: msd
+    site: SearchJobs
+- name: Pfizer
+  sources:
+  - type: workday
+    host: pfizer.wd1.myworkdayjobs.com
+    tenant: pfizer
+    site: PfizerCareers
+- name: Mizuho
+  aliases:
+  - Mizhuo
+  sources:
+  - type: workday
+    host: mizuhogroup.wd102.myworkdayjobs.com
+    tenant: mizuhogroup
+    site: External
+- name: Oracle
+  sources:
+  - type: oracle
+    host: eeho.fa.us2.oraclecloud.com
+    site: CX_45001
+- name: Cisco
+  sources:
+  - type: workday
+    host: cisco.wd5.myworkdayjobs.com
+    tenant: cisco
+    site: Cisco_Careers
+- name: HDFC Bank
+  sources: []
+  careers_url: https://www.hdfc.bank.in/careers
+  note: no public job feed found
+- name: Maersk
+  sources:
+  - type: workday
+    host: maersk.wd3.myworkdayjobs.com
+    tenant: maersk
+    site: Maersk_Careers
+- name: Novartis
+  sources:
+  - type: workday
+    host: novartis.wd3.myworkdayjobs.com
+    tenant: novartis
+    site: Novartis_Careers
+- name: TIAA
+  sources:
+  - type: workday
+    host: tiaa.wd1.myworkdayjobs.com
+    tenant: tiaa
+    site: Search
+- name: Vodafone (VOIS)
+  aliases:
+  - VOIS
+  - _VOIS
+  - Vodafone
+  sources:
+  - type: eightfold
+    host: jobs.vodafone.com
+    domain: vodafone.com
+- name: John Deere
+  aliases:
+  - Deere
+  sources:
+  - type: eightfold
+    host: careers.deere.com
+    domain: johndeere.com
+    locations:
+    - Pune, Maharashtra, India
+    - India
+- name: Thermo Fisher Scientific
+  sources:
+  - type: workday
+    host: thermofisher.wd5.myworkdayjobs.com
+    tenant: thermofisher
+    site: thermofishercareers
+- name: Abbott
+  sources:
+  - type: workday
+    host: abbott.wd5.myworkdayjobs.com
+    tenant: abbott
+    site: abbottcareers
+- name: Salesforce
+  sources:
+  - type: workday
+    host: salesforce.wd12.myworkdayjobs.com
+    tenant: salesforce
+    site: External_Career_Site
+- name: SAP
+  sources:
+  - type: jobsyn
+    companies:
+    - SAP
+  careers_url: https://jobs.sap.com/
+- name: BNY
+  aliases:
+  - BNY Mellon
+  sources: []
+  careers_url: https://bny.wd1.myworkdayjobs.com/
+  note: no public job feed found
+- name: Honeywell
+  sources:
+  - type: oracle
+    host: ibqbjb.fa.ocs.oraclecloud.com
+    site: CX_1
+  - type: jobsyn
+    companies:
+    - Honeywell Technologies
+    - Honeywell Aerospace
+    fallback: true
+- name: Visa
+  sources:
+  - type: smartrecruiters
+    company_id: Visa
+  careers_url: https://corporate.visa.com/en/jobs/
+- name: Dow
+  sources:
+  - type: workday
+    host: dow.wd1.myworkdayjobs.com
+    tenant: dow
+    site: ExternalCareers
+- name: Standard Chartered
+  sources:
+  - type: csb_unify
+    base: https://jobs.standardchartered.com
+    locale: en_GB
+- name: Mondelez
+  sources:
+  - type: workday
+    host: mdlz.wd3.myworkdayjobs.com
+    tenant: mdlz
+    site: External
+- name: ICICI Bank
+  sources: []
+  careers_url: https://careers.icici.bank.in/
+  note: no public job feed found
+- name: Cummins
+  sources:
+  - type: jobsyn
+    companies:
+    - Cummins Inc.
+  careers_url: https://cummins.jobs/
+- name: Mastercard
+  sources:
+  - type: workday
+    host: mastercard.wd1.myworkdayjobs.com
+    tenant: mastercard
+    site: CorporateCareers
+- name: Medline
+  sources:
+  - type: workday
+    host: medline.wd5.myworkdayjobs.com
+    tenant: medline
+    site: Medline
+- name: Nomura
+  sources:
+  - type: csb
+    base: https://careers.nomura.com
+    locations:
+    - Mumbai
+    - India
+- name: Baker Hughes
+  sources:
+  - type: workday
+    host: bakerhughes.wd5.myworkdayjobs.com
+    tenant: bakerhughes
+    site: BakerHughes
+- name: Marsh McLennan
+  aliases:
+  - MMC
+  - Marsh
+  sources:
+  - type: workday
+    host: mmc.wd1.myworkdayjobs.com
+    tenant: mmc
+    site: MMC
+- name: Eaton
+  sources:
+  - type: eightfold
+    host: eaton.eightfold.ai
+    domain: eaton.com
+  - type: jobsyn
+    companies:
+    - Eaton Corporation
+    fallback: true
+- name: Priceline (Booking Holdings)
+  aliases:
+  - Priceline
+  - Booking Holdings
+  sources:
+  - type: workday
+    host: priceline.wd1.myworkdayjobs.com
+    tenant: priceline
+    site: Priceline
+- name: AIG
+  sources:
+  - type: workday
+    host: aig.wd1.myworkdayjobs.com
+    tenant: aig
+    site: aig
+- name: BlackRock
+  sources:
+  - type: workday
+    host: blackrock.wd1.myworkdayjobs.com
+    tenant: blackrock
+    site: BlackRock_Professional
+- name: Fiserv
+  sources:
+  - type: workday
+    host: fiserv.wd5.myworkdayjobs.com
+    tenant: fiserv
+    site: EXT
+- name: VMware (Broadcom)
+  aliases:
+  - VMware
+  - Broadcom
+  sources:
+  - type: workday
+    host: broadcom.wd1.myworkdayjobs.com
+    tenant: broadcom
+    site: External_Career
+- name: General Mills
+  sources:
+  - type: workday
+    host: genmills.wd1.myworkdayjobs.com
+    tenant: genmills
+    site: GMI_External_Careers
+- name: Emerson
+  sources:
+  - type: oracle
+    host: hdjq.fa.us2.oraclecloud.com
+    site: CX_1
+  - type: jobsyn
+    companies:
+    - Emerson
+    fallback: true
+- name: DBS Bank
+  aliases:
+  - DBS
+  sources:
+  - type: workday
+    host: dbs.wd3.myworkdayjobs.com
+    tenant: dbs
+    site: DBS_Careers
+- name: Ecolab
+  sources:
+  - type: workday
+    host: ecolab.wd1.myworkdayjobs.com
+    tenant: ecolab
+    site: Ecolab_External
+- name: Axis Bank
+  sources: []
+  careers_url: https://www.axis.bank.in/careers
+  note: no public job feed found
+- name: Principal Global Services
+  aliases:
+  - Principal
+  sources: []
+  careers_url: https://www.principal.com/about-us/careers
+  note: no public job feed found
+- name: Whirlpool
+  sources:
+  - type: eightfold
+    host: jobs.whirlpool.com
+    domain: whirlpool.com
+- name: Telstra
+  sources:
+  - type: workday
+    host: telstra.wd3.myworkdayjobs.com
+    tenant: telstra
+    site: Telstra_Careers
+- name: S&P Global
+  sources:
+  - type: workday
+    host: spgi.wd5.myworkdayjobs.com
+    tenant: spgi
+    site: SPGI_Careers
+- name: Jio
+  sources: []
+  careers_url: https://careers.jio.com/
+  note: no public job feed found
+- name: Northern Trust
+  sources:
+  - type: workday
+    host: ntrs.wd1.myworkdayjobs.com
+    tenant: ntrs
+    site: northerntrust
+- name: Gallagher
+  aliases:
+  - AJG
+  - Arthur J. Gallagher
+  sources:
+  - type: jibe
+    base: https://jobs.ajg.com
+- name: DoorDash
+  sources:
+  - type: greenhouse
+    token: doordashindia
+- name: Kotak Mahindra Bank
+  aliases:
+  - Kotak
+  sources: []
+  careers_url: https://www.kotak.bank.in/en/about-us/careers.html
+  note: no public job feed found
+- name: Bloomberg
+  sources:
+  - type: avature
+    base: https://bloomberg.avature.net/careers
+- name: ICE
+  aliases:
+  - Intercontinental Exchange
+  sources:
+  - type: jibe
+    base: https://careers.ice.com
+- name: Airbnb
+  sources:
+  - type: greenhouse
+    token: airbnb
+- name: Air Products
+  sources:
+  - type: workday
+    host: airproducts.wd5.myworkdayjobs.com
+    tenant: airproducts
+    site: AP0001
+- name: Emirates NBD
+  sources:
+  - type: oracle
+    host: fa-evlo-saasfaprod1.fa.ocs.oraclecloud.com
+    site: CX_1
+- name: AllianceBernstein (Equitable)
+  aliases:
+  - AllianceBernstein
+  - AB
+  - Equitable
+  sources:
+  - type: workday
+    host: abglobal.wd1.myworkdayjobs.com
+    tenant: abglobal
+    site: alliancebernsteincareers
+- name: LSEG
+  aliases:
+  - London Stock Exchange Group
+  sources:
+  - type: workday
+    host: lseg.wd3.myworkdayjobs.com
+    tenant: lseg
+    site: Careers
+- name: Jefferies
+  sources: []
+  careers_url: https://www.jefferies.com/careers/
+  note: no public job feed found
+- name: FIS
+  aliases:
+  - FIS Global
+  - Worldpay
+  sources:
+  - type: workday
+    host: fis.wd5.myworkdayjobs.com
+    tenant: fis
+    site: SearchJobs
+- name: Vertiv
+  sources:
+  - type: oracle
+    host: egup.fa.us2.oraclecloud.com
+    site: CX
+- name: Workday
+  sources:
+  - type: workday
+    host: workday.wd5.myworkdayjobs.com
+    tenant: workday
+    site: Workday
+- name: Equinix
+  sources:
+  - type: workday
+    host: equinix.wd1.myworkdayjobs.com
+    tenant: equinix
+    site: External
+- name: Rockwell Automation
+  sources:
+  - type: workday
+    host: rockwellautomation.wd1.myworkdayjobs.com
+    tenant: rockwellautomation
+    site: External_Rockwell_Automation
+- name: Marvell
+  sources:
+  - type: workday
+    host: marvell.wd1.myworkdayjobs.com
+    tenant: marvell
+    site: MarvellCareers
+- name: Voya
+  sources:
+  - type: workday
+    host: godirect.wd5.myworkdayjobs.com
+    tenant: godirect
+    site: voya_jobs
+- name: Fanatics
+  sources: []
+  careers_url: https://www.fanaticsinc.com/careers
+  note: no public job feed found
+- name: Dassault Systèmes
+  aliases:
+  - Dassault Systemes
+  - 3DS
+  sources: []
+  careers_url: https://www.3ds.com/careers/jobs?location=Pune
+  note: no public job feed found
+- name: IndusInd Bank
+  sources: []
+  careers_url: https://www.indusind.com/in/en/careers.html
+  note: no public job feed found
+- name: Coinbase
+  sources:
+  - type: greenhouse
+    token: coinbase
+- name: Autodesk
+  sources:
+  - type: workday
+    host: autodesk.wd1.myworkdayjobs.com
+    tenant: autodesk
+    site: Ext
+- name: Red Hat
+  sources:
+  - type: workday
+    host: redhat.wd5.myworkdayjobs.com
+    tenant: redhat
+    site: Jobs
+- name: EPAM Systems
+  aliases:
+  - EPAM
+  sources: []
+  careers_url: https://www.epam.com/careers/job-listings?country=India
+  note: adapter pending
+- name: Atlassian
+  sources:
+  - type: atlassian
+- name: IDFC FIRST Bank
+  sources: []
+  careers_url: https://www.idfcfirstbank.com/careers
+  note: no public job feed found
+- name: Twilio
+  sources:
+  - type: greenhouse
+    token: twilio
+- name: GoDaddy
+  sources:
+  - type: greenhouse
+    token: godaddy
+- name: CrowdStrike
+  sources:
+  - type: workday
+    host: crowdstrike.wd5.myworkdayjobs.com
+    tenant: crowdstrike
+    site: crowdstrikecareers
+- name: Snowflake
+  sources:
+  - type: ashby
+    org: snowflake
+- name: Yes Bank
+  sources: []
+  careers_url: https://www.yesbank.in/about-us/careers
+  note: no public job feed found
+- name: Databricks
+  sources:
+  - type: greenhouse
+    token: databricks
+- name: Federal Bank
+  sources: []
+  careers_url: https://www.federalbank.co.in/careers
+  note: no public job feed found
+- name: JioHotstar
+  aliases:
+  - JioStar
+  - Hotstar
+  sources: []
+  careers_url: https://careers.jiostar.com/
+  note: no public job feed found
+- name: Cimpress
+  sources: []
+  careers_url: https://careers.cimpress.com/
+  note: no public job feed found
+- name: Zscaler
+  sources:
+  - type: greenhouse
+    token: zscaler
+- name: Nutanix
+  sources:
+  - type: jobvite
+    company: nutanix
+  - type: jobsyn
+    companies:
+    - Nutanix
+    fallback: true
+- name: MongoDB
+  sources:
+  - type: greenhouse
+    token: mongodb
+- name: BMC Software
+  aliases:
+  - BMC
+  sources:
+  - type: avature
+    base: https://jobs.bmc.com/Careers
+- name: RBL Bank
+  sources: []
+  careers_url: https://www.rblbank.com/careers
+  note: no public job feed found
+- name: Veeam
+  sources: []
+  careers_url: https://careers.veeam.com/
+  note: no public job feed found
+- name: Teradata
+  sources:
+  - type: jobsyn
+    companies:
+    - Teradata
+  careers_url: https://careers.teradata.com/jobs
+- name: Cohesity
+  sources:
+  - type: workday
+    host: cohesity.wd5.myworkdayjobs.com
+    tenant: cohesity
+    site: Cohesity_Careers
+- name: First Advantage
+  sources: []
+  careers_url: https://fadv.com/careers/
+  note: no public job feed found
+- name: Rubrik
+  sources:
+  - type: greenhouse
+    token: rubrik
+- name: IDT Corporation
+  aliases:
+  - IDT
+  sources: []
+  careers_url: https://www.idt.net/careers/
+  note: no public job feed found
+- name: Confluent
+  sources:
+  - type: ashby
+    org: confluent
+  careers_url: https://careers.confluent.io/open-positions/india
+- name: Meesho
+  sources:
+  - type: lever
+    site: meesho
+- name: GitLab
+  sources:
+  - type: greenhouse
+    token: gitlab
+- name: Freshworks
+  sources:
+  - type: smartrecruiters
+    company_id: Freshworks
+- name: TeamViewer
+  sources:
+  - type: smartrecruiters
+    company_id: TeamViewer1
+- name: Coursera
+  sources:
+  - type: greenhouse
+    token: coursera
+- name: Automattic
+  sources:
+  - type: greenhouse
+    token: automatticcareers
+- name: Razorpay
+  sources:
+  - type: greenhouse
+    token: razorpaysoftwareprivatelimited
+- name: CRED
+  sources:
+  - type: lever
+    site: cred
+- name: NPCI
+  sources: []
+  careers_url: https://www.npci.org.in/careers
+  note: site blocks automated access
+- name: BrowserStack
+  sources:
+  - type: workday
+    host: browserstack.wd3.myworkdayjobs.com
+    tenant: browserstack
+    site: External
+- name: Fivetran
+  sources:
+  - type: greenhouse
+    token: fivetran
+- name: Zapier
+  sources:
+  - type: ashby
+    org: zapier
+- name: Icertis
+  sources:
+  - type: oracle
+    host: iaaviz.fa.ocs.oraclecloud.com
+    site: Jobs
+- name: Postman
+  sources: []
+  careers_url: https://www.postman.com/company/careers/open-positions/
+  note: no public job feed found
+- name: Canonical
+  sources:
+  - type: greenhouse
+    token: canonical
+- name: HighLevel
+  aliases:
+  - GoHighLevel
+  sources:
+  - type: lever
+    site: gohighlevel
+- name: PubMatic
+  sources:
+  - type: greenhouse
+    token: pubmatic
+- name: Druva
+  sources:
+  - type: greenhouse
+    token: druva
+- name: BillDesk
+  sources: []
+  careers_url: https://www.billdesk.com/web/careers
+  note: no public job feed found
+- name: Upstox
+  sources:
+  - type: lever
+    site: upstox
+  careers_url: https://upstox.com/careers/
+- name: 3Pillar Global
+  aliases:
+  - 3Pillar
+  sources: []
+  careers_url: https://www.3pillarglobal.com/careers/
+  note: no public job feed found
+- name: Tiger Analytics
+  sources: []
+  careers_url: https://www.tigeranalytics.com/about-us/current-openings/
+  note: adapter pending
+- name: Tekion
+  sources:
+  - type: ashby
+    org: tekion
+- name: BrightEdge
+  sources:
+  - type: lever
+    site: brightedge
+- name: Mindtickle
+  sources:
+  - type: lever
+    site: mindtickle
+- name: Chargebee
+  sources:
+  - type: csb_unify
+    base: https://jobs.chargebee.com
+    locale: en_US
+  careers_url: https://www.chargebee.com/company/careers/
+- name: CleverTap
+  sources: []
+  careers_url: https://clevertap.darwinbox.in/ms/candidate/careers
+  note: adapter pending
+- name: Sciative
+  sources: []
+  careers_url: https://sciative.com/careers
+  note: no public job feed found
+- name: Veritas Technologies
+  aliases:
+  - Veritas
+  - Arctera
+  sources: []
+  careers_url: https://www.veritas.com/company/careers
+  note: business merged into Cohesity; check by hand
+- name: DDN
+  sources:
+  - type: ashby
+    org: ddn
+- name: Mrsool
+  sources:
+  - type: workable
+    account: mrsool-3
+- name: Claroda
+  sources: []
+  careers_url: https://www.claroda.com/careers
+  note: no public job feed found
+- name: Resilinc
+  sources:
+  - type: lever
+    site: resilinc
+- name: Drivetrain
+  sources:
+  - type: lever
+    site: drivetrain
+- name: Trajector
+  sources: []
+  careers_url: https://www.trajector.com/careers/
+  note: iCIMS site, adapter pending
+- name: Ubisoft
+  sources:
+  - type: smartrecruiters
+    company_id: Ubisoft2
+- name: Amadeus
+  sources: []
+  careers_url: https://amadeus.com/en/careers
+  note: no public job feed found
+- name: TomTom
+  sources:
+  - type: lever
+    site: tomtom
+    eu: true
+- name: Wolters Kluwer
+  sources:
+  - type: workday
+    host: wk.wd3.myworkdayjobs.com
+    tenant: wk
+    site: External
+- name: HERE Technologies
+  aliases:
+  - HERE
+  sources: []
+  careers_url: https://careers-here.icims.com/jobs/search?ss=1
+  note: iCIMS site, adapter pending
+- name: Philips
+  sources:
+  - type: workday
+    host: philips.wd3.myworkdayjobs.com
+    tenant: philips
+    site: jobs-and-careers
+- name: Siemens Digital Industries Software
+  aliases:
+  - Siemens DISW
+  - Siemens
+  sources:
+  - type: avature
+    base: https://jobs.siemens.com/en_US/externaljobs
+- name: BMW TechWorks India
+  aliases:
+  - BMW
+  sources: []
+  careers_url: https://www.bmwgroup.jobs/in/en.html
+  note: site did not respond
+- name: Volkswagen Group Digital Solutions
+  aliases:
+  - VW GDS
+  - Volkswagen
+  sources: []
+  careers_url: https://www.vwgds.in/careers/
+  note: site did not respond
+- name: NICE
+  sources:
+  - type: greenhouse
+    token: nice
+    eu: true
+- name: Avaloq
+  sources:
+  - type: smartrecruiters
+    company_id: Avaloq1
+- name: Tietoevry
+  sources:
+  - type: smartrecruiters
+    company_id: Tietoevry1
+- name: Media.net
+  sources: []
+  careers_url: https://careers.media.net/
+  note: no public job feed found
+- name: Truecaller
+  sources:
+  - type: greenhouse
+    token: truecaller
+- name: FirstCry
+  aliases:
+  - Brainbees
+  sources: []
+  careers_url: https://www.firstcry.com/careers
+  note: no public job feed found
+- name: Lentra
+  sources: []
+  careers_url: https://lentra.ai/
+  note: no public job feed found
+- name: Netcore Cloud
+  aliases:
+  - Netcore
+  sources: []
+  careers_url: https://netcore.ai/careers/
+  note: no public job feed found
+- name: Dream Sports
+  aliases:
+  - Dream11
+  sources:
+  - type: lever
+    site: dreamsports
+  careers_url: https://www.dreamsports.group/
+- name: Nykaa
+  sources: []
+  careers_url: https://careers.nykaa.com/
+  note: no public job feed found
+- name: NEC Software Solutions
+  sources:
+  - type: smartrecruiters
+    company_id: NECSWS
+- name: Hitachi (Vantara, Payment Services)
+  aliases:
+  - Hitachi Vantara
+  - Hitachi Payment Services
+  sources:
+  - type: workday
+    host: hitachi.wd1.myworkdayjobs.com
+    tenant: hitachi
+    site: hitachi
+  note: 'Hitachi group site: other Hitachi companies'' roles appear too'
+- name: Mitsubishi Electric India
+  sources: []
+  careers_url: https://www.mitsubishielectric.in/careers
+  note: no public job feed found
+- name: Atlas Copco
+  sources: []
+  careers_url: https://www.atlascopcogroup.com/en/careers
+  note: no public job feed found
+- name: Sandvik
+  sources:
+  - type: workday
+    host: sandvik.wd3.myworkdayjobs.com
+    tenant: sandvik
+    site: coromant-jobs
+  - type: workday
+    host: sandvik.wd3.myworkdayjobs.com
+    tenant: sandvik
+    site: seco-jobs
+- name: Tetra Pak
+  sources:
+  - type: csb_unify
+    base: https://jobs.tetrapak.com
+    locale: en_GB
+- name: DNV
+  sources: []
+  careers_url: https://www.dnv.com/careers/
+  note: no public job feed found
+- name: Wärtsilä
+  aliases:
+  - Wartsila
+  sources: []
+  careers_url: https://www.wartsila.com/careers
+  note: no public job feed found
+- name: FORVIA
+  aliases:
+  - Faurecia
+  sources: []
+  careers_url: https://www.forvia.com/en/careers
+  note: site blocks automated access
+- name: Worldline
+  sources:
+  - type: csb_unify
+    base: https://jobs.worldline.com
+    locale: en_US
+- name: Vector Informatik
+  aliases:
+  - Vector
+  sources: []
+  careers_url: https://www.vector.com/int/en/company/career/
+  note: no public job feed found
+- name: Eruditus
+  aliases:
+  - Emeritus
+  sources: []
+  careers_url: https://eruditus.com/
+  note: no public job feed found
+- name: ESTECO
+  sources: []
+  careers_url: https://www.esteco.com/
+  note: no public job feed found
+- name: Panasonic Avionics
+  sources:
+  - type: jobsyn
+    companies:
+    - Panasonic Avionics Corporation
+  careers_url: https://www.panasonic.aero/join-us
+- name: Johnson Controls
+  sources:
+  - type: workday
+    host: jci.wd5.myworkdayjobs.com
+    tenant: jci
+    site: JCI
+- name: Nium
+  sources:
+  - type: lever
+    site: nium
+- name: Michelin
+  sources:
+  - type: workday
+    host: michelinhr.wd3.myworkdayjobs.com
+    tenant: michelinhr
+    site: Michelin
+- name: KONE
+  sources:
+  - type: workday
+    host: kone.wd3.myworkdayjobs.com
+    tenant: kone
+    site: Careers
+- name: M&G
+  aliases:
+  - M&G plc
+  sources:
+  - type: workday
+    host: mgpru.wd3.myworkdayjobs.com
+    tenant: mgpru
+    site: mandgprudential

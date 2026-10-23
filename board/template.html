@@ -1,0 +1,237 @@
+<title>Target Company Job Scan</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: one 920px column — header + stat row, filter chips, ranked collapsible company list, coverage footer */
+:root {
+  --bg: #EFF2EF; --surface: #FFFFFF; --ink: #16211D; --ink-soft: #4A554F; --line: #D6DBD5;
+  --teal: #145C54; --teal-deep: #0D3E39; --on-teal: #FFFFFF;
+  --ochre: #9A6B12; --ochre-soft: #F4E9D4; --flag: #8A3B12; --flag-soft: #F6E3D8;
+  --serif: "Fraunces", Georgia, "Times New Roman", serif;
+  --sans: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #111816; --surface: #19211F; --ink: #E3EAE6; --ink-soft: #A3AFA9; --line: #2B3632;
+  --teal: #6BBFB2; --teal-deep: #9AD9CD; --on-teal: #0D1F1C;
+  --ochre: #E2B65E; --ochre-soft: #3A2F18; --flag: #F0A57E; --flag-soft: #3B2419; color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --bg: #111816; --surface: #19211F; --ink: #E3EAE6; --ink-soft: #A3AFA9; --line: #2B3632;
+  --teal: #6BBFB2; --teal-deep: #9AD9CD; --on-teal: #0D1F1C;
+  --ochre: #E2B65E; --ochre-soft: #3A2F18; --flag: #F0A57E; --flag-soft: #3B2419; color-scheme: dark; }
+
+body { background: var(--bg); color: var(--ink); font-family: var(--sans); font-size: 15px; line-height: 1.5; }
+.wrap { max-width: 920px; margin: 0 auto; padding-block: 28px 56px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+a { color: var(--teal); }
+a:focus-visible, button:focus-visible, input:focus-visible { outline: 2px solid var(--teal); outline-offset: 2px; }
+
+header { border-bottom: 1px solid var(--line); padding-bottom: 22px; display: grid; gap: 10px; }
+.eyebrow { font-family: var(--mono); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-soft); }
+h1 { font-family: var(--serif); font-weight: 600; font-size: clamp(32px, 6vw, 48px); line-height: 1.08;
+  color: var(--teal-deep); margin: 0; text-wrap: balance; font-variation-settings: "opsz" 120; }
+.sub { margin: 0; color: var(--ink-soft); max-width: 65ch; }
+.stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); margin-top: 12px;
+  border: 1px solid var(--line); border-radius: 10px; background: var(--surface); }
+.stat { padding: 12px 14px; display: grid; gap: 2px; min-width: 0; }
+.stat + .stat { border-left: 1px solid var(--line); }
+.stat b { font-family: var(--serif); font-weight: 600; font-size: 28px; line-height: 1.1; color: var(--teal-deep);
+  font-variant-numeric: tabular-nums; }
+.stat span { font-size: 12.5px; color: var(--ink-soft); }
+
+.controls { display: grid; gap: 12px; margin: 22px 0 14px; }
+.group { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.group-label { font-family: var(--mono); font-size: 11.5px; letter-spacing: .08em; text-transform: uppercase;
+  color: var(--ink-soft); width: 84px; flex: none; }
+.chip { font: 500 13.5px var(--sans); color: var(--ink); background: var(--surface); border: 1px solid var(--line);
+  border-radius: 999px; padding: 5px 13px; cursor: pointer; }
+.chip:hover { border-color: var(--teal); }
+.chip[aria-pressed="true"] { background: var(--teal-deep); border-color: var(--teal-deep); color: var(--on-teal); }
+.chip .n { font-family: var(--mono); font-size: 12px; opacity: .75; margin-left: 4px; }
+.search { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+.search input { flex: 1 1 260px; min-width: 0; font: 15px var(--sans); color: var(--ink); background: var(--surface);
+  border: 1px solid var(--line); border-radius: 8px; padding: 9px 12px; }
+.counter { font-family: var(--mono); font-size: 13px; color: var(--ink-soft); }
+
+.list { display: grid; gap: 8px; margin: 0; padding: 0; list-style: none; }
+.co { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; }
+.co > button { all: unset; box-sizing: border-box; width: 100%; display: grid; cursor: pointer;
+  grid-template-columns: 34px minmax(0, 1fr) auto auto; align-items: center; gap: 10px; padding: 12px 14px; }
+.rank { font-family: var(--mono); font-size: 13px; color: var(--ink-soft); font-variant-numeric: tabular-nums; }
+.name { font-weight: 600; font-size: 16px; display: flex; flex-wrap: wrap; align-items: center; gap: 8px; min-width: 0; }
+.tag { font: 500 11px var(--mono); letter-spacing: .06em; text-transform: uppercase; border: 1px solid var(--teal);
+  color: var(--teal); border-radius: 999px; padding: 1px 7px; }
+.badge { font: 600 13px var(--mono); color: var(--ochre); background: var(--ochre-soft); border-radius: 999px;
+  padding: 3px 10px; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.chev { width: 18px; height: 18px; color: var(--ink-soft); transition: transform .18s ease; }
+.co.open .chev { transform: rotate(90deg); }
+.jobs { list-style: none; margin: 0 14px 14px 58px; padding: 0 0 0 14px; border-left: 2px solid var(--line); display: grid; gap: 2px; }
+.job { display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr) 118px; gap: 12px; padding: 8px 0;
+  border-bottom: 1px dashed var(--line); align-items: baseline; }
+.job:last-child { border-bottom: 0; }
+.job a { font-weight: 500; text-decoration: none; overflow-wrap: anywhere; }
+.job a:hover { text-decoration: underline; }
+.job a svg { width: 12px; height: 12px; vertical-align: -1px; margin-left: 4px; }
+.loc { color: var(--ink-soft); font-size: 13.5px; overflow-wrap: anywhere; }
+.when { font-family: var(--mono); font-size: 12.5px; color: var(--ink-soft); text-align: right; font-variant-numeric: tabular-nums; }
+.pills { display: inline-flex; gap: 6px; flex-wrap: wrap; margin-left: 6px; vertical-align: 1px; }
+.new { font: 600 10.5px var(--mono); letter-spacing: .06em; color: var(--on-teal); background: var(--teal); border-radius: 4px; padding: 1px 6px; }
+.flag { font: 500 11px var(--mono); color: var(--flag); background: var(--flag-soft); border-radius: 4px; padding: 1px 6px; }
+.empty { padding: 28px; text-align: center; color: var(--ink-soft); background: var(--surface); border: 1px dashed var(--line); border-radius: 10px; }
+
+footer { margin-top: 32px; border-top: 1px solid var(--line); padding-top: 18px; display: grid; gap: 12px;
+  font-size: 13.5px; color: var(--ink-soft); }
+footer h2 { font-family: var(--serif); font-weight: 600; font-size: 18px; color: var(--teal-deep); margin: 0; }
+footer p { margin: 0; max-width: 72ch; }
+.cov { display: flex; flex-wrap: wrap; gap: 6px 14px; margin: 0; padding: 0; list-style: none; }
+.cov li { font-size: 13px; }
+
+@media (max-width: 640px) {
+  .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .stat:nth-child(3) { border-left: 0; }
+  .stat:nth-child(n+3) { border-top: 1px solid var(--line); }
+  .group-label { width: 100%; }
+  .co > button { grid-template-columns: 26px minmax(0, 1fr) auto auto; padding: 12px; }
+  .jobs { margin-left: 22px; }
+  .job { grid-template-columns: 1fr; gap: 2px; }
+  .when { text-align: left; }
+}
+@media (prefers-reduced-motion: reduce) { .chev { transition: none; } }
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">Career-site scan · Pune · Mumbai · Navi Mumbai · Remote India · __SCAN_DATE__</div>
+    <h1>Data engineering roles at your target companies</h1>
+    <p class="sub" id="sub">Every listing below comes straight from a target company's own careers site, has a data-engineering title or skill in its title, is based in Pune, Mumbai, Navi Mumbai or remote in India, and was posted in the last 30 days or carries no date.</p>
+    <div class="stats" id="stats"></div>
+  </header>
+
+  <div class="controls">
+    <div class="group" role="group" aria-labelledby="lbl-loc">
+      <span class="group-label" id="lbl-loc">Location</span>
+      <span id="loc-chips" class="group"></span>
+    </div>
+    <div class="group" role="group" aria-labelledby="lbl-show">
+      <span class="group-label" id="lbl-show">Show</span>
+      <span id="show-chips" class="group"></span>
+    </div>
+    <div class="search">
+      <input id="q" type="search" placeholder="Search company or job title" aria-label="Search company or job title">
+      <span class="counter" id="counter" aria-live="polite"></span>
+    </div>
+  </div>
+
+  <ol class="list" id="list"></ol>
+
+  <footer>
+    <h2>How this list is made</h2>
+    <p>A scraper runs every morning against each company's own careers site (Workday, Greenhouse, Lever, Oracle and similar). Titles match on data-engineering roles (Data Engineer, Analytics Engineer, Big Data, Software Engineer – Data and the reverse word order) or a skill word in the title (Spark, PySpark, Hadoop, ETL, Databricks, Airflow, dbt, Snowflake, data warehouse or pipeline). Abbreviations such as Sr., Eng. and Dev are expanded first. Locations include neighbourhoods (Hinjewadi, Kharadi, Powai, Goregaon, Airoli and others) and remote roles open in India. Internships, data-centre, data-entry and data-scientist roles are left out.</p>
+    <p>Job titles link to the posting itself. The list is rebuilt daily, so links are fresh; a role that closes drops off at the next scan. Rows marked <span class="flag">check</span> passed the filters on a judgement call, such as a remote role that doesn't name a country.</p>
+    <div id="coverage"></div>
+  </footer>
+</div>
+
+<script type="application/json" id="data">/*__DATA__*/{}</script>
+<script>
+(function () {
+  var DATA = JSON.parse(document.getElementById("data").textContent || "{}");
+  var jobs = DATA.jobs || [], meta = DATA.meta || {}, coverage = DATA.coverage || [];
+  var LOCS = ["All", "Pune", "Mumbai", "Navi Mumbai", "Remote"];
+  var SHOWS = [["all", "All roles"], ["new", "New"], ["check", "Needs a check"]];
+  var state = { loc: "All", show: "all", q: "" };
+  try { var saved = JSON.parse(localStorage.getItem("jobscan-filters") || "{}");
+    if (LOCS.indexOf(saved.loc) >= 0) state.loc = saved.loc; } catch (e) {}
+
+  var ext = '<svg viewBox="0 0 12 12" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M4.5 2.5h-2v7h7v-2M7 2.5h2.5V5M9.5 2.5 5.5 6.5"/></svg>';
+  var chev = '<svg class="chev" viewBox="0 0 20 20" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8"><path d="m7.5 4.5 5.5 5.5-5.5 5.5"/></svg>';
+  function esc(s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) {
+    return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); }
+  function when(j) {
+    if (j.days_ago == null) return "date not given";
+    var d = new Date(j.posted + "T00:00:00Z");
+    var md = d.toLocaleDateString("en-GB", { day: "numeric", month: "short", timeZone: "UTC" });
+    return (j.days_ago === 0 ? "today" : j.days_ago + "d ago") + " · " + md;
+  }
+  function locMatch(j) { return state.loc === "All" || (j.location_tags || []).indexOf(state.loc) >= 0; }
+  function showMatch(j) { return state.show === "all" || (state.show === "new" ? j.new : (j.flags || []).length > 0); }
+  function qMatch(j) { if (!state.q) return true; var q = state.q.toLowerCase();
+    return j.company.toLowerCase().indexOf(q) >= 0 || j.title.toLowerCase().indexOf(q) >= 0; }
+
+  // group once, sorted by job count
+  var groups = {};
+  jobs.forEach(function (j) { (groups[j.company] = groups[j.company] || []).push(j); });
+  var companies = Object.keys(groups).sort(function (a, b) {
+    return groups[b].length - groups[a].length || a.localeCompare(b); });
+  var open = {};
+
+  function stats() {
+    var nNew = jobs.filter(function (j) { return j.new; }).length;
+    var scanned = meta.companies_scanned_ok || 0, total = meta.companies_total || 0;
+    var cells = [[jobs.length, "matching roles"], [companies.length, "companies hiring"],
+                 [nNew, "new since last scan"], [scanned + "/" + total, "careers sites scanned"]];
+    document.getElementById("stats").innerHTML = cells.map(function (c) {
+      return '<div class="stat"><b>' + esc(c[0]) + "</b><span>" + esc(c[1]) + "</span></div>"; }).join("");
+  }
+  function chips() {
+    document.getElementById("loc-chips").innerHTML = LOCS.map(function (l) {
+      var n = l === "All" ? jobs.length : jobs.filter(function (j) { return (j.location_tags || []).indexOf(l) >= 0; }).length;
+      return '<button class="chip" data-loc="' + esc(l) + '" aria-pressed="' + (state.loc === l) + '">' + esc(l) + '<span class="n">' + n + "</span></button>";
+    }).join("");
+    document.getElementById("show-chips").innerHTML = SHOWS.map(function (s) {
+      return '<button class="chip" data-show="' + s[0] + '" aria-pressed="' + (state.show === s[0]) + '">' + s[1] + "</button>";
+    }).join("");
+  }
+  function render() {
+    var list = document.getElementById("list"), html = [], shownJobs = 0, shownCos = 0;
+    companies.forEach(function (co) {
+      var all = groups[co], vis = all.filter(function (j) { return locMatch(j) && showMatch(j) && qMatch(j); });
+      if (!vis.length) return;
+      shownCos++; shownJobs += vis.length;
+      var nNew = all.filter(function (j) { return j.new; }).length;
+      var count = vis.length === all.length ? String(all.length) : vis.length + " of " + all.length;
+      var isOpen = !!open[co] || !!state.q;
+      html.push('<li class="co' + (isOpen ? " open" : "") + '"><button aria-expanded="' + isOpen + '" data-co="' + esc(co) + '">' +
+        '<span class="rank">' + shownCos + "</span>" +
+        '<span class="name">' + esc(co) + (nNew ? '<span class="tag">' + nNew + " new</span>" : "") + "</span>" +
+        '<span class="badge">' + count + (all.length === 1 ? " role" : " roles") + "</span>" + chev + "</button>" +
+        (isOpen ? '<ul class="jobs">' + vis.map(function (j) {
+          var pills = (j.new ? '<span class="new">NEW</span>' : "") +
+            (j.flags || []).map(function (f) { return '<span class="flag" title="' + esc(f) + '">check: ' + esc(f) + "</span>"; }).join("");
+          return '<li class="job"><span><a href="' + esc(j.url) + '" target="_blank" rel="noopener">' + esc(j.title) + ext + "</a>" +
+            (pills ? '<span class="pills">' + pills + "</span>" : "") + "</span>" +
+            '<span class="loc">' + esc(j.location) + "</span>" +
+            '<span class="when">' + esc(when(j)) + "</span></li>";
+        }).join("") + "</ul>" : "") + "</li>");
+    });
+    list.innerHTML = html.join("") || '<li class="empty">No roles match these filters. Try All locations or clear the search.</li>';
+    var filtered = state.loc !== "All" || state.show !== "all" || state.q;
+    document.getElementById("counter").textContent = filtered
+      ? shownJobs + (shownJobs === 1 ? " role" : " roles") + " · " + shownCos + (shownCos === 1 ? " company" : " companies") : "";
+  }
+  function footer() {
+    if (!coverage.length) { document.getElementById("coverage").innerHTML =
+      "<p>Every target company's careers site was scanned successfully today.</p>"; return; }
+    var failed = coverage.filter(function (c) { return c.status === "error"; });
+    var skipped = coverage.filter(function (c) { return c.status !== "error"; });
+    function items(arr) { return '<ul class="cov">' + arr.map(function (c) {
+      var label = c.url ? '<a href="' + esc(c.url) + '" target="_blank" rel="noopener">' + esc(c.company) + "</a>" : esc(c.company);
+      return '<li title="' + esc(c.why) + '">' + label + "</li>"; }).join("") + "</ul>"; }
+    var out = "";
+    if (failed.length) out += "<p><b>Couldn't reach today (" + failed.length + "):</b> their roles may be missing until the next scan.</p>" + items(failed);
+    if (skipped.length) out += "<p><b>Not scanned automatically (" + skipped.length + "):</b> no public job feed. Check these by hand.</p>" + items(skipped);
+    document.getElementById("coverage").innerHTML = out;
+  }
+
+  document.addEventListener("click", function (e) {
+    var b = e.target.closest("button"); if (!b) return;
+    if (b.dataset.loc) { state.loc = b.dataset.loc; try { localStorage.setItem("jobscan-filters", JSON.stringify({ loc: state.loc })); } catch (x) {} chips(); render(); }
+    else if (b.dataset.show) { state.show = b.dataset.show; chips(); render(); }
+    else if (b.dataset.co) { open[b.dataset.co] = !open[b.dataset.co]; render(); }
+  });
+  document.getElementById("q").addEventListener("input", function (e) { state.q = e.target.value.trim(); render(); });
+  stats(); chips(); render(); footer();
+})();
+</script>
