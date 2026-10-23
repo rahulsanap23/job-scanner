@@ -1,16 +1,11 @@
 {
  "meta": {
-  "generated_at": "2026-10-23T19:25:23+00:00",
+  "generated_at": "2026-10-23T19:29:46+00:00",
   "date": "2026-10-24",
   "recency_days": 30,
   "companies_total": 190,
-  "companies_scanned_ok": 131,
-  "companies_failed": [
-   "Chargebee",
-   "Dream Sports",
-   "NICE",
-   "Upstox"
-  ],
+  "companies_scanned_ok": 136,
+  "companies_failed": [],
   "companies_not_scanned": [
    "3Pillar Global",
    "Amadeus",
@@ -25,6 +20,7 @@
    "CleverTap",
    "DNV",
    "Dassault Systèmes",
+   "Dream Sports",
    "EPAM Systems",
    "ESTECO",
    "Eruditus",
@@ -52,24 +48,22 @@
    "Nykaa",
    "PhonePe",
    "Postman",
-   "Principal Global Services",
    "RBL Bank",
    "SBI",
    "Sciative",
    "Société Générale",
    "Tesla",
-   "Tiger Analytics",
    "Trajector",
    "UBS",
+   "Upstox",
    "Vector Informatik",
-   "Veeam",
    "Veritas Technologies",
    "Volkswagen Group Digital Solutions",
    "Wärtsilä",
    "Yes Bank"
   ],
-  "jobs": 92,
-  "companies_with_jobs": 31,
+  "jobs": 94,
+  "companies_with_jobs": 33,
   "uncertain": 5
  },
  "jobs": [
@@ -87,7 +81,7 @@
    "match": "title",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "Atlassian",
@@ -103,7 +97,7 @@
    "match": "title",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "Atlassian",
@@ -119,7 +113,7 @@
    "match": "keyword:data platform",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "Atlassian",
@@ -135,7 +129,7 @@
    "match": "title",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "Avaloq",
@@ -151,7 +145,23 @@
    "match": "keyword:data platform",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
+  },
+  {
+   "company": "Baker Hughes",
+   "title": "Databricks Data Engineering Lead",
+   "location": "IN-KA-BANGALORE-NEON BUILDING WEST TOWER; IN-TG-HYDERABAD-SKYVIEW BUILDING; IN-MH-MUMBAI-HIRANANDANI BUSINESS PARK POWAI",
+   "location_tags": [
+    "Mumbai"
+   ],
+   "posted": "2026-10-21",
+   "days_ago": 3,
+   "url": "https://bakerhughes.wd5.myworkdayjobs.com/en-US/BakerHughes/job/IN-KA-BANGALORE-NEON-BUILDING-WEST-TOWER/Databricks-Data-Engineering-Lead_R170564",
+   "source": "workday",
+   "match": "title",
+   "flags": [],
+   "first_seen": "2026-10-24",
+   "new": true
   },
   {
    "company": "Bank of America",
@@ -167,7 +177,7 @@
    "match": "title",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "Bank of America",
@@ -183,7 +193,7 @@
    "match": "title",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "Barclays",
@@ -199,7 +209,7 @@
    "match": "title",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "Barclays",
@@ -215,7 +225,7 @@
    "match": "title",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "Barclays",
@@ -231,7 +241,7 @@
    "match": "title",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "Barclays",
@@ -247,7 +257,7 @@
    "match": "title",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "Barclays",
@@ -263,7 +273,7 @@
    "match": "title",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "Barclays",
@@ -279,7 +289,7 @@
    "match": "title",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "Barclays",
@@ -295,7 +305,7 @@
    "match": "title",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "BlackRock",
@@ -311,7 +321,7 @@
    "match": "title",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "Citi",
@@ -327,7 +337,7 @@
    "match": "keyword:etl",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "Citi",
@@ -343,7 +353,7 @@
    "match": "pattern",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "Citi",
@@ -359,7 +369,7 @@
    "match": "pattern",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "Citi",
@@ -375,7 +385,7 @@
    "match": "keyword:spark",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "Citi",
@@ -391,7 +401,7 @@
    "match": "title",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "Citi",
@@ -407,7 +417,7 @@
    "match": "keyword:etl",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "Citi",
@@ -423,7 +433,7 @@
    "match": "keyword:data platform",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "Citi",
@@ -439,7 +449,7 @@
    "match": "title",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "Citi",
@@ -455,7 +465,7 @@
    "match": "title",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "Citi",
@@ -471,7 +481,7 @@
    "match": "title",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "Citi",
@@ -487,7 +497,7 @@
    "match": "title",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "Citi",
@@ -503,7 +513,7 @@
    "match": "title",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "Citi",
@@ -519,7 +529,7 @@
    "match": "title",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "Citi",
@@ -535,7 +545,7 @@
    "match": "title",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "Citi",
@@ -551,7 +561,7 @@
    "match": "keyword:pyspark",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "Citi",
@@ -567,7 +577,7 @@
    "match": "keyword:data platform",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "Citi",
@@ -583,7 +593,7 @@
    "match": "title",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "Citi",
@@ -599,7 +609,7 @@
    "match": "title",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "Citi",
@@ -615,7 +625,7 @@
    "match": "keyword:data platform",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "Citi",
@@ -631,7 +641,7 @@
    "match": "title",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "Cummins",
@@ -647,7 +657,7 @@
    "match": "title",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "DDN",
@@ -663,7 +673,7 @@
    "match": "keyword:data platform",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "Deutsche Bank",
@@ -679,7 +689,7 @@
    "match": "keyword:data platform",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "Deutsche Bank",
@@ -695,7 +705,7 @@
    "match": "keyword:hadoop",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "Eaton",
@@ -713,7 +723,7 @@
     "title borderline"
    ],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "Eaton",
@@ -729,7 +739,7 @@
    "match": "title",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "Fiserv",
@@ -745,7 +755,7 @@
    "match": "keyword:etl",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "Gallagher",
@@ -761,7 +771,7 @@
    "match": "title",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "Gallagher",
@@ -779,7 +789,7 @@
     "title borderline"
    ],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "Gallagher",
@@ -795,7 +805,7 @@
    "match": "keyword:data integration",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "General Mills",
@@ -811,7 +821,7 @@
    "match": "pattern",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "General Mills",
@@ -827,7 +837,7 @@
    "match": "title",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "General Mills",
@@ -845,7 +855,7 @@
     "title borderline"
    ],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "General Mills",
@@ -863,7 +873,7 @@
     "title borderline"
    ],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "General Mills",
@@ -879,7 +889,7 @@
    "match": "pattern",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "Google",
@@ -895,7 +905,7 @@
    "match": "pattern",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "HSBC",
@@ -911,7 +921,7 @@
    "match": "keyword:etl",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "HighLevel",
@@ -927,7 +937,7 @@
    "match": "pattern",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "JPMorgan Chase",
@@ -943,7 +953,7 @@
    "match": "keyword:kafka",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "Johnson Controls",
@@ -961,7 +971,7 @@
     "title borderline"
    ],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "M&G",
@@ -977,7 +987,7 @@
    "match": "keyword:data platform",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "M&G",
@@ -993,7 +1003,7 @@
    "match": "title",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "Maersk",
@@ -1009,7 +1019,7 @@
    "match": "title",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "Mastercard",
@@ -1025,7 +1035,7 @@
    "match": "keyword:kafka",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "Mastercard",
@@ -1041,7 +1051,7 @@
    "match": "pattern",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "Mastercard",
@@ -1057,7 +1067,7 @@
    "match": "title",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "Mastercard",
@@ -1073,7 +1083,7 @@
    "match": "title",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "Mastercard",
@@ -1089,7 +1099,7 @@
    "match": "title",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "Mastercard",
@@ -1105,7 +1115,7 @@
    "match": "keyword:spark",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "Mastercard",
@@ -1121,7 +1131,7 @@
    "match": "title",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "Mastercard",
@@ -1137,7 +1147,7 @@
    "match": "title",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "Mastercard",
@@ -1153,7 +1163,7 @@
    "match": "title",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "Mastercard",
@@ -1169,7 +1179,7 @@
    "match": "title",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "Mastercard",
@@ -1185,7 +1195,7 @@
    "match": "title",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "Mastercard",
@@ -1201,7 +1211,7 @@
    "match": "title",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "Medline",
@@ -1217,7 +1227,7 @@
    "match": "title",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "MetLife",
@@ -1233,7 +1243,7 @@
    "match": "title",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "MetLife",
@@ -1249,7 +1259,7 @@
    "match": "title",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "Mondelez",
@@ -1265,7 +1275,7 @@
    "match": "title",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "Mondelez",
@@ -1281,7 +1291,7 @@
    "match": "title",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "Mondelez",
@@ -1297,7 +1307,7 @@
    "match": "title",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "Northern Trust",
@@ -1313,7 +1323,23 @@
    "match": "title",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
+  },
+  {
+   "company": "Nvidia",
+   "title": "SAP MM/PP Master Data Engineer - Enterprise Data Management",
+   "location": "India, Gurugram; India, Pune",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-10-22",
+   "days_ago": 2,
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India-Gurugram/SAP-MM-PP-Master-Data-Engineer---Enterprise-Data-Management_JR2026497",
+   "source": "workday",
+   "match": "title",
+   "flags": [],
+   "first_seen": "2026-10-24",
+   "new": true
   },
   {
    "company": "Priceline (Booking Holdings)",
@@ -1329,7 +1355,7 @@
    "match": "title",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "Priceline (Booking Holdings)",
@@ -1345,7 +1371,7 @@
    "match": "title",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "Priceline (Booking Holdings)",
@@ -1361,7 +1387,7 @@
    "match": "title",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "S&P Global",
@@ -1377,7 +1403,7 @@
    "match": "title",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "Siemens Digital Industries Software",
@@ -1393,7 +1419,7 @@
    "match": "title",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "Siemens Digital Industries Software",
@@ -1409,7 +1435,7 @@
    "match": "pattern",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "Siemens Digital Industries Software",
@@ -1425,7 +1451,7 @@
    "match": "title",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "Siemens Digital Industries Software",
@@ -1441,7 +1467,7 @@
    "match": "title",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "Siemens Digital Industries Software",
@@ -1457,7 +1483,7 @@
    "match": "title",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "Siemens Digital Industries Software",
@@ -1473,7 +1499,7 @@
    "match": "keyword:dbt",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "Vodafone (VOIS)",
@@ -1489,7 +1515,7 @@
    "match": "title",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "Vodafone (VOIS)",
@@ -1505,7 +1531,7 @@
    "match": "keyword:data warehouse",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "Wolters Kluwer",
@@ -1521,7 +1547,7 @@
    "match": "title",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "Wolters Kluwer",
@@ -1537,7 +1563,7 @@
    "match": "title",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   },
   {
    "company": "bp",
@@ -1553,7 +1579,7 @@
    "match": "title",
    "flags": [],
    "first_seen": "2026-10-24",
-   "new": false
+   "new": true
   }
  ]
 }
