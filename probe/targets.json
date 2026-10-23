@@ -1,384 +1,128 @@
 [
  {
-  "name": "gh_nice_us",
-  "url": "https://boards-api.greenhouse.io/v1/boards/nice/jobs",
+  "name": "epam_c_india",
+  "url": "https://careers.epam.com/api/jobs/v2/search/careers?query=data&country=India&lang=en&from=0&size=5",
   "method": "GET"
  },
  {
-  "name": "gh_nice_eu_html",
-  "url": "https://job-boards.eu.greenhouse.io/nice",
+  "name": "epam_loc",
+  "url": "https://careers.epam.com/api/jobs/v2/search/careers?query=data&location=India&lang=en&from=0&size=5",
+  "method": "GET"
+ },
+ {
+  "name": "epam_tenant",
+  "url": "https://careers.epam.com/api/jobs/v2/search/careers?query=data%20engineer&lang=en&from=0&size=5&tenant=careers-in",
+  "method": "GET"
+ },
+ {
+  "name": "epam_page_in",
+  "url": "https://careers.epam.com/en/it-jobs/data-engineer/india",
   "method": "GET",
   "save": true
  },
  {
-  "name": "gh_veeam",
-  "url": "https://boards-api.greenhouse.io/v1/boards/veeamsoftware/jobs",
+  "name": "epam_page_vac",
+  "url": "https://careers.epam.com/en/vacancies?query=data&country=India",
+  "method": "GET",
+  "save": true
+ },
+ {
+  "name": "deere_Pune",
+  "url": "https://careers.deere.com/api/pcsx/search?domain=johndeere.com&query=engineer&location=Pune&start=0",
   "method": "GET"
  },
  {
-  "name": "gh_veeam2",
-  "url": "https://boards-api.greenhouse.io/v1/boards/veeam/jobs",
+  "name": "deere_Pune",
+  "url": "https://careers.deere.com/api/pcsx/search?domain=johndeere.com&query=engineer&location=Pune, Maharashtra, India&start=0",
   "method": "GET"
  },
  {
-  "name": "lveu_tomtom",
-  "url": "https://api.eu.lever.co/v0/postings/tomtom?mode=json&limit=2",
+  "name": "deere_IN",
+  "url": "https://careers.deere.com/api/pcsx/search?domain=johndeere.com&query=engineer&location=IN&start=0",
   "method": "GET"
  },
  {
-  "name": "lveu_upstox",
-  "url": "https://api.eu.lever.co/v0/postings/upstox?mode=json&limit=2",
+  "name": "deere_Bengaluru",
+  "url": "https://careers.deere.com/api/pcsx/search?domain=johndeere.com&query=engineer&location=Bengaluru&start=0",
   "method": "GET"
  },
  {
-  "name": "lveu_dreamsports",
-  "url": "https://api.eu.lever.co/v0/postings/dreamsports?mode=json&limit=2",
+  "name": "deere_noloc",
+  "url": "https://careers.deere.com/api/pcsx/search?domain=johndeere.com&query=data&start=0",
   "method": "GET"
  },
  {
-  "name": "lv_upstox_again",
-  "url": "https://api.lever.co/v0/postings/upstox?mode=json&limit=2",
-  "method": "GET"
+  "name": "chargebee_search",
+  "url": "https://jobs.chargebee.com/search/?q=engineer&locationsearch=India",
+  "method": "GET",
+  "save": true
  },
  {
-  "name": "lv_phonepe",
-  "url": "https://api.lever.co/v0/postings/phonepe?mode=json&limit=2",
-  "method": "GET"
+  "name": "chargebee_rss",
+  "url": "https://jobs.chargebee.com/services/rss/job/?locale=en_US&keywords=(engineer)",
+  "method": "GET",
+  "save": true
  },
  {
-  "name": "ab_phonepe",
-  "url": "https://api.ashbyhq.com/posting-api/job-board/phonepe",
-  "method": "GET"
+  "name": "siemens_detail",
+  "url": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/525786",
+  "method": "GET",
+  "save": true
  },
  {
-  "name": "lv_postman",
-  "url": "https://api.lever.co/v0/postings/postman?mode=json&limit=2",
-  "method": "GET"
+  "name": "visa_post",
+  "url": "https://search.visa.com/CAREERS/careers/jobs",
+  "method": "POST",
+  "headers": {
+   "Content-Type": "application/json"
+  },
+  "json": {
+   "from": 0,
+   "size": 10,
+   "query": "data",
+   "filters": []
+  }
  },
  {
-  "name": "ab_postman",
-  "url": "https://api.ashbyhq.com/posting-api/job-board/postman",
-  "method": "GET"
- },
- {
-  "name": "lv_confluent",
-  "url": "https://api.lever.co/v0/postings/confluent?mode=json&limit=2",
-  "method": "GET"
- },
- {
-  "name": "ab_confluent",
-  "url": "https://api.ashbyhq.com/posting-api/job-board/confluent",
-  "method": "GET"
- },
- {
-  "name": "sr_visa_lower",
-  "url": "https://api.smartrecruiters.com/v1/companies/visa/postings?limit=2",
-  "method": "GET"
- },
- {
-  "name": "sr_visa_q",
-  "url": "https://api.smartrecruiters.com/v1/companies/Visa/postings?q=data&limit=2",
-  "method": "GET"
- },
- {
-  "name": "visa_search",
-  "url": "https://search.visa.com/CAREERS/careers/jobs?q=data&country=India",
-  "method": "GET"
- },
- {
-  "name": "visa_search2",
+  "name": "visa_post2",
   "url": "https://search.visa.com/CAREERS/careers/jobs?q=data",
-  "method": "GET"
+  "method": "POST",
+  "headers": {
+   "Content-Type": "application/json"
+  },
+  "json": {}
  },
  {
-  "name": "confluent_html",
-  "url": "https://careers.confluent.io/open-positions/india",
-  "method": "GET",
-  "save": true
- },
- {
-  "name": "darwinbox_ct",
-  "url": "https://clevertap.darwinbox.in/ms/candidate/careers",
-  "method": "GET",
-  "save": true
- },
- {
-  "name": "darwinbox_ct_api",
-  "url": "https://clevertap.darwinbox.in/ms/candidateapi/job?page=1&limit=50",
-  "method": "GET"
- },
- {
-  "name": "wk_tiger-analytics",
-  "url": "https://apply.workable.com/api/v3/accounts/tiger-analytics/jobs",
+  "name": "ubs_api",
+  "url": "https://jobs.ubs.com/TgNewUI/Search/Ajax/MatchedJobs",
   "method": "POST",
   "headers": {
    "Content-Type": "application/json"
   },
   "json": {
-   "query": "",
-   "location": [],
-   "department": [],
-   "worktype": [],
-   "remote": []
+   "partnerId": "25008",
+   "siteId": "5012",
+   "keyword": "data",
+   "location": "Pune",
+   "keywordCustomSolrFields": "FORMTEXT2,JobTitle",
+   "locationCustomSolrFields": "FORMTEXT1",
+   "linkId": "",
+   "Latitude": 0,
+   "Longitude": 0,
+   "facetfilterfields": {
+    "Facet": []
+   },
+   "powersearchoptions": {
+    "PowerSearchOption": []
+   },
+   "SortType": "LastUpdated",
+   "pageNumber": 1,
+   "encryptedSessionValue": ""
   }
  },
  {
-  "name": "wk_tigeranalytics",
-  "url": "https://apply.workable.com/api/v3/accounts/tigeranalytics/jobs",
-  "method": "POST",
-  "headers": {
-   "Content-Type": "application/json"
-  },
-  "json": {
-   "query": "",
-   "location": [],
-   "department": [],
-   "worktype": [],
-   "remote": []
-  }
- },
- {
-  "name": "wk_tiger-analytics-1",
-  "url": "https://apply.workable.com/api/v3/accounts/tiger-analytics-1/jobs",
-  "method": "POST",
-  "headers": {
-   "Content-Type": "application/json"
-  },
-  "json": {
-   "query": "",
-   "location": [],
-   "department": [],
-   "worktype": [],
-   "remote": []
-  }
- },
- {
-  "name": "wk_mrsool",
-  "url": "https://apply.workable.com/api/v3/accounts/mrsool-3/jobs",
-  "method": "POST",
-  "headers": {
-   "Content-Type": "application/json"
-  },
-  "json": {
-   "query": "",
-   "location": [],
-   "department": [],
-   "worktype": [],
-   "remote": []
-  }
- },
- {
-  "name": "tiger_page",
-  "url": "https://www.tigeranalytics.com/about-us/current-openings/",
-  "method": "GET",
-  "save": true,
-  "save_bytes": 900000
- },
- {
-  "name": "icims_here",
-  "url": "https://careers-here.icims.com/jobs/search?ss=1&searchKeyword=data&in_iframe=1",
-  "method": "GET",
-  "save": true
- },
- {
-  "name": "icims_trajector",
-  "url": "https://india-trajectorservices.icims.com/jobs/search?ss=1&in_iframe=1",
-  "method": "GET",
-  "save": true
- },
- {
-  "name": "epam_facets",
-  "url": "https://careers.epam.com/api/jobs/v2/search/careers?query=data&lang=en&from=0&size=1",
-  "method": "GET",
-  "save": true
- },
- {
-  "name": "bny_jobs",
-  "url": "https://jobs.bny.com/api/pcsx/search?domain=bny.com&query=data&location=India&start=0",
-  "method": "GET"
- },
- {
-  "name": "bny_page",
-  "url": "https://jobs.bny.com/",
-  "method": "GET",
-  "save": true
- },
- {
-  "name": "principal_page2",
-  "url": "https://careers.principal.com/",
-  "method": "GET",
-  "save": true
- },
- {
-  "name": "wd_fadv",
-  "url": "https://fadv.wd1.myworkdayjobs.com/wday/cxs/fadv/External/jobs",
-  "method": "POST",
-  "json": {
-   "appliedFacets": {},
-   "limit": 1,
-   "offset": 0,
-   "searchText": "data"
-  },
-  "headers": {
-   "Content-Type": "application/json"
-  }
- },
- {
-  "name": "wd_fedex_FXE-AMEA_External_Career_Site",
-  "url": "https://fedex.wd1.myworkdayjobs.com/wday/cxs/fedex/FXE-AMEA_External_Career_Site/jobs",
-  "method": "POST",
-  "json": {
-   "appliedFacets": {},
-   "limit": 1,
-   "offset": 0,
-   "searchText": "data"
-  },
-  "headers": {
-   "Content-Type": "application/json"
-  }
- },
- {
-  "name": "wd_fedex_FXE-APAC_External_Career_Site",
-  "url": "https://fedex.wd1.myworkdayjobs.com/wday/cxs/fedex/FXE-APAC_External_Career_Site/jobs",
-  "method": "POST",
-  "json": {
-   "appliedFacets": {},
-   "limit": 1,
-   "offset": 0,
-   "searchText": "data"
-  },
-  "headers": {
-   "Content-Type": "application/json"
-  }
- },
- {
-  "name": "wd_fedex_FedEx_ACC",
-  "url": "https://fedex.wd1.myworkdayjobs.com/wday/cxs/fedex/FedEx_ACC/jobs",
-  "method": "POST",
-  "json": {
-   "appliedFacets": {},
-   "limit": 1,
-   "offset": 0,
-   "searchText": "data"
-  },
-  "headers": {
-   "Content-Type": "application/json"
-  }
- },
- {
-  "name": "wd_fedex_FXE-EU_External_Career_Site",
-  "url": "https://fedex.wd1.myworkdayjobs.com/wday/cxs/fedex/FXE-EU_External_Career_Site/jobs",
-  "method": "POST",
-  "json": {
-   "appliedFacets": {},
-   "limit": 1,
-   "offset": 0,
-   "searchText": "data"
-  },
-  "headers": {
-   "Content-Type": "application/json"
-  }
- },
- {
-  "name": "wd_fedex_External",
-  "url": "https://fedex.wd1.myworkdayjobs.com/wday/cxs/fedex/External/jobs",
-  "method": "POST",
-  "json": {
-   "appliedFacets": {},
-   "limit": 1,
-   "offset": 0,
-   "searchText": "data"
-  },
-  "headers": {
-   "Content-Type": "application/json"
-  }
- },
- {
-  "name": "phonepe_page",
-  "url": "https://www.phonepe.com/careers/job-openings/",
-  "method": "GET",
-  "save": true
- },
- {
-  "name": "postman_page",
-  "url": "https://www.postman.com/company/careers/open-positions/",
-  "method": "GET",
-  "save": true
- },
- {
-  "name": "medianet_api",
-  "url": "https://careers.media.net/api/jobs",
-  "method": "GET",
-  "save": false
- },
- {
-  "name": "nykaa_page2",
-  "url": "https://careers.nykaa.com/",
-  "method": "GET",
-  "save": true
- },
- {
-  "name": "jiostar",
-  "url": "https://careers.jiostar.com/",
-  "method": "GET",
-  "save": true
- },
- {
-  "name": "chargebee_unify",
-  "url": "https://jobs.chargebee.com/services/recruiting/v1/jobs",
-  "method": "POST",
-  "headers": {
-   "Content-Type": "application/json"
-  },
-  "json": {
-   "locale": "en_US",
-   "pageNumber": 0,
-   "sortBy": "",
-   "keywords": "engineer",
-   "location": "",
-   "facetFilters": {},
-   "brand": "",
-   "skills": [],
-   "categoryId": 0,
-   "alertId": "",
-   "rcmCandidateId": ""
-  }
- },
- {
-  "name": "chargebee_jobs",
-  "url": "https://jobs.chargebee.com/",
-  "method": "GET",
-  "save": true
- },
- {
-  "name": "worldline_unify",
-  "url": "https://jobs.worldline.com/services/recruiting/v1/jobs",
-  "method": "POST",
-  "headers": {
-   "Content-Type": "application/json"
-  },
-  "json": {
-   "locale": "en_US",
-   "pageNumber": 0,
-   "sortBy": "",
-   "keywords": "data",
-   "location": "India",
-   "facetFilters": {},
-   "brand": "",
-   "skills": [],
-   "categoryId": 0,
-   "alertId": "",
-   "rcmCandidateId": ""
-  }
- },
- {
-  "name": "sc_jobpage",
-  "url": "https://jobs.standardchartered.com/job/Manager%2C-Data-Analysis/63962-en_GB/",
-  "method": "GET"
- },
- {
-  "name": "siemens_page2",
-  "url": "https://jobs.siemens.com/en_US/externaljobs/SearchJobs/data?jobRecordsPerPage=50&jobOffset=0",
+  "name": "oracle_oracle_india",
+  "url": "https://eeho.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.secondaryLocations&finder=findReqs;siteNumber=CX_45001,facetsList=LOCATIONS,keyword=%22data%22,limit=2,offset=0,location=India",
   "method": "GET",
   "save": true
  }
