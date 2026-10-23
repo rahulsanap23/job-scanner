@@ -28,6 +28,18 @@ def summarize_json(obj, depth=0):
     return obj
 
 
+SECRETISH = re.compile(
+    r"AIza[0-9A-Za-z_\-]{30,}|AKIA[0-9A-Z]{16}|gh[pousr]_[0-9A-Za-z]{30,}|xox[abprs]-[0-9A-Za-z-]{10,}"
+    r"|sk_(?:live|test)_[0-9A-Za-z]{10,}|-----BEGIN [A-Z ]*PRIVATE KEY-----|eyJ[0-9A-Za-z_\-]{10,}\.[0-9A-Za-z_\-]{10,}(?:\.[0-9A-Za-z_\-]+)?"
+    r"|hooks\.slack\.com/[^\s\"']+|AC[0-9a-f]{32}|SK[0-9a-f]{32}|sig=[0-9A-Za-z%]{20,}"
+    r"|(?:api[_-]?key|apikey|secret|token|password)[\"']?\s*[:=]\s*[\"'][^\"']{12,}[\"']")
+
+
+def redact(text):
+    """Page sources embed public API keys; GitHub push protection rejects commits containing them."""
+    return SECRETISH.sub("[redacted]", text)
+
+
 def run(t):
     name = t["name"]
     headers = {"User-Agent": UA, "Accept": "application/json, text/html;q=0.9, */*;q=0.8",
@@ -43,10 +55,11 @@ def run(t):
                    ctype=r.headers.get("content-type", ""), length=len(r.content))
         text = r.text
         try:
-            rec["json_shape"] = summarize_json(r.json())
+            rec["json_shape"] = json.loads(redact(json.dumps(summarize_json(r.json()))))
         except Exception:
             title = re.search(r"<title[^>]*>(.*?)</title>", text, re.S | re.I)
             rec["html_title"] = title.group(1).strip()[:150] if title else None
+        text = redact(text)
         rec["snippet"] = text[:1500]
         if t.get("save"):
             os.makedirs(os.path.join(HERE, "out"), exist_ok=True)
