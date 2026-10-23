@@ -424,9 +424,9 @@ companies:
 - name: Principal Global Services
   aliases:
   - Principal
-  sources: []
-  careers_url: https://www.principal.com/about-us/careers
-  note: no public job feed found
+  sources:
+  - type: jibe
+    base: https://careers.principal.com
 - name: Whirlpool
   sources:
   - type: eightfold
@@ -674,9 +674,9 @@ companies:
   careers_url: https://www.rblbank.com/careers
   note: no public job feed found
 - name: Veeam
-  sources: []
-  careers_url: https://careers.veeam.com/
-  note: no public job feed found
+  sources:
+  - type: greenhouse
+    token: veeamsoftware
 - name: Teradata
   sources:
   - type: jobsyn
@@ -790,10 +790,9 @@ companies:
   careers_url: https://www.billdesk.com/web/careers
   note: no public job feed found
 - name: Upstox
-  sources:
-  - type: lever
-    site: upstox
+  sources: []
   careers_url: https://upstox.com/careers/
+  note: no public job feed found
 - name: 3Pillar Global
   aliases:
   - 3Pillar
@@ -801,9 +800,9 @@ companies:
   careers_url: https://www.3pillarglobal.com/careers/
   note: no public job feed found
 - name: Tiger Analytics
-  sources: []
-  careers_url: https://www.tigeranalytics.com/about-us/current-openings/
-  note: adapter pending
+  sources:
+  - type: workable
+    account: tiger-analytics
 - name: Tekion
   sources:
   - type: ashby
@@ -818,14 +817,14 @@ companies:
     site: mindtickle
 - name: Chargebee
   sources:
-  - type: csb_unify
+  - type: csb
     base: https://jobs.chargebee.com
-    locale: en_US
-  careers_url: https://www.chargebee.com/company/careers/
+    locations:
+    - India
 - name: CleverTap
   sources: []
   careers_url: https://clevertap.darwinbox.in/ms/candidate/careers
-  note: adapter pending
+  note: Darwinbox site, no public feed
 - name: Sciative
   sources: []
   careers_url: https://sciative.com/careers
@@ -860,7 +859,7 @@ companies:
 - name: Trajector
   sources: []
   careers_url: https://www.trajector.com/careers/
-  note: iCIMS site, adapter pending
+  note: iCIMS site blocks automated access
 - name: Ubisoft
   sources:
   - type: smartrecruiters
@@ -885,7 +884,7 @@ companies:
   - HERE
   sources: []
   careers_url: https://careers-here.icims.com/jobs/search?ss=1
-  note: iCIMS site, adapter pending
+  note: iCIMS site blocks automated access
 - name: Philips
   sources:
   - type: workday
@@ -916,7 +915,6 @@ companies:
   sources:
   - type: greenhouse
     token: nice
-    eu: true
 - name: Avaloq
   sources:
   - type: smartrecruiters
@@ -952,10 +950,9 @@ companies:
 - name: Dream Sports
   aliases:
   - Dream11
-  sources:
-  - type: lever
-    site: dreamsports
+  sources: []
   careers_url: https://www.dreamsports.group/
+  note: no public job feed found
 - name: Nykaa
   sources: []
   careers_url: https://careers.nykaa.com/

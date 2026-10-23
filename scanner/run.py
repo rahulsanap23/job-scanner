@@ -60,17 +60,19 @@ def scan_company(c, today, debug=False):
                 traceback.print_exc()
     rep["fetched"] = len(raw)
 
-    kept, uncertain = [], []
+    kept, uncertain, rejects = [], [], []
     for r in raw:
         ok, how, borderline = title_match(r.get("title"))
         if not ok:
             continue
         rep["title_matches"] += 1
         tags, notes = location_tags(r.get("locations"), r.get("remote"), r.get("country"))
-        if not tags and not notes:
-            continue
         posted = parse_posted(r.get("posted"), today)
+        if not tags and not notes:
+            rejects.append(f"location: {r.get('title')} | {'; '.join(l for l in r.get('locations') or [] if l)[:80]}")
+            continue
         if not is_recent(posted, today):
+            rejects.append(f"older than 30d: {r.get('title')} | {r.get('posted')}")
             continue
         flags = list(notes)
         if borderline:
@@ -87,6 +89,7 @@ def scan_company(c, today, debug=False):
         (uncertain if flags else kept).append(job)
 
     rep["matched"] = len(kept) + len(uncertain)
+    rep["rejected_examples"] = rejects[:8]  # title matched but location/date didn't: helps spot parsing bugs
     if rep["errors"]:
         rep["status"] = "error" if not ok_sources else "partial"
     rep["requests"] = http.count

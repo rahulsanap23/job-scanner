@@ -6,7 +6,8 @@ from ..filters import title_match
 INDIA_ID = "c4f78be1a8f14da0ab49ce1162348a5e"  # Workday's global id for India
 PAGE = 20
 MAX_PAGES_PER_TERM = 15
-CITY_WORDS = ("pune", "mumbai", "bombay", "navi mumbai", "india", "remote")
+COUNTRY_RE = re.compile(r"^\s*(india|ind|in)\s*(\(.*\))?\s*$", re.I)
+CITY_RE = re.compile(r"pune|mumbai|bombay|maharashtra|\bindia\b|\bind\b", re.I)
 
 
 def _walk(facets):
@@ -20,21 +21,28 @@ def _walk(facets):
 
 
 def india_facets(facets):
-    """Pick the facet filter that limits results to India (or failing that, our cities)."""
-    country = {}
-    for param, v in _walk(facets):
-        d = (v.get("descriptor") or "").strip().lower()
-        if v.get("id") == INDIA_ID or ("country" in param.lower() and d in ("india", "ind", "in")):
-            country.setdefault(param, []).append(v["id"])
-    if country:
-        return country, "country=India"
-    cities = {}
-    for param, v in _walk(facets):
-        d = (v.get("descriptor") or "").lower()
-        if "location" in param.lower() and any(w in d for w in CITY_WORDS):
-            cities.setdefault(param, []).append(v["id"])
-    if cities:
-        return cities, "location facet"
+    """Pick ONE facet filter that limits results to India (or failing that, to Indian cities).
+
+    Only one facet parameter is applied: Workday ANDs different parameters together,
+    so mixing a city facet with a region facet can wipe out every result.
+    """
+    values = list(_walk(facets))
+    for param, v in values:  # Workday's own country id for India
+        if v.get("id") == INDIA_ID:
+            return {param: [v["id"]]}, f"{param}=India"
+    for param, v in values:  # a facet value that is just "India"
+        if COUNTRY_RE.match(v.get("descriptor") or "") and "location" in param.lower() or \
+                ("country" in param.lower() and COUNTRY_RE.match(v.get("descriptor") or "")):
+            return {param: [v["id"]]}, f"{param}={v.get('descriptor')}"
+    by_param = {}
+    for param, v in values:
+        d = v.get("descriptor") or ""
+        if "location" in param.lower() and CITY_RE.search(d) and "indiana" not in d.lower():
+            by_param.setdefault(param, []).append(v)
+    if by_param:
+        param, vs = max(by_param.items(), key=lambda kv: len(kv[1]))
+        names = ", ".join(v.get("descriptor", "") for v in vs[:6])
+        return {param: [v["id"] for v in vs]}, f"{param} in [{names}{'…' if len(vs) > 6 else ''}]"
     return {}, "no India facet"
 
 
