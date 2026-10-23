@@ -1,0 +1,1757 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no, viewport-fit=cover" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/images/favicon-16x16.png">
+    <title>Careers at Icertis | Icertis</title>
+    <link rel="stylesheet" href="https://use.typekit.net/gwo4abq.css">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap">
+    <link href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" rel="stylesheet" />
+    <link href="/static/css/main.css?v=n138-U_ImQts_k6LbzQNCS6dRQJqb50QQRJp1EJNEDc" rel="stylesheet" />
+    <script src="/static/js/main.min.js?v=jZ_Bh0Evb6kd09FPPxX1v4DGk0gxh6brRvHe6knn-1A" type="module" defer></script>
+    <script src="/static/js/cookie-consent.min.js?v=Ds30xh_2dogw5MlBKpuY7ppln4neNw_mUpuaFIz1344" type="module" defer></script>
+    <script src="https://cdn.optimizely.com/js/4738191656222720.js"></script>
+
+    
+<meta name="title" content="Careers at Icertis" />
+<meta name="description" content="Recognized as a top place to work. Icertis is passionately committed to a values-driven approach to doing business &#x2013; how we get there is as important as the destination &#x2013; and is frequently recognized for its focus on its FORTE values." />
+    <meta property="og:title" content="Careers at Icertis">
+    <meta property="og:description"
+          content="Recognized as a top place to work. Icertis is passionately committed to a values-driven approach to doing business &#x2013; how we get there is as important as the destination &#x2013; and is frequently recognized for its focus on its FORTE values.">
+<meta property="og:type" content="website">
+
+    <meta property="og:image"
+          content="https://www.icertis.com/contentassets/676c976f9c4c4d178a737c49144941f3/careet-header-image-1.png">
+
+<meta property="og:url" content="https://www.icertis.com/company/careers/">
+<meta http-equiv="Content-Security-Policy" content="script-src blob: data: * &#x27;unsafe-inline&#x27; &#x27;unsafe-eval&#x27;">
+    <link rel="canonical" href="https://www.icertis.com/company/careers/" />
+
+    <meta property="idio:mainimage" content="https://www.icertis.com/contentassets/676c976f9c4c4d178a737c49144941f3/careet-header-image-1.png" />
+    <meta property="idio:title" content="Careers at Icertis" />
+    <meta property="article:published_time" content="2026-06-30T09:53:48.0000000&#x2B;00:00" />
+<meta property="idio:sortbybate" content="0001-01-01T00:00:00.0000000" />
+
+    <script>
+_iaq = [ ['client', '50c4ad4bbd7c47879b5be0a416b0562e'], ['track', 'consume'] ]; !function(d,s){var ia=d.createElement(s);ia.async=1,s=d.getElementsByTagName(s)[0],ia.src='//s.usea01.idio.episerver.net/ia.js',s.parentNode.insertBefore(ia,s)}(document,'script');
+</script>
+<script>
+!function(T,l,y){var S=T.location,k="script",D="instrumentationKey",C="ingestionendpoint",I="disableExceptionTracking",E="ai.device.",b="toLowerCase",w="crossOrigin",N="POST",e="appInsightsSDK",t=y.name||"appInsights";(y.name||T[e])&&(T[e]=t);var n=T[t]||function(d){var g=!1,f=!1,m={initialize:!0,queue:[],sv:"5",version:2,config:d};function v(e,t){var n={},a="Browser";return n[E+"id"]=a[b](),n[E+"type"]=a,n["ai.operation.name"]=S&&S.pathname||"_unknown_",n["ai.internal.sdkVersion"]="javascript:snippet_"+(m.sv||m.version),{time:function(){var e=new Date;function t(e){var t=""+e;return 1===t.length&&(t="0"+t),t}return e.getUTCFullYear()+"-"+t(1+e.getUTCMonth())+"-"+t(e.getUTCDate())+"T"+t(e.getUTCHours())+":"+t(e.getUTCMinutes())+":"+t(e.getUTCSeconds())+"."+((e.getUTCMilliseconds()/1e3).toFixed(3)+"").slice(2,5)+"Z"}(),iKey:e,name:"Microsoft.ApplicationInsights."+e.replace(/-/g,"")+"."+t,sampleRate:100,tags:n,data:{baseData:{ver:2}}}}var h=d.url||y.src;if(h){function a(e){var t,n,a,i,r,o,s,c,u,p,l;g=!0,m.queue=[],f||(f=!0,t=h,s=function(){var e={},t=d.connectionString;if(t)for(var n=t.split(";"),a=0;a<n.length;a++){var i=n[a].split("=");2===i.length&&(e[i[0][b]()]=i[1])}if(!e[C]){var r=e.endpointsuffix,o=r?e.location:null;e[C]="https://"+(o?o+".":"")+"dc."+(r||"services.visualstudio.com")}return e}(),c=s[D]||d[D]||"",u=s[C],p=u?u+"/v2/track":d.endpointUrl,(l=[]).push((n="SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details)",a=t,i=p,(o=(r=v(c,"Exception")).data).baseType="ExceptionData",o.baseData.exceptions=[{typeName:"SDKLoadFailed",message:n.replace(/\./g,"-"),hasFullStack:!1,stack:n+"\nSnippet failed to load ["+a+"] -- Telemetry is disabled\nHelp Link: https://go.microsoft.com/fwlink/?linkid=2128109\nHost: "+(S&&S.pathname||"_unknown_")+"\nEndpoint: "+i,parsedStack:[]}],r)),l.push(function(e,t,n,a){var i=v(c,"Message"),r=i.data;r.baseType="MessageData";var o=r.baseData;return o.message='AI (Internal): 99 message:"'+("SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details) ("+n+")").replace(/\"/g,"")+'"',o.properties={endpoint:a},i}(0,0,t,p)),function(e,t){if(JSON){var n=T.fetch;if(n&&!y.useXhr)n(t,{method:N,body:JSON.stringify(e),mode:"cors"});else if(XMLHttpRequest){var a=new XMLHttpRequest;a.open(N,t),a.setRequestHeader("Content-type","application/json"),a.send(JSON.stringify(e))}}}(l,p))}function i(e,t){f||setTimeout(function(){!t&&m.core||a()},500)}var e=function(){var n=l.createElement(k);n.src=h;var e=y[w];return!e&&""!==e||"undefined"==n[w]||(n[w]=e),n.onload=i,n.onerror=a,n.onreadystatechange=function(e,t){"loaded"!==n.readyState&&"complete"!==n.readyState||i(0,t)},n}();y.ld<0?l.getElementsByTagName("head")[0].appendChild(e):setTimeout(function(){l.getElementsByTagName(k)[0].parentNode.appendChild(e)},y.ld||0)}try{m.cookie=l.cookie}catch(p){}function t(e){for(;e.length;)!function(t){m[t]=function(){var e=arguments;g||m.queue.push(function(){m[t].apply(m,e)})}}(e.pop())}var n="track",r="TrackPage",o="TrackEvent";t([n+"Event",n+"PageView",n+"Exception",n+"Trace",n+"DependencyData",n+"Metric",n+"PageViewPerformance","start"+r,"stop"+r,"start"+o,"stop"+o,"addTelemetryInitializer","setAuthenticatedUserContext","clearAuthenticatedUserContext","flush"]),m.SeverityLevel={Verbose:0,Information:1,Warning:2,Error:3,Critical:4};var s=(d.extensionConfig||{}).ApplicationInsightsAnalytics||{};if(!0!==d[I]&&!0!==s[I]){var c="onerror";t(["_"+c]);var u=T[c];T[c]=function(e,t,n,a,i){var r=u&&u(e,t,n,a,i);return!0!==r&&m["_"+c]({message:e,url:t,lineNumber:n,columnNumber:a,error:i}),r},d.autoExceptionInstrumented=!0}return m}(y.cfg);function a(){y.onInit&&y.onInit(n)}(T[t]=n).queue&&0===n.queue.length?(n.queue.push(a),n.trackPageView({})):a()}(window,document,{src: "https://js.monitor.azure.com/scripts/b/ai.2.gbl.min.js", crossOrigin: "anonymous", cfg: {connectionString: 'InstrumentationKey=cb09fcb2-ae20-414d-8894-f957c402a88f;IngestionEndpoint=https://westus-0.in.applicationinsights.azure.com/;LiveEndpoint=https://westus.livediagnostics.monitor.azure.com/;ApplicationId=ea0978bd-7eca-4562-9cc2-b2e627d525a5', disableCookiesUsage: false }});
+</script>
+
+    <script>
+        window.enabledLanguages = ["en"];
+    </script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NHY4GCEFRC" defer></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-NHY4GCEFRC');
+    </script>
+    
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MC236GX');</script>
+<!-- End Google Tag Manager -->
+        <section class="raw-code-block">
+            <style>
+.page-content:has(.rich-text-area__meta-bar .meta-bar__link){
+    margin-bottom: 0;
+}
+</style>
+        </section>
+
+    <script type="application/ld&#x2B;json">{
+  "@type": "Organization",
+  "@context": "https://schema.org",
+  "@id": "https://www.icertis.com/#organization",
+  "name": "Icertis",
+  "url": "https://www.icertis.com/",
+  "logo": {
+    "@type": "ImageObject",
+    "url": "https://www.icertis.com/static/images/icertis-logo.svg?v=1"
+  },
+  "description": "Go beyond contract lifecycle management with Icertis Contract Intelligence. Transform your contracts with an AI-powered platform into structured, connected and on-demand data that automates, processes, reduces risk and maximizes the value of your contracts.",
+  "foundingDate": null,
+  "sameAs": [
+    "https://www.linkedin.com/company/icertis/",
+    "https://www.youtube.com/channel/UCkxr-g3wzTgFFmRbumun6lQ",
+    "http://instagram.com/icertisinc/",
+    "https://twitter.com/icertis"
+  ]
+}</script>
+</head>
+
+<body>
+    
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MC236GX"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    
+
+<body class="l-body off-canvas-right" data-off-canvas-breakpoint="1200">
+    <div class="l-surround">
+        <div class="site-peak-desktop-placeholder"> </div>
+        <a href="#main" class="skip-link">
+            Skip to main content
+        </a>
+        
+<header class="site-header l-header slide-over-transition headroom">
+    <div class="main-nav__bar">
+        <div class="l-header__elements">
+            <div class="main-nav__wrap">
+                <!-- Branding placeholder -->
+                <div class="main-nav__logo d-xl-none">
+                    <a href="/">
+                        <img src="/static/images/icertis-logo-new.svg?v=1" alt="Icertis"
+                             width="1041" height="400">
+                    </a>
+                </div>
+
+                    <a href="/contact-us/" class="btn main-nav__btn-icon d-xl-none">
+                        <span class="visually-hidden">Contact</span>
+                        <img src="/static/images/icon-phone.svg" alt="" width="33" height="33" />
+                    </a>
+
+                    <div class="nav-search__toggle--mobile">
+                        <button id="navSearchCollapseToggle" class="btn btn-search btn-search--toggle collapsed"
+                                type="button" data-bs-toggle="collapse" data-bs-target="#navSearchCollapse">
+                            <span class="visually-hidden">Search</span>
+                                <img src="/static/images/icon-search.svg" alt="" width="33" height="33">
+                                <span class="close-symbol inline-icon"></span>
+                            </button>
+                        </div>
+
+                    <!-- Show/hide off-canvas button -->
+                    <button class="toggle-off-canvas toggle-hamburger" type="button" aria-expanded="false"
+                            aria-controls="offCanvasArea"
+                            aria-label="Open Menu">
+                        <span class="toggle-hamburger__wrapper">
+                            <span class="toggle-hamburger__bun"></span>
+                            <span class="toggle-hamburger__bun"></span>
+                            <span class="toggle-hamburger__bun"></span>
+                        </span>
+                    </button>
+                    <!-- Put elements in l-off-canvas container if you want them off canvas -->
+                    <div class="l-off-canvas" id="offCanvasArea" tabindex="-1" aria-labelledby="offCanvasTitle">
+                        <div class="l-off-canvas__helper">
+                            <h4 id="offCanvasTitle" class="sr-only">
+                                Site navigation
+                            </h4>
+                            <!-- Show/hide off-canvas button -->
+                            <div class="off-canvas__toggle-bar shallow-gradient">
+                                <button class="toggle-off-canvas toggle-hamburger toggle-hamburger--to-x" type="button"
+                                        aria-expanded="false" aria-controls="offCanvasArea"
+                                        aria-label="Close">
+                                    <span class="toggle-hamburger__wrapper">
+                                        <span class="toggle-hamburger__bun"></span>
+                                        <span class="toggle-hamburger__bun"></span>
+                                        <span class="toggle-hamburger__bun"></span>
+                                    </span>
+                                </button>
+                                <button class="btn mln-back-button" type="button">
+                                    <img src="/static/images/icon-back-arrow.svg" alt="" width="21" height="21">
+                                    Back to Menu
+                                </button>
+                            </div>
+                            <!-- Navigation -->
+                            <div class="main-nav__container">
+                                <nav class="main-nav mln mln--navbar mln--navbar-slide-over" data-mln-breakpoint="1200"
+                                     aria-label="primary">
+                                    <!-- Navigation list -->
+                                    <!-- Branding placeholder -->
+                                    <div class="main-nav__left">
+                                        <div class="main-nav__logo d-none d-xl-block">
+                                            <a href="/">
+                                                <img src="/static/images/icertis-logo-new.svg"
+                                                     alt="Icertis" width="1041" height="400">
+                                            </a>
+                                        </div>
+                                        <ul class="mln__list">
+                                                <li>
+                                                    <a href="#">
+Products</a>
+                                                    <!-- Mega menu div -->
+                                                    <div class="mln__child__mega-menu">
+                                                        <button type="button" class="btn-close"
+                                                                aria-label="Close"></button>
+                                                        <div class="row">
+                                                                <div class="col-xl-3">
+                                                                    <div class="mega-menu__intro mega-menu__col-content">
+                                                                        <h4>Platform</h4>
+                                                                        <div class="mega-menu-heading h4 with-tic-mark">
+                                                                        </div>
+                                                                        
+<p><a title="Platform Overview" href="/products/platform/"> Platform Overview </a></p>
+<p><a title="Platform Overview" href="/products/platform/copilot/"> Vera Copilot</a></p>
+<p><a title="Integrations" href="/products/platform/integrations/">Integrations</a></p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-xl-3">
+                                                                    <div class="mega-menu__col-content">
+                                                                        <p class="h5">
+<a href="/products/engage/" aria-label="Learn more about Icertis Engage; Contracting is broken for business teams">Engage </a></p>
+                                                                        <ul class="mega-menu-sub-nav">
+                                                                                    <li>
+                                                                                        
+<a href="/products/engage/vera-engage/" title="Vera Engage">Vera Engage</a>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        
+<a href="/products/engage/vera-composer-agent/" title="Vera Composer Agent">Vera Composer Agent</a>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        
+<a href="/products/engage/vera-playbook-creation-agent/">Vera Playbook Creation Agent</a>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        
+<a href="/products/engage/vera-risk-review-agent/">Vera Risk Review Agent</a>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        
+<a href="/products/engage/vera-redline-agent/" title="Vera Redline Agent">Vera Redline Agent</a>
+                                                                                    </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-xl-3">
+                                                                    <div class="mega-menu__col-content">
+                                                                        <p class="h5">
+<a title="Operate" href="/products/operate/" aria-label="=">Operate</a></p>
+                                                                        <ul class="mega-menu-sub-nav">
+                                                                                    <li>
+                                                                                        
+<a href="/products/operate/contract-lifecycle-management/" title="Icertis Contract Management">Icertis Contract Management</a>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        
+<a href="/products/operate/vera-obligations/" title="Vera Obligations">Vera Obligations</a>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        
+<a href="/products/operate/vera-fulfillment-agent/" title="Vera Fulfillment Agent">Vera Fulfillment Agent</a>
+                                                                                    </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-xl-3">
+                                                                    <div class="mega-menu__col-content">
+                                                                        <p class="h5">
+<a title="Analyze" href="/products/analyze/" aria-label="Learn more about Icertis Analyze - Gain contract insights and analytics">Analyze</a></p>
+                                                                        <ul class="mega-menu-sub-nav">
+                                                                                    <li>
+                                                                                        
+<a href="/products/analyze/vera-analytics-standard/" title="Vera Analytics Standard">Vera Analytics Standard</a>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        
+<a href="/products/analyze/vera-analytics-advanced/" title="Vera Analytics Advanced">Vera Analytics Advanced</a>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        
+<a href="/products/analyze/ods-and-reporting/">ODS and Reporting</a>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        
+<a href="/products/analyze/vera-insights-agent/" title="Vera Insights Agent">Vera Insights Agent</a>
+                                                                                    </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+Solutions</a>
+                                                    <!-- Mega menu div -->
+                                                    <div class="mln__child__mega-menu">
+                                                        <button type="button" class="btn-close"
+                                                                aria-label="Close"></button>
+                                                        <div class="row">
+                                                                <div class="col-xl-3">
+                                                                    <div class="mega-menu__col-content">
+                                                                        <p class="h5">
+Purpose-Built</p>
+                                                                        <ul class="mega-menu-sub-nav">
+                                                                                    <li>
+                                                                                        
+<a href="/solutions/pre-configured-solutions/government/" title="Federal Agencies">Federal Agencies</a>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        
+<a href="/solutions/pre-configured-solutions/government-contractors/" title="Government Contractors">Government Contractors</a>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        
+<a href="/solutions/pre-configured-solutions/healthcare-provider/" title="Healthcare Providers">Healthcare Providers</a>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        
+<a href="/solutions/pre-configured-solutions/ariba/">SAP</a>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        
+<a href="/solutions/" title="Explore all solutions">See All &#x2192;</a>
+                                                                                    </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-xl-3">
+                                                                    <div class="mega-menu__col-content">
+                                                                        <p class="h5">
+By Industry</p>
+                                                                        <ul class="mega-menu-sub-nav">
+                                                                                    <li>
+                                                                                        
+<a href="/solutions/industry-solutions/asset-management/" title="Asset Management">Asset Management</a>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        
+<a href="/solutions/industry-solutions/automotive/" title="Automotive">Automotive</a>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        
+<a href="/solutions/industry-solutions/banking/">Banking</a>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        
+<a href="/solutions/industry-solutions/energy/" title="Energy">Energy</a>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        
+<a href="/solutions/industry-solutions/healthcare-payers/">Healthcare Payers</a>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        
+<a href="/solutions/industry-solutions/manufacturing/" title="Manufacturing">Manufacturing</a>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        
+<a href="/solutions/industry-solutions/media-and-telecom/" title="Media and Telecom">Media and Telecom</a>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        
+<a href="/solutions/industry-solutions/medical-devices/">Medical Devices</a>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        
+<a href="/solutions/industry-solutions/pharmaceutical-and-life-sciences/">Pharmaceutical &amp; Life Sciences</a>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        
+<a href="/solutions/industry-solutions/public-sector/" title="Public Sector">Public Sector</a>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        
+<a href="/solutions/industry-solutions/retail-and-consumer/" title="Retail and Consumer">Retail and Consumer</a>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        
+<a href="/solutions/industry-solutions/technology-consulting/" title="Technology">Technology</a>
+                                                                                    </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-xl-3">
+                                                                    <div class="mega-menu__col-content">
+                                                                        <p class="h5">
+By Department</p>
+                                                                        <ul class="mega-menu-sub-nav">
+                                                                                    <li>
+                                                                                        
+<a href="/solutions/departmental-solutions/legal/" title="Legal">Legal</a>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        
+<a href="/solutions/departmental-solutions/procurement/">Procurement</a>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        
+<a href="/solutions/departmental-solutions/finance/" title="Finance">Finance</a>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        
+<a href="/solutions/departmental-solutions/sales/">Sales</a>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        
+<a href="/solutions/departmental-solutions/it/">IT</a>
+                                                                                    </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-xl-3">
+                                                                    
+<p><a href="/research/analyst-reports/gartner-peer-insights-voc/intro/"><img src="/globalassets/graphics/block-graphics/company-nav/small-promo-gartner-voc-2026.png" border="0" alt="gartner" /></a></p>
+                                                                </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+<span data-teams="true">Customers</span></a>
+                                                    <!-- Mega menu div -->
+                                                    <div class="mln__child__mega-menu">
+                                                        <button type="button" class="btn-close"
+                                                                aria-label="Close"></button>
+                                                        <div class="row">
+                                                                <div class="col-xl-3">
+                                                                    <div class="mega-menu__col-content">
+                                                                        <p class="h5">
+Our Customers</p>
+                                                                        <ul class="mega-menu-sub-nav">
+                                                                                    <li>
+                                                                                        
+<a href="/customers/customer-stories/hewlett-packard-enterprise/">HP</a>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        
+<a href="/customers/customer-stories/enbridge/">Enbridge</a>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        
+<a href="/customers/customer-stories/shermco/">Shermco</a>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        
+<a href="/customers/customer-stories/mercedes-benz/">Mercedes Benz</a>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        
+<a href="/customers/customer-stories/" title="Customers Stories">See All &#x2192;</a>
+                                                                                    </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-xl-3">
+                                                                    <div class="mega-menu__col-content">
+                                                                        <p class="h5">
+<a href="/customers/customer-stories/microsoft-cloud-operations/"><img src="/globalassets/1.-sections/homepage/navbar/microsoft.png" border="0" alt="Microsoft-logo" /></a></p>
+                                                                        <ul class="mega-menu-sub-nav">
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-xl-3">
+                                                                    <div class="mega-menu__col-content">
+                                                                        <p class="h5">
+<a href="/customers/customer-stories/accenture/"><img src="/globalassets/1.-sections/homepage/navbar/accenture.png" border="0" alt="accenture-logo" /></a></p>
+                                                                        <ul class="mega-menu-sub-nav">
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-xl-3">
+                                                                    <div class="mega-menu__col-content">
+                                                                        <p class="h5">
+<a href="/customers/customer-stories/accenture/"><img src="/globalassets/1.-sections/homepage/navbar/wilson_sonsini.png" border="0" alt="wilson_sonsini-logo" /></a></p>
+                                                                        <ul class="mega-menu-sub-nav">
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+Resources</a>
+                                                    <!-- Mega menu div -->
+                                                    <div class="mln__child__mega-menu">
+                                                        <button type="button" class="btn-close"
+                                                                aria-label="Close"></button>
+                                                        <div class="row">
+                                                                <div class="col-xl-3">
+                                                                    <div class="mega-menu__col-content">
+                                                                        <p class="h5">
+Resources Library</p>
+                                                                        <ul class="mega-menu-sub-nav">
+                                                                                    <li>
+                                                                                        
+<a href="/research/analyst-reports/" title="Analyst &amp; Research Reports">Analyst &amp; Research Reports</a>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        
+<a href="/research/ebooks/" title="White Papers &amp; eBooks">White Papers &amp; eBooks</a>
+                                                                                    </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-xl-3">
+                                                                    <div class="mega-menu__col-content">
+                                                                        <p class="h5">
+Blog</p>
+                                                                        <ul class="mega-menu-sub-nav">
+                                                                                    <li>
+                                                                                        
+<a href="/research/blog/" title="The Fine Print">The Fine Print</a>
+                                                                                    </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-xl-3">
+                                                                    <div class="mega-menu__col-content">
+                                                                        <p class="h5">
+Events</p>
+                                                                        <ul class="mega-menu-sub-nav">
+                                                                                    <li>
+                                                                                        
+<a href="/research/webinars/" title="Webinars">Webinars</a>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        
+<a href="/company/events/" title="Events">Events</a>
+                                                                                    </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-xl-3">
+                                                                    
+<p><a href="/research/analyst-reports/state-of-clm-and-ai-powered-contract-intelligence/intro/"><img src="/globalassets/graphics/block-graphics/company-nav/state-of-clm-and-ai-powered-contract-intelligence-v2.png" border="0" alt="state-clm" /></a></p>
+                                                                </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+Why Icertis</a>
+                                                    <!-- Mega menu div -->
+                                                    <div class="mln__child__mega-menu">
+                                                        <button type="button" class="btn-close"
+                                                                aria-label="Close"></button>
+                                                        <div class="row">
+                                                                <div class="col-xl-3">
+                                                                    <div class="mega-menu__col-content">
+                                                                        <p class="h5">
+Our Differentiators</p>
+                                                                        <ul class="mega-menu-sub-nav">
+                                                                                    <li>
+                                                                                        
+<a href="/context-driven-contract-intelligence/">Context-Driven</a>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        
+<a href="/products/platform/" title="AI-Native Foundation">AI-Native Foundation</a>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        
+<a href="/customers/customer-stories/" title="Enterprise Strength">Enterprise Strength</a>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        
+<a href="/partner/sap/" title="Co-innovation with SAP">Co-innovation with SAP</a>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        
+<a href="/solutions/" title="Industry Depth">Industry Depth</a>
+                                                                                    </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-xl-3">
+                                                                    <div class="mega-menu__col-content">
+                                                                        <p class="h5">
+Our SI Partners</p>
+                                                                        <ul class="mega-menu-sub-nav">
+                                                                                    <li>
+                                                                                        
+<a href="/partner/accenture/" title="Accenture">Accenture</a>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        
+<a href="/partner/pwc/">PwC</a>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        
+<a href="/partner/deloitte/" title="Deloitte">Deloitte</a>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        
+<a href="/partner/kpmg/" title="KPMG">KPMG</a>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        
+<a href="/partner/find-partners/?partnerType=131#partners">See All &#x2192;</a>
+                                                                                    </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-xl-3">
+                                                                    <div class="mega-menu__col-content">
+                                                                        <p class="h5">
+Our Tech Partners</p>
+                                                                        <ul class="mega-menu-sub-nav">
+                                                                                    <li>
+                                                                                        
+<a href="/partner/sap/">SAP</a>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        
+<a href="/partner/microsoft/">Microsoft</a>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        
+<a href="/partner/salesforce/" title="Salesforce">Salesforce</a>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        
+<a href="/partner/whatfix/" title="Whatfix">Whatfix</a>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        
+<a href="/partner/find-partners/?partnerType=52#partners" title="See All">See All &#x2192;</a>
+                                                                                    </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-xl-3">
+                                                                    <div class="mega-menu__col-content">
+                                                                        <p class="h5">
+Our Company</p>
+                                                                        <ul class="mega-menu-sub-nav">
+                                                                                    <li>
+                                                                                        
+<a href="/company/" title="About Icertis">About Icertis</a>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        
+<a href="/company/leadership/" title="Leadership Team">Leadership Team</a>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        
+<a href="/company/news/" title="Newsroom">Newsroom</a>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        
+<a href="/company/careers/">Careers</a>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        
+<a href="/company/corporate-social-responsibility/" title="Corporate Social Responsibility">Corporate Social Responsibility</a>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        
+<a href="/information/trust-center/" title="Trust Center">Trust Center</a>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        
+<a href="/contact-us/">Contact Us</a>
+                                                                                    </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            <li>
+                                                <div class="nav-search__toggle--desktop d-block h-100">
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="nav-search--desktop">
+                                    </div>
+
+                                    <div class="nav-cta-wrap d-none d-xl-flex">
+                                                <a class="btn btn-primary" href="/demo/" title="Talk to an Expert "
+                                                   rel="noreferrer">
+                                                    <span class="d-none d-sm-block d-xl-none d-xxl-block">Talk to an Expert</span>
+                                                        <span class="d-sm-none d-xl-block d-xxl-none">Talk to an Expert </span>
+                                                </a>
+                                    </div>
+                                </nav>
+                            </div>
+                        </div>
+                        <!-- Put more stuff here -->
+
+                    </div>
+                </div>
+                <div class="nav-search--mobile">
+                    <div id="navSearchCollapse" class="search-collapse shallow-gradient collapse">
+                        <div class="search-collapse__content">
+                            <button id="searchClose" type="button" class="btn-close" data-bs-toggle="collapse"
+                                    data-bs-target="#navSearchCollapse"
+                                    aria-label="Close"></button>
+                            <div class="search-collapse__body">
+                                <div class="nav-search__form">
+                                    <p class="h5 mb-3">Search the site</p>
+                                    <div class="search-help__wrap">
+                                        <form class="form-inline mb-4" method="GET" action="/search/">
+                                            <input id="siteSearchInput" name="q"
+                                                   class="form-control form-control-lg search-modal__input" autocomplete="off"
+                                                   type="text" placeholder=""
+                                                   aria-label="Search the site">
+                                            <button class="btn btn-lg btn-primary" type="submit" id="searchBtn">
+                                                <span class="d-none d-xl-inline">Search</span>
+                                                    <img src="/static/images/icon-search.svg" class="d-xl-none" alt=""
+                                                         width="33" height="33">
+                                                </button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+            <a href="/demo/" class="btn btn-primary fixed-cta d-xl-none">
+                Request Demo
+            </a>
+
+        <div class="site-peak-mobile-placeholder">
+            <div class="site-peak">
+            </div>
+        </div>
+
+        <main class="careerpage main-wrap l-canvas slide-over-transition " id="main">
+
+    <section class="career-hero" aria-labelledby="career-hero-title">
+        <div class="container-fluid px-3 px-lg-5">
+            <div class="career-hero__surface mx-auto">
+                <div class="career-hero__grid">
+                    <div class="career-hero__content">
+                        <nav class="career-hero__breadcrumb" aria-label="Breadcrumb">
+                            <ol class="breadcrumb mb-0">
+                                    <li class="breadcrumb-item"><a href="/">Home</a></li>
+                                            <li class="breadcrumb-item"><a
+                                                href="/company/">About Icertis</a></li>
+                                            <li class="breadcrumb-item active" aria-current="page">Careers at Icertis
+                                            </li>
+                                        </ol>
+                                    </nav>
+
+                                        <p class="career-hero__subheading">
+                                            Careers at Icertis
+                                        </p>
+
+                                        <h1 class="career-hero__title" id="career-hero-title">
+                                            
+Shape your career with us
+                                        </h1>
+                                        <div class="career-hero__copy">
+                                            <p>Grounded in our FORTE values (Fairness, Openness, Respect, Teamwork, and Execution)&nbsp; and a culture of high trust, we turn the world's contracts into intelligence with Vera, our agentic AI&nbsp; for a third of the Fortune 100.<br />&nbsp;<br />Join us if you share our belief that strong values and bold innovation together can transform how the world does business.</p>
+                                        </div>
+
+                                        <div class="career-hero__actions d-flex flex-wrap">
+
+                                                <a class="btn btn-primary btn-primary--icon" href="https://iaaviz.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Jobs-at-Icertis/?">
+                                                    Explore Open Roles
+                                                </a>
+                                                <a class="btn btn-secondary" href="https://iaaviz.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Jobs-at-Icertis/join-talent-community?">
+                                                    Join Our Talent Community
+                                                </a>
+                                        </div>
+                                </div>
+
+                                    <div class="career-hero__media">
+                                        <img class="career-hero__card career-hero__card--summary" loading="lazy" src="/contentassets/676c976f9c4c4d178a737c49144941f3/careet-header-image-1.png" alt="" width="2432" height="1920" srcset="/contentassets/676c976f9c4c4d178a737c49144941f3/careet-header-image-1.png?width=36 36w,&#xA;/contentassets/676c976f9c4c4d178a737c49144941f3/careet-header-image-1.png?width=54 54w,&#xA;/contentassets/676c976f9c4c4d178a737c49144941f3/careet-header-image-1.png?width=109 109w,&#xA;/contentassets/676c976f9c4c4d178a737c49144941f3/careet-header-image-1.png?width=70 70w,&#xA;/contentassets/676c976f9c4c4d178a737c49144941f3/careet-header-image-1.png?width=140 140w,&#xA;/contentassets/676c976f9c4c4d178a737c49144941f3/careet-header-image-1.png?width=180 180w,&#xA;/contentassets/676c976f9c4c4d178a737c49144941f3/careet-header-image-1.png?width=360 360w,&#xA;/contentassets/676c976f9c4c4d178a737c49144941f3/careet-header-image-1.png?width=200 200w,&#xA;/contentassets/676c976f9c4c4d178a737c49144941f3/careet-header-image-1.png?width=400 400w,&#xA;/contentassets/676c976f9c4c4d178a737c49144941f3/careet-header-image-1.png?width=275 275w,&#xA;/contentassets/676c976f9c4c4d178a737c49144941f3/careet-header-image-1.png?width=550 550w,&#xA;/contentassets/676c976f9c4c4d178a737c49144941f3/careet-header-image-1.png?width=300 300w,&#xA;/contentassets/676c976f9c4c4d178a737c49144941f3/careet-header-image-1.png?width=600 600w,&#xA;/contentassets/676c976f9c4c4d178a737c49144941f3/careet-header-image-1.png?width=304 304w,&#xA;/contentassets/676c976f9c4c4d178a737c49144941f3/careet-header-image-1.png?width=608 608w,&#xA;/contentassets/676c976f9c4c4d178a737c49144941f3/careet-header-image-1.png?width=303 303w,&#xA;/contentassets/676c976f9c4c4d178a737c49144941f3/careet-header-image-1.png?width=606 606w,&#xA;/contentassets/676c976f9c4c4d178a737c49144941f3/careet-header-image-1.png?width=318 318w,&#xA;/contentassets/676c976f9c4c4d178a737c49144941f3/careet-header-image-1.png?width=637 637w,&#xA;/contentassets/676c976f9c4c4d178a737c49144941f3/careet-header-image-1.png?width=330 330w,&#xA;/contentassets/676c976f9c4c4d178a737c49144941f3/careet-header-image-1.png?width=660 660w,&#xA;/contentassets/676c976f9c4c4d178a737c49144941f3/careet-header-image-1.png?width=491 491w,&#xA;/contentassets/676c976f9c4c4d178a737c49144941f3/careet-header-image-1.png?width=982 982w,&#xA;/contentassets/676c976f9c4c4d178a737c49144941f3/careet-header-image-1.png?width=492 492w,&#xA;/contentassets/676c976f9c4c4d178a737c49144941f3/careet-header-image-1.png?width=985 985w,&#xA;/contentassets/676c976f9c4c4d178a737c49144941f3/careet-header-image-1.png?width=600 600w,&#xA;/contentassets/676c976f9c4c4d178a737c49144941f3/careet-header-image-1.png?width=1200 1200w,&#xA;/contentassets/676c976f9c4c4d178a737c49144941f3/careet-header-image-1.png?width=744 744w,&#xA;/contentassets/676c976f9c4c4d178a737c49144941f3/careet-header-image-1.png?width=1488 1488w,&#xA;/contentassets/676c976f9c4c4d178a737c49144941f3/careet-header-image-1.png?width=765 765w,&#xA;/contentassets/676c976f9c4c4d178a737c49144941f3/careet-header-image-1.png?width=1530 1530w,&#xA;/contentassets/676c976f9c4c4d178a737c49144941f3/careet-header-image-1.png?width=864 864w,&#xA;/contentassets/676c976f9c4c4d178a737c49144941f3/careet-header-image-1.png?width=1728 1728w" />
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                        
+
+
+                <section class="career-promos" aria-label="Careers at Icertis">
+                    <div class="container-fluid px-3 px-lg-5">
+                        <div class="career-promos__inner">
+                                <div class="career-promos__item rich-text-area ">
+                                        <img class="career-promos__icon" src="/globalassets/frame-2095588250.svg" alt="" loading="lazy" />
+                                    <div class="career-promos__body">
+                                            <h3 class="career-promos__title">
++30%                                            </h3>
+                                        <p><span style="font-size: 16px;">Fortune 100 customers</span></p>
+                                    </div>
+                                </div>
+                                <div class="career-promos__item rich-text-area ">
+                                        <img class="career-promos__icon" src="/globalassets/frame-2095588251.svg" alt="" loading="lazy" />
+                                    <div class="career-promos__body">
+                                            <h3 class="career-promos__title">
+9                                            </h3>
+                                        <p><span style="font-size: 16px;">Global offices</span></p>
+                                    </div>
+                                </div>
+                                <div class="career-promos__item rich-text-area ">
+                                        <img class="career-promos__icon" src="/globalassets/group-1547758269.svg" alt="" loading="lazy" />
+                                    <div class="career-promos__body">
+                                            <h3 class="career-promos__title">
+2000+                                            </h3>
+                                        <p><span style="font-size: 16px;">Icertians</span></p>
+                                    </div>
+                                </div>
+                                <div class="career-promos__item rich-text-area ">
+                                        <img class="career-promos__icon" src="/globalassets/frame-20.svg" alt="" loading="lazy" />
+                                    <div class="career-promos__body">
+                                            <h3 class="career-promos__title">
+90+                                            </h3>
+                                        <p><span style="font-size: 16px;">Customer countries</span></p>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="career-toc" aria-label="Table of contents">
+                    <div class="career-toc__frame">
+                        <div class="career-toc__bar">
+                            <div class="career-toc__scroller" data-toc-scroller>
+                                <div class="career-toc__rail" data-toc-rail>
+                                    <div class="career-toc__list" role="list">
+                                                <div class="career-toc__item" role="listitem">
+                                                    <a class="career-toc__link" href="#why-icertis" data-toc-link>
+                                                        <span class="career-toc__label">Why Icertis</span>
+                                                    </a>
+                                                </div>
+                                                <div class="career-toc__item" role="listitem">
+                                                    <a class="career-toc__link" href="#culture" data-toc-link>
+                                                        <span class="career-toc__label">Culture</span>
+                                                    </a>
+                                                </div>
+                                                <div class="career-toc__item" role="listitem">
+                                                    <a class="career-toc__link" href="#benefits" data-toc-link>
+                                                        <span class="career-toc__label">Benefits</span>
+                                                    </a>
+                                                </div>
+                                                <div class="career-toc__item" role="listitem">
+                                                    <a class="career-toc__link" href="#awards" data-toc-link>
+                                                        <span class="career-toc__label">Awards</span>
+                                                    </a>
+                                                </div>
+                                    </div>
+                                    <span class="career-toc__indicator" data-toc-indicator aria-hidden="true"></span>
+                                </div>
+                            </div>
+
+                            <button class="career-toc__next" type="button"
+                                    aria-label="Scroll table of contents" data-toc-next>
+                                <svg viewBox="0 0 24 24" aria-hidden="true">
+                                    <path d="M16.17 12 10.81 6.64l1.41-1.42L20 13l-7.78 7.78-1.41-1.42L16.17 14H4v-2h12.17Z"
+                                          fill="currentColor"></path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </section>
+
+                    <section id="why-icertis" data-toc-section>
+
+
+    <section class="rich-text-icon-promo-cards px-4 px-lg-5">
+        <div class="rich-text-icon-promo-cards__container">
+                <header class="rich-text-icon-promo-cards__header">
+                        <p class="rich-text-icon-promo-cards__eyebrow rich-text-icon-promo-cards__eyebrow--left">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                 class="rich-text-icon-promo-cards__eyebrow-star" aria-hidden="true">
+                                <path
+                                d="M5.90065 11.2168L8.00065 9.95016L10.1007 11.2335L9.55065 8.8335L11.4007 7.2335L8.96732 7.01683L8.00065 4.75016L7.03398 7.00016L4.60065 7.21683L6.45065 8.8335L5.90065 11.2168ZM3.88398 14.0002L4.96732 9.31683L1.33398 6.16683L6.13398 5.75016L8.00065 1.3335L9.86732 5.75016L14.6673 6.16683L11.034 9.31683L12.1173 14.0002L8.00065 11.5168L3.88398 14.0002Z"
+                                fill="currentColor" />
+                            </svg>
+                            <span>Why Icertis</span>
+                        </p>
+
+                        <div class="rich-text-icon-promo-cards__rich-text rich-text-area">
+                            
+<h2>Reasons to build your career here</h2>
+                        </div>
+                </header>
+
+                <div class="rich-text-icon-promo-cards__cards">
+                        <article class="rich-text-icon-promo-cards__card">
+                                <div class="rich-text-icon-promo-cards__card-icon">
+                                    <img class="rich-text-icon-promo-cards__card-icon-image" src="/contentassets/c0cda1ed2aa8415c97aeb2fde1982f7c/category-defining-ai--technology.svg" alt="" loading="lazy" />
+                                </div>
+
+                            <div class="rich-text-icon-promo-cards__card-content rich-text-area">
+                                    <h3 class="rich-text-icon-promo-cards__card-title">
+                                        
+                                            Category-Defining AI &amp; Technology
+                                        
+                                    </h3>
+
+                                    <div class="rich-text-icon-promo-cards__card-description">
+                                        <p>Work on a world-class, AI-native contract intelligence platform, solving complex challenges at global scale.</p>
+                                    </div>
+                            </div>
+                        </article>
+                        <article class="rich-text-icon-promo-cards__card">
+                                <div class="rich-text-icon-promo-cards__card-icon">
+                                    <img class="rich-text-icon-promo-cards__card-icon-image" src="/contentassets/ba26ca3d40de4c9686427c610aee7034/high-impact-culture.svg" alt="" loading="lazy" />
+                                </div>
+
+                            <div class="rich-text-icon-promo-cards__card-content rich-text-area">
+                                    <h3 class="rich-text-icon-promo-cards__card-title">
+                                        
+                                            High Impact Culture
+                                        
+                                    </h3>
+
+                                    <div class="rich-text-icon-promo-cards__card-description">
+                                        <p>Be part of a values-led organization driven by ownership, collaboration, and continuous learning.</p>
+                                    </div>
+                            </div>
+                        </article>
+                        <article class="rich-text-icon-promo-cards__card">
+                                <div class="rich-text-icon-promo-cards__card-icon">
+                                    <img class="rich-text-icon-promo-cards__card-icon-image" src="/contentassets/2cda22b5d12f46efa970c47b2e6dc12e/purpose.svg" alt="" loading="lazy" />
+                                </div>
+
+                            <div class="rich-text-icon-promo-cards__card-content rich-text-area">
+                                    <h3 class="rich-text-icon-promo-cards__card-title">
+                                        
+                                            Purpose
+                                        
+                                    </h3>
+
+                                    <div class="rich-text-icon-promo-cards__card-description">
+                                        <p>Build trust, strengthen bonds, transform commerce.</p>
+                                    </div>
+                            </div>
+                        </article>
+                        <article class="rich-text-icon-promo-cards__card">
+                                <div class="rich-text-icon-promo-cards__card-icon">
+                                    <img class="rich-text-icon-promo-cards__card-icon-image" src="/contentassets/77d0cf2232b54b72bc4108b460a714fe/flexibility--wellness.svg" alt="" loading="lazy" />
+                                </div>
+
+                            <div class="rich-text-icon-promo-cards__card-content rich-text-area">
+                                    <h3 class="rich-text-icon-promo-cards__card-title">
+                                        
+                                            Flexibility &amp; Wellness
+                                        
+                                    </h3>
+
+                                    <div class="rich-text-icon-promo-cards__card-description">
+                                        <p>Thrive in a flexible work model with in-office, hybrid, or remote options - designed to support your productivity and wellbeing.</p>
+                                    </div>
+                            </div>
+                        </article>
+                </div>
+        </div>
+    </section>
+                    </section>
+                    <section id="culture" data-toc-section>
+
+
+    <section class="rich-text-eyebrow-block px-4 px-lg-5">
+        <div class="rich-text-eyebrow-block__container">
+            <div class="rich-text-eyebrow-block__inner rich-text-eyebrow-block__eyebrow--center">
+                    <p class="rich-text-eyebrow-block__eyebrow rich-text-eyebrow-block__eyebrow--center">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"
+                             class="rich-text-eyebrow-block__eyebrow-star" aria-hidden="true">
+                            <path
+                            d="M5.90065 11.2168L8.00065 9.95016L10.1007 11.2335L9.55065 8.8335L11.4007 7.2335L8.96732 7.01683L8.00065 4.75016L7.03398 7.00016L4.60065 7.21683L6.45065 8.8335L5.90065 11.2168ZM3.88398 14.0002L4.96732 9.31683L1.33398 6.16683L6.13398 5.75016L8.00065 1.3335L9.86732 5.75016L14.6673 6.16683L11.034 9.31683L12.1173 14.0002L8.00065 11.5168L3.88398 14.0002Z"
+                            fill="currentColor" />
+                        </svg>
+                        <span>Culture</span>
+                    </p>
+
+                    <div class="rich-text-eyebrow-block__content rich-text-area">
+                        
+<h2 class="text-center">Our culture is our</h2>
+<h2 class="text-center">biggest differentiator</h2>
+<p class="text-center"><br />At Icertis, we believe our culture is our biggest differentiator and that values are the foundation for a successful, sustaining organization. We like to say that on our journey to become the AI-native contract intelligence platform of the world, how we get there is just as important as the destination</p>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="forte-values px-4 px-lg-5">
+        <div class="forte-values__container">
+                <p class="forte-values__eyebrow">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"
+                         class="forte-values__eyebrow-star" aria-hidden="true">
+                        <path
+                        d="M5.90065 11.2168L8.00065 9.95016L10.1007 11.2335L9.55065 8.8335L11.4007 7.2335L8.96732 7.01683L8.00065 4.75016L7.03398 7.00016L4.60065 7.21683L6.45065 8.8335L5.90065 11.2168ZM3.88398 14.0002L4.96732 9.31683L1.33398 6.16683L6.13398 5.75016L8.00065 1.3335L9.86732 5.75016L14.6673 6.16683L11.034 9.31683L12.1173 14.0002L8.00065 11.5168L3.88398 14.0002Z"
+                        fill="currentColor" />
+                    </svg>
+                    <span>FORTE Values</span>
+                </p>
+
+                <div class="forte-values__content rich-text-area">
+                    
+<h2 class="text-center">FORTE is more than just words to us</h2>
+<p class="text-center">It encapsulates who we are, who we aspire to be, and how we navigate the complexities of the business world.</p>
+                </div>
+
+                <div class="forte-values__cards">
+                        <details class="forte-values__card" name="forte-values-card"
+                                 style="--forte-values-title-color: #874451;">
+                            <summary class="forte-values__card-summary">
+                                    <span class="forte-values__icon" aria-hidden="true">
+                                        <img class="forte-values__icon-image" loading="lazy" src="/globalassets/group-1547758279.svg" alt="" />
+                                    </span>
+
+                                    <h3 class="forte-values__title">Fairness</h3>
+
+                                <span class="forte-values__arrow" aria-hidden="true"></span>
+                            </summary>
+
+                                <p class="forte-values__description">As a company we strive to be equitable and fair-minded - continually asking how we would like to be treated if we were in the other person&#x27;s shoes. We don&#x27;t play favorites or have double standards when working with our customers, partners, and vendors, and we view every interaction through the lens of &#x2018;what is a mutually fair outcome.&#x2019;</p>
+                        </details>
+                        <details class="forte-values__card" name="forte-values-card"
+                                 style="--forte-values-title-color: #4C7383;">
+                            <summary class="forte-values__card-summary">
+                                    <span class="forte-values__icon" aria-hidden="true">
+                                        <img class="forte-values__icon-image" loading="lazy" src="/globalassets/group-1547758280.svg" alt="" />
+                                    </span>
+
+                                    <h3 class="forte-values__title">Openness</h3>
+
+                                <span class="forte-values__arrow" aria-hidden="true"></span>
+                            </summary>
+
+                                <p class="forte-values__description">The default setting at Icertis is to share information freely and be open to feedback from anyone in the organization. And when someone asks an Icertian (especially a leader) a question, they won&#x2019;t get a BS answer.</p>
+                        </details>
+                        <details class="forte-values__card" name="forte-values-card"
+                                 style="--forte-values-title-color: #4C7383;">
+                            <summary class="forte-values__card-summary">
+                                    <span class="forte-values__icon" aria-hidden="true">
+                                        <img class="forte-values__icon-image" loading="lazy" src="/globalassets/group-1547758281.svg" alt="" />
+                                    </span>
+
+                                    <h3 class="forte-values__title">Respect</h3>
+
+                                <span class="forte-values__arrow" aria-hidden="true"></span>
+                            </summary>
+
+                                <p class="forte-values__description">We strive to be an organization where everyone is treated with respect and every voice is heard. We assume positive intent in our interactions and regard everyone&#x2019;s feedback and contributions as valuable. We embrace and celebrate diversity and know that only by doing so can we be the best at what we do.</p>
+                        </details>
+                        <details class="forte-values__card" name="forte-values-card"
+                                 style="--forte-values-title-color: #AB5C3E;">
+                            <summary class="forte-values__card-summary">
+                                    <span class="forte-values__icon" aria-hidden="true">
+                                        <img class="forte-values__icon-image" loading="lazy" src="/globalassets/group-1547758282.svg" alt="" />
+                                    </span>
+
+                                    <h3 class="forte-values__title">Teamwork</h3>
+
+                                <span class="forte-values__arrow" aria-hidden="true"></span>
+                            </summary>
+
+                                <p class="forte-values__description">Every Icertian who is considered a top performer must also be a team player we don&#x2019;t tolerate brilliant jerks. We know that success is the result of hard work from people across the organization, and we go out of our way to recognize the teams that make individuals successful.</p>
+                        </details>
+                        <details class="forte-values__card" name="forte-values-card"
+                                 style="--forte-values-title-color: #874451;">
+                            <summary class="forte-values__card-summary">
+                                    <span class="forte-values__icon" aria-hidden="true">
+                                        <img class="forte-values__icon-image" loading="lazy" src="/globalassets/group-1547758283.svg" alt="" />
+                                    </span>
+
+                                    <h3 class="forte-values__title">Execution</h3>
+
+                                <span class="forte-values__arrow" aria-hidden="true"></span>
+                            </summary>
+
+                                <p class="forte-values__description">Execution is in our DNA. We hold ourselves accountable to deliver for our customers, partners, and fellow Icertians each and every day. To guide us we have a mantra: &#x201C;Focus, Follow up, Follow through Fast!&#x201D; We set our sights on a goal, hold ourselves accountable for success, and see it through to the end, quickly.</p>
+                        </details>
+                </div>
+        </div>
+    </section>
+
+    <section class="rich-text-raw-code-block px-4 px-lg-5">
+        <div class="rich-text-raw-code-block__container">
+            <div class="rich-text-raw-code-block__wrapper">
+                <div class="rich-text-raw-code-block__left">
+                        <p class="rich-text-raw-code-block__eyebrow">
+                            <svg class="rich-text-raw-code-block__eyebrow-star" width="16" height="16" viewBox="0 0 16 16"
+                                 fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                <path
+                                d="M5.90065 11.2168L8.00065 9.95016L10.1007 11.2335L9.55065 8.8335L11.4007 7.2335L8.96732 7.01683L8.00065 4.75016L7.03398 7.00016L4.60065 7.21683L6.45065 8.8335L5.90065 11.2168ZM3.88398 14.0002L4.96732 9.31683L1.33398 6.16683L6.13398 5.75016L8.00065 1.3335L9.86732 5.75016L14.6673 6.16683L11.034 9.31683L12.1173 14.0002L8.00065 11.5168L3.88398 14.0002Z"
+                                fill="#221410" />
+                            </svg>
+                            <span>Four Rings of Responsibility</span>
+                        </p>
+
+                        <div class="rich-text-raw-code-block__content rich-text-area">
+                            
+<h2>Priorities we put into practice</h2>
+<p>Our Four Rings of Responsibility are more than a philosophy - they are a set of priorities we put into practice when we hit a personal or social emergency or crisis. During difficult moments, we encourage and support Icertians in prioritizing self-care, taking care of their loved ones, and contributing to the communities where we live, work, and play. By doing so, we foster a culture of well-being, balance, and purpose.</p>
+                        </div>
+                </div>
+
+                    <div class="rich-text-raw-code-block__right">
+                        <img alt="forte-graph" src="https://www.icertis.com/globalassets/careers/forte-graph.svg" />
+ 
+                    </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="image-captions-block">
+        <div class="container-fluid px-4 px-lg-5">
+                <p class="image-captions-block__eyebrow">
+                    <svg class="image-captions-block__eyebrow-star" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                         xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                        <path
+                        d="M5.90065 11.2168L8.00065 9.95016L10.1007 11.2335L9.55065 8.8335L11.4007 7.2335L8.96732 7.01683L8.00065 4.75016L7.03398 7.00016L4.60065 7.21683L6.45065 8.8335L5.90065 11.2168ZM3.88398 14.0002L4.96732 9.31683L1.33398 6.16683L6.13398 5.75016L8.00065 1.3335L9.86732 5.75016L14.6673 6.16683L11.034 9.31683L12.1173 14.0002L8.00065 11.5168L3.88398 14.0002Z"
+                        fill="#221410" />
+                    </svg>
+                    <span>Diversity, Equity, Inclusion &amp; Belonging</span>
+                </p>
+
+                <div class="image-captions-block__content rich-text-area">
+                    
+<h2 class="text-center">Belonging, built in</h2>
+<p class="text-center">At Icertis, diversity, equity, inclusion, and belonging are essential to our success. Icertis is an equal opportunity employer. We evaluate every applicant on merit and values &nbsp;and we make space for all.<br />Our employee resource groups (ERGs) move this forward most visibly - the veterans' Boots on the Ground, the women's Network of Women (NoW), the LGBTQ+ OUTcertians, and the Hispanic/Latino Unidos - building an inclusive culture and supporting personal development across the company.</p>
+                </div>
+
+                <div class="image-captions-block__images">
+                        <figure class="image-captions-block__item">
+                                <div class="image-captions-block__image">
+                                    <img class="image-captions-block__image-media" loading="lazy" src="/contentassets/2cda4e11402d4c3488b26cc79361a2d1/pride-walk.png" alt="" width="2440" height="1120" srcset="/contentassets/2cda4e11402d4c3488b26cc79361a2d1/pride-walk.png?width=36 36w,&#xA;/contentassets/2cda4e11402d4c3488b26cc79361a2d1/pride-walk.png?width=54 54w,&#xA;/contentassets/2cda4e11402d4c3488b26cc79361a2d1/pride-walk.png?width=109 109w,&#xA;/contentassets/2cda4e11402d4c3488b26cc79361a2d1/pride-walk.png?width=70 70w,&#xA;/contentassets/2cda4e11402d4c3488b26cc79361a2d1/pride-walk.png?width=140 140w,&#xA;/contentassets/2cda4e11402d4c3488b26cc79361a2d1/pride-walk.png?width=180 180w,&#xA;/contentassets/2cda4e11402d4c3488b26cc79361a2d1/pride-walk.png?width=360 360w,&#xA;/contentassets/2cda4e11402d4c3488b26cc79361a2d1/pride-walk.png?width=200 200w,&#xA;/contentassets/2cda4e11402d4c3488b26cc79361a2d1/pride-walk.png?width=400 400w,&#xA;/contentassets/2cda4e11402d4c3488b26cc79361a2d1/pride-walk.png?width=275 275w,&#xA;/contentassets/2cda4e11402d4c3488b26cc79361a2d1/pride-walk.png?width=550 550w,&#xA;/contentassets/2cda4e11402d4c3488b26cc79361a2d1/pride-walk.png?width=300 300w,&#xA;/contentassets/2cda4e11402d4c3488b26cc79361a2d1/pride-walk.png?width=600 600w,&#xA;/contentassets/2cda4e11402d4c3488b26cc79361a2d1/pride-walk.png?width=304 304w,&#xA;/contentassets/2cda4e11402d4c3488b26cc79361a2d1/pride-walk.png?width=608 608w,&#xA;/contentassets/2cda4e11402d4c3488b26cc79361a2d1/pride-walk.png?width=303 303w,&#xA;/contentassets/2cda4e11402d4c3488b26cc79361a2d1/pride-walk.png?width=606 606w,&#xA;/contentassets/2cda4e11402d4c3488b26cc79361a2d1/pride-walk.png?width=318 318w,&#xA;/contentassets/2cda4e11402d4c3488b26cc79361a2d1/pride-walk.png?width=637 637w,&#xA;/contentassets/2cda4e11402d4c3488b26cc79361a2d1/pride-walk.png?width=330 330w,&#xA;/contentassets/2cda4e11402d4c3488b26cc79361a2d1/pride-walk.png?width=660 660w,&#xA;/contentassets/2cda4e11402d4c3488b26cc79361a2d1/pride-walk.png?width=491 491w,&#xA;/contentassets/2cda4e11402d4c3488b26cc79361a2d1/pride-walk.png?width=982 982w,&#xA;/contentassets/2cda4e11402d4c3488b26cc79361a2d1/pride-walk.png?width=492 492w,&#xA;/contentassets/2cda4e11402d4c3488b26cc79361a2d1/pride-walk.png?width=985 985w,&#xA;/contentassets/2cda4e11402d4c3488b26cc79361a2d1/pride-walk.png?width=600 600w,&#xA;/contentassets/2cda4e11402d4c3488b26cc79361a2d1/pride-walk.png?width=1200 1200w,&#xA;/contentassets/2cda4e11402d4c3488b26cc79361a2d1/pride-walk.png?width=744 744w,&#xA;/contentassets/2cda4e11402d4c3488b26cc79361a2d1/pride-walk.png?width=1488 1488w,&#xA;/contentassets/2cda4e11402d4c3488b26cc79361a2d1/pride-walk.png?width=765 765w,&#xA;/contentassets/2cda4e11402d4c3488b26cc79361a2d1/pride-walk.png?width=1530 1530w,&#xA;/contentassets/2cda4e11402d4c3488b26cc79361a2d1/pride-walk.png?width=864 864w,&#xA;/contentassets/2cda4e11402d4c3488b26cc79361a2d1/pride-walk.png?width=1728 1728w" />
+                                </div>
+
+                                <figcaption class="image-captions-block__caption">
+                                    Pride Month Celebration
+                                </figcaption>
+                        </figure>
+                        <figure class="image-captions-block__item">
+                                <div class="image-captions-block__image">
+                                    <img class="image-captions-block__image-media" loading="lazy" src="/contentassets/c74c19d41f9e4164941cc604bb55b725/emea-summer-party-june-2026-1.png" alt="" width="2440" height="1120" srcset="/contentassets/c74c19d41f9e4164941cc604bb55b725/emea-summer-party-june-2026-1.png?width=36 36w,&#xA;/contentassets/c74c19d41f9e4164941cc604bb55b725/emea-summer-party-june-2026-1.png?width=54 54w,&#xA;/contentassets/c74c19d41f9e4164941cc604bb55b725/emea-summer-party-june-2026-1.png?width=109 109w,&#xA;/contentassets/c74c19d41f9e4164941cc604bb55b725/emea-summer-party-june-2026-1.png?width=70 70w,&#xA;/contentassets/c74c19d41f9e4164941cc604bb55b725/emea-summer-party-june-2026-1.png?width=140 140w,&#xA;/contentassets/c74c19d41f9e4164941cc604bb55b725/emea-summer-party-june-2026-1.png?width=180 180w,&#xA;/contentassets/c74c19d41f9e4164941cc604bb55b725/emea-summer-party-june-2026-1.png?width=360 360w,&#xA;/contentassets/c74c19d41f9e4164941cc604bb55b725/emea-summer-party-june-2026-1.png?width=200 200w,&#xA;/contentassets/c74c19d41f9e4164941cc604bb55b725/emea-summer-party-june-2026-1.png?width=400 400w,&#xA;/contentassets/c74c19d41f9e4164941cc604bb55b725/emea-summer-party-june-2026-1.png?width=275 275w,&#xA;/contentassets/c74c19d41f9e4164941cc604bb55b725/emea-summer-party-june-2026-1.png?width=550 550w,&#xA;/contentassets/c74c19d41f9e4164941cc604bb55b725/emea-summer-party-june-2026-1.png?width=300 300w,&#xA;/contentassets/c74c19d41f9e4164941cc604bb55b725/emea-summer-party-june-2026-1.png?width=600 600w,&#xA;/contentassets/c74c19d41f9e4164941cc604bb55b725/emea-summer-party-june-2026-1.png?width=304 304w,&#xA;/contentassets/c74c19d41f9e4164941cc604bb55b725/emea-summer-party-june-2026-1.png?width=608 608w,&#xA;/contentassets/c74c19d41f9e4164941cc604bb55b725/emea-summer-party-june-2026-1.png?width=303 303w,&#xA;/contentassets/c74c19d41f9e4164941cc604bb55b725/emea-summer-party-june-2026-1.png?width=606 606w,&#xA;/contentassets/c74c19d41f9e4164941cc604bb55b725/emea-summer-party-june-2026-1.png?width=318 318w,&#xA;/contentassets/c74c19d41f9e4164941cc604bb55b725/emea-summer-party-june-2026-1.png?width=637 637w,&#xA;/contentassets/c74c19d41f9e4164941cc604bb55b725/emea-summer-party-june-2026-1.png?width=330 330w,&#xA;/contentassets/c74c19d41f9e4164941cc604bb55b725/emea-summer-party-june-2026-1.png?width=660 660w,&#xA;/contentassets/c74c19d41f9e4164941cc604bb55b725/emea-summer-party-june-2026-1.png?width=491 491w,&#xA;/contentassets/c74c19d41f9e4164941cc604bb55b725/emea-summer-party-june-2026-1.png?width=982 982w,&#xA;/contentassets/c74c19d41f9e4164941cc604bb55b725/emea-summer-party-june-2026-1.png?width=492 492w,&#xA;/contentassets/c74c19d41f9e4164941cc604bb55b725/emea-summer-party-june-2026-1.png?width=985 985w,&#xA;/contentassets/c74c19d41f9e4164941cc604bb55b725/emea-summer-party-june-2026-1.png?width=600 600w,&#xA;/contentassets/c74c19d41f9e4164941cc604bb55b725/emea-summer-party-june-2026-1.png?width=1200 1200w,&#xA;/contentassets/c74c19d41f9e4164941cc604bb55b725/emea-summer-party-june-2026-1.png?width=744 744w,&#xA;/contentassets/c74c19d41f9e4164941cc604bb55b725/emea-summer-party-june-2026-1.png?width=1488 1488w,&#xA;/contentassets/c74c19d41f9e4164941cc604bb55b725/emea-summer-party-june-2026-1.png?width=765 765w,&#xA;/contentassets/c74c19d41f9e4164941cc604bb55b725/emea-summer-party-june-2026-1.png?width=1530 1530w,&#xA;/contentassets/c74c19d41f9e4164941cc604bb55b725/emea-summer-party-june-2026-1.png?width=864 864w,&#xA;/contentassets/c74c19d41f9e4164941cc604bb55b725/emea-summer-party-june-2026-1.png?width=1728 1728w" />
+                                </div>
+
+                                <figcaption class="image-captions-block__caption">
+                                    Network of Women
+                                </figcaption>
+                        </figure>
+                </div>
+        </div>
+    </section>
+
+
+    <section class="social-impact-block px-4 px-lg-5">
+        <div class="social-impact-block__container">
+            <div class="social-impact-block__intro">
+                <div class="social-impact-block__copy">
+                        <p class="social-impact-block__eyebrow">
+                            <svg class="social-impact-block__eyebrow-star" width="16" height="16" viewBox="0 0 16 16"
+                                 fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                <path
+                                d="M5.90065 11.2168L8.00065 9.95016L10.1007 11.2335L9.55065 8.8335L11.4007 7.2335L8.96732 7.01683L8.00065 4.75016L7.03398 7.00016L4.60065 7.21683L6.45065 8.8335L5.90065 11.2168ZM3.88398 14.0002L4.96732 9.31683L1.33398 6.16683L6.13398 5.75016L8.00065 1.3335L9.86732 5.75016L14.6673 6.16683L11.034 9.31683L12.1173 14.0002L8.00065 11.5168L3.88398 14.0002Z"
+                                fill="#221410" />
+                            </svg>
+                            <span>Social Impact</span>
+                        </p>
+
+                        <div class="social-impact-block__content rich-text-area">
+                            
+<h2>Build trust, strengthen bonds, transform commerce</h2>
+<p>Icertis encourages Icertians to give back to their communities in meaningful ways, with programs that support the UN Sustainable Development Goals and align with our core values.</p>
+                        </div>
+                </div>
+
+                    <a class="btn btn-primary social-impact-block__cta" href="/globalassets/pdf/csr/esg-report-07-july-2026.pdf">
+                        Refer to the ESG Report
+                    </a>
+            </div>
+
+                <div class="social-impact-block__cards">
+                            <div class="social-impact-block__card" style="background-image: url(&#x27;/globalassets/frame-2095588363.svg&#x27;);">
+                                <div class="social-impact-block__card-body">
+                                        <h3 class="social-impact-block__card-title">UN Sustainable Development Goals</h3>
+                                    <span class="social-impact-block__card-line" aria-hidden="true"></span>
+                                        <div class="social-impact-block__card-text"><p>Programs aligned to the UN SDGs and our core organizational values.</p></div>
+                                </div>
+                            </div>
+                            <div class="social-impact-block__card" style="background-image: url(&#x27;/globalassets/frame-2095588364.svg&#x27;);">
+                                <div class="social-impact-block__card-body">
+                                        <h3 class="social-impact-block__card-title">Carbon transparency</h3>
+                                    <span class="social-impact-block__card-line" aria-hidden="true"></span>
+                                        <div class="social-impact-block__card-text"><p>We track, monitor, and disclose emissions from our third-party cloud operations under the Greenhouse Gas Protocol.</p></div>
+                                </div>
+                            </div>
+                            <div class="social-impact-block__card" style="background-image: url(&#x27;/globalassets/frame-2095588365.svg&#x27;);">
+                                <div class="social-impact-block__card-body">
+                                        <h3 class="social-impact-block__card-title">Double Your Impact</h3>
+                                    <span class="social-impact-block__card-line" aria-hidden="true"></span>
+                                        <div class="social-impact-block__card-text"><p>Icertians' gifts to charity are matched through our generous gift-matching program.</p></div>
+                                </div>
+                            </div>
+                            <div class="social-impact-block__card" style="background-image: url(&#x27;/globalassets/frame-2095588366.svg&#x27;);">
+                                <div class="social-impact-block__card-body">
+                                        <h3 class="social-impact-block__card-title">7 Days for Humanity</h3>
+                                    <span class="social-impact-block__card-line" aria-hidden="true"></span>
+                                        <div class="social-impact-block__card-text"><p>Seven fully paid days off a year to volunteer for the cause of your choice.</p></div>
+                                </div>
+                            </div>
+                </div>
+
+                <div class="social-impact-block__images">
+                        <figure class="social-impact-block__image-item">
+                                <div class="social-impact-block__image">
+                                    <img class="social-impact-block__image-media" loading="lazy" src="/contentassets/010fde32e8d847f1a4b964c88e5ff4a0/greener-communities-1.png" alt="" width="2440" height="1120" srcset="/contentassets/010fde32e8d847f1a4b964c88e5ff4a0/greener-communities-1.png?width=36 36w,&#xA;/contentassets/010fde32e8d847f1a4b964c88e5ff4a0/greener-communities-1.png?width=54 54w,&#xA;/contentassets/010fde32e8d847f1a4b964c88e5ff4a0/greener-communities-1.png?width=109 109w,&#xA;/contentassets/010fde32e8d847f1a4b964c88e5ff4a0/greener-communities-1.png?width=70 70w,&#xA;/contentassets/010fde32e8d847f1a4b964c88e5ff4a0/greener-communities-1.png?width=140 140w,&#xA;/contentassets/010fde32e8d847f1a4b964c88e5ff4a0/greener-communities-1.png?width=180 180w,&#xA;/contentassets/010fde32e8d847f1a4b964c88e5ff4a0/greener-communities-1.png?width=360 360w,&#xA;/contentassets/010fde32e8d847f1a4b964c88e5ff4a0/greener-communities-1.png?width=200 200w,&#xA;/contentassets/010fde32e8d847f1a4b964c88e5ff4a0/greener-communities-1.png?width=400 400w,&#xA;/contentassets/010fde32e8d847f1a4b964c88e5ff4a0/greener-communities-1.png?width=275 275w,&#xA;/contentassets/010fde32e8d847f1a4b964c88e5ff4a0/greener-communities-1.png?width=550 550w,&#xA;/contentassets/010fde32e8d847f1a4b964c88e5ff4a0/greener-communities-1.png?width=300 300w,&#xA;/contentassets/010fde32e8d847f1a4b964c88e5ff4a0/greener-communities-1.png?width=600 600w,&#xA;/contentassets/010fde32e8d847f1a4b964c88e5ff4a0/greener-communities-1.png?width=304 304w,&#xA;/contentassets/010fde32e8d847f1a4b964c88e5ff4a0/greener-communities-1.png?width=608 608w,&#xA;/contentassets/010fde32e8d847f1a4b964c88e5ff4a0/greener-communities-1.png?width=303 303w,&#xA;/contentassets/010fde32e8d847f1a4b964c88e5ff4a0/greener-communities-1.png?width=606 606w,&#xA;/contentassets/010fde32e8d847f1a4b964c88e5ff4a0/greener-communities-1.png?width=318 318w,&#xA;/contentassets/010fde32e8d847f1a4b964c88e5ff4a0/greener-communities-1.png?width=637 637w,&#xA;/contentassets/010fde32e8d847f1a4b964c88e5ff4a0/greener-communities-1.png?width=330 330w,&#xA;/contentassets/010fde32e8d847f1a4b964c88e5ff4a0/greener-communities-1.png?width=660 660w,&#xA;/contentassets/010fde32e8d847f1a4b964c88e5ff4a0/greener-communities-1.png?width=491 491w,&#xA;/contentassets/010fde32e8d847f1a4b964c88e5ff4a0/greener-communities-1.png?width=982 982w,&#xA;/contentassets/010fde32e8d847f1a4b964c88e5ff4a0/greener-communities-1.png?width=492 492w,&#xA;/contentassets/010fde32e8d847f1a4b964c88e5ff4a0/greener-communities-1.png?width=985 985w,&#xA;/contentassets/010fde32e8d847f1a4b964c88e5ff4a0/greener-communities-1.png?width=600 600w,&#xA;/contentassets/010fde32e8d847f1a4b964c88e5ff4a0/greener-communities-1.png?width=1200 1200w,&#xA;/contentassets/010fde32e8d847f1a4b964c88e5ff4a0/greener-communities-1.png?width=744 744w,&#xA;/contentassets/010fde32e8d847f1a4b964c88e5ff4a0/greener-communities-1.png?width=1488 1488w,&#xA;/contentassets/010fde32e8d847f1a4b964c88e5ff4a0/greener-communities-1.png?width=765 765w,&#xA;/contentassets/010fde32e8d847f1a4b964c88e5ff4a0/greener-communities-1.png?width=1530 1530w,&#xA;/contentassets/010fde32e8d847f1a4b964c88e5ff4a0/greener-communities-1.png?width=864 864w,&#xA;/contentassets/010fde32e8d847f1a4b964c88e5ff4a0/greener-communities-1.png?width=1728 1728w" />
+                                </div>
+
+                                <figcaption class="social-impact-block__caption">
+                                    Icertians in action shaping cleaner greener communities
+                                </figcaption>
+                        </figure>
+                        <figure class="social-impact-block__image-item">
+                                <div class="social-impact-block__image">
+                                    <img class="social-impact-block__image-media" loading="lazy" src="/contentassets/3a8efc82627f424885308ccfb1d6c449/young-minds-1.png" alt="" width="2440" height="1120" srcset="/contentassets/3a8efc82627f424885308ccfb1d6c449/young-minds-1.png?width=36 36w,&#xA;/contentassets/3a8efc82627f424885308ccfb1d6c449/young-minds-1.png?width=54 54w,&#xA;/contentassets/3a8efc82627f424885308ccfb1d6c449/young-minds-1.png?width=109 109w,&#xA;/contentassets/3a8efc82627f424885308ccfb1d6c449/young-minds-1.png?width=70 70w,&#xA;/contentassets/3a8efc82627f424885308ccfb1d6c449/young-minds-1.png?width=140 140w,&#xA;/contentassets/3a8efc82627f424885308ccfb1d6c449/young-minds-1.png?width=180 180w,&#xA;/contentassets/3a8efc82627f424885308ccfb1d6c449/young-minds-1.png?width=360 360w,&#xA;/contentassets/3a8efc82627f424885308ccfb1d6c449/young-minds-1.png?width=200 200w,&#xA;/contentassets/3a8efc82627f424885308ccfb1d6c449/young-minds-1.png?width=400 400w,&#xA;/contentassets/3a8efc82627f424885308ccfb1d6c449/young-minds-1.png?width=275 275w,&#xA;/contentassets/3a8efc82627f424885308ccfb1d6c449/young-minds-1.png?width=550 550w,&#xA;/contentassets/3a8efc82627f424885308ccfb1d6c449/young-minds-1.png?width=300 300w,&#xA;/contentassets/3a8efc82627f424885308ccfb1d6c449/young-minds-1.png?width=600 600w,&#xA;/contentassets/3a8efc82627f424885308ccfb1d6c449/young-minds-1.png?width=304 304w,&#xA;/contentassets/3a8efc82627f424885308ccfb1d6c449/young-minds-1.png?width=608 608w,&#xA;/contentassets/3a8efc82627f424885308ccfb1d6c449/young-minds-1.png?width=303 303w,&#xA;/contentassets/3a8efc82627f424885308ccfb1d6c449/young-minds-1.png?width=606 606w,&#xA;/contentassets/3a8efc82627f424885308ccfb1d6c449/young-minds-1.png?width=318 318w,&#xA;/contentassets/3a8efc82627f424885308ccfb1d6c449/young-minds-1.png?width=637 637w,&#xA;/contentassets/3a8efc82627f424885308ccfb1d6c449/young-minds-1.png?width=330 330w,&#xA;/contentassets/3a8efc82627f424885308ccfb1d6c449/young-minds-1.png?width=660 660w,&#xA;/contentassets/3a8efc82627f424885308ccfb1d6c449/young-minds-1.png?width=491 491w,&#xA;/contentassets/3a8efc82627f424885308ccfb1d6c449/young-minds-1.png?width=982 982w,&#xA;/contentassets/3a8efc82627f424885308ccfb1d6c449/young-minds-1.png?width=492 492w,&#xA;/contentassets/3a8efc82627f424885308ccfb1d6c449/young-minds-1.png?width=985 985w,&#xA;/contentassets/3a8efc82627f424885308ccfb1d6c449/young-minds-1.png?width=600 600w,&#xA;/contentassets/3a8efc82627f424885308ccfb1d6c449/young-minds-1.png?width=1200 1200w,&#xA;/contentassets/3a8efc82627f424885308ccfb1d6c449/young-minds-1.png?width=744 744w,&#xA;/contentassets/3a8efc82627f424885308ccfb1d6c449/young-minds-1.png?width=1488 1488w,&#xA;/contentassets/3a8efc82627f424885308ccfb1d6c449/young-minds-1.png?width=765 765w,&#xA;/contentassets/3a8efc82627f424885308ccfb1d6c449/young-minds-1.png?width=1530 1530w,&#xA;/contentassets/3a8efc82627f424885308ccfb1d6c449/young-minds-1.png?width=864 864w,&#xA;/contentassets/3a8efc82627f424885308ccfb1d6c449/young-minds-1.png?width=1728 1728w" />
+                                </div>
+
+                                <figcaption class="social-impact-block__caption">
+                                    Icertians empowering young minds through meaningful connection
+                                </figcaption>
+                        </figure>
+                </div>
+        </div>
+    </section>
+                    </section>
+                    <section id="benefits" data-toc-section>
+
+
+    <section class="rich-text-icon-promo-cards-disclaimer px-4 px-lg-5">
+        <div class="rich-text-icon-promo-cards-disclaimer__inner">
+                <header class="rich-text-icon-promo-cards-disclaimer__header">
+                        <p class="rich-text-icon-promo-cards-disclaimer__eyebrow rich-text-icon-promo-cards-disclaimer__eyebrow--left">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                 class="rich-text-icon-promo-cards-disclaimer__eyebrow-star" aria-hidden="true">
+                                <path
+                                d="M5.90065 11.2168L8.00065 9.95016L10.1007 11.2335L9.55065 8.8335L11.4007 7.2335L8.96732 7.01683L8.00065 4.75016L7.03398 7.00016L4.60065 7.21683L6.45065 8.8335L5.90065 11.2168ZM3.88398 14.0002L4.96732 9.31683L1.33398 6.16683L6.13398 5.75016L8.00065 1.3335L9.86732 5.75016L14.6673 6.16683L11.034 9.31683L12.1173 14.0002L8.00065 11.5168L3.88398 14.0002Z"
+                                fill="currentColor" />
+                            </svg>
+                            <span>Benefits</span>
+                        </p>
+
+                        <div class="rich-text-icon-promo-cards-disclaimer__rich-text rich-text-area">
+                            
+<h2>A world-class benefits experience</h2>
+<p>Icertis strives to provide Icertians and their loved ones with a world-class benefits experience - supporting physical, emotional, and financial wellbeing.</p>
+                        </div>
+                </header>
+
+                <div class="rich-text-icon-promo-cards-disclaimer__cards">
+                        <article class="rich-text-icon-promo-cards-disclaimer__card">
+                                <div class="rich-text-icon-promo-cards-disclaimer__card-icon">
+                                    <img class="rich-text-icon-promo-cards-disclaimer__card-icon-image" src="/contentassets/def906a78017461cb6089f5f625bf047/competitive-compensation.svg" alt="" loading="lazy" />
+                                </div>
+
+                            <div class="rich-text-icon-promo-cards-disclaimer__card-content rich-text-area">
+                                    <h3 class="rich-text-icon-promo-cards-disclaimer__card-title">
+                                        
+                                            Competitive compensation
+                                        
+                                    </h3>
+
+                                    <div class="rich-text-icon-promo-cards-disclaimer__card-description">
+                                        <p>Competitive pay and equity-so you share meaningfully in the value you create.</p>
+                                    </div>
+                            </div>
+                        </article>
+                        <article class="rich-text-icon-promo-cards-disclaimer__card">
+                                <div class="rich-text-icon-promo-cards-disclaimer__card-icon">
+                                    <img class="rich-text-icon-promo-cards-disclaimer__card-icon-image" src="/contentassets/4b6ac2b620a441b7a5fbba2804b88ce6/401k.svg" alt="" loading="lazy" />
+                                </div>
+
+                            <div class="rich-text-icon-promo-cards-disclaimer__card-content rich-text-area">
+                                    <h3 class="rich-text-icon-promo-cards-disclaimer__card-title">
+                                        
+                                            401(k)
+                                        
+                                    </h3>
+
+                                    <div class="rich-text-icon-promo-cards-disclaimer__card-description">
+                                        <p>Simple, automatic retirement savings to help you plan for the future.</p>
+                                    </div>
+                            </div>
+                        </article>
+                        <article class="rich-text-icon-promo-cards-disclaimer__card">
+                                <div class="rich-text-icon-promo-cards-disclaimer__card-icon">
+                                    <img class="rich-text-icon-promo-cards-disclaimer__card-icon-image" src="/contentassets/cee0cbe38b41424dbdf85be2e92939be/healthcare.svg" alt="" loading="lazy" />
+                                </div>
+
+                            <div class="rich-text-icon-promo-cards-disclaimer__card-content rich-text-area">
+                                    <h3 class="rich-text-icon-promo-cards-disclaimer__card-title">
+                                        
+                                            Healthcare
+                                        
+                                    </h3>
+
+                                    <div class="rich-text-icon-promo-cards-disclaimer__card-description">
+                                        <p>Comprehensive medical coverage designed to support you and your family.</p>
+                                    </div>
+                            </div>
+                        </article>
+                        <article class="rich-text-icon-promo-cards-disclaimer__card">
+                                <div class="rich-text-icon-promo-cards-disclaimer__card-icon">
+                                    <img class="rich-text-icon-promo-cards-disclaimer__card-icon-image" src="/contentassets/c5f9054753c0414ca0b435097dee6980/hybrid-work.svg" alt="" loading="lazy" />
+                                </div>
+
+                            <div class="rich-text-icon-promo-cards-disclaimer__card-content rich-text-area">
+                                    <h3 class="rich-text-icon-promo-cards-disclaimer__card-title">
+                                        
+                                            Hybrid work
+                                        
+                                    </h3>
+
+                                    <div class="rich-text-icon-promo-cards-disclaimer__card-description">
+                                        <p>A flexible model-most teams in the office 2&ndash;3 days a week and work remotely the rest.</p>
+                                    </div>
+                            </div>
+                        </article>
+                        <article class="rich-text-icon-promo-cards-disclaimer__card">
+                                <div class="rich-text-icon-promo-cards-disclaimer__card-icon">
+                                    <img class="rich-text-icon-promo-cards-disclaimer__card-icon-image" src="/contentassets/268fe24dd4044d18857798322548f095/time-off--flexibility.svg" alt="" loading="lazy" />
+                                </div>
+
+                            <div class="rich-text-icon-promo-cards-disclaimer__card-content rich-text-area">
+                                    <h3 class="rich-text-icon-promo-cards-disclaimer__card-title">
+                                        
+                                            Time off &amp; flexibility
+                                        
+                                    </h3>
+
+                                    <div class="rich-text-icon-promo-cards-disclaimer__card-description">
+                                        <p>Flexible PTO, local leave policies, and work schedules that support life beyond work.</p>
+                                    </div>
+                            </div>
+                        </article>
+                        <article class="rich-text-icon-promo-cards-disclaimer__card">
+                                <div class="rich-text-icon-promo-cards-disclaimer__card-icon">
+                                    <img class="rich-text-icon-promo-cards-disclaimer__card-icon-image" src="/contentassets/1e2bc0ec475a45f4973ef52bf9fa50c2/learning--development.svg" alt="" loading="lazy" />
+                                </div>
+
+                            <div class="rich-text-icon-promo-cards-disclaimer__card-content rich-text-area">
+                                    <h3 class="rich-text-icon-promo-cards-disclaimer__card-title">
+                                        
+                                            Learning &amp; development
+                                        
+                                    </h3>
+
+                                    <div class="rich-text-icon-promo-cards-disclaimer__card-description">
+                                        <p>Ongoing support, programs, and allowances to help you grow and achieve your goals.</p>
+                                    </div>
+                            </div>
+                        </article>
+                        <article class="rich-text-icon-promo-cards-disclaimer__card">
+                                <div class="rich-text-icon-promo-cards-disclaimer__card-icon">
+                                    <img class="rich-text-icon-promo-cards-disclaimer__card-icon-image" src="/contentassets/6e8a01d280ec4c12b39a43052dd4f7c1/transparent-culture.svg" alt="" loading="lazy" />
+                                </div>
+
+                            <div class="rich-text-icon-promo-cards-disclaimer__card-content rich-text-area">
+                                    <h3 class="rich-text-icon-promo-cards-disclaimer__card-title">
+                                        
+                                            Transparent culture
+                                        
+                                    </h3>
+
+                                    <div class="rich-text-icon-promo-cards-disclaimer__card-description">
+                                        <p>Open by default-so we move faster, make better decisions, and build trust together.</p>
+                                    </div>
+                            </div>
+                        </article>
+                        <article class="rich-text-icon-promo-cards-disclaimer__card">
+                                <div class="rich-text-icon-promo-cards-disclaimer__card-icon">
+                                    <img class="rich-text-icon-promo-cards-disclaimer__card-icon-image" src="/contentassets/6cb238dbe86c4d0aaa98d01d2ee003b6/company-events.svg" alt="" loading="lazy" />
+                                </div>
+
+                            <div class="rich-text-icon-promo-cards-disclaimer__card-content rich-text-area">
+                                    <h3 class="rich-text-icon-promo-cards-disclaimer__card-title">
+                                        
+                                            Company events
+                                        
+                                    </h3>
+
+                                    <div class="rich-text-icon-promo-cards-disclaimer__card-description">
+                                        <p>We balance ambition with connection-celebrating meaningful team experiences.</p>
+                                    </div>
+                            </div>
+                        </article>
+                        <article class="rich-text-icon-promo-cards-disclaimer__card">
+                                <div class="rich-text-icon-promo-cards-disclaimer__card-icon">
+                                    <img class="rich-text-icon-promo-cards-disclaimer__card-icon-image" src="/contentassets/40b338e65f24466ab6119f66a2e8a754/meals--perks.svg" alt="" loading="lazy" />
+                                </div>
+
+                            <div class="rich-text-icon-promo-cards-disclaimer__card-content rich-text-area">
+                                    <h3 class="rich-text-icon-promo-cards-disclaimer__card-title">
+                                        
+                                            Meals &amp; perks
+                                        
+                                    </h3>
+
+                                    <div class="rich-text-icon-promo-cards-disclaimer__card-description">
+                                        <p>Office meals and thoughtful perks that make your workday easier.</p>
+                                    </div>
+                            </div>
+                        </article>
+                </div>
+
+                <p class="rich-text-icon-promo-cards-disclaimer__disclaimer">
+                    Note: Benefits may vary and subject to change based on location and local regulations.
+                </p>
+        </div>
+    </section>
+
+
+    <section class="photo-gallery-block photo-gallery-block--has-zigzag">
+        <div class="container-fluid px-4 px-lg-5">
+                <div class="photo-gallery-block__section photo-gallery-block__section--zigzag">
+                        <header class="photo-gallery-block__header">
+
+                                <div class="photo-gallery-block__rich-text rich-text-area">
+                                    
+<h2 class="text-center">Life at Icertis</h2>
+                                </div>
+                        </header>
+
+                        <div class="photo-gallery-block__gallery">
+                                <div class="photo-gallery-block__item">
+                                    <img class="photo-gallery-block__image" loading="lazy" src="/globalassets/career/life-at-1.jpg" alt="" width="1760" height="800" srcset="/globalassets/career/life-at-1.jpg?width=36 36w,&#xA;/globalassets/career/life-at-1.jpg?width=54 54w,&#xA;/globalassets/career/life-at-1.jpg?width=109 109w,&#xA;/globalassets/career/life-at-1.jpg?width=70 70w,&#xA;/globalassets/career/life-at-1.jpg?width=140 140w,&#xA;/globalassets/career/life-at-1.jpg?width=180 180w,&#xA;/globalassets/career/life-at-1.jpg?width=360 360w,&#xA;/globalassets/career/life-at-1.jpg?width=200 200w,&#xA;/globalassets/career/life-at-1.jpg?width=400 400w,&#xA;/globalassets/career/life-at-1.jpg?width=275 275w,&#xA;/globalassets/career/life-at-1.jpg?width=550 550w,&#xA;/globalassets/career/life-at-1.jpg?width=300 300w,&#xA;/globalassets/career/life-at-1.jpg?width=600 600w,&#xA;/globalassets/career/life-at-1.jpg?width=304 304w,&#xA;/globalassets/career/life-at-1.jpg?width=608 608w,&#xA;/globalassets/career/life-at-1.jpg?width=303 303w,&#xA;/globalassets/career/life-at-1.jpg?width=606 606w,&#xA;/globalassets/career/life-at-1.jpg?width=318 318w,&#xA;/globalassets/career/life-at-1.jpg?width=637 637w,&#xA;/globalassets/career/life-at-1.jpg?width=330 330w,&#xA;/globalassets/career/life-at-1.jpg?width=660 660w,&#xA;/globalassets/career/life-at-1.jpg?width=491 491w,&#xA;/globalassets/career/life-at-1.jpg?width=982 982w,&#xA;/globalassets/career/life-at-1.jpg?width=492 492w,&#xA;/globalassets/career/life-at-1.jpg?width=985 985w,&#xA;/globalassets/career/life-at-1.jpg?width=600 600w,&#xA;/globalassets/career/life-at-1.jpg?width=1200 1200w,&#xA;/globalassets/career/life-at-1.jpg?width=744 744w,&#xA;/globalassets/career/life-at-1.jpg?width=1488 1488w,&#xA;/globalassets/career/life-at-1.jpg?width=765 765w,&#xA;/globalassets/career/life-at-1.jpg?width=1530 1530w,&#xA;/globalassets/career/life-at-1.jpg?width=864 864w,&#xA;/globalassets/career/life-at-1.jpg?width=1728 1728w" />
+                                </div>
+                                <div class="photo-gallery-block__item">
+                                    <img class="photo-gallery-block__image" loading="lazy" src="/globalassets/career/life-at-2.jpg" alt="" width="1280" height="1680" srcset="/globalassets/career/life-at-2.jpg?width=36 36w,&#xA;/globalassets/career/life-at-2.jpg?width=54 54w,&#xA;/globalassets/career/life-at-2.jpg?width=109 109w,&#xA;/globalassets/career/life-at-2.jpg?width=70 70w,&#xA;/globalassets/career/life-at-2.jpg?width=140 140w,&#xA;/globalassets/career/life-at-2.jpg?width=180 180w,&#xA;/globalassets/career/life-at-2.jpg?width=360 360w,&#xA;/globalassets/career/life-at-2.jpg?width=200 200w,&#xA;/globalassets/career/life-at-2.jpg?width=400 400w,&#xA;/globalassets/career/life-at-2.jpg?width=275 275w,&#xA;/globalassets/career/life-at-2.jpg?width=550 550w,&#xA;/globalassets/career/life-at-2.jpg?width=300 300w,&#xA;/globalassets/career/life-at-2.jpg?width=600 600w,&#xA;/globalassets/career/life-at-2.jpg?width=304 304w,&#xA;/globalassets/career/life-at-2.jpg?width=608 608w,&#xA;/globalassets/career/life-at-2.jpg?width=303 303w,&#xA;/globalassets/career/life-at-2.jpg?width=606 606w,&#xA;/globalassets/career/life-at-2.jpg?width=318 318w,&#xA;/globalassets/career/life-at-2.jpg?width=637 637w,&#xA;/globalassets/career/life-at-2.jpg?width=330 330w,&#xA;/globalassets/career/life-at-2.jpg?width=660 660w,&#xA;/globalassets/career/life-at-2.jpg?width=491 491w,&#xA;/globalassets/career/life-at-2.jpg?width=982 982w,&#xA;/globalassets/career/life-at-2.jpg?width=492 492w,&#xA;/globalassets/career/life-at-2.jpg?width=985 985w,&#xA;/globalassets/career/life-at-2.jpg?width=600 600w,&#xA;/globalassets/career/life-at-2.jpg?width=1200 1200w" />
+                                </div>
+                                <div class="photo-gallery-block__item">
+                                    <img class="photo-gallery-block__image" loading="lazy" src="/globalassets/career/life-at-3.jpg" alt="" width="840" height="800" srcset="/globalassets/career/life-at-3.jpg?width=36 36w,&#xA;/globalassets/career/life-at-3.jpg?width=54 54w,&#xA;/globalassets/career/life-at-3.jpg?width=109 109w,&#xA;/globalassets/career/life-at-3.jpg?width=70 70w,&#xA;/globalassets/career/life-at-3.jpg?width=140 140w,&#xA;/globalassets/career/life-at-3.jpg?width=180 180w,&#xA;/globalassets/career/life-at-3.jpg?width=360 360w,&#xA;/globalassets/career/life-at-3.jpg?width=200 200w,&#xA;/globalassets/career/life-at-3.jpg?width=400 400w,&#xA;/globalassets/career/life-at-3.jpg?width=275 275w,&#xA;/globalassets/career/life-at-3.jpg?width=550 550w,&#xA;/globalassets/career/life-at-3.jpg?width=300 300w,&#xA;/globalassets/career/life-at-3.jpg?width=600 600w,&#xA;/globalassets/career/life-at-3.jpg?width=304 304w,&#xA;/globalassets/career/life-at-3.jpg?width=608 608w,&#xA;/globalassets/career/life-at-3.jpg?width=303 303w,&#xA;/globalassets/career/life-at-3.jpg?width=606 606w,&#xA;/globalassets/career/life-at-3.jpg?width=318 318w,&#xA;/globalassets/career/life-at-3.jpg?width=637 637w,&#xA;/globalassets/career/life-at-3.jpg?width=330 330w,&#xA;/globalassets/career/life-at-3.jpg?width=660 660w" />
+                                </div>
+                                <div class="photo-gallery-block__item">
+                                    <img class="photo-gallery-block__image" loading="lazy" src="/globalassets/career/life-at-4-1.jpg" alt="" width="840" height="800" srcset="/globalassets/career/life-at-4-1.jpg?width=36 36w,&#xA;/globalassets/career/life-at-4-1.jpg?width=54 54w,&#xA;/globalassets/career/life-at-4-1.jpg?width=109 109w,&#xA;/globalassets/career/life-at-4-1.jpg?width=70 70w,&#xA;/globalassets/career/life-at-4-1.jpg?width=140 140w,&#xA;/globalassets/career/life-at-4-1.jpg?width=180 180w,&#xA;/globalassets/career/life-at-4-1.jpg?width=360 360w,&#xA;/globalassets/career/life-at-4-1.jpg?width=200 200w,&#xA;/globalassets/career/life-at-4-1.jpg?width=400 400w,&#xA;/globalassets/career/life-at-4-1.jpg?width=275 275w,&#xA;/globalassets/career/life-at-4-1.jpg?width=550 550w,&#xA;/globalassets/career/life-at-4-1.jpg?width=300 300w,&#xA;/globalassets/career/life-at-4-1.jpg?width=600 600w,&#xA;/globalassets/career/life-at-4-1.jpg?width=304 304w,&#xA;/globalassets/career/life-at-4-1.jpg?width=608 608w,&#xA;/globalassets/career/life-at-4-1.jpg?width=303 303w,&#xA;/globalassets/career/life-at-4-1.jpg?width=606 606w,&#xA;/globalassets/career/life-at-4-1.jpg?width=318 318w,&#xA;/globalassets/career/life-at-4-1.jpg?width=637 637w,&#xA;/globalassets/career/life-at-4-1.jpg?width=330 330w,&#xA;/globalassets/career/life-at-4-1.jpg?width=660 660w" />
+                                </div>
+                                <div class="photo-gallery-block__item">
+                                    <img class="photo-gallery-block__image" loading="lazy" src="/globalassets/career/life-at-5.jpg" alt="" width="840" height="800" srcset="/globalassets/career/life-at-5.jpg?width=36 36w,&#xA;/globalassets/career/life-at-5.jpg?width=54 54w,&#xA;/globalassets/career/life-at-5.jpg?width=109 109w,&#xA;/globalassets/career/life-at-5.jpg?width=70 70w,&#xA;/globalassets/career/life-at-5.jpg?width=140 140w,&#xA;/globalassets/career/life-at-5.jpg?width=180 180w,&#xA;/globalassets/career/life-at-5.jpg?width=360 360w,&#xA;/globalassets/career/life-at-5.jpg?width=200 200w,&#xA;/globalassets/career/life-at-5.jpg?width=400 400w,&#xA;/globalassets/career/life-at-5.jpg?width=275 275w,&#xA;/globalassets/career/life-at-5.jpg?width=550 550w,&#xA;/globalassets/career/life-at-5.jpg?width=300 300w,&#xA;/globalassets/career/life-at-5.jpg?width=600 600w,&#xA;/globalassets/career/life-at-5.jpg?width=304 304w,&#xA;/globalassets/career/life-at-5.jpg?width=608 608w,&#xA;/globalassets/career/life-at-5.jpg?width=303 303w,&#xA;/globalassets/career/life-at-5.jpg?width=606 606w,&#xA;/globalassets/career/life-at-5.jpg?width=318 318w,&#xA;/globalassets/career/life-at-5.jpg?width=637 637w,&#xA;/globalassets/career/life-at-5.jpg?width=330 330w,&#xA;/globalassets/career/life-at-5.jpg?width=660 660w" />
+                                </div>
+                                <div class="photo-gallery-block__item">
+                                    <img class="photo-gallery-block__image" loading="lazy" src="/globalassets/career/life-at-6.jpg" alt="" width="840" height="800" srcset="/globalassets/career/life-at-6.jpg?width=36 36w,&#xA;/globalassets/career/life-at-6.jpg?width=54 54w,&#xA;/globalassets/career/life-at-6.jpg?width=109 109w,&#xA;/globalassets/career/life-at-6.jpg?width=70 70w,&#xA;/globalassets/career/life-at-6.jpg?width=140 140w,&#xA;/globalassets/career/life-at-6.jpg?width=180 180w,&#xA;/globalassets/career/life-at-6.jpg?width=360 360w,&#xA;/globalassets/career/life-at-6.jpg?width=200 200w,&#xA;/globalassets/career/life-at-6.jpg?width=400 400w,&#xA;/globalassets/career/life-at-6.jpg?width=275 275w,&#xA;/globalassets/career/life-at-6.jpg?width=550 550w,&#xA;/globalassets/career/life-at-6.jpg?width=300 300w,&#xA;/globalassets/career/life-at-6.jpg?width=600 600w,&#xA;/globalassets/career/life-at-6.jpg?width=304 304w,&#xA;/globalassets/career/life-at-6.jpg?width=608 608w,&#xA;/globalassets/career/life-at-6.jpg?width=303 303w,&#xA;/globalassets/career/life-at-6.jpg?width=606 606w,&#xA;/globalassets/career/life-at-6.jpg?width=318 318w,&#xA;/globalassets/career/life-at-6.jpg?width=637 637w,&#xA;/globalassets/career/life-at-6.jpg?width=330 330w,&#xA;/globalassets/career/life-at-6.jpg?width=660 660w" />
+                                </div>
+                                <div class="photo-gallery-block__item">
+                                    <img class="photo-gallery-block__image" loading="lazy" src="/globalassets/career/life-at-7.jpg" alt="" width="1760" height="800" srcset="/globalassets/career/life-at-7.jpg?width=36 36w,&#xA;/globalassets/career/life-at-7.jpg?width=54 54w,&#xA;/globalassets/career/life-at-7.jpg?width=109 109w,&#xA;/globalassets/career/life-at-7.jpg?width=70 70w,&#xA;/globalassets/career/life-at-7.jpg?width=140 140w,&#xA;/globalassets/career/life-at-7.jpg?width=180 180w,&#xA;/globalassets/career/life-at-7.jpg?width=360 360w,&#xA;/globalassets/career/life-at-7.jpg?width=200 200w,&#xA;/globalassets/career/life-at-7.jpg?width=400 400w,&#xA;/globalassets/career/life-at-7.jpg?width=275 275w,&#xA;/globalassets/career/life-at-7.jpg?width=550 550w,&#xA;/globalassets/career/life-at-7.jpg?width=300 300w,&#xA;/globalassets/career/life-at-7.jpg?width=600 600w,&#xA;/globalassets/career/life-at-7.jpg?width=304 304w,&#xA;/globalassets/career/life-at-7.jpg?width=608 608w,&#xA;/globalassets/career/life-at-7.jpg?width=303 303w,&#xA;/globalassets/career/life-at-7.jpg?width=606 606w,&#xA;/globalassets/career/life-at-7.jpg?width=318 318w,&#xA;/globalassets/career/life-at-7.jpg?width=637 637w,&#xA;/globalassets/career/life-at-7.jpg?width=330 330w,&#xA;/globalassets/career/life-at-7.jpg?width=660 660w,&#xA;/globalassets/career/life-at-7.jpg?width=491 491w,&#xA;/globalassets/career/life-at-7.jpg?width=982 982w,&#xA;/globalassets/career/life-at-7.jpg?width=492 492w,&#xA;/globalassets/career/life-at-7.jpg?width=985 985w,&#xA;/globalassets/career/life-at-7.jpg?width=600 600w,&#xA;/globalassets/career/life-at-7.jpg?width=1200 1200w,&#xA;/globalassets/career/life-at-7.jpg?width=744 744w,&#xA;/globalassets/career/life-at-7.jpg?width=1488 1488w,&#xA;/globalassets/career/life-at-7.jpg?width=765 765w,&#xA;/globalassets/career/life-at-7.jpg?width=1530 1530w,&#xA;/globalassets/career/life-at-7.jpg?width=864 864w,&#xA;/globalassets/career/life-at-7.jpg?width=1728 1728w" />
+                                </div>
+                        </div>
+                </div>
+
+        </div>
+    </section>
+                    </section>
+                    <section id="awards" data-toc-section>
+
+
+    <section class="photo-gallery-block">
+        <div class="container-fluid px-4 px-lg-5">
+
+                <div class="photo-gallery-block__section photo-gallery-block__section--rowwise">
+                        <header class="photo-gallery-block__header">
+                                <p class="photo-gallery-block__eyebrow">
+                                    <svg class="photo-gallery-block__eyebrow-star" width="16" height="16" viewBox="0 0 16 16"
+                                         fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                        <path
+                                        d="M5.90065 11.2168L8.00065 9.95016L10.1007 11.2335L9.55065 8.8335L11.4007 7.2335L8.96732 7.01683L8.00065 4.75016L7.03398 7.00016L4.60065 7.21683L6.45065 8.8335L5.90065 11.2168ZM3.88398 14.0002L4.96732 9.31683L1.33398 6.16683L6.13398 5.75016L8.00065 1.3335L9.86732 5.75016L14.6673 6.16683L11.034 9.31683L12.1173 14.0002L8.00065 11.5168L3.88398 14.0002Z"
+                                        fill="#221410" />
+                                    </svg>
+                                    <span>Awards</span>
+                                </p>
+
+                                <div class="photo-gallery-block__rich-text rich-text-area">
+                                    
+<h2 class="text-center">Recognized for the way we work</h2>
+<p class="text-center">While we are serious about execution and delivering for our customers, we also believe in enjoying what we do. The success of our culture was recognized in several ways over the past year.</p>
+                                </div>
+                        </header>
+
+                        <div class="photo-gallery-block__gallery">
+                                <div class="photo-gallery-block__item">
+                                    <img class="photo-gallery-block__image" loading="lazy" src="/globalassets/2.-universal-blocks/career-page/award-1.svg" alt="" />
+                                </div>
+                                <div class="photo-gallery-block__item">
+                                    <img class="photo-gallery-block__image" loading="lazy" src="/globalassets/2.-universal-blocks/career-page/award-2.svg" alt="" />
+                                </div>
+                                <div class="photo-gallery-block__item">
+                                    <img class="photo-gallery-block__image" loading="lazy" src="/globalassets/2.-universal-blocks/career-page/award-3.svg" alt="" />
+                                </div>
+                                <div class="photo-gallery-block__item">
+                                    <img class="photo-gallery-block__image" loading="lazy" src="/globalassets/2.-universal-blocks/career-page/award-4.svg" alt="" />
+                                </div>
+                                <div class="photo-gallery-block__item">
+                                    <img class="photo-gallery-block__image" loading="lazy" src="/globalassets/2.-universal-blocks/career-page/award-5.svg" alt="" />
+                                </div>
+                                <div class="photo-gallery-block__item">
+                                    <img class="photo-gallery-block__image" loading="lazy" src="/globalassets/2.-universal-blocks/career-page/award-6.svg" alt="" />
+                                </div>
+                                <div class="photo-gallery-block__item">
+                                    <img class="photo-gallery-block__image" loading="lazy" src="/globalassets/2.-universal-blocks/career-page/award-7.svg" alt="" />
+                                </div>
+                                <div class="photo-gallery-block__item">
+                                    <img class="photo-gallery-block__image" loading="lazy" src="/globalassets/2.-universal-blocks/career-page/award-8.svg" alt="" />
+                                </div>
+                                <div class="photo-gallery-block__item">
+                                    <img class="photo-gallery-block__image" loading="lazy" src="/globalassets/2.-universal-blocks/career-page/award-9.svg" alt="" />
+                                </div>
+                                <div class="photo-gallery-block__item">
+                                    <img class="photo-gallery-block__image" loading="lazy" src="/globalassets/2.-universal-blocks/career-page/award-10.svg" alt="" />
+                                </div>
+                                <div class="photo-gallery-block__item">
+                                    <img class="photo-gallery-block__image" loading="lazy" src="/globalassets/2.-universal-blocks/career-page/award-11.svg" alt="" />
+                                </div>
+                                <div class="photo-gallery-block__item">
+                                    <img class="photo-gallery-block__image" loading="lazy" src="/globalassets/2.-universal-blocks/career-page/award-12.svg" alt="" />
+                                </div>
+                        </div>
+                </div>
+        </div>
+    </section>
+                    </section>
+
+        </main>
+
+        
+
+        
+
+<footer class="site-footer">
+    <div class="container-fluid">
+        <div class="site-footer__body">
+                <div class="site-footer__section-wrap">
+                        <nav class="site-footer__nav">
+                                <div class="site-footer__nav-section">
+                                        <a class="site-footer__heading h5" href="/products/platform/">
+Products</a>
+                                            <ul class="site-footer__link-list">
+                                                    <li>
+                                                        
+<a href="/products/engage/">Engage</a>
+                                                    </li>
+                                                    <li>
+                                                        
+<a href="/products/operate/">Operate</a>
+                                                    </li>
+                                                    <li>
+                                                        
+<a href="/products/analyze/">Analyze</a>
+                                                    </li>
+                                                    <li>
+                                                        
+<a href="/products/platform/copilot/">Vera Copilot</a>
+                                                    </li>
+                                            </ul>
+                                    </div>
+                                <div class="site-footer__nav-section">
+                                        <a class="site-footer__heading h5" href="/solutions/">
+Solutions</a>
+                                            <ul class="site-footer__link-list">
+                                                    <li>
+                                                        
+<a href="/solutions/industry-solutions/asset-management/">Asset Management</a>
+                                                    </li>
+                                                    <li>
+                                                        
+<a href="/solutions/industry-solutions/public-sector/" title="Public Sector">Public Sector</a>
+                                                    </li>
+                                                    <li>
+                                                        
+<a href="/solutions/industry-solutions/retail-and-consumer/">Retail and Consumer Goods</a>
+                                                    </li>
+                                                    <li>
+                                                        
+<a href="/solutions/industry-solutions/media-and-telecom/">Media and Telecom</a>
+                                                    </li>
+                                            </ul>
+                                    </div>
+                                <div class="site-footer__nav-section">
+                                        <a class="site-footer__heading h5" href="/research/">
+Resources</a>
+                                            <ul class="site-footer__link-list">
+                                                    <li>
+                                                        
+<a href="/research/analyst-reports/">Analyst Reports</a>
+                                                    </li>
+                                                    <li>
+                                                        
+<a href="/customers/customer-stories/">Customer Stories</a>
+                                                    </li>
+                                                    <li>
+                                                        
+<a href="/research/ebooks/">eBooks</a>
+                                                    </li>
+                                                    <li>
+                                                        
+<a href="/research/blog/">Blog</a>
+                                                    </li>
+                                                    <li>
+                                                        
+<a href="/learn/">Learn About CLM</a>
+                                                    </li>
+                                                    <li>
+                                                        
+<a href="/contracting-basics/">Contracting Basics</a>
+                                                    </li>
+                                            </ul>
+                                    </div>
+                                <div class="site-footer__nav-section">
+                                        <a class="site-footer__heading h5" href="/company/">
+Company</a>
+                                            <ul class="site-footer__link-list">
+                                                    <li>
+                                                        
+<a href="/company/">Company</a>
+                                                    </li>
+                                                    <li>
+                                                        
+<a href="/company/news/">News</a>
+                                                    </li>
+                                                    <li>
+                                                        
+<a href="/company/careers/">Careers</a>
+                                                    </li>
+                                                    <li>
+                                                        
+<a href="/company/events/">Events</a>
+                                                    </li>
+                                            </ul>
+                                    </div>
+                                <div class="site-footer__nav-section">
+                                        <a class="site-footer__heading h5" href="/contracting-basics/">
+Learn</a>
+                                            <ul class="site-footer__link-list">
+                                                    <li>
+                                                        
+<a href="/learn/what-is-contract-management/">What is Contract Management?</a>
+                                                    </li>
+                                                    <li>
+                                                        
+<a href="/learn/what-is-contract-intelligence/">What is Contract Intelligence?</a>
+                                                    </li>
+                                                    <li>
+                                                        
+<a href="/learn/what-is-contract-lifecycle-management/">What is Contract Lifecycle Management?</a>
+                                                    </li>
+                                                    <li>
+                                                        
+<a href="/contracting-basics/contractual-obligations/">What is a Contractual Obligation?</a>
+                                                    </li>
+                                                    <li>
+                                                        
+<a href="/learn/what-is-contract-performance/">What is Contract Performance?</a>
+                                                    </li>
+                                                    <li>
+                                                        
+<a href="/contracting-basics/what-is-contract-compliance/">What is Contract Compliance?</a>
+                                                    </li>
+                                                    <li>
+                                                        
+<a href="/learn/how-generative-ai-is-changing-contract-management/">Generative AI in Contract Management</a>
+                                                    </li>
+                                            </ul>
+                                    </div>
+                            </nav>
+                    </div>
+                <div class="site-footer__disclosure-links">
+                    <div class="site-footer__logo">
+                        <a href="/">
+                            <img src="/static/images/icertis-logo-white-new.svg" alt="Icertis"
+                                 width="125" height="48">
+                        </a>
+                    </div>
+                    <ul class="site-footer__link-list">
+                        <li>
+                            © Copyright 2026 Icertis. All rights reserved.
+                        </li>
+                                <li>
+                                    
+<a href="/information/cookie-policy/" title="Cookie Policy">Cookie Policy</a>
+                                </li>
+                                <li>
+                                    
+<a href="/information/icertis-privacy-statement/" title="Privacy Statement">Privacy Statement</a>
+                                </li>
+                                <li>
+                                    
+<a href="/information/disclaimer/" title="Disclaimer">Disclaimer</a>
+                                </li>
+                                <li>
+                                    
+<a href="/information/foundation/">Foundation</a>
+                                </li>
+                                <li>
+                                    
+<a href="/information/trust-center/">Trust Center</a>
+                                </li>
+                    </ul>
+                        <div class="footer-awards--desktop d-none d-xl-block">
+                        </div>
+                </div>
+                <div class="footer-awards--mobile d-xl-none">
+                    <div class="site-footer__awards">
+                            <ul class="site-footer__social-links-list">
+                                        <li class="site-footer__social-links-item">
+                                            <a href="https://www.linkedin.com/company/icertis/">
+                                                <img src="/static/images/icon-linkedin-small.svg"
+                                                     alt="View our LinkedIn profile" />
+                                            </a>
+                                        </li>
+                                        <li class="site-footer__social-links-item">
+                                            <a href="https://www.youtube.com/channel/UCkxr-g3wzTgFFmRbumun6lQ">
+                                                <img src="/static/images/icon-youtube-small.svg"
+                                                     alt="View our YouTube profile" />
+                                            </a>
+                                        </li>
+                                        <li class="site-footer__social-links-item">
+                                            <a href="http://instagram.com/icertisinc/">
+                                                <img src="/static/images/icon-instagram-small.svg"
+                                                     alt="View our Instagram profile" />
+                                            </a>
+                                        </li>
+                                        <li class="site-footer__social-links-item">
+                                            <a href="https://twitter.com/icertis">
+                                                <img src="/static/images/icon-twitter-small.svg"
+                                                     alt="View our Twitter profile" />
+                                            </a>
+                                        </li>
+                            </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    </div>
+    <div class="modal modal--language fade" id="languageSpeedbump" tabindex="-1" aria-labelledby="languageSpeedbumpLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-body">
+        <p class="h3" id="languageSpeedbumpLabel">You are now leaving the FR/DE Icertis website and going to .com.</p>
+      </div>
+      <div class="modal-footer">
+          <a class="btn btn-primary">Ok</a>
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+
+    
+    <script defer="defer" src="/Util/Find/epi-util/find.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded',function(){if(typeof FindApi === 'function'){var api = new FindApi();api.setApplicationUrl('/');api.setServiceApiBaseUrl('/find_v2/');api.processEventFromCurrentUri();api.bindWindowEvents();api.bindAClickEvent();api.sendBufferedEvents();}})
+</script>
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+</body>
+
+</html>

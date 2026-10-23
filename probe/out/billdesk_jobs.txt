@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>BillDesk - Integrated Payment Solutions</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description"
+    content="BillDesk helps businesses accelerate growth with future-ready payment technology. Our unified platform offers seamless online payments, recurring options, international collections, EMI/BNPL affordability, tokenisation, and biller networks for higher conversions.">
+  <meta name="keywords"
+    content="billdesk payments, payment gateway, online payments, payment aggregator, recurring payments, international payments, EMI BNPL, tokenisation, biller network, Bharat Connect">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="BillDesk - Integrated Payment Solutions">
+  <meta property="og:description"
+    content="Seamless payment solutions for businesses: online, recurring, international, EMI, tokenisation & more. Accelerate growth with BillDesk.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.billdesk.com">
+  <meta property="og:image" content="/web/billdesk-1.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="BillDesk - Integrated Payment Solutions">
+  <meta name="twitter:description"
+    content="Future-ready payments: seamless integrations for online, recurring, global & affordability solutions.">
+  <meta name="twitter:image" content="/web/billdesk-1.png">
+
+  <link rel="canonical" href="https://www.billdesk.com">
+  <link rel="icon" href="/web/favicon.ico">
+  <link rel="manifest" href="/web/manifest.json">
+  <link rel="preconnect" href="https://www.billdesk.com" crossorigin>
+
+  <!-- Google tag (gtag.js) -->
+  <script>
+    var _gaEnabled = 'true';
+    if (_gaEnabled === 'true') {
+      var s = document.createElement('script');
+      s.async = true;
+      s.src = 'https://www.googletagmanager.com/gtag/js?id=G-6KNS9NHN05';
+      document.head.appendChild(s);
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+      gtag('config', 'G-6KNS9NHN05', { send_page_view: false });
+    }
+  </script>
+  <script type="module" crossorigin src="/web/assets/index-HDhlwbcv.js"></script>
+  <link rel="stylesheet" crossorigin href="/web/assets/index-6EtpFFHy.css">
+</head>
+
+<body>
+  <main id="root"></main>
+</body>
+
+</html>

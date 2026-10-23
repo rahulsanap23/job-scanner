@@ -1,0 +1,1849 @@
+<!DOCTYPE html><html class="responsive" lang="en"><head><meta charSet="utf-8" data-next-head=""/><meta name="viewport" content="width=device-width" data-next-head=""/><link rel="canonical" href="https://careers.teradata.com/jobs" data-next-head=""/><title data-next-head="">Search Careers at Teradata</title><meta name="description" content="Gr8 Job! at Teradata" data-next-head=""/><meta name="robots" content="index" data-next-head=""/><meta name="twitter:card" content="summary_large_image" data-next-head=""/><meta prefix="og: http://ogp.me/ns#" property="og:type" content="website" data-next-head=""/><meta prefix="og: http://ogp.me/ns#" property="og:title" content="Search Careers at Teradata" data-next-head=""/><meta prefix="og: http://ogp.me/ns#" property="og:description" content="Gr8 Job! at Teradata" data-next-head=""/><meta prefix="og: http://ogp.me/ns#" property="og:url" content="https://careers.teradata.com/jobs" data-next-head=""/><meta prefix="og: http://ogp.me/ns#" property="og:image" content="https://recruitcdn.com/publicimage/ce7dcc0560e0ed320cf11169698c9b255c946809/193/3" data-next-head=""/><meta prefix="og: http://ogp.me/ns#" property="og:image:type" content="image/jpeg" data-next-head=""/><meta http-equiv="X-UA-Compatible" content="IE=Edge"/><script type="text/javascript">
+  var _paq = window._paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+
+  var _mtm = _mtm || [];
+  _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+
+  (function() {
+    var u="https://t.gr8people.com/matomo/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '46']);
+    _paq.push(['setSecureCookie', true]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src='https://t.gr8people.com/matomo/js/container_eeu0eOzd.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script><link rel="icon" href="https://careers.teradata.com/index.gp?method=cappServices.getFavicon" type="image/x-icon"/><script type="text/javascript">
+                gr8 = window.gr8 || {};
+                
+				gr8.mySelf = '/index.gp?method=';
+				gr8.csrfToken = '25EF5B3D-D79D-ED47-968DD2224E655490';
+				gr8.confirmDelay = 2000;
+				gr8.portalId = 1;
+				gr8.defaultCountryID = 233;
+				
+					gr8.userInfo = {
+						personId: 0,
+						configure: 0,
+						configMode: 0
+				}
+				
+			</script><meta name="viewport" content="width=device-width, initial-scale=1.0"/><link rel="stylesheet" type="text/css" href="https://assets.gr8people.com/builds/apps/assets/fonts.open-sans.3a6f4a8882c43129/font.css"/><link rel="stylesheet" type="text/css" href="https://assets.gr8people.com/builds/apps/assets/fonts.fontello.81a85ea8ea6ede81/font.css"/><link rel="stylesheet" type="text/css" href="https://assets.gr8people.com/builds/apps/assets/apps.app-portal.d39263b7965c3b27/gr8-theme-portal/app-styles.min.css?_dc=10212026081046"/><link rel="stylesheet" type="text/css" href="https://assets.gr8people.com/builds/apps/assets/apps.app-portal.d39263b7965c3b27/gr8-theme-portal/Extensible/css/extensible.min.css?_dc=10212026081046"/><script src="https://assets.gr8people.com/builds/apps/assets/apps.app-portal.d39263b7965c3b27/gr8-theme-portal-locale_en.min.js?_dc=10212026081046"></script><script src="https://assets.gr8people.com/builds/apps/assets/apps.app-portal.d39263b7965c3b27/gr8-theme-portal.min.js?_dc=10212026081046"></script><script src="https://assets.gr8people.com/builds/apps/assets/vendor.sencha.520ec63a4ee9b1cc/ext-lang-en.min.js?_dc=10212026081046"></script><script src="https://assets.gr8people.com/builds/apps/assets/vendor.sencha.520ec63a4ee9b1cc/ext-lang-overrides.min.js?_dc=10212026081046"></script><script type="text/javascript">
+            gr8.onLaunch(function() {
+                Ext.windowHeight = Ext.Function.alias(Ext.dom.Element, 'getViewportHeight');
+                Ext.windowWidth = Ext.Function.alias(Ext.dom.Element, 'getViewportWidth');
+
+                Ext.Ajax.extraParams = Ext.apply({}, {
+                'X-Csrf-Token': gr8.csrfToken || ''
+                }, Ext.Ajax.extraParams);
+
+                Ext.onReady(function(){
+                    
+                        gr8.HelpWin.setCustomerId(193);
+                    
+                        Ext.tip.QuickTipManager.init();
+                    
+                });
+            })
+        </script><script src="https://assets.gr8people.com/builds/apps/react/static/js/runtime~main.d7743bc0.js"></script><script src="https://assets.gr8people.com/builds/apps/react/static/js/vendors~main.463fd420.chunk.js"></script><script src="https://assets.gr8people.com/builds/apps/react/static/js/main.356f7a26.chunk.js"></script><script language="javascript">
+                gr8.onLaunch(function(){
+                    function initEventListeners() {
+                        var toggleLink = document.querySelector('.person-menu-toggle-link');
+                        if (toggleLink) {
+                            document.querySelector('.person-menu-toggle-link').addEventListener('click', onShowMenuClick);
+                        }
+
+                        gr8.SliderCt.on('pop', refreshPersonImage);
+                    }
+
+                    function refreshPersonImage() {
+                        var img = document.querySelector('.profile-pic');
+                        if(img) {
+                            img.src = '';
+                            img.src = '/index.gp?method=cappservicesuser.getProfileImage';
+                        }
+                    }
+
+                    function onShowMenuClick(e) {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        togglePersonMenu(e, '')
+                        document.addEventListener('click', onHideMenu);
+                    }
+
+                    function onShowMenu(e) {
+                        togglePersonMenu(e, 'show');
+                    }
+
+                    function onHideMenu(e) {
+                        var target = e.target || e.srcElement,
+                            menuEl = document.querySelector('.person-menu-toggle');
+
+                        document.removeEventListener('click', onHideMenu);
+                        if (!menuEl) return;
+
+                        if (
+                                target.className.indexOf('person-menu-toggle') == -1 &&
+                                getClosest(target, '.person-menu-toggle').length == 0 &&
+                                menuEl.className.indexOf( 'showmenu' ) != -1
+                            ) {
+                            togglePersonMenu(e, 'hide');
+                        }
+                    }
+
+                    function togglePersonMenu(e, showhide){
+                        showhide = showhide || ''
+                        var target = e.target || e.srcElement,
+                            menuToggleEl = document.querySelector('.person-menu-toggle'),
+                            menuEl = document.querySelector('.person-menu-dropdown');
+
+                        if (menuToggleEl.className.indexOf( 'hidemenu' ) != -1 && showhide != 'hide') {
+                            menuEl.style.height = menuEl.scrollHeight + 'px';
+                            menuToggleEl.className = menuToggleEl.className.replace('hidemenu', 'showmenu');
+                        }
+                        else if (menuToggleEl.className.indexOf( 'showmenu' ) != -1 && showhide != 'show') {
+                            menuEl.style.height = menuEl.scrollHeight + 'px';
+                            menuToggleEl.className = menuToggleEl.className.replace('showmenu', 'hidemenu');
+                        }
+                        else if (menuToggleEl.className.indexOf( 'hidemenu' ) == -1 && menuToggleEl.className.indexOf( 'showmenu' ) == -1 && showhide != 'show') {
+                            menuEl.style.height = menuEl.scrollHeight + 'px';
+                            menuToggleEl.className = menuToggleEl.className += ' showmenu';
+                        }
+                        setTimeout(function(){menuEl.style.height = '' }, 300);
+
+                        return false;
+                    }
+
+                    function getClosest(elem, selector){
+                        var firstChar = '',
+                            selectors = selector.replace(' ', '').split(','),
+                            elements = [],
+                            s = 0;
+
+                        for ( ; elem && elem !== document; elem = elem.parentNode ) {
+                            for (s in selectors) {
+                                firstChar =  selectors[s].charAt(0);
+
+                                if ( firstChar === '.' ) {
+                                    if ( elem.className.indexOf( selectors[s].substr(1) ) != -1) {
+                                        return elem;
+                                    }
+                                }
+
+                                if ( firstChar === '#' ) {
+                                    if ( elem.id === selectors[s].substr(1) ) {
+                                        return elem;
+                                    }
+                                }
+
+                                if ( firstChar === '[' ) {
+                                    if ( elem.hasAttribute( selectors[s].substr(1, selectors[s].length - 2) ) ) {
+                                        return elem;
+                                    }
+                                }
+
+                                if ( elem.tagName.toLowerCase() === selectors[s] ) {
+                                    return elem;
+                                }
+                            }
+                        }
+                        return elements;
+                    }
+
+                    initEventListeners();
+                });
+            </script><script type="text/javascript">
+                
+                
+
+                gr8.onLaunch(function(){
+                    var controller = gr8.controller('layout.Page@gr8.portal.controller');
+
+                    var page = controller.setPage(
+                            'gr8-career-center-25EF5CD6-979A-BF0E-9BF8D346D4AA4B96',
+                            {"forms":{"stayInformed":{"submitHeader":"Signup","fields":{"servedInMilitary":{"input":{"label":"","type":"boolean","placeholder":"Have you served in the military?"},"id":"servedInMilitary","binding":{"property":"servedInMilitary","model":"portalForm"}},"major":{"input":{"required":false,"label":"","type":"text","maxLength":200,"placeholder":"Major"},"id":"major","binding":{"property":"major","model":"portalForm"}},"militaryRankID":{"input":{"label":"","driverOptions":{"drivenId":"militaryRankID","paramName":"inp4592","fieldName":"militaryBranchID","type":"filter","driverId":"militaryBranchID"},"type":"singleselect","placeholder":"Select a rank"},"id":"militaryRankID","binding":{"property":"militaryRankID","model":"portalForm"},"foundationTable":{"url":"\/index.gp?method=cappservicesFoundationData.getmilitaryRank"}},"noticePeriodID":{"input":{"required":false,"label":"","type":"singleselect","placeholder":"Notice Period"},"id":"noticePeriodID","binding":{"property":"noticePeriodID","model":"portalForm"},"foundationTable":{"url":"\/index.gp?method=cappservicesFoundationData.getNoticePeriods&sysLayoutId=628","pageSize":10}},"graduationDate":{"input":{"required":false,"label":"","minValue":"1\/1900","type":"month","placeholder":"Graduation Date"},"id":"graduationDate","binding":{"property":"graduationDate","model":"portalForm"}},"emailAddress":{"input":{"required":true,"label":"","type":"email","placeholder":"Email"},"id":"emailAddress","binding":{"property":"emailAddress","model":"portalForm"}},"otherWorkLocationID":{"input":{"required":false,"label":"","type":"multiselect","placeholder":"Other Work Location(s)"},"id":"otherWorkLocationID","binding":{"property":"otherWorkLocationID","model":"portalForm"},"foundationTable":{"url":"\/index.gp?method=cappservicesFoundationData.getOtherLocations&sysLayoutId=628","pageSize":10}},"sourceID":{"input":{"required":true,"label":"","type":"singleselect","placeholder":"How did you hear about us?"},"id":"sourceID","binding":{"property":"sourceID","model":"portalForm"},"foundationTable":{"url":"\/index.gp?method=cappservices.generateFoundationTableContent&sysLayoutId=231","pageSize":10}},"firstName":{"input":{"required":true,"label":"","type":"text","placeholder":"First Name"},"id":"firstName","binding":{"property":"firstName","model":"portalForm"}},"privacypolicy":{"input":{"boxlabel":"I have read and agreed to the privacy policy statement. ","privacytext":"<p>Your privacy is important. Your personal information will be collected, stored, and processed in accordance with the Teradata Global&nbsp;<a href=\"https:\/\/www.teradata.com\/privacy\" rel=\"nofollow\">Privacy Policy<\/a>.<\/p>","label":"","type":"accprivacypolicy"},"id":"privacypolicy","binding":{"property":"privacypolicy","model":"portalForm"}},"resume":{"input":{"required":false,"label":"","type":"file","placeholder":"Resume\/CV"},"id":"resume","binding":{"property":"resume","model":"portalForm"}},"lastName":{"input":{"required":true,"label":"","type":"text","placeholder":"Last Name"},"id":"lastName","binding":{"property":"lastName","model":"portalForm"}},"institutionName":{"input":{"required":false,"label":"","type":"text","maxLength":150,"placeholder":"University"},"id":"institutionName","binding":{"property":"institutionName","model":"portalForm"}},"interestID":{"input":{"required":false,"label":"","type":"multiselect","placeholder":"Additional Career Interests"},"id":"interestID","binding":{"property":"interestID","model":"portalForm"},"foundationTable":{"url":"\/index.gp?method=cappservices.generateFoundationTableContent&sysLayoutId=445","pageSize":10}},"seniorityID":{"input":{"required":false,"label":"","type":"singleselect","placeholder":"Seniority"},"id":"seniorityID","binding":{"property":"seniorityID","model":"portalForm"},"foundationTable":{"url":"\/index.gp?method=cappservicesFoundationData.getSeniority&sysLayoutId=628","pageSize":10}},"homeTelephone":{"input":{"required":false,"label":"","type":"telephone","placeholder":"Phone Number"},"id":"homeTelephone","binding":{"property":"homeTelephone","model":"portalForm"}},"dateAvailable":{"input":{"label":"","type":"date","placeholder":"First Available Date"},"id":"dateAvailable","binding":{"property":"dateAvailable","model":"portalForm"}},"desiredWorkCountryID":{"input":{"required":false,"label":"","type":"multiselect","placeholder":"Desired Work Location - Countr(ies)"},"id":"desiredWorkCountryID","binding":{"property":"desiredWorkCountryID","model":"portalForm"},"foundationTable":{"url":"\/index.gp?method=cappservicesFoundationData.getDesiredWorkCountries&sysLayoutId=628","pageSize":10}},"currentEmployer":{"input":{"required":false,"label":"","type":"text","placeholder":"Most Recent Employer"},"id":"currentEmployer","binding":{"property":"currentEmployer","model":"portalForm"}},"countryID":{"input":{"required":false,"label":"","type":"singleselect","placeholder":"Country"},"id":"countryID","binding":{"property":"countryID","model":"portalForm"},"foundationTable":{"url":"\/index.gp?method=cappservicesFoundationData.getCountry","pageSize":10}},"categoryID":{"input":{"label":"","type":"singleselect","placeholder":"Category of Interest"},"id":"categoryID","binding":{"property":"categoryID","model":"portalForm"},"foundationTable":{"url":"\/index.gp?method=cappservices.generateFoundationTableContent&sysLayoutId=309","pageSize":10}},"communityID":{"input":{"required":false,"label":"","type":"singleselect","placeholder":"Primary Career Interest"},"id":"communityID","binding":{"property":"communityID","model":"portalForm"},"foundationTable":{"url":"\/index.gp?method=cappservices.generateFoundationTableContent&sysLayoutId=308","pageSize":10}},"employmentTypeID":{"input":{"required":false,"label":"","type":"singleselect","placeholder":"Employment Type"},"id":"employmentTypeID","binding":{"property":"employmentTypeID","model":"portalForm"},"foundationTable":{"url":"\/index.gp?method=cappservicesFoundationData.getDesiredEmploymentTypes&sysLayoutId=628","pageSize":10}},"talentPoolSpecialtyID":{"input":{"label":"","driverOptions":{"drivenId":"talentPoolSpecialtyID","paramName":"opportunityID","fieldName":"communityID","type":"filter","driverId":"communityID"},"type":"multiselect","placeholder":"Specialty"},"id":"talentPoolSpecialtyID","binding":{"property":"talentPoolSpecialtyID","model":"portalForm"},"foundationTable":{"url":"\/index.gp?method=cappservicesFoundationData.getTalentPoolSpecialties","pageSize":10}},"desiredLocationID":{"input":{"required":false,"boxLabel":"Use My Location","label":"","geoFilter":false,"emptyListText":"","type":"singleselect","placeholder":"Desired Work Location - Primary"},"id":"desiredLocationID","binding":{"property":"desiredLocationID","model":"portalForm"},"foundationTable":{"url":"\/index.gp?method=cappservicesFoundationData.getPrimaryLocations&sysLayoutId=628","pageSize":10}},"employmentStatusID":{"input":{"required":false,"label":"","type":"singleselect","placeholder":"Desired Employment Status"},"id":"employmentStatusID","binding":{"property":"employmentStatusID","model":"portalForm"},"foundationTable":{"url":"\/index.gp?method=cappservicesFoundationData.getEmploymentStatuses&sysLayoutId=628","pageSize":10}},"yearsofExperienceID":{"input":{"required":false,"label":"","type":"singleselect","placeholder":"Years of Experience"},"id":"yearsofExperienceID","binding":{"property":"yearsofExperienceID","model":"portalForm"},"foundationTable":{"url":"\/index.gp?method=cappservicesFoundationData.getYearsOfExperience&sysLayoutId=628","pageSize":10}},"gpa":{"input":{"allowDecimals":true,"decimalPrecision":2,"required":false,"label":"","minValue":0,"type":"number","placeholder":"GPA"},"id":"gpa","binding":{"property":"gpa","model":"portalForm"}},"currentJobTitle":{"input":{"required":false,"label":"","type":"text","placeholder":"Most Recent Job Title"},"id":"currentJobTitle","binding":{"property":"currentJobTitle","model":"portalForm"}},"stateID":{"input":{"required":false,"label":"","driverOptions":{"drivenId":"stateID","paramName":"countryID","fieldName":"countryID","type":"filter","driverId":"countryID"},"type":"singleselect","placeholder":"State"},"id":"stateID","binding":{"property":"stateID","model":"portalForm"},"foundationTable":{"url":"\/index.gp?method=cappservicesFoundationData.getState","pageSize":10}},"militaryBranchID":{"input":{"label":"","driverOptions":{"drivenId":"militaryBranchID","paramName":"inp9758","fieldName":"servedInMilitary","type":"toggle","driverValue":1,"driverId":"servedInMilitary"},"type":"singleselect","placeholder":"Select a branch"},"id":"militaryBranchID","binding":{"property":"militaryBranchID","model":"portalForm"},"foundationTable":{"url":"\/index.gp?method=cappservicesFoundationData.getmilitaryBranch"}}},"successAlertEnabled":true,"groups":[{"border":false,"required":1,"type":"grid","binding":{"model":"portalForm"},"repeats":false,"rows":[[{"inputWidth":8,"field":"firstName","labelWidth":4,"width":12,"labelPos":"top"}],[{"inputWidth":8,"field":"lastName","labelWidth":4,"width":12,"labelPos":"top"}],[{"inputWidth":8,"field":"emailAddress","labelWidth":4,"width":12,"labelPos":"top"}],[{"inputWidth":8,"field":"sourceID","labelWidth":4,"width":12,"labelPos":"top"}],[{"inputWidth":8,"field":"communityID","labelWidth":4,"width":12,"labelPos":"top"}],[{"inputWidth":8,"field":"privacypolicy","labelWidth":4,"width":12,"labelPos":"top"}]]}],"data":{"portalForm":{}},"responsive":true,"params":{"fromWidget":true,"emailType":"home"},"cancelBtnEnabled":false,"url":"\/index.gp?method=cappLogin.stayInformed","i18n":{"waitMsg":"Please wait...","validationFailureTitle":"Signup Failed","validationFailureMsg":"Signup Failed","submitBtnText":"Save"}},"joinCommunity":{"submitHeader":"Join Community","fields":{"servedInMilitary":{"input":{"label":"","type":"boolean","placeholder":"Have you served in the military?"},"id":"servedInMilitary","binding":{"property":"servedInMilitary","model":"portalForm"}},"major":{"input":{"required":false,"label":"","type":"text","maxLength":200,"placeholder":"Major"},"id":"major","binding":{"property":"major","model":"portalForm"}},"militaryRankID":{"input":{"label":"","driverOptions":{"drivenId":"militaryRankID","paramName":"inp4592","fieldName":"militaryBranchID","type":"filter","driverId":"militaryBranchID"},"type":"singleselect","placeholder":"Select a rank"},"id":"militaryRankID","binding":{"property":"militaryRankID","model":"portalForm"},"foundationTable":{"url":"\/index.gp?method=cappservicesFoundationData.getmilitaryRank"}},"noticePeriodID":{"input":{"required":false,"label":"","type":"singleselect","placeholder":"Notice Period"},"id":"noticePeriodID","binding":{"property":"noticePeriodID","model":"portalForm"},"foundationTable":{"url":"\/index.gp?method=cappservicesFoundationData.getNoticePeriods&sysLayoutId=628","pageSize":10}},"graduationDate":{"input":{"required":false,"label":"","minValue":"1\/1900","type":"month","placeholder":"Graduation Date"},"id":"graduationDate","binding":{"property":"graduationDate","model":"portalForm"}},"emailAddress":{"input":{"required":true,"label":"","type":"email","placeholder":"Email"},"id":"emailAddress","binding":{"property":"emailAddress","model":"portalForm"}},"otherWorkLocationID":{"input":{"required":false,"label":"","type":"multiselect","placeholder":"Other Work Location(s)"},"id":"otherWorkLocationID","binding":{"property":"otherWorkLocationID","model":"portalForm"},"foundationTable":{"url":"\/index.gp?method=cappservicesFoundationData.getOtherLocations&sysLayoutId=628","pageSize":10}},"sourceID":{"input":{"required":true,"label":"","type":"singleselect","placeholder":"How did you hear about us?"},"id":"sourceID","binding":{"property":"sourceID","model":"portalForm"},"foundationTable":{"url":"\/index.gp?method=cappservices.generateFoundationTableContent&sysLayoutId=231","pageSize":10}},"firstName":{"input":{"required":true,"label":"","type":"text","placeholder":"First Name"},"id":"firstName","binding":{"property":"firstName","model":"portalForm"}},"privacypolicy":{"input":{"boxlabel":"I have read and agreed to the privacy policy statement. ","privacytext":"<p>Your privacy is important. Your personal information will be collected, stored, and processed in accordance with the Teradata Global&nbsp;<a href=\"https:\/\/www.teradata.com\/privacy\" rel=\"nofollow\">Privacy Policy<\/a>.<\/p>","label":"","type":"accprivacypolicy"},"id":"privacypolicy","binding":{"property":"privacypolicy","model":"portalForm"}},"resume":{"input":{"required":false,"label":"","type":"file","placeholder":"Resume\/CV"},"id":"resume","binding":{"property":"resume","model":"portalForm"}},"lastName":{"input":{"required":true,"label":"","type":"text","placeholder":"Last Name"},"id":"lastName","binding":{"property":"lastName","model":"portalForm"}},"institutionName":{"input":{"required":false,"label":"","type":"text","maxLength":150,"placeholder":"University"},"id":"institutionName","binding":{"property":"institutionName","model":"portalForm"}},"interestID":{"input":{"required":false,"label":"","type":"multiselect","placeholder":"Additional Career Interests"},"id":"interestID","binding":{"property":"interestID","model":"portalForm"},"foundationTable":{"url":"\/index.gp?method=cappservices.generateFoundationTableContent&sysLayoutId=445","pageSize":10}},"seniorityID":{"input":{"required":false,"label":"","type":"singleselect","placeholder":"Seniority"},"id":"seniorityID","binding":{"property":"seniorityID","model":"portalForm"},"foundationTable":{"url":"\/index.gp?method=cappservicesFoundationData.getSeniority&sysLayoutId=628","pageSize":10}},"homeTelephone":{"input":{"required":false,"label":"","type":"telephone","placeholder":"Phone Number"},"id":"homeTelephone","binding":{"property":"homeTelephone","model":"portalForm"}},"dateAvailable":{"input":{"label":"","type":"date","placeholder":"First Available Date"},"id":"dateAvailable","binding":{"property":"dateAvailable","model":"portalForm"}},"desiredWorkCountryID":{"input":{"required":false,"label":"","type":"multiselect","placeholder":"Desired Work Location - Countr(ies)"},"id":"desiredWorkCountryID","binding":{"property":"desiredWorkCountryID","model":"portalForm"},"foundationTable":{"url":"\/index.gp?method=cappservicesFoundationData.getDesiredWorkCountries&sysLayoutId=628","pageSize":10}},"currentEmployer":{"input":{"required":false,"label":"","type":"text","placeholder":"Most Recent Employer"},"id":"currentEmployer","binding":{"property":"currentEmployer","model":"portalForm"}},"countryID":{"input":{"required":false,"label":"","type":"singleselect","placeholder":"Country"},"id":"countryID","binding":{"property":"countryID","model":"portalForm"},"foundationTable":{"url":"\/index.gp?method=cappservicesFoundationData.getCountry","pageSize":10}},"categoryID":{"input":{"required":true,"label":"","type":"singleselect","placeholder":"Category of Interest"},"id":"categoryID","binding":{"property":"categoryID","model":"portalForm"},"foundationTable":{"url":"\/index.gp?method=cappservices.generateFoundationTableContent&sysLayoutId=309","pageSize":10}},"communityID":{"input":{"required":true,"label":"","driverOptions":{"drivenId":"communityID","paramName":"inp1810","fieldName":"categoryID","type":"filter","driverId":"categoryID"},"type":"singleselect","placeholder":"Primary Career Interest"},"id":"communityID","binding":{"property":"communityID","model":"portalForm"},"foundationTable":{"url":"\/index.gp?method=cappservices.generateFoundationTableContent&sysLayoutId=308","pageSize":10}},"employmentTypeID":{"input":{"required":false,"label":"","type":"singleselect","placeholder":"Employment Type"},"id":"employmentTypeID","binding":{"property":"employmentTypeID","model":"portalForm"},"foundationTable":{"url":"\/index.gp?method=cappservicesFoundationData.getDesiredEmploymentTypes&sysLayoutId=628","pageSize":10}},"talentPoolSpecialtyID":{"input":{"label":"","driverOptions":{"drivenId":"talentPoolSpecialtyID","paramName":"opportunityID","fieldName":"communityID","type":"filter","driverId":"communityID"},"type":"multiselect","placeholder":"Specialty"},"id":"talentPoolSpecialtyID","binding":{"property":"talentPoolSpecialtyID","model":"portalForm"},"foundationTable":{"url":"\/index.gp?method=cappservicesFoundationData.getTalentPoolSpecialties","pageSize":10}},"desiredLocationID":{"input":{"required":false,"boxLabel":"Use My Location","label":"","geoFilter":false,"emptyListText":"","type":"singleselect","placeholder":"Desired Work Location - Primary"},"id":"desiredLocationID","binding":{"property":"desiredLocationID","model":"portalForm"},"foundationTable":{"url":"\/index.gp?method=cappservicesFoundationData.getPrimaryLocations&sysLayoutId=628","pageSize":10}},"employmentStatusID":{"input":{"required":false,"label":"","type":"singleselect","placeholder":"Desired Employment Status"},"id":"employmentStatusID","binding":{"property":"employmentStatusID","model":"portalForm"},"foundationTable":{"url":"\/index.gp?method=cappservicesFoundationData.getEmploymentStatuses&sysLayoutId=628","pageSize":10}},"yearsofExperienceID":{"input":{"required":false,"label":"","type":"singleselect","placeholder":"Years of Experience"},"id":"yearsofExperienceID","binding":{"property":"yearsofExperienceID","model":"portalForm"},"foundationTable":{"url":"\/index.gp?method=cappservicesFoundationData.getYearsOfExperience&sysLayoutId=628","pageSize":10}},"gpa":{"input":{"allowDecimals":true,"decimalPrecision":2,"required":false,"label":"","minValue":0,"type":"number","placeholder":"GPA"},"id":"gpa","binding":{"property":"gpa","model":"portalForm"}},"currentJobTitle":{"input":{"required":false,"label":"","type":"text","placeholder":"Most Recent Job Title"},"id":"currentJobTitle","binding":{"property":"currentJobTitle","model":"portalForm"}},"stateID":{"input":{"required":false,"label":"","driverOptions":{"drivenId":"stateID","paramName":"countryID","fieldName":"countryID","type":"filter","driverId":"countryID"},"type":"singleselect","placeholder":"State"},"id":"stateID","binding":{"property":"stateID","model":"portalForm"},"foundationTable":{"url":"\/index.gp?method=cappservicesFoundationData.getState","pageSize":10}},"militaryBranchID":{"input":{"label":"","driverOptions":{"drivenId":"militaryBranchID","paramName":"inp9758","fieldName":"servedInMilitary","type":"toggle","driverValue":1,"driverId":"servedInMilitary"},"type":"singleselect","placeholder":"Select a branch"},"id":"militaryBranchID","binding":{"property":"militaryBranchID","model":"portalForm"},"foundationTable":{"url":"\/index.gp?method=cappservicesFoundationData.getmilitaryBranch"}}},"socialApps":{"facebook":151690338839087,"facebookUrl":"\/index.gp?method=capplogin.joinCommunityWithFacebook","linkedInUrl":"\/index.gp?method=cappportal.showLinkedInJoinCommunity","hasLinkedIn":"YES","hasFacebook":"YES"},"successAlertEnabled":true,"groups":[{"border":false,"required":1,"type":"grid","binding":{"model":"portalForm"},"repeats":false,"rows":[[{"inputWidth":8,"field":"firstName","labelWidth":4,"width":12,"labelPos":"top"}],[{"inputWidth":8,"field":"lastName","labelWidth":4,"width":12,"labelPos":"top"}],[{"inputWidth":8,"field":"emailAddress","labelWidth":4,"width":12,"labelPos":"top"}],[{"inputWidth":8,"field":"sourceID","labelWidth":4,"width":12,"labelPos":"top"}],[{"inputWidth":8,"field":"categoryID","labelWidth":4,"width":12,"labelPos":"top"}],[{"inputWidth":8,"field":"communityID","labelWidth":4,"width":12,"labelPos":"top"}],[{"inputWidth":8,"field":"countryID","labelWidth":4,"width":12,"labelPos":"top"}],[{"inputWidth":8,"field":"stateID","labelWidth":4,"width":12,"labelPos":"top"}],[{"inputWidth":8,"field":"homeTelephone","labelWidth":4,"width":12,"labelPos":"top"}],[{"inputWidth":8,"field":"resume","labelWidth":4,"width":12,"labelPos":"top"}],[{"inputWidth":8,"field":"privacypolicy","labelWidth":4,"width":12,"labelPos":"top"}]]}],"data":{"portalForm":{}},"responsive":true,"params":{"fromWidget":true,"emailType":"home"},"cancelBtnEnabled":false,"url":"\/index.gp?method=cappLogin.submitToCommunity","i18n":{"waitMsg":"Please wait...","validationFailureTitle":"Join Community Failed","validationFailureMsg":"Join Community Failed","submitBtnText":"Save"}}},"pagerLists":{},"searchUrl":"https:\/\/careers.teradata.com\/jobs","recaptchaKeyPublic":"6LchDs4SAAAAADAAYhiMUof7HZ9fT8OFdiZrGHnr","lang":"en","i18n":{"configModeErrorTitle":"Application Error","configModeErrorMessage":"The application encountered a system error and has stopped processing the current action. Please try again.","configModeWaitMessage":"Please wait...."},"pagerParams":{"portalModelID":0}}
+                        );
+                });
+            </script><script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script><script>
+                  WebFont.load( {"timeout":2000,"google":{"families":["Inter:400,700"]}});
+                </script><style type="text/css">
+body,
+.form .form-input-validation-message,
+.form button,
+.form input,
+.form label,
+.form select,
+.form textarea,
+.form-style .form-input-validation-message,
+.form-style button,
+.form-style input,
+.form-style label,
+.form-style select,
+.form-style textarea {
+    font-weight: 300 !important;
+}
+.roboto-light {
+    font-family: Roboto;
+    font-weight: 300;
+}
+.roboto-regular {
+    font-family: Roboto;
+    font-weight: 400;
+}
+.roboto-bold {
+    font-family: Roboto;
+    font-weight: 700;
+}
+.montserrat-medium {
+    font-family: Montserrat;
+    font-weight: 500;
+}
+.inter-regular {
+    font-family: Inter;
+    font-weight: 400;
+}
+.inter-bold {
+    font-family: Inter;
+    font-weight: 700;
+}</style><style>
+                 a:not(.btn):not(.x-btn) {
+                    
+                }
+                 a:not(.btn):not(.x-btn) :hover,
+                 a:not(.btn):not(.x-btn) .hovered {
+                    
+                }
+                 a:not(.btn):not(.x-btn) :active,
+                 a:not(.btn):not(.x-btn) .active {
+                    
+                }
+                 .btn,
+                 button.btn,
+                 a.btn,
+                 div.btn,
+                 .form-input-group-btn>.btn,
+                 .file-picker-field .file-upload-btn-text,
+                 .x-btn-default-small,
+                 .x-btn-default-small span,
+                 .x-btn,
+                 .x-btn span {
+
+                    
+
+                }
+
+                 .btn,
+                 button.btn,
+                 a.btn,
+                 div.btn,
+                 .form-input-group-btn>.btn,
+                 .x-btn-default-small,
+                 .x-btn {
+                    
+                }
+
+                 button.btn,
+                 a.btn,
+                 div.btn,
+                 .pagination>input.btn,
+                 .form input[type=email],
+                 .form input[type=password],
+                 .form input[type=text],
+                 .form select,
+                 .form textarea,
+                 .form-style input[type=email],
+                 .form-style input[type=password],
+                 .form-style :not(.x-tbar-page-number) input[type=text],
+                 .form-style select,
+                 .form-style textarea,
+                  .x-form-field:not(.x-form-checkbox):not(.x-form-radio),
+                 .x-boxselect-display-item,
+                 .multiselect__selected-option,
+                 .form-input-group-btn>.btn,
+                 .form-input-group-btn:not(:first-child) > .btn,
+                 .x-btn-default-small,
+                 .x-btn {
+                    
+                }
+				 .btn.geolocation-btn {
+					
+						height: 1.2em;
+						width: 1.2em;
+					
+				}
+				 .geolocation-btn .geolocation-icon{
+					
+						height: 1.2em;
+						width: 1.2em;
+					
+				}
+                 .x-tbar-page-number input[type=text] {
+                    border-radius: 4px;
+                    padding: 4px 8px;
+                    line-height: 20px;
+                    font-size: 14px;
+                    height: 30px;
+                }
+                 a.btn i,
+                 div.btn span,
+                 a.btn span,
+                 .x-btn-default-small-over .x-btn-inner,
+                 .x-btn-default-small .x-btn-inner,
+                 .x-btn-default-toolbar-small-over .x-btn-inner,
+                 .x-btn-toolbar .x-btn-inner {
+                    
+                }
+                 .pagination>input.btn {
+                    
+                }
+                 .form-input-group-addon:not(:first-child)>.form-input-group-addon-item,
+                 .form-input-group-btn:not(:first-child)>.btn,
+                 .form-input-group-btn:not(:first-child)>.btn-group {
+                    
+                }
+                 .x-boundlist-item,
+                 .x-form-item-label,
+                 .form label,
+                 .form-style label  {
+                    
+                }
+                 .x-form-item-label,
+                 .form label,
+                 .form-style label  {
+                    
+                }
+                 .x-form-trigger,
+                 .x-item-disabled .x-form-trigger {
+                    
+                }
+                 .x-boxselect-display-item>.text,
+                 .multiselect__selected-option__text,
+                 .x-boundlist-item
+                {
+                    
+                }
+                 .x-form-trigger.x-form-spinner-up,
+                 .x-form-trigger.x-form-spinner-down,
+                 .x-form-arrow-trigger,
+                 .x-item-disabled .x-form-trigger.x-form-arrow-trigger,
+                 .x-form-date-trigger {
+                    
+                }
+
+                 .x-form-trigger.x-form-spinner-up,
+                 .x-form-trigger.x-form-spinner-down {
+                    
+                }
+                .x-trigger-cell {
+                    
+                }
+                 .x-form-trigger.x-form-spinner-up ,
+                 .x-field-flushed-trigger .x-form-trigger.x-form-spinner-up {
+                    
+                }
+                 .x-form-trigger.x-form-spinner-down,
+                 .x-field-flushed-trigger .x-form-trigger.x-form-spinner-down {
+                    
+                }
+                 .x-form-trigger.x-form-spinner-down::before,
+                 .x-form-arrow-trigger::before {
+                    
+
+                }
+                 .x-form-trigger.x-form-spinner-up::before {
+                    
+                }
+                 .x-trigger-cell {
+                    
+
+                }
+                 .x-form-date-trigger {
+                    
+                }
+                 .x-form-date-trigger::before{
+                    
+                }
+                 .x-boxselect.allow-update .x-boxselect-display-item .close,
+                 .multiselect__remove-option-link {
+                    
+                }
+                 button.btn,
+                 a.btn,
+                 input.form-input-group-control {
+
+                    
+                }
+                 .pagination>a{
+                    
+                }
+                 .pagination>a[rel=prev]{
+                    
+                }
+                 .pagination>a[rel=next],
+                 .x-field-flushed-trigger .x-form-trigger{
+                    
+                }
+                 button.btn:not(.x-disabled):hover,
+                 a.btn:not(.x-disabled):hover,
+                 .btn:not(.x-disabled):hover,
+                 .btn:not(.x-disabled).hovered,
+                 .form-input-group-btn>.btn:not(.x-disabled):hover,
+                 .form-input-group-btn>.btn:not(.x-disabled).hoved,
+                 .file-picker-field  a.btn:not(.x-disabled):hover .file-upload-btn-text,
+                 .x-btn:not(.x-disabled):hover,
+                 .x-btn-default-small:not(.x-disabled):hover,
+                 .x-btn.x-btn-toolbar:hover span.x-btn-inner,
+                 .x-btn:hover span.x-btn-inner {
+                    
+                }
+                 button.btn:not(.x-disabled):active,
+                 a.btn:not(.x-disabled):active,
+                 .btn:not(.x-disabled).active,
+                 .form-input-group-btn>.btn:not(.x-disabled):active,
+                 .form-input-group-btn>.btn:not(.x-disabled).active,
+                 .file-picker-field a.btn:not(.x-disabled):active .file-upload-btn-text,
+                 .x-btn-default-small:not(.x-disabled):active,
+                 .x-btn:not(.x-disabled):active,
+                 .x-btn.x-btn-toolbar:active span.x-btn-inner {
+                    
+                }
+                 button.btn.x-disabled,
+                 a.btn.x-disabled,
+                 .btn.disabled,
+                 .file-picker-field a.btn.x-disabled .file-upload-btn-text,
+                 .form-input-group-btn>.btn.x-disabled,
+                 .x-btn-default-small.x-disabled,
+                 .x-btn-default-small.x-disabled span,
+                 .x-btn-button.x-disabled,
+                 .x-btn-button.x-disabled span {
+                    
+                }
+                 .x-boxselect .x-form-field,
+                 .x-boxselect .x-boxselect-display-item,
+                 .multiselect__selected-option,
+                 .x-form-field[id^="datefield-"],
+                 .x-form-trigger-wrap .x-form-field {
+                
+                }
+
+                 .form input[type=email],
+                 .form input[type=password],
+                 .form input[type=text],
+                 .form select,
+                 .form textarea,
+                 .form-style input[type=email],
+                 .form-style input[type=password],
+                 .form-style input[type=text],
+                 .form-style select,
+                 .form-style textarea {
+                    
+                }
+                 .form input[type=email].hovered,
+                 .form input[type=email]:hover,
+                 .form input[type=password].hovered,
+                 .form input[type=password]:hover,
+                 .form input[type=text].hovered,
+                 .form input[type=text]:hover,
+                 .form select.hovered,
+                 .form select:hover,
+                 .form textarea.hovered,
+                 .form textarea:hover,
+                 .form-style input[type=email].hovered,
+                 .form-style input[type=email]:hover,
+                 .form-style input[type=password].hovered,
+                 .form-style input[type=password]:hover,
+                 .form-style input[type=text].hovered,
+                 .form-style input[type=text]:hover,
+                 .form-style select.hovered,
+                 .form-style select:hover,
+                 .form-style textarea.hovered,
+                 .form-style textarea:hover {
+                    
+                }
+                 .form input[type=email].focused,
+                 .form input[type=email]:focus,
+                 .form input[type=password].focused,
+                 .form input[type=password]:focus,
+                 .form input[type=text].focused,
+                 .form input[type=text]:focus,
+                 .form select.focused,
+                 .form select:focus,
+                 .form textarea.focused,
+                 .form textarea:focus,
+                 .form-style input[type=email].focused,
+                 .form-style input[type=email]:focus,
+                 .form-style input[type=password].focused,
+                 .form-style input[type=password]:focus,
+                 .form-style input[type=text].focused,
+                 .form-style input[type=text]:focus,
+                 .form-style select.focused,
+                 .form-style select:focus,
+                 .form-style textarea.focused,
+                 .form-style textarea:focus {
+                    
+                }
+                 .app-portal-menu-container .nav.app-portal-menu-nav > li > a,
+                 .app-portal-menu-container .nav.app-portal-menu-nav > li .search-button {
+                    
+
+                }
+                 li.search-menu-item [class*=" icon-"]:before, [class^=icon-]:before {
+                    
+                }
+                 .app-portal-menu-container .nav.app-portal-menu-nav > li > a:hover,
+                 .app-portal-menu-container .nav.app-portal-menu-nav > li .search-button:hover {
+                    
+                }
+                 .app-portal-menu-container .nav.app-portal-menu-nav > li > a:active,
+                 .app-portal-menu-container .nav.app-portal-menu-nav > li > a:focus,
+                 .app-portal-menu-container .nav.app-portal-menu-nav > li > a.active,
+                 .app-portal-menu-container .nav.app-portal-menu-nav > li .search-button:focus,
+                 .app-portal-menu-container .nav.app-portal-menu-nav > li .search-button:active,
+                 .app-portal-menu-container .nav.app-portal-menu-nav > li .search-button.active {
+                    
+                }
+                 .app-portal-menu-container .nav.app-portal-menu-nav > li .search-input {
+                    
+                }
+                 .app-portal-menu{
+                    
+                }
+
+                 .app-portal-menu-container {
+                    
+                }
+                 .app-portal-menu-text {
+                    
+                }
+                 .x-btn span,
+                 .btn span {
+                    
+                }
+                 .job-aside {
+                    
+                }
+
+                 a.btn.job-apply-btn {
+                    
+                }
+                 a.btn.job-apply-btn:hover {
+                    
+                }
+                 a.btn.job-apply-btn:not(.x-disabled):active {
+                    
+                }
+                 button.btn.job-apply-btn.x-disabled,
+                 button.btn.job-apply-btn::disabled {
+                    
+                }
+
+                 a.btn.job-apply-btn.job-refer-btn {
+                    
+                }
+                 a.btn.job-apply-btn.job-refer-btn:hover {
+                    
+                }
+                 a.btn.job-apply-btn.job-refer-btn:not(.x-disabled):active {
+                    
+                }
+                 button.btn.job-apply-btn.job-refer-btn.x-disabled,
+                 button.btn.job-apply-btn.job-refer-btn::disabled {
+                    
+                }
+
+                 a.btn.job-agent-btn {
+                    
+                }
+                 a.btn.job-agent-btn:hover {
+                    
+                }
+                 a.btn.job-agent-btn:not(.x-disabled):active {
+                    
+                }
+                 button.btn.job-agent-btn.x-disabled,
+                 button.btn.job-agent-btn::disabled {
+                    
+                }
+                  .profile-pic-text {
+                    
+                }
+                  .profile-pic-text {
+                    
+                }
+                 .background-color-1 {
+                    background-color: #444;
+                }
+                 .color-1 {
+                    color: #444;
+                }
+                 .background-color-2 {
+                    background-color: #999;
+                }
+                 .color-2 {
+                    color: #999;
+                }
+                 .background-color-3 {
+                    background-color: #ccc;
+                }
+                 .color-3 {
+                    color: #ccc;
+                }
+
+                 .cookie-banner {
+                    
+                }
+
+                 .cookie-banner__dismiss {
+                    
+                }
+
+                 .cookie-banner__dismiss:hover,
+                 .cookie-banner__dismiss:focus {
+                    
+                }
+
+                 .cookie-banner__button {
+                    
+                }
+
+                 .cookie-banner__button--submit {
+                    
+                }
+
+                
+            </style><noscript data-n-css=""></noscript><script defer="" nomodule="" src="https://assets.gr8people.com/builds/app-career-site/_next/static/chunks/polyfills-42372ed130431b0a.js"></script><script src="https://assets.gr8people.com/builds/app-career-site/_next/static/chunks/webpack-f281d5f2942ea904.js" defer=""></script><script src="https://assets.gr8people.com/builds/app-career-site/_next/static/chunks/framework-5464ab9da4807e17.js" defer=""></script><script src="https://assets.gr8people.com/builds/app-career-site/_next/static/chunks/main-46cecc30afbed9a8.js" defer=""></script><script src="https://assets.gr8people.com/builds/app-career-site/_next/static/chunks/pages/_app-304b246c3c4cc6db.js" defer=""></script><script src="https://assets.gr8people.com/builds/app-career-site/_next/static/chunks/518-3717c7cb7179e23f.js" defer=""></script><script src="https://assets.gr8people.com/builds/app-career-site/_next/static/chunks/661-f731e19d0bb3ca29.js" defer=""></script><script src="https://assets.gr8people.com/builds/app-career-site/_next/static/chunks/pages/jobs-b9a5c63da6f6716f.js" defer=""></script><script src="https://assets.gr8people.com/builds/app-career-site/_next/static/9495f5108b3651eb92c237c2e4eed25282c10ba1/_buildManifest.js" defer=""></script><script src="https://assets.gr8people.com/builds/app-career-site/_next/static/9495f5108b3651eb92c237c2e4eed25282c10ba1/_ssgManifest.js" defer=""></script><style id="server-side-styles">html {
+  box-sizing: border-box;
+  font-family: Inter,sans-serif;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+}
+.grecaptcha-badge {
+  visibility: hidden;
+}
+.root-60 {
+  color: #000 !important;
+  border: 1px solid #000 !important;
+  cursor: pointer !important;
+  height: fit-content !important;
+  display: inline-flex !important;
+  outline: none !important;
+  padding: 10px 34px !important;
+  font-size: 16px !important;
+  box-sizing: border-box !important;
+  font-family: Open Sans, &quot;Helvetica Neue&quot;, Helvetica, Arial !important;
+  font-weight: 600 !important;
+  line-height: 1.2em !important;
+  white-space: nowrap !important;
+  border-radius: 5px !important;
+  text-transform: none !important;
+  text-decoration: none !important;
+  background-color: #fff !important;
+}
+.root-60[disabled] {
+  color: #999 !important;
+  cursor: default !important;
+}
+.root-60[disabled]:hover {
+  color: #999 !important;
+}
+.primary-61 {
+  color: #fff !important;
+  border: none !important;
+  padding: 10px 34px !important;
+  background-color: #FF5F02 !important;
+}
+.primary-61[hover] {
+  color: #fff !important;
+}
+.primary-61[disabled] {
+  color: #fff !important;
+  cursor: default !important;
+  background-color: #d1d1d1 !important;
+}
+.primary-61[disabled]:hover {
+  background-color: #d1d1d1 !important;
+}
+.secondary-62 {
+  color: #FF5F02 !important;
+  padding: 8px 32px !important;
+  border-color: #FF5F02;
+  border-style: solid !important;
+  border-width: 2px !important;
+  background-color: #fff !important;
+}
+.secondary-62[hover] {
+  color: #FF5F02 !important;
+}
+.secondary-62 :hover {
+  color: #FF5F02 !important;
+}
+.secondary-62[disabled] {
+  color: #d1d1d1 !important;
+  border-color: #d1d1d1 !important;
+  background-color: #fff !important;
+}
+.secondary-62 * {
+  color: #FF5F02 !important;
+  text-decoration: none !important;
+}
+.secondary-62[disabled]:hover {
+  color: #d1d1d1 !important;
+  border-color: #d1d1d1 !important;
+  background-color: #fff !important;
+}
+.text-63 {
+  color: #FF5F02 !important;
+  border: none !important;
+  padding: 10px 35px !important;
+  background-color: transparent !important;
+}
+.text-63 :hover {
+  color: #FF5F02 !important;
+}
+.text-63[disabled] {
+  color: #d1d1d1 !important;
+}
+.text-63[disabled]:hover {
+  color: #d1d1d1 !important;
+}
+.text-63[disabled] :hover {
+  color: #d1d1d1 !important;
+}
+.icon-64 {
+  color: #FF5F02 !important;
+  border: none !important;
+  padding: 10px !important;
+  background-color: transparent !important;
+}
+.icon-64 :hover {
+  color: #FF5F02 !important;
+}
+.icon-64[disabled] {
+  color: #d1d1d1 !important;
+}
+.icon-64[disabled]:hover {
+  color: #d1d1d1 !important;
+}
+.icon-64[disabled] :hover {
+  color: #d1d1d1 !important;
+}
+.label-65 {
+  width: 100% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.startIcon-69 {
+  display: inline-flex !important;
+  margin-right: 8px !important;
+}
+.endIcon-70 {
+  display: inline-flex !important;
+  margin-left: 8px !important;
+}
+.root-77 {
+  color: #FF5F02 !important;
+}
+.root-20 {
+  fill: currentColor;
+  display: inline-block;
+}
+.root-d0-21 {
+  height: 32px;
+  width: 32px;
+}
+.root-58 {
+  fill: currentColor;
+  display: inline-block;
+}
+.root-d0-59 {
+  height: 1em;
+  width: 1em;
+}
+.root-54 {
+  fill: currentColor;
+  display: inline-block;
+}
+.root-d0-55 {
+  height: 1em;
+  width: 1em;
+}
+.modernScroll-43 {
+  overflow: auto;
+  scrollbar-color: transparent transparent;
+  scrollbar-width: thin;
+}
+.modernScroll-43::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rgba(200,200,200,0);
+}
+.modernScroll-43::-webkit-scrollbar-track {
+  background: transparent;
+}
+.modernScroll-43::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+.modernScroll-43:hover {
+  transition: scrollbar-color 1s;
+  scrollbar-color: #ccc transparent;
+  scrollbar-width: thin;
+}
+.modernScroll-43:active {
+  transition: scrollbar-color 1s;
+  scrollbar-color: #ccc transparent;
+  scrollbar-width: thin;
+}
+.modernScroll-43:active::-webkit-scrollbar-thumb {
+  background-color: rgba(200,200,200,1);
+}
+.modernScroll-43:hover::-webkit-scrollbar-thumb {
+  background-color: rgba(200,200,200,1);
+}
+.root-56 {
+  overflow: hidden;
+  transition: height .5s ease-in-out;
+}
+.innerContainer-57 {
+  overflow: hidden;
+}
+.WACWidget__MarkdownP {
+  font-size: 16px !important;
+  line-height: 24px !important;
+}
+.WACUserDefinedResponseElement {
+  margin-top: 8px !important;
+}
+.WACWidget__MarkdownP {
+  font-size: 16px !important;
+  line-height: 24px !important;
+}
+.WACUserDefinedResponseElement {
+  margin-top: 8px !important;
+}
+.root-15 {
+  float: left;
+  height: 23px;
+  display: flex;
+  max-width: 85%;
+}
+@media (max-width: 400px) {
+  .root-15 {
+    max-width: 80%;
+  }
+}
+@media (max-width: 365px) {
+  .root-15 {
+    max-width: 60%;
+  }
+}
+  .more-16 {
+    flex-grow: 0;
+    align-self: flex-end;
+    flex-shrink: 0;
+    padding-left: 8px;
+  }
+  .values-17 {
+    height: 23px;
+    overflow: hidden;
+    flex-grow: 1;
+    flex-shrink: 1;
+    text-overflow: ellipsis;
+  }
+  .value-18 {
+    white-space: nowrap;
+  }
+  .root-19 {
+    color: #FF5F02;
+    border: none;
+    padding: 2px;
+    background: transparent;
+  }
+  .root-44 {
+    font-size: 16px;
+    padding-top: 8px;
+    padding-left: 24px;
+    border-bottom: 1px solid #c7c7c7;
+    padding-right: 24px;
+  }
+  .root-44:last-child {
+    margin-bottom: 0;
+  }
+  .header-45 {
+    color: #000;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    justify-content: space-between;
+  }
+  .filterTitle-46 {
+    display: flex;
+    align-items: center;
+  }
+  .filterList-47 {
+    overflow: auto;
+    margin-bottom: 16px;
+    padding-right: 16px;
+  }
+@media (min-width: 900px) {
+  .filterList-47 {
+    max-height: 371px;
+  }
+}
+  .searchInput-48 {
+    margin-top: 0px;
+    border-bottom: 1px solid #000;
+    margin-bottom: 16px;
+  }
+  .facetDiv-49 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  .facetDiv-49:last-child {
+    margin-bottom: 0;
+  }
+  .openToggle-50 {
+    font-size: 30px;
+  }
+  .facetCount-51 {
+    color: #fff;
+    width: 8px;
+    height: 8px;
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    line-height: 12;
+    margin-left: 8px;
+    border-radius: 50%;
+    justify-content: center;
+    background-color: #000;
+  }
+  .filterContainer-52 {
+    margin-bottom: 16px;
+  }
+  .noFacets-53 {
+    text-transform: uppercase;
+  }
+  .switch-37 {
+    margin: 24px;
+  }
+  .filters-38 {
+    height: 100%;
+    padding: 0;
+    overflow: auto;
+    flex-grow: 1;
+    font-family: Open Sans, &quot;Helvetica Neue&quot;, Helvetica, Arial;
+    border-bottom: 1px solid #c7c7c7;
+  }
+  .buttons-39 {
+    padding: 10px 24px;
+    flex-grow: 0;
+    box-shadow: 0px -2px 5px rgba(0,0,0,.1);
+    flex-shrink: 0;
+  }
+  .clearFilters-40 {
+    width: 100%;
+    margin-bottom: 8px;
+  }
+@media (min-width: 900px) {
+  .clearFilters-40 {
+    float: left;
+    width: auto;
+    padding-left: 0;
+    margin-bottom: 0;
+  }
+}
+  .applyFilters-41 {
+    width: 100%;
+  }
+@media (min-width: 900px) {
+  .applyFilters-41 {
+    float: right;
+    width: auto;
+  }
+}
+  .jobAlert-42 {
+    margin: 24px;
+  }
+  .header-22 {
+    z-index: 1;
+    min-height: 8px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 16px;
+  }
+  .headerWithFilters-23 {
+    padding-bottom: 8px;
+  }
+  .countContainer-24 {
+    float: left;
+    overflow: hidden;
+    margin-top: 0;
+    margin-right: 24px;
+    margin-bottom: 7px;
+  }
+@media (max-width: 899px) {
+  .countContainer-24 {
+    float: none;
+    width: 100%;
+    height: auto;
+    overflow: visible;
+    margin-top: 4px;
+  }
+}
+  .count-25 {
+    color: #595959;
+    float: left;
+    font-size: 16px;
+    margin-top: 13px;
+    flex-shrink: 0;
+    font-weight: 600;
+    padding-right: 8px;
+  }
+  .filters-26 {
+    float: right;
+    padding-top: 8px;
+    padding-right: 0;
+  }
+  .filters-26[disabled] {
+    color: #999 !important;
+  }
+  .filtersBadge-27 {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #b81d13;
+  }
+  .chipContainer-28 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+@media (max-width: 899px) {
+  .chipContainer-28 {
+    clear: both;
+    display: flex;
+    padding: 8px 0 0;
+    overflow: auto;
+    flex-wrap: nowrap;
+    scrollbar-color: transparent transparent;
+    scrollbar-width: thin;
+  }
+  .chipContainer-28::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(200,200,200,0);
+  }
+  .chipContainer-28::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .chipContainer-28::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  .chipContainer-28:hover {
+    transition: scrollbar-color 1s;
+    scrollbar-color: #ccc transparent;
+    scrollbar-width: thin;
+  }
+  .chipContainer-28:active {
+    transition: scrollbar-color 1s;
+    scrollbar-color: #ccc transparent;
+    scrollbar-width: thin;
+  }
+  .chipContainer-28:active::-webkit-scrollbar-thumb {
+    background-color: rgba(200,200,200,1);
+  }
+  .chipContainer-28:hover::-webkit-scrollbar-thumb {
+    background-color: rgba(200,200,200,1);
+  }
+}
+  .chip-29 {
+    color: #000 !important;
+    border: 1px solid #000;
+    height: auto;
+    padding: 3px 16px 4px;
+    font-size: 16px;
+    box-shadow: none;
+    font-family: Open Sans, &quot;Helvetica Neue&quot;, Helvetica, Arial;
+    font-weight: 400;
+    margin-right: 16px;
+    border-radius: 16px;
+    margin-bottom: 8px;
+    background-color: #fff !important;
+  }
+  .chipLink-30 {
+    cursor: pointer !important;
+  }
+  .chipLink-30 &gt; div {
+    color: #000 !important;
+    text-decoration: none !important;
+  }
+  .clearAllButton-31 {
+    color: #000 !important;
+    width: auto;
+    padding: 16px 16px  12px;
+    text-decoration: underline;
+  }
+  .clearFiltersButton-32 {
+    color: #000 !important;
+    float: right;
+    display: block;
+    padding-top: 16px;
+  }
+  .showmoreChip-33 {
+    color: #fff !important;
+    border: none;
+    padding: 6px 16px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,.2);
+    font-family: Open Sans, &quot;Helvetica Neue&quot;, Helvetica, Arial;
+    margin-right: 16px;
+    border-radius: 16px;
+    text-decoration: none !important;
+    background-color: #FF5F02;
+  }
+  .showmoreChip-33 :hover, .showmoreChip-33:hover {
+    color: #fff !important;
+    border: none;
+    text-decoration: none !important;
+    background-color: #FF5F02;
+  }
+  .drawerClose-34 {
+    padding: 24px;
+    overflow: hidden;
+    border-bottom: 1px solid #c7c7c7;
+  }
+  .drawerCloseButton-35 {
+    float: right;
+    display: block;
+    padding: 0;
+    font-size: 24px;
+  }
+  .filtersTitle-36 {
+    float: left;
+    margin: 0;
+    font-size: 22px;
+    font-weight: 700;
+  }
+  .column-4 {
+    display: flex;
+    z-index: 2;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    flex-direction: column;
+    background-color: #ffffff;
+  }
+  .header-6 {
+    display: flex;
+    padding: 24px 24px 8px 24px;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .inputsContainer-7 {
+    width: 100%;
+  }
+  .inputs-8 {
+    width: 100%;
+  }
+  .searchBox-9 {
+    width: 100%;
+    margin-bottom: 24px;
+  }
+  .location-10 {
+    width: 100%;
+    display: flex;
+  }
+  .locationInput-11 {
+    flex-grow: 1;
+    margin-right: 10px;
+  }
+  .clearFiltersButtonContainer-12 {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .clearFiltersButton-13 {
+    padding: 10px;
+  }
+  .searchButton-14 {
+    transition: .5s color;
+  }
+@media (min-width: 900px) {
+  .header-6 {
+    flex-wrap: nowrap;
+  }
+  .inputsContainer-7 {
+    width: auto;
+    display: flex;
+    flex-grow: 2;
+    max-width: 1000px;
+    align-items: center;
+    margin-bottom: 0;
+    flex-direction: row;
+  }
+  .inputs-8 {
+    flex-grow: 1;
+    flex-shrink: 1;
+  }
+  .searchBox-9 {
+    float: left;
+    width: 47%;
+    margin-right: 3%;
+    margin-bottom: 0;
+  }
+  .location-10 {
+    float: left;
+    width: 47%;
+    display: block;
+    margin-right: 3%;
+  }
+  .locationInput-11 {
+    margin-right: 0;
+  }
+  .columnWithFilters-5 {
+    padding-bottom: 0;
+  }
+}
+  .root-72 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+    min-height: 100%;
+    flex-direction: column;
+  }
+@media (max-width: 899px) {
+  .root-72 {
+    border-right: none;
+  }
+}
+  .results-73 {
+    display: flex;
+    flex-shrink: 1;
+    flex-direction: column;
+  }
+  .noResults-74 {
+    position: relative;
+    padding-top: 32px;
+    padding-left: 30%;
+    text-transform: uppercase;
+  }
+  .header-75 {
+    display: flex;
+    padding: 8px 24px;
+    direction: row;
+    align-items: center;
+    border-bottom: 1px solid #c7c7c7;
+    justify-content: space-between;
+  }
+@media (max-width: 899px) {
+  .header-75 {
+    padding: 8px  24px;
+  }
+}
+  .loading-76 {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .root-0 {
+    z-index: 0;
+    position: relative;
+    background-color: #fff;
+  }
+  .searchBar-1 {
+    z-index: 1;
+    position: sticky;
+    background-color: #fff;
+  }
+  .filters-2 {
+    float: left;
+    width: 30%;
+    height: 100%;
+    display: block;
+    overflow: auto;
+    position: sticky;
+    max-width: 500px;
+    min-width: 200px;
+    border-right: 1px solid #c7c7c7;
+    background-color: #fff;
+  }
+  .searchResults-3 {
+    width: auto;
+    overflow: hidden;
+    min-width: 70%;
+    overflow-y: auto;
+    border-bottom: 1px solid #c7c7c7;
+  }
+@media (max-width: 899px) {
+  .filters-2 {
+    display: none;
+  }
+  .searchResults-3 {
+    width: 100%;
+  }
+}</style></head><body><script type="text/javascript">
+	(function() {
+		const policyUrl = 'https://careers.teradata.com/cookie-policy';
+		const bannerHTMLContent = '<p>We use cookies to understand how you use our site and to improve your experience.</p>';
+		const confirmButtonText = 'Acknowledge';
+		const policyLinkText = 'Cookie Policy';
+
+		function readBannerStateCookie() {
+			return document.cookie.replace(/(?:(?:^|.*;\s*)cookie-banner-state\s*\=\s*([^;]*).*$)|^.*$/, "$1");
+		}
+
+		function setBannerStateCookie(state) {
+			document.cookie = 'cookie-banner-state=' + state + '; Secure; expires=Thu, 01 Jan 2100 00:00:00 GMT';
+		}
+
+		function resetBannerStateCookie(state) {
+			document.cookie = 'cookie-banner-state=; Secure; expires=Thu, 01 Jan 1970 00:00:00 GMT';
+		}
+
+		function shouldResetBannerState() {
+			let params = window.location.search.indexOf('banner') > 1;
+
+			return params;
+		}
+
+		let dismissed = false;
+		if (shouldResetBannerState()) {
+			resetBannerStateCookie()
+		} else {
+			const bannerState = readBannerStateCookie();
+			dismissed = bannerState == 'dismissed';
+		}
+
+		if (dismissed) {
+			return;
+		}
+
+		const banner = document.createElement('article');
+		banner.classList.add('cookie-banner');
+
+		banner.innerHTML =
+		[
+			'<div>',
+				bannerHTMLContent,
+				'<a class="cookie-banner__button" href="' + policyUrl + '" target="_blank">',
+					policyLinkText,
+				'</a>',
+				'<a class="cookie-banner__button cookie-banner__button--submit" href="#dismiss">',
+					confirmButtonText,
+				'</a>',
+			'</div>',
+			'<a class="cookie-banner__dismiss" href="#dismiss">&times;</a>'
+		].join('');
+
+		document.body.appendChild(banner);
+
+		const stylesheet =
+			'.cookie-banner ~ .portal-page {margin-top:'+banner.scrollHeight+'px}';
+
+		const style = document.createElement('style');
+		style.innerText = stylesheet;
+		document.head.appendChild(style);
+
+		//i.e. does not support looping through a nodeList so it must to be converted to an array
+		Array.prototype.slice.call(banner.querySelectorAll("[href='#dismiss']"), 0).forEach(function(anchor) {
+			anchor.addEventListener('click', function(e) {
+				e.preventDefault();
+				dismiss();
+			});
+		});
+
+		function dismiss() {
+			if (dismissed) return;
+
+			banner.classList.add('cookie-banner--hiding');
+			style.innerText = "";
+			dismissed = true;
+			setBannerStateCookie('dismissed');
+			setTimeout(300, function() {
+				banner.remove();
+			});
+		}
+	})();
+</script><style type="text/css"> body { font-family: Inter,sans-serif !important; } </style><style type="text/css"> .portal-page { text-align: center; } .portal-container-B48B5632-EFE3-655C-870F992EBB5783B0 { width: 100%; text-align: left; } .portal-container-B48B5633-C469-9928-5A2BD9F331F2E39D { width: 100%; text-align: left; } .portal-region-B48B5634-CC01-B2EB-39427FD75363DD79 { text-align: left; } .portal-container-B48B5636-C299-6118-745AA1B1CC933476 { width: 100%; text-align: left; } .portal-region-B48B5637-C694-D000-DD880B4113A49D7B { text-align: left; } .portal-container-B48B5639-F2A3-8FF4-062FFCC518DACB6D { width: 100%; text-align: left; } .portal-region-B48B563A-9383-ADD9-D4C008643C10A3E8 { padding-top: 20px; text-align: left; padding-bottom: 20px; } .portal-container-B48B563C-9FCF-456C-7F976576293D12D4 { width: 100%; text-align: left; background-color: #F6F7FB; } .portal-region-B48B563D-A294-BB43-9D7081B0337F58B5 { padding-top: 50px; text-align: left; padding-bottom: 20px; } .portal-region-B48B563E-A074-33A3-D834F9F10293B6FC { text-align: left; } @media screen and (max-width: 768px) { .portal-region-B48B5634-CC01-B2EB-39427FD75363DD79 { padding-top: 0px; padding-left: 0px; padding-right: 0px; padding-bottom: 0px; } .portal-region-B48B5637-C694-D000-DD880B4113A49D7B { padding-top: 0px; padding-left: 0px; padding-right: 0px; padding-bottom: 0px; } .portal-region-B48B563A-9383-ADD9-D4C008643C10A3E8 { padding-top: 0px; padding-left: 0px; padding-right: 0px; padding-bottom: 0px; } .portal-region-B48B563D-A294-BB43-9D7081B0337F58B5 { padding-top: 0px; padding-left: 0px; padding-right: 0px; padding-bottom: 0px; }  .portal-region-B48B5634-CC01-B2EB-39427FD75363DD79, .portal-container-B48B5633-C469-9928-5A2BD9F331F2E39D, .portal-region-B48B5637-C694-D000-DD880B4113A49D7B, .portal-container-B48B5636-C299-6118-745AA1B1CC933476, .portal-region-B48B563A-9383-ADD9-D4C008643C10A3E8, .portal-container-B48B5639-F2A3-8FF4-062FFCC518DACB6D, .portal-region-B48B563D-A294-BB43-9D7081B0337F58B5, .portal-region-B48B563E-A074-33A3-D834F9F10293B6FC, .portal-container-B48B563C-9FCF-456C-7F976576293D12D4, .portal-container-B48B5632-EFE3-655C-870F992EBB5783B0 { display: block; width: auto; margin: 0; float: none !important; } } @media screen and (min-width: 768px) { .portal-region-B48B5634-CC01-B2EB-39427FD75363DD79, .portal-container-B48B5633-C469-9928-5A2BD9F331F2E39D, .portal-region-B48B5637-C694-D000-DD880B4113A49D7B, .portal-container-B48B5636-C299-6118-745AA1B1CC933476, .portal-region-B48B563A-9383-ADD9-D4C008643C10A3E8, .portal-container-B48B5639-F2A3-8FF4-062FFCC518DACB6D, .portal-region-B48B563D-A294-BB43-9D7081B0337F58B5, .portal-region-B48B563E-A074-33A3-D834F9F10293B6FC, .portal-container-B48B563C-9FCF-456C-7F976576293D12D4, .portal-container-B48B5632-EFE3-655C-870F992EBB5783B0 { display: block; } } </style><div class="portal-page"><div class="portal-container portal-container-container portal-container-B48B5632-EFE3-655C-870F992EBB5783B0"><div class="portal-container portal-region-container portal-container-B48B5633-C469-9928-5A2BD9F331F2E39D"><div class="portal-region portal-region-text portal-region-B48B5634-CC01-B2EB-39427FD75363DD79"><div class="portal-row-wrap skip__container"><a href="#title" id="skip" class="btn btn-primary skip__main">Skip to main content</a></div>
+<div class="portal-row-wrap background-wrap" style="background-color: #f6f7fb;">
+<div class="portal-row-content-wrap">
+<div class="portal-container portal-region-container portal-container-91634D86-9E2A-3FDF-B46FCDC1BBE9FF9A">
+<div class="portal-region portal-region-text portal-region-91634E92-C3B5-6E6B-664FD4234D4B76E4">
+<div class="portal-region portal-region-text" style="background: none !important;">
+<p style="text-align: right; margin: 0.35rem;"><a href="https://www.teradata.com" style="color: #00233c; font-size: 12px; text-decoration: none; -webkit-font-smoothing: antialiased;">Teradata.com</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<header class="site-header" id="site-header">
+<div class="logo"><a class="site-header__logo" href="https://www.teradata.com"> <img src="https://recruitcdn.com/publicimage/5843f17a5212e2d90f0806348df584ee3fb74fc4/193/1;type=1" alt="Teradata" width="148" height="28"></a><a href="/" class="site-header__text">Careers</a></div>
+<!--
+<a class="site-header__nav-toggle-link" href="#toggle-header-nav" title="Show Navigation" data-toggle-title="Hide Navigation"> <span class="site-header__nav-toggle-link-line"></span> <span class="site-header__nav-toggle-link-line"></span> <span class="site-header__nav-toggle-link-line"></span> </a>
+--><nav class="site-header__nav"><a href="https://careers.teradata.com/login" class="btn btn-primary">Log in</a><a href="https://teradataInternal.gr8people.com/?method=cappPortal.showLogin" class="btn">Employees</a></nav></header><!--
+<div class="portal-region portal-region-text" style="background: none !important;">
+<p style="text-align: center;"><span style="color: #000000;"><span class="montserrat"><span class="montserrat"><span style="color: #394951;">Be aware of scams on social media involving phony job postings. <a href="https://careers.teradata.com/categories/6/fraud-alert/15/fraud-alert">Learn more</a></span> </span></span></span></p>
+</div>
+-->
+<style><!--
+.background-wrap {position:relative;}
+.background-wrap:before,
+.background-wrap:after
+{
+    content:'';
+    background:#f6f7fb;
+    bottom: 0;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    z-index:-1;
+}
+.background-wrap:before { right:100%; }
+.background-wrap:after { left:100%; }
+.site-header {
+  background-color: #fff;
+  padding: 10px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+}
+.site-header__nav-toggle-link {
+  display: block;
+  color: #000;
+  font-size: 20px;
+  line-height: 1em;
+  text-decoration: none;
+  padding: 5px 0 5px 5px;
+}
+.site-header__nav-toggle-link-line {
+  display: block;
+  width: 1em;
+  height: 3px;
+  margin-bottom: 5px;
+  background-color: currentColor;
+  opacity: 0.99;
+  transition: .4s ease all;
+}
+.site-header__nav-toggle-link-line:last-child {
+  margin-bottom: 0;
+}
+.site-header--nav-open .site-header__nav-toggle-link-line:nth-child(1) {
+  transform: rotate(45deg) translateX(2px);
+  transform-origin: top left;
+}
+.site-header--nav-open .site-header__nav-toggle-link-line:nth-child(2) {
+  opacity: 0;  
+}
+.site-header--nav-open .site-header__nav-toggle-link-line:nth-child(3) {
+  transform: rotate(-45deg) translateX(2px);
+  transform-origin: bottom left;
+}
+.site-header__nav {
+  position: fixed;
+  display: block;
+  top: 70px;
+  bottom: 0;
+  left: 50px;
+  right: 0;
+  margin: 0;
+  background-color: #394851;
+  color: #ffffff;
+  transform: translateX(100%);
+  padding-top: .5em;
+}
+.site-header__nav:before {
+  position: absolute;
+  display: block;
+  top: -70px;
+  left: 0;
+  right: 0;
+  content: ' ';
+  height: 70px;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+.site-header__nav > a {
+  color: inherit;
+  text-decoration: inherit;
+  font-weight: inherit;
+  display: block;
+  padding: .5em 1em;
+}
+.site-header__nav > a:hover,
+.site-header__nav > a:focus,
+.site-header__nav > a:active {
+}
+.site-header__nav a.btn,
+a.skip__main {
+    border-radius: 12px;
+    margin-left: 16px;
+    border: 1px solid #00233c;
+    color: #00233c;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 16px;
+    line-height: 1.5;
+background: #fff;
+-webkit-font-smoothing: antialiased;
+transition: all .25s ease-in-out 0s;
+}
+.site-header__nav a.btn:hover,
+.site-header__nav a.btn:focus,
+a.skip__main:hover,
+a.skip__main:focus {
+background: rgba(0,35,60,.15);
+border-color: #00233c;
+color: #00233c;
+}
+.site-header__nav a.btn.btn-primary,
+a.skip__main:hover,
+a.skip__main:focus  {
+    background-color: #00233c;
+    color: #fff;
+}
+.site-header__nav a.btn.btn-primary:hover,
+.site-header__nav a.btn.btn-primary:focus,
+a.skip__main:hover,
+a.skip__main:focus  {
+    background-color: #ff5f02;
+    border-color: #ff5f02;
+    color: #fff;
+}
+a.skip__main {
+    position: absolute;
+    opacity: 0;
+    left: -9999px;
+    top: 0;
+    z-index: 999;
+    transition: all .25s ease-in-out 0s;
+}
+}
+a.skip__main:active,
+a.skip__main:focus {
+    left: 45%;
+    opacity: 1;
+}
+@media screen and (max-width: 768px) {
+  body {
+    transition: .1s ease-out all;
+  }
+  .body--nav-open {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform: translateX(-100%) translateX(50px);
+  } 
+.site-header__text {
+font-size: 22px;
+text-decoration: none;
+margin-left: 16px;
+-webkit-font-smoothing: antialiased;
+align-content: flex-end;
+}
+}
+@media screen and (min-width: 769px) {
+  .site-header {
+    padding: 25px 0;
+    align-items: start;
+    justify-content: space-between;
+  }
+  .site-header .logo {
+display: flex;
+}
+  .site-header__logo {
+    margin-right: 0;
+    padding-top: 0;
+  }
+  
+.site-header__text {
+font-size: 22px;
+text-decoration: none;
+margin-left: 16px;
+-webkit-font-smoothing: antialiased;
+align-content: flex-end;
+}
+
+  .site-header__nav-toggle-link {
+    display: none;
+  }
+  
+  .site-header__nav {
+    position: static;
+    transform: none;
+    background: none;
+    color: #959595;
+    font-size: 18px;
+    line-height: 1em;
+    padding: 0;
+  }
+  
+  .site-header__nav > a {
+    display: inline-block;
+    padding: 20px;
+  }
+ .site-header__nav>a:hover {
+    color: #e88730;
+ }
+  
+  .site-header__nav:before {
+    display: none;
+  }
+}
+.MuiOutlinedInput-notchedOutline { border: 1px solid #333a3e; }
+--></style>
+<div class="portal-row-wrap">
+<div class="portal-row-wrap">
+<div class="portal-row-content-wrap">
+<div style="padding: 2em; background: #00233C; color: #fff; border-radius: 12px;">
+<h2 style="margin-top: 0;">Important Notice: Beware of Recruitment Scams</h2>
+<p>Teradata is committed to providing a safe, transparent, and secure job search experience. We are aware of fraudulent job advertisements and offers falsely claiming to represent Teradata. These scams are not affiliated with our company and are designed to mislead job seekers.</p>
+<h3>How to Protect Yourself</h3>
+<ul class="spaced">
+<li><strong>Verify the Source</strong>: All legitimate Teradata job opportunities are posted on our official careers website or communicated through verified Teradata email domains ending with @teradata.com.</li>
+<li><strong>Protect Your Personal Information</strong>: Teradata will never ask for sensitive personal information (such as bank details, Social Security numbers, or copies of identification) during the early stages of the recruitment process.</li>
+<li><strong>Watch for Red Flags</strong>: Be cautious of unsolicited outreach, vague job descriptions, or offers that seem too good to be true.</li>
+<li><strong>Interview Protocol</strong>: Teradata interviews are conducted through professional channels using official Teradata email addresses and approved video conferencing platforms (MS Teams) — not messaging apps or personal accounts.</li>
+<li><strong>No Fees Required</strong>: Teradata does not charge candidates any fees for job applications, interviews, equipment, or training.</li>
+<li><strong>Trust Your Instincts</strong>: If something feels suspicious or inconsistent, please verify that you are communicating with some at Teradata before engaging further.</li>
+</ul>
+<p style="margin-bottom: 0;">Your safety is important to us, and we are committed to helping you pursue genuine career opportunities with Teradata. If you believe you have encountered a fraudulent job posting or offer claiming to be from Teradata, please report it through our official website <span style="color: #ffffff;">- <a href="mailto:Global.Careers@Teradata.com" style="color: #ffffff;">Global.Careers@teradata.com</a></span></p>
+</div>
+</div>
+</div>
+</div>
+<style type="text/css">
+    .portal-row-wrap ul.spaced li { margin-bottom: 1em }
+</style></div></div><div class="portal-container portal-region-container portal-container-B48B5636-C299-6118-745AA1B1CC933476"><div class="portal-region portal-region-dynamic portal-region-B48B5637-C694-D000-DD880B4113A49D7B">
+        <div id="gr8-career-center-25EF5CD6-979A-BF0E-9BF8D346D4AA4B96" class="app-portal-layout">
+            
+                <nav id="gr8-career-center-25EF5CD6-979A-BF0E-9BF8D346D4AA4B96-menuEl" class="app-portal-menu">
+                <div class="app-portal-menu-container">
+                    <div class="nav app-portal-menu-nav app-portal-menu-right">
+                <ul class="person-menu-static" role="menu">
+                    
+                </ul>
+            </div>
+                    <ul class="nav app-portal-menu-nav">
+
+                        <li class="search-item " data-toggle="nav-dd" data-workflow="1093" data-step="78031" draggable="false">
+                            
+                                <a href="https://careers.teradata.com/jobs" draggable="false">Search</a>
+                            
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            
+            <div id="gr8-career-center-25EF5CD6-979A-BF0E-9BF8D346D4AA4B96-alertEl" class="alert fade alert-dismissible alert-global hide"></div>
+            
+                <div class="app-portal-content">
+
+<div data-component="PageContent" data-component-ct="0"><div data-server-side-component="true"><div class="root-0"><div class="searchBar-1"><div class="column-4 columnWithFilters-5"><div class="header-6"><div class="inputsContainer-7"><div class="inputs-8"><div class="searchBox-9"><div class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-ec8d5y"><style data-emotion="css-global 1prfaxn">@-webkit-keyframes mui-auto-fill{from{display:block;}}@keyframes mui-auto-fill{from{display:block;}}@-webkit-keyframes mui-auto-fill-cancel{from{display:block;}}@keyframes mui-auto-fill-cancel{from{display:block;}}</style><div class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-sizeSmall css-zbrnn9"><input aria-invalid="false" id=":R1al:" placeholder="Keyword" type="text" data-testid="search-query-input" class="MuiOutlinedInput-input MuiInputBase-input MuiInputBase-inputSizeSmall css-o4qvae" value=""/><fieldset aria-hidden="true" class="MuiOutlinedInput-notchedOutline css-igs3ac"><legend class="css-hdw1oc"><span class="notranslate">​</span></legend></fieldset></div></div></div><div class="location-10"><div class="MuiAutocomplete-root MuiAutocomplete-hasClearIcon MuiAutocomplete-hasPopupIcon locationInput-11 css-emcwk8" data-cy="job-search-location-input"><div class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-feqhe6"><label class="MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeSmall MuiInputLabel-outlined MuiFormLabel-root MuiFormLabel-colorPrimary css-u9osun" data-shrink="true" for=":R6al:" id=":R6al:-label">Locations</label><style data-emotion="css-global 1prfaxn">@-webkit-keyframes mui-auto-fill{from{display:block;}}@keyframes mui-auto-fill{from{display:block;}}@-webkit-keyframes mui-auto-fill-cancel{from{display:block;}}@keyframes mui-auto-fill-cancel{from{display:block;}}</style><div class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-sizeSmall MuiInputBase-adornedStart MuiInputBase-adornedEnd MuiAutocomplete-inputRoot css-1undbhh"><div class="root-15"><span class="values-17"><span class="value-18"> India</span></span></div><input aria-invalid="false" autoComplete="off" id=":R6al:" type="text" class="MuiOutlinedInput-input MuiInputBase-input MuiInputBase-inputSizeSmall MuiInputBase-inputAdornedStart MuiInputBase-inputAdornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused css-9dkibl" aria-autocomplete="list" aria-expanded="false" autoCapitalize="none" spellcheck="false" role="combobox" value=""/><div class="MuiAutocomplete-endAdornment css-2iz2x6"><button class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium MuiAutocomplete-clearIndicator css-edpqz1" tabindex="-1" type="button" aria-label="Clear" title="Clear"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall css-1k33q06" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="CloseIcon"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg></button><button class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium MuiAutocomplete-popupIndicator css-uge3vf" tabindex="-1" type="button" aria-label="Open" title="Open"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="ArrowDropDownIcon"><path d="M7 10l5 5 5-5z"></path></svg></button></div><fieldset aria-hidden="true" class="MuiOutlinedInput-notchedOutline css-igs3ac"><legend class="css-1in441m"><span>Locations</span></legend></fieldset></div></div></div></div></div><button data-testid="search-button" aria-label="Search" title="Search" class="root-19 searchButton-14"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 83.36 83.36" class="root-20 root-d0-21"><path d="M81.51,74.24l-16.91-16.91c4.44-5.95,7.08-13.33,7.08-21.32h0c0-19.7-15.97-35.66-35.66-35.66h0C16.31,.35,.34,16.31,.34,36.01H.34c0,19.7,15.97,35.66,35.66,35.66h0c8,0,15.38-2.63,21.33-7.08l16.91,16.91c2.01,2.01,5.26,2.01,7.26,0h0c2.01-2.01,2.01-5.26,0-7.26Zm-45.5-12.84c-14,0-25.39-11.39-25.39-25.39S22.01,10.62,36.01,10.62s25.39,11.39,25.39,25.39-11.39,25.39-25.39,25.39Z"></path></svg></button></div></div><div class="header-22" data-cy="job-search-filter-chip-container"><div class="countContainer-24"><div class="count-25" data-cy="job-search-result-total">Results (0)</div></div></div></div></div><div class="filters-2"><div class="modernScroll-43 filters-38" style="overflow:overlay"><section class="root-44" data-cy="jobCategory-facet-group" data-testid="jobCategory-facet-group" aria-label="Category"><div data-testid="jobCategory-facet-header" class="header-45" role="button" aria-controls="CollapseEl-9418" aria-expanded="true"><div class="filterTitle-46">Category</div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 83.36 83.36" class="root-54 root-d0-55 openToggle-50"><path d="m71.18,46.18H12.18c-2.49,0-4.5-2.01-4.5-4.5s2.01-4.5,4.5-4.5h59c2.49,0,4.5,2.01,4.5,4.5s-2.01,4.5-4.5,4.5Z"></path></svg></div><div class="root-56" style="height:0" id="CollapseEl-9418"><div class="innerContainer-57"><div class="filterContainer-52"><div class="MuiFormControl-root MuiFormControl-marginNormal MuiFormControl-fullWidth searchInput-48 MuiTextField-root css-1u0h3mu" data-cy="jobCategory-search-box" data-testid="jobCategory-search-box"><style data-emotion="css-global 1prfaxn">@-webkit-keyframes mui-auto-fill{from{display:block;}}@keyframes mui-auto-fill{from{display:block;}}@-webkit-keyframes mui-auto-fill-cancel{from{display:block;}}@keyframes mui-auto-fill-cancel{from{display:block;}}</style><div class="MuiInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl css-rb2hiw"><input aria-invalid="false" id=":R355:" placeholder="Search Categories" type="text" class="MuiInput-input MuiInputBase-input css-mnn31" value=""/></div></div><div class="modernScroll-43 filterList-47" style="overflow:overlay"></div></div></div></div></section><section class="root-44" data-cy="datePosted-facet-group" data-testid="datePosted-facet-group" aria-label="Date Posted"><div data-testid="datePosted-facet-header" class="header-45" role="button" aria-controls="CollapseEl-9419" aria-expanded="false"><div class="filterTitle-46">Date Posted</div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 83.36 83.36" class="root-58 root-d0-59 openToggle-50"><path d="M46.18,37.18V12.18c0-2.49-2.01-4.5-4.5-4.5-2.49,0-4.5,2.02-4.5,4.5v25s-25,0-25,0c-2.48,0-4.5,2.02-4.5,4.5,0,2.49,2.01,4.5,4.5,4.5h25s0,25,0,25c0,2.49,2.01,4.5,4.5,4.5,1.24,0,2.37-.5,3.18-1.32s1.32-1.94,1.32-3.18v-25s25,0,25,0c1.24,0,2.37-.5,3.18-1.32s1.32-1.94,1.32-3.18c0-2.49-2.01-4.5-4.5-4.5h-25Z"></path></svg></div><div class="root-56" style="height:0" id="CollapseEl-9419"><div class="innerContainer-57"><div class="filterContainer-52"><div class="modernScroll-43 filterList-47" style="overflow:overlay"></div></div></div></div></section><button data-testid="createJobAlert" data-cy="create-job-alert-button" type="button" class="root-60 root-60 primary-61 jobAlert-42"><div class="label-65">Create Job Alert</div></button></div></div><div class="searchResults-3"><div class="root-72"><div class="loading-76"><span class="root-77 MuiCircularProgress-root MuiCircularProgress-indeterminate MuiCircularProgress-colorPrimary css-z01bqi" style="width:40px;height:40px" role="progressbar"><svg class="MuiCircularProgress-svg css-13o7eu2" viewBox="22 22 44 44"><circle class="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate css-14891ef" cx="44" cy="44" r="20.2" fill="none" stroke-width="3.6"></circle></svg></span></div></div></div></div></div></div>
+</div>
+            
+            <a href="#scroll-to-top" class="btn btn-stretch visible-s" aria-label="Scroll to the top of the page"><i class="icon-top-s"></i></a>
+        </div>
+    </div></div><div class="portal-container portal-region-container portal-container-B48B5639-F2A3-8FF4-062FFCC518DACB6D"><div class="portal-region portal-region-text portal-region-B48B563A-9383-ADD9-D4C008643C10A3E8"><p><span style="color: #ffffff;">.</span></p>
+<style><!--
+.form input[type=email].block, .form input[type=number].block, .form input[type=password].block, .form input[type=text].block, .form select.block, .form textarea.block, .form-style input[type=email].block, .form-style input[type=number].block, .form-style input[type=password].block, .form-style input[type=text].block, .form-style select.block, .form-style textarea.block {
+    border-color: #333a3e;
+    font-size: 18px;
+    line-height: 1.5;
+    min-height: 48px;
+    padding: 8px;
+}
+.footer_social {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.footer_social li {
+    margin: 16px 0 0;
+    list-style: none;
+    padding: 0;
+}
+.footer_social a.icon-social {
+    align-items: center;
+    background: #00233c;
+    border-radius: 100%;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    height: 36px;
+    width: 36px;
+    justify-content: center;
+    margin: 0 12px 0 0;
+    padding: 6px;
+}
+.footer_social a.icon-social svg {
+    width: 16px;
+    height: 16px;
+    max-width: 16px;
+}
+--></style>
+<ul class="footer_social">
+<li><a data-gtm-category="Footer" data-gtm-action="social click" data-gtm-label="https://www.linkedin.com/company/teradata" href="https://www.linkedin.com/company/teradata" class="icon-social" target="_blank" rel="noopener" aria-label="Social Link - Teradata on LinkedIn"> <svg viewBox="0 0 27.896 26.897" enable-background="new 0 0 27.896 26.897" xmlns="http://www.w3.org/2000/svg"> <path id="path28_2_" fill="currentColor" d="M6.354,26.921V8.946H0.379v17.975H6.354z M3.367,6.491c2.083,0,3.381-1.38,3.381-3.105C6.708,1.622,5.45,0.281,3.407,0.281c-2.045,0-3.38,1.341-3.38,3.105c0,1.725,1.296,3.105,3.301,3.105H3.367L3.367,6.491z"></path> <path id="path30_2_" fill="currentColor" d="M9.659,26.921h5.975V16.884c0-0.538,0.037-1.075,0.198-1.459c0.431-1.073,1.413-2.186,3.064-2.186c2.159,0,3.027,1.649,3.027,4.065v9.616h5.972V16.613c0-5.52-2.947-8.089-6.877-8.089c-3.223,0-4.639,1.802-5.424,3.028h0.039V8.946H9.659C9.739,10.632,9.659,26.921,9.659,26.921L9.659,26.921z"></path> </svg> </a></li>
+<li><a data-gtm-category="Footer" data-gtm-action="social click" data-gtm-label="https://github.com/teradata" href="https://github.com/teradata" class="icon-social" target="_blank" rel="noopener" aria-label="Social Link - Teradata on GitHub"> <svg viewBox="0 0 24 24" enable-background="new 0 0 24 24"> <path d="M12 1C5.923 1 1 5.923 1 12c0 4.867 3.149 8.979 7.521 10.436.55.096.756-.233.756-.522 0-.262-.013-1.128-.013-2.049-2.764.509-3.479-.674-3.699-1.292-.124-.317-.66-1.293-1.127-1.554-.385-.207-.936-.715-.014-.729.866-.014 1.485.797 1.691 1.128.99 1.663 2.571 1.196 3.204.907.096-.715.385-1.196.701-1.471-2.448-.275-5.005-1.224-5.005-5.432 0-1.196.426-2.186 1.128-2.956-.111-.275-.496-1.402.11-2.915 0 0 .921-.288 3.024 1.128a10.193 10.193 0 0 1 2.75-.371c.936 0 1.871.123 2.75.371 2.104-1.43 3.025-1.128 3.025-1.128.605 1.513.221 2.64.111 2.915.701.77 1.127 1.747 1.127 2.956 0 4.222-2.571 5.157-5.019 5.432.399.344.743 1.004.743 2.035 0 1.471-.014 2.654-.014 3.025 0 .289.206.632.756.522C19.851 20.979 23 16.854 23 12c0-6.077-4.922-11-11-11Z" fill="currentColor"></path> </svg> </a></li>
+<li><a data-gtm-category="Footer" data-gtm-action="social click" data-gtm-label="https://medium.com/teradata" href="https://medium.com/teradata" class="icon-social" target="_blank" rel="noopener" aria-label="Social Link - Teradata on Medium"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"> <path d="M369.4 32c43.4 0 78.6 35.2 78.6 78.6l0 83.8c-1.9-.1-3.8-.2-5.7-.2l-.4 0c-10 0-22.3 2.4-31.1 6.8-10 4.6-18.7 11.5-26 20.6-11.8 14.6-18.9 34.3-20.6 56.4-.1 .7-.1 1.3-.2 2s-.1 1.2-.1 1.9c-.1 1.2-.1 2.4-.1 3.6 0 1.9-.1 3.8 0 5.8 1.2 50.1 28.2 90.2 76.3 90.2 2.7 0 5.3-.1 7.9-.4l0 20.4c0 43.4-35.2 78.6-78.6 78.6L78.6 480C35.2 480 0 444.8 0 401.4L0 110.6C0 67.2 35.2 32 78.6 32l290.8 0zM82.3 138.9l.3 .1c13.2 3 19.8 7.4 19.8 23.4l0 187.2c0 16-6.7 20.4-19.9 23.4l-.3 .1 0 2.8 52.8 0 0-2.8-.3-.1c-13.2-3-19.9-7.4-19.9-23.4l0-176.3 86.1 202.5 4.9 0 88.6-208.2 0 186.6c-1.1 12.6-7.8 16.5-19.7 19.2l-.3 .1 0 2.7 91.9 0 0-2.7-.3-.1c-11.9-2.7-18.7-6.6-19.9-19.2l-.1-191.8 .1 0c0-16 6.7-20.4 19.9-23.4l.3-.1 0-2.7-72.2 0-67 157.4-67-157.4-77.8 0 0 2.7zM448 340.3c-25.1-7.4-43-35.1-41.2-67.8l0 0 41.1 0 0 67.8zm-6.4-135.6c2.3 0 4.4 .3 6.4 .9l0 57.4-40.2 0c1.5-33.6 13.6-57.9 33.8-58.3z" fill="currentColor"></path> </svg> </a></li>
+<li><a data-gtm-category="Footer" data-gtm-action="social click" data-gtm-label="https://twitter.com/teradata" href="https://twitter.com/teradata" class="icon-social" target="_blank" rel="noopener" aria-label="Social Link - Teradata on Twitter"> <svg viewBox="0 0 1200 1227" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M714.163 519.284L1160.89 0H1055.03L667.137 450.887L357.328 0H0L468.492 681.821L0 1226.37H105.866L515.491 750.218L842.672 1226.37H1200L714.137 519.284H714.163ZM569.165 687.828L521.697 619.934L144.011 79.6944H306.615L611.412 515.685L658.88 583.579L1055.08 1150.3H892.476L569.165 687.854V687.828Z" fill="currentColor"></path> </svg> </a></li>
+<li><a data-gtm-category="Footer" data-gtm-action="social click" data-gtm-label="https://www.youtube.com/user/teradata" href="https://www.youtube.com/user/teradata" class="icon-social" target="_blank" rel="noopener" aria-label="Social Link - Teradata on Youtube"> <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"> <path fill="currentColor" d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path> </svg> </a></li>
+<li><a data-gtm-category="Footer" data-gtm-action="social click" data-gtm-label="https://www.facebook.com/Teradata" href="https://www.facebook.com/Teradata" class="icon-social" target="_blank" rel="noopener" aria-label="Social Link - Teradata on Facebook"> <svg viewBox="0 0 35 35" enable-background="new 0 0 35 35" xmlns="http://www.w3.org/2000/svg"> <path fill="currentColor" d="M14.1,34.4V19H10v-5.6h4.1c0,0,0-2.3,0-4.7c0-3.7,2.4-7.1,8-7.1c2.2,0,3.9,0.2,3.9,0.2L25.8,7c0,0-1.7,0-3.5,0c-2,0-2.3,0.9-2.3,2.5c0,1.2,0-2.6,0,4.1h6L25.7,19H20v15.4L14.1,34.4L14.1,34.4z"></path> </svg> </a></li>
+<li><a data-gtm-category="Footer" data-gtm-action="social click" data-gtm-label="https://www.instagram.com/teradata/" href="https://www.instagram.com/teradata/" class="icon-social" target="_blank" rel="noopener" aria-label="Social Link - Teradata on Instagram"> <svg viewBox="0 0 26 26" xmlns="http://www.w3.org/2000/svg"> <path fill-rule="evenodd" clip-rule="evenodd" d="M7.72323 0.277346C9.08858 0.215212 9.52485 0.200012 13.0012 0.200012H12.9972C16.4745 0.200012 16.9092 0.215212 18.2745 0.277346C19.6372 0.339747 20.5679 0.555483 21.3839 0.872019C22.2266 1.19869 22.9386 1.63603 23.6506 2.34803C24.3626 3.05951 24.7999 3.77365 25.1279 4.61552C25.4426 5.4294 25.6586 6.35954 25.7226 7.72222C25.784 9.08757 25.8 9.52384 25.8 13.0001C25.8 16.4764 25.784 16.9117 25.7226 18.277C25.6586 19.6391 25.4426 20.5696 25.1279 21.3837C24.7999 22.2253 24.3626 22.9394 23.6506 23.6509C22.9394 24.3629 22.2263 24.8013 21.3847 25.1283C20.5703 25.4448 19.6391 25.6605 18.2764 25.7229C16.9111 25.7851 16.4761 25.8003 12.9996 25.8003C9.52351 25.8003 9.08751 25.7851 7.72216 25.7229C6.35975 25.6605 5.42934 25.4448 4.61493 25.1283C3.77359 24.8013 3.05945 24.3629 2.34824 23.6509C1.6365 22.9394 1.19916 22.2253 0.871958 21.3834C0.555688 20.5696 0.339953 19.6394 0.277285 18.2767C0.215418 16.9114 0.199951 16.4764 0.199951 13.0001C0.199951 9.52384 0.215951 9.08731 0.277019 7.72196C0.338353 6.35981 0.554355 5.4294 0.871691 4.61526C1.19969 3.77365 1.63703 3.05951 2.34904 2.34803C3.06051 1.63629 3.77465 1.19896 4.61653 0.872019C5.43041 0.555483 6.36055 0.339747 7.72323 0.277346ZM12.5745 2.50658H12.5742C12.3155 2.50647 12.0757 2.50636 11.8529 2.50671V2.50351C9.46723 2.50618 9.00962 2.52218 7.82881 2.57551C6.5808 2.63284 5.90319 2.84085 5.45199 3.01685C4.85465 3.24938 4.42798 3.52672 3.97997 3.97472C3.53197 4.42273 3.2541 4.8494 3.0221 5.44674C2.84689 5.89794 2.63836 6.57529 2.58129 7.8233C2.51996 9.17265 2.50769 9.57585 2.50769 12.994C2.50769 16.4122 2.51996 16.8175 2.58129 18.1669C2.63809 19.4149 2.84689 20.0922 3.0221 20.5429C3.25463 21.1405 3.53197 21.5661 3.97997 22.0141C4.42798 22.4621 4.85465 22.7395 5.45199 22.9715C5.90346 23.1467 6.5808 23.3552 7.82881 23.4128C9.17816 23.4741 9.58323 23.4875 13.0011 23.4875C16.4188 23.4875 16.8241 23.4741 18.1735 23.4128C19.4215 23.3557 20.0993 23.1477 20.55 22.9717C21.1476 22.7397 21.573 22.4624 22.021 22.0144C22.469 21.5666 22.7468 21.1413 22.9788 20.544C23.154 20.0933 23.3626 19.416 23.4196 18.1679C23.481 16.8186 23.4943 16.4133 23.4943 12.9972C23.4943 9.58118 23.481 9.17585 23.4196 7.8265C23.3628 6.57849 23.154 5.90114 22.9788 5.45047C22.7463 4.85313 22.469 4.42646 22.021 3.97846C21.5732 3.53045 21.1474 3.25312 20.55 3.02111C20.0988 2.84591 19.4215 2.63738 18.1735 2.58031C16.8238 2.51898 16.4188 2.50671 13.0011 2.50671L12.5745 2.50658ZM19.8338 4.63206C18.9857 4.63206 18.2977 5.31927 18.2977 6.16754C18.2977 7.01555 18.9857 7.70356 19.8338 7.70356C20.6818 7.70356 21.3698 7.01555 21.3698 6.16754C21.3698 5.31953 20.6818 4.63153 19.8338 4.63153V4.63206ZM13.0011 6.42676C9.37097 6.42676 6.42773 9.36999 6.42773 13.0002C6.42773 16.6303 9.37097 19.5722 13.0011 19.5722C16.6313 19.5722 19.5735 16.6303 19.5735 13.0002C19.5735 9.37008 16.6312 6.4269 13.0011 6.42676ZM13.0012 8.73343C15.3575 8.73343 17.2679 10.6436 17.2679 13.0001C17.2679 15.3564 15.3575 17.2669 13.0012 17.2669C10.6447 17.2669 8.7345 15.3564 8.7345 13.0001C8.7345 10.6436 10.6447 8.73343 13.0012 8.73343Z" fill="currentColor"></path> </svg> </a></li>
+</ul></div></div><div class="portal-container portal-region-container portal-container-B48B563C-9FCF-456C-7F976576293D12D4"><div class="portal-region portal-region-text portal-region-B48B563D-A294-BB43-9D7081B0337F58B5"><p style="padding-left: 30px; text-align: left;">© 2026 Teradata. All Rights Reserved. | <span style="color: #ff5f02;"><a style="color: #ff5f02; text-decoration: none;" title="Privacy Notice" href="https://www.teradata.com/Privacy" target="_blank" rel="noopener">Privacy</a></span> | <a style="color: #ff5f02; text-decoration: none;" title="Terms of Use" href="https://www.teradata.com/Legal/Terms-of-Use" target="_blank" rel="noopener">Terms of Use</a> |&nbsp;<a style="color: #ff5f02; text-decoration: none;" href="#tracking-consent">Tracking Consent</a> | <span style="color: #ff5f02;"><a style="color: #ff5f02; text-decoration: none;" title="Corporate Website" href="https://www.teradata.com" target="_blank" rel="noopener">www.teradata.com</a></span></p></div><div class="portal-region portal-region-text portal-region-B48B563E-A074-33A3-D834F9F10293B6FC"><p>
+<script>// <![CDATA[
+(function() {
+
+var LAYOUT_WIDTH = '1200px';
+
+var TRANSFORMS = [
+
+ [ 0, 'bleed-background-color']
+
+
+/*
+  specify transforms by row # starting with 1...
+  [ 1, 'bleed-background-color'],
+  [ 2, 'bleed-background-image'],
+  [ 3, 'bleed-image'],
+
+  can be combined...
+  [ 1, 'bleed-background-color', 'bleed-background-image' ],
+
+  0 or negative numbers count backwards from the last row #...
+  [ -1, 'bleed-background-color' ],
+  [ 0, 'bleed-background-color' ]
+*/
+
+];
+
+var VALID_HOSTS = [
+  'careers.teradata.com',
+  'teradatainternal.gr8people.com',
+
+];
+
+
+if (VALID_HOSTS.indexOf(window.location.host) < 0) {
+  return;
+}
+
+function wrap(el, tagName, cls) {
+  var newEl = document.createElement(tagName || 'div');
+  if (cls) newEl.className = cls;
+  el.parentNode.replaceChild(newEl, el);
+  newEl.appendChild(el);
+}
+
+function bleedBackgroundColor(rowCt) {
+  var styleEl = rowCt;
+  if (rowCt.matches('.portal-container-columns')) {
+    styleEl = rowCt.querySelector('.portal-region-container');
+  }
+
+  var computedStyle = window.getComputedStyle(styleEl);
+  var wrapStyle = rowCt.parentNode.parentNode.style;
+  wrapStyle.backgroundColor = computedStyle.backgroundColor;
+}
+
+function bleedBackgroundImage(rowCt) {
+  var computedStyle = window.getComputedStyle(rowCt);
+  var liveStyle = rowCt.style;
+  var wrapStyle = rowCt.parentNode.parentNode.style;
+  wrapStyle.backgroundImage = computedStyle.backgroundImage;
+  wrapStyle.backgroundRepeat = 'no-repeat';
+  wrapStyle.backgroundPosition = computedStyle.backgroundPosition;
+  wrapStyle.backgroundSize = 'cover';
+  liveStyle.backgroundImage = 'none';
+}
+
+function bleedImage(rowCt) {
+  var imageRegionEl = rowCt.querySelector('.portal-region-image');
+  if (!imageRegionEl) {
+    return;
+  }
+
+  var wrapEl = rowCt.parentNode.parentNode;
+  if (wrapEl.matches('.portal-row-wrap')) {
+    wrapEl.classList.add('portal-row-image-bleed');
+  }
+}
+
+var extractClassRe = /^portal-(?:container|region)-[A-F\d]{8}-[A-F\d]{4}-[A-F\d]{4}-[A-F\d]{16}$/gi;
+function extractClass(layoutDiv) {
+  return Array.prototype.find.call(layoutDiv.classList, function(cls) {
+    return extractClassRe.test(cls);
+  });
+}
+
+document.addEventListener("DOMContentLoaded", function(event) {
+  var rowCts = document.querySelectorAll('.portal-page > .portal-container > .portal-container');
+  Array.prototype.forEach.call(rowCts, function(rowCt) {
+    wrap(rowCt, 'div', 'portal-row-wrap')
+    wrap(rowCt, 'div', 'portal-row-content-wrap');
+  });
+
+  var pageCt = document.querySelector('.portal-page > .portal-container');
+  var pageCtCls = extractClass(pageCt);
+
+  var cssRules = [];
+  cssRules.push('.' + pageCtCls + ' { width: auto; }');
+  cssRules.push('@media screen and (min-width: 769px) { .portal-row-content-wrap { width: ' + LAYOUT_WIDTH + '; margin: 0 auto; position: relative; } .portal-row-image-bleed > .portal-row-content-wrap { width: auto; }}');
+
+  var styleTag = document.createElement('style');
+  styleTag.innerHTML = cssRules.join('\n');
+  document.body.appendChild(styleTag);
+
+  TRANSFORMS.forEach(function(arr) {
+    var i = arr[0];
+    var rowCt = i > 0 ? rowCts.item(i - 1) : rowCts.item(rowCts.length + i - 1);
+    if (!rowCt) return;
+    
+    arr.forEach(function(op, i) {
+      if (i == 0) return;
+      
+      switch (op) {
+        case 'bleed-background-color':
+          bleedBackgroundColor(rowCt);
+          break;
+        case 'bleed-background-image':
+          bleedBackgroundImage(rowCt);
+          break;
+        case 'bleed-image':
+          bleedImage(rowCt);
+          break;
+      }
+    });
+  });
+
+});
+
+})();
+// ]]></script>
+</p>
+<style><!--
+.montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+/* search page */
+@media screen and (max-width: 768px) {
+    .portal-row-wrap:nth-child(2) {
+        margin: 0 10px;
+    }
+}
+--></style></div></div></div></div><div id="__next"></div><script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{"client":{"__typename":"Client","id":"Q2xpZW50LzE=","name":"Teradata"},"pageQuery":{"keywords":"data","location":"India"},"aggregations":{"location":[{"__typename":"JobPostingAggregation","key":"Hyderabad, India","count":67},{"__typename":"JobPostingAggregation","key":"San Diego, CA","count":32},{"__typename":"JobPostingAggregation","key":"Bengaluru, India","count":30},{"__typename":"JobPostingAggregation","key":"Pune, India","count":22},{"__typename":"JobPostingAggregation","key":"Mexico City, Mexico","count":14},{"__typename":"JobPostingAggregation","key":"London, United Kingdom","count":10},{"__typename":"JobPostingAggregation","key":"Airoli Navi Mumbai, India","count":7},{"__typename":"JobPostingAggregation","key":"Tokyo, Japan","count":7},{"__typename":"JobPostingAggregation","key":"Bangalore - Virtual, India","count":5},{"__typename":"JobPostingAggregation","key":"Bellevue, WA","count":5},{"__typename":"JobPostingAggregation","key":"Kuala Lumpur, Malaysia","count":5},{"__typename":"JobPostingAggregation","key":"Tijuana, Mexico","count":5},{"__typename":"JobPostingAggregation","key":"Prague, Czechia","count":4},{"__typename":"JobPostingAggregation","key":"SYDNEY, Australia","count":4},{"__typename":"JobPostingAggregation","key":"Taguig, Philippines","count":4},{"__typename":"JobPostingAggregation","key":"Taipei, Taiwan","count":4},{"__typename":"JobPostingAggregation","key":"Mumbai, India","count":3},{"__typename":"JobPostingAggregation","key":"Navi Mumbai, India","count":3},{"__typename":"JobPostingAggregation","key":"San Jose, CA","count":3},{"__typename":"JobPostingAggregation","key":"Seoul, South Korea","count":3},{"__typename":"JobPostingAggregation","key":"Warsaw, Poland","count":3},{"__typename":"JobPostingAggregation","key":"Cairo, Egypt","count":2},{"__typename":"JobPostingAggregation","key":"Dublin, Ireland","count":2},{"__typename":"JobPostingAggregation","key":"Seattle, WA","count":2},{"__typename":"JobPostingAggregation","key":"Singapore, Singapore","count":2},{"__typename":"JobPostingAggregation","key":"Amsterdam, Netherlands","count":1},{"__typename":"JobPostingAggregation","key":"Antony, France","count":1},{"__typename":"JobPostingAggregation","key":"Atlanta, GA","count":1},{"__typename":"JobPostingAggregation","key":"Buenos Aires, Argentina","count":1},{"__typename":"JobPostingAggregation","key":"Gurugram, India","count":1},{"__typename":"JobPostingAggregation","key":"Hong Kong, Hong Kong","count":1},{"__typename":"JobPostingAggregation","key":"Houston, TX","count":1},{"__typename":"JobPostingAggregation","key":"LEXINGTON, SC","count":1},{"__typename":"JobPostingAggregation","key":"San Francisco, CA","count":1},{"__typename":"JobPostingAggregation","key":"Sao Paulo, Brazil","count":1}],"workplaceType":[{"__typename":"JobPostingAggregation","key":"HYBRID","count":118},{"__typename":"JobPostingAggregation","key":"REMOTE","count":58},{"__typename":"JobPostingAggregation","key":"ON_SITE","count":4}],"jobCategories":[{"__typename":"JobPostingJobCategoryAggregation","count":116,"jobCategory":{"key":"3","name":"Engineering"}},{"__typename":"JobPostingJobCategoryAggregation","count":45,"jobCategory":{"key":"4","name":"Sales and Marketing"}},{"__typename":"JobPostingJobCategoryAggregation","count":7,"jobCategory":{"key":"1","name":"Finance"}},{"__typename":"JobPostingJobCategoryAggregation","count":6,"jobCategory":{"key":"12","name":"College \u0026 Interns"}},{"__typename":"JobPostingJobCategoryAggregation","count":2,"jobCategory":{"key":"15","name":"Product Management"}},{"__typename":"JobPostingJobCategoryAggregation","count":1,"jobCategory":{"key":"16","name":"Customer Support"}},{"__typename":"JobPostingJobCategoryAggregation","count":1,"jobCategory":{"key":"5","name":"Consulting"}},{"__typename":"JobPostingJobCategoryAggregation","count":1,"jobCategory":{"key":"7","name":"People Organization"}},{"__typename":"JobPostingJobCategoryAggregation","count":1,"jobCategory":{"key":"9","name":"Legal"}}],"positionType":[{"__typename":"JobPostingPositionTypeAggregation","count":170,"positionType":{"key":"2","name":"Full Time"}},{"__typename":"JobPostingPositionTypeAggregation","count":10,"positionType":{"key":"1","name":"Part Time"}}],"datePosted":[{"__typename":"JobPostingAggregation","key":"WITHIN_LAST_MONTH","count":95},{"__typename":"JobPostingAggregation","key":"WITHIN_LAST_WEEK","count":34},{"__typename":"JobPostingAggregation","key":"WITHIN_LAST_DAY","count":12}],"country":[{"__typename":"JobPostingAggregation","key":"India","count":84},{"__typename":"JobPostingAggregation","key":"United States","count":36},{"__typename":"JobPostingAggregation","key":"Mexico","count":18},{"__typename":"JobPostingAggregation","key":"United Kingdom","count":10},{"__typename":"JobPostingAggregation","key":"Japan","count":7},{"__typename":"JobPostingAggregation","key":"Malaysia","count":5},{"__typename":"JobPostingAggregation","key":"Australia","count":4},{"__typename":"JobPostingAggregation","key":"Czechia","count":4},{"__typename":"JobPostingAggregation","key":"Philippines","count":4},{"__typename":"JobPostingAggregation","key":"Taiwan","count":4},{"__typename":"JobPostingAggregation","key":"Poland","count":3},{"__typename":"JobPostingAggregation","key":"South Korea","count":3},{"__typename":"JobPostingAggregation","key":"Egypt","count":2},{"__typename":"JobPostingAggregation","key":"Ireland","count":2},{"__typename":"JobPostingAggregation","key":"Singapore","count":2},{"__typename":"JobPostingAggregation","key":"Argentina","count":1},{"__typename":"JobPostingAggregation","key":"Brazil","count":1},{"__typename":"JobPostingAggregation","key":"France","count":1},{"__typename":"JobPostingAggregation","key":"Hong Kong","count":1},{"__typename":"JobPostingAggregation","key":"Netherlands","count":1}],"state":[{"__typename":"JobPostingAggregation","key":"California, US","count":34},{"__typename":"JobPostingAggregation","key":"Washington, US","count":7},{"__typename":"JobPostingAggregation","key":"Georgia, US","count":1},{"__typename":"JobPostingAggregation","key":"South Carolina, US","count":1},{"__typename":"JobPostingAggregation","key":"Texas, US","count":1}]},"referralSettings":{"enabled":true,"externalReferralsEnabled":false,"hasMultipleReferrals":true,"hasJobReferrals":true,"hasGeneralReferrals":false,"formSettings":{"position":{"enabled":false,"required":false},"employer":{"enabled":true,"required":true},"phoneNumber":{"enabled":true,"required":true},"country":{"enabled":true,"required":false},"comments":{"enabled":true,"required":true},"resumeUpload":{"enabled":true,"required":true},"relationship":{"enabled":true,"required":true},"job":{"enabled":true,"required":true},"timezone":{"enabled":false,"required":false},"existingReferral":{"enabled":true,"required":false},"interest":{"enabled":false,"required":false}}},"jobPostingSettings":{"visibleFields":["POSITION_TYPE","WORKPLACE_TYPE"]},"metadata":{"pageUrl":"/jobs?keywords=data\u0026location=India","title":"Search Careers at Teradata","description":"Gr8 Job! at Teradata"},"components":[{"index":0,"name":"PageContent"}],"locale":"en","visit":{"authenticated":false,"orgId":"dd09e2","clientId":"1"},"legacyPageVars":{"inQuickLinkMode":false,"inConfigMode":false}},"theme":{"text":{"fontFamily":"Inter,sans-serif"},"button":{},"progressBar":{},"slider":{},"primaryColor":"#FF5F02"},"openGraph":{"imageUrl":"https://recruitcdn.com/publicimage/ce7dcc0560e0ed320cf11169698c9b255c946809/193/3","imageContentType":"image/jpeg"},"systemConfig":{"quickApplyEnabled":false,"googleSiteVerification":"","jobAgentEnabled":true,"landingPageUrl":"/jobs","postLoginUrl":"/jobs"},"customerSystemConfig":{"jobs":{"userDefinedFields":[{"id":5105,"type":"id","key":"opportunityuserdefinedint_opportunityuserdefined10id","name":"Requested Sourcing Service"}]},"maxFileSize":2097152,"features":{"resumeJobMatching":false}},"watsonConfig":{"enabled":false,"localeOverrides":{}},"components":[],"site":{"host":"careers.teradata.com","external":true},"locale":"en","ldClient":{"_events":{},"_eventsCount":0},"identity":{"[redacted],"cache":{},"client":{"logger":{},"baseUrl":"http://identity-service:8080","timeout":10000,"tracer":{}}},"recaptchaSiteKey":"6LeGfy0sAAAAAD2Ihb7BgPAcPj4FZVn_1Wr4n3OI","apolloState":{},"apollo":null,"initialFeatureFlags":[["new-talent-portal-job-search-experience",true],["new-job-search-experience-v-2",true],["sms-p2p",false],["sms-a2p",false],["salary-data-display-on-talent-portal",true],["new-candidate-manage-profile-ux",true],["google-job-discovery",true],["ops-kill-switch-google-cts",true],["career-center-magic-code-auth",true]],"__N_SSP":true},"page":"/jobs","query":{"keywords":"data","location":"India"},"buildId":"9495f5108b3651eb92c237c2e4eed25282c10ba1","assetPrefix":"https://assets.gr8people.com/builds/app-career-site","isFallback":false,"isExperimentalCompile":false,"gssp":true,"appGip":true,"scriptLoader":[]}</script></body></html>

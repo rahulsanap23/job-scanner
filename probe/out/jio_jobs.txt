@@ -1,0 +1,1827 @@
+
+
+
+<!Doctype HTML>
+<html class="no-js" lang="en">
+<head id="Head1"><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta property="og:title" /><meta property="og:type" /><meta property="og:url" /><meta property="og:image" />
+
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico" /><link rel="stylesheet" href="css/jquery-ui.css" /><link rel="stylesheet" href="css/main.css" /><meta name="theme-color" content="#fafafa" /><meta property="og:image" content="https://careers.jio.com/images/jio_New.jpg" />
+
+    <style>
+
+                    /*04 June 2026*/
+
+            .btn-theme-toggle {
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+                border: 1.5px solid #ccc;
+                background: #fff;
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: relative;
+                padding: 0;
+                transition: border-color 0.2s, background 0.2s;
+                margin-left: 5px;
+            }
+
+            .theme-sun-icon {
+                color: #222;
+                transition: color 0.25s, transform 0.6s ease;
+            }
+
+            .btn-theme-toggle:hover .theme-sun-icon {
+                transform: rotate(45deg);
+            }
+
+            .btn-theme-toggle.active .theme-sun-icon {
+                color: #3535f3;
+                transform: rotate(180deg);
+            }
+
+            .btn-theme-toggle.active {
+                border-color: #3535f3;
+                background: rgba(53, 53, 243, 0.07);
+            }
+ 
+    </style>
+
+
+
+    <!-- Google tag (gtag.js) -->
+    
+    
+
+
+    
+    
+     <link rel="canonical" href="https://careers.jio.com/ " />
+
+    <title>Home | Reliance Jio Careers</title>
+    <meta name="description" content="Explore job opportunities at Jio. Join our dynamic team and contribute to innovative projects in telecommunications, technology, and more. Apply now!">
+    <meta name="keywords" content="Jio careers, job opportunities, telecommunications jobs, technology jobs, Jio job openings, Jio recruitment, Reliance Jio job opportunities">
+
+    <!-- This will inject the block only on the homepage -->
+
+    <!-- 1. Organization Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Reliance Jio Infocomm Limited",
+      "url": "https://careers.jio.com",
+      "logo": "https://careers.jio.com/images/jio_New.jpg",
+      "sameAs": [
+        "https://www.jio.com",
+        "https://www.linkedin.com/company/jio/",
+        "https://x.com/reliancejio"
+      ],
+      "description": "Official careers portal for Reliance Jio Infocomm Limited"
+    }
+    </script>
+
+
+    <!-- 2. FAQPage Schema --> 
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "How do I apply for a job at Jio?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Visit careers.jio.com, browse open positions, and click Login & Apply to create an account and submit your application."
+        }
+      }]
+    }
+    </script>
+
+    <!-- 3. VideoObject Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "VideoObject",
+      "name": "Jio Virtual Campus Tour - RCP Navi Mumbai",
+      "description": "Take a virtual tour of Reliance Corporate Park in Ghansoli, Navi Mumbai",
+      "thumbnailUrl": "https://careers.jio.com/img/campus-tour.png",
+      "uploadDate": "2024-01-15",
+      "contentUrl": "https://careers.jio.com"
+    }
+    </script>
+
+    <!-- 4. EmployerAggregateRating Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "EmployerAggregateRating",
+      "itemReviewed": {
+        "@type": "Organization",
+        "name": "Reliance Jio Infocomm Limited"
+      },
+      "ratingValue": "4.1",
+      "reviewCount": "50000",
+      "bestRating": "5",
+      "worstRating": "1",
+      "author": {
+        "@type": "Organization",
+        "name": "AmbitionBox"
+      }
+    }
+    </script>
+
+        <!-- 5. Unified Structured Data Graph -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Jio Careers",
+      "url": "https://careers.jio.com",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://careers.jio.com/frmJobCategories.aspx"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+
+
+
+      
+    
+    
+      <!-- HOME PAGE SPECIFIC SCRIPT -->
+      <script>
+          function transfer() {
+              var txtKeyword = $('#MainContent_txtKeyword1').val();
+
+              var MultiCheckCombo1 = $('#MainContent_MultiCheckCombo').val();
+
+              $('#MainContent_hdnKeyword').val(txtKeyword);
+             
+             $('#MainContent_hdnLocation').val(MultiCheckCombo1);
+         }
+
+       </script>
+    <!--flexslider-->
+    
+
+  
+
+
+
+    <script src="js/accessibility.js"></script>
+    
+    <script>
+        function disableEnterKey(e) {
+            var key;
+            if (window.event) key = window.event.keyCode; // Internet Explorer
+            else
+                key = e.which;
+
+            return (key != 13);
+        }
+
+    </script>
+<title>
+	Jio careers
+</title></head>
+
+<body data-bs-spy="scroll" class="sectionscroll">
+
+    <!--Preloader start here-->
+    <div id="pre-load">
+        <div id="loader" class="loader">
+            <div class="loader-container">
+                <div class="loader-icon">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <form method="post" action="./" id="Form1" autocomplete="off">
+<div class="aspNetHidden">
+<input type="hidden" name="ToolkitScriptManager1_HiddenField" id="ToolkitScriptManager1_HiddenField" value="" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJNzI5OTEwOTg5D2QWAmYPZBYCAgMPZBYCAg0PDxYCHgdWaXNpYmxlaGRkGAEFHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfXxYBBQ1jdGwwMCRpbWdsb2dvQeEsIeFFoaUSIDz4S+E3mx0qTHZIvq7LsxhSJ1TveC4=" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['Form1'];
+if (!theForm) {
+    theForm = document.Form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=VHlmoceCgKsL3YUU4u5RcRP6dNw623b1rLuK-G-I_x9rRV3AO2_2CRJVIc7AohJPnfZpVinyemmSAHhyu5ao7SD_2rboy92PgvoX1r3bMBc1&amp;t=638942408819057530" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=uoVfDO_OmsW1GPxuCkMS-YRlj8rbVsQiVXfsGmYtbydLMWniuletRiBLZDax4Da4cWD-Trg6JcwnYDocUSSpQozI4TMF0kaIWhCV48jQOkP1mKT2_4stj0_OXJflZQQB5TZFO3w8tMqXk1mVjAY2CxYgoAbU6n6WWPETBtG2mXo1&amp;t=32e5dfca" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=NW3ThpEZPffXGnaySESySpM7IT-HLz-URFMz9aNbHrN4ZlpUYu3j7YgDP-Q8bewW9OYP08WfJW5vYaOyqtaYZGW5VOKBoING_mFxYsZInm6SGxC2EQBZNk2FQoNOf2pCFEoVqhAJ3EFt-juMiY4aiQtjdPLY13UHi4cB0agCwmGYsh71VdqcRZ6VDTJEOuyu0&amp;t=32e5dfca" type="text/javascript"></script>
+<script src="/index.aspx?_TSM_HiddenField_=ToolkitScriptManager1_HiddenField&amp;_TSM_CombinedScripts_=%3b%3bAjaxControlToolkit%2c+Version%3d3.0.30930.28736%2c+Culture%3dneutral%2c+PublicKeyToken%3d28f01b0e84b6d53e%3aen%3ab0eefc76-0092-471b-ab62-f3ddc8240d71%3ae2e86ef9%3a9ea3f0e2%3a9e8e87e9%3a1df13a87%3a4c9865be%3aba594826%3a2d0cbeda%3ac7c04611%3acd120801%3ac4c00916%3a3858419b%3a96741c43%3a38ec41c0" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+var PageMethods = function() {
+PageMethods.initializeBase(this);
+this._timeout = 0;
+this._userContext = null;
+this._succeeded = null;
+this._failed = null;
+}
+PageMethods.prototype = {
+_get_path:function() {
+ var p = this.get_path();
+ if (p) return p;
+ else return PageMethods._staticInstance.get_path();},
+GetDataTab1:function(succeededCallback, failedCallback, userContext) {
+return this._invoke(this._get_path(), 'GetDataTab1',false,{},succeededCallback,failedCallback,userContext); }}
+PageMethods.registerClass('PageMethods',Sys.Net.WebServiceProxy);
+PageMethods._staticInstance = new PageMethods();
+PageMethods.set_path = function(value) { PageMethods._staticInstance.set_path(value); }
+PageMethods.get_path = function() { return PageMethods._staticInstance.get_path(); }
+PageMethods.set_timeout = function(value) { PageMethods._staticInstance.set_timeout(value); }
+PageMethods.get_timeout = function() { return PageMethods._staticInstance.get_timeout(); }
+PageMethods.set_defaultUserContext = function(value) { PageMethods._staticInstance.set_defaultUserContext(value); }
+PageMethods.get_defaultUserContext = function() { return PageMethods._staticInstance.get_defaultUserContext(); }
+PageMethods.set_defaultSucceededCallback = function(value) { PageMethods._staticInstance.set_defaultSucceededCallback(value); }
+PageMethods.get_defaultSucceededCallback = function() { return PageMethods._staticInstance.get_defaultSucceededCallback(); }
+PageMethods.set_defaultFailedCallback = function(value) { PageMethods._staticInstance.set_defaultFailedCallback(value); }
+PageMethods.get_defaultFailedCallback = function() { return PageMethods._staticInstance.get_defaultFailedCallback(); }
+PageMethods.set_enableJsonp = function(value) { PageMethods._staticInstance.set_enableJsonp(value); }
+PageMethods.get_enableJsonp = function() { return PageMethods._staticInstance.get_enableJsonp(); }
+PageMethods.set_jsonpCallbackParameter = function(value) { PageMethods._staticInstance.set_jsonpCallbackParameter(value); }
+PageMethods.get_jsonpCallbackParameter = function() { return PageMethods._staticInstance.get_jsonpCallbackParameter(); }
+PageMethods.set_path("index.aspx");
+PageMethods.GetDataTab1= function(onSuccess,onFailed,userContext) {PageMethods._staticInstance.GetDataTab1(onSuccess,onFailed,userContext); }
+//]]>
+</script>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="90059987" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdACUk3xcfqCX6Cisrq92A0hZDBUg5Eq/BSV3jeXs7c2/fJ8ppoPH1Q5U9u5IDzGf1Iy4+O9A+cJxWPG0V22C5HaD3Y0EOm6k8O0YPNW38AMw/PvwdounjlGxXudzPhIiQTvSPCi98YBOjOTqoFwBIcCfE/0uLp+0u+xcRDbLC68XoOH0FJxWKQctPntzlYoJolWWlAPGHSGsHCFN7qG1noYxREib8Kjl3XvoAhGuA359uXuTbey/g/DrGPt0sqKyE1cTfg7wFuxkR4nsQAsYNwRz8zfUWaPdzQUzqt08ICBtj7Z0RjFXBjhb5sHrN+qW7nwnAZfcr1ZoR1vVws5xqPvsTyHCIPlAKHYknCQAOBRwPQtn9V5ai/FwzU3V6fU1i7omj524DGn07MoHrAA523+KfE0IP/WU3+sWBZxD5wqqPPi/PSAvxybIG70Gi7lMSo2GUM2QXjKqMZLlcCJYOpQfgqZYnyti8IhHB5wHK+VlJBwK1qm7+XfVHTd7W9xg0CM0vOBprMxOqyMyEBjqzd6Ujus/3X2QBJ8F5nVtCkvxzzeujeEL0DmelwSDaIiy0z83BiyyCIQYgdbAmd9My/JNqI7FH1v2xtqxxuz40QxVf8JxT05vXOTvQMkW9OFRu1Y1pZgdk/gaiHQjBkh36nAqsZWqoVMQURraGl3ZEUmw5FMfS8HTA3PHBq/akbStjm/lFREzrIHfT33D51+BsCd6knW2XkQlePgTkY5QuEJVhHnz3QsAZ86tYfVkH5/XvfyNtLYsz/iwIgEa9Sb+nrIxf+ns9Hu8R3YbCqGTxEdym6kaLUC1t4olQecJW/X7uu4A=" />
+</div>
+        <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ToolkitScriptManager1', 'Form1', [], [], [], 90, 'ctl00');
+//]]>
+</script>
+
+        <a href="#main-navigation" class="skip-link" role="button" aria-label="Skip to main content">Skip to main content
+        </a>
+        <!--header content -->
+        <header class="header" role="banner" tabindex="0" id="main-navigation">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <div class="hamburger" data-bs-toggle="collapse" data-bs-target="#main-menu">
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                    </div>
+                    <div class="navbar-brand">
+                        
+                        <input type="image" name="ctl00$imglogo" id="imglogo" role="link" src="img/logo.png" alt="Jio Careers Logo" />
+                        <span>Careers</span>
+                    </div>
+                    <div class="collapse navbar-collapse" id="main-menu">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item">
+
+                                <a href="index.aspx" id="homeSelect" class="nav-link" aria-current="page">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://www.jio.com/aboutus/" id="AoutUsSelect" class="nav-link">About Us</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                                <a id="jobopportunity" class="nav-link" href="javascript:__doPostBack(&#39;ctl00$jobopportunity&#39;,&#39;&#39;)">Job Opportunities</a>
+                            </li>
+                        </ul>
+                        <div class="d-lg-flex">
+                            
+                            <div class="dropdown">
+                                <button id="alumniDropdown" class="btn btn-white-outline my-xxl-0 my-xl-0 my-lg-0 my-4" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Alumni Corner
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="alumniDropdown">
+                                    <li><a class="dropdown-item" href="https://swayam.jio.com/alumni/" target="_blank">Alumni
+                                                Verification</a></li>
+                                    <li><a class="dropdown-item" href="https://swayam.jio.com/qms/" target="_blank">Alumni
+                                                Assistance</a></li>
+                                    <li><a class="dropdown-item" href="https://ess.jio.com/alumni" target="_blank">Alumni Portal</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="https://swayam.jio.com/learning-certification/ " target="_blank">JAT Certificate</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <a href="frmOfferCheck.aspx" type="button" class="btn btn-white-outline mx-lg-3">Validate Your Offer</a>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-end">
+                        <button type="button" class="btn btn-login-fill" data-bs-toggle="modal" data-bs-target="#login-modal">Login & Apply</button>
+                         
+                        <!-- Brand Contrast Toggle -->
+                           <button type="button" class="btn-theme-toggle" id="themeToggleABtn" aria-label="Toggle brand contrast"
+                            title="Brand Contrast">
+                            <svg class="theme-sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                             stroke-linejoin="round">
+                             <!-- centre circle -->
+                             <circle cx="12" cy="12" r="4" />
+                             <!-- 8 rays -->
+                             <line x1="12" y1="2" x2="12" y2="5" />
+                             <line x1="12" y1="19" x2="12" y2="22" />
+                             <line x1="2" y1="12" x2="5" y2="12" />
+                             <line x1="19" y1="12" x2="22" y2="12" />
+                             <line x1="4.22" y1="4.22" x2="6.34" y2="6.34" />
+                             <line x1="17.66" y1="17.66" x2="19.78" y2="19.78" />
+                             <line x1="19.78" y1="4.22" x2="17.66" y2="6.34" />
+                             <line x1="6.34" y1="17.66" x2="4.22" y2="19.78" />
+                            </svg>
+                           </button>
+                    </div>
+                </div>
+            </nav>
+
+        </header>
+        <!--header end-->
+        
+        <div class="clear"></div>
+        
+    <input type="hidden" name="ctl00$MainContent$hdnURL" id="MainContent_hdnURL" /> 
+        <input type="hidden" name="ctl00$MainContent$hdnToken" id="MainContent_hdnToken" value="1747099104" />
+        <input type="hidden" name="ctl00$MainContent$hdnmaibaap" id="MainContent_hdnmaibaap" />
+        <input type="hidden" name="ctl00$MainContent$hdnLocation" id="MainContent_hdnLocation" />
+        <input type="hidden" name="ctl00$MainContent$hdnfuncation" id="MainContent_hdnfuncation" />
+        <input type="hidden" name="ctl00$MainContent$hdnKeyword" id="MainContent_hdnKeyword" />
+
+    	<!-- Main Content -->
+	<main>
+		<!-- Home Slider -->
+		<section class="section slider" tabindex="0">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 text-end order-lg-2">
+						<div class="banner-img">
+							<img src="img/banner-img.png" data-aos="fade-left" class="img-fluid" alt="Banner">
+						</div> 
+					</div>
+					<div class="col-lg-6 order-lg-1">
+						<div class="slide-content">
+                            
+							<h3 data-aos="fade-right" role="heading" aria-level="1">
+								It&apos;s time to
+								<span class="vertical-text-slider">
+									<div class="slide consistent-text">Be Consistent!</div>
+									<div class="slide lead-text">Lead!</div>
+									<div class="slide create-text">Create!</div>
+									<div class="slide inspire-text">Inspire!</div>
+									<div class="slide encourage-text">Encourage!</div>
+								</span>
+							</h3>
+							<p class="mt-4" data-aos="fade-right" data-aos-delay="200">Make a new start. A start that will build beautiful relationships, shape millions of ideas. We are geared up to touch the lives of over a billion Indians! <strong>Are you?</strong></p>
+							<p data-aos="fade-right" data-aos-delay="300" class="head">Come join us and build your dream team</p>
+							<div class="form" data-aos="fade-right" data-aos-delay="400">
+								<div class="row">
+									<div class="col-md-5">
+										
+                                        <input name="ctl00$MainContent$txtKeyword1" type="text" maxlength="50" id="MainContent_txtKeyword1" class="form-control txt-box-full" placeholder="Role eg: Software Engineer" onkeypress="return IsAlphaNumeric(event,this);" onpaste="return false;" />
+                                         
+									</div>
+									<div class="col-md-5">									
+										<div class="input-group">
+											<span class="input-group-text">
+												<img src="img/location-icon.png" alt="Location">
+											</span>
+											
+                                        <input name="ctl00$MainContent$MultiCheckCombo" type="text" maxlength="50" id="MainContent_MultiCheckCombo" class="form-control txt-box-full" placeholder="Location" onkeypress="return IsAlphaNumeric(event,this);" onpaste="return false;" />
+                                         
+										</div>
+									</div>
+									<div class="col-md-2 text-end">
+										<button onclick="javascript: transfer(); __doPostBack('ctl00$MainContent$Search','')" id="MainContent_Search" type="submit" class="btn btn-search" aria-label="Search">
+											<svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M9.29102 8.1761H8.70383L8.49571 7.97541C9.2493 7.10133 9.66348 5.98542 9.66266 4.83133C9.66266 3.87579 9.37931 2.9417 8.84844 2.14719C8.31756 1.35268 7.56301 0.733437 6.6802 0.367765C5.79739 0.00209334 4.82597 -0.0935831 3.88879 0.0928349C2.9516 0.279253 2.09074 0.739392 1.41507 1.41507C0.739392 2.09074 0.279253 2.9516 0.0928349 3.88879C-0.0935831 4.82597 0.00209334 5.79739 0.367765 6.6802C0.733437 7.56301 1.35268 8.31756 2.14719 8.84844C2.9417 9.37931 3.87579 9.66266 4.83133 9.66266C6.02802 9.66266 7.12807 9.22413 7.97541 8.49571L8.1761 8.70383V9.29102L11.8925 13L13 11.8925L9.29102 8.1761ZM4.83133 8.1761C2.98056 8.1761 1.48657 6.6821 1.48657 4.83133C1.48657 2.98056 2.98056 1.48657 4.83133 1.48657C6.6821 1.48657 8.1761 2.98056 8.1761 4.83133C8.1761 6.6821 6.6821 8.1761 4.83133 8.1761Z" fill="white"/>
+											</svg>										
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- About -->
+
+
+		<!-- Spotlight -->
+		<section class="section spotlight pb-0" tabindex="0">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<h3 class="section-title mb-4" data-aos="fade-up" role="heading" aria-level="2">Spotlight</h3>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xl-6 col-lg-12">
+						<div class="row">
+							<div class="col-xl-12 col-lg-6 mt-xl-0 mb-lg-0">
+								<div class="spot-box spot-bg1 mb-4" data-aos="flip-right">
+									<div class="spot-box-content d-flex align-items-center">
+										<div class="flex-shrink-0" data-aos="fade-right">
+											<img src="img/spotlight/students.png" alt="Students/Campus Opportunities">
+										</div>
+										<div class="flex-grow-1 mt-4 ms-2">
+											<h3 data-aos="fade-left">Students/Campus<br>Opportunities</h3>
+											<p>Kick start your careers with Jio. Explore limitless opportunities and enable Digital Life in India</p>
+											<a href="frmStudent_Campus.aspx" class="know-more" data-aos="fade-left" role="link">
+												See jobs
+												<svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+													<g fill="none" stroke="#000093" stroke-width="1.5" stroke-linejoin="round" stroke-miterlimit="10">
+														<circle class="icon-circle" cx="16" cy="16" r="14.11" />
+														<path class="icon-arrow" d="m12.855 9.93 6.07 6.07-6.07 6.07" />
+													</g>
+												</svg>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-12 col-lg-6 mt-xl-0 mt-lg-5">
+								<div class="spot-box spot-bg3" data-aos="flip-right">
+									<div class="spot-box-content d-flex align-items-center">
+										<div class="flex-grow-1 ms-4">
+											<h3 data-aos="fade-left">PWD Opportunity at<br>Jio!</h3>
+											
+                                            <p>Jio is commited to provide employment opportunities and fostering an inclusive workplace! Kickstart your careers now!</p>
+											<a href="frmfttxjobs.aspx" class="know-more" data-aos="fade-left" role="link">
+												See jobs
+												<svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+													<g fill="none" stroke="#000093" stroke-width="1.5" stroke-linejoin="round" stroke-miterlimit="10">
+														<circle class="icon-circle" cx="16" cy="16" r="14.11" />
+														<path class="icon-arrow" d="m12.855 9.93 6.07 6.07-6.07 6.07" />
+													</g>
+												</svg>
+											</a>
+										</div>
+										<div class="flex-shrink-0" data-aos="fade-right">
+											<img src="img/spotlight/technology-jobs.png" alt="Technologu Jobs">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- <div class="col-xl-4 col-lg-12">
+						<div class="spot-box spot-bg3" data-aos="flip-up">
+							<div class="spot-box-content text-center p-4">
+								<h3 class="mt-5 mb-3" data-aos="fade-up">Technology Jobs at<br>Jio Platforms Limited</h3>
+								<a href="#!" class="know-more" data-aos="fade-up">
+									See jobs
+									<svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+										<g fill="none" stroke="#000093" stroke-width="1.5" stroke-linejoin="round" stroke-miterlimit="10">
+											<circle class="icon-circle" cx="16" cy="16" r="14.11" />
+											<path class="icon-arrow" d="m12.855 9.93 6.07 6.07-6.07 6.07" />
+										</g>
+									</svg>
+								</a>
+								<div class="mt-4 pt-2" data-aos="fade-up">
+									<img src="img/spotlight/technology-jobs.png" class="img-fluid mt-3" alt="">
+								</div>
+							</div>
+						</div>
+					</div> -->
+					<div class="col-xl-6 col-lg-12">
+						<div class="row">
+							<div class="col-xl-12 col-lg-6 mt-xl-0 mt-lg-4">
+								<div class="spot-box spot-bg4 mb-4" data-aos="flip-left">
+									<div class="spot-box-content d-flex align-items-center">
+										<div class="flex-grow-1 ms-4">
+											<h3 data-aos="fade-right">Jio Point Jobs</h3>
+											<p>Join our Jio Point Team and be a part of the digital India Movement</p>
+											<a href="frmPointjob.aspx" class="know-more" data-aos="fade-right" role="link">
+												See jobs
+												<svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+													<g fill="none" stroke="#000093" stroke-width="1.5" stroke-linejoin="round" stroke-miterlimit="10">
+														<circle class="icon-circle" cx="16" cy="16" r="14.11" />
+														<path class="icon-arrow" d="m12.855 9.93 6.07 6.07-6.07 6.07" />
+													</g>
+												</svg>
+											</a>
+										</div>
+										<div class="flex-shrink-0" data-aos="fade-left">
+											<img src="img/spotlight/jio-point-jobs.png" alt="Jio Point Jobs">
+										</div>
+									</div>
+								</div>
+							</div>
+							
+							<div class="col-xl-12 col-lg-6 mt-xl-0 mt-lg-4">
+								<div class="spot-box spot-bg2" data-aos="flip-left">
+									<div class="spot-box-content d-flex align-items-center">
+										<div class="flex-grow-1 ms-4"> 
+											<h3 data-aos="fade-right">Jio Certified<br>Freelancer Technician</h3>
+											<p>Explore technical freelancing opportunities with Jio to enable Digital Life in India.</p>
+											<a href="frmSecondCareer.aspx" class="know-more" data-aos="fade-right" role="link">
+												See jobs
+												<svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+													<g fill="none" stroke="#000093" stroke-width="1.5" stroke-linejoin="round" stroke-miterlimit="10">
+														<circle class="icon-circle" cx="16" cy="16" r="14.11" />
+														<path class="icon-arrow" d="m12.855 9.93 6.07 6.07-6.07 6.07" />
+													</g>
+												</svg>
+											</a>
+										</div>
+										<div class="flex-shrink-0" data-aos="fade-left">
+											<img src="img/spotlight/sales-market.png" alt="Sales Market">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Find Your Team -->
+		<section class="section team pb-0" tabindex="0">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8">
+						<h4 class="section-lable gray-bg" data-aos="fade-up" role="heading" aria-level="2">Find Your Team</h4>
+						<div class="row align-items-center position-relative">
+							<div class="col-lg-5 col-md-6">
+								<div class="teams-content">
+									<h1 data-aos="fade-right" role="heading" aria-level="3">Enable a New Way to Live !</h1>
+									<a id="MainContent_jobopportunity" class="know-more" data-aos="fade-right" href="javascript:__doPostBack(&#39;ctl00$MainContent$jobopportunity&#39;,&#39;&#39;)">
+										View all teams
+										<svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+											<g fill="none" stroke="#000093" stroke-width="1.5" stroke-linejoin="round" stroke-miterlimit="10">
+												<circle class="icon-circle" cx="16" cy="16" r="14.11" />
+												<path class="icon-arrow" d="m12.855 9.93 6.07 6.07-6.07 6.07" />
+											</g>
+										</svg>
+									</a>
+								</div>
+							</div>
+							<div class="col-lg-7 col-md-6" data-aos="zoom-in">
+								<img src="img/teams/teams.png" class="img-fluid" alt="">
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 ps-lg-5">
+						<ul class="teams-link" role="presentation">
+							<li data-aos="fade-left" data-aos-delay="100" role="presentation">
+								<a id="MainContent_SalesDistribution" href="javascript:__doPostBack(&#39;ctl00$MainContent$SalesDistribution&#39;,&#39;&#39;)"><img src="img/teams/icon1.jpg" class="me-2" alt=""> Sales & Distribution</a>
+							</li>
+							<li data-aos="fade-left" data-aos-delay="200" role="presentation">
+								<a id="MainContent_EngineeringTech" href="javascript:__doPostBack(&#39;ctl00$MainContent$EngineeringTech&#39;,&#39;&#39;)"><img src="img/teams/icon2.jpg" class="me-2" alt=""> Engineering & Technology</a>
+							</li>
+							<li data-aos="fade-left" data-aos-delay="300" role="presentation">
+								<a id="MainContent_ITSystem" href="javascript:__doPostBack(&#39;ctl00$MainContent$ITSystem&#39;,&#39;&#39;)"><img src="img/teams/icon3.jpg" class="me-2" alt=""> IT & Systems</a>
+							</li>
+							<li data-aos="fade-left" data-aos-delay="400" role="presentation">
+								<a id="MainContent_HumanResourceTraining" href="javascript:__doPostBack(&#39;ctl00$MainContent$HumanResourceTraining&#39;,&#39;&#39;)"><img src="img/teams/icon4.jpg" class="me-2" alt=""> Human Resources & Training</a>
+							</li>
+							<li data-aos="fade-left" data-aos-delay="500" role="presentation">
+								<a id="MainContent_FinanceCompliance" href="javascript:__doPostBack(&#39;ctl00$MainContent$FinanceCompliance&#39;,&#39;&#39;)"><img src="img/teams/icon5.jpg" class="me-2" alt=""> Finance, Compliance & Accounting</a>
+							</li>
+							<li data-aos="fade-left" data-aos-delay="600" role="presentation">
+								<a id="MainContent_Operations" href="javascript:__doPostBack(&#39;ctl00$MainContent$Operations&#39;,&#39;&#39;)"><img src="img/teams/icon6.jpg" class="me-2" alt=""> Operations</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Campus -->
+		<section class="section campus position-relative pb-0" tabindex="0">
+			<div class="container-fluid p-0">
+				<div class="row align-items-center m-0">
+					<div class="col-lg-6 p-0" data-aos="zoom-out-right">
+						<img src="img/campus-tour.png" class="img-fluid w-100" alt="Campous Tour">
+					</div>
+					<div class="col-lg-6 p-0">
+						<div class="p-3 p-lg-5">
+			                <a href="#!" class="campus-video" data-bs-toggle="modal" data-src="video/RCP_HD-video.mp4" data-bs-target="#campus-video-pop" data-aos="zoom-out">
+								<img src="img/play.png" alt="Play video">
+							</a>
+			                <div class="campus-video" data-bs-toggle="modal" data-src="video/RCP_HD-video.mp4" data-bs-target="#campus-video-pop" data-aos="zoom-out" tabindex="0">
+								<img src="img/play.png" alt="Play" role="button">
+							</div>
+							<h3 data-aos="fade-left" role="heading" aria-level="3">Virtual Campus Tour</h3>
+							<p data-aos="fade-left" data-aos-delay="200">Let us take you for a Virtual Tour of our RCP Campus located in Ghansoli, Navi Mumbai</p>
+						</div>
+					</div>
+				</div>
+            </div>
+            <div class="modal fade" id="campus-video-pop" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content bg-dark">
+                        <div class="modal-body p-0">
+                            <video id="videoPlayer" class="w-100" controls>
+                                <source id="videoSource" src="" type="video/mp4">
+                                Your browser does not support HTML5 video.
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hot Jobs -->
+
+        <!-- New slider section -->
+		<section class="section hotjobs pb-0">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 mb-4">
+						<h4 class="section-lable gray-bg" data-aos="fade-up">Hot Jobs</h4>
+					</div>
+					<div class="col-12">
+						<div class="hotjobs-slider" data-aos="flip-down">
+
+							<!-- new slider added aditya -->
+							<!-- SLIDE 1 â€” Smart App -->
+							<div class="hotjobs-box">
+								<a href="#!">
+									<div class="original-view">
+										<img src="img/hot-jobs/hot_jobs_1.jpg" class="w-100"
+											alt="Smart App For Smart Candidates â€“ Download Your JioCareers App">
+									</div>
+									<div class="contrast-view">
+										<div class="hotjob-card-wrap">
+											<img src="img/hot-jobs/hot-jobs-contrast1.jpg" class="w-100" alt="">
+											<div class="hotjob-text-overlay hotjob-overlay--right">
+												<h3 class="hotjob-title">
+													<span>SMART APP FOR</span>
+													<span>SMART CANDIDATES</span>
+												</h3>
+												<p class="hotjob-subtitle">Download Your JioCareers App</p>
+												<div class="hotjob-store-btns">
+													<span class="hotjob-store-btn">
+														<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+															viewBox="0 0 24 24" fill="currentColor">
+															<path
+																d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98l-.09.06c-.22.15-2.18 1.27-2.16 3.8.03 3.02 2.65 4.03 2.68 4.04l-.07.28zM13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z" />
+														</svg>
+														App Store
+													</span>
+													<span class="hotjob-store-btn">
+														<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+															viewBox="0 0 24 24" fill="currentColor">
+															<path
+																d="M3 20.5v-17c0-.83.94-1.3 1.6-.8l14 8.5c.6.36.6 1.24 0 1.6l-14 8.5c-.66.5-1.6.03-1.6-.8z" />
+														</svg>
+														Play Store
+													</span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</a>
+							</div>
+
+							<!-- SLIDE 2 â€” Hiring Sales Professional -->
+							<div class="hotjobs-box">
+								<a href="#!">
+									<div class="original-view">
+										<img src="img/hot-jobs/hot_jobs_3.jpg" class="w-100"
+											alt="Hiring Direct Sales Professional â€“ Join The JioFiber Movement">
+									</div>
+									<div class="contrast-view">
+										<div class="hotjob-card-wrap">
+											<img src="img/hot-jobs/hot-jobs-contrast2.png" class="w-100" alt="">
+											<div class="hotjob-text-overlay hotjob-overlay--center">
+												<h3 class="hotjob-title">
+													<span>HIRING DIRECT</span>
+													<span>SALES PROFESSIONAL</span>
+												</h3>
+												<ul class="hotjob-benefits">
+													<li>
+														<svg width="66" height="66" viewBox="0 0 66 66" fill="none"
+															xmlns="http://www.w3.org/2000/svg"
+															xmlns:xlink="http://www.w3.org/1999/xlink">
+															<rect width="66" height="66"
+																fill="url(#pattern0_4666_4482)" />
+															<defs>
+																<pattern id="pattern0_4666_4482"
+																	patternContentUnits="objectBoundingBox" width="1"
+																	height="1">
+																	<use xlink:href="#image0_4666_4482"
+																		transform="translate(-5.81818 -2.75758) scale(0.0151515)" />
+																</pattern>
+																<image id="image0_4666_4482" width="1170" height="450" preserveAspectRatio="none" xlink:href="img/hot-jobs/benefit-icon-1.png"></image>
+															</defs>
+														</svg>
+														<span>Exciting Salary</span>
+													</li>
+													<li>
+														<svg width="66" height="66" viewBox="0 0 66 66" fill="none"
+															xmlns="http://www.w3.org/2000/svg"
+															xmlns:xlink="http://www.w3.org/1999/xlink">
+															<rect width="66" height="66"
+																fill="url(#pattern0_4666_4479)" />
+															<defs>
+																<pattern id="pattern0_4666_4479"
+																	patternContentUnits="objectBoundingBox" width="1"
+																	height="1">
+																	<use xlink:href="#image0_4666_4479"
+																		transform="translate(-8.21212 -2.75758) scale(0.0151515)" />
+																</pattern>
+																<image id="image0_4666_4479" width="1170" height="450" preserveAspectRatio="none" xlink:href="img/hot-jobs/benefit-icon-1.png"></image>
+															</defs>
+														</svg>
+
+
+														<span>Attractive Incentive</span>
+													</li>
+													<li>
+														<svg width="66" height="66" viewBox="0 0 66 66" fill="none"
+															xmlns="http://www.w3.org/2000/svg"
+															xmlns:xlink="http://www.w3.org/1999/xlink">
+															<rect width="66" height="66"
+																fill="url(#pattern0_4666_4476)" />
+															<defs>
+																<pattern id="pattern0_4666_4476"
+																	patternContentUnits="objectBoundingBox" width="1"
+																	height="1">
+																	<use xlink:href="#image0_4666_4476"
+																		transform="translate(-10.8636 -2.75758) scale(0.0151515)" />
+																</pattern>
+																<image id="image0_4666_4476" width="1170" height="450" preserveAspectRatio="none" xlink:href="img/hot-jobs/benefit-icon-1.png"></image>
+															</defs>
+														</svg>
+
+														<span>Additional Benefits</span>
+													</li>
+												</ul>
+												<p class="hotjob-cta">Join The JioFiber Movement</p>
+												<div class="hotjob-requirement">
+													<span class="hotjob-req-label">Basic Requirement</span>
+													<span class="hotjob-req-text">10 + 2 With Direct Selling
+														Experience</span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</a>
+							</div>
+
+							<!-- SLIDE 3 -->
+							<div class="hotjobs-box">
+								<a href="#!">
+									<div class="original-view">
+										<img src="img/hot-jobs/hot_jobs_2.jpg" class="w-100"
+											alt="Hiring Sales Professional â€“ Join The Jio Digital Movement">
+									</div>
+									<div class="contrast-view">
+										<div class="hotjob-card-wrap">
+											<img src="img/hot-jobs/hot-jobs-contrast3.png" class="w-100" alt="">
+											<div class="hotjob-text-overlay hotjob-overlay--left">
+												<h3 class="hotjob-title">
+													<span>HIRING SALES</span>
+													<span>PROFESSIONAL</span>
+												</h3>
+												<ul class="hotjob-benefits">
+													<li>
+														<svg width="60" height="60" viewBox="0 0 60 60" fill="none"
+															xmlns="http://www.w3.org/2000/svg"
+															xmlns:xlink="http://www.w3.org/1999/xlink">
+															<rect width="60" height="60"
+																fill="url(#pattern0_4666_4500)" />
+															<defs>
+																<pattern id="pattern0_4666_4500"
+																	patternContentUnits="objectBoundingBox" width="1"
+																	height="1">
+																	<use xlink:href="#image0_4666_4500"
+																		transform="translate(-3.53333 -3.01667) scale(0.00833333)" />
+																</pattern>
+																<image id="image0_4666_4500" width="2340" height="900" preserveAspectRatio="none" xlink:href="img/hot-jobs/benefit-icon-2.png"></image>
+															</defs>
+														</svg>
+
+														<span>Attractive Salary+<br>Incentive</span>
+													</li>
+													<li>
+														<svg width="60" height="60" viewBox="0 0 60 60" fill="none"
+															xmlns="http://www.w3.org/2000/svg"
+															xmlns:xlink="http://www.w3.org/1999/xlink">
+															<rect width="60" height="60"
+																fill="url(#pattern0_4666_4497)" />
+															<defs>
+																<pattern id="pattern0_4666_4497"
+																	patternContentUnits="objectBoundingBox" width="1"
+																	height="1">
+																	<use xlink:href="#image0_4666_4497"
+																		transform="translate(-5.61666 -3.01667) scale(0.00833333)" />
+																</pattern>
+																<image id="image0_4666_4497" width="2340" height="900" preserveAspectRatio="none" xlink:href="img/hot-jobs/benefit-icon-2.png"></image>
+															</defs>
+														</svg>
+
+														<span>Exciting Career</span>
+													</li>
+													<li>
+														<svg width="60" height="60" viewBox="0 0 60 60" fill="none"
+															xmlns="http://www.w3.org/2000/svg"
+															xmlns:xlink="http://www.w3.org/1999/xlink">
+															<rect width="60" height="60"
+																fill="url(#pattern0_4666_4494)" />
+															<defs>
+																<pattern id="pattern0_4666_4494"
+																	patternContentUnits="objectBoundingBox" width="1"
+																	height="1">
+																	<use xlink:href="#image0_4666_4494"
+																		transform="translate(-7.45 -3.01667) scale(0.00833333)" />
+																</pattern>
+																<image id="image0_4666_4494" width="2340" height="900" preserveAspectRatio="none" xlink:href="img/hot-jobs/benefit-icon-2.png"></image>
+															</defs>
+														</svg>
+
+														<span>Additional Benefits</span>
+													</li>
+												</ul>
+												<p class="hotjob-cta">JOIN THE JIO DIGITAL MOVEMENT</p>
+												<div class="hotjob-requirement">
+													<span class="hotjob-req-label">Basic Requirement</span>
+													<span class="hotjob-req-text">Graduate with Frontline Sales
+														Experience</span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</a>
+							</div>
+
+							<!-- SLIDE 4 -->
+							 <div class="hotjobs-box">
+								<a href="#!">
+									<div class="original-view">
+										<img src="img/hot-jobs/hot_jobs_3.jpg" class="w-100"
+											alt="Hiring Direct Sales Professional â€“ Join The JioFiber Movement">
+									</div>
+									<div class="contrast-view">
+										<div class="hotjob-card-wrap">
+											<img src="img/hot-jobs/hot-jobs-contrast2.png" class="w-100" alt="">
+											<div class="hotjob-text-overlay hotjob-overlay--center">
+												<h3 class="hotjob-title">
+													<span>HIRING DIRECT</span>
+													<span>SALES PROFESSIONAL</span>
+												</h3>
+												<ul class="hotjob-benefits">
+													<li>
+														<svg width="66" height="66" viewBox="0 0 66 66" fill="none"
+															xmlns="http://www.w3.org/2000/svg"
+															xmlns:xlink="http://www.w3.org/1999/xlink">
+															<rect width="66" height="66"
+																fill="url(#pattern0_4666_4482)" />
+															<defs>
+																<pattern id="pattern0_4666_4482"
+																	patternContentUnits="objectBoundingBox" width="1"
+																	height="1">
+																	<use xlink:href="#image0_4666_4482"
+																		transform="translate(-5.81818 -2.75758) scale(0.0151515)" />
+																</pattern>
+																<image id="image0_4666_4482" width="1170" height="450" preserveAspectRatio="none" xlink:href="img/hot-jobs/benefit-icon-1.png"></image>
+															</defs>
+														</svg>
+														<span>Exciting Salary</span>
+													</li>
+													<li>
+														<svg width="66" height="66" viewBox="0 0 66 66" fill="none"
+															xmlns="http://www.w3.org/2000/svg"
+															xmlns:xlink="http://www.w3.org/1999/xlink">
+															<rect width="66" height="66"
+																fill="url(#pattern0_4666_4479)" />
+															<defs>
+																<pattern id="pattern0_4666_4479"
+																	patternContentUnits="objectBoundingBox" width="1"
+																	height="1">
+																	<use xlink:href="#image0_4666_4479"
+																		transform="translate(-8.21212 -2.75758) scale(0.0151515)" />
+																</pattern>
+																<image id="image0_4666_4479" width="1170" height="450" preserveAspectRatio="none" xlink:href="img/hot-jobs/benefit-icon-1.png"></image>
+															</defs>
+														</svg>
+
+
+														<span>Attractive Incentive</span>
+													</li>
+													<li>
+														<svg width="66" height="66" viewBox="0 0 66 66" fill="none"
+															xmlns="http://www.w3.org/2000/svg"
+															xmlns:xlink="http://www.w3.org/1999/xlink">
+															<rect width="66" height="66"
+																fill="url(#pattern0_4666_4476)" />
+															<defs>
+																<pattern id="pattern0_4666_4476"
+																	patternContentUnits="objectBoundingBox" width="1"
+																	height="1">
+																	<use xlink:href="#image0_4666_4476"
+																		transform="translate(-10.8636 -2.75758) scale(0.0151515)" />
+																</pattern>
+																<image id="image0_4666_4476" width="1170" height="450" preserveAspectRatio="none" xlink:href="img/hot-jobs/benefit-icon-1.png"></image>
+															</defs>
+														</svg>
+
+														<span>Additional Benefits</span>
+													</li>
+												</ul>
+												<p class="hotjob-cta">Join The JioFiber Movement</p>
+												<div class="hotjob-requirement">
+													<span class="hotjob-req-label">Basic Requirement</span>
+													<span class="hotjob-req-text">10 + 2 With Direct Selling
+														Experience</span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+        <!-- Galleria -->
+		<section id="galleria-section" class="section galleria pb-0" tabindex="0">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 mb-4">
+						<h4 class="section-lable gray-bg" data-aos="fade-up" role="heading" aria-level="2">Galleria</h4>
+					</div>
+					<div class="col-12">
+						<div class="galleria-slider" data-aos="zoom-out">
+                            <div class="galleria-box">
+                                <a href="img/galleria/image-1.jpg" data-toggle="lightbox" data-gallery="example-gallery" role="button">
+									<img src="img/galleria/image-1.jpg" class="w-100" alt="Jio Learning and Development Center">
+								</a>
+							</div>
+							<div class="galleria-box">
+                                <a href="img/galleria/image-2.jpg" data-toggle="lightbox" data-gallery="example-gallery" role="button">
+									<img src="img/galleria/image-2.jpg" class="w-100" alt="Jio True 5G">
+								</a>
+							</div>
+							<div class="galleria-box">
+                                <a href="img/galleria/image-3.jpg" data-toggle="lightbox" data-gallery="example-gallery" role="button">
+									<img src="img/galleria/image-3.jpg" class="w-100" alt="Jio team">
+								</a>
+							</div>
+							<div class="galleria-box">
+                                <a href="img/galleria/image-4.jpg" data-toggle="lightbox" data-gallery="example-gallery" role="button">
+									<img src="img/galleria/image-4.jpg" class="w-100" alt="Jio Learning and Development Center">
+								</a>
+							</div>
+							<div class="galleria-box">
+                                <a href="img/galleria/image-5.jpg" data-toggle="lightbox" data-gallery="example-gallery" role="button">
+									<img src="img/galleria/image-5.jpg" class="w-100" alt="Jio Airfiber">
+								</a>
+							</div>
+							<div class="galleria-box">
+                                <a href="img/galleria/image-6.jpg" data-toggle="lightbox" data-gallery="example-gallery" role="button">
+									<img src="img/galleria/image-6.jpg" class="w-100" alt="Jio Team">
+								</a>
+							</div>
+                        </div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<!-- Testimonial -->
+		<section class="section testimonial pb-0" role="dialog" tabindex="0">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 mb-4">
+						<h4 class="section-lable gray-bg" data-aos="fade-up" role="heading" aria-level="2">Employee Testimonial</h4>
+					</div>
+					<div class="col-12">
+						<div class="testimonial-slider" data-aos="fade-up">
+                            <div class="testimonial-box">
+                                <div class="icon">
+									<img src="img/testimonial/asit.png" alt="Testimonial">
+								</div>
+								<p>&quot;After working for 30 years, I thought I'd seen it all, but the last five years have been an amazing learning journey. For me, it's a privilege to be part of a team that has created history. You know, the information communication, super highway that we have created at Jio has laid the basic foundation for taking the Indian economy to its desired levels. And I'm sure that this is only the first chapter in the book of creating history that Jio is making. We will see many more chapters unfolding as we go along. Look forward to that and look forward to enjoy working with Jio&quot;.</p>
+								<h3 class="name">Asit Shekhar <!--<span class="profile">UI Designer</span>--></h3> 
+							</div>
+							<div class="testimonial-box">
+                                <div class="icon">
+									<img src="img/testimonial/ankur.png" alt="Testimonial">
+								</div>
+								<p>&quot;We have disrupted the industry, we have driven societal impact. The Fortune magazine recognised us as a world leader in the 'Change the World' report in 2018.  We are now at the next inflection point; we have a lot to achieve! I'm excited&quot;</p>
+								 <h3 class="name">Ankur Walunjkar <!--<span class="profile">UI Designer</span>--></h3> 
+							</div>
+							<div class="testimonial-box">
+                                <div class="icon">
+									<img src="img/testimonial/deep.png" alt="Testimonial">
+								</div>
+								<p>&quot;As someone with over 25 years of experience in the service industry, I have led numerous transformation projects. However, Jio's transformative journey stands out truly remarkable. Whether it's the 4G revolution, the transition from 4G to 5G, the introduction of AirFiber, or their future plans for Space Fiber and beyond. Jio consistently embraces change and innovation as part of its DNA. I am greatly excited to be a part of this journey.&quot;</p>
+								<h3 class="name">Deep Kanwar <!-- <span class="profile">Project Manager</span> --> </h3>
+							</div>
+							<div class="testimonial-box">
+                                <div class="icon">
+									<img src="img/testimonial/kamal.png" alt="Testimonial">
+								</div>
+								<p>&quot;I have been in telecom industry last 24 years and I've seen the evolution of 2G to 3G & 3G to 4G and definitely, it is under the plan of prime minister Digital India initiative to transform India. And I hope this evolution from 4G to 5G will be game changer for India and definitely it will be Reliance Jio who will be launching this first in the market and getting the momentum.&quot;</p>
+								<h3 class="name">Kamal Bhatia <!-- <span class="profile">Project Manager</span> --> </h3>
+							</div>
+							<div class="testimonial-box">
+                                <div class="icon">
+									<img src="img/testimonial/amitabh.png" alt="Testimonial">
+								</div>
+								<p>&quot;Jio in India has unleashed unparalleled digital revolution with its world class digital network, giving its customer the best and the largest 4G service across India and happy and proud to say that the jio is the most preferred 4G player in Karnataka with 2.2+crore customers already on Jio's network in Karnataka and more and more joining every hour&quot;.</p>
+								<h3 class="name">Amitabh Bhatia <!-- <span class="profile">Project Manager</span> --> </h3>
+							</div>
+                        </div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<!-- Awards -->
+		<section id="awards-section" class="section awards " tabindex="0">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 mb-4">
+						<h4 class="section-lable gray-bg" data-aos="fade-up" role="heading" aria-level="2">Awards & Accolades</h4>
+					</div>
+					<div class="col-12">
+						<div class="awards-slider" data-aos="fade-up">
+							
+							<div class="awards-box bg1">
+								<div class="awards-box-content">
+									<div class="d-flex">
+										<div class="me-auto">
+											<img src="img/awards/award7.png" alt="Award">
+										</div>
+										<div class="year">
+											2026
+										</div>
+									</div>
+									<h4 class="mt-4 mb-4">winner</h4>
+									<p>ABECA 2026: AmbitionBox Employee Choice Awards</p>
+									<!-- <div class="award-location">
+										Mumbai
+									</div> -->
+								</div>
+							</div>							
+							<div class="awards-box bg1">
+								<div class="awards-box-content">
+									<div class="d-flex">
+										<div class="me-auto">
+											<img src="img/awards/award6.png" alt="Award">
+										</div>
+										<div class="year">
+											2024
+										</div>
+									</div>
+									<h4 class="mt-4 mb-4">winner</h4>
+									<p>ABECA 2024: AmbitionBox Employee Choice Awards</p>
+									<!-- <div class="award-location">
+										Mumbai
+									</div> -->
+								</div>
+							</div>
+
+							<div class="awards-box bg2">
+								<div class="awards-box-content">
+									<div class="d-flex">
+										<div class="me-auto">
+											<img src="img/awards/award4.png" alt="Award">
+										</div>
+										<div class="year">
+											2023
+										</div>
+									</div>
+									<h4 class="mt-4 mb-4">winner</h4>
+									<p>Training: Economic Times Gold Award for Best Corporate Learning University</p>
+									<!-- <div class="award-location">
+										Mumbai
+									</div> -->
+								</div>
+							</div>
+							<div class="awards-box bg3">
+								<div class="awards-box-content">
+									<div class="d-flex">
+										<div class="me-auto">
+											<img src="img/awards/award5.png" alt="Award">
+										</div>
+										<div class="year">
+											2023
+										</div>
+									</div>
+									<h4 class="mt-4 mb-4">winner</h4>
+									<p>Brandon Hall Gold Award for Sales Capability Building</p>
+									<!-- <div class="award-location">
+										Mumbai
+									</div> -->
+								</div>
+							</div>
+							<div class="awards-box bg1">
+								<div class="awards-box-content">
+									<div class="d-flex">
+										<div class="me-auto">
+											<img src="img/awards/award4.png" alt="Award">
+										</div>
+										<div class="year">
+											2023
+										</div>
+									</div>
+									<h4 class="mt-4 mb-4">winner</h4>
+									<p>D&I: Economic Times Gold Award for Excellence in Diversity & Inclusion</p>
+									<!-- <div class="award-location">
+										Mumbai
+									</div> -->
+								</div>
+							</div>
+
+							<div class="awards-box bg2">
+								<div class="awards-box-content">
+									<div class="d-flex">
+										<div class="me-auto">
+											<img src="img/awards/award1.png" alt="Award">
+										</div>
+										<div class="year">
+											2022
+										</div>
+									</div>
+									<h4 class="mt-4 mb-4">winner</h4>
+									<p>AI: Ministry of IT & AICRA Best AI Application of the Year</p>
+									<!-- <div class="award-location">
+										Mumbai
+									</div> -->
+								</div>
+							</div>
+							<div class="awards-box bg3">
+								<div class="awards-box-content">
+									<div class="d-flex">
+										<div class="me-auto">
+											<img src="img/awards/award2.png" alt="Award">
+										</div>
+										<div class="year">
+											2021
+										</div>
+									</div>
+									<h4 class="mt-4 mb-4">winner</h4>
+									<p>HR Tech & TA: Brandon Hall Gold Award for Best Advances in Talent Acquisition Technology</p>
+									<!-- <div class="award-location">
+										Mumbai
+									</div> -->
+								</div>
+							</div>
+							<div class="awards-box bg2">
+								<div class="awards-box-content">
+									<div class="d-flex">
+										<div class="me-auto">
+											<img src="img/awards/award3.png" alt="Award">
+										</div>
+										<div class="year">
+											2019
+										</div>
+									</div>
+									<h4 class="mt-4 mb-4">winner</h4>
+									<p>SHRM HR Excellence Awards for Excellence in Talent Acquisition</p>
+									<!-- <div class="award-location">
+										Mumbai
+									</div> -->
+								</div>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</main>
+    	<!-- Modal for Virtual Campus Tour -->
+
+        
+        
+        
+        
+        <div class="clear"></div>
+
+        <!-- Footer content -->
+        <footer class="footer" role="contentinfo" tabindex="0">
+
+            <div class="container">
+                <div class="footerlinks">
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <ul class="footernav">
+                                        <li><a href="https://swayam.jio.com/alumni/" target="_blank">Ex-Employee Verification</a></li>
+                                        <li><a href="index.aspx#galleria-section">Galleria</a></li>
+                                        <li><a href="https://www.jio.com/about/news-media/" id="footer-awards-link">Awards</a></li>
+
+                                        <li><a href="frmCultureValues.aspx">Culture & Value</a></li>
+
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <h3 class="mb-3" role="heading" aria-level="2">Connect with us</h3>
+                            <div class="sociallinks mb-4 d-flex" role="list">
+                                <div role="listitem">
+                                    <a href="https://www.facebook.com/Jio" target="_blank" aria-label="Facebook Link">
+                                        <svg width="32" height="32" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path class="sc-icon" fill-rule="evenodd" clip-rule="evenodd" d="M10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20ZM12.25 10.75H11V15H9V10.75H7.5V8.75H9V7.35C9 5.8285 9.964 5 11.3215 5C11.9715 5 12.587 5.0485 12.75 5.07V6.75H12C11 6.75 11 7.235 11 7.75V8.75H12.75L12.25 10.75Z" />
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div role="listitem">
+                                    <a href="https://x.com/reliancejio" target="_blank" aria-label="Twitter Link">
+                                        <svg width="32" height="32" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path class="sc-icon" fill-rule="evenodd" clip-rule="evenodd" d="M10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20ZM15.3499 5H13.6631H13.6621L10.8832 8.19538L8.48004 5H5L9.15821 10.4692L5.21671 15H6.90446L9.94651 11.5041L12.6051 15H16L11.6649 9.2359L15.3499 5ZM14.0058 13.9846H13.0712L6.96973 5.96205H7.9727L14.0058 13.9846Z" />
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div role="listitem">
+                                    <a href="https://www.youtube.com/channel/UC7x7gqeQQ5dazPAvDgC7TIw?disable_polymer=true" target="_blank" aria-label="Youtube Link">
+                                        <svg width="32" height="32" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path class="sc-icon" fill-rule="evenodd" clip-rule="evenodd" d="M10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20ZM14.9125 6.61014C15.0828 6.78707 15.2053 7.00736 15.2679 7.24898C15.4278 8.15644 15.5054 9.07748 15.4997 10C15.5054 10.9225 15.4278 11.8436 15.2679 12.751C15.2053 12.9926 15.0828 13.2129 14.9125 13.3899C14.7422 13.5668 14.5302 13.6941 14.2976 13.7592C13.4412 14 10 14 10 14C10 14 6.55876 14 5.70237 13.7592C5.46983 13.6941 5.25781 13.5668 5.08752 13.3899C4.91723 13.2129 4.79466 12.9926 4.73207 12.751C4.57216 11.8436 4.49457 10.9225 4.5003 10C4.49457 9.07748 4.57216 8.15644 4.73207 7.24898C4.79466 7.00736 4.91723 6.78707 5.08752 6.61014C5.25781 6.43321 5.46983 6.30585 5.70237 6.24082C6.55876 6 10 6 10 6C10 6 13.4412 6 14.2976 6.24082C14.5302 6.30585 14.7422 6.43321 14.9125 6.61014ZM11.756 10L8.90006 8.28572V11.7143L11.756 10Z" />
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div role="listitem">
+                                    <a href="https://www.linkedin.com/company/jio/" target="_blank" aria-label="Linkedin Link">
+                                        <svg width="32" height="32" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path class="sc-icon" fill-rule="evenodd" clip-rule="evenodd" d="M10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20ZM6.70675 7.20746C6.89438 7.02002 6.99987 6.76572 7 6.5005C7.00013 6.23528 6.8949 5.98088 6.70746 5.79325C6.52002 5.60562 6.26572 5.50013 6.0005 5.5C5.73528 5.49987 5.48088 5.6051 5.29325 5.79254C5.10562 5.97998 5.00013 6.23428 5 6.4995C4.99987 6.76472 5.1051 7.01912 5.29254 7.20675C5.47998 7.39438 5.73428 7.49987 5.9995 7.5C6.26472 7.50013 6.51912 7.3949 6.70675 7.20746ZM5.03 8.2405H7.03V14.5005H5.03V8.2405ZM8.2 8.2405H10.19L10.17 9.0805C11 7.5655 14.53 7.4505 14.53 10.5355V14.5005H12.555V11.2155C12.555 9.2155 10.17 9.3855 10.17 11.2155V14.5005H8.2V8.2405Z" />
+                                        </svg>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <h3 class="mb-3" role="heading" aria-level="2">Download Our App</h3>
+                            <a href="https://play.google.com/store/apps/details?id=com.ril.jiocareers&hl=en&gl=US" target="_blank">
+                                <img src="img/play-store.svg" alt="Google Play Store">
+                            </a>
+                            <a href="https://apps.apple.com/in/app/jio-careers/id1405653324" target="_blank">
+                                <img src="img/app-store.svg" alt="App Store">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="subfooter">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <img src="img/footer-logo.png" alt="Jio Career">
+                            <p class="wow fadeInUp">Copyright &copy; 2025 Reliance Jio Infocomm Ltd. All rights reserved.</p>
+                        </div>
+                        <div class="col-sm-6 d-flex justify-content-center justify-content-md-end">
+                            <a href="https://www.jio.com/jcms/en-in/privacy-policy/" class="wow fadeInUp" target="_blank">Privacy Policy</a>
+                            <a href="https://www.jio.com/jcms/en-in/terms-conditions/" class="wow fadeInUp" target="_blank">Legal Notice</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="floating-nav">
+                <div class="dropdown">
+                    <button class="dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="img/alert-icon.png" alt="Fraud Alert">
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                        <li><a class="dropdown-item" href="pdf/Fraud Alert - Global.pdf" target="_blank">Fraud Alert - Global</a></li>
+                        <li><a class="dropdown-item" href="pdf/Fraud Alert - English.pdf" target="_blank">Fraud Alert</a></li>
+                        <li><a class="dropdown-item" href="pdf/Fraud Alert - Hindi.pdf" target="_blank">à¤§à¥‹à¤–à¤¾à¤§à¤¡à¤¼à¥€ à¤•à¥€ à¤šà¥‡à¤¤à¤¾à¤µà¤¨à¥€</a></li>
+                        <li><a class="dropdown-item" href="pdf/Fraud Alert - Marathi.pdf" target="_blank">à¤«à¤¸à¤µà¤£à¥à¤•à¥€à¤šà¤¾ à¤‡à¤¶à¤¾à¤°à¤¾</a></li>
+                        <li><a class="dropdown-item" href="pdf/Fraud Alert - Gujrati.pdf" target="_blank">àª›à«‡àª¤àª°àªªàª¿àª‚àª¡à«€ àª…àª‚àª—à«‡ àªšà«‡àª¤àªµàª£à«€</a></li>
+                        <li><a class="dropdown-item" href="pdf/Fraud Alert - Tamil.pdf" target="_blank">à®®à¯‹à®šà®Ÿà®¿ à®Žà®šà¯à®šà®°à®¿à®•à¯à®•à¯ˆ!</a></li>
+                        <li><a class="dropdown-item" href="pdf/Fraud Alert - Telgu.pdf" target="_blank">à°®à±‹à°¸à°¾à°²à°ªà±ˆ à°¹à±†à°šà±à°šà°°à°¿à°•</a></li>
+                        <li><a class="dropdown-item" href="pdf/Fraud Alert - Malyalam.pdf" target="_blank">à´µà´žàµà´šà´¨à´¾ à´®àµà´¨àµà´¨à´±à´¿à´¯à´¿à´ªàµà´ªàµ!</a></li>
+                        <li><a class="dropdown-item" href="pdf/Fraud Alert - Kannada.pdf" target="_blank">à²®à³‹à²¸à²¦ à²•à³à²°à²¿à²¤à³ à²Žà²šà³à²šà²°à²¿à²•à³†!</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Engineer -->
+
+            <div class="floating-nav floating-engg">
+
+                <div class="dropdown">
+                    <button class="dropdown-toggle" type="button" id="dropdownMenu3" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="img/verify.png" alt="Verify Jio Associate">
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu3">
+                        <li>
+                            <a href="https://swayam.jio.com/verify-jio-associate" class="dropdown-item" target="_blank">Verify Jio Associate</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Modal -->
+            <div class="modal login fade" id="login-modal" aria-hidden="true" data-keyboard="false" data-backdrop="static">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                                <i class="far fa-times-circle"></i>
+                            </button>
+                            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active" id="user-login-tab" data-bs-toggle="tab" data-bs-target="#user-login" type="button" role="tab" aria-controls="user-login" aria-selected="true">User Login</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="partner-login-tab" data-bs-toggle="tab" data-bs-target="#partner-login" type="button" role="tab" aria-controls="partner-login" aria-selected="false">Partner Login</button>
+                                </li>
+                            </ul>
+                            <div id="myTabContent" class="tab-content">
+                                <div class="tab-pane fade show active" id="user-login" role="tabpanel" aria-labelledby="user-login-tab">
+                                    <div class="row">
+                                        <div class="col-12 mb-4">
+
+                                            <div class="input-group">
+                                                <label for="txtUName" class="loginlbl">Email</label>
+                                                <input name="ctl00$txtUName" type="text" maxlength="40" id="txtUName" class="form-control" aria-describedby="lblErr" aria-label="Email" AutoComplete="Email" />
+                                                
+                                                <span class="input-group-text">
+                                                    <img src="img/email-icon.png" alt="Email">
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="input-group">
+                                                <label for="txtPassword" class="loginlbl">Password</label>
+
+                                                <input name="ctl00$txtPassword" type="password" maxlength="30" id="txtPassword" class="showPasslogin form-control" aria-describedby="lblErr" onkeydown="return ignoreEnter(event);" onpaste="return false;" />
+                                                
+                                                <span class="input-group-text">
+                                                    <img class="bi bi-eye-slash" src="img/pass-icon.png" alt="show password" id="togglePassword" role="button">
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <span id="lblErr" role="alert" style="color:#DC3545;"></span>
+
+                                    </div>
+                                    <div class="row d-flex align-items-center mt-3">
+                                        <div class="col-lg-4">
+                                            <a href="frmForgotPassword.aspx" class="forgot">Forgot Password?</a>
+                                        </div>
+                                        <div class="col-lg-8 text-end">
+                                            <div class="row">
+                                                <div class="col-6 d-grid">
+
+                                                    <input type="submit" name="ctl00$btnlogin" value="New User?" id="btnlogin" class="btn btn-white-outline px-4" />
+                                                    
+                                                </div>
+                                                <div class="col-6 d-grid">
+                                                    <input type="submit" name="ctl00$btnSubmit" value="Login" id="btnSubmit" class="btn btn-login-fill px-4" />
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 mt-5">
+                                            <button onclick="__doPostBack('ctl00$btnSignUpGoogle','')" id="btnSignUpGoogle" type="button" class="google-sign border-0 p-0 bg-transparent" title="Sign in with Google" aria-label="Sign in with Google" data-toggle="tooltip">
+                                                Or Sign in with 
+                                           
+                                                <img src="img/google-icon.png" />
+                                            </button>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="partner-login" role="tabpanel" aria-labelledby="partner-login-tab">
+                                    <div class="row">
+                                        <span id="lblVendorErr"></span>
+                                        <div class="col-12 mb-4">
+                                            <div class="input-group">
+                                                <input name="ctl00$txtVName" type="text" maxlength="40" id="txtVName" class="form-control" placeholder="Email" />
+                                                
+                                                <span class="input-group-text">
+                                                    <img src="img/email-icon.png" alt="Email">
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="input-group">
+                                                <input name="ctl00$txtVPassword" type="password" maxlength="30" id="txtVPassword" class="showPassConfirmlogin form-control" onkeydown="return ignoreEnter(event);" placeholder="Password" onpaste="return false;" />
+                                                
+                                                <span class="input-group-text">
+                                                    <img class="bi bi-eye-slash" src="img/pass-icon.png" alt="Password" id="toggleConfirmPassword">
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row d-flex align-items-center mt-3">
+                                        <div class="col-lg-4">
+                                            <a href="frmForgotPassword.aspx" class="forgot">Forgot Password?</a>
+                                        </div>
+                                        <div class="col-lg-8 text-end">
+                                            <div class="row">
+                                                <div class="col-6 d-grid">
+                                                    <input type="submit" name="ctl00$btnvenderReg" value="New Partner?" id="btnvenderReg" class="btn btn-white-outline px-4" />
+                                                    
+                                                </div>
+                                                <div class="col-6 d-grid">
+                                                    <input type="submit" name="ctl00$btnvendorLogin" value="Login" id="btnvendorLogin" class="btn btn-login-fill px-4" />
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+
+        <!--footer end-->
+
+        <!--wrapper end-->
+        <input type="hidden" name="ctl00$hdnToken" id="hdnToken" value="370143385" />
+        <input type="hidden" name="ctl00$hdnmaibaap" id="hdnmaibaap" value="676902747" />
+        <input type="hidden" name="ctl00$hdPagecall" id="hdPagecall" value="NoPageCall" />
+        <span id="idbrowser"></span>
+        <!--Common modal popup customize-->
+        
+        <input type="submit" name="ctl00$btnpopup" value="PopUp" id="btnpopup" class="d-none" /><!--dummy button-->
+        <div id="panelmodal" class="modal-dialog">
+	
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 id="myModalheader" class="modal-title">Alert</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="alert-content">
+                        <p id="palertmessage">Hello, this is an alert</p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <input type="submit" name="ctl00$btnOkay" value="Ok" onclick="javascript:skipLN();" id="btnOkay" class="btn btn-login-fill" />
+                    <input type="submit" name="ctl00$btnCancel" value="Can" onclick="javascript:skipLN();" id="btnCancel" class="btn btn-login-fill" />
+                    
+                </div>
+            </div>
+        
+</div>
+
+
+        
+
+        <input type="submit" name="ctl00$btnpopupagree" value="PopUp" id="btnpopupagree" class="d-none" />
+        <div id="Agreepanelmodal" class="modal-dialog">
+	
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 id="myModalheaderAlert1" class="modal-title">Alert</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="alert-content">
+                        <p id="agreealert1">Hello, this is an alertsssa</p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    
+                    <a href="http://www.jio.com/en-in/privacy-policy" id="hrefPolicy" target="_blank" rel="noreferrer" class="me-auto">Privacy Policy</a>
+                    <input type="submit" name="ctl00$btnAgree1" value="Agree" id="btnAgree1" class="btn btn-login-fill" />
+                    <input type="submit" name="ctl00$btnDisagree" value="Disagree" id="btnDisagree" class="btn btn-login-fill" />
+                    
+                </div>
+            </div>
+        
+</div>
+
+    
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {var fn = function() {$get('ToolkitScriptManager1_HiddenField').value = '';Sys.Application.remove_init(fn);};Sys.Application.add_init(fn);})();Sys.Application.add_init(function() {
+    $create(AjaxControlToolkit.AutoCompleteBehavior, {"completionInterval":5,"completionListCssClass":"autocomplete_completionListElement1","completionListElementID":"divwidth","completionListItemCssClass":"autocomplete_listItem","delimiterCharacters":"","highlightedItemCssClass":"autocomplete_highlightedListItem","id":"AutoCompleteEx","serviceMethod":"GetJobKeyword","servicePath":"WebService1.asmx","showOnlyCurrentWordInCompletionListItem":true}, null, null, $get("MainContent_txtKeyword1"));
+});
+Sys.Application.add_init(function() {
+    $create(AjaxControlToolkit.AutoCompleteBehavior, {"completionInterval":5,"completionListCssClass":"autocomplete_completionListElement1","completionListElementID":"divwidth","completionListItemCssClass":"autocomplete_listItem","delimiterCharacters":"","highlightedItemCssClass":"autocomplete_highlightedListItem","id":"AutoCompleteEx","serviceMethod":"GetJobLocation","servicePath":"WebService1.asmx","showOnlyCurrentWordInCompletionListItem":true}, null, null, $get("MainContent_MultiCheckCombo"));
+});
+Sys.Application.add_init(function() {
+    $create(AjaxControlToolkit.ModalPopupBehavior, {"BackgroundCssClass":"backgroundmodal","CancelControlID":"btnCancel","OkControlID":"btnOkay","PopupControlID":"panelmodal","dynamicServicePath":"/index.aspx","id":"modalpopup"}, null, null, $get("btnpopup"));
+});
+Sys.Application.add_init(function() {
+    $create(AjaxControlToolkit.ModalPopupBehavior, {"BackgroundCssClass":"backgroundmodal","PopupControlID":"Agreepanelmodal","dynamicServicePath":"/index.aspx","id":"modalpopup1"}, null, null, $get("btnpopupagree"));
+});
+//]]>
+</script>
+</form>
+
+
+
+
+
+
+    <script>
+
+</script>
+
+
+    <!-- <script src="js/vendor/modernizr-3.11.2.min.js"></script> -->
+    <script src="js/vendor/jquery-3.6.3.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/jiomain.js"></script>
+
+    <script src="js/jquery-ui.js"></script>
+    
+
+    <script src="js/CareerJS.js"></script>
+    <script src="js/accessibility-modals.js"></script>
+
+    <script>
+        function ignoreEnter(event) {
+            if (event.keyCode == 13) {
+                return false;
+            }
+        }
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            labelText = $("#lblErr").text()
+            labelVendorText = $("#lblVendorErr").text()
+
+            if (labelText !== "") {
+
+                $('#login-modal').modal('show');
+                $('#user-login-tab').tab('show');
+
+            }
+            if (labelVendorText !== "") {
+                $('#login-modal').modal('show');
+                $('#partner-login-tab').tab('show');
+            }
+
+            // Datepicker
+            if ($('.abc').length > 0) {
+                $('.abc').datepicker({
+                    maxDate: "-18Y",
+                    minDate: "-100Y",
+                    yearRange: "-100:-18",
+                    changeMonth: true,
+                    changeYear: true
+                });
+            }
+            if ($('#input_btn_calendar').length > 0) {
+                $("#input_btn_calendar").click(function () {
+                    $(".abc").datepicker('show')
+                });
+            }
+
+        });
+
+        function initializeBootstrapPopovers() {
+            var popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]');
+            for (var i = 0; i < popoverTriggerList.length; i++) {
+                var el = popoverTriggerList[i];
+                var popover = bootstrap.Popover.getInstance(el);
+                if (!popover) {
+                    new bootstrap.Popover(el, {
+                        trigger: 'hover focus',
+                        html: true
+                    });
+                }
+            }
+        }
+
+        $(document).ready(function () {
+            initializeBootstrapPopovers();
+
+            $(document).on('focus mouseenter', '[data-bs-toggle="popover"]', function () {
+                var popover = bootstrap.Popover.getInstance(this);
+                if (!popover) {
+                    popover = new bootstrap.Popover(this, {
+                        trigger: 'hover focus',
+                        html: true
+                    });
+                    popover.show();
+                }
+            });
+
+            if (typeof Sys !== 'undefined' && Sys.WebForms && Sys.WebForms.PageRequestManager) {
+                Sys.WebForms.PageRequestManager.getInstance().add_endRequest(function () {
+                    initializeBootstrapPopovers();
+                });
+            }
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            var currentURL = window.location.href;
+
+            $('.navbar-nav a').each(function () {
+                var linkHref = $(this).attr('href');
+
+                if (currentURL.includes(linkHref)) {
+                    $(this).addClass('active');
+
+                    if ($(this).hasClass('dropdown-item')) {
+                        $(this).closest('.nav-item').find('.nav-link').addClass('active');
+                    }
+                }
+            });
+        });
+    </script>
+
+
+
+    <script>
+        //Logout DropDown
+        $(document).ready(function () {
+
+        });
+
+
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            const $togglePassword = $('#togglePassword');
+            const $password = $('.showPasslogin');
+            //alert($password.val());
+
+
+            $togglePassword.on('click', function () {
+                //alert("check");
+                const type = $password.attr('type') === 'password' ? 'text' : 'password';
+                $password.attr('type', type);
+
+                // Toggle the eye and bi-eye icon
+                $(this).toggleClass('bi-eye');
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            const $toggleConfirmPassword = $('#toggleConfirmPassword');
+            const $password = $('.showPassConfirmlogin');
+            //alert($password.val());
+
+
+            $toggleConfirmPassword.on('click', function () {
+                //alert("check");
+                const type = $password.attr('type') === 'password' ? 'text' : 'password';
+                $password.attr('type', type);
+
+                // Toggle the eye and bi-eye icon
+                $(this).toggleClass('bi-eye');
+            });
+        });
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            const $togglePassword = $('#togglePassword');
+            const $password = $('.showPass');
+            //alert($password.val());
+
+
+            $togglePassword.on('click', function () {
+                //alert("check");
+                const type = $password.attr('type') === 'password' ? 'text' : 'password';
+                $password.attr('type', type);
+
+                // Toggle the eye and bi-eye icon
+                $(this).toggleClass('bi-eye');
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            const $toggleConfirmPassword = $('#toggleConfirmPassword');
+            const $password = $('.showPassConfirm');
+            //alert($password.val());
+
+
+            $toggleConfirmPassword.on('click', function () {
+                //alert("check");
+                const type = $password.attr('type') === 'password' ? 'text' : 'password';
+                $password.attr('type', type);
+
+                // Toggle the eye and bi-eye icon
+                $(this).toggleClass('bi-eye');
+            });
+        });
+    </script>
+    <script>
+
+            $(document).ready(function () {
+              $('#themeToggleABtn').click(function () {
+               $(this).toggleClass('active');
+               var isActive = $(this).hasClass('active');
+
+               if (isActive) {
+                // inject aditya contrast.css
+                $('<link>', {
+                 id: 'contrast-stylesheet',
+                 rel: 'stylesheet',
+                 href: 'css/contrast.css'
+                }).appendTo('head');
+               } else {
+                // remove new aditya contrast.css
+                $('#contrast-stylesheet').remove();
+               }
+              });
+             });
+     </script>
+    <script>
+
+                $('#about-us-nav button[data-bs-toggle="tab"]').on(
+            "shown.bs.tab",
+            function (e) {
+ 
+                // ======================================
+                // NEW: Custom active class handling
+                // ======================================
+                $('#about-us-nav .nav-link')
+                    .removeClass('activenavbtn');
+ 
+                $(e.target)
+                    .addClass('activenavbtn');
+ 
+                updateAboutTabUrl(e.target.id);
+                scrollAboutTabsNav();
+ 
+                if ($(".about-values-slider").hasClass("slick-initialized")) {
+                    $(".about-values-slider").slick("setPosition");
+                    equalizeAboutValuesSlides();
+                }
+ 
+                if ($(".about-awards-feature-slider").hasClass("slick-initialized")) {
+                    $(".about-awards-feature-slider").slick("setPosition");
+                    equalizeAboutAwardsFeatureSlides();
+                }
+ 
+                setAboutDiscoverImageHeight();
+            }
+        );
+    </script>
+        <script>
+        document.addEventListener("DOMContentLoaded", function () {
+
+            // Remove active from all menus
+            document.querySelectorAll(".navbar-nav .nav-link").forEach(function (link) {
+                link.classList.remove("active");
+            });
+
+            // Get current page
+            var currentPage = window.location.pathname.split('/').pop().toLowerCase();
+
+            // If no page specified, treat as Home
+            if (currentPage === "" || currentPage === "/") {
+                currentPage = "index.aspx";
+            }
+
+            var activeFound = false;
+
+            document.querySelectorAll(".navbar-nav .nav-link").forEach(function (link) {
+                var href = link.getAttribute("href");
+
+                if (href && href.toLowerCase() === currentPage) {
+                    link.classList.add("active");
+                    activeFound = true;
+                }
+            });
+
+            // Default Home active if no match found
+            if (!activeFound) {
+                document.getElementById("homeSelect").classList.add("active");
+            }
+        });
+        </script>
+
+</body>
+</html>
+
