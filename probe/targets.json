@@ -2210,5 +2210,10 @@
   "url": "https://www.npci.org.in/careers",
   "method": "GET",
   "save": true
+ },
+ {
+  "name": "sanity_github",
+  "url": "https://api.github.com/zen",
+  "method": "GET"
  }
 ]
