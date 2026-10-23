@@ -1,1297 +1,385 @@
 [
  {
-  "name": "jobsyn_Pune",
-  "url": "https://prod-search-api.jobsyn.org/api/v1/solr/search?location=Pune&q=data&page=1",
-  "method": "GET",
-  "headers": {
-   "x-origin": "dejobs.org"
-  },
-  "save": true
+  "name": "gh_nice_us",
+  "url": "https://boards-api.greenhouse.io/v1/boards/nice/jobs",
+  "method": "GET"
  },
  {
-  "name": "jobsyn_Mumbai",
-  "url": "https://prod-search-api.jobsyn.org/api/v1/solr/search?location=Mumbai&q=data&page=1",
-  "method": "GET",
-  "headers": {
-   "x-origin": "dejobs.org"
-  },
-  "save": true
- },
- {
-  "name": "jobsyn_Navi Mumbai",
-  "url": "https://prod-search-api.jobsyn.org/api/v1/solr/search?location=Navi Mumbai&q=data&page=1",
-  "method": "GET",
-  "headers": {
-   "x-origin": "dejobs.org"
-  },
-  "save": true
- },
- {
-  "name": "jobsyn_ps",
-  "url": "https://prod-search-api.jobsyn.org/api/v1/solr/search?location=Pune&q=data&page=1&page_size=100",
-  "method": "GET",
-  "headers": {
-   "x-origin": "dejobs.org"
-  }
- },
- {
-  "name": "jobsyn_num",
-  "url": "https://prod-search-api.jobsyn.org/api/v1/solr/search?location=Pune&q=data&page=1&num_items=100",
-  "method": "GET",
-  "headers": {
-   "x-origin": "dejobs.org"
-  }
- },
- {
-  "name": "jobsyn_rows",
-  "url": "https://prod-search-api.jobsyn.org/api/v1/solr/search?location=Pune&q=data&page=1&rows=100",
-  "method": "GET",
-  "headers": {
-   "x-origin": "dejobs.org"
-  }
- },
- {
-  "name": "jobsyn_company",
-  "url": "https://prod-search-api.jobsyn.org/api/v1/solr/search?location=India&q=data&page=1&company=Honeywell%20Technologies",
-  "method": "GET",
-  "headers": {
-   "x-origin": "dejobs.org"
-  }
- },
- {
-  "name": "jobsyn_india",
-  "url": "https://prod-search-api.jobsyn.org/api/v1/solr/search?location=India&q=data%20engineer&page=1",
-  "method": "GET",
-  "headers": {
-   "x-origin": "dejobs.org"
-  },
-  "save": true
- },
- {
-  "name": "jobsyn_rss",
-  "url": "https://dejobs.org/jobs/feeds/rss?q=data+engineer&location=Pune",
+  "name": "gh_nice_eu_html",
+  "url": "https://job-boards.eu.greenhouse.io/nice",
   "method": "GET",
   "save": true
  },
  {
-  "name": "gs_full",
-  "url": "https://api-higher.gs.com/gateway/api/v1/graphql",
+  "name": "gh_veeam",
+  "url": "https://boards-api.greenhouse.io/v1/boards/veeamsoftware/jobs",
+  "method": "GET"
+ },
+ {
+  "name": "gh_veeam2",
+  "url": "https://boards-api.greenhouse.io/v1/boards/veeam/jobs",
+  "method": "GET"
+ },
+ {
+  "name": "lveu_tomtom",
+  "url": "https://api.eu.lever.co/v0/postings/tomtom?mode=json&limit=2",
+  "method": "GET"
+ },
+ {
+  "name": "lveu_upstox",
+  "url": "https://api.eu.lever.co/v0/postings/upstox?mode=json&limit=2",
+  "method": "GET"
+ },
+ {
+  "name": "lveu_dreamsports",
+  "url": "https://api.eu.lever.co/v0/postings/dreamsports?mode=json&limit=2",
+  "method": "GET"
+ },
+ {
+  "name": "lv_upstox_again",
+  "url": "https://api.lever.co/v0/postings/upstox?mode=json&limit=2",
+  "method": "GET"
+ },
+ {
+  "name": "lv_phonepe",
+  "url": "https://api.lever.co/v0/postings/phonepe?mode=json&limit=2",
+  "method": "GET"
+ },
+ {
+  "name": "ab_phonepe",
+  "url": "https://api.ashbyhq.com/posting-api/job-board/phonepe",
+  "method": "GET"
+ },
+ {
+  "name": "lv_postman",
+  "url": "https://api.lever.co/v0/postings/postman?mode=json&limit=2",
+  "method": "GET"
+ },
+ {
+  "name": "ab_postman",
+  "url": "https://api.ashbyhq.com/posting-api/job-board/postman",
+  "method": "GET"
+ },
+ {
+  "name": "lv_confluent",
+  "url": "https://api.lever.co/v0/postings/confluent?mode=json&limit=2",
+  "method": "GET"
+ },
+ {
+  "name": "ab_confluent",
+  "url": "https://api.ashbyhq.com/posting-api/job-board/confluent",
+  "method": "GET"
+ },
+ {
+  "name": "sr_visa_lower",
+  "url": "https://api.smartrecruiters.com/v1/companies/visa/postings?limit=2",
+  "method": "GET"
+ },
+ {
+  "name": "sr_visa_q",
+  "url": "https://api.smartrecruiters.com/v1/companies/Visa/postings?q=data&limit=2",
+  "method": "GET"
+ },
+ {
+  "name": "visa_search",
+  "url": "https://search.visa.com/CAREERS/careers/jobs?q=data&country=India",
+  "method": "GET"
+ },
+ {
+  "name": "visa_search2",
+  "url": "https://search.visa.com/CAREERS/careers/jobs?q=data",
+  "method": "GET"
+ },
+ {
+  "name": "confluent_html",
+  "url": "https://careers.confluent.io/open-positions/india",
+  "method": "GET",
+  "save": true
+ },
+ {
+  "name": "darwinbox_ct",
+  "url": "https://clevertap.darwinbox.in/ms/candidate/careers",
+  "method": "GET",
+  "save": true
+ },
+ {
+  "name": "darwinbox_ct_api",
+  "url": "https://clevertap.darwinbox.in/ms/candidateapi/job?page=1&limit=50",
+  "method": "GET"
+ },
+ {
+  "name": "wk_tiger-analytics",
+  "url": "https://apply.workable.com/api/v3/accounts/tiger-analytics/jobs",
   "method": "POST",
   "headers": {
    "Content-Type": "application/json"
   },
+  "json": {
+   "query": "",
+   "location": [],
+   "department": [],
+   "worktype": [],
+   "remote": []
+  }
+ },
+ {
+  "name": "wk_tigeranalytics",
+  "url": "https://apply.workable.com/api/v3/accounts/tigeranalytics/jobs",
+  "method": "POST",
+  "headers": {
+   "Content-Type": "application/json"
+  },
+  "json": {
+   "query": "",
+   "location": [],
+   "department": [],
+   "worktype": [],
+   "remote": []
+  }
+ },
+ {
+  "name": "wk_tiger-analytics-1",
+  "url": "https://apply.workable.com/api/v3/accounts/tiger-analytics-1/jobs",
+  "method": "POST",
+  "headers": {
+   "Content-Type": "application/json"
+  },
+  "json": {
+   "query": "",
+   "location": [],
+   "department": [],
+   "worktype": [],
+   "remote": []
+  }
+ },
+ {
+  "name": "wk_mrsool",
+  "url": "https://apply.workable.com/api/v3/accounts/mrsool-3/jobs",
+  "method": "POST",
+  "headers": {
+   "Content-Type": "application/json"
+  },
+  "json": {
+   "query": "",
+   "location": [],
+   "department": [],
+   "worktype": [],
+   "remote": []
+  }
+ },
+ {
+  "name": "tiger_page",
+  "url": "https://www.tigeranalytics.com/about-us/current-openings/",
+  "method": "GET",
   "save": true,
-  "json": {
-   "operationName": "GetRoles",
-   "variables": {
-    "searchQueryInput": {
-     "page": {
-      "pageSize": 20,
-      "pageNumber": 0
-     },
-     "sort": {
-      "sortStrategy": "POSTED_DATE",
-      "sortOrder": "DESC"
-     },
-     "filters": [],
-     "experiences": [
-      "EARLY_CAREER",
-      "PROFESSIONAL"
-     ],
-     "searchTerm": "data"
-    }
-   },
-   "query": "query GetRoles($searchQueryInput: RoleSearchQueryInput!) { roleSearch(searchQueryInput: $searchQueryInput) { totalCount items { roleId jobTitle corporateTitle division status locations { primary state country city } } } }"
-  }
+  "save_bytes": 900000
  },
  {
-  "name": "gs_loc",
-  "url": "https://api-higher.gs.com/gateway/api/v1/graphql",
-  "method": "POST",
-  "headers": {
-   "Content-Type": "application/json"
-  },
-  "json": {
-   "operationName": "GetRoles",
-   "variables": {
-    "searchQueryInput": {
-     "page": {
-      "pageSize": 20,
-      "pageNumber": 0
-     },
-     "sort": {
-      "sortStrategy": "RELEVANCE",
-      "sortOrder": "DESC"
-     },
-     "filters": [
-      {
-       "filterCategoryType": "LOCATION",
-       "filters": [
-        {
-         "filter": "Mumbai",
-         "subFilters": []
-        }
-       ]
-      }
-     ],
-     "experiences": [
-      "EARLY_CAREER",
-      "PROFESSIONAL"
-     ],
-     "searchTerm": "data"
-    }
-   },
-   "query": "query GetRoles($searchQueryInput: RoleSearchQueryInput!) { roleSearch(searchQueryInput: $searchQueryInput) { totalCount items { roleId jobTitle locations { primary state country city } } } }"
-  }
- },
- {
-  "name": "gs_badfield",
-  "url": "https://api-higher.gs.com/gateway/api/v1/graphql",
-  "method": "POST",
-  "headers": {
-   "Content-Type": "application/json"
-  },
-  "json": {
-   "operationName": "GetRoles",
-   "variables": {
-    "searchQueryInput": {
-     "page": {
-      "pageSize": 2,
-      "pageNumber": 0
-     },
-     "sort": {
-      "sortStrategy": "RELEVANCE",
-      "sortOrder": "DESC"
-     },
-     "filters": [],
-     "experiences": [
-      "EARLY_CAREER",
-      "PROFESSIONAL"
-     ],
-     "searchTerm": "data"
-    }
-   },
-   "query": "query GetRoles($searchQueryInput: RoleSearchQueryInput!) { roleSearch(searchQueryInput: $searchQueryInput) { totalCount items { roleId postedDate publishedDate datePosted } } }"
-  }
- },
- {
-  "name": "pcsx_ms",
-  "url": "https://apply.careers.microsoft.com/api/pcsx/search?domain=microsoft.com&query=data&location=India&start=0&sort_by=timestamp",
+  "name": "icims_here",
+  "url": "https://careers-here.icims.com/jobs/search?ss=1&searchKeyword=data&in_iframe=1",
   "method": "GET",
   "save": true
  },
  {
-  "name": "pcsx_mstan",
-  "url": "https://morganstanley.eightfold.ai/api/pcsx/search?domain=morganstanley.com&query=data&location=India&start=0&sort_by=timestamp",
+  "name": "icims_trajector",
+  "url": "https://india-trajectorservices.icims.com/jobs/search?ss=1&in_iframe=1",
+  "method": "GET",
+  "save": true
+ },
+ {
+  "name": "epam_facets",
+  "url": "https://careers.epam.com/api/jobs/v2/search/careers?query=data&lang=en&from=0&size=1",
+  "method": "GET",
+  "save": true
+ },
+ {
+  "name": "bny_jobs",
+  "url": "https://jobs.bny.com/api/pcsx/search?domain=bny.com&query=data&location=India&start=0",
+  "method": "GET"
+ },
+ {
+  "name": "bny_page",
+  "url": "https://jobs.bny.com/",
+  "method": "GET",
+  "save": true
+ },
+ {
+  "name": "principal_page2",
+  "url": "https://careers.principal.com/",
+  "method": "GET",
+  "save": true
+ },
+ {
+  "name": "wd_fadv",
+  "url": "https://fadv.wd1.myworkdayjobs.com/wday/cxs/fadv/External/jobs",
+  "method": "POST",
+  "json": {
+   "appliedFacets": {},
+   "limit": 1,
+   "offset": 0,
+   "searchText": "data"
+  },
+  "headers": {
+   "Content-Type": "application/json"
+  }
+ },
+ {
+  "name": "wd_fedex_FXE-AMEA_External_Career_Site",
+  "url": "https://fedex.wd1.myworkdayjobs.com/wday/cxs/fedex/FXE-AMEA_External_Career_Site/jobs",
+  "method": "POST",
+  "json": {
+   "appliedFacets": {},
+   "limit": 1,
+   "offset": 0,
+   "searchText": "data"
+  },
+  "headers": {
+   "Content-Type": "application/json"
+  }
+ },
+ {
+  "name": "wd_fedex_FXE-APAC_External_Career_Site",
+  "url": "https://fedex.wd1.myworkdayjobs.com/wday/cxs/fedex/FXE-APAC_External_Career_Site/jobs",
+  "method": "POST",
+  "json": {
+   "appliedFacets": {},
+   "limit": 1,
+   "offset": 0,
+   "searchText": "data"
+  },
+  "headers": {
+   "Content-Type": "application/json"
+  }
+ },
+ {
+  "name": "wd_fedex_FedEx_ACC",
+  "url": "https://fedex.wd1.myworkdayjobs.com/wday/cxs/fedex/FedEx_ACC/jobs",
+  "method": "POST",
+  "json": {
+   "appliedFacets": {},
+   "limit": 1,
+   "offset": 0,
+   "searchText": "data"
+  },
+  "headers": {
+   "Content-Type": "application/json"
+  }
+ },
+ {
+  "name": "wd_fedex_FXE-EU_External_Career_Site",
+  "url": "https://fedex.wd1.myworkdayjobs.com/wday/cxs/fedex/FXE-EU_External_Career_Site/jobs",
+  "method": "POST",
+  "json": {
+   "appliedFacets": {},
+   "limit": 1,
+   "offset": 0,
+   "searchText": "data"
+  },
+  "headers": {
+   "Content-Type": "application/json"
+  }
+ },
+ {
+  "name": "wd_fedex_External",
+  "url": "https://fedex.wd1.myworkdayjobs.com/wday/cxs/fedex/External/jobs",
+  "method": "POST",
+  "json": {
+   "appliedFacets": {},
+   "limit": 1,
+   "offset": 0,
+   "searchText": "data"
+  },
+  "headers": {
+   "Content-Type": "application/json"
+  }
+ },
+ {
+  "name": "phonepe_page",
+  "url": "https://www.phonepe.com/careers/job-openings/",
+  "method": "GET",
+  "save": true
+ },
+ {
+  "name": "postman_page",
+  "url": "https://www.postman.com/company/careers/open-positions/",
+  "method": "GET",
+  "save": true
+ },
+ {
+  "name": "medianet_api",
+  "url": "https://careers.media.net/api/jobs",
   "method": "GET",
   "save": false
  },
  {
-  "name": "pcsx_eaton",
-  "url": "https://eaton.eightfold.ai/api/pcsx/search?domain=eaton.com&query=data&location=India&start=0&sort_by=timestamp",
-  "method": "GET",
-  "save": false
- },
- {
-  "name": "pcsx_deere",
-  "url": "https://careers.deere.com/api/pcsx/search?domain=johndeere.com&query=data&location=India&start=0&sort_by=timestamp",
-  "method": "GET",
-  "save": true
- },
- {
-  "name": "pcsx_whirlpool",
-  "url": "https://jobs.whirlpool.com/api/pcsx/search?domain=whirlpool.com&query=data&location=India&start=0&sort_by=timestamp",
-  "method": "GET",
-  "save": false
- },
- {
-  "name": "pcsx_bny",
-  "url": "https://bnymellon.eightfold.ai/api/pcsx/search?domain=bnymellon.com&query=data&location=India&start=0&sort_by=timestamp",
-  "method": "GET",
-  "save": false
- },
- {
-  "name": "pcsx_bny2",
-  "url": "https://bny.eightfold.ai/api/pcsx/search?domain=bny.com&query=data&location=India&start=0&sort_by=timestamp",
-  "method": "GET",
-  "save": false
- },
- {
-  "name": "vodafone_full",
-  "url": "https://jobs.vodafone.com/api/pcsx/search?domain=vodafone.com&query=data&location=Pune&start=0",
-  "method": "GET",
-  "save": true
- },
- {
-  "name": "jibe_ice",
-  "url": "https://careers.ice.com/api/jobs?keywords=data&location=India&page=1",
-  "method": "GET",
-  "save": true
- },
- {
-  "name": "jibe_ajg",
-  "url": "https://jobs.ajg.com/api/jobs?keywords=data&location=India&page=1",
-  "method": "GET",
-  "save": true
- },
- {
-  "name": "csbrss_sc",
-  "url": "https://jobs.standardchartered.com/services/rss/job/?locale=en_GB&keywords=(data)",
-  "method": "GET",
-  "save": true
- },
- {
-  "name": "csbunify_sc",
-  "url": "https://jobs.standardchartered.com/services/recruiting/v1/jobs",
-  "method": "POST",
-  "headers": {
-   "Content-Type": "application/json"
-  },
-  "json": {
-   "locale": "en_GB",
-   "pageNumber": 0,
-   "sortBy": "",
-   "keywords": "data",
-   "location": "India",
-   "facetFilters": {},
-   "brand": "",
-   "skills": [],
-   "categoryId": 0,
-   "alertId": "",
-   "rcmCandidateId": ""
-  }
- },
- {
-  "name": "csbrss_tetrapak",
-  "url": "https://jobs.tetrapak.com/services/rss/job/?locale=en_GB&keywords=(data)",
-  "method": "GET",
-  "save": true
- },
- {
-  "name": "csbunify_tetrapak",
-  "url": "https://jobs.tetrapak.com/services/recruiting/v1/jobs",
-  "method": "POST",
-  "headers": {
-   "Content-Type": "application/json"
-  },
-  "json": {
-   "locale": "en_GB",
-   "pageNumber": 0,
-   "sortBy": "",
-   "keywords": "data",
-   "location": "India",
-   "facetFilters": {},
-   "brand": "",
-   "skills": [],
-   "categoryId": 0,
-   "alertId": "",
-   "rcmCandidateId": ""
-  }
- },
- {
-  "name": "csbrss_nomura",
-  "url": "https://careers.nomura.com/services/rss/job/?locale=en_GB&keywords=(data)",
-  "method": "GET",
-  "save": true
- },
- {
-  "name": "csbunify_nomura",
-  "url": "https://careers.nomura.com/services/recruiting/v1/jobs",
-  "method": "POST",
-  "headers": {
-   "Content-Type": "application/json"
-  },
-  "json": {
-   "locale": "en_GB",
-   "pageNumber": 0,
-   "sortBy": "",
-   "keywords": "data",
-   "location": "India",
-   "facetFilters": {},
-   "brand": "",
-   "skills": [],
-   "categoryId": 0,
-   "alertId": "",
-   "rcmCandidateId": ""
-  }
- },
- {
-  "name": "phenom_cisco_country",
-  "url": "https://careers.cisco.com/global/en/search-results?keywords=data&country=India",
-  "method": "GET"
- },
- {
-  "name": "phenom_mmc_widgets",
-  "url": "https://careers.marsh.com/widgets",
-  "method": "POST",
-  "headers": {
-   "Content-Type": "application/json"
-  },
-  "json": {
-   "lang": "en_global",
-   "deviceType": "desktop",
-   "country": "global",
-   "pageName": "search-results",
-   "ddoKey": "refineSearch",
-   "sortBy": "",
-   "subsearch": "",
-   "from": 0,
-   "jobs": true,
-   "counts": true,
-   "all_fields": [
-    "country",
-    "city"
-   ],
-   "size": 10,
-   "clearAll": false,
-   "jdsource": "facets",
-   "isSliderEnable": false,
-   "pageId": "page23",
-   "siteType": "external",
-   "keywords": "data",
-   "global": true,
-   "selected_fields": {
-    "country": [
-     "India"
-    ]
-   },
-   "refNum": "MAMCGLOBAL",
-   "locationData": {}
-  }
- },
- {
-  "name": "wd_cisco",
-  "url": "https://cisco.wd5.myworkdayjobs.com/wday/cxs/cisco/Cisco_Careers/jobs",
-  "method": "POST",
-  "json": {
-   "appliedFacets": {},
-   "limit": 1,
-   "offset": 0,
-   "searchText": "data"
-  },
-  "headers": {
-   "Content-Type": "application/json"
-  }
- },
- {
-  "name": "wd_veritas2",
-  "url": "https://veritas.wd1.myworkdayjobs.com/wday/cxs/veritas/Careers/jobs",
-  "method": "POST",
-  "json": {
-   "appliedFacets": {},
-   "limit": 1,
-   "offset": 0,
-   "searchText": "data"
-  },
-  "headers": {
-   "Content-Type": "application/json"
-  }
- },
- {
-  "name": "wd_cohesity",
-  "url": "https://cohesity.wd5.myworkdayjobs.com/wday/cxs/cohesity/Cohesity_Careers/jobs",
-  "method": "POST",
-  "json": {
-   "appliedFacets": {},
-   "limit": 1,
-   "offset": 0,
-   "searchText": "data"
-  },
-  "headers": {
-   "Content-Type": "application/json"
-  }
- },
- {
-  "name": "wd_nutanix",
-  "url": "https://nutanix.wd5.myworkdayjobs.com/wday/cxs/nutanix/Nutanix_Careers/jobs",
-  "method": "POST",
-  "json": {
-   "appliedFacets": {},
-   "limit": 1,
-   "offset": 0,
-   "searchText": "data"
-  },
-  "headers": {
-   "Content-Type": "application/json"
-  }
- },
- {
-  "name": "wd_honeywell",
-  "url": "https://honeywell.wd5.myworkdayjobs.com/wday/cxs/honeywell/Honeywell/jobs",
-  "method": "POST",
-  "json": {
-   "appliedFacets": {},
-   "limit": 1,
-   "offset": 0,
-   "searchText": "data"
-  },
-  "headers": {
-   "Content-Type": "application/json"
-  }
- },
- {
-  "name": "wd_bp",
-  "url": "https://bpinternational.wd3.myworkdayjobs.com/wday/cxs/bpinternational/bpCareers/jobs",
-  "method": "POST",
-  "json": {
-   "appliedFacets": {},
-   "limit": 1,
-   "offset": 0,
-   "searchText": "data"
-  },
-  "headers": {
-   "Content-Type": "application/json"
-  }
- },
- {
-  "name": "wd_fedex",
-  "url": "https://fedex.wd1.myworkdayjobs.com/wday/cxs/fedex/FXE-LAC_External_Career_Site/jobs",
-  "method": "POST",
-  "json": {
-   "appliedFacets": {},
-   "limit": 1,
-   "offset": 0,
-   "searchText": "data"
-  },
-  "headers": {
-   "Content-Type": "application/json"
-  }
- },
- {
-  "name": "wd_sc",
-  "url": "https://sc.wd3.myworkdayjobs.com/wday/cxs/sc/SCB_Careers/jobs",
-  "method": "POST",
-  "json": {
-   "appliedFacets": {},
-   "limit": 1,
-   "offset": 0,
-   "searchText": "data"
-  },
-  "headers": {
-   "Content-Type": "application/json"
-  }
- },
- {
-  "name": "wd_ubs",
-  "url": "https://ubs.wd3.myworkdayjobs.com/wday/cxs/ubs/UBS_Experienced_Careers/jobs",
-  "method": "POST",
-  "json": {
-   "appliedFacets": {},
-   "limit": 1,
-   "offset": 0,
-   "searchText": "data"
-  },
-  "headers": {
-   "Content-Type": "application/json"
-  }
- },
- {
-  "name": "wd_eaton",
-  "url": "https://eaton.wd1.myworkdayjobs.com/wday/cxs/eaton/Eaton_Careers_External/jobs",
-  "method": "POST",
-  "json": {
-   "appliedFacets": {},
-   "limit": 1,
-   "offset": 0,
-   "searchText": "data"
-  },
-  "headers": {
-   "Content-Type": "application/json"
-  }
- },
- {
-  "name": "wd_vertiv",
-  "url": "https://vertiv.wd1.myworkdayjobs.com/wday/cxs/vertiv/Vertiv_Careers/jobs",
-  "method": "POST",
-  "json": {
-   "appliedFacets": {},
-   "limit": 1,
-   "offset": 0,
-   "searchText": "data"
-  },
-  "headers": {
-   "Content-Type": "application/json"
-  }
- },
- {
-  "name": "wd_jefferies",
-  "url": "https://jefferies.wd1.myworkdayjobs.com/wday/cxs/jefferies/Jefferies/jobs",
-  "method": "POST",
-  "json": {
-   "appliedFacets": {},
-   "limit": 1,
-   "offset": 0,
-   "searchText": "data"
-  },
-  "headers": {
-   "Content-Type": "application/json"
-  }
- },
- {
-  "name": "wd_gallagher",
-  "url": "https://ajg.wd1.myworkdayjobs.com/wday/cxs/ajg/Gallagher/jobs",
-  "method": "POST",
-  "json": {
-   "appliedFacets": {},
-   "limit": 1,
-   "offset": 0,
-   "searchText": "data"
-  },
-  "headers": {
-   "Content-Type": "application/json"
-  }
- },
- {
-  "name": "wd_icims_ice",
-  "url": "https://ice.wd1.myworkdayjobs.com/wday/cxs/ice/ICE_Careers/jobs",
-  "method": "POST",
-  "json": {
-   "appliedFacets": {},
-   "limit": 1,
-   "offset": 0,
-   "searchText": "data"
-  },
-  "headers": {
-   "Content-Type": "application/json"
-  }
- },
- {
-  "name": "wd_panasonic",
-  "url": "https://panasonic.wd1.myworkdayjobs.com/wday/cxs/panasonic/PAC/jobs",
-  "method": "POST",
-  "json": {
-   "appliedFacets": {},
-   "limit": 1,
-   "offset": 0,
-   "searchText": "data"
-  },
-  "headers": {
-   "Content-Type": "application/json"
-  }
- },
- {
-  "name": "wd_nice",
-  "url": "https://nice.wd3.myworkdayjobs.com/wday/cxs/nice/NICE_Careers/jobs",
-  "method": "POST",
-  "json": {
-   "appliedFacets": {},
-   "limit": 1,
-   "offset": 0,
-   "searchText": "data"
-  },
-  "headers": {
-   "Content-Type": "application/json"
-  }
- },
- {
-  "name": "wd_dassault",
-  "url": "https://3ds.wd3.myworkdayjobs.com/wday/cxs/3ds/DS_Careers/jobs",
-  "method": "POST",
-  "json": {
-   "appliedFacets": {},
-   "limit": 1,
-   "offset": 0,
-   "searchText": "data"
-  },
-  "headers": {
-   "Content-Type": "application/json"
-  }
- },
- {
-  "name": "wd_teradata",
-  "url": "https://teradata.wd5.myworkdayjobs.com/wday/cxs/teradata/Teradata_Careers/jobs",
-  "method": "POST",
-  "json": {
-   "appliedFacets": {},
-   "limit": 1,
-   "offset": 0,
-   "searchText": "data"
-  },
-  "headers": {
-   "Content-Type": "application/json"
-  }
- },
- {
-  "name": "wd_here",
-  "url": "https://here.wd3.myworkdayjobs.com/wday/cxs/here/HERE_Careers/jobs",
-  "method": "POST",
-  "json": {
-   "appliedFacets": {},
-   "limit": 1,
-   "offset": 0,
-   "searchText": "data"
-  },
-  "headers": {
-   "Content-Type": "application/json"
-  }
- },
- {
-  "name": "wd_atlascopco",
-  "url": "https://atlascopco.wd3.myworkdayjobs.com/wday/cxs/atlascopco/Careers/jobs",
-  "method": "POST",
-  "json": {
-   "appliedFacets": {},
-   "limit": 1,
-   "offset": 0,
-   "searchText": "data"
-  },
-  "headers": {
-   "Content-Type": "application/json"
-  }
- },
- {
-  "name": "wd_wartsila",
-  "url": "https://wartsila.wd3.myworkdayjobs.com/wday/cxs/wartsila/Wartsila_Careers/jobs",
-  "method": "POST",
-  "json": {
-   "appliedFacets": {},
-   "limit": 1,
-   "offset": 0,
-   "searchText": "data"
-  },
-  "headers": {
-   "Content-Type": "application/json"
-  }
- },
- {
-  "name": "wd_dnv",
-  "url": "https://dnv.wd3.myworkdayjobs.com/wday/cxs/dnv/DNV_Careers/jobs",
-  "method": "POST",
-  "json": {
-   "appliedFacets": {},
-   "limit": 1,
-   "offset": 0,
-   "searchText": "data"
-  },
-  "headers": {
-   "Content-Type": "application/json"
-  }
- },
- {
-  "name": "wd_forvia",
-  "url": "https://forvia.wd3.myworkdayjobs.com/wday/cxs/forvia/FORVIA/jobs",
-  "method": "POST",
-  "json": {
-   "appliedFacets": {},
-   "limit": 1,
-   "offset": 0,
-   "searchText": "data"
-  },
-  "headers": {
-   "Content-Type": "application/json"
-  }
- },
- {
-  "name": "wd_tomtom",
-  "url": "https://tomtom.wd3.myworkdayjobs.com/wday/cxs/tomtom/TomTom/jobs",
-  "method": "POST",
-  "json": {
-   "appliedFacets": {},
-   "limit": 1,
-   "offset": 0,
-   "searchText": "data"
-  },
-  "headers": {
-   "Content-Type": "application/json"
-  }
- },
- {
-  "name": "wd_amadeus",
-  "url": "https://amadeus.wd3.myworkdayjobs.com/wday/cxs/amadeus/Amadeus/jobs",
-  "method": "POST",
-  "json": {
-   "appliedFacets": {},
-   "limit": 1,
-   "offset": 0,
-   "searchText": "data"
-  },
-  "headers": {
-   "Content-Type": "application/json"
-  }
- },
- {
-  "name": "wd_worldline",
-  "url": "https://worldline.wd3.myworkdayjobs.com/wday/cxs/worldline/Worldline/jobs",
-  "method": "POST",
-  "json": {
-   "appliedFacets": {},
-   "limit": 1,
-   "offset": 0,
-   "searchText": "data"
-  },
-  "headers": {
-   "Content-Type": "application/json"
-  }
- },
- {
-  "name": "wd_firstadvantage",
-  "url": "https://fadv.wd1.myworkdayjobs.com/wday/cxs/fadv/FADV/jobs",
-  "method": "POST",
-  "json": {
-   "appliedFacets": {},
-   "limit": 1,
-   "offset": 0,
-   "searchText": "data"
-  },
-  "headers": {
-   "Content-Type": "application/json"
-  }
- },
- {
-  "name": "wd_epam",
-  "url": "https://epam.wd5.myworkdayjobs.com/wday/cxs/epam/EPAM/jobs",
-  "method": "POST",
-  "json": {
-   "appliedFacets": {},
-   "limit": 1,
-   "offset": 0,
-   "searchText": "data"
-  },
-  "headers": {
-   "Content-Type": "application/json"
-  }
- },
- {
-  "name": "wd_fanatics",
-  "url": "https://fanatics.wd5.myworkdayjobs.com/wday/cxs/fanatics/Fanatics/jobs",
-  "method": "POST",
-  "json": {
-   "appliedFacets": {},
-   "limit": 1,
-   "offset": 0,
-   "searchText": "data"
-  },
-  "headers": {
-   "Content-Type": "application/json"
-  }
- },
- {
-  "name": "wd_cimpress",
-  "url": "https://cimpress.wd5.myworkdayjobs.com/wday/cxs/cimpress/Cimpress_Careers/jobs",
-  "method": "POST",
-  "json": {
-   "appliedFacets": {},
-   "limit": 1,
-   "offset": 0,
-   "searchText": "data"
-  },
-  "headers": {
-   "Content-Type": "application/json"
-  }
- },
- {
-  "name": "wd_veeam",
-  "url": "https://veeam.wd3.myworkdayjobs.com/wday/cxs/veeam/Veeam/jobs",
-  "method": "POST",
-  "json": {
-   "appliedFacets": {},
-   "limit": 1,
-   "offset": 0,
-   "searchText": "data"
-  },
-  "headers": {
-   "Content-Type": "application/json"
-  }
- },
- {
-  "name": "wd_idt",
-  "url": "https://idt.wd1.myworkdayjobs.com/wday/cxs/idt/IDT/jobs",
-  "method": "POST",
-  "json": {
-   "appliedFacets": {},
-   "limit": 1,
-   "offset": 0,
-   "searchText": "data"
-  },
-  "headers": {
-   "Content-Type": "application/json"
-  }
- },
- {
-  "name": "wd_sciative",
-  "url": "https://sciative.wd3.myworkdayjobs.com/wday/cxs/sciative/Sciative/jobs",
-  "method": "POST",
-  "json": {
-   "appliedFacets": {},
-   "limit": 1,
-   "offset": 0,
-   "searchText": "data"
-  },
-  "headers": {
-   "Content-Type": "application/json"
-  }
- },
- {
-  "name": "gh2_phonepe",
-  "url": "https://boards-api.greenhouse.io/v1/boards/phonepe/jobs",
-  "method": "GET"
- },
- {
-  "name": "gh2_phonepegroup",
-  "url": "https://boards-api.greenhouse.io/v1/boards/phonepegroup/jobs",
-  "method": "GET"
- },
- {
-  "name": "gh2_phonepeprivatelimited",
-  "url": "https://boards-api.greenhouse.io/v1/boards/phonepeprivatelimited/jobs",
-  "method": "GET"
- },
- {
-  "name": "gh2_postman",
-  "url": "https://boards-api.greenhouse.io/v1/boards/postman/jobs",
-  "method": "GET"
- },
- {
-  "name": "gh2_postmaninc",
-  "url": "https://boards-api.greenhouse.io/v1/boards/postmaninc/jobs",
-  "method": "GET"
- },
- {
-  "name": "gh2_cohesity",
-  "url": "https://boards-api.greenhouse.io/v1/boards/cohesity/jobs",
-  "method": "GET"
- },
- {
-  "name": "gh2_cohesityinc",
-  "url": "https://boards-api.greenhouse.io/v1/boards/cohesityinc/jobs",
-  "method": "GET"
- },
- {
-  "name": "gh2_confluent",
-  "url": "https://boards-api.greenhouse.io/v1/boards/confluent/jobs",
-  "method": "GET"
- },
- {
-  "name": "gh2_upstox",
-  "url": "https://boards-api.greenhouse.io/v1/boards/upstox/jobs",
-  "method": "GET"
- },
- {
-  "name": "gh2_dreamsports",
-  "url": "https://boards-api.greenhouse.io/v1/boards/dreamsports/jobs",
-  "method": "GET"
- },
- {
-  "name": "gh2_dream11",
-  "url": "https://boards-api.greenhouse.io/v1/boards/dream11/jobs",
-  "method": "GET"
- },
- {
-  "name": "gh2_icertis",
-  "url": "https://boards-api.greenhouse.io/v1/boards/icertis/jobs",
-  "method": "GET"
- },
- {
-  "name": "gh2_sciative",
-  "url": "https://boards-api.greenhouse.io/v1/boards/sciative/jobs",
-  "method": "GET"
- },
- {
-  "name": "gh2_clevertap",
-  "url": "https://boards-api.greenhouse.io/v1/boards/clevertap/jobs",
-  "method": "GET"
- },
- {
-  "name": "gh2_chargebee",
-  "url": "https://boards-api.greenhouse.io/v1/boards/chargebee/jobs",
-  "method": "GET"
- },
- {
-  "name": "gh2_netcore",
-  "url": "https://boards-api.greenhouse.io/v1/boards/netcore/jobs",
-  "method": "GET"
- },
- {
-  "name": "gh2_nykaa",
-  "url": "https://boards-api.greenhouse.io/v1/boards/nykaa/jobs",
-  "method": "GET"
- },
- {
-  "name": "gh2_lentra",
-  "url": "https://boards-api.greenhouse.io/v1/boards/lentra/jobs",
-  "method": "GET"
- },
- {
-  "name": "gh2_truecaller",
-  "url": "https://boards-api.greenhouse.io/v1/boards/truecaller/jobs",
-  "method": "GET"
- },
- {
-  "name": "gh_phonepe_html",
-  "url": "https://job-boards.greenhouse.io/phonepe",
-  "method": "GET",
-  "save": true
- },
- {
-  "name": "gh_postman_html",
-  "url": "https://job-boards.greenhouse.io/postman",
-  "method": "GET",
-  "save": true
- },
- {
-  "name": "google_api",
-  "url": "https://www.google.com/about/careers/applications/jobs/results?q=data&location=Pune%2C%20India&location=Mumbai%2C%20India&page=1",
-  "method": "GET",
-  "save": true
- },
- {
-  "name": "ubs_search",
-  "url": "https://jobs.ubs.com/TGnewUI/Search/Home/Home?partnerid=25008&siteid=5012#keyWordSearch=data&locationSearch=India",
-  "method": "GET",
-  "save": true
- },
- {
-  "name": "hsbc_jobsearch",
-  "url": "https://mycareer.hsbc.com/en_GB/external/SearchJobs/?search=data&jobRecordsPerPage=20&jobOffset=0",
-  "method": "GET",
-  "save": true
- },
- {
-  "name": "bloomberg_page2",
-  "url": "https://bloomberg.avature.net/careers/SearchJobs/?search=data&jobRecordsPerPage=50&jobOffset=0",
-  "method": "GET"
- },
- {
-  "name": "teradata_jobs",
-  "url": "https://careers.teradata.com/jobs?keywords=data&location=India",
-  "method": "GET",
-  "save": true
- },
- {
-  "name": "epam_api",
-  "url": "https://careers.epam.com/api/jobs/v2/search/careers?query=data&country=4000000000000165&lang=en&from=0&size=20",
-  "method": "GET"
- },
- {
-  "name": "bp_search",
-  "url": "https://careers.bp.com/jobs?keywords=data%20engineer&location=India",
-  "method": "GET",
-  "save": true
- },
- {
-  "name": "honeywell_search",
-  "url": "https://careers.honeywell.com/en/sites/Honeywell/jobs?keyword=data&location=India",
-  "method": "GET",
-  "save": true
- },
- {
-  "name": "dbs_search",
-  "url": "https://www.dbs.com/careers/jobs.page",
-  "method": "GET",
-  "save": true
- },
- {
-  "name": "emiratesnbd_search",
-  "url": "https://careers.emiratesnbd.com/search/?q=data",
-  "method": "GET",
-  "save": true
- },
- {
-  "name": "principal_search",
-  "url": "https://principal.wd5.myworkdayjobs.com/wday/cxs/principal/Principal_Careers/jobs",
-  "method": "POST",
-  "json": {
-   "appliedFacets": {},
-   "limit": 1,
-   "offset": 0,
-   "searchText": "data"
-  },
-  "headers": {
-   "Content-Type": "application/json"
-  }
- },
- {
-  "name": "icims_atlassian",
-  "url": "https://globalcareers-atlassian.icims.com/jobs/search?ss=1&searchKeyword=data&in_iframe=1",
-  "method": "GET",
-  "save": true
- },
- {
-  "name": "cimpress_page",
-  "url": "https://careers.cimpress.com/jobs?keywords=data",
-  "method": "GET",
-  "save": true
- },
- {
-  "name": "veeam_page",
-  "url": "https://careers.veeam.com/vacancies?search=data",
-  "method": "GET",
-  "save": true
- },
- {
-  "name": "fadv_page",
-  "url": "https://fadv.wd1.myworkdayjobs.com/External",
-  "method": "GET",
-  "save": false
- },
- {
-  "name": "siemens_search",
-  "url": "https://jobs.siemens.com/en_US/externaljobs/SearchJobs/data?listFilterMode=1",
-  "method": "GET",
-  "save": true
- },
- {
-  "name": "tomtom_jobs",
-  "url": "https://www.tomtom.com/careers/joboverview/?location=Pune",
-  "method": "GET",
-  "save": true
- },
- {
-  "name": "dassault_search",
-  "url": "https://www.3ds.com/careers/jobs?wockw=data&woc=%7B%22country%22%3A%5B%22country%2Findia%22%5D%7D",
-  "method": "GET",
-  "save": true
- },
- {
-  "name": "amadeus_jobs",
-  "url": "https://jobs.amadeus.com/search/?q=data",
-  "method": "GET",
-  "save": true
- },
- {
-  "name": "worldline_jobs",
-  "url": "https://jobs.worldline.com/search/?q=data",
-  "method": "GET",
-  "save": true
- },
- {
-  "name": "wartsila_jobs",
-  "url": "https://www.wartsila.com/careers/open-positions",
-  "method": "GET",
-  "save": true
- },
- {
-  "name": "atlascopco_jobs",
-  "url": "https://www.atlascopcogroup.com/en/careers/vacancies?query=data",
-  "method": "GET",
-  "save": true
- },
- {
-  "name": "forvia_jobs",
-  "url": "https://jobs.forvia.com/search/?q=data&locationsearch=India",
-  "method": "GET",
-  "save": true
- },
- {
-  "name": "dnv_jobs",
-  "url": "https://jobs.dnv.com/search/?q=data",
-  "method": "GET",
-  "save": true
- },
- {
-  "name": "here_jobs",
-  "url": "https://careers.here.com/search/?q=data",
-  "method": "GET",
-  "save": true
- },
- {
-  "name": "nice_jobs",
-  "url": "https://www.nice.com/careers/apply?search=data",
-  "method": "GET",
-  "save": true
- },
- {
-  "name": "panasonic_jobs",
-  "url": "https://careers.panasonic.aero/search/?q=data",
-  "method": "GET",
-  "save": true
- },
- {
-  "name": "mitsubishi_jobs",
-  "url": "https://www.mitsubishielectric.in/careers",
-  "method": "GET",
-  "save": true
- },
- {
-  "name": "vector_jobs",
-  "url": "https://jobs.vector.com/search/?q=data",
-  "method": "GET",
-  "save": true
- },
- {
-  "name": "esteco_jobs",
-  "url": "https://www.esteco.com/careers",
-  "method": "GET",
-  "save": true
- },
- {
-  "name": "kotak_jobs",
-  "url": "https://www.kotak.com/en/about-us/careers.html",
-  "method": "GET",
-  "save": true
- },
- {
-  "name": "icici_jobs",
-  "url": "https://www.icicicareers.com/",
-  "method": "GET",
-  "save": true
- },
- {
-  "name": "axis_jobs",
-  "url": "https://www.axisbank.com/careers",
-  "method": "GET",
-  "save": true
- },
- {
-  "name": "jio_jobs",
-  "url": "https://careers.jio.com/",
-  "method": "GET",
-  "save": true
- },
- {
-  "name": "billdesk_jobs",
-  "url": "https://www.billdesk.com/web/careers",
-  "method": "GET",
-  "save": true
- },
- {
-  "name": "netcore_jobs",
-  "url": "https://netcorecloud.com/careers/",
-  "method": "GET",
-  "save": true
- },
- {
-  "name": "lentra_jobs",
-  "url": "https://lentra.ai/careers/",
-  "method": "GET",
-  "save": true
- },
- {
-  "name": "firstcry_jobs",
-  "url": "https://www.firstcry.com/careers",
-  "method": "GET",
-  "save": true
- },
- {
-  "name": "nykaa_jobs",
+  "name": "nykaa_page2",
   "url": "https://careers.nykaa.com/",
   "method": "GET",
   "save": true
  },
  {
-  "name": "medianet_jobs",
-  "url": "https://careers.media.net/",
+  "name": "jiostar",
+  "url": "https://careers.jiostar.com/",
   "method": "GET",
   "save": true
+ },
+ {
+  "name": "chargebee_unify",
+  "url": "https://jobs.chargebee.com/services/recruiting/v1/jobs",
+  "method": "POST",
+  "headers": {
+   "Content-Type": "application/json"
+  },
+  "json": {
+   "locale": "en_US",
+   "pageNumber": 0,
+   "sortBy": "",
+   "keywords": "engineer",
+   "location": "",
+   "facetFilters": {},
+   "brand": "",
+   "skills": [],
+   "categoryId": 0,
+   "alertId": "",
+   "rcmCandidateId": ""
+  }
  },
  {
   "name": "chargebee_jobs",
-  "url": "https://www.chargebee.com/careers/",
+  "url": "https://jobs.chargebee.com/",
   "method": "GET",
   "save": true
  },
  {
-  "name": "clevertap_jobs",
-  "url": "https://clevertap.com/careers/",
-  "method": "GET",
-  "save": true
+  "name": "worldline_unify",
+  "url": "https://jobs.worldline.com/services/recruiting/v1/jobs",
+  "method": "POST",
+  "headers": {
+   "Content-Type": "application/json"
+  },
+  "json": {
+   "locale": "en_US",
+   "pageNumber": 0,
+   "sortBy": "",
+   "keywords": "data",
+   "location": "India",
+   "facetFilters": {},
+   "brand": "",
+   "skills": [],
+   "categoryId": 0,
+   "alertId": "",
+   "rcmCandidateId": ""
+  }
  },
  {
-  "name": "sciative_jobs",
-  "url": "https://sciative.com/careers",
-  "method": "GET",
-  "save": true
+  "name": "sc_jobpage",
+  "url": "https://jobs.standardchartered.com/job/Manager%2C-Data-Analysis/63962-en_GB/",
+  "method": "GET"
  },
  {
-  "name": "tiger_jobs",
-  "url": "https://www.tigeranalytics.com/careers/",
+  "name": "siemens_page2",
+  "url": "https://jobs.siemens.com/en_US/externaljobs/SearchJobs/data?jobRecordsPerPage=50&jobOffset=0",
   "method": "GET",
   "save": true
- },
- {
-  "name": "3pillar_jobs",
-  "url": "https://www.3pillarglobal.com/careers/",
-  "method": "GET",
-  "save": true
- },
- {
-  "name": "icertis_jobs",
-  "url": "https://www.icertis.com/company/careers/",
-  "method": "GET",
-  "save": true
- },
- {
-  "name": "idt_jobs",
-  "url": "https://www.idt.net/careers",
-  "method": "GET",
-  "save": true
- },
- {
-  "name": "upstox_jobs",
-  "url": "https://upstox.com/careers/",
-  "method": "GET",
-  "save": true
- },
- {
-  "name": "dreamsports_jobs",
-  "url": "https://dreamsports.group/careers/",
-  "method": "GET",
-  "save": true
- },
- {
-  "name": "truecaller_jobs",
-  "url": "https://www.truecaller.com/careers",
-  "method": "GET",
-  "save": true
- },
- {
-  "name": "eruditus_jobs",
-  "url": "https://eruditus.com/careers/",
-  "method": "GET",
-  "save": true
- },
- {
-  "name": "mrsool_jobs",
-  "url": "https://mrsool.co/careers",
-  "method": "GET",
-  "save": true
- },
- {
-  "name": "claroda_jobs",
-  "url": "https://www.claroda.com/careers",
-  "method": "GET",
-  "save": true
- },
- {
-  "name": "trajector_jobs",
-  "url": "https://www.trajector.com/careers",
-  "method": "GET",
-  "save": true
- },
- {
-  "name": "ddn_jobs",
-  "url": "https://www.ddn.com/company/careers/",
-  "method": "GET",
-  "save": true
- },
- {
-  "name": "necss_jobs",
-  "url": "https://www.necsws.com/careers/",
-  "method": "GET",
-  "save": true
- },
- {
-  "name": "fanatics_jobs",
-  "url": "https://www.fanaticsinc.com/careers",
-  "method": "GET",
-  "save": true
- },
- {
-  "name": "vertiv_jobs",
-  "url": "https://www.vertiv.com/en-us/about/careers/",
-  "method": "GET",
-  "save": true
- },
- {
-  "name": "equinix_jobs",
-  "url": "https://careers.equinix.com/",
-  "method": "GET",
-  "save": true
- },
- {
-  "name": "hdfc_api",
-  "url": "https://www.hdfc.bank.in/careers",
-  "method": "GET",
-  "save": false
  }
 ]
