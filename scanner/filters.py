@@ -45,7 +45,7 @@ SKILL_KEYWORDS = [
     "databricks", "data platform", "data warehouse", "data warehousing", "dwh", "data lake",
     "lakehouse", "dbt", "airflow", "snowflake", "bigquery", "redshift", "informatica",
     "talend", "data integration", "data infrastructure", "dataops", "data ops", "data fabric",
-    "azure data factory", "adf", "kafka",
+    "azure data factory", "adf",
 ]
 # Never data-engineering roles, whatever else the title says
 HARD_EXCLUDE = [
@@ -63,8 +63,11 @@ SOFT_EXCLUDE = [
 BORDERLINE_WORDS = [
     "quality", "test", "testing", "qa", "support", "storage", "governance", "management",
     "migration", "analyst", "scientist", "sales", "presales", "pre sales", "solutions",
-    "consultant", "architect", "manager", "director", "head",
+    "consultant", "architect", "manager", "director", "head", "customer",
 ]
+# A skill keyword in a title that is clearly not an engineering role
+KEYWORD_BORDERLINE_WORDS = ["analyst", "test", "testing", "qa", "sales", "presales", "support",
+                            "consultant", "director", "head", "recruiter", "customer", "admin"]
 
 
 def title_match(title):
@@ -96,7 +99,10 @@ def title_match(title):
         borderline = True
     if soft:  # e.g. "Data Scientist (PySpark)" got in through a keyword
         borderline = True
-    if how.startswith("keyword:") and kw in ("kafka", "airflow", "snowflake", "adf", "hive") \
+    if how.startswith("keyword:") and _has(KEYWORD_BORDERLINE_WORDS, t) and \
+            not re.search(r"\b(engineer|engineering|developer)\b", t):
+        borderline = True
+    if how.startswith("keyword:") and kw in ("airflow", "snowflake", "adf", "hive") \
             and "data" not in t and not re.search(r"\b(engineer|developer)\b", t):
         borderline = True
     if how.startswith("keyword:airflow") and "data" not in t:
@@ -178,6 +184,8 @@ def location_tags(locations, remote_flag=None, country=None):
         elif not foreign:
             tags.add("Remote")
             notes.append("remote - country not stated")
+    elif not tags and _has(["multiple locations", "various locations"], blob) and not _has(NOT_INDIA_WORDS, blob):
+        notes.append("multiple locations - check")
     elif not tags and _has(["maharashtra"], blob):
         leftover = set(re.findall(r"[a-z]+", blob)) - {"maharashtra", "india", "in", "mh", "ind", "state", "of"}
         if not leftover:

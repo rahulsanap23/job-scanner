@@ -22,7 +22,8 @@ def test_titles_in():
 def test_titles_out():
     for t in ["Data Scientist", "Data Analyst", "Data Center Technician", "Data Entry Operator",
               "Software Engineer", "Backend Engineer", "Data Engineering Intern", "Product Manager - Data",
-              "Data Privacy Engineer", "Apprentice - Data Engineer", "Pipeline Integrity Engineer"]:
+              "Data Privacy Engineer", "Apprentice - Data Engineer", "Pipeline Integrity Engineer",
+              "Lead Software Engineer - Java Spring Boot, Kafka"]:
         assert not m(t), t
 
 
@@ -51,6 +52,7 @@ def test_locations():
     assert location_tags(["Remote, EMEA"])[0] == set()
     assert location_tags(["India"], remote_flag=True)[0] == {"Remote"}
     assert location_tags(["Maharashtra, India"]) == (set(), ["Maharashtra - city not stated"])
+    assert location_tags(["Multiple Locations"]) == (set(), ["multiple locations - check"])
 
 
 def test_dates():

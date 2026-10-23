@@ -32,10 +32,11 @@ def scan(src, http):
                         break
     jobs = []
     for guid, j in seen.items():
-        locs = j.get("all_locations") or []
-        if isinstance(locs, str):
-            locs = [locs]
-        locs = [j.get("location_exact") or ""] + [l for l in locs if isinstance(l, str)]
+        primary = (j.get("location_exact") or "").replace(", IND", ", India")
+        extra = j.get("all_locations") or []
+        extra = [extra] if isinstance(extra, str) else extra
+        locs = [primary] + [l for l in extra if isinstance(l, str) and len(l.strip(" ,")) > 3
+                            and l.strip(" ,").lower() not in primary.lower() and l.strip() != "India"]
         jobs.append({"id": guid, "title": j.get("title_exact", ""), "locations": locs, "url": _url(j),
                      "posted": j.get("date_new") or j.get("date_added"), "remote": None,
                      "country": j.get("country_exact")})

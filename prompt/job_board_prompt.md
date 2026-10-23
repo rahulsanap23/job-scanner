@@ -70,7 +70,7 @@ Keep a row if the normalised title contains any of:
 OR a data-engineering skill keyword: Spark, PySpark, Hadoop, Hive, ETL, ELT, Data Pipeline, Databricks,
 Data Platform, Data Warehouse/Warehousing, DWH, Data Lake, Lakehouse, dbt, Airflow, Snowflake,
 BigQuery, Redshift, Informatica, Talend, Data Integration, Data Infrastructure, DataOps, Data Fabric,
-Azure Data Factory/ADF, Kafka.
+Azure Data Factory/ADF. (Kafka is not a keyword: it mostly pulls in general backend roles.)
 OR the reversed word order: "Software Engineer … Data" and "Data … Software Engineer"/"Data … Developer".
 Always exclude: data centre/center, data entry, internships, apprentices, trainees, working
 students and campus/graduate programmes.
@@ -80,7 +80,9 @@ clinical data.
 Flag as "title borderline" (kept, review needed): loose-pattern titles that also contain quality,
 test, QA, support, storage, governance, management, migration, analyst, scientist, sales, presales,
 solutions, consultant, architect, manager, director or head; any data-scientist title that got in
-through a skill keyword; "Airflow", "Kafka", "Snowflake", "ADF" or "Hive" titles with no "data",
+through a skill keyword; skill-keyword titles that read as analyst, test, sales, support, consultant,
+director, head, admin or customer roles with no "engineer"/"developer" in them; "Airflow", "Snowflake",
+"ADF" or "Hive" titles with no "data",
 "engineer" or "developer" (industrial companies use "airflow" for HVAC roles).
 
 Step 3 — Filter by location
@@ -99,6 +101,8 @@ Keep only rows whose location mentions Pune, Mumbai, Navi Mumbai, or a remote ro
 - Multi-location postings carry every matching tag (e.g. Pune + Remote). For Workday postings shown
   as "N Locations", the scanner opens the posting to read the real list.
 - A location of just "Maharashtra, India" with no city is kept and flagged.
+- A posting whose location is only "Multiple Locations" (some Avature sites) is kept and flagged
+  "multiple locations - check", unless the text names a non-Indian country.
 
 Step 4 — Filter by recency
 Keep rows posted within the last 30 days (India date). Relative dates ("Posted 5 Days Ago",
@@ -122,7 +126,7 @@ titles for clear misfits. Decide keep or drop:
   support, storage hardware, data science or analysis without engineering, or HVAC/mechanical work.
 - "remote - country not stated": keep unless the title or company makes another country obvious
   (e.g. "US Federal" or a US-only company).
-- "Maharashtra - city not stated": keep.
+- "Maharashtra - city not stated" and "multiple locations - check": keep; the reader opens the posting.
 - Unflagged rows: drop only clear errors (e.g. a non-data title that slipped through). When unsure,
   keep it.
 Pass the URLs of dropped rows to the board builder (`--drop`). Never add rows the scanner didn't find.
