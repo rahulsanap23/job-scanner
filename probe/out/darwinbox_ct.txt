@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <base href="/ms/candidate/">  <noscript>Please enable Javascript!</noscript>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <script type="module" src="/ms/dboxuilibrary/assets/dboxuilib_dist/www/build/db-components.esm.js"></script>
+  <script nomodule src="/ms/dboxuilibrary/assets/dboxuilib_dist/www/build/db-components.js"></script>
+  <script src='/ms/formbuilder/assets/db-form/db-form.js'></script>
+  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit" defer></script>
+<link rel="stylesheet" href="styles.e850392f09eedfc7cf7f.css"></head>
+<body class="pb-150">
+  <app-root ng-class="clearfix"></app-root>
+  <div class="clearfix"></div>
+  <script>
+    
+    // pendo intregration
+    (function(apiKey){
+        (function(p,e,n,d,o){var v,w,x,y,z;o=p[d]=p[d]||{};o._q=o._q||[];
+        v=['initialize','identify','updateOptions','pageLoad','track'];for(w=0,x=v.length;w<x;++w)(function(m){
+            o[m]=o[m]||function(){o._q[m===v[0]?'unshift':'push']([m].concat([].slice.call(arguments,0)));};})(v[w]);
+            y=e.createElement(n);y.async=!0;y.src='https://cdn.pendo.io/agent/static/'+apiKey+'/pendo.js';
+            z=e.getElementsByTagName(n)[0];z.parentNode.insertBefore(y,z);})(window,document,'script','pendo');
+    })('ef82c8d3-52b7-41b9-4f25-b592098285e7');
+  </script>
+  <script src='/ms/bot/candidateweb/assets/bot.js'></script>
+<script type="text/javascript" src="runtime.fd23fb30dac292f622bc.js"></script><script type="text/javascript" src="polyfills.c6a4a70db06b88215285.js"></script><script type="text/javascript" src="scripts.5b47f77556b9d5487785.js"></script><script type="text/javascript" src="main.38495915aab0be25d160.js"></script><script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon='{"version":"2024.11.0","[redacted],"spa":2}' crossorigin="anonymous"></script>
+</body>
+</html>
