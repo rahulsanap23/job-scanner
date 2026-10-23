@@ -149,15 +149,17 @@ def main():
             seen = json.load(f)
     except (FileNotFoundError, json.JSONDecodeError):
         seen = {}
-    first_run = not seen
+    # roles found by the very first scan are the baseline, not "new"
+    baseline = seen.pop("_baseline", None) or (min(seen.values()) if seen else today.isoformat())
     for j in jobs:
         k = job_key(j)
         seen.setdefault(k, today.isoformat())
         j["first_seen"] = seen[k]
-        j["new"] = (not first_run) and (today - datetime.fromisoformat(seen[k]).date()).days < NEW_DAYS
+        j["new"] = seen[k] != baseline and (today - datetime.fromisoformat(seen[k]).date()).days < NEW_DAYS
     cutoff = (today - timedelta(days=120)).isoformat()
     live = {job_key(j) for j in jobs}
     seen = {k: v for k, v in seen.items() if k in live or v >= cutoff}
+    seen["_baseline"] = baseline
 
     jobs.sort(key=lambda j: (j["company"], j["days_ago"] if j["days_ago"] is not None else 999, j["title"]))
     reports.sort(key=lambda r: r["company"])

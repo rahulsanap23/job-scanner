@@ -4,11 +4,13 @@ PAGE = 25
 MAX_PAGES_PER_TERM = 12
 
 
-def _query(http, base, site, term, offset, location_id=None):
+def _query(http, base, site, term, offset, location_id=None, location=None):
     finder = (f"findReqs;siteNumber={site},facetsList=LOCATIONS,limit={PAGE},offset={offset},"
               f'keyword="{term}",sortBy=POSTING_DATES_DESC')
     if location_id:
         finder += f",locationId={location_id}"
+    elif location:
+        finder += f",location={location}"
     data = http.get_json(base, params={"onlyData": "true",
                                        "expand": "requisitionList.secondaryLocations",
                                        "finder": finder})
@@ -23,13 +25,13 @@ def scan(src, http):
     first = _query(http, base, site, "data", 0)
     india = next((f.get("Id") for f in first.get("locationsFacet") or []
                   if (f.get("Name") or "").strip().lower() == "india"), None)
-    src["_note"] = "locationId=India" if india else "no India facet"
+    src["_note"] = "locationId=India" if india else "location=India (text search)"
 
     seen = {}
     for term in src.get("terms") or SEARCH_TERMS:
         offset = 0
         for _ in range(MAX_PAGES_PER_TERM):
-            item = _query(http, base, site, term, offset, india)
+            item = _query(http, base, site, term, offset, india, None if india else "India")
             reqs = item.get("requisitionList") or []
             for r in reqs:
                 seen.setdefault(str(r.get("Id")), r)

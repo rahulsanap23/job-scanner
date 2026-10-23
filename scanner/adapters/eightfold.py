@@ -22,7 +22,9 @@ def scan(src, http):
         for loc in src.get("locations") or ["India"]:
             start = 0
             for _ in range(MAX_PAGES_PER_TERM):
-                params = {"domain": domain, "query": term, "location": loc, "start": start}
+                params = {"domain": domain, "query": term, "start": start}
+                if loc:
+                    params["location"] = loc
                 if api != "pcsx":
                     params["num"] = PAGE
                 rows, count = _rows(http.get_json(f"https://{host}{path}", params=params), api)

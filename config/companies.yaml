@@ -235,8 +235,7 @@ companies:
     host: careers.deere.com
     domain: johndeere.com
     locations:
-    - Pune, Maharashtra, India
-    - India
+    - null
 - name: Thermo Fisher Scientific
   sources:
   - type: workday
@@ -279,8 +278,7 @@ companies:
     fallback: true
 - name: Visa
   sources:
-  - type: smartrecruiters
-    company_id: Visa
+  - type: visa
   careers_url: https://corporate.visa.com/en/jobs/
 - name: Dow
   sources:
@@ -724,6 +722,7 @@ companies:
   sources:
   - type: smartrecruiters
     company_id: TeamViewer1
+  careers_url: https://www.teamviewer.com/en/company/careers/
 - name: Coursera
   sources:
   - type: greenhouse
@@ -817,10 +816,9 @@ companies:
     site: mindtickle
 - name: Chargebee
   sources:
-  - type: csb
+  - type: csb_rss
     base: https://jobs.chargebee.com
-    locations:
-    - India
+    locale: en_US
 - name: CleverTap
   sources: []
   careers_url: https://clevertap.darwinbox.in/ms/candidate/careers
@@ -923,6 +921,7 @@ companies:
   sources:
   - type: smartrecruiters
     company_id: Tietoevry1
+  careers_url: https://www.tietoevry.com/en/careers/
 - name: Media.net
   sources: []
   careers_url: https://careers.media.net/
