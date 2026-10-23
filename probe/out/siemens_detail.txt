@@ -1,0 +1,1192 @@
+
+
+        
+    
+    
+                                        
+    
+    
+    
+    
+                
+                                        
+                    
+        
+                
+                
+                                
+    
+    
+                
+                
+            
+                        
+        
+        
+                    
+        
+    <!DOCTYPE html>
+
+    <html lang="en-US" xml:lang="en-US" xmlns="http://www.w3.org/1999/xhtml" menu-type="visible" menu-toggleSide="right" menu-panelFrom="right" menu-panelEffect="over">
+        <head><meta name="csp-nonce-style" content="142087d260ffe4405a3754d76118387aab0a167d9a04b6af57be140d330aae93"/><meta name="csp-nonce-script" content="142087d260ffe4405a3754d76118387aab0a167d9a04b6af57be140d330aae93"/><meta name="avature.portal.id" content="144"/><meta name="avature.portal.name" content="Siemens Careers Marketplace Global"/><meta name="avature.portal.urlPath" content="externaljobs"/><meta name="avature.portal.lang" content="en_US"/><meta name="avature.portal.page" content="JobDetail"/><meta name="avature.portallist.search" content/>
+            <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+            <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0, user-scalable=1" />
+
+                                
+    
+                        <meta property="og:title" content="Data Engineer" />
+        
+                    <meta property="og:type" content="website" />
+        
+                    <meta property="og:url" content="https://jobs.siemens.com/en_US/externaljobs/JobDetail/525786" />
+        
+                    <meta property="og:description" content="" />
+        
+                    <meta property="og:site_name" content="Siemens" />
+        
+                    <meta property="og:image" content="https://jobs.siemens.com/_cms/144/image/logoHiringOrganizationJobDetail/1?version=251971078" />
+            
+    <meta name="Description" content="" />
+
+                                                
+    
+    
+    
+    
+    
+
+                    <script type="text/javascript" src="/portal/144/common-dependencies/vendor/templatesfeatures/externalcookies/assets/core-externalcookies.js?v=1791272717" defer></script>
+
+            
+                <title data-au="ag-title-21">
+        Data Engineer - Job Detail &#124; Careers Marketplace - Siemens
+    </title>
+
+            <link href="/ASSET/portal/jquery/UI/1.13.2/jquery-ui.min.css?version=10.85.85-stable" rel="stylesheet"></link><link href="/portalpacks/web/assets/session-popup._xa4D8v5.css" rel="stylesheet"></link><link href="/portalpacks/web/assets/index.CoB8YEta.css" rel="stylesheet"></link><link rel="stylesheet" href="/portalpacks/web/assets/body.C9CX2Y2H.css"><link rel="stylesheet" href="/portalpacks/web/assets/index.CoB8YEta.css"><link rel="stylesheet" href="/portalpacks/web/assets/vendor-fortawesome-fontawesome-svg-core.DuaSt5cF.css"><link href="/ASSET/portal/widget/jobsharemethod/styles.css?version=10.85.85-stable" rel="stylesheet"></link><link id="dynamic-styles-marker">
+
+<link rel="stylesheet" type="text/css" media="all" href="/portal/144/css/library__theme.css?v=1791272711" />
+
+    <link id="bridgecss" rel="stylesheet" type="text/css" media="all" href="https://templates-static-assets.avacdn.net/cssLibrary/bridge/1/bridge__ags-to-tgs.css" />
+
+<style type="text/css">    /* ===========================================================================
+        ICONS
+        --------------------------------------------------------------------------
+        ELEMENTS
+        --------------------------------------------------------------------------
+        External
+        : Thumbnails
+        Fields
+
+        COMPONENTS
+        --------------------------------------------------------------------------
+        Navigation
+        : Menu (Dynamic)
+
+        MODULES
+        --------------------------------------------------------------------------
+        Banner
+        : Home
+
+        PAGETYPES
+        --------------------------------------------------------------------------
+        Login
+    =========================================================================== */
+
+    /*
+        ICONS:
+    */
+
+    :root {
+        --header--icon--open--menu: url(https://jobs.siemens.com/portal/144/images/icon--open--menu.svg);
+        --header--icon--close--menu: url(https://jobs.siemens.com/portal/144/images/icon--close--menu.svg);
+
+        --home--icon--arrow-right--green-hover: url(https://jobs.siemens.com/portal/144/images/icon--arrow--right--hover.svg);
+        --home--icon--arrow-right--green-static: url(https://jobs.siemens.com/portal/144/images/icon--arrow--right--static.svg);
+
+        --alerts--icon--edit-hover: url(https://jobs.siemens.com/portal/144/images/icon--edit--hover.svg);
+        --alerts--icon--edit-static: url(https://jobs.siemens.com/portal/144/images/icon--edit--static.svg);
+        --alerts--icon--edit--delete: url(https://jobs.siemens.com/portal/144/images/icon--edit--delete.svg);
+
+        --jobs--icon--caret--up-hover: url(https://jobs.siemens.com/portal/144/images/icon--caret--up-hover.svg);
+        --jobs--icon--caret--up-static: url(https://jobs.siemens.com/portal/144/images/icon--caret--up-static.svg);
+        --jobs--icon--caret--down-hover: url(https://jobs.siemens.com/portal/144/images/icon--caret--down-hover.svg);
+        --jobs--icon--caret--down-static: url(https://jobs.siemens.com/portal/144/images/icon--caret--down-static.svg);
+        --jobs--icon--caret--down-white-static: url(https://jobs.siemens.com/portal/144/images/icon--caret--down-white-static.svg);
+
+        --details--icon--copy--green-hover: url(https://jobs.siemens.com/portal/144/images/icon--copy--hover.svg);
+        --details--icon--copy--green-static: url(https://jobs.siemens.com/portal/144/images/icon--copy--static.svg);
+        --details--icon--arrow-up--green-hover: url(https://jobs.siemens.com/portal/144/images/icon--arrow--up--hover.svg);
+        --details--icon--arrow-up--green-static: url(https://jobs.siemens.com/portal/144/images/icon--arrow--up--static.svg);
+
+        --details--icon--star-hover: url(https://jobs.siemens.com/portal/144/images/icon--star-hover.svg);
+        --details--icon--star-static: url(https://jobs.siemens.com/portal/144/images/icon--star-static.svg);
+        --details--icon--star-selected: url(https://jobs.siemens.com/portal/144/images/icon--star-selected.svg);
+
+        --details--icon--check--input-static: url(https://jobs.siemens.com/portal/144/images/icon--check-static.svg);
+
+        --application--icon--step--filled: url(https://jobs.siemens.com/portal/144/images/icon--step--filled.svg);
+        --application--icon--step--current: url(https://jobs.siemens.com/portal/144/images/icon--step--current.svg);
+
+        --breadcrumbs--icon--home-hover: url(https://jobs.siemens.com/portal/144/images/icon--house--hover.svg);
+        --breadcrumbs--icon--home-static: url(https://jobs.siemens.com/portal/144/images/icon--house-static.svg);
+        --breadcrumbs--icon--home-static--dark: url(https://jobs.siemens.com/portal/144/images/icon--house-static--dark.svg);
+        --breadcrumbs--icon--chevron-right: url(https://jobs.siemens.com/portal/144/images/icon--chevron--right.svg);
+        --breadcrumbs--icon--chevron-right--dark: url(https://jobs.siemens.com/portal/144/images/icon--chevron--right--dark.svg);
+
+        --fields--icon--error-static: url(https://jobs.siemens.com/portal/144/images/icon--error.svg);
+        --fields--icon--resume-hover: url(https://jobs.siemens.com/portal/144/images/icon--resume-hover.svg);
+        --fields--icon--upload-hover: url(https://jobs.siemens.com/portal/144/images/icon--upload-hover.svg);
+        --fields--icon--resume-static: url(https://jobs.siemens.com/portal/144/images/icon--resume-static.svg);
+        --fields--icon--upload-static: url(https://jobs.siemens.com/portal/144/images/icon--upload-static.svg);
+
+        --footer--social--icon--x-hover: url(https://jobs.siemens.com/portal/144/images/social-media--x-hover.svg);
+        --footer--social--icon--x-static: url(https://jobs.siemens.com/portal/144/images/social-media--x-static.svg);
+
+        --footer--social--icon--facebook-hover: url(https://jobs.siemens.com/portal/144/images/social-media--facebook-hover.svg);
+        --footer--social--icon--facebook-static: url(https://jobs.siemens.com/portal/144/images/social-media--facebook-static.svg);
+
+        --footer--social--icon--linkedin-hover: url(https://jobs.siemens.com/portal/144/images/social-media--linkedin-hover.svg);
+        --footer--social--icon--linkedin-static: url(https://jobs.siemens.com/portal/144/images/social-media--linkedin-static.svg);
+
+        --footer--social--icon--youtube-hover: url(https://jobs.siemens.com/portal/144/images/social-media--youtube-hover.svg);
+        --footer--social--icon--youtube-static: url(https://jobs.siemens.com/portal/144/images/social-media--youtube-static.svg);
+
+        --footer--social--icon--instagram-hover: url(https://jobs.siemens.com/portal/144/images/social-media--instagram-hover.svg);
+        --footer--social--icon--instagram-static: url(https://jobs.siemens.com/portal/144/images/social-media--instagram-static.svg);
+
+        --footer--copyright--icon--arrow-up--green-hover: url(https://jobs.siemens.com/portal/144/images/icon--arrow--up--green.svg);
+        --footer--copyright--icon--arrow-up--white-static: url(https://jobs.siemens.com/portal/144/images/icon--arrow--up--white.svg);
+    }
+
+    /*
+        ELEMENTS/External: Thumbnails (Within WIDGETS/Forms: Types: FileField)
+    */
+
+    .FileField {
+        --t-tc--thumbnail--background--image: url(https://jobs.siemens.com/portal/144/images/icon--user.svg);
+    }
+
+    /*
+        ELEMENTS/Fields
+    */
+
+    :root {
+        --t-tc--fields__icon--caret--down: url(https://jobs.siemens.com/portal/144/images/icon--caret--down.svg);
+        --t-tc--fields__icon--caret--down--disabled: url(https://jobs.siemens.com/portal/144/images/icon--caret--down--disabled.svg);
+        --t-tc--fields__icon--caret--up: url(https://jobs.siemens.com/portal/144/images/icon--caret--up.svg);
+        --t-tc--fields__icon--clear: url(https://jobs.siemens.com/portal/144/images/icon--clear.svg);
+    }
+
+    /*
+        COMPONENTS/Navigation: Menu (Dynamic)
+    */
+
+    @media all and (max-width:1025px) {
+        :root {
+            --t-tc--header--height: 8.8rem;
+        }
+    }
+
+    /*
+        MODULES/Banner
+    */
+
+    /* Media query to target only wide */
+    @media all and (min-width:1920px) {
+        :root {
+            --t-tc--banner--background--image: url(https://jobs.siemens.com/portal/144/images/banners/wide/banner--details--wide.webp);
+            --t-tc--ai__banner--background--image: url(https://jobs.siemens.com/portal/144/images/banners/wide/banner--ai--wide.webp);
+            --t-tc--login__banner--background--image: url(https://jobs.siemens.com/portal/144/images/banners/wide/banner--login--wide.webp);
+            --t-tc--jobs__banner--background--image: url(https://jobs.siemens.com/portal/144/images/banners/wide/banner--search-jobs--wide.webp);
+            --t-tc--details__banner--background--image: url(https://jobs.siemens.com/portal/144/images/banners/wide/banner--details--wide.webp);
+            --t-tc--profile__banner--background--image: url(https://jobs.siemens.com/portal/144/images/banners/wide/banner--profile--wide.webp);
+            --t-tc--alerts__banner--background--image: url(https://jobs.siemens.com/portal/144/images/banners/wide/banner--job-alerts--wide.webp);
+            --t-tc--register__banner--background--image: url(https://jobs.siemens.com/portal/144/images/banners/wide/banner--register--wide.webp);
+            --t-tc--feedback__banner--background--image: url(https://jobs.siemens.com/portal/144/images/banners/wide/banner--feedback--wide.webp);
+            --t-tc--maintenance__banner--background--image: url(https://jobs.siemens.com/portal/144/images/banners/wide/banner--maintenance--wide.webp);
+            --t-tc--recommendations__banner--background--image: url(https://jobs.siemens.com/portal/144/images/banners/wide/banner--recommendations--wide.webp);
+        }
+    }
+
+    /* Media query to target only desktop */
+    @media all and (min-width:1440px) and (max-width:1919px) {
+        :root {
+            --t-tc--banner--background--image: url(https://jobs.siemens.com/portal/144/images/banners/desktop/banner--details--desktop.webp);
+            --t-tc--ai__banner--background--image: url(https://jobs.siemens.com/portal/144/images/banners/desktop/banner--ai--desktop.webp);
+            --t-tc--login__banner--background--image: url(https://jobs.siemens.com/portal/144/images/banners/desktop/banner--login--desktop.webp);
+            --t-tc--jobs__banner--background--image: url(https://jobs.siemens.com/portal/144/images/banners/desktop/banner--search-jobs--desktop.webp);
+            --t-tc--details__banner--background--image: url(https://jobs.siemens.com/portal/144/images/banners/desktop/banner--details--desktop.webp);
+            --t-tc--profile__banner--background--image: url(https://jobs.siemens.com/portal/144/images/banners/desktop/banner--profile--desktop.webp);
+            --t-tc--alerts__banner--background--image: url(https://jobs.siemens.com/portal/144/images/banners/desktop/banner--job-alerts--desktop.webp);
+            --t-tc--register__banner--background--image: url(https://jobs.siemens.com/_cms/144/image/bannerRegiserDesktop/1?version=240732715);
+            --t-tc--feedback__banner--background--image: url(https://jobs.siemens.com/portal/144/images/banners/desktop/banner--feedback--desktop.webp);
+            --t-tc--maintenance__banner--background--image: url(https://jobs.siemens.com/portal/144/images/banners/desktop/banner--maintenance--desktop.webp);
+            --t-tc--recommendations__banner--background--image: url(https://jobs.siemens.com/portal/144/images/banners/desktop/banner--recommendations--desktop.webp);
+        }
+    }
+
+    /* Media query to target only laptop */
+    @media all and (min-width:1025px) and (max-width:1439px) {
+        :root {
+            --t-tc--banner--background--image: url(https://jobs.siemens.com/portal/144/images/banners/laptop/banner--details--laptop.webp);
+            --t-tc--ai__banner--background--image: url(https://jobs.siemens.com/portal/144/images/banners/laptop/banner--ai--laptop.webp);
+            --t-tc--login__banner--background--image: url(https://jobs.siemens.com/portal/144/images/banners/laptop/banner--login--laptop.webp);
+            --t-tc--jobs__banner--background--image: url(https://jobs.siemens.com/portal/144/images/banners/laptop/banner--search-jobs--laptop.webp);
+            --t-tc--details__banner--background--image: url(https://jobs.siemens.com/portal/144/images/banners/laptop/banner--details--laptop.webp);
+            --t-tc--profile__banner--background--image: url(https://jobs.siemens.com/portal/144/images/banners/laptop/banner--profile--laptop.webp);
+            --t-tc--alerts__banner--background--image: url(https://jobs.siemens.com/portal/144/images/banners/laptop/banner--job-alerts--laptop.webp);
+            --t-tc--register__banner--background--image: url(https://jobs.siemens.com/portal/144/images/banners/laptop/banner--register--laptop.webp);
+            --t-tc--feedback__banner--background--image: url(https://jobs.siemens.com/portal/144/images/banners/laptop/banner--feedback--laptop.webp);
+            --t-tc--maintenance__banner--background--image: url(https://jobs.siemens.com/portal/144/images/banners/laptop/banner--maintenance--laptop.webp);
+            --t-tc--recommendations__banner--background--image: url(https://jobs.siemens.com/portal/144/images/banners/laptop/banner--recommendations--laptop.webp);
+        }
+    }
+
+    /* Media query to target only tablet */
+    @media all and (min-width:751px) and (max-width:1024px) {
+        :root {
+            --t-tc--banner--background--image: url(https://jobs.siemens.com/portal/144/images/banners/tablet/banner--details--tablet.webp);
+            --t-tc--ai__banner--background--image: url(https://jobs.siemens.com/portal/144/images/banners/tablet/banner--ai--tablet.webp);
+            --t-tc--login__banner--background--image: url(https://jobs.siemens.com/portal/144/images/banners/tablet/banner--login--tablet.webp);
+            --t-tc--jobs__banner--background--image: url(https://jobs.siemens.com/portal/144/images/banners/tablet/banner--search-jobs--tablet.webp);
+            --t-tc--details__banner--background--image: url(https://jobs.siemens.com/portal/144/images/banners/tablet/banner--details--tablet.webp);
+            --t-tc--profile__banner--background--image: url(https://jobs.siemens.com/portal/144/images/banners/tablet/banner--profile--tablet.webp);
+            --t-tc--alerts__banner--background--image: url(https://jobs.siemens.com/portal/144/images/banners/tablet/banner--job-alerts--tablet.webp);
+            --t-tc--register__banner--background--image: url(https://jobs.siemens.com/portal/144/images/banners/tablet/banner--register--tablet.webp);
+            --t-tc--feedback__banner--background--image: url(https://jobs.siemens.com/portal/144/images/banners/tablet/banner--feedback--tablet.webp);
+            --t-tc--maintenance__banner--background--image: url(https://jobs.siemens.com/portal/144/images/banners/tablet/banner--maintenance--tablet.webp);
+            --t-tc--recommendations__banner--background--image: url(https://jobs.siemens.com/portal/144/images/banners/tablet/banner--recommendations--tablet.webp);
+        }
+    }
+
+    /* Media query to target only mobile */
+    @media all and (max-width:750px) {
+        :root {
+            --t-tc--banner--background--image: url(https://jobs.siemens.com/_cms/144/image/bannerMobile/1?version=239975948);
+            --t-tc--ai__banner--background--image: url(https://jobs.siemens.com/portal/144/images/banners/mobile/banner--ai--mobile.webp);
+            --t-tc--login__banner--background--image: url(https://jobs.siemens.com/portal/144/images/banners/mobile/banner--login--mobile.webp);
+            --t-tc--jobs__banner--background--image: url(https://jobs.siemens.com/portal/144/images/banners/mobile/banner--search-jobs--mobile.webp);
+            --t-tc--details__banner--background--image: url(https://jobs.siemens.com/portal/144/images/banners/mobile/banner--ai--mobile.webp);
+            --t-tc--profile__banner--background--image: url(https://jobs.siemens.com/_cms/144/image/bannerProfileMobile/1?version=239975947);
+            --t-tc--alerts__banner--background--image: url(https://jobs.siemens.com/_cms/144/image/bannerAlertsMobile/1?version=239975946);
+            --t-tc--register__banner--background--image: url(https://jobs.siemens.com/_cms/144/image/bannerRegiserMobile/1?version=239975950);
+            --t-tc--feedback__banner--background--image: url(https://jobs.siemens.com/portal/144/images/banners/mobile/banner--feedback--mobile.webp);
+            --t-tc--maintenance__banner--background--image: url(https://jobs.siemens.com/portal/144/images/banners/mobile/banner--maintenance--mobile.webp);
+            --t-tc--recommendations__banner--background--image: url(https://jobs.siemens.com/portal/144/images/banners/mobile/banner--recommendations--mobile.webp);
+        }
+    }
+
+    /*
+        MODULES/Banner: Home
+    */
+
+    /* Media query to target only wide */
+    @media all and (min-width:1920px) {
+        :root {
+            --t-tc--home__banner--background--image: url(https://jobs.siemens.com/portal/144/images/banners/wide/home--banner--main--wide.webp);
+            --t-tc--home__banner--secondary--top--left--background--image: url(https://jobs.siemens.com/portal/144/images/banners/wide/banner--secondary--top--left--wide.webp);
+            --t-tc--home__banner--secondary--top--right--background--image: url(https://jobs.siemens.com/portal/144/images/banners/wide/banner--secondary--top--right--wide.webp);
+            --t-tc--home__banner--secondary--bottom--left--background--image: url(https://jobs.siemens.com/portal/144/images/banners/wide/banner--secondary--bottom--left--wide.webp);
+            --t-tc--home__banner--secondary--bottom--right--background--image: url(https://jobs.siemens.com/portal/144/images/banners/wide/banner--secondary--bottom--right--wide.webp);
+            --t-tc--home__banner--secondary--bottom--right--alt--background--image: url(https://jobs.siemens.com/portal/144/images/banners/wide/banner--secondary--bottom--right--alt--wide.webp);
+        }
+    }
+
+    /* Media query to target only desktop */
+    @media all and (min-width:1440px) and (max-width:1919px) {
+        :root {
+            --t-tc--home__banner--background--image: url(https://jobs.siemens.com/portal/144/images/banners/desktop/home--banner--main--desktop.webp);
+            --t-tc--home__banner--secondary--top--left--background--image: url(https://jobs.siemens.com/portal/144/images/banners/desktop/banner--secondary--top--left--desktop.webp);
+            --t-tc--home__banner--secondary--top--right--background--image: url(https://jobs.siemens.com/portal/144/images/banners/desktop/banner--secondary--top--right--desktop.webp);
+            --t-tc--home__banner--secondary--bottom--left--background--image: url(https://jobs.siemens.com/portal/144/images/banners/desktop/banner--secondary--bottom--left--desktop.webp);
+            --t-tc--home__banner--secondary--bottom--right--background--image: url(https://jobs.siemens.com/portal/144/images/banners/desktop/banner--secondary--bottom--right--desktop.webp);
+            --t-tc--home__banner--secondary--bottom--right--alt--background--image: url(https://jobs.siemens.com/portal/144/images/banners/desktop/banner--secondary--bottom--right--alt--desktop.webp);
+        }
+    }
+
+    /* Media query to target only laptop */
+    @media all and (min-width:1025px) and (max-width:1439px) {
+        :root {
+            --t-tc--home__banner--background--image: url(https://jobs.siemens.com/portal/144/images/banners/laptop/home--banner--main--laptop.webp);
+            --t-tc--home__banner--secondary--top--left--background--image: url(https://jobs.siemens.com/portal/144/images/banners/laptop/banner--secondary--top--left--laptop.webp);
+            --t-tc--home__banner--secondary--top--right--background--image: url(https://jobs.siemens.com/portal/144/images/banners/laptop/banner--secondary--top--right--laptop.webp);
+            --t-tc--home__banner--secondary--bottom--left--background--image: url(https://jobs.siemens.com/portal/144/images/banners/laptop/banner--secondary--bottom--left--laptop.webp);
+            --t-tc--home__banner--secondary--bottom--right--background--image: url(https://jobs.siemens.com/portal/144/images/banners/laptop/banner--secondary--bottom--right--laptop.webp);
+            --t-tc--home__banner--secondary--bottom--right--alt--background--image: url(https://jobs.siemens.com/portal/144/images/banners/laptop/banner--secondary--bottom--right--alt--laptop.webp);
+        }
+    }
+
+    /* Media query to target only tablet */
+    @media all and (min-width:751px) and (max-width:1024px) {
+        :root {
+            --t-tc--home__banner--background--image: url(https://jobs.siemens.com/portal/144/images/banners/tablet/home--banner--main--tablet.webp);
+            --t-tc--home__banner--secondary--top--left--background--image: url(https://jobs.siemens.com/portal/144/images/banners/tablet/banner--secondary--top--left--tablet.webp);
+            --t-tc--home__banner--secondary--top--right--background--image: url(https://jobs.siemens.com/portal/144/images/banners/tablet/banner--secondary--top--right--tablet.webp);
+            --t-tc--home__banner--secondary--bottom--left--background--image: url(https://jobs.siemens.com/portal/144/images/banners/tablet/banner--secondary--bottom--left--tablet.webp);
+            --t-tc--home__banner--secondary--bottom--right--background--image: url(https://jobs.siemens.com/portal/144/images/banners/tablet/banner--secondary--bottom--right--tablet.webp);
+            --t-tc--home__banner--secondary--bottom--right--alt--background--image: url(https://jobs.siemens.com/portal/144/images/banners/tablet/banner--secondary--bottom--right--alt--tablet.webp);
+        }
+    }
+
+    /* Media query to target only mobile */
+    @media all and (max-width:750px) {
+        :root {
+            --t-tc--home__banner--background--image: url(https://jobs.siemens.com/portal/144/images/banners/mobile/home--banner--main--mobile.webp);
+            --t-tc--home__banner--secondary--top--left--background--image: url(https://jobs.siemens.com/portal/144/images/banners/mobile/banner--secondary--top--left--mobile.webp);
+            --t-tc--home__banner--secondary--top--right--background--image: url(https://jobs.siemens.com/portal/144/images/banners/mobile/banner--secondary--top--right--mobile.webp);
+            --t-tc--home__banner--secondary--bottom--left--background--image: url(https://jobs.siemens.com/portal/144/images/banners/mobile/banner--secondary--bottom--left--mobile.webp);
+            --t-tc--home__banner--secondary--bottom--right--background--image: url(https://jobs.siemens.com/portal/144/images/banners/mobile/banner--secondary--bottom--right--mobile.webp);
+            --t-tc--home__banner--secondary--bottom--right--alt--background--image: url(https://jobs.siemens.com/portal/144/images/banners/mobile/banner--secondary--bottom--right--alt--mobile.webp);
+        }
+    }
+</style>
+<link id="corecss" rel="stylesheet" type="text/css" media="all" href="https://templates-static-assets.avacdn.net/cssLibrary/24.4/core.min.css" />
+
+
+<link rel="stylesheet" type="text/css" media="all" href="/portal/144/css/specifics.css?v=1791272711" />            <script src="/ASSET/portal/jquery/jquerycore/3.7.1/jquery.min.js?version=10.85.85-stable"></script><script src="/ASSET/portal/jquery/UI/1.13.2/jquery-ui.min.js?version=10.85.85-stable"></script><script src="/ASSET/portal/pjquery/pjQueryDeclaration.js?version=10.85.85-stable"></script><script src="/portalpacks/web/js/head/head.D99csnyB.iife.js"></script><script src="/portalpacks/web/js/body.DmIiuvlh.js" type="module"></script><script src="//w3.siemens.com/ote/ote_config.js" type="text/javascript"></script><script src="//w3.siemens.com/ote/global/ote.js" type="text/javascript"></script><script src="//assets.adobedtm.com/5dfc7d97c6fb/febff9103b9b/launch-a45a09a9ed18.min.js" async type="text/javascript"></script>
+
+
+            <link href="/portal/144/favicon.ico" rel="shortcut icon" id="favico" type="image/vnd.microsoft.icon"></link>
+
+                <link rel="canonical" href="https://jobs.siemens.com/en_US/externaljobs/JobDetail/525786" />
+        <script type="module">
+    EventManager.getInstance().addEventHandler(EventManager.EVENT_LOAD_NAME, function () {
+
+
+
+    }, EventManager.PRIORITY_HIGH);
+</script></head>
+
+        <body class="
+            body
+
+            
+                                        
+                                        
+            body--footer-sticky
+
+            
+            body--Chrome body--Chrome129
+
+                body--detail body--related-jobs
+        ">
+            <div class="body__content">
+                                    <header class="header">
+                        <a class="visibility--hidden--visually skip-content focusable tpt_localAnchor" href="#main" tabindex="0" data-au="ag-a-14" aria-label="Skip to content">
+                            Skip to content
+                        </a>
+
+                        <a class="visibility--hidden--visually skip-content skip-footer focusable tpt_localAnchor" href="#footer" tabindex="0" aria-label="Skip to footer">
+                            Skip to footer
+                        </a>
+
+                        <div class="header__wrapper">
+                            <div class="header__content">
+                                                                    <div class="header__logo">
+    <a rel="noopener noreferrer" class="logo logo--header" href="https://jobs.siemens.com/en_US/externaljobs" tabindex="0" data-au="ag-a-88" aria-label="Go to the homepage">
+        <img src="https://jobs.siemens.com/portal/144/images/logo--default.svg" alt="Siemens logotype" loading="lazy">
+    </a>
+</div>                                
+                                                                    
+
+
+<div class="header__menu">
+    <nav class="menu menu--idle" aria-label="Main menu">
+        <button class="toggle toggle--menu" aria-controls="menu__panel" aria-expanded="false" aria-haspopup="true" aria-label="Main menu toggle" href="#" role="button" tabindex="0" data-au="ag-a-69">
+            <div class="toggle__icon" data-tc-icon aria-hidden="true"></div>
+        </button>
+
+        <div class="menu__panel" id="menu__panel">
+                        
+                            <ul class="menu__list menu__list--jobs visibility--mobile-and-tablet">
+                                                                                    
+    <li class="menu__item" role="none">
+        <a class="menu__link" role="menuitem" href="https://jobs.siemens.com/en_US/externaljobs/Home" tabindex="0"  data-au="ag-a-61">
+            
+            <span class="menu__text">
+                Job Search
+            </span>
+        </a>
+
+            </li>
+    
+
+                                                                                                                                        
+    <li class="menu__item" role="none">
+        <a class="menu__link" role="menuitem" href="https://jobs.siemens.com/en_US/externaljobs/SearchJobs" tabindex="0"  data-au="ag-a-61">
+            
+            <span class="menu__text">
+                All Jobs
+            </span>
+        </a>
+
+            </li>
+    
+
+                                                                                                                                        
+    <li class="menu__item" role="none">
+        <a class="menu__link" role="menuitem" href="https://jobs.siemens.com/en_US/externaljobs/AIRecommendations" tabindex="0"  data-au="ag-a-61">
+            
+            <span class="menu__text">
+                AI Recommendations
+            </span>
+        </a>
+
+            </li>
+    
+
+                                                                                                                                        
+    <li class="menu__item" role="none">
+        <a class="menu__link" role="menuitem" href="https://www.siemens.com/global/en/company/jobs/faq.html" tabindex="0" target="_blank" aria-label="External link (opens in a new tab)" aria-label="FAQs &amp; Support external link (opens in a new tab)"  data-au="ag-a-61">
+            
+            <span class="menu__text">
+                FAQs &amp; Support
+            </span>
+        </a>
+
+            </li>
+    
+
+                                                                        
+                                                        </ul>
+            
+                                                                
+                            <ul class="menu__list menu__list--language">
+                    <li class="menu__item menu__item--languages">
+                        <a id="languageSwitcher" class="menu__link" href="#" role="button" aria-expanded="false" aria-haspopup="true" tabindex="0" aria-controls="portalLanguagesMenu" aria-label="Language switcher" data-au="ag-a-70">
+                            
+                            <span class="menu__text">
+                                                                    English
+                                                            </span>
+                        </a>
+
+                        <div class="submenu__list submenu__list--overflows-not ">
+                            <ul class="portalLanguages" role="menu" id="portalLanguagesMenu"><li class="portalLanguages__item portalLanguages__item--de_DE" role="none"><a class="portalLanguages__link" role="menuitem" lang="de" aria-current="false" href="https://jobs.siemens.com/de_DE/externaljobs/JobDetail/525786">Deutsch</a></li><li class="portalLanguages__item portalLanguages__item--en_US portalLanguages__item--selected" role="none"><a class="portalLanguages__link" role="menuitem" lang="en" aria-current="page" href="https://jobs.siemens.com/en_US/externaljobs/JobDetail/525786">English</a></li><li class="portalLanguages__item portalLanguages__item--es_ES" role="none"><a class="portalLanguages__link" role="menuitem" lang="es" aria-current="false" href="https://jobs.siemens.com/es_ES/externaljobs/JobDetail/525786">Español</a></li><li class="portalLanguages__item portalLanguages__item--fr_FR" role="none"><a class="portalLanguages__link" role="menuitem" lang="fr" aria-current="false" href="https://jobs.siemens.com/fr_FR/externaljobs/JobDetail/525786">Français</a></li><li class="portalLanguages__item portalLanguages__item--nl_NL" role="none"><a class="portalLanguages__link" role="menuitem" lang="nl" aria-current="false" href="https://jobs.siemens.com/nl_NL/externaljobs/JobDetail/525786">Nederlands</a></li><li class="portalLanguages__item portalLanguages__item--pt_PT" role="none"><a class="portalLanguages__link" role="menuitem" lang="pt" aria-current="false" href="https://jobs.siemens.com/pt_PT/externaljobs/JobDetail/525786">Portuguese</a></li><li class="portalLanguages__item portalLanguages__item--cs_CZ" role="none"><a class="portalLanguages__link" role="menuitem" lang="cs" aria-current="false" href="https://jobs.siemens.com/cs_CZ/externaljobs/JobDetail/525786">Čestina</a></li><li class="portalLanguages__item portalLanguages__item--zh_CN" role="none"><a class="portalLanguages__link" role="menuitem" lang="zh" aria-current="false" href="https://jobs.siemens.com/zh_CN/externaljobs/JobDetail/525786">中文 (简体)</a></li><li class="portalLanguages__item portalLanguages__item--zh_TW" role="none"><a class="portalLanguages__link" role="menuitem" lang="zh" aria-current="false" href="https://jobs.siemens.com/zh_TW/externaljobs/JobDetail/525786">中文 (繁体)</a></li><li class="portalLanguages__item portalLanguages__item--ja_JP" role="none"><a class="portalLanguages__link" role="menuitem" lang="ja" aria-current="false" href="https://jobs.siemens.com/ja_JP/externaljobs/JobDetail/525786">日本語</a></li></ul>
+                        </div>
+                    </li>
+                </ul>
+            
+                                        <ul class="menu__list menu__list--profile">
+                                                                                    
+    <li class="menu__item" role="none">
+        <a class="menu__link" role="menuitem" href="https://jobs.siemens.com/en_US/externaljobs/Login" tabindex="0" data-map="user-signin-link"  data-au="ag-a-61">
+            
+            <span class="menu__text">
+                Login
+            </span>
+        </a>
+
+            </li>
+    
+
+                                                                                        </ul>
+                    </div>
+    </nav>
+</div>                                                            </div>
+
+                            <div class="header__content header__content__links visibility--only-desktop">
+                                                                    
+
+
+<div class="header__menu header__menu__desktop">
+    <div class="menu__panel">
+                
+                    <ul class="menu__list">
+                                                                        
+    <li class="menu__item" role="none">
+        <a class="menu__link" role="menuitem" href="https://jobs.siemens.com/en_US/externaljobs/Home" tabindex="0"  data-au="ag-a-61">
+            
+            <span class="menu__text">
+                Job Search
+            </span>
+        </a>
+
+            </li>
+    
+
+                                                                                                                    
+    <li class="menu__item" role="none">
+        <a class="menu__link" role="menuitem" href="https://jobs.siemens.com/en_US/externaljobs/SearchJobs" tabindex="0"  data-au="ag-a-61">
+            
+            <span class="menu__text">
+                All Jobs
+            </span>
+        </a>
+
+            </li>
+    
+
+                                                                                                                    
+    <li class="menu__item" role="none">
+        <a class="menu__link" role="menuitem" href="https://jobs.siemens.com/en_US/externaljobs/AIRecommendations" tabindex="0"  data-au="ag-a-61">
+            
+            <span class="menu__text">
+                AI Recommendations
+            </span>
+        </a>
+
+            </li>
+    
+
+                                                                                                                    
+    <li class="menu__item" role="none">
+        <a class="menu__link" role="menuitem" href="https://www.siemens.com/global/en/company/jobs/faq.html" tabindex="0" target="_blank" aria-label="External link (opens in a new tab)" aria-label="FAQs &amp; Support external link (opens in a new tab)"  data-au="ag-a-61">
+            
+            <span class="menu__text">
+                FAQs &amp; Support
+            </span>
+        </a>
+
+            </li>
+    
+
+                                                            
+                                            </ul>
+            </div>
+</div>                                                            </div>
+                        </div>
+                    </header>
+                
+                                    <div class="banner banner--main "                     
+    
+    
+                                    
+                                        
+                                            
+        
+                                            
+        
+                                            
+        
+                                            
+        
+                                            
+        
+                                            
+        
+                                            
+        
+            
+                
+                
+    style="--job-detail--hero--image--tablet: url('data:image/jpg;base64,'); --job-detail--hero--image--desktop: url('data:image/jpg;base64,');"
+ id="banner-primary" role="complementary" aria-label="Main banner">
+                        <div class="banner__wrapper">
+                                
+    <div class="breadcrumbs">
+        <div class="breadcrumbs__wrapper">
+            <div class="breadcrumbs__content">
+                <nav role="navigation" aria-label="Breadcrumbs">
+                    <ul class="list list--links list--links--top">
+                        <li class="list__item">
+                            <a class="link" href="https://jobs.siemens.com/en_US/externaljobs/Home">
+                                Back to search                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+                                                        
+                                                            <div class="banner__text">
+                                                                        
+                                        <h2 class="banner__text__title title title--hero title--gradient" data-au="ag-h2-27">
+        Job details    </h2>
+                                </div>
+                            
+                                                                                </div>
+                    </div>
+                
+                                
+                <main class="main" id="main" aria-owns="banner-primary banner-secondary banner-tertiary banner-fourth">
+                                            <div class="main__wrapper">
+                            <div class="main__content clearfix">
+                                    
+
+                    
+        
+        
+        
+                    
+        
+                                    
+        
+        
+
+                    
+            
+    <div class="main-panel section--details" id="main-panel">
+        <div class="grid grid--2--sidebar grid--2--sidebar--aside-right">
+            <div class="grid__item grid__item--main">
+                                                        
+                    <div class="section__content section__content--view">
+                                                
+
+<section class="section js_views">
+    
+    
+    
+            
+    <div class="section__header">
+        <div class="section__header__text">
+            <h3 class="section__header__text__title title title--h3 title--white">
+                Data Engineer
+            </h3>
+        </div>
+    </div>
+
+    <div class="section__content">
+        
+                                
+                        
+                        
+            
+            
+                        
+            
+                            <article class="article article--details regular-fields--cols-2Z regular-fields-label--inline" >
+                                        
+                    <div class="article__content" id="section0__content" >
+                        <div class="article__content__view">
+                                                                                                                                    
+                                    <div class="article__content__view__field ">
+                                                                                    <div class="article__content__view__field__label" >
+                                                Job ID
+                                            </div>
+                                        
+                                        <div class="article__content__view__field__value">
+                                                                                            525786
+                                                                                    </div>
+                                    </div>
+                                                                                                                                                                    
+                                    <div class="article__content__view__field ">
+                                                                                    <div class="article__content__view__field__label" >
+                                                Posted since
+                                            </div>
+                                        
+                                        <div class="article__content__view__field__value">
+                                                                                            21-Oct-2026
+                                                                                    </div>
+                                    </div>
+                                                                                                                                                                    
+                                    <div class="article__content__view__field ">
+                                                                                    <div class="article__content__view__field__label" >
+                                                Organization
+                                            </div>
+                                        
+                                        <div class="article__content__view__field__value">
+                                                                                            Information Technology
+                                                                                    </div>
+                                    </div>
+                                                                                                                                                                    
+                                    <div class="article__content__view__field ">
+                                                                                    <div class="article__content__view__field__label" >
+                                                Field of work
+                                            </div>
+                                        
+                                        <div class="article__content__view__field__value">
+                                                                                            Information Technology
+                                                                                    </div>
+                                    </div>
+                                                                                                                                                                    
+                                    <div class="article__content__view__field ">
+                                                                                    <div class="article__content__view__field__label" >
+                                                Company
+                                            </div>
+                                        
+                                        <div class="article__content__view__field__value">
+                                                                                            Siemens Technology and Services Private Limited
+                                                                                    </div>
+                                    </div>
+                                                                                                                                                                    
+                                    <div class="article__content__view__field ">
+                                                                                    <div class="article__content__view__field__label" >
+                                                Experience level
+                                            </div>
+                                        
+                                        <div class="article__content__view__field__value">
+                                                                                            Experienced Professional
+                                                                                    </div>
+                                    </div>
+                                                                                                                                                                    
+                                    <div class="article__content__view__field ">
+                                                                                    <div class="article__content__view__field__label" >
+                                                Job type
+                                            </div>
+                                        
+                                        <div class="article__content__view__field__value">
+                                                                                            Full-time
+                                                                                    </div>
+                                    </div>
+                                                                                                                                                                    
+                                    <div class="article__content__view__field ">
+                                                                                    <div class="article__content__view__field__label" >
+                                                Work mode
+                                            </div>
+                                        
+                                        <div class="article__content__view__field__value">
+                                                                                            Office/Site only
+                                                                                    </div>
+                                    </div>
+                                                                                                                                                                    
+                                    <div class="article__content__view__field ">
+                                                                                    <div class="article__content__view__field__label" >
+                                                Employment type
+                                            </div>
+                                        
+                                        <div class="article__content__view__field__value">
+                                                                                            Permanent
+                                                                                    </div>
+                                    </div>
+                                                                                                                                                                    
+                                    <div class="article__content__view__field tf_locations">
+                                                                                    <div class="article__content__view__field__label" >
+                                                Location(s)
+                                            </div>
+                                        
+                                        <div class="article__content__view__field__value">
+                                                                                                                                            
+                                                <ul class="list list--bullet list--locations">
+                                                                                                            <li class="list__item">
+                                                            Bangalore - Karnataka - India
+                                                        </li>
+                                                                                                            <li class="list__item">
+                                                            Pune - Maharashtra - India
+                                                        </li>
+                                                                                                    </ul>
+
+                                                                                    </div>
+                                    </div>
+                                                                                    </div>
+                    </div>
+                </article>
+                                            
+                        
+                        
+            
+            
+                        
+            
+                            <article class="article article--details " >
+                                        
+                    <div class="article__content" id="section1__content" >
+                        <div class="article__content__view">
+                                                                                                                                    
+                                    <div class="article__content__view__field tf_replaceFieldVideoTokens">
+                                        
+                                        <div class="article__content__view__field__value">
+                                                                                            <div><span data-teams="true"><p><span style="font-size: inherit;"><strong>Hello Visionary!</strong></span></p><p><span style="font-size: inherit;">We empower our people to stay resilient and relevant in a constantly changing world. We’re looking for people who are always searching for creative ways to grow and learn. People who want to make a real impact, now and in the future. Does that sound like you? Then it seems like you’d make a great addition to our vibrant international team.</span></p><p><span style="font-size: inherit;">At Siemens, we are scaling the Siemens Data Mesh to power the next generation of industrial AI, smart infrastructure, and digital excellence. Within Data Domain Operations, trusted, high-performance, and real-time data is the foundation of operational excellence. We are looking for a hands-on Data Engineer who is passionate about data in motion – transforming Kafka event streams provisioned by our central data ingestion platform into governed, consumer-ready data products using platforms such as Flink. This person will champion a "shift left" mentality, embedding quality and automation at the source rather than downstream.</span></p><p><span style="font-size: inherit;">Move the world with your passion for data and impactful, AI-ready technologies. Rethink how we integrate and process data, and steer the organization toward a future where event-driven insights power every decision. Be bold when others would have given up. In short, play a key role in building the real-time data foundation of Siemens!</span></p><p><span style="font-size: inherit;"><strong>We are looking for: Data Engineer</strong></span></p><p><span style="font-size: inherit;"><strong>You’ll break new ground by:</strong></span></p><ul><li><span style="font-size: inherit;">As a Data Engineer within Data Domain Operations, you will design, build, and automate streaming data products that transform Kafka event streams – already provisioned by our central data ingestion platform – into trusted, consumer-grade data assets. Operating at the heart of our real-time architecture, you will implement robust pipelines for data in motion using platforms such as Flink, working closely with our data architects to bridge operational source systems and the analytical platforms that depend on them.</span></li><li>Build Streaming Data Products: Design, build, and operate real-time and near-real-time data products sourced from Kafka event streams, using stream-processing engines such as Flink.</li><li>Engineer Event-Driven Pipelines: Develop and automate robust, resilient pipelines for data in motion, covering transformation, enrichment, and delivery of streaming events into our operational and analytical platforms.</li><li>Champion Shift-Left Data Engineering: Embed data quality checks, schema validation, testing, and monitoring directly into the pipeline development lifecycle, catching issues at the source rather than downstream.</li><li>Treat Data as a Product: Design streaming data products with clear data contracts, documentation, and SLAs, in line with data-as-a-product principles across the Siemens Data Mesh.</li><li>Bridge Operational &amp; Analytical Systems: Collaborate with domain architects and analytics engineers to connect Kafka-based event streams with downstream warehouses (such as Snowflake) and reporting layers, supporting real-time operational decision-making. Automate &amp; Operate with DataOps Rigor: Apply CI/CD, automated testing, containerization, and infrastructure-as-code practices to streaming pipelines, ensuring reliable, repeatable deployments.</li><li>Monitor &amp; Resolve Proactively: Monitor streaming pipeline health, identify and resolve data issues proactively, and contribute to the domain’s data governance and quality framework.</li><li>Collaborate &amp; Mentor: Work with cross-functional teams to translate business requirements into technical solutions, and share streaming and event-driven engineering best practices with peers across the domain.</li></ul><p><span style="font-size: inherit;"><strong>You’re excited to build on your existing expertise, including:</strong></span></p><ul><li>Education: University degree in Computer Science, Data Science, or a related technical field.</li><li>Professional Experience: 3+ years of experience as a data engineer, with a strong focus on data integration, ETL/ELT, and building production data pipelines.</li><li>Streaming &amp; Event-Driven Processing: Hands-on experience with Kafka (or Confluent Cloud) and stream-processing engines such as Flink or Camel, building event-driven data products that operate on data in motion.</li><li>Stream Processing &amp; Schema Management: Experience with stateful stream-processing concepts (windowing, joins, exactly-once semantics) and schema registries (e.g., Confluent Schema Registry) for managing evolving event schemas.</li><li>Cloud &amp; Warehouse Exposure: Hands-on experience with cloud-based data platforms (AWS, Azure, or GCP) and modern cloud warehouses such as Snowflake.</li><li>Programming &amp; Engineering: Proficiency in Python and expert-level SQL skills, basic working knowledge of Java, along with data engineering best practices such as data versioning, automated testing, and CI/CD for data pipelines.</li><li>DataOps Mindset: Familiarity with shift-left data quality practices, monitoring, and observability for streaming pipelines.</li><li>Ways of Working: Experience with agile software development methodologies, and excellent problem-solving and analytical skills, with a proven ability to translate complex business requirements into technical solutions.</li><li>Languages: Fluency in English (verbal and written); knowledge of German, Portuguese, or other languages is a plus.</li></ul><p><span style="font-size: inherit;"><strong>Create a better #TomorrowWithUs!</strong></span></p><p><span style="font-size: inherit;">This role is based out in Pune or Bangalore and gives you the chance to work with international teams that shape the future of Siemens’ Operations and Data Analytics landscape.</span></p><p><span style="font-size: inherit;">We value your unique identity and perspective and are fully committed to providing equitable opportunities and building a workplace that reflects the diversity of society. Come bring your authentic self and create a better tomorrow with us.</span></p><p><span style="font-size: inherit;">We’re Siemens. A collection of over 312,000 minds building the future, one day at a time in over 200 countries. We're dedicated to equality, and we encourage applications that reflect the diversity of the communities we work in. All employment decisions at Siemens are based on qualifications, merit, and business need. Bring your curiosity and imagination and help us shape tomorrow.</span></p><p><span style="font-size: inherit;"><strong>Find out more about Siemens careers at: </strong></span><a id="menur20m" href="https://www.siemens.com/careers" rel="noreferrer noopener" target="_blank" class="fui-Link ___1q1shib f2hkw1w f3rmtva f1ewtqcl fyind8e f1k6fduh f1w7gpdv fk6fouc fjoy568 figsok6 f1s184ao f1mk8lai fnbmjn9 f1o700av f13mvf36 f1cmlufx f9n3di6 f1ids18y f1tx3yz7 f1deo86v f1eh06m1 f1iescvh fhgqx19 f1olyrje f1p93eir f1nev41a f1h8hb77 f1lqvz6u f10aw75t fsle3fq f17ae5zn" title="https://www.siemens.com/careers"><span style="font-size: inherit;"><strong><u>www.siemens.com/careers</u></strong></span></a></p></span></div>
+
+                                                                                    </div>
+                                    </div>
+                                                                                    </div>
+                    </div>
+                </article>
+                                            
+                        
+                        
+            
+            
+                        
+            
+                                            
+                        
+                        
+            
+            
+                        
+            
+                        </div>
+</section>                    </div>
+
+                                                                                                                    
+                        <div class="section__content slider-container-wrapper">
+                            <button type="button" class="visibility--hidden--visually focusable swiper-skip-link" aria-label="Skip video slider">
+                                Skip video slider
+                            </button>
+
+                            <div class="section__content section__content--slider">
+                                <div class="slider">
+                                    <div class="section__content">
+                                        <div class="swiper swiper-container jobDetailVideoSlider">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide">
+                                                    <iframe src='https://www.youtube-nocookie.com/embed/knhkQyecmKI?si=nR16-ztW5n1pZ5qm&amp;controls=0' width="100%" height="200" frameborder="0" title="Job Detail Video 1 - Culture at Siemens" ></iframe>
+                                                </div>
+
+                                                <div class="swiper-slide">
+                                                    <iframe src='https://www.youtube-nocookie.com/embed/3zafcW-nHI8?si=oEL7cqLYuw1pTH_S&amp;controls=0' width="100%" height="200" frameborder="0" title="Job Detail Video 2 - Culture at Siemens" ></iframe>
+                                                </div>
+
+                                                <div class="swiper-slide">
+                                                    <iframe src='https://www.youtube-nocookie.com/embed/A-9WoQ33Akk?si=QbT06ikt2g0uDSfN&amp;controls=0' width="100%" height="200" frameborder="0" title="Job Detail Video 3 - Culture at Siemens" ></iframe>
+                                                </div>
+                                            </div>
+
+                                            <div class="swiper-button-next swiper-button-next--job--details" aria-label="Next slide"></div>
+                                            <div class="swiper-button-prev swiper-button-prev--job--details" aria-label="Previous slide"></div>
+
+                                            <div class="swiper-pagination"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <button type="button" class="visibility--hidden--visually focusable swiper-next-link" aria-label="Continue with page content">
+                                Continue with page content
+                            </button>
+                        </div>
+                    
+                            </div>
+
+            <div class="grid__item grid__item--aside-right">
+                <aside class="aside" role="presentation">
+                                                                    <article class="article article--actions">
+                                                                                                <div class="article__content">
+                                        <div class="button-bar button-bar--cols-1">
+                                            <div class="button-bar__wrap">
+                                                <a class="button button--hero" href="https://jobs.siemens.com/en_US/externaljobs/ApplicationMethods?folderId=525786" tabindex="0" data-au="ag-a-8">
+                                                    Apply                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                                            
+                            
+                            
+                            <div class="article__content article__content--share">
+                                                                    
+                                    
+            <div class="popup popup--share popup--top popup--overflows--left popup--on-click">
+            <a class="button button--share" aria-haspopup="true" aria-label="Share Data Engineer in social media" role="button" tabindex="0" data-au="ag-a-66">
+                <span data-tc-icon="share" aria-hidden="true"></span>
+
+                Share            </a>
+
+            <div class="popup__content">
+                <div class="popup__content__box">
+                    <ul class="list list--share">
+                                                    <li class="list__item">
+                                <a id="shareButton--email-525870" class="shareButton shareButton--email tpt_socialShareIcon tpt_socialSharePopupTrigger" aria-label="Share Data Engineer with a friend via e-mail" role="link" tabindex="0" data-jobname="Data Engineer" href="mailto:?subject=Data%20Engineer%20-%20Siemens%20Careers%20Marketplace%20Global&amp;body=https%3A%2F%2Fjobs.siemens.com%2Fen_US%2Fexternaljobs%2FApplicationMethods%2F525786%3FfolderId%3D525786">Email</a>
+                            </li>
+                                                    <li class="list__item">
+                                <a id="shareButton--wechat-525870" class="shareButton shareButton--wechat tpt_socialShareIcon tpt_socialSharePopupTrigger" aria-label="Share Data Engineer on WeChat" role="link" tabindex="0" target="_blank" href="https://jobs.siemens.com/en_US/externaljobs/wechat/ShareJob?url=https%3A%2F%2Fjobs.siemens.com%2Fen_US%2Fexternaljobs%2FApplicationMethods%2F525786%3FfolderId%3D525786">WeChat</a>
+                            </li>
+                                                    <li class="list__item">
+                                <a id="shareButton--whatsapp-525870" class="shareButton shareButton--whatsapp tpt_socialShareIcon tpt_socialSharePopupTrigger" aria-label="Share Data Engineer on WhatsApp" role="link" tabindex="0" target="_blank" href="https://wa.me?text=https%3A%2F%2Fjobs.siemens.com%2Fen_US%2Fexternaljobs%2FApplicationMethods%2F525786%3FfolderId%3D525786">WhatsApp</a>
+                            </li>
+                                                    <li class="list__item">
+                                <a id="shareButton--twitter-525870" class="shareButton shareButton--twitter tpt_socialShareIcon tpt_socialSharePopupTrigger" aria-label="Share Data Engineer on X" role="link" tabindex="0" target="_blank" href="http://twitter.com/intent/tweet?url=https%3A%2F%2Fjobs.siemens.com%2Fen_US%2Fexternaljobs%2FApplicationMethods%2F525786%3FfolderId%3D525786&amp;text=Data+Engineer">X</a>
+                            </li>
+                                                    <li class="list__item">
+                                <a id="shareButton--facebook-525870" class="shareButton shareButton--facebook tpt_socialShareIcon tpt_socialSharePopupTrigger" aria-label="Share Data Engineer on Facebook" role="link" tabindex="0" target="_blank" href="https://www.facebook.com/dialog/share?app_id=27075739128726325&amp;href=https%3A%2F%2Fjobs.siemens.com%2Fen_US%2Fexternaljobs%2FApplicationMethods%2F525786%3FfolderId%3D525786&amp;display=popup">Facebook</a>
+                            </li>
+                                            </ul>
+                </div>
+            </div>
+        </div>
+                                    
+                                                                    <span class="article__content__separator">
+                                        |
+                                    </span>
+                                
+                                                                    <a class="link link--copy copyLink" data-link="https://jobs.siemens.com/en_US/externaljobs/JobDetail/525786" tabindex="0">
+                                        Copy link                                    </a>
+                                                            </div>
+                        </article>
+                    
+                                            <article class="article article--view-more--aside" id="widgetRelatedJobs">
+                
+    </article>
+                </aside>
+            </div>
+        </div>
+
+        <ul class="list list--links list--links--bottom">
+            <li class="list__item">
+                <a class="link link--top" href="#banner-primary" data-au="ag-a-7">
+                    Go back to top                </a>
+            </li>
+        </ul>
+    </div>
+                            </div>
+                        </div>
+                                    </main>
+
+                                
+                                
+                                    <footer class="footer" aria-label="Footer" id="footer">
+                        <div class="footer__wrapper">
+                            <div class="footer__content footer__content__logo">
+                                <div class="footer__rights">
+                                    <div class="footer__rights__logo visibility--only-desktop">
+                                        <span class="logo logo--footer">
+                                            <img src="https://jobs.siemens.com/portal/144/images/logo--footer.svg" alt="Siemens Logo" loading="lazy" aria-hidden="true">
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                                                            <div class="footer__content footer__content__social footer__content__social__en">
+                                    <div class="footer__social">
+                                        <a class="footer__social__item footer__social__item__icon--linkedin" href="https://www.linkedin.com/company/siemens" target="_blank" rel="noopener noreferrer" aria-label="Siemens LinkedIn external link (opens in a new tab)" data-au="ag-a-20"></a>
+                                        <a class="footer__social__item footer__social__item__icon--instagram" href="https://www.instagram.com/siemens/" target="_blank" rel="noopener noreferrer" aria-label="Siemens Instagram external link (opens in a new tab)" data-au="ag-a-22"></a>
+                                        <a class="footer__social__item footer__social__item__icon--facebook" href="https://www.facebook.com/Siemens" target="_blank" rel="noopener noreferrer" aria-label="Siemens Facebook external link (opens in a new tab)" data-au="ag-a-19"></a>
+                                        <a class="footer__social__item footer__social__item__icon--x" href="https://twitter.com/siemens" target="_blank" rel="noopener noreferrer" aria-label="Siemens X external link (opens in a new tab)" data-au="ag-a-18"></a>
+                                        <a class="footer__social__item footer__social__item__icon--youtube" href="https://www.youtube.com/@siemens" target="_blank" rel="noopener noreferrer" aria-label="Siemens YouTube external link (opens in a new tab)" data-au="ag-a-21"></a>
+                                    </div>
+
+                                                                            <div class="footer__rights">
+                                            <p class="paragraph">
+                                                US Only:                                            </p>
+
+                                            <a class="footer__rights__item link" href="https://www.siemens.com/us/en/company/jobs/search-careers/accommodation-for-disability.html" target="_blank" rel="noopener noreferrer" aria-label="Accommodations for Disability link (opens in a new tab)">
+                                                Review Accommodations for Disability                                            </a>
+                                        </div>
+                                                                    </div>
+                            
+                            <div class="footer__content footer__content__links">
+                                <div class="footer__rights">
+                                    <span class="footer__rights__copy">
+                                        &copy; Siemens 1996 - 2026
+                                    </span>
+                                </div>
+
+                                <div class="footer__links">
+                                    <a class="footer__links__item link" href="https://www.siemens.com/global/en/company/jobs/faq.html" target="_blank" rel="noopener noreferrer" aria-label="FAQs external link (opens in a new tab)">
+                                        FAQs                                    </a>
+
+                                    <a class="footer__links__item link" href="https://www.siemens.com/corporate-information" target="_blank" rel="noopener noreferrer" aria-label="Corporate information external link (opens in a new tab)">
+                                        Corporate information                                    </a>
+
+                                    <a class="footer__links__item link" href="https://www.siemens.com/global/en/general/talent-management/privacy-notice.html" target="_blank" rel="noopener noreferrer" aria-label="Privacy notice external link (opens in a new tab)">
+                                        Privacy notice                                    </a>
+
+                                    <a class="footer__links__item link" href="https://www.siemens.com/global/en/general/cookie-notice.html#openCookieManagement" aria-label="Cookie notice link">
+                                        Cookie notice                                    </a>
+
+                                    <a class="footer__links__item link" href="https://www.siemens.com/terms-of-use" target="_blank" rel="noopener noreferrer" aria-label="Terms of use external link (opens in a new tab)">
+                                        Terms of use                                    </a>
+
+                                    <a class="footer__links__item link" href="https://www.siemens.com/digital-id" target="_blank" rel="noopener noreferrer" aria-label="Digital ID external link (opens in a new tab)">
+                                        Digital ID                                    </a>
+
+                                    <a class="footer__links__item link" href="https://www.siemens.com/whistleblowing" target="_blank" rel="noopener noreferrer" aria-label="Whistleblowing external link (opens in a new tab)">
+                                        Whistleblowing                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="footer__content footer__content__disclaimer">
+                                <div class="footer__rights__copy">
+                                    
+                                    <p class="paragraph">
+                                        <strong>Important Note:</strong> For all job applicants looking to join us, please note Siemens does not ask for fees prior/during/after the application process. We do not ask for banking details or personal financial information in return for the assurance of employment. Similarly, please do not open documents in e-mails that appear to be sent by a Siemens recruiter unless you are sure you are being contacted by one of our professionals for an active application process.                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </footer>
+                            </div>
+
+            <script type='text/javascript'>    var twigConfig = {
+        "isPopup": 0,
+        "isAutoreload": 0,
+        "confirmation": 0,
+        "isJobDetail": 1,
+        "isJobDetailApplied": 0,
+        "isApplicationConfirmation": 0,
+        "pageParameters": {
+            "personSort": null,
+            "personSortDirection": null,
+            "jobSort": null,
+            "jobSortDirection": null,
+            "jobRecordsPerPage": "",
+            "personRecordsPerPage": ""
+        },
+        "jobLabel": "folder",
+        "STEP_INDEX": "" || null,
+        "wizardModalViewEnabled": "" || false,
+        "wizardHasErrors": "" || false,
+        "sortedBy": "Sorted by ",
+        "loading": "Loading ",
+        "plugins": {
+            "popper": {
+                "js": "https://templates-static-assets.avacdn.net/jsLibrary/plugins/tippy/popper.min.js"
+            },
+            "tooltip": {
+                "js": "https://templates-static-assets.avacdn.net/jsLibrary/plugins/tippy/tippy-bundle.umd.js",
+                "css": "https://templates-static-assets.avacdn.net/jsLibrary/plugins/tippy/tippy.css"
+            },
+            "popup": {
+                "js": "https://templates-static-assets.avacdn.net/jsLibrary/plugins/glightbox/glightbox.min.js",
+                "css": "https://templates-static-assets.avacdn.net/jsLibrary/plugins/glightbox/glightbox.min.css"
+            },
+            "slider": {
+                "js": "https://templates-static-assets.avacdn.net/jsLibrary/plugins/swiper/swiper-bundle.min.js",
+                "css": "https://templates-static-assets.avacdn.net/jsLibrary/plugins/swiper/swiper-bundle.min.css"
+            }
+        },
+        "menu": {"typeByDefault":"visible","itemsThreshold":8,"headerHeightDefault":8.8,"typeBelowBreakpoint":{"enabled":true,"type":"toggleable","breakpoint":1025},"toggleSide":"right","panelFrom":"right","panelEffect":"over"},
+        "search": {"typeByDefault":"visible","typeBelowBreakpoint":{"enabled":true,"type":"toggleable","breakpoint":1025,"preventTabsConflicts":true}},
+        "results": {"resultsDisplayTypeByDefault":"listed","resultsDisplayTypeBelowBreakpoint":{"enabled":true,"type":"grided","breakpoint":750},"resultsItemTypeByDefault":"result","resultsItemTypeBelowBreakpoint":{"enabled":true,"type":"card","breakpoint":750}},
+        "stickyAside": 0,
+        "stickyHeader": 0,
+        "stickyBanner": 0,
+        "page": {
+            "PORTAL_BASE_REAL_URL": "https://jobs.siemens.com/portal/144",
+            "wizardPageBackTo": "",
+            "logout": "https://jobs.siemens.com/en_US/externaljobs/Logout"
+        },
+        "relatedJobs": {
+            "relatedJobsEnabled": 1,
+            "url": "https://jobs.siemens.com/en_US/externaljobs/WidgetRelatedJobs?folderId=525786",
+            "selector": "#relatedJobs"
+        },
+        "convertDatesToUserTZ": {
+            "CSSClass": "timelocal",
+            "convertDatesToUserTZEnabled": 1,
+            "loggedUserTZ": Intl.DateTimeFormat().resolvedOptions().timeZone,
+            "weekday": "long",
+            "day": "numeric",
+            "month": "long",
+            "hour": "numeric",
+            "minute": "numeric",
+            "hour12": "1"
+        },
+        "userLang": "en_US",
+        "breadcrumbsEnabled": 1,
+        "browsingHistory": {
+            "browsingHistoryEnabled": 1,
+            "url": "",
+            "selector": "#browsingHistory"
+        },
+        "widgetRelatedJobs": {
+            "relatedJobsEnabled": 1,
+            "url": "https://jobs.siemens.com/en_US/externaljobs/WidgetRelatedJobs?folderId=525786",
+            "selector": "#widgetRelatedJobs"
+        },
+        "widgetOpenPositions":{
+            "url": "",
+            "selector": "#widgetOpenPositions"
+        },
+        "widgetRecommendations":{
+            "widgetRecommendationsEnabled": 1,
+            "url": "",
+            "selector": "#widgetRecommendations"
+        },
+        "recommendedJobs":{
+            "enableRecommendedJobs": 1,
+        },
+        "languageSwitcherFlagsPath": "https://templates-static-assets.avacdn.net/assets/flags",
+        "enableLanguageSwitcherFlags": 0,
+        "enableSectionCollapsibleAccordionDisplay": 0,
+        "popup": {
+            "modalExpanded": "Modal expanded",
+            "modalCollapsed": "Modal collapsed"
+        },
+        "emailVerification": {
+            "forceLogout": 0,
+            "sessionKey": "IS_CONTACT_HAS_PENDING_EMAIL_VERIFICATION",
+            "sessionValue": "",
+            "deleteSessionValue": 0,
+            "displayMessage": 0,
+            "messageContainerRef": "#emailVerificationMessage",
+            "hasPendingEmailVerification": 0,
+            "isUserLogged": 0
+        },
+        "jobAlertFromSearch": {
+            "enabled": 0,
+            "postUrl": 'https://jobs.siemens.com/en_US/externaljobs/RegisterAgent',
+            "wizardSelector": "#tpt_jobSortableForm",
+            "hideClass": "visibility--hidden",
+            "showClass": "visibility--visible",
+            "alertBox": {
+                "selector": ".alertAgentResponse",
+                "defaultErrorMsg": "Something went wrong trying to create Job Alert",
+                "defaultErrorClass": "alert--error"
+            }
+        },
+        "redirectUrlPreviousButtonInContinueApplication": {
+            "redirectUrlPreviousButtonInContinueApplicationEnabled": 1,
+            "url": "https://jobs.siemens.com/en_US/externaljobs/Register",
+            "selector": ".body--register-continue .form--step1 .redirectUrlButton"
+        },
+        "dataLayer": {
+            "enabled": 1,
+            "jobId": 525786,
+            "path": "/externaljobs/JobDetail/525786",
+            "jobSentID": "No job ID",
+            "country": "US",
+            "jobTitle": "Data Engineer",
+            "language": "en",
+            "template": "JobDetail page",
+            "loginStatus": "logged_out",
+            "jobSentTitle": "No job title",
+            "jobPageReadyID": 525786,
+            "jobPageReadyTitle": "Data Engineer",
+            "applicationWizardStep": ""
+        },
+        "sliderOptionsA11yTexts": {
+            "nextSlideMessage": "Go to next slide",
+            "prevSlideMessage": "Go to previous slide",
+            "lastSlideMessage": "This is the last slide",
+            "paginationBulletMessage": "Go to slide {{index}}"
+        }
+    };
+
+    var lightbox;
+    var slider;
+    var Templates;
+</script>
+            <script src="https://templates-static-assets.avacdn.net/jsLibrary/24.4/core.min.js" defer></script>
+            <script src="/portal/144/js/specifics.js?v=1791272711" defer></script>
+
+                <script type='text/javascript' nonce="142087d260ffe4405a3754d76118387aab0a167d9a04b6af57be140d330aae93">        document.addEventListener("DOMContentLoaded", function() {
+            const cookieManager = new CookieManager('usercentricsV1', {
+                hiddenClass: 'visibility--hidden',
+                htmlAttribute: 'data-category',
+                categoryMap: {"essential":"essential","performance":"customCategory-f3030e64-3db1-4401-8273-e687fcc5244b","functional":"functional","targeting":"marketing"},
+                debug: false,
+                reloadOnConsentSync: false
+            });
+        });
+    </script>
+                                    <script type='text/javascript'>            document.addEventListener("TemplatesReady", function() {
+                // Start the data layer
+                window.ste_statistic = window.ste_statistic || [];
+
+                /* DataLayer push method */
+                window.ste_statistic.push({
+                    "action": "page.ready",
+                    "data": {
+                        "page": {
+                            "path": twigConfig.dataLayer.path,
+                            "country": twigConfig.dataLayer.country,
+                            "language": twigConfig.dataLayer.language,
+                            "template": twigConfig.dataLayer.template
+                        },
+                        "user": {
+                            "loginStatus": twigConfig.dataLayer.loginStatus
+                        },
+                        "job": {
+                            "id": twigConfig.dataLayer.jobId,
+                            "title": twigConfig.dataLayer.jobTitle
+                        }
+                    }
+                });
+            });
+        </script>            <script src="/portalpacks/web/js/session-popup.WW7-Ji2q.js" type="module"></script><script>pjQuery(function() { var domManager = new DomManager(); domManager.run(); });</script><script type="text/javascript">
+        var service = EventManager.getInstance();
+</script><portal-data id="synapserBootstrap" data-enabled data-usePermanentConnection="true" data-pageSessionId data-applicationName="customPortal" data-applicationCode="customPortal_144" data-logoutUrl data-publicSessionName="LYcfsTjBHlhGKaT2aSpvNYuGrLtO" data-cortex="4" data-trackerCode="Iy96i_ZNR8T2vJ7b_Z2-UvYswMj1" data-packVersion="609173fec67fc4fb0ac7d1f209709d210e6ff697"></portal-data><portal-data id="replaceEmailShareButtonHref" data-jobdetailpagename="FolderDetail"></portal-data><portal-data id="showAlertOnSessionExtend" data-title="Your session is about to expire" data-message="For the privacy and security of your information, sessions automatically end after a long period of inactivity." data-mainButton="Extend session" data-timeout="1501000" data-okButton="OK" data-isSynapserEnabled></portal-data><portal-data id="showAlertOnSessionIdleTimeout" data-title="Your session has expired" data-message="For the privacy and security of your information, sessions automatically end after a long period of inactivity." data-mainButton="Go back to home page" data-timeout="1801000" data-portalUrl="https://jobs.siemens.com/en_US/externaljobs"></portal-data><portal-data id="showAlertOnSessionMaxLifetime" data-title="Your session has expired" data-message="For privacy and security reasons, your user session expired because it reached its maximum duration." data-mainButton="Go back to home page" data-timeout="43201000" data-portalUrl="https://jobs.siemens.com/en_US/externaljobs"></portal-data><portal-data id="sessionConfigData" data-checkInterval="600000" data-interceptorCheckInterval="1000" data-maxLifetimeVerificationMode="local" data-interceptorEnabled="1"></portal-data></body>
+    </html>
+
+                                        
+                
+
+        
+
+        
+
+        
+
+                
+        

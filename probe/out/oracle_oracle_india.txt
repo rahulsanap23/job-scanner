@@ -1,0 +1,223 @@
+{
+  "items" : [ {
+    "SearchId" : 1,
+    "Keyword" : "data",
+    "CorrectedKeyword" : null,
+    "UseExactKeywordFlag" : false,
+    "SuggestedKeyword" : null,
+    "ExecuteSpellCheckFlag" : true,
+    "Location" : "India",
+    "LocationId" : null,
+    "Radius" : 0,
+    "RadiusUnit" : "MI",
+    "SelectedTitlesFacet" : null,
+    "SelectedCategoriesFacet" : null,
+    "SelectedPostingDatesFacet" : null,
+    "SelectedLocationsFacet" : null,
+    "LastSelectedFacet" : null,
+    "Facets" : "LOCATIONS",
+    "Offset" : 0,
+    "Limit" : 2,
+    "SortBy" : "RELEVANCY",
+    "TotalJobsCount" : 30,
+    "Latitude" : null,
+    "Longitude" : null,
+    "SiteNumber" : "CX_45001",
+    "JobFamilyId" : null,
+    "PostingStartDate" : null,
+    "PostingEndDate" : null,
+    "SelectedWorkLocationsFacet" : null,
+    "RequisitionId" : null,
+    "CandidateNumber" : null,
+    "WorkLocationZipCode" : null,
+    "WorkLocationCountryCode" : null,
+    "SelectedFlexFieldsFacets" : null,
+    "OrganizationId" : null,
+    "SelectedOrganizationsFacet" : null,
+    "UserTargetFacetName" : null,
+    "UserTargetFacetInputTerm" : null,
+    "HotJobFlag" : null,
+    "WorkplaceType" : null,
+    "SelectedWorkplaceTypesFacet" : null,
+    "BotQRShortCode" : null,
+    "requisitionList" : [ {
+      "Id" : "344106",
+      "Title" : "Senior Manager, Data Center Operations",
+      "PostedDate" : "2026-09-28",
+      "PostingEndDate" : null,
+      "Language" : "US",
+      "PrimaryLocationCountry" : "IN",
+      "GeographyId" : 300001842985735,
+      "HotJobFlag" : false,
+      "WorkplaceTypeCode" : null,
+      "JobFamily" : null,
+      "JobFunction" : null,
+      "WorkerType" : null,
+      "ContractType" : null,
+      "ManagerLevel" : null,
+      "JobSchedule" : null,
+      "JobShift" : null,
+      "JobType" : null,
+      "StudyLevel" : null,
+      "DomesticTravelRequired" : null,
+      "InternationalTravelRequired" : null,
+      "WorkDurationYears" : null,
+      "WorkDurationMonths" : null,
+      "WorkHours" : null,
+      "WorkDays" : null,
+      "LegalEmployer" : null,
+      "BusinessUnit" : null,
+      "Department" : null,
+      "Organization" : null,
+      "BusinessUnitId" : 300001096431127,
+      "LegalEmployerId" : 300000000864862,
+      "OrganizationId" : 300001902541887,
+      "MediaThumbURL" : "https://img.youtube.com/vi/BV0GMCITXg4/hqdefault.jpg",
+      "ShortDescriptionStr" : "Oversees Data Center Operations across multiple data centers, managing and integrating team performance, operations metrics, and capacity analysis into the broader business line strategy.",
+      "PrimaryLocation" : "NAVI MUMBAI, MAHARASHTRA, India",
+      "Distance" : 34.152325,
+      "TrendingFlag" : true,
+      "BeFirstToApplyFlag" : false,
+      "Relevancy" : 34.15232467651367,
+      "WorkplaceType" : "",
+      "ExternalQualificationsStr" : null,
+      "ExternalResponsibilitiesStr" : null,
+      "secondaryLocations" : [ {
+        "RequisitionLocationId" : 302969068485366,
+        "GeographyNodeId" : 100879842726794,
+        "GeographyId" : 300001842985413,
+        "Name" : "MUMBAI, MAHARASHTRA, India",
+        "CountryCode" : "IN",
+        "Latitude" : 18.94017,
+        "Longitude" : 72.83483
+      } ]
+    }, {
+      "Id" : "345739",
+      "Title" : "Construction Manager, Data Center Facilities Development",
+      "PostedDate" : "2026-09-30",
+      "PostingEndDate" : null,
+      "Language" : "US",
+      "PrimaryLocationCountry" : "IN",
+      "GeographyId" : 300001842985230,
+      "HotJobFlag" : false,
+      "WorkplaceTypeCode" : null,
+      "JobFamily" : null,
+      "JobFunction" : null,
+      "WorkerType" : null,
+      "ContractType" : null,
+      "ManagerLevel" : null,
+      "JobSchedule" : null,
+      "JobShift" : null,
+      "JobType" : null,
+      "StudyLevel" : null,
+      "DomesticTravelRequired" : null,
+      "InternationalTravelRequired" : null,
+      "WorkDurationYears" : null,
+      "WorkDurationMonths" : null,
+      "WorkHours" : null,
+      "WorkDays" : null,
+      "LegalEmployer" : null,
+      "BusinessUnit" : null,
+      "Department" : null,
+      "Organization" : null,
+      "BusinessUnitId" : 300001096514224,
+      "LegalEmployerId" : 300000000864412,
+      "OrganizationId" : 300001902541887,
+      "MediaThumbURL" : "https://img.youtube.com/vi/BV0GMCITXg4/hqdefault.jpg",
+      "ShortDescriptionStr" : "The Construction Manager – AI Data Center Infrastructure is a site-based role in Hyderabad, India, responsible for leading the safe, high-quality delivery of mission-critical data center construction works. The role manages contractors, coordinates multidisciplinary construction activities, and drives project readiness through commissioning and handover.",
+      "PrimaryLocation" : "HYDERABAD, TELANGANA, India",
+      "Distance" : 26.317581,
+      "TrendingFlag" : true,
+      "BeFirstToApplyFlag" : false,
+      "Relevancy" : 26.317581176757812,
+      "WorkplaceType" : "",
+      "ExternalQualificationsStr" : null,
+      "ExternalResponsibilitiesStr" : null,
+      "secondaryLocations" : [ ]
+    } ],
+    "categoriesFacet" : [ ],
+    "locationsFacet" : [ {
+      "Id" : 300000000106947,
+      "Name" : "India",
+      "TotalCount" : 30
+    }, {
+      "Id" : 300001842984480,
+      "Name" : "KARNATAKA, India",
+      "TotalCount" : 21
+    }, {
+      "Id" : 300001842985425,
+      "Name" : "BENGALURU, KARNATAKA, India",
+      "TotalCount" : 21
+    }, {
+      "Id" : 300001842984495,
+      "Name" : "TELANGANA, India",
+      "TotalCount" : 6
+    }, {
+      "Id" : 300001842985230,
+      "Name" : "HYDERABAD, TELANGANA, India",
+      "TotalCount" : 6
+    }, {
+      "Id" : 300001842984484,
+      "Name" : "MAHARASHTRA, India",
+      "TotalCount" : 1
+    }, {
+      "Id" : 300001842985413,
+      "Name" : "MUMBAI, MAHARASHTRA, India",
+      "TotalCount" : 1
+    }, {
+      "Id" : 300001842985735,
+      "Name" : "NAVI MUMBAI, MAHARASHTRA, India",
+      "TotalCount" : 1
+    } ],
+    "postingDatesFacet" : [ ],
+    "titlesFacet" : [ ],
+    "workLocationsFacet" : [ ],
+    "flexFieldsFacet" : [ {
+      "Name" : "AttributeChar29",
+      "Label" : "Role"
+    }, {
+      "Name" : "AttributeChar4",
+      "Label" : "Job Type"
+    }, {
+      "Name" : "AttributeChar13",
+      "Label" : "Experience Level"
+    }, {
+      "Name" : "AttributeChar15",
+      "Label" : "Line of Business"
+    }, {
+      "Name" : "AttributeChar6",
+      "Label" : "Years"
+    }, {
+      "Name" : "AttributeChar12",
+      "Label" : "Applicants"
+    }, {
+      "Name" : "AttributeChar16",
+      "Label" : "Tag"
+    }, {
+      "Name" : "AttributeChar14",
+      "Label" : "Tag2"
+    } ],
+    "organizationsFacet" : [ ],
+    "workplaceTypesFacet" : [ ]
+  } ],
+  "count" : 1,
+  "hasMore" : false,
+  "limit" : 200,
+  "offset" : 0,
+  "links" : [ {
+    "rel" : "self",
+    "href" : "https://eeho.fa.us2.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/recruitingCEJobRequisitions",
+    "name" : "recruitingCEJobRequisitions",
+    "kind" : "collection"
+  }, {
+    "rel" : "action",
+    "href" : "https://eeho.fa.us2.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/recruitingCEJobRequisitions/action/getRequisitionsLocationCoordinates",
+    "name" : "getRequisitionsLocationCoordinates",
+    "kind" : "other"
+  }, {
+    "rel" : "action",
+    "href" : "https://eeho.fa.us2.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/recruitingCEJobRequisitions/action/getRequisitionDetailsForMap",
+    "name" : "getRequisitionDetailsForMap",
+    "kind" : "other"
+  } ]
+}
