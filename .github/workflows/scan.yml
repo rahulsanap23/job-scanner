@@ -1,9 +1,11 @@
 name: daily-job-scan
 
 on:
-  schedule:
-    - cron: "17 0 * * *"    # 00:17 UTC = 5:47 AM IST, every day
-    - cron: "17 2 * * *"    # 7:47 AM IST retry; skips itself if today's scan already succeeded
+  schedule:                 # GitHub cron is UTC; it can start scheduled runs late, so each run has a retry
+    - cron: "30 0 * * *"    # 6:00 AM IST
+    - cron: "30 1 * * *"    # 7:00 AM IST retry (skips itself if the 6 AM scan finished)
+    - cron: "30 9 * * *"    # 3:00 PM IST
+    - cron: "0 10 * * *"    # 3:30 PM IST retry (skips itself if the 3 PM scan finished)
   workflow_dispatch:         # "Run workflow" button for manual runs
   push:
     branches: [dev]          # test runs while changing the scanner
@@ -23,15 +25,19 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Skip the retry if today's scan already succeeded
+      - name: Skip a retry if the scan it backs up already finished
         id: check
         run: |
-          today=$(TZ=Asia/Kolkata date +%F)
           skip=false
-          if [ "${{ github.event.schedule }}" = "17 2 * * *" ] && grep -q "\"date\": \"$today\"" data/jobs.json 2>/dev/null; then
-            skip=true
-          fi
+          case "${{ github.event.schedule }}" in
+            "30 1 * * *"|"0 10 * * *")
+              last=$(python3 -c "import json;print(json.load(open('data/jobs.json'))['meta']['generated_at'])" 2>/dev/null || echo "")
+              if [ -n "$last" ] && [ $(( $(date -u +%s) - $(date -u -d "$last" +%s) )) -lt 6000 ]; then
+                skip=true   # a scan finished in the last 100 minutes
+              fi;;
+          esac
           echo "skip=$skip" >> "$GITHUB_OUTPUT"
+          echo "skip=$skip"
 
       - uses: actions/setup-python@v5
         if: steps.check.outputs.skip != 'true'

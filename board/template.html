@@ -79,6 +79,8 @@ h1 { font-family: var(--serif); font-weight: 600; font-size: clamp(32px, 6vw, 48
 .pills { display: inline-flex; gap: 6px; flex-wrap: wrap; margin-left: 6px; vertical-align: 1px; }
 .new { font: 600 10.5px var(--mono); letter-spacing: .06em; color: var(--on-teal); background: var(--teal); border-radius: 4px; padding: 1px 6px; }
 .flag { font: 500 11px var(--mono); color: var(--flag); background: var(--flag-soft); border-radius: 4px; padding: 1px 6px; }
+.via { font: 500 11px var(--mono); color: var(--ink-soft); border: 1px solid var(--line); border-radius: 4px; padding: 0 6px; }
+.cov .li { font-family: var(--mono); font-size: 11.5px; margin-left: 4px; }
 .empty { padding: 28px; text-align: center; color: var(--ink-soft); background: var(--surface); border: 1px dashed var(--line); border-radius: 10px; }
 
 footer { margin-top: 32px; border-top: 1px solid var(--line); padding-top: 18px; display: grid; gap: 12px;
@@ -128,8 +130,8 @@ footer p { margin: 0; max-width: 72ch; }
 
   <footer>
     <h2>How this list is made</h2>
-    <p>A scraper runs every morning against each company's own careers site (Workday, Greenhouse, Lever, Oracle and similar). Titles match on data-engineering roles (Data Engineer, Analytics Engineer, Big Data, Software Engineer – Data and the reverse word order) or a skill word in the title (Spark, PySpark, Hadoop, ETL, Databricks, Airflow, dbt, Snowflake, data warehouse or pipeline). Abbreviations such as Sr., Eng. and Dev are expanded first. Locations include neighbourhoods (Hinjewadi, Kharadi, Powai, Goregaon, Airoli and others) and remote roles open in India. Internships, data-centre, data-entry and data-scientist roles are left out.</p>
-    <p>Job titles link to the posting itself. The list is rebuilt daily, so links are fresh; a role that closes drops off at the next scan. Rows marked <span class="flag">check</span> passed the filters on a judgement call, such as a remote role that doesn't name a country.</p>
+    <p>A scraper runs at 6 AM and 3 PM IST against each company's own careers site (Workday, Greenhouse, Lever, Oracle and similar). Titles match on data-engineering roles (Data Engineer, Analytics Engineer, Big Data, Software Engineer – Data and the reverse word order) or a skill word in the title (Spark, PySpark, Hadoop, ETL, Databricks, Airflow, dbt, Snowflake, data warehouse or pipeline). Abbreviations such as Sr., Eng. and Dev are expanded first. Locations include neighbourhoods (Hinjewadi, Kharadi, Powai, Goregaon, Airoli and others) and remote roles open in India. Internships, data-centre, data-entry and data-scientist roles are left out.</p>
+    <p>Job titles link to the posting itself. The list is rebuilt twice a day, so links are fresh; a role that closes drops off at the next scan. For companies without a usable careers feed, roles come from LinkedIn's public job search and are marked <span class="via">via LinkedIn</span>. Rows marked <span class="flag">check</span> passed the filters on a judgement call, such as a remote role that doesn't name a country.</p>
     <div id="coverage"></div>
   </footer>
 </div>
@@ -140,7 +142,7 @@ footer p { margin: 0; max-width: 72ch; }
   var DATA = JSON.parse(document.getElementById("data").textContent || "{}");
   var jobs = DATA.jobs || [], meta = DATA.meta || {}, coverage = DATA.coverage || [];
   var LOCS = ["All", "Pune", "Mumbai", "Navi Mumbai", "Remote"];
-  var SHOWS = [["all", "All roles"], ["new", "New"], ["check", "Needs a check"]];
+  var SHOWS = [["all", "All roles"], ["new", "New (2 days)"], ["check", "Needs a check"]];
   var state = { loc: "All", show: "all", q: "" };
   try { var saved = JSON.parse(localStorage.getItem("jobscan-filters") || "{}");
     if (LOCS.indexOf(saved.loc) >= 0) state.loc = saved.loc; } catch (e) {}
@@ -168,7 +170,7 @@ footer p { margin: 0; max-width: 72ch; }
   var open = {};
 
   function stats() {
-    var nNew = jobs.filter(function (j) { return j.new; }).length;
+    var nNew = jobs.filter(function (j) { return j.fresh; }).length;
     var scanned = meta.companies_scanned_ok || 0, total = meta.companies_total || 0;
     var cells = [[jobs.length, "matching roles"], [companies.length, "companies hiring"],
                  [nNew, "new since last scan"], [scanned + "/" + total, "careers sites scanned"]];
@@ -199,6 +201,7 @@ footer p { margin: 0; max-width: 72ch; }
         '<span class="badge">' + count + (all.length === 1 ? " role" : " roles") + "</span>" + chev + "</button>" +
         (isOpen ? '<ul class="jobs">' + vis.map(function (j) {
           var pills = (j.new ? '<span class="new">NEW</span>' : "") +
+            (j.source === "linkedin" ? '<span class="via">via LinkedIn</span>' : "") +
             (j.flags || []).map(function (f) { return '<span class="flag" title="' + esc(f) + '">check: ' + esc(f) + "</span>"; }).join("");
           return '<li class="job"><span><a href="' + esc(j.url) + '" target="_blank" rel="noopener">' + esc(j.title) + ext + "</a>" +
             (pills ? '<span class="pills">' + pills + "</span>" : "") + "</span>" +
@@ -213,15 +216,19 @@ footer p { margin: 0; max-width: 72ch; }
   }
   function footer() {
     if (!coverage.length) { document.getElementById("coverage").innerHTML =
-      "<p>Every target company's careers site was scanned successfully today.</p>"; return; }
-    var failed = coverage.filter(function (c) { return c.status === "error"; });
-    var skipped = coverage.filter(function (c) { return c.status !== "error"; });
+      "<p>Every target company's careers site was scanned successfully.</p>"; return; }
     function items(arr) { return '<ul class="cov">' + arr.map(function (c) {
       var label = c.url ? '<a href="' + esc(c.url) + '" target="_blank" rel="noopener">' + esc(c.company) + "</a>" : esc(c.company);
-      return '<li title="' + esc(c.why) + '">' + label + "</li>"; }).join("") + "</ul>"; }
+      var li = c.linkedin_roles ? c.linkedin_roles + " via LinkedIn" : "LinkedIn search";
+      return '<li title="' + esc(c.why) + '">' + label + '<a class="li" href="' + esc(c.linkedin_search) +
+        '" target="_blank" rel="noopener">' + esc(li) + "</a></li>"; }).join("") + "</ul>"; }
+    var failed = coverage.filter(function (c) { return c.status === "error"; });
+    var checked = coverage.filter(function (c) { return c.status !== "error" && c.linkedin_checked; });
+    var unchecked = coverage.filter(function (c) { return c.status !== "error" && !c.linkedin_checked; });
     var out = "";
-    if (failed.length) out += "<p><b>Couldn't reach today (" + failed.length + "):</b> their roles may be missing until the next scan.</p>" + items(failed);
-    if (skipped.length) out += "<p><b>Not scanned automatically (" + skipped.length + "):</b> no public job feed. Check these by hand.</p>" + items(skipped);
+    if (failed.length) out += "<p><b>Careers site couldn't be reached (" + failed.length + "):</b> checked on LinkedIn instead where possible.</p>" + items(failed);
+    if (checked.length) out += "<p><b>No usable careers feed, checked on LinkedIn instead (" + checked.length + "):</b> their roles above are marked via LinkedIn.</p>" + items(checked);
+    if (unchecked.length) out += "<p><b>Not checked automatically (" + unchecked.length + "):</b> use the links to look by hand.</p>" + items(unchecked);
     document.getElementById("coverage").innerHTML = out;
   }
 
