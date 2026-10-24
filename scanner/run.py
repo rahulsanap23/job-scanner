@@ -16,6 +16,7 @@ import yaml
 
 from .adapters import ADAPTERS
 from .filters import is_recent, location_tags, norm, parse_posted, title_match, today_utc
+from . import linkedin
 from .http import Http
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -26,6 +27,39 @@ NEW_DAYS = 2  # a job counts as NEW for this many days after we first see it
 def load_companies():
     with open(os.path.join(ROOT, "config", "companies.yaml"), encoding="utf-8") as f:
         return yaml.safe_load(f)["companies"]
+
+
+def apply_filters(company, raw, today, source):
+    """Part 1 filters. Returns (jobs, title_match_count, rejected_examples)."""
+    jobs, rejects, title_matches = [], [], 0
+    for r in raw:
+        ok, how, borderline = title_match(r.get("title"))
+        if not ok:
+            continue
+        title_matches += 1
+        tags, notes = location_tags(r.get("locations"), r.get("remote"), r.get("country"))
+        posted = parse_posted(r.get("posted"), today)
+        if not tags and not notes:
+            rejects.append(f"location: {r.get('title')} | {'; '.join(l for l in r.get('locations') or [] if l)[:80]}")
+            continue
+        if not is_recent(posted, today):
+            rejects.append(f"older than 30d: {r.get('title')} | {r.get('posted')}")
+            continue
+        flags = list(notes)
+        if borderline:
+            flags.append("title borderline")
+        if r.get("name_match") == "loose":
+            flags.append(f"company listed as '{r.get('company')}'")
+        loc_text = "; ".join(dict.fromkeys(l.strip() for l in r.get("locations") or [] if l and l.strip()))
+        job = {
+            "company": company, "title": " ".join((r.get("title") or "").split()),
+            "location": loc_text, "location_tags": sorted(tags),
+            "posted": posted.isoformat() if posted else None,
+            "days_ago": (today - posted).days if posted else None,
+            "url": r.get("url"), "source": source, "match": how, "flags": flags,
+        }
+        jobs.append(job)
+    return jobs, title_matches, rejects
 
 
 def scan_company(c, today, debug=False):
@@ -60,33 +94,9 @@ def scan_company(c, today, debug=False):
                 traceback.print_exc()
     rep["fetched"] = len(raw)
 
-    kept, uncertain, rejects = [], [], []
-    for r in raw:
-        ok, how, borderline = title_match(r.get("title"))
-        if not ok:
-            continue
-        rep["title_matches"] += 1
-        tags, notes = location_tags(r.get("locations"), r.get("remote"), r.get("country"))
-        posted = parse_posted(r.get("posted"), today)
-        if not tags and not notes:
-            rejects.append(f"location: {r.get('title')} | {'; '.join(l for l in r.get('locations') or [] if l)[:80]}")
-            continue
-        if not is_recent(posted, today):
-            rejects.append(f"older than 30d: {r.get('title')} | {r.get('posted')}")
-            continue
-        flags = list(notes)
-        if borderline:
-            flags.append("title borderline")
-        loc_text = "; ".join(dict.fromkeys(l.strip() for l in r.get("locations") or [] if l and l.strip()))
-        job = {
-            "company": c["name"], "title": " ".join((r.get("title") or "").split()),
-            "location": loc_text, "location_tags": sorted(tags),
-            "posted": posted.isoformat() if posted else None,
-            "days_ago": (today - posted).days if posted else None,
-            "url": r.get("url"), "source": "+".join(dict.fromkeys(rep["platforms"])),
-            "match": how, "flags": flags,
-        }
-        (uncertain if flags else kept).append(job)
+    found, rep["title_matches"], rejects = apply_filters(c["name"], raw, today, "+".join(dict.fromkeys(rep["platforms"])))
+    kept = [j for j in found if not j["flags"]]
+    uncertain = [j for j in found if j["flags"]]
 
     rep["matched"] = len(kept) + len(uncertain)
     rep["rejected_examples"] = rejects[:8]  # title matched but location/date didn't: helps spot parsing bugs
@@ -118,6 +128,7 @@ def main():
     ap.add_argument("--workers", type=int, default=10)
     ap.add_argument("--debug", action="store_true")
     ap.add_argument("--no-write", action="store_true")
+    ap.add_argument("--no-linkedin", action="store_true", help="skip the LinkedIn fallback")
     args = ap.parse_args()
 
     today = today_utc()
@@ -140,6 +151,26 @@ def main():
             print(f"{rep['company'][:28]:28} {rep['status']:11} fetched={rep.get('fetched', 0):4} "
                   f"matched={rep.get('matched', 0):3} {'; '.join(rep.get('errors', []))[:120]}", flush=True)
 
+    # LinkedIn fallback for companies whose own site gave us nothing today
+    linkedin_note = "skipped"
+    if not args.no_linkedin:
+        by_name = {c["name"]: c for c in companies}
+        rep_by = {r["company"]: r for r in reports}
+        targets = [by_name[r["company"]] for r in reports
+                   if r["company"] in by_name and not by_name[r["company"]].get("skip_linkedin")
+                   and (r["status"] in ("not scanned", "error") or r.get("fetched", 0) == 0)]
+        if targets:
+            li_http = Http(max_requests=len(targets) * linkedin.PAGES + 10)
+            found, checked, linkedin_note = linkedin.scan_targets(targets, li_http)
+            for name in checked:
+                rep = rep_by[name]
+                js, tm, rej = apply_filters(name, found.get(name) or [], today, "linkedin")
+                rep["linkedin"] = {"fetched": len(found.get(name) or []), "matched": len(js),
+                                   "rejected_examples": rej[:5]}
+                rep["matched"] = rep.get("matched", 0) + len(js)
+                jobs.extend(js)
+            print(f"LinkedIn: {linkedin_note}; {sum(1 for j in jobs if j['source'] == 'linkedin')} roles", flush=True)
+
     jobs = dedupe(jobs)
 
     # first-seen tracking -> NEW badge
@@ -151,8 +182,10 @@ def main():
         seen = {}
     # roles found by the very first scan are the baseline, not "new"
     baseline = seen.pop("_baseline", None) or (min(seen.values()) if seen else today.isoformat())
+    had_history = bool(seen)
     for j in jobs:
         k = job_key(j)
+        j["fresh"] = had_history and k not in seen  # first appeared in this run (never on the first-ever run)
         seen.setdefault(k, today.isoformat())
         j["first_seen"] = seen[k]
         j["new"] = seen[k] != baseline and (today - datetime.fromisoformat(seen[k]).date()).days < NEW_DAYS
@@ -172,6 +205,9 @@ def main():
         "companies_not_scanned": sorted(r["company"] for r in reports if r["status"] == "not scanned"),
         "jobs": len(jobs), "companies_with_jobs": len({j["company"] for j in jobs}),
         "uncertain": sum(1 for j in jobs if j["flags"]),
+        "fresh": sum(1 for j in jobs if j.get("fresh")),
+        "linkedin": linkedin_note,
+        "companies_checked_on_linkedin": sorted(r["company"] for r in reports if "linkedin" in r),
     }
     if args.no_write:
         print(json.dumps(meta, indent=1))

@@ -10,6 +10,8 @@ import argparse
 import html
 import json
 import os
+import re
+from urllib.parse import quote_plus
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TEMPLATE = os.path.join(ROOT, "board", "template.html")
@@ -26,10 +28,15 @@ def build(drop=(), out=OUT):
 
     coverage = []
     for r in report["companies"]:
-        if r["status"] in ("error", "not scanned"):
-            coverage.append({"company": r["company"], "status": r["status"],
+        empty_site = r["status"] in ("ok", "partial") and not r.get("fetched")
+        if r["status"] in ("error", "not scanned") or (empty_site and "linkedin" in r):
+            li = r.get("linkedin") or {}
+            q = quote_plus(f"{re.sub(r'[(].*?[)]', '', r['company']).strip()} data engineer")
+            coverage.append({"company": r["company"], "status": "empty" if empty_site else r["status"],
                              "url": r.get("careers_url"),
-                             "why": "; ".join(r.get("errors") or r.get("notes") or [])[:160]})
+                             "why": "; ".join(r.get("errors") or r.get("notes") or [])[:160],
+                             "linkedin_checked": "linkedin" in r, "linkedin_roles": li.get("matched", 0),
+                             "linkedin_search": f"https://www.linkedin.com/jobs/search/?keywords={q}&location=India"})
     payload = {"meta": data["meta"], "jobs": jobs, "coverage": coverage}
     blob = json.dumps(payload, ensure_ascii=False).replace("</", "<\\/")
     with open(TEMPLATE, encoding="utf-8") as f:

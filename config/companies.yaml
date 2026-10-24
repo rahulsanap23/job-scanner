@@ -4,7 +4,9 @@
 # careers platforms to read (tried in order; a source marked `fallback: true`
 # only runs when the ones before it fail or return nothing). A company with no
 # sources is shown on the board as "not scanned automatically" with a link to
-# its careers page, so nothing is silently skipped.
+# its careers page, so nothing is silently skipped. Companies whose site gives
+# nothing are also searched on LinkedIn's public job search, matched by `name`
+# and `aliases` (add `skip_linkedin: true` to turn that off for a company).
 #
 # To add a company, copy an entry with the same platform and change the ids.
 # Platform ids come from the company's careers URL, e.g.
@@ -153,6 +155,8 @@ companies:
     tenant: db
     site: DBWebsite
 - name: SBI
+  aliases:
+  - State Bank of India
   sources: []
   careers_url: https://sbi.co.in/web/careers
   note: recruitment notices only, no job board
@@ -443,6 +447,9 @@ companies:
     tenant: spgi
     site: SPGI_Careers
 - name: Jio
+  aliases:
+  - Jio Platforms
+  - Reliance Jio
   sources: []
   careers_url: https://careers.jio.com/
   note: no public job feed found
@@ -740,6 +747,8 @@ companies:
   - type: lever
     site: cred
 - name: NPCI
+  aliases:
+  - National Payments Corporation of India
   sources: []
   careers_url: https://www.npci.org.in/careers
   note: site blocks automated access
@@ -824,6 +833,8 @@ companies:
   careers_url: https://clevertap.darwinbox.in/ms/candidate/careers
   note: Darwinbox site, no public feed
 - name: Sciative
+  aliases:
+  - Sciative Solutions
   sources: []
   careers_url: https://sciative.com/careers
   note: no public job feed found
@@ -937,6 +948,8 @@ companies:
   careers_url: https://www.firstcry.com/careers
   note: no public job feed found
 - name: Lentra
+  aliases:
+  - Lentra AI
   sources: []
   careers_url: https://lentra.ai/
   note: no public job feed found
@@ -953,6 +966,8 @@ companies:
   careers_url: https://www.dreamsports.group/
   note: no public job feed found
 - name: Nykaa
+  aliases:
+  - FSN E-Commerce Ventures
   sources: []
   careers_url: https://careers.nykaa.com/
   note: no public job feed found
@@ -971,6 +986,8 @@ companies:
     site: hitachi
   note: 'Hitachi group site: other Hitachi companies'' roles appear too'
 - name: Mitsubishi Electric India
+  aliases:
+  - Mitsubishi Electric
   sources: []
   careers_url: https://www.mitsubishielectric.in/careers
   note: no public job feed found
