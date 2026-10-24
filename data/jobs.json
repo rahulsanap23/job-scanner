@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-10-24T01:54:31+00:00",
+  "generated_at": "2026-10-24T02:23:59+00:00",
   "date": "2026-10-24",
   "recency_days": 30,
   "companies_total": 190,
@@ -62,24 +62,139 @@
    "Wärtsilä",
    "Yes Bank"
   ],
-  "jobs": 97,
-  "companies_with_jobs": 33,
-  "uncertain": 15,
-  "fresh": 3,
-  "linkedin": "stopped after 9 of 57 companies: LinkedIn answered 429",
+  "jobs": 103,
+  "companies_with_jobs": 36,
+  "uncertain": 14,
+  "fresh": 8,
+  "linkedin": "stopped after 56 of 57 companies: LinkedIn answered 429; 56 of 57 companies have LinkedIn results from the last 4 days",
   "companies_checked_on_linkedin": [
+   "3Pillar Global",
+   "Amadeus",
+   "Atlas Copco",
+   "Axis Bank",
+   "BMW TechWorks India",
    "BNP Paribas",
    "BNY",
+   "BillDesk",
+   "Cimpress",
+   "Claroda",
+   "CleverTap",
+   "Confluent",
+   "DNV",
+   "Dassault Systèmes",
+   "Dream Sports",
+   "EPAM Systems",
+   "Eruditus",
+   "FORVIA",
+   "Fanatics",
    "FedEx",
+   "Federal Bank",
+   "First Advantage",
+   "FirstCry",
    "HDFC Bank",
+   "HERE Technologies",
+   "ICICI Bank",
+   "IDFC FIRST Bank",
+   "IDT Corporation",
+   "IndusInd Bank",
+   "Jefferies",
+   "Jio",
+   "JioHotstar",
+   "Kotak Mahindra Bank",
+   "Lentra",
+   "Media.net",
+   "Mitsubishi Electric India",
+   "NPCI",
+   "Netcore Cloud",
+   "Nykaa",
    "PhonePe",
+   "Postman",
+   "RBL Bank",
    "SBI",
+   "Sciative",
    "Société Générale",
+   "TeamViewer",
    "Tesla",
-   "UBS"
+   "Tietoevry",
+   "Trajector",
+   "UBS",
+   "Upstox",
+   "Vector Informatik",
+   "Veritas Technologies",
+   "Volkswagen Group Digital Solutions",
+   "Wärtsilä",
+   "Yes Bank"
   ]
  },
  "jobs": [
+  {
+   "company": "Atlas Copco",
+   "title": "Data Engineer",
+   "location": "Chakan, Maharashtra, India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-10-15",
+   "days_ago": 9,
+   "url": "https://in.linkedin.com/jobs/view/data-engineer-at-atlas-copco-group-4478859610",
+   "source": "linkedin",
+   "match": "title",
+   "flags": [],
+   "fresh": true,
+   "first_seen": "2026-10-24",
+   "new": false
+  },
+  {
+   "company": "Atlas Copco",
+   "title": "Data Engineer",
+   "location": "Pune Division, Maharashtra, India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-10-15",
+   "days_ago": 9,
+   "url": "https://in.linkedin.com/jobs/view/data-engineer-at-atlas-copco-group-4478856663",
+   "source": "linkedin",
+   "match": "title",
+   "flags": [],
+   "fresh": true,
+   "first_seen": "2026-10-24",
+   "new": false
+  },
+  {
+   "company": "Atlas Copco",
+   "title": "Lead Data Engineer",
+   "location": "Pune Division, Maharashtra, India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-10-14",
+   "days_ago": 10,
+   "url": "https://in.linkedin.com/jobs/view/lead-data-engineer-at-atlas-copco-group-4478195779",
+   "source": "linkedin",
+   "match": "title",
+   "flags": [],
+   "fresh": true,
+   "first_seen": "2026-10-24",
+   "new": false
+  },
+  {
+   "company": "Atlas Copco",
+   "title": "Commercial Senior Data Engineer",
+   "location": "Pune Division, Maharashtra, India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-10-12",
+   "days_ago": 12,
+   "url": "https://in.linkedin.com/jobs/view/commercial-senior-data-engineer-at-atlas-copco-group-4477516618",
+   "source": "linkedin",
+   "match": "title",
+   "flags": [],
+   "fresh": true,
+   "first_seen": "2026-10-24",
+   "new": false
+  },
   {
    "company": "Atlassian",
    "title": "Senior Data Engineering Manager",
@@ -180,43 +295,7 @@
    "source": "linkedin",
    "match": "title",
    "flags": [],
-   "fresh": true,
-   "first_seen": "2026-10-24",
-   "new": false
-  },
-  {
-   "company": "BNY",
-   "title": "Vice President, Python Developer, Snowflake",
-   "location": "Pune/Pimpri-Chinchwad Area",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": "2026-10-23",
-   "days_ago": 1,
-   "url": "https://in.linkedin.com/jobs/view/vice-president-python-developer-snowflake-at-bny-4414987212",
-   "source": "linkedin",
-   "match": "keyword:snowflake",
-   "flags": [],
-   "fresh": true,
-   "first_seen": "2026-10-24",
-   "new": false
-  },
-  {
-   "company": "BNY",
-   "title": "Vice President, Data Management Engineer",
-   "location": "Pune/Pimpri-Chinchwad Area",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": "2026-10-16",
-   "days_ago": 8,
-   "url": "https://in.linkedin.com/jobs/view/vice-president-data-management-engineer-at-bny-4462821755",
-   "source": "linkedin",
-   "match": "pattern",
-   "flags": [
-    "title borderline"
-   ],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-10-24",
    "new": false
   },
@@ -1070,6 +1149,57 @@
    "new": false
   },
   {
+   "company": "Jefferies",
+   "title": "VP - Snowflake Data Engineer - Risk Technology",
+   "location": "Pune Division, Maharashtra, India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-10-03",
+   "days_ago": 21,
+   "url": "https://in.linkedin.com/jobs/view/vp-snowflake-data-engineer-risk-technology-at-jefferies-4387299334",
+   "source": "linkedin",
+   "match": "title",
+   "flags": [],
+   "fresh": true,
+   "first_seen": "2026-10-24",
+   "new": false
+  },
+  {
+   "company": "JioHotstar",
+   "title": "Senior Data Engineer",
+   "location": "Mumbai, Maharashtra, India",
+   "location_tags": [
+    "Mumbai"
+   ],
+   "posted": "2026-10-22",
+   "days_ago": 2,
+   "url": "https://in.linkedin.com/jobs/view/senior-data-engineer-at-jiostar-4435531653",
+   "source": "linkedin",
+   "match": "title",
+   "flags": [],
+   "fresh": true,
+   "first_seen": "2026-10-24",
+   "new": false
+  },
+  {
+   "company": "JioHotstar",
+   "title": "Senior Software Development Engineer - Data Engineer",
+   "location": "Mumbai Metropolitan Region",
+   "location_tags": [
+    "Mumbai"
+   ],
+   "posted": "2026-10-22",
+   "days_ago": 2,
+   "url": "https://in.linkedin.com/jobs/view/senior-software-development-engineer-data-engineer-at-jiostar-4472690997",
+   "source": "linkedin",
+   "match": "title",
+   "flags": [],
+   "fresh": true,
+   "first_seen": "2026-10-24",
+   "new": false
+  },
+  {
    "company": "M&G",
    "title": "Test Lead - Enterprise Data Platform",
    "location": "Pune",
@@ -1663,6 +1793,23 @@
    "match": "keyword:dbt",
    "flags": [],
    "fresh": false,
+   "first_seen": "2026-10-24",
+   "new": false
+  },
+  {
+   "company": "UBS",
+   "title": "SAP Analytics Cloud with Databricks",
+   "location": "Pune Division, Maharashtra, India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-10-14",
+   "days_ago": 10,
+   "url": "https://in.linkedin.com/jobs/view/sap-analytics-cloud-with-databricks-at-ubs-4478440134",
+   "source": "linkedin",
+   "match": "keyword:databricks",
+   "flags": [],
+   "fresh": true,
    "first_seen": "2026-10-24",
    "new": false
   },
