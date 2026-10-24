@@ -1,128 +1,25 @@
 [
  {
-  "name": "epam_c_india",
-  "url": "https://careers.epam.com/api/jobs/v2/search/careers?query=data&country=India&lang=en&from=0&size=5",
-  "method": "GET"
- },
- {
-  "name": "epam_loc",
-  "url": "https://careers.epam.com/api/jobs/v2/search/careers?query=data&location=India&lang=en&from=0&size=5",
-  "method": "GET"
- },
- {
-  "name": "epam_tenant",
-  "url": "https://careers.epam.com/api/jobs/v2/search/careers?query=data%20engineer&lang=en&from=0&size=5&tenant=careers-in",
-  "method": "GET"
- },
- {
-  "name": "epam_page_in",
-  "url": "https://careers.epam.com/en/it-jobs/data-engineer/india",
+  "name": "li_pune",
+  "url": "https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=data%20engineer&location=Pune%2C%20Maharashtra%2C%20India&f_TPR=r2592000&start=0",
   "method": "GET",
   "save": true
  },
  {
-  "name": "epam_page_vac",
-  "url": "https://careers.epam.com/en/vacancies?query=data&country=India",
+  "name": "li_mumbai_p2",
+  "url": "https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=data%20engineer&location=Mumbai%2C%20Maharashtra%2C%20India&f_TPR=r2592000&start=25",
   "method": "GET",
   "save": true
  },
  {
-  "name": "deere_Pune",
-  "url": "https://careers.deere.com/api/pcsx/search?domain=johndeere.com&query=engineer&location=Pune&start=0",
-  "method": "GET"
- },
- {
-  "name": "deere_Pune",
-  "url": "https://careers.deere.com/api/pcsx/search?domain=johndeere.com&query=engineer&location=Pune, Maharashtra, India&start=0",
-  "method": "GET"
- },
- {
-  "name": "deere_IN",
-  "url": "https://careers.deere.com/api/pcsx/search?domain=johndeere.com&query=engineer&location=IN&start=0",
-  "method": "GET"
- },
- {
-  "name": "deere_Bengaluru",
-  "url": "https://careers.deere.com/api/pcsx/search?domain=johndeere.com&query=engineer&location=Bengaluru&start=0",
-  "method": "GET"
- },
- {
-  "name": "deere_noloc",
-  "url": "https://careers.deere.com/api/pcsx/search?domain=johndeere.com&query=data&start=0",
-  "method": "GET"
- },
- {
-  "name": "chargebee_search",
-  "url": "https://jobs.chargebee.com/search/?q=engineer&locationsearch=India",
+  "name": "li_remote",
+  "url": "https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=data%20engineer&location=India&f_WT=2&f_TPR=r2592000&start=0",
   "method": "GET",
   "save": true
  },
  {
-  "name": "chargebee_rss",
-  "url": "https://jobs.chargebee.com/services/rss/job/?locale=en_US&keywords=(engineer)",
-  "method": "GET",
-  "save": true
- },
- {
-  "name": "siemens_detail",
-  "url": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/525786",
-  "method": "GET",
-  "save": true
- },
- {
-  "name": "visa_post",
-  "url": "https://search.visa.com/CAREERS/careers/jobs",
-  "method": "POST",
-  "headers": {
-   "Content-Type": "application/json"
-  },
-  "json": {
-   "from": 0,
-   "size": 10,
-   "query": "data",
-   "filters": []
-  }
- },
- {
-  "name": "visa_post2",
-  "url": "https://search.visa.com/CAREERS/careers/jobs?q=data",
-  "method": "POST",
-  "headers": {
-   "Content-Type": "application/json"
-  },
-  "json": {}
- },
- {
-  "name": "ubs_api",
-  "url": "https://jobs.ubs.com/TgNewUI/Search/Ajax/MatchedJobs",
-  "method": "POST",
-  "headers": {
-   "Content-Type": "application/json"
-  },
-  "json": {
-   "partnerId": "25008",
-   "siteId": "5012",
-   "keyword": "data",
-   "location": "Pune",
-   "keywordCustomSolrFields": "FORMTEXT2,JobTitle",
-   "locationCustomSolrFields": "FORMTEXT1",
-   "linkId": "",
-   "Latitude": 0,
-   "Longitude": 0,
-   "facetfilterfields": {
-    "Facet": []
-   },
-   "powersearchoptions": {
-    "PowerSearchOption": []
-   },
-   "SortType": "LastUpdated",
-   "pageNumber": 1,
-   "encryptedSessionValue": ""
-  }
- },
- {
-  "name": "oracle_oracle_india",
-  "url": "https://eeho.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.secondaryLocations&finder=findReqs;siteNumber=CX_45001,facetsList=LOCATIONS,keyword=%22data%22,limit=2,offset=0,location=India",
+  "name": "li_company",
+  "url": "https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=data%20engineer%20UBS&location=Pune%2C%20Maharashtra%2C%20India&start=0",
   "method": "GET",
   "save": true
  }
