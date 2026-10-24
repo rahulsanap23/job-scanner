@@ -1,14 +1,11 @@
 {
  "meta": {
-  "generated_at": "2026-10-24T01:46:32+00:00",
+  "generated_at": "2026-10-24T01:54:31+00:00",
   "date": "2026-10-24",
   "recency_days": 30,
   "companies_total": 190,
-  "companies_scanned_ok": 134,
-  "companies_failed": [
-   "Tetra Pak",
-   "Worldline"
-  ],
+  "companies_scanned_ok": 136,
+  "companies_failed": [],
   "companies_not_scanned": [
    "3Pillar Global",
    "Amadeus",
@@ -65,12 +62,22 @@
    "Wärtsilä",
    "Yes Bank"
   ],
-  "jobs": 94,
-  "companies_with_jobs": 31,
-  "uncertain": 14,
-  "fresh": 0,
-  "linkedin": "stopped after 0 of 59 companies: LinkedIn answered 429",
-  "companies_checked_on_linkedin": []
+  "jobs": 97,
+  "companies_with_jobs": 33,
+  "uncertain": 15,
+  "fresh": 3,
+  "linkedin": "stopped after 9 of 57 companies: LinkedIn answered 429",
+  "companies_checked_on_linkedin": [
+   "BNP Paribas",
+   "BNY",
+   "FedEx",
+   "HDFC Bank",
+   "PhonePe",
+   "SBI",
+   "Société Générale",
+   "Tesla",
+   "UBS"
+  ]
  },
  "jobs": [
   {
@@ -157,6 +164,59 @@
     "title borderline"
    ],
    "fresh": false,
+   "first_seen": "2026-10-24",
+   "new": false
+  },
+  {
+   "company": "BNP Paribas",
+   "title": "Senior Data Engineer",
+   "location": "Mumbai, Maharashtra, India",
+   "location_tags": [
+    "Mumbai"
+   ],
+   "posted": "2026-10-23",
+   "days_ago": 1,
+   "url": "https://in.linkedin.com/jobs/view/senior-data-engineer-at-bnp-paribas-4482834707",
+   "source": "linkedin",
+   "match": "title",
+   "flags": [],
+   "fresh": true,
+   "first_seen": "2026-10-24",
+   "new": false
+  },
+  {
+   "company": "BNY",
+   "title": "Vice President, Python Developer, Snowflake",
+   "location": "Pune/Pimpri-Chinchwad Area",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-10-23",
+   "days_ago": 1,
+   "url": "https://in.linkedin.com/jobs/view/vice-president-python-developer-snowflake-at-bny-4414987212",
+   "source": "linkedin",
+   "match": "keyword:snowflake",
+   "flags": [],
+   "fresh": true,
+   "first_seen": "2026-10-24",
+   "new": false
+  },
+  {
+   "company": "BNY",
+   "title": "Vice President, Data Management Engineer",
+   "location": "Pune/Pimpri-Chinchwad Area",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-10-16",
+   "days_ago": 8,
+   "url": "https://in.linkedin.com/jobs/view/vice-president-data-management-engineer-at-bny-4462821755",
+   "source": "linkedin",
+   "match": "pattern",
+   "flags": [
+    "title borderline"
+   ],
+   "fresh": true,
    "first_seen": "2026-10-24",
    "new": false
   },
