@@ -18,6 +18,7 @@ PAUSE_SECS = 4.0   # plus up to 4 s of jitter between requests
 BACKOFF = (30, 90)  # waits before retrying a 429; then give up for this run
 PAGES = 1          # 10 results per page; the search is limited to Maharashtra, so one page is enough
 CACHE_DAYS = 4     # companies LinkedIn didn't let us check this run reuse results this recent
+TIME_BUDGET = 600  # seconds; the rest of the companies wait for the next run
 CARD = re.compile(r"<li>(.*?)</li>", re.S)
 FILLER = {"india", "pvt", "private", "ltd", "limited", "inc", "llc", "plc", "corp", "corporation", "co",
           "company", "the", "group", "technologies", "technology", "solutions", "solution", "services",
@@ -89,14 +90,17 @@ def scan_targets(targets, http, log=print):
     sess = requests.Session()  # no automatic retries: back off at the first 429
     sess.headers.update(http.s.headers)
     sess.headers["Accept"] = "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+    started = time.time()
     try:
         for c in targets:
+            if time.time() - started > TIME_BUDGET:
+                raise RateLimited(f"time budget of {TIME_BUDGET // 60} min used")
             for page in range(PAGES):
                 params = {"keywords": f"data engineer {search_name(c)}", "location": "Maharashtra, India",
                           "f_TPR": "r2592000", "start": page * 10}
                 for wait in (0,) + BACKOFF:
                     time.sleep(wait or PAUSE_SECS + random.random() * 4)
-                    r = sess.get(API, params=params, timeout=30)
+                    r = sess.get(API, params=params, timeout=20)
                     http.count += 1
                     if r.status_code not in (429, 999):
                         break
