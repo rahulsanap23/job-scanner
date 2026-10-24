@@ -5,6 +5,7 @@ signing in). One search per company, two pages at most, paced, and it stops at t
 first sign of rate limiting. No LinkedIn account is involved.
 """
 import html
+import random
 import re
 import time
 import unicodedata
@@ -13,7 +14,8 @@ from difflib import SequenceMatcher
 import requests
 
 API = "https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search"
-PAUSE_SECS = 2.5
+PAUSE_SECS = 3.0   # plus up to 3 s of jitter between requests
+BACKOFF = (30, 90)  # waits before retrying a 429; then give up for this run
 PAGES = 2          # 10 results per page
 CARD = re.compile(r"<li>(.*?)</li>", re.S)
 FILLER = {"india", "pvt", "private", "ltd", "limited", "inc", "llc", "plc", "corp", "corporation", "co",
@@ -85,13 +87,18 @@ def scan_targets(targets, http, log=print):
     done, checked = 0, []
     sess = requests.Session()  # no automatic retries: back off at the first 429
     sess.headers.update(http.s.headers)
+    sess.headers["Accept"] = "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
     try:
         for c in targets:
             for page in range(PAGES):
-                time.sleep(PAUSE_SECS)
-                r = sess.get(API, params={"keywords": f"data engineer {search_name(c)}", "location": "India",
-                                            "f_TPR": "r2592000", "start": page * 10}, timeout=30)
-                http.count += 1
+                params = {"keywords": f"data engineer {search_name(c)}", "location": "India",
+                          "f_TPR": "r2592000", "start": page * 10}
+                for wait in (0,) + BACKOFF:
+                    time.sleep(wait or PAUSE_SECS + random.random() * 3)
+                    r = sess.get(API, params=params, timeout=30)
+                    http.count += 1
+                    if r.status_code not in (429, 999):
+                        break
                 if r.status_code in (429, 999) or (r.status_code >= 400 and r.status_code != 404):
                     raise RateLimited(f"LinkedIn answered {r.status_code}")
                 cards = parse(r.text) if r.status_code == 200 else []
