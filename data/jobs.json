@@ -1,11 +1,13 @@
 {
  "meta": {
-  "generated_at": "2026-10-23T19:35:55+00:00",
+  "generated_at": "2026-10-24T00:59:04+00:00",
   "date": "2026-10-24",
   "recency_days": 30,
   "companies_total": 190,
-  "companies_scanned_ok": 136,
-  "companies_failed": [],
+  "companies_scanned_ok": 135,
+  "companies_failed": [
+   "Citi"
+  ],
   "companies_not_scanned": [
    "3Pillar Global",
    "Amadeus",
@@ -62,8 +64,8 @@
    "Wärtsilä",
    "Yes Bank"
   ],
-  "jobs": 94,
-  "companies_with_jobs": 31,
+  "jobs": 74,
+  "companies_with_jobs": 30,
   "uncertain": 13
  },
  "jobs": [
@@ -319,328 +321,6 @@
    "posted": "2026-09-26",
    "days_ago": 28,
    "url": "https://blackrock.wd1.myworkdayjobs.com/en-US/BlackRock_Professional/job/Mumbai-India/VP---Senior-Data-Engineer--Python-Snowflake-Apache-Airflow-_R264460",
-   "source": "workday",
-   "match": "title",
-   "flags": [],
-   "first_seen": "2026-10-24",
-   "new": false
-  },
-  {
-   "company": "Citi",
-   "title": "ETL Application Development Lead",
-   "location": "Pune Maharashtra India",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": "2026-10-24",
-   "days_ago": 0,
-   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/ETL-Application-Development-Lead_261002084",
-   "source": "workday",
-   "match": "keyword:etl",
-   "flags": [],
-   "first_seen": "2026-10-24",
-   "new": false
-  },
-  {
-   "company": "Citi",
-   "title": "Senior Software Engineer - Python and Data - Vice President",
-   "location": "Pune Maharashtra India",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": "2026-10-24",
-   "days_ago": 0,
-   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Senior-Software-Engineer---Python-and-Data---Vice-President_261002381-1",
-   "source": "workday",
-   "match": "pattern",
-   "flags": [],
-   "first_seen": "2026-10-24",
-   "new": false
-  },
-  {
-   "company": "Citi",
-   "title": "Software Engineer (Python & Data) – Markets Business Controls Technology",
-   "location": "Pune Maharashtra India",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": "2026-10-24",
-   "days_ago": 0,
-   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Software-Engineer--Python---Data----Markets-Business-Controls-Technology_261002390",
-   "source": "workday",
-   "match": "pattern",
-   "flags": [],
-   "first_seen": "2026-10-24",
-   "new": false
-  },
-  {
-   "company": "Citi",
-   "title": "Java Spark AngularJS App Development Manager AVP",
-   "location": "Pune Maharashtra India",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": "2026-10-23",
-   "days_ago": 1,
-   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Applications-Development-Manager-Java---C12---PUNE_26964351",
-   "source": "workday",
-   "match": "keyword:spark",
-   "flags": [],
-   "first_seen": "2026-10-24",
-   "new": false
-  },
-  {
-   "company": "Citi",
-   "title": "Senior Data Engineer",
-   "location": "Pune Maharashtra India",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": "2026-10-23",
-   "days_ago": 1,
-   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Senior-Data-Engineer_261001496",
-   "source": "workday",
-   "match": "title",
-   "flags": [],
-   "first_seen": "2026-10-24",
-   "new": false
-  },
-  {
-   "company": "Citi",
-   "title": "Oracle Database ETL Engineer – Assistant Vice President",
-   "location": "Pune Maharashtra India",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": "2026-10-22",
-   "days_ago": 2,
-   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Oracle-Database-ETL-Engineer---Assistant-Vice-President_261000067",
-   "source": "workday",
-   "match": "keyword:etl",
-   "flags": [],
-   "first_seen": "2026-10-24",
-   "new": false
-  },
-  {
-   "company": "Citi",
-   "title": "Senior Data Platform Engineer - Assistant Vice President",
-   "location": "Pune Maharashtra India",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": "2026-10-22",
-   "days_ago": 2,
-   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Senior-Data-Platform-Engineer---Assistant-Vice-President_26997771",
-   "source": "workday",
-   "match": "keyword:data platform",
-   "flags": [],
-   "first_seen": "2026-10-24",
-   "new": false
-  },
-  {
-   "company": "Citi",
-   "title": "Big Data Java Spark Developer",
-   "location": "DLF CYBERCITY 12B; Pune Maharashtra India",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": "2026-10-21",
-   "days_ago": 3,
-   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/DLF-CYBERCITY-12B/Big-Data-Java-Spark-Developer_26998231",
-   "source": "workday",
-   "match": "title",
-   "flags": [],
-   "first_seen": "2026-10-24",
-   "new": false
-  },
-  {
-   "company": "Citi",
-   "title": "Development Lead – Data Engineering & Application Delivery",
-   "location": "Pune Maharashtra India; 1/124, SHIVAJI GARDENS, MOONLI",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": "2026-10-21",
-   "days_ago": 3,
-   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Development-Lead---Data-Engineering---Application-Delivery_26997775",
-   "source": "workday",
-   "match": "title",
-   "flags": [],
-   "first_seen": "2026-10-24",
-   "new": false
-  },
-  {
-   "company": "Citi",
-   "title": "Java and Big Data Developer",
-   "location": "Pune Maharashtra India",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": "2026-10-20",
-   "days_ago": 4,
-   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Java-and-Big-Data-Developer_26998334",
-   "source": "workday",
-   "match": "title",
-   "flags": [],
-   "first_seen": "2026-10-24",
-   "new": false
-  },
-  {
-   "company": "Citi",
-   "title": "Python and Apache Spark Big Data Engineer - Assistant Vice President",
-   "location": "Pune Maharashtra India",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": "2026-10-17",
-   "days_ago": 7,
-   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Python-and-Apache-Spark-Big-Data-Engineer---Assistant-Vice-President_26994245",
-   "source": "workday",
-   "match": "title",
-   "flags": [],
-   "first_seen": "2026-10-24",
-   "new": false
-  },
-  {
-   "company": "Citi",
-   "title": "Senior Pyspark Developer – Vice President",
-   "location": "Pune Maharashtra India",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": "2026-10-17",
-   "days_ago": 7,
-   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Python-Developer---Vice-President_26996585",
-   "source": "workday",
-   "match": "title",
-   "flags": [],
-   "first_seen": "2026-10-24",
-   "new": false
-  },
-  {
-   "company": "Citi",
-   "title": "Senior Data Engineer - Vice President - Python Development",
-   "location": "Pune Maharashtra India",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": "2026-10-16",
-   "days_ago": 8,
-   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Application-Development-Lead---Python-Development_26975837",
-   "source": "workday",
-   "match": "title",
-   "flags": [],
-   "first_seen": "2026-10-24",
-   "new": false
-  },
-  {
-   "company": "Citi",
-   "title": "Senior PySpark Python Data Engineer - Assistant Vice President",
-   "location": "Pune Maharashtra India",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": "2026-10-16",
-   "days_ago": 8,
-   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Senior-Technical-Data-Analyst---Assistant-Vice-President_26994298",
-   "source": "workday",
-   "match": "title",
-   "flags": [],
-   "first_seen": "2026-10-24",
-   "new": false
-  },
-  {
-   "company": "Citi",
-   "title": "Pyspark Data Analyst",
-   "location": "Pune Maharashtra India",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": "2026-10-14",
-   "days_ago": 10,
-   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Pyspark-Data-Analyst_26998266",
-   "source": "workday",
-   "match": "keyword:pyspark",
-   "flags": [
-    "title borderline"
-   ],
-   "first_seen": "2026-10-24",
-   "new": false
-  },
-  {
-   "company": "Citi",
-   "title": "Senior Data Platform Engineer - Vice President",
-   "location": "Pune Maharashtra India",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": "2026-10-13",
-   "days_ago": 11,
-   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Senior-Data-Platform-Engineer---Vice-President_26984967",
-   "source": "workday",
-   "match": "keyword:data platform",
-   "flags": [],
-   "first_seen": "2026-10-24",
-   "new": false
-  },
-  {
-   "company": "Citi",
-   "title": "Data Engineer - Python, AI",
-   "location": "Pune Maharashtra India",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": "2026-10-10",
-   "days_ago": 14,
-   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Data-Engineer---Python--AI_26965263",
-   "source": "workday",
-   "match": "title",
-   "flags": [],
-   "first_seen": "2026-10-24",
-   "new": false
-  },
-  {
-   "company": "Citi",
-   "title": "Data Engineer",
-   "location": "Pune Maharashtra India",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": "2026-10-06",
-   "days_ago": 18,
-   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Data-Engineer_26995668",
-   "source": "workday",
-   "match": "title",
-   "flags": [],
-   "first_seen": "2026-10-24",
-   "new": false
-  },
-  {
-   "company": "Citi",
-   "title": "Senior Java Engineering Lead - Market Ops Data Platform",
-   "location": "Pune Maharashtra India",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": "2026-10-01",
-   "days_ago": 23,
-   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Senior-Java-Engineering-Lead---Market-Ops-Data-Platform_26997567",
-   "source": "workday",
-   "match": "keyword:data platform",
-   "flags": [],
-   "first_seen": "2026-10-24",
-   "new": false
-  },
-  {
-   "company": "Citi",
-   "title": "Python Big Data Developer",
-   "location": "Pune Maharashtra India",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": "2026-09-30",
-   "days_ago": 24,
-   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Python-Big-Data-Developer_26987499",
    "source": "workday",
    "match": "title",
    "flags": [],
@@ -1401,22 +1081,6 @@
   },
   {
    "company": "Siemens Digital Industries Software",
-   "title": "Data Ingestion Engineer",
-   "location": "Pune",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": null,
-   "days_ago": null,
-   "url": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/522636",
-   "source": "avature",
-   "match": "pattern",
-   "flags": [],
-   "first_seen": "2026-10-24",
-   "new": false
-  },
-  {
-   "company": "Siemens Digital Industries Software",
    "title": "Senior Analytics Engineer (m/f/d)",
    "location": "Multiple Locations",
    "location_tags": [],
@@ -1460,6 +1124,22 @@
    "source": "avature",
    "match": "title",
    "flags": [],
+   "first_seen": "2026-10-24",
+   "new": false
+  },
+  {
+   "company": "Siemens Digital Industries Software",
+   "title": "Senior Data Engineer",
+   "location": "Multiple Locations",
+   "location_tags": [],
+   "posted": null,
+   "days_ago": null,
+   "url": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/524101",
+   "source": "avature",
+   "match": "title",
+   "flags": [
+    "multiple locations - check"
+   ],
    "first_seen": "2026-10-24",
    "new": false
   },
