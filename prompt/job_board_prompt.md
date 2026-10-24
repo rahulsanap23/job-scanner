@@ -6,12 +6,13 @@ scanner applies in code (`scanner/filters.py`), so Claude's daily job is to chec
 and publish the page, not to re-filter thousands of rows.
 
 ```
-GitHub Actions, 5:47 AM IST (retry 7:47)          Scheduled Claude task, 8:30 AM IST
+GitHub Actions, 6 AM + 3 PM IST (retries 7:00, 3:30)   Scheduled Claude task, 8 AM + 4 PM IST (weekdays)
 ┌──────────────────────────────────────┐           ┌─────────────────────────────────────┐
 │ scanner/run.py                       │  commits  │ 1. download data/*.json             │
 │  · reads config/companies.yaml       │ ───────▶  │ 2. review flagged rows (Part 1)     │
 │  · calls each careers site's API     │           │ 3. python3 -m scanner.board --drop  │
-│  · applies Part 1 filters            │           │ 4. publish the board artifact       │
+│  · LinkedIn fallback (Part 0d)       │           │ 4. publish the board artifact       │
+│  · applies Part 1 filters            │           │                                     │
 │  · writes data/jobs.json, report     │           │ 5. short summary of new roles       │
 │ scanner/board.py → board/index.html  │           └─────────────────────────────────────┘
 └──────────────────────────────────────┘
@@ -30,14 +31,25 @@ file; each entry says which careers platform its jobs come from.
 Step 0b — Where each company's jobs come from
 Each company is read from its own careers site's public job feed: Workday, Greenhouse, Lever, Ashby,
 SmartRecruiters, Oracle Recruiting Cloud, Eightfold, SuccessFactors, Avature, iCIMS Jibe, Jobvite,
-Workable, the Goldman Sachs and Atlassian sites, amazon.jobs, and the DirectEmployers network (for
-Google, Honeywell, Cummins, Teradata, HSBC, SAP and Panasonic Avionics). LinkedIn is not used.
+Workable, the Goldman Sachs, Atlassian and Visa sites, amazon.jobs, and the DirectEmployers network
+(for Google, Honeywell, Cummins, Teradata, HSBC, SAP and Panasonic Avionics).
 
 Step 0c — Companies that can't be scanned
 Some companies have no public job feed or block automated access (for example Tesla, UBS, BNP Paribas
-and most Indian banks). They are listed in `data/scan_report.json` with status "not scanned" and shown
-in the page footer with a link to their careers page, so nothing is dropped silently. A company whose
-site failed today has status "error" and is listed separately.
+and most Indian banks). They are listed in `data/scan_report.json` with status "not scanned". A company
+whose site failed today has status "error". Both are shown in the page footer with a link to their
+careers page and a LinkedIn search link, so nothing is dropped silently.
+
+Step 0d — LinkedIn fallback
+For every company whose own site gave nothing today (status "not scanned" or "error", or a site that
+returned zero postings), the scanner searches LinkedIn's public, logged-out job search: one search per
+company ("data engineer <company>", India, posted in the last 30 days), two pages at most, paced, and
+it stops at the first sign of rate limiting. A LinkedIn result counts only if its company name matches
+the target's name or aliases after removing legal suffixes (Pvt Ltd, India, Technologies…). An exact
+core-name match is kept as is; a looser match (the target's words are inside a longer LinkedIn company
+name) is kept and flagged "company listed as '<LinkedIn name>'". These rows go through the same Part 1
+filters and are marked "via LinkedIn". Remote-only LinkedIn listings that just say "India" are not
+included (the location filter needs a city or a remote marker).
 
 ═══════════════════════════════════════════
 PART 1 — DATA PROCESSING (done by the scanner; Claude reviews)
@@ -127,6 +139,9 @@ titles for clear misfits. Decide keep or drop:
 - "remote - country not stated": keep unless the title or company makes another country obvious
   (e.g. "US Federal" or a US-only company).
 - "Maharashtra - city not stated" and "multiple locations - check": keep; the reader opens the posting.
+- "company listed as '<name>'" (LinkedIn rows): keep if it is the same company or its Indian entity
+  (e.g. "BNP Paribas India Solutions", "FirstCry.com (BrainBees Solutions Ltd.)"); drop if it is a
+  different company that merely shares a word (e.g. "Visa Global Logistics" for Visa).
 - Unflagged rows: drop only clear errors (e.g. a non-data title that slipped through). When unsure,
   keep it.
 Pass the URLs of dropped rows to the board builder (`--drop`). Never add rows the scanner didn't find.
@@ -154,22 +169,26 @@ location is remembered in the viewer's browser.
 
 Step 9 — Job links: direct links to the posting
 Each title links (new tab, small external-link icon) to the posting on the company's own careers site,
-or to its DirectEmployers listing, which forwards to it. The list is rebuilt every day, so links are
-fresh; a closed role drops off at the next scan. (The LinkedIn live-search links are no longer used.)
+to its DirectEmployers listing (which forwards to it), or, for LinkedIn-fallback rows, to the LinkedIn
+posting, with a small "via LinkedIn" pill. The list is rebuilt twice a day, so links are fresh; a closed
+role drops off at the next scan. LinkedIn live-search links (the old Step 9 format) now appear only in
+the footer, next to each company that couldn't be scanned.
 
 Step 10 — Header and summary stats
 - Eyebrow: "Career-site scan · Pune · Mumbai · Navi Mumbai · Remote India · <scan date>"
 - Title: "Data engineering roles at your target companies"
 - One-sentence subhead naming the checks each listing passed: own careers site, data-engineering title
   or skill, location, posted in the last 30 days or undated.
-- Four stats: matching roles · companies hiring · new since last scan · careers sites scanned
-  (scanned OK / total target companies).
+- Four stats: matching roles · companies hiring · new since last scan (roles that first appeared in
+  this run) · careers sites scanned (scanned OK / total target companies).
+- NEW pill and the "New (2 days)" filter mark roles first seen in the last two days.
 
 Step 11 — Footer
 (a) How title and location matching works (abbreviations, neighbourhoods, remote-in-India rule, what is
 excluded). (b) Links go straight to the posting and are refreshed daily; "check" rows passed on a
-judgement call. (c) Coverage: companies whose site couldn't be reached today, and companies that
-aren't scanned automatically, each linked to its careers page.
+judgement call. (c) Coverage in three groups: careers site couldn't be reached today; no usable careers
+feed but checked on LinkedIn (with the number of roles found); not checked (e.g. LinkedIn rate-limited
+the run). Each company links to its careers page and to a LinkedIn search.
 
 ═══════════════════════════════════════════
 PART 3 — VISUAL DESIGN SPEC (unchanged, plus a dark theme)
