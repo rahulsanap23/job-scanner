@@ -160,13 +160,14 @@ def main():
                    if r["company"] in by_name and not by_name[r["company"]].get("skip_linkedin")
                    and (r["status"] in ("not scanned", "error") or r.get("fetched", 0) == 0)]
         if targets:
-            li_http = Http(max_requests=len(targets) * linkedin.PAGES + 10)
-            found, checked, linkedin_note = linkedin.scan_targets(targets, li_http)
-            for name in checked:
+            li_http = Http(max_requests=len(targets) * linkedin.PAGES * 3 + 10)
+            found, when, linkedin_note = linkedin.run_fallback(
+                targets, li_http, os.path.join(DATA, "linkedin_cache.json"), datetime.now(timezone.utc))
+            for name, checked_at in when.items():
                 rep = rep_by[name]
                 js, tm, rej = apply_filters(name, found.get(name) or [], today, "linkedin")
-                rep["linkedin"] = {"fetched": len(found.get(name) or []), "matched": len(js),
-                                   "rejected_examples": rej[:5]}
+                rep["linkedin"] = {"checked_at": checked_at, "fetched": len(found.get(name) or []),
+                                   "matched": len(js), "rejected_examples": rej[:5]}
                 rep["matched"] = rep.get("matched", 0) + len(js)
                 jobs.extend(js)
             print(f"LinkedIn: {linkedin_note}; {sum(1 for j in jobs if j['source'] == 'linkedin')} roles", flush=True)

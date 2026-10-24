@@ -14,9 +14,10 @@ from difflib import SequenceMatcher
 import requests
 
 API = "https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search"
-PAUSE_SECS = 3.0   # plus up to 3 s of jitter between requests
+PAUSE_SECS = 4.0   # plus up to 4 s of jitter between requests
 BACKOFF = (30, 90)  # waits before retrying a 429; then give up for this run
-PAGES = 2          # 10 results per page
+PAGES = 1          # 10 results per page; the search is limited to Maharashtra, so one page is enough
+CACHE_DAYS = 4     # companies LinkedIn didn't let us check this run reuse results this recent
 CARD = re.compile(r"<li>(.*?)</li>", re.S)
 FILLER = {"india", "pvt", "private", "ltd", "limited", "inc", "llc", "plc", "corp", "corporation", "co",
           "company", "the", "group", "technologies", "technology", "solutions", "solution", "services",
@@ -91,10 +92,10 @@ def scan_targets(targets, http, log=print):
     try:
         for c in targets:
             for page in range(PAGES):
-                params = {"keywords": f"data engineer {search_name(c)}", "location": "India",
+                params = {"keywords": f"data engineer {search_name(c)}", "location": "Maharashtra, India",
                           "f_TPR": "r2592000", "start": page * 10}
                 for wait in (0,) + BACKOFF:
-                    time.sleep(wait or PAUSE_SECS + random.random() * 3)
+                    time.sleep(wait or PAUSE_SECS + random.random() * 4)
                     r = sess.get(API, params=params, timeout=30)
                     http.count += 1
                     if r.status_code not in (429, 999):
@@ -125,3 +126,36 @@ def scan_targets(targets, http, log=print):
         log(f"LinkedIn {note}")
         return found, checked, note
     return found, checked, f"searched {done} companies"
+
+
+def run_fallback(targets, http, cache_path, now):
+    """Search LinkedIn for `targets`, least recently checked first, and fill gaps from the cache.
+
+    LinkedIn usually stops answering after a dozen or so searches from one machine, so each
+    run checks as many companies as it can and older results (up to CACHE_DAYS) cover the rest.
+    Returns ({name: [raw jobs]}, {name: checked_at iso}, note).
+    """
+    import json
+    from datetime import datetime, timedelta
+    try:
+        with open(cache_path, encoding="utf-8") as f:
+            cache = json.load(f)
+    except (FileNotFoundError, ValueError):
+        cache = {}
+    order = sorted(targets, key=lambda c: (cache.get(c["name"]) or {}).get("checked_at", ""))
+    found, checked, note = scan_targets(order, http)
+    stamp = now.isoformat(timespec="seconds")
+    for name in checked:
+        cache[name] = {"checked_at": stamp, "jobs": found.get(name) or []}
+    cutoff = (now - timedelta(days=CACHE_DAYS)).isoformat(timespec="seconds")
+    results, when = {}, {}
+    for c in targets:
+        entry = cache.get(c["name"])
+        if entry and entry.get("checked_at", "") >= cutoff:
+            results[c["name"]] = entry.get("jobs") or []
+            when[c["name"]] = entry["checked_at"]
+    live = {c["name"] for c in targets}
+    cache = {k: v for k, v in cache.items() if k in live and v.get("checked_at", "") >= cutoff}
+    with open(cache_path, "w", encoding="utf-8") as f:
+        json.dump(cache, f, indent=0, ensure_ascii=False)
+    return results, when, f"{note}; {len(when)} of {len(targets)} companies have LinkedIn results from the last {CACHE_DAYS} days"

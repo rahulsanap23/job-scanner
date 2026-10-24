@@ -43,8 +43,11 @@ careers page and a LinkedIn search link, so nothing is dropped silently.
 Step 0d — LinkedIn fallback
 For every company whose own site gave nothing today (status "not scanned" or "error", or a site that
 returned zero postings), the scanner searches LinkedIn's public, logged-out job search: one search per
-company ("data engineer <company>", India, posted in the last 30 days), two pages at most, paced, and
-it stops at the first sign of rate limiting. A LinkedIn result counts only if its company name matches
+company ("data engineer <company>", Maharashtra, posted in the last 30 days, first 10 results), paced a
+few seconds apart. LinkedIn usually stops answering after about a dozen searches from one machine, so
+each run starts with the companies checked longest ago and stops at the first rate limit; companies it
+didn't reach reuse their LinkedIn results from the last 4 days (`data/linkedin_cache.json`). Every
+company gets checked within a couple of days. A LinkedIn result counts only if its company name matches
 the target's name or aliases after removing legal suffixes (Pvt Ltd, India, Technologies…). An exact
 core-name match is kept as is; a looser match (the target's words are inside a longer LinkedIn company
 name) is kept and flagged "company listed as '<LinkedIn name>'". These rows go through the same Part 1
