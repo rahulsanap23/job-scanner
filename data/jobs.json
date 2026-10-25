@@ -1,15 +1,11 @@
 {
  "meta": {
-  "generated_at": "2026-10-25T01:20:50+00:00",
+  "generated_at": "2026-10-25T10:05:09+00:00",
   "date": "2026-10-25",
   "recency_days": 30,
   "companies_total": 190,
-  "companies_scanned_ok": 133,
-  "companies_failed": [
-   "Cummins",
-   "Google",
-   "HSBC"
-  ],
+  "companies_scanned_ok": 136,
+  "companies_failed": [],
   "companies_not_scanned": [
    "3Pillar Global",
    "Amadeus",
@@ -66,11 +62,11 @@
    "Wärtsilä",
    "Yes Bank"
   ],
-  "jobs": 110,
-  "companies_with_jobs": 37,
+  "jobs": 101,
+  "companies_with_jobs": 36,
   "uncertain": 12,
-  "fresh": 11,
-  "linkedin": "searched 60 companies; 60 of 60 companies have LinkedIn results from the last 4 days",
+  "fresh": 0,
+  "linkedin": "searched 57 companies; 57 of 57 companies have LinkedIn results from the last 4 days",
   "companies_checked_on_linkedin": [
    "3Pillar Global",
    "Amadeus",
@@ -84,7 +80,6 @@
    "Claroda",
    "CleverTap",
    "Confluent",
-   "Cummins",
    "DNV",
    "Dassault Systèmes",
    "Dream Sports",
@@ -97,10 +92,8 @@
    "Federal Bank",
    "First Advantage",
    "FirstCry",
-   "Google",
    "HDFC Bank",
    "HERE Technologies",
-   "HSBC",
    "ICICI Bank",
    "IDFC FIRST Bank",
    "IDT Corporation",
@@ -348,8 +341,8 @@
    "location_tags": [
     "Pune"
    ],
-   "posted": "2026-10-22",
-   "days_ago": 3,
+   "posted": "2026-10-21",
+   "days_ago": 4,
    "url": "https://barclays.wd3.myworkdayjobs.com/en-US/External_Career_Site_Barclays/job/Pune-Gera-Commerzone-SEZ/AVP---Data-engineer_JR-0000110318-1",
    "source": "workday",
    "match": "title",
@@ -365,8 +358,8 @@
    "location_tags": [
     "Pune"
    ],
-   "posted": "2026-10-17",
-   "days_ago": 8,
+   "posted": "2026-10-16",
+   "days_ago": 9,
    "url": "https://barclays.wd3.myworkdayjobs.com/en-US/External_Career_Site_Barclays/job/Pune-Gera-Commerzone-SEZ/AVP-Process-Data-Engineer_JR-0000121451-1",
    "source": "workday",
    "match": "title",
@@ -382,8 +375,8 @@
    "location_tags": [
     "Pune"
    ],
-   "posted": "2026-10-14",
-   "days_ago": 11,
+   "posted": "2026-10-13",
+   "days_ago": 12,
    "url": "https://barclays.wd3.myworkdayjobs.com/en-US/External_Career_Site_Barclays/job/Pune-Gera-Commerzone-SEZ/IFC---Cloud-Data-Engineer_JR-0000133706-1",
    "source": "workday",
    "match": "title",
@@ -399,8 +392,8 @@
    "location_tags": [
     "Pune"
    ],
-   "posted": "2026-10-06",
-   "days_ago": 19,
+   "posted": "2026-10-05",
+   "days_ago": 20,
    "url": "https://barclays.wd3.myworkdayjobs.com/en-US/External_Career_Site_Barclays/job/Pune-Gera-Commerzone-SEZ/Data-Engineer_JR-0000089960",
    "source": "workday",
    "match": "title",
@@ -416,8 +409,8 @@
    "location_tags": [
     "Pune"
    ],
-   "posted": "2026-10-06",
-   "days_ago": 19,
+   "posted": "2026-10-05",
+   "days_ago": 20,
    "url": "https://barclays.wd3.myworkdayjobs.com/en-US/External_Career_Site_Barclays/job/Pune-Gera-Commerzone-SEZ/Senior-Developer_JR-0000088786",
    "source": "workday",
    "match": "title",
@@ -433,8 +426,8 @@
    "location_tags": [
     "Pune"
    ],
-   "posted": "2026-10-01",
-   "days_ago": 24,
+   "posted": "2026-09-30",
+   "days_ago": 25,
    "url": "https://barclays.wd3.myworkdayjobs.com/en-US/External_Career_Site_Barclays/job/Pune-Gera-Commerzone-SEZ/Data-Engineer-VP_JR-0000114544",
    "source": "workday",
    "match": "title",
@@ -450,8 +443,8 @@
    "location_tags": [
     "Pune"
    ],
-   "posted": "2026-09-29",
-   "days_ago": 26,
+   "posted": "2026-09-28",
+   "days_ago": 27,
    "url": "https://barclays.wd3.myworkdayjobs.com/en-US/External_Career_Site_Barclays/job/Pune-Gera-Commerzone-SEZ/Cloud-Data-Engineer_JR-0000118605-1",
    "source": "workday",
    "match": "title",
@@ -467,8 +460,8 @@
    "location_tags": [
     "Mumbai"
    ],
-   "posted": "2026-09-26",
-   "days_ago": 29,
+   "posted": "2026-09-25",
+   "days_ago": 30,
    "url": "https://blackrock.wd1.myworkdayjobs.com/en-US/BlackRock_Professional/job/Mumbai-India/VP---Senior-Data-Engineer--Python-Snowflake-Apache-Airflow-_R264460",
    "source": "workday",
    "match": "title",
@@ -484,8 +477,8 @@
    "location_tags": [
     "Pune"
    ],
-   "posted": "2026-10-24",
-   "days_ago": 1,
+   "posted": "2026-10-23",
+   "days_ago": 2,
    "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/ETL-Application-Development-Lead_261002084",
    "source": "workday",
    "match": "keyword:etl",
@@ -501,8 +494,8 @@
    "location_tags": [
     "Pune"
    ],
-   "posted": "2026-10-24",
-   "days_ago": 1,
+   "posted": "2026-10-23",
+   "days_ago": 2,
    "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Senior-Software-Engineer---Python-and-Data---Vice-President_261002381-1",
    "source": "workday",
    "match": "pattern",
@@ -518,8 +511,8 @@
    "location_tags": [
     "Pune"
    ],
-   "posted": "2026-10-24",
-   "days_ago": 1,
+   "posted": "2026-10-23",
+   "days_ago": 2,
    "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Software-Engineer--Python---Data----Markets-Business-Controls-Technology_261002390",
    "source": "workday",
    "match": "pattern",
@@ -535,8 +528,8 @@
    "location_tags": [
     "Pune"
    ],
-   "posted": "2026-10-23",
-   "days_ago": 2,
+   "posted": "2026-10-22",
+   "days_ago": 3,
    "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Applications-Development-Manager-Java---C12---PUNE_26964351",
    "source": "workday",
    "match": "keyword:spark",
@@ -552,45 +545,11 @@
    "location_tags": [
     "Pune"
    ],
-   "posted": "2026-10-23",
-   "days_ago": 2,
+   "posted": "2026-10-22",
+   "days_ago": 3,
    "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Senior-Data-Engineer_261001496",
    "source": "workday",
    "match": "title",
-   "flags": [],
-   "fresh": false,
-   "first_seen": "2026-10-24",
-   "new": false
-  },
-  {
-   "company": "Citi",
-   "title": "Oracle Database ETL Engineer – Assistant Vice President",
-   "location": "Pune Maharashtra India",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": "2026-10-22",
-   "days_ago": 3,
-   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Oracle-Database-ETL-Engineer---Assistant-Vice-President_261000067",
-   "source": "workday",
-   "match": "keyword:etl",
-   "flags": [],
-   "fresh": false,
-   "first_seen": "2026-10-24",
-   "new": false
-  },
-  {
-   "company": "Citi",
-   "title": "Senior Data Platform Engineer - Assistant Vice President",
-   "location": "Pune Maharashtra India",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": "2026-10-22",
-   "days_ago": 3,
-   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Senior-Data-Platform-Engineer---Assistant-Vice-President_26997771",
-   "source": "workday",
-   "match": "keyword:data platform",
    "flags": [],
    "fresh": false,
    "first_seen": "2026-10-24",
@@ -632,13 +591,47 @@
   },
   {
    "company": "Citi",
+   "title": "Oracle Database ETL Engineer – Assistant Vice President",
+   "location": "Pune Maharashtra India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-10-21",
+   "days_ago": 4,
+   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Oracle-Database-ETL-Engineer---Assistant-Vice-President_261000067",
+   "source": "workday",
+   "match": "keyword:etl",
+   "flags": [],
+   "fresh": false,
+   "first_seen": "2026-10-24",
+   "new": false
+  },
+  {
+   "company": "Citi",
+   "title": "Senior Data Platform Engineer - Assistant Vice President",
+   "location": "Pune Maharashtra India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-10-21",
+   "days_ago": 4,
+   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Senior-Data-Platform-Engineer---Assistant-Vice-President_26997771",
+   "source": "workday",
+   "match": "keyword:data platform",
+   "flags": [],
+   "fresh": false,
+   "first_seen": "2026-10-24",
+   "new": false
+  },
+  {
+   "company": "Citi",
    "title": "Java and Big Data Developer",
    "location": "Pune Maharashtra India",
    "location_tags": [
     "Pune"
    ],
-   "posted": "2026-10-20",
-   "days_ago": 5,
+   "posted": "2026-10-19",
+   "days_ago": 6,
    "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Java-and-Big-Data-Developer_26998334",
    "source": "workday",
    "match": "title",
@@ -654,8 +647,8 @@
    "location_tags": [
     "Pune"
    ],
-   "posted": "2026-10-17",
-   "days_ago": 8,
+   "posted": "2026-10-16",
+   "days_ago": 9,
    "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Python-and-Apache-Spark-Big-Data-Engineer---Assistant-Vice-President_26994245",
    "source": "workday",
    "match": "title",
@@ -671,8 +664,8 @@
    "location_tags": [
     "Pune"
    ],
-   "posted": "2026-10-17",
-   "days_ago": 8,
+   "posted": "2026-10-16",
+   "days_ago": 9,
    "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Python-Developer---Vice-President_26996585",
    "source": "workday",
    "match": "title",
@@ -688,8 +681,8 @@
    "location_tags": [
     "Pune"
    ],
-   "posted": "2026-10-16",
-   "days_ago": 9,
+   "posted": "2026-10-15",
+   "days_ago": 10,
    "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Application-Development-Lead---Python-Development_26975837",
    "source": "workday",
    "match": "title",
@@ -705,8 +698,8 @@
    "location_tags": [
     "Pune"
    ],
-   "posted": "2026-10-16",
-   "days_ago": 9,
+   "posted": "2026-10-15",
+   "days_ago": 10,
    "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Senior-Technical-Data-Analyst---Assistant-Vice-President_26994298",
    "source": "workday",
    "match": "title",
@@ -722,8 +715,8 @@
    "location_tags": [
     "Pune"
    ],
-   "posted": "2026-10-13",
-   "days_ago": 12,
+   "posted": "2026-10-12",
+   "days_ago": 13,
    "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Senior-Data-Platform-Engineer---Vice-President_26984967",
    "source": "workday",
    "match": "keyword:data platform",
@@ -739,8 +732,8 @@
    "location_tags": [
     "Pune"
    ],
-   "posted": "2026-10-10",
-   "days_ago": 15,
+   "posted": "2026-10-09",
+   "days_ago": 16,
    "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Data-Engineer---Python--AI_26965263",
    "source": "workday",
    "match": "title",
@@ -756,8 +749,8 @@
    "location_tags": [
     "Pune"
    ],
-   "posted": "2026-10-06",
-   "days_ago": 19,
+   "posted": "2026-10-05",
+   "days_ago": 20,
    "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Data-Engineer_26995668",
    "source": "workday",
    "match": "title",
@@ -773,8 +766,8 @@
    "location_tags": [
     "Pune"
    ],
-   "posted": "2026-10-01",
-   "days_ago": 24,
+   "posted": "2026-09-30",
+   "days_ago": 25,
    "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Senior-Java-Engineering-Lead---Market-Ops-Data-Platform_26997567",
    "source": "workday",
    "match": "keyword:data platform",
@@ -790,8 +783,8 @@
    "location_tags": [
     "Pune"
    ],
-   "posted": "2026-09-30",
-   "days_ago": 25,
+   "posted": "2026-09-29",
+   "days_ago": 26,
    "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Python-Big-Data-Developer_26987499",
    "source": "workday",
    "match": "title",
@@ -802,156 +795,20 @@
   },
   {
    "company": "Cummins",
-   "title": "Data Engineer 4",
-   "location": "Pune Division, Maharashtra, India",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": "2026-10-24",
-   "days_ago": 1,
-   "url": "https://in.linkedin.com/jobs/view/data-engineer-4-at-cummins-india-4456265177",
-   "source": "linkedin",
-   "match": "title",
-   "flags": [],
-   "fresh": true,
-   "first_seen": "2026-10-25",
-   "new": true
-  },
-  {
-   "company": "Cummins",
    "title": "AI Data Engineer - Senior",
-   "location": "Pune Division, Maharashtra, India",
+   "location": "Pune, India",
    "location_tags": [
     "Pune"
    ],
-   "posted": "2026-10-23",
-   "days_ago": 2,
-   "url": "https://in.linkedin.com/jobs/view/ai-data-engineer-senior-at-cummins-india-4472812918",
-   "source": "linkedin",
+   "posted": "2026-10-01",
+   "days_ago": 24,
+   "url": "https://dejobs.org/pune-ind/ai-data-engineer-senior/01AAF78AF70044629F957B53FC016608/job/",
+   "source": "jobsyn",
    "match": "title",
    "flags": [],
-   "fresh": true,
-   "first_seen": "2026-10-25",
-   "new": true
-  },
-  {
-   "company": "Cummins",
-   "title": "Data Engineer - Senior 7 (Data Modeler)",
-   "location": "Pune Division, Maharashtra, India",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": "2026-10-15",
-   "days_ago": 10,
-   "url": "https://in.linkedin.com/jobs/view/data-engineer-senior-7-data-modeler-at-cummins-india-4461308101",
-   "source": "linkedin",
-   "match": "title",
-   "flags": [],
-   "fresh": true,
-   "first_seen": "2026-10-25",
-   "new": true
-  },
-  {
-   "company": "Cummins",
-   "title": "Data Engineer 5",
-   "location": "Pune Division, Maharashtra, India",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": "2026-10-07",
-   "days_ago": 18,
-   "url": "https://in.linkedin.com/jobs/view/data-engineer-5-at-cummins-india-4457448862",
-   "source": "linkedin",
-   "match": "title",
-   "flags": [],
-   "fresh": true,
-   "first_seen": "2026-10-25",
-   "new": true
-  },
-  {
-   "company": "Cummins",
-   "title": "Data Engineer 8",
-   "location": "Pune Division, Maharashtra, India",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": "2026-10-07",
-   "days_ago": 18,
-   "url": "https://in.linkedin.com/jobs/view/data-engineer-8-at-cummins-india-4457454807",
-   "source": "linkedin",
-   "match": "title",
-   "flags": [],
-   "fresh": true,
-   "first_seen": "2026-10-25",
-   "new": true
-  },
-  {
-   "company": "Cummins",
-   "title": "Data Engineer 6",
-   "location": "Pune Division, Maharashtra, India",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": "2026-10-06",
-   "days_ago": 19,
-   "url": "https://in.linkedin.com/jobs/view/data-engineer-6-at-cummins-india-4457441873",
-   "source": "linkedin",
-   "match": "title",
-   "flags": [],
-   "fresh": true,
-   "first_seen": "2026-10-25",
-   "new": true
-  },
-  {
-   "company": "Cummins",
-   "title": "Data Engineer 3",
-   "location": "Pune Division, Maharashtra, India",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": "2026-10-04",
-   "days_ago": 21,
-   "url": "https://in.linkedin.com/jobs/view/data-engineer-3-at-cummins-india-4456266011",
-   "source": "linkedin",
-   "match": "title",
-   "flags": [],
-   "fresh": true,
-   "first_seen": "2026-10-25",
-   "new": true
-  },
-  {
-   "company": "Cummins",
-   "title": "Data Engineer - Senior",
-   "location": "Pune Division, Maharashtra, India",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": "2026-10-03",
-   "days_ago": 22,
-   "url": "https://in.linkedin.com/jobs/view/data-engineer-senior-at-cummins-india-4464894536",
-   "source": "linkedin",
-   "match": "title",
-   "flags": [],
-   "fresh": true,
-   "first_seen": "2026-10-25",
-   "new": true
-  },
-  {
-   "company": "Cummins",
-   "title": "Data Engineer 2",
-   "location": "Pune Division, Maharashtra, India",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": "2026-10-03",
-   "days_ago": 22,
-   "url": "https://in.linkedin.com/jobs/view/data-engineer-2-at-cummins-india-4456009301",
-   "source": "linkedin",
-   "match": "title",
-   "flags": [],
-   "fresh": true,
-   "first_seen": "2026-10-25",
-   "new": true
+   "fresh": false,
+   "first_seen": "2026-10-24",
+   "new": false
   },
   {
    "company": "DDN",
@@ -979,8 +836,8 @@
    "location_tags": [
     "Pune"
    ],
-   "posted": "2026-10-24",
-   "days_ago": 1,
+   "posted": "2026-10-23",
+   "days_ago": 2,
    "url": "https://db.wd3.myworkdayjobs.com/en-US/DBWebsite/job/Pune---Business-Bay/Senior-Data-Platform-Engineer_R0450199",
    "source": "workday",
    "match": "keyword:data platform",
@@ -996,8 +853,8 @@
    "location_tags": [
     "Pune"
    ],
-   "posted": "2026-10-01",
-   "days_ago": 24,
+   "posted": "2026-09-30",
+   "days_ago": 25,
    "url": "https://db.wd3.myworkdayjobs.com/en-US/DBWebsite/job/Pune---Business-Bay/XMLNAME--BigData-Hadoop-Scala-Engineer--AVP_R0424309",
    "source": "workday",
    "match": "keyword:hadoop",
@@ -1049,8 +906,8 @@
    "location_tags": [
     "Pune"
    ],
-   "posted": "2026-10-22",
-   "days_ago": 3,
+   "posted": "2026-10-21",
+   "days_ago": 4,
    "url": "https://fiserv.wd5.myworkdayjobs.com/en-US/EXT/job/Pune---Trion-Business-Park-India/Expertise-Power-BI-Admin-Developer--Hands-on-SQL--ETL-and-Azure-----Pune---Noida---Bangalore_R-10403963",
    "source": "workday",
    "match": "keyword:etl",
@@ -1119,8 +976,8 @@
    "location_tags": [
     "Mumbai"
    ],
-   "posted": "2026-10-16",
-   "days_ago": 9,
+   "posted": "2026-10-15",
+   "days_ago": 10,
    "url": "https://genmills.wd1.myworkdayjobs.com/en-US/GMI_External_Careers/job/Powai-Mumbai-MH/Sr-Infra-Engineer---Data-Platforms--SQL-DBA---Cloud-_10127268",
    "source": "workday",
    "match": "pattern",
@@ -1136,8 +993,8 @@
    "location_tags": [
     "Mumbai"
    ],
-   "posted": "2026-10-14",
-   "days_ago": 11,
+   "posted": "2026-10-13",
+   "days_ago": 12,
    "url": "https://genmills.wd1.myworkdayjobs.com/en-US/GMI_External_Careers/job/Powai-Mumbai-MH/CPW-Data-Engineer-II_10126069",
    "source": "workday",
    "match": "title",
@@ -1153,8 +1010,8 @@
    "location_tags": [
     "Mumbai"
    ],
-   "posted": "2026-10-02",
-   "days_ago": 23,
+   "posted": "2026-10-01",
+   "days_ago": 24,
    "url": "https://genmills.wd1.myworkdayjobs.com/en-US/GMI_External_Careers/job/Powai-Mumbai-MH/Consultant---OT-Data-Operations--GIC-Engineering_10127812",
    "source": "workday",
    "match": "pattern",
@@ -1172,8 +1029,8 @@
    "location_tags": [
     "Mumbai"
    ],
-   "posted": "2026-10-01",
-   "days_ago": 24,
+   "posted": "2026-09-30",
+   "days_ago": 25,
    "url": "https://genmills.wd1.myworkdayjobs.com/en-US/GMI_External_Careers/job/Mumbai-Spectra-Office/Consultant---OT-Data-Operations-Engineering_10130625",
    "source": "workday",
    "match": "pattern",
@@ -1191,8 +1048,8 @@
    "location_tags": [
     "Mumbai"
    ],
-   "posted": "2026-09-30",
-   "days_ago": 25,
+   "posted": "2026-09-29",
+   "days_ago": 26,
    "url": "https://genmills.wd1.myworkdayjobs.com/en-US/GMI_External_Careers/job/Powai-Mumbai-MH/Infrastructure-Engineer-II---Data-Platforms--Oracle-DBA-_10129206",
    "source": "workday",
    "match": "pattern",
@@ -1204,40 +1061,40 @@
   {
    "company": "Google",
    "title": "Data Analytics Customer Engineer, Google Cloud (English)",
-   "location": "Mumbai, Maharashtra, India",
+   "location": "Mumbai, India",
    "location_tags": [
     "Mumbai"
    ],
-   "posted": "2026-10-13",
-   "days_ago": 12,
-   "url": "https://in.linkedin.com/jobs/view/data-analytics-customer-engineer-google-cloud-english-at-google-4478104484",
-   "source": "linkedin",
+   "posted": "2026-10-14",
+   "days_ago": 11,
+   "url": "https://dejobs.org/mumbai-ind/data-analytics-customer-engineer-google-cloud-english/43BF194B9C2A4FE0A4D8B92B97B1CC40/job/",
+   "source": "jobsyn",
    "match": "pattern",
    "flags": [
     "title borderline"
    ],
-   "fresh": true,
-   "first_seen": "2026-10-25",
-   "new": true
+   "fresh": false,
+   "first_seen": "2026-10-24",
+   "new": false
   },
   {
    "company": "HSBC",
    "title": "SSIS, ETL, Dynamics CRM, Kingswaysoft, ADF/Senior Consultant Specialist",
-   "location": "Pune Division, Maharashtra, India",
+   "location": "Pune, India",
    "location_tags": [
     "Pune"
    ],
-   "posted": "2026-10-16",
-   "days_ago": 9,
-   "url": "https://in.linkedin.com/jobs/view/ssis-etl-dynamics-crm-kingswaysoft-adf-senior-consultant-specialist-at-hsbc-4471849771",
-   "source": "linkedin",
+   "posted": "2026-09-25",
+   "days_ago": 30,
+   "url": "https://dejobs.org/pune-ind/ssis-etl-dynamics-crm-kingswaysoft-adfsenior-consultant-specialist/7545901A74B24812894DBFB61D5E25A3/job/",
+   "source": "jobsyn",
    "match": "keyword:etl",
    "flags": [
     "title borderline"
    ],
-   "fresh": true,
-   "first_seen": "2026-10-25",
-   "new": true
+   "fresh": false,
+   "first_seen": "2026-10-24",
+   "new": false
   },
   {
    "company": "HighLevel",
@@ -1314,8 +1171,8 @@
    "location_tags": [
     "Pune"
    ],
-   "posted": "2026-10-23",
-   "days_ago": 2,
+   "posted": "2026-10-22",
+   "days_ago": 3,
    "url": "https://mgpru.wd3.myworkdayjobs.com/en-US/mandgprudential/job/Pune/Test-Lead---Enterprise-Data-Platform_R20203",
    "source": "workday",
    "match": "keyword:data platform",
@@ -1333,8 +1190,8 @@
    "location_tags": [
     "Pune"
    ],
-   "posted": "2026-10-23",
-   "days_ago": 2,
+   "posted": "2026-10-22",
+   "days_ago": 3,
    "url": "https://mgpru.wd3.myworkdayjobs.com/en-US/mandgprudential/job/Pune/VP---Data-Engineering---Asset-Management_R20511",
    "source": "workday",
    "match": "title",
@@ -1350,8 +1207,8 @@
    "location_tags": [
     "Pune"
    ],
-   "posted": "2026-10-14",
-   "days_ago": 11,
+   "posted": "2026-10-13",
+   "days_ago": 12,
    "url": "https://maersk.wd3.myworkdayjobs.com/en-US/Maersk_Careers/job/IN---Pune/Sr-Data-Architect---BI-Analyst_R200012",
    "source": "workday",
    "match": "title",
@@ -1367,8 +1224,8 @@
    "location_tags": [
     "Pune"
    ],
-   "posted": "2026-10-24",
-   "days_ago": 1,
+   "posted": "2026-10-23",
+   "days_ago": 2,
    "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Software-Engineer-II---Data---AI-Platform_R-294109-1",
    "source": "workday",
    "match": "pattern",
@@ -1384,8 +1241,8 @@
    "location_tags": [
     "Pune"
    ],
-   "posted": "2026-10-23",
-   "days_ago": 2,
+   "posted": "2026-10-22",
+   "days_ago": 3,
    "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Senior-Data-Engineer_R-289965",
    "source": "workday",
    "match": "title",
@@ -1401,8 +1258,8 @@
    "location_tags": [
     "Pune"
    ],
-   "posted": "2026-10-20",
-   "days_ago": 5,
+   "posted": "2026-10-19",
+   "days_ago": 6,
    "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Data-Engineer-II_R-292972",
    "source": "workday",
    "match": "title",
@@ -1418,8 +1275,8 @@
    "location_tags": [
     "Pune"
    ],
-   "posted": "2026-10-20",
-   "days_ago": 5,
+   "posted": "2026-10-19",
+   "days_ago": 6,
    "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Data-Engineer-II--Data-Warehouse--Big-Data--Spark-with-Scala-Python-Java-on-Hadoop--Oracle-SQL-_R-292591-1",
    "source": "workday",
    "match": "title",
@@ -1435,8 +1292,8 @@
    "location_tags": [
     "Pune"
    ],
-   "posted": "2026-10-16",
-   "days_ago": 9,
+   "posted": "2026-10-15",
+   "days_ago": 10,
    "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Software-engineer-II--Java--Apache--Spark--AWS-and-ETL-_R-293439",
    "source": "workday",
    "match": "keyword:spark",
@@ -1452,8 +1309,8 @@
    "location_tags": [
     "Pune"
    ],
-   "posted": "2026-10-15",
-   "days_ago": 10,
+   "posted": "2026-10-14",
+   "days_ago": 11,
    "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Lead-Data-Engineer_R-291025-1",
    "source": "workday",
    "match": "title",
@@ -1469,8 +1326,8 @@
    "location_tags": [
     "Pune"
    ],
-   "posted": "2026-10-14",
-   "days_ago": 11,
+   "posted": "2026-10-13",
+   "days_ago": 12,
    "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Senior-Data-Engineer--Data-Engineering_R-286436",
    "source": "workday",
    "match": "title",
@@ -1486,8 +1343,8 @@
    "location_tags": [
     "Navi Mumbai"
    ],
-   "posted": "2026-10-13",
-   "days_ago": 12,
+   "posted": "2026-10-12",
+   "days_ago": 13,
    "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Navi-Mumbai-India-Finicity/Lead-Data-Engineer_R-288769",
    "source": "workday",
    "match": "title",
@@ -1503,8 +1360,8 @@
    "location_tags": [
     "Navi Mumbai"
    ],
-   "posted": "2026-10-07",
-   "days_ago": 18,
+   "posted": "2026-10-06",
+   "days_ago": 19,
    "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Navi-Mumbai-India-Finicity/Senior-Data-Engineer_R-287943",
    "source": "workday",
    "match": "title",
@@ -1520,8 +1377,8 @@
    "location_tags": [
     "Pune"
    ],
-   "posted": "2026-10-06",
-   "days_ago": 19,
+   "posted": "2026-10-05",
+   "days_ago": 20,
    "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Principal-Data-Engineer---Data-Quality_R-292616-1",
    "source": "workday",
    "match": "title",
@@ -1537,8 +1394,8 @@
    "location_tags": [
     "Pune"
    ],
-   "posted": "2026-10-06",
-   "days_ago": 19,
+   "posted": "2026-10-05",
+   "days_ago": 20,
    "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Senior-Data-Engineer--Data-Platforms--1_R-292747",
    "source": "workday",
    "match": "title",
@@ -1554,8 +1411,8 @@
    "location_tags": [
     "Pune"
    ],
-   "posted": "2026-10-24",
-   "days_ago": 1,
+   "posted": "2026-10-23",
+   "days_ago": 2,
    "url": "https://medline.wd5.myworkdayjobs.com/en-US/Medline/job/Pune/Analyst-Business-Intelligence_R2615681",
    "source": "workday",
    "match": "title",
@@ -1622,8 +1479,8 @@
    "location_tags": [
     "Mumbai"
    ],
-   "posted": "2026-10-20",
-   "days_ago": 5,
+   "posted": "2026-10-19",
+   "days_ago": 6,
    "url": "https://mdlz.wd3.myworkdayjobs.com/en-US/External/job/Mumbai-India/Data-Engineer_R-178827",
    "source": "workday",
    "match": "title",
@@ -1639,8 +1496,8 @@
    "location_tags": [
     "Mumbai"
    ],
-   "posted": "2026-10-13",
-   "days_ago": 12,
+   "posted": "2026-10-12",
+   "days_ago": 13,
    "url": "https://mdlz.wd3.myworkdayjobs.com/en-US/External/job/Mumbai-India/Associate-Data-Engineer_R-178819",
    "source": "workday",
    "match": "title",
@@ -1656,8 +1513,8 @@
    "location_tags": [
     "Pune"
    ],
-   "posted": "2026-10-17",
-   "days_ago": 8,
+   "posted": "2026-10-16",
+   "days_ago": 9,
    "url": "https://ntrs.wd1.myworkdayjobs.com/en-US/northerntrust/job/Pune-India/Lead--Data-Engineer_R162664",
    "source": "workday",
    "match": "title",
@@ -1707,8 +1564,8 @@
    "location_tags": [
     "Mumbai"
    ],
-   "posted": "2026-10-17",
-   "days_ago": 8,
+   "posted": "2026-10-16",
+   "days_ago": 9,
    "url": "https://priceline.wd1.myworkdayjobs.com/en-US/Priceline/job/Mumbai/Data-Engineer_R5871",
    "source": "workday",
    "match": "title",
@@ -1724,8 +1581,8 @@
    "location_tags": [
     "Mumbai"
    ],
-   "posted": "2026-10-01",
-   "days_ago": 24,
+   "posted": "2026-09-30",
+   "days_ago": 25,
    "url": "https://priceline.wd1.myworkdayjobs.com/en-US/Priceline/job/Mumbai/Senior-Data-Engineer_R5797",
    "source": "workday",
    "match": "title",
@@ -1741,8 +1598,8 @@
    "location_tags": [
     "Mumbai"
    ],
-   "posted": "2026-09-26",
-   "days_ago": 29,
+   "posted": "2026-09-25",
+   "days_ago": 30,
    "url": "https://priceline.wd1.myworkdayjobs.com/en-US/Priceline/job/Mumbai/Staff-Data-Architect_R5735",
    "source": "workday",
    "match": "title",
@@ -1922,23 +1779,6 @@
    "new": false
   },
   {
-   "company": "UBS",
-   "title": "SAP Analytics Cloud with Databricks",
-   "location": "Pune Division, Maharashtra, India",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": "2026-10-14",
-   "days_ago": 11,
-   "url": "https://in.linkedin.com/jobs/view/sap-analytics-cloud-with-databricks-at-ubs-4478440134",
-   "source": "linkedin",
-   "match": "keyword:databricks",
-   "flags": [],
-   "fresh": false,
-   "first_seen": "2026-10-24",
-   "new": false
-  },
-  {
    "company": "Vodafone (VOIS)",
    "title": "Scala Data Engineer - VOIS",
    "location": "Pune, Maharashtra, India",
@@ -1979,8 +1819,8 @@
    "location_tags": [
     "Pune"
    ],
-   "posted": "2026-10-15",
-   "days_ago": 10,
+   "posted": "2026-10-14",
+   "days_ago": 11,
    "url": "https://wk.wd3.myworkdayjobs.com/en-US/External/job/IND-Pune-Smartworks/Senior-Data-Analytics-Engineer--5--years-only-with-Python--Power-BI--SQL-_R0058610",
    "source": "workday",
    "match": "title",
@@ -1996,8 +1836,8 @@
    "location_tags": [
     "Pune"
    ],
-   "posted": "2026-10-07",
-   "days_ago": 18,
+   "posted": "2026-10-06",
+   "days_ago": 19,
    "url": "https://wk.wd3.myworkdayjobs.com/en-US/External/job/IND-Pune-Smartworks/Senior-Data-Engineer_R0057033",
    "source": "workday",
    "match": "title",
@@ -2013,8 +1853,8 @@
    "location_tags": [
     "Pune"
    ],
-   "posted": "2026-10-23",
-   "days_ago": 2,
+   "posted": "2026-10-22",
+   "days_ago": 3,
    "url": "https://bpinternational.wd3.myworkdayjobs.com/en-US/bpCareers/job/India---Pune/Staff-Data-Engineer_RQ117231",
    "source": "workday",
    "match": "title",
