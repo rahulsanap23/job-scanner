@@ -1,206 +1,91 @@
 [
  {
-  "name": "wd_amadeus",
-  "url": "https://amadeus.wd502.myworkdayjobs.com/wday/cxs/amadeus/jobs/jobs",
+  "name": "unify_atlascopco",
+  "url": "https://www.jobs.atlascopcogroup.com/services/recruiting/v1/jobs",
   "method": "POST",
   "status": 200,
-  "final_url": "https://amadeus.wd502.myworkdayjobs.com/wday/cxs/amadeus/jobs/jobs",
+  "final_url": "https://www.jobs.atlascopcogroup.com/services/recruiting/v1/jobs",
   "ctype": "application/json",
-  "length": 12150,
+  "length": 713,
   "json_shape": {
-   "total": 97,
-   "jobPostings": [
-    20,
+   "jobSearchResult": [
+    1,
     {
-     "title": "Internship - Data engineer",
-     "externalPath": "/job/Nice/Internship---Data-engineer_R37334",
-     "locationsText": "Nice",
-     "postedOn": "Posted 30+ Days Ago",
-     "bulletFields": [
-      1,
-      "..."
-     ]
+     "response": {
+      "jobLocationShort": "...",
+      "supportedLocales": "...",
+      "jobLocationCountry": "...",
+      "filter1": "...",
+      "filter2": "...",
+      "jobLocationShortWithCoordinates": "...",
+      "unifiedUrlTitle": "...",
+      "unifiedStandardStart": "...",
+      "currency": "...",
+      "id": "...",
+      "unifiedStandardTitle": "...",
+      "urlTitle": "..."
+     }
     }
    ],
-   "facets": [
-    6,
+   "totalJobs": 1
+  },
+  "snippet": "{\"jobSearchResult\":[{\"response\":{\"jobLocationShort\":[\"Brno, CZE, 63900<br/>\",\"Chinchwad, MH, IND, 411026<br/>\"],\"supportedLocales\":[\"en_US\"],\"jobLocationCountry\":[\"Czech Republic\",\"India\"],\"filter1\":[\"Atlas Copco Group\"],\"filter2\":[\"Human Resources\"],\"jobLocationShortWithCoordinates\":[{\"value\":\"Chinchwad, MH, IND, 411026<br/>\",\"key\":\"18.6374972,73.8360251\"},{\"value\":\"Brno, CZE, 63900<br/>\",\"key\":\"49.1820152,16.6059191\"}],\"unifiedUrlTitle\":\"HR-Data-Analytics-&amp;-Digital-Solutions-Analyst\",\"unifiedStandardStart\":\"10/27/26\",\"currency\":[\"CZK\"],\"id\":\"176091\",\"unifiedStandardTitle\":\"HR Data Analytics & Digital Solutions Analyst\",\"urlTitle\":\"HR-Data-Analytics-&amp;-Digital-Solutions-Analyst\"}}],\"totalJobs\":1}",
+  "secs": 1.23
+ },
+ {
+  "name": "ora_dnv",
+  "url": "https://ecyq.fa.em2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs;siteNumber=CX_1,facetsList=LOCATIONS,limit=5,keyword=\"data\"",
+  "method": "GET",
+  "status": 200,
+  "final_url": "https://ecyq.fa.em2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs;siteNumber=CX_1,facetsList=LOCATIONS,limit=5,keyword=%22data%22",
+  "ctype": "application/json",
+  "length": 3197,
+  "json_shape": {
+   "items": [
+    1,
     {
-     "facetParameter": "Job_Family_Group",
-     "descriptor": "Job Family Group",
-     "values": [
-      14,
-      "..."
-     ]
+     "SearchId": 1,
+     "Keyword": "data",
+     "CorrectedKeyword": null,
+     "UseExactKeywordFlag": false,
+     "SuggestedKeyword": null,
+     "ExecuteSpellCheckFlag": true,
+     "Location": null,
+     "LocationId": null,
+     "Radius": 0,
+     "RadiusUnit": "MI",
+     "SelectedTitlesFacet": null,
+     "SelectedCategoriesFacet": null,
+     "SelectedPostingDatesFacet": null,
+     "SelectedLocationsFacet": null,
+     "LastSelectedFacet": null,
+     "Facets": "LOCATIONS",
+     "Offset": 0,
+     "Limit": 5,
+     "SortBy": "RELEVANCY",
+     "TotalJobsCount": 88,
+     "Latitude": null,
+     "Longitude": null,
+     "SiteNumber": "CX_1",
+     "JobFamilyId": null,
+     "PostingStartDate": null
     }
    ],
-   "userAuthenticated": false
+   "count": 1,
+   "hasMore": false,
+   "limit": 200,
+   "offset": 0,
+   "links": [
+    3,
+    {
+     "rel": "self",
+     "href": "https://ecyq.fa.em2.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/recruit",
+     "name": "recruitingCEJobRequisitions",
+     "kind": "collection"
+    }
+   ]
   },
-  "snippet": "{\"total\":97,\"jobPostings\":[{\"title\":\"Internship - Data engineer\",\"externalPath\":\"/job/Nice/Internship---Data-engineer_R37334\",\"locationsText\":\"Nice\",\"postedOn\":\"Posted 30+ Days Ago\",\"bulletFields\":[\"R37334\"]},{\"title\":\"Internship - Data scientist\",\"externalPath\":\"/job/Nice/Internship---Data-scientist_R37333\",\"locationsText\":\"Nice\",\"postedOn\":\"Posted 30+ Days Ago\",\"bulletFields\":[\"R37333\"]},{\"title\":\"Hospitality Onboarding & Implementation Analyst\",\"externalPath\":\"/job/Atlanta-Georgia/BI-Data-Acquisition-Analyst_R37670\",\"locationsText\":\"Atlanta, Georgia\",\"postedOn\":\"Posted 19 Days Ago\",\"bulletFields\":[\"R37670\"]},{\"title\":\"Implementation Specialist (Airlines/Travel Distribution)\",\"externalPath\":\"/job/Taguig-Metro-Manila/Implementation-Specialist--Airlines-Travel-Distribution-_R38363\",\"locationsText\":\"2 Locations\",\"postedOn\":\"Posted 5 Days Ago\",\"bulletFields\":[\"R38363\"]},{\"title\":\"Senior Data Engineer (C#, SQL, Analytics),\",\"externalPath\":\"/job/Manila-Metro-Manila/Senior-Data-Engineer--C---SQL--DBMS--BI--Analytics-_R33392\",\"locationsText\":\"Manila, Metro Manila\",\"postedOn\":\"Posted 30+ Days Ago\",\"bulletFields\":[\"R33392\"]},{\"title\":\"Business Intelligence (BI) Developer\",\"externalPath\":\"/job/Lisbon/Business-Intelligence--BI--Developer_R35923-1\",\"locationsText\":\"Lisbon\",\"postedOn\":\"Posted Today\",\"bulletFields\":[\"R35923\"]},{\"title\":\"Deployments Support & Automation Engineer\",\"externalPath\":\"/job/Lisbon/DevOps-Engineer--Database-_R35055\",\"locationsText\":\"Lisbon\",\"postedOn\":\"Posted Toda",
-  "secs": 0.76
- },
- {
-  "name": "csb_atlascopco",
-  "url": "https://www.jobs.atlascopcogroup.com/search/?q=data&locationsearch=India",
-  "method": "GET",
-  "status": 200,
-  "final_url": "https://www.jobs.atlascopcogroup.com/search/?q=data&locationsearch=India",
-  "ctype": "text/html;charset=UTF-8",
-  "length": 104694,
-  "html_title": "Data AND India - Search Jobs | Atlas Copco Group",
-  "snippet": "<!DOCTYPE html>\n<html class=\"html5\" xml:lang=\"en-US\" lang=\"en-US\" xmlns=\"http://www.w3.org/1999/xhtml\">\n\n        <head>\n            <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\" />\n            <meta http-equiv=\"Content-Type\" content=\"text/html;charset=UTF-8\" />\n            <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n                <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n                        <link type=\"text/css\" class=\"keepscript\" rel=\"stylesheet\" href=\"https://www.jobs.atlascopcogroup.com/platform/bootstrap/3.4.8_NES/css/bootstrap.min.css\" />\n                            <link type=\"text/css\" rel=\"stylesheet\" href=\"/platform/css/j2w/min/bootstrapV3.global.responsive.min.css?h=275f70e9\" />\n                \n                <script type=\"text/javascript\" src=\"/platform/js/j2w/j2w.fallbacks.js\"></script>\n                \n                \n                <script type=\"text/javascript\" src=\"https://performancemanager5.successfactors.eu/verp/vmod_v1/ui/extlib/jquery_3.5.1/jquery.js\" onerror=\"loadFallbacks('/platform/js/jquery/jquery-3.5.1.min.js', '/platform/js/jquery/jquery-migrate-3.1.0.min.js')\"></script>\n                <script type=\"text/javascript\" src=\"https://performancemanager5.successfactors.eu/verp/vmod_v1/ui/extlib/jquery_3.5.1/jquery-migrate.js\"></script>\n            <script type=\"text/javascript\" src=\"/platform/js/jquery/jquery-migrate-1.4.1.js\"></script>\n                    <title>Data AND ",
-  "secs": 0.89
- },
- {
-  "name": "ora_jefferies",
-  "url": "https://careers.jefferies.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs;siteNumber=CX_1,facetsList=LOCATIONS,limit=5,keyword=\"data\"",
-  "method": "GET",
-  "status": 522,
-  "final_url": "https://careers.jefferies.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs;siteNumber=CX_1,facetsList=LOCATIONS,limit=5,keyword=%22data%22",
-  "ctype": "text/html;charset=UTF-8",
-  "length": 3766,
-  "html_title": null,
-  "snippet": "<!DOCTYPE html>\n<html>\n<head>\n    <script>\n\n    function makeHttpObject() {\n        try {\n            return new XMLHttpRequest();\n        } catch(error) {}\n\n        try {\n            return new ActiveXObject();\n        } catch(error) {}\n        throw new Error(\"Could not create HTTP request object.\");\n    }\n\n    function readCookie(name) {\n        let nameEQ = name + \"=\";\n        let ca = document.cookie.split(';');\n        for(let i = 0; i < ca.length; i++) {\n            let c = ca[i];\n            while(c.charAt(0) == ' ')\n                c = c.substring(1, c.length);\n            if(c.indexOf(nameEQ) == 0)\n                return c.substring(nameEQ.length, c.length);\n        }\n        return '';\n    }\n\n    function replacecontent() {\n        // required for honoring site preferences from provided cookie consent\n        let langCookieVal = readCookie('siteLang');\n        let anchortext = (document.URL.split('#').length > 1) ? document.URL.split('#')[1] : langCookieVal;\n\n\t\t// Original Instruction\n//        const host = 'https://hdid.fa.us2.oraclecloud.com/';\n//        const ceBaseURL = host + 'hcmUI/CandidateExperience/en/sites/CX_1/'; \n        const host = 'https://hdid.fa.us2.oraclecloud.com/';\n        const ceBaseURL = host + 'hcmUI/CandidateExperience/'; \t\n\n\n\t\n//\t\t\n        var replaced = null;\n        var xhr = makeHttpObject();\n        xhr.open('GET', ceBaseURL + anchortext, true);\n        xhr.setRequestHeader('ora-irc-vanity-domain', 'Y');\n        xhr.send();\n        xhr",
-  "secs": 0.25
- },
- {
-  "name": "jefferies_root",
-  "url": "https://careers.jefferies.com/",
-  "method": "GET",
-  "status": 522,
-  "final_url": "https://careers.jefferies.com/",
-  "ctype": "text/html;charset=UTF-8",
-  "length": 3766,
-  "html_title": null,
-  "snippet": "<!DOCTYPE html>\n<html>\n<head>\n    <script>\n\n    function makeHttpObject() {\n        try {\n            return new XMLHttpRequest();\n        } catch(error) {}\n\n        try {\n            return new ActiveXObject();\n        } catch(error) {}\n        throw new Error(\"Could not create HTTP request object.\");\n    }\n\n    function readCookie(name) {\n        let nameEQ = name + \"=\";\n        let ca = document.cookie.split(';');\n        for(let i = 0; i < ca.length; i++) {\n            let c = ca[i];\n            while(c.charAt(0) == ' ')\n                c = c.substring(1, c.length);\n            if(c.indexOf(nameEQ) == 0)\n                return c.substring(nameEQ.length, c.length);\n        }\n        return '';\n    }\n\n    function replacecontent() {\n        // required for honoring site preferences from provided cookie consent\n        let langCookieVal = readCookie('siteLang');\n        let anchortext = (document.URL.split('#').length > 1) ? document.URL.split('#')[1] : langCookieVal;\n\n\t\t// Original Instruction\n//        const host = 'https://hdid.fa.us2.oraclecloud.com/';\n//        const ceBaseURL = host + 'hcmUI/CandidateExperience/en/sites/CX_1/'; \n        const host = 'https://hdid.fa.us2.oraclecloud.com/';\n        const ceBaseURL = host + 'hcmUI/CandidateExperience/'; \t\n\n\n\t\n//\t\t\n        var replaced = null;\n        var xhr = makeHttpObject();\n        xhr.open('GET', ceBaseURL + anchortext, true);\n        xhr.setRequestHeader('ora-irc-vanity-domain', 'Y');\n        xhr.send();\n        xhr",
-  "secs": 0.17
- },
- {
-  "name": "wd_arctera1",
-  "url": "https://arctera.wd1.myworkdayjobs.com/wday/cxs/arctera/Arctera/jobs",
-  "method": "POST",
-  "status": 422,
-  "final_url": "https://arctera.wd1.myworkdayjobs.com/wday/cxs/arctera/Arctera/jobs",
-  "ctype": "application/json;charset=ISO-8859-1",
-  "length": 135,
-  "json_shape": {
-   "errorCode": "HTTP_422",
-   "errorCaseId": "E130C1MVRIOD80",
-   "httpStatus": 422,
-   "locale": "en-US,en;q=0.9",
-   "message": "",
-   "messageParams": {}
-  },
-  "snippet": "{\"errorCode\":\"HTTP_422\",\"errorCaseId\":\"E130C1MVRIOD80\",\"httpStatus\":422,\"locale\":\"en-US,en;q\\u003d0.9\",\"message\":\"\",\"messageParams\":{}}",
-  "secs": 0.24
- },
- {
-  "name": "wd_arctera5",
-  "url": "https://arctera.wd5.myworkdayjobs.com/wday/cxs/arctera/Arctera/jobs",
-  "method": "POST",
-  "status": 422,
-  "final_url": "https://arctera.wd5.myworkdayjobs.com/wday/cxs/arctera/Arctera/jobs",
-  "ctype": "application/json;charset=ISO-8859-1",
-  "length": 135,
-  "json_shape": {
-   "errorCode": "HTTP_422",
-   "errorCaseId": "DC8031MVRIOD87",
-   "httpStatus": 422,
-   "locale": "en-US,en;q=0.9",
-   "message": "",
-   "messageParams": {}
-  },
-  "snippet": "{\"errorCode\":\"HTTP_422\",\"errorCaseId\":\"DC8031MVRIOD87\",\"httpStatus\":422,\"locale\":\"en-US,en;q\\u003d0.9\",\"message\":\"\",\"messageParams\":{}}",
-  "secs": 0.25
- },
- {
-  "name": "wd_arctera1c",
-  "url": "https://arctera.wd1.myworkdayjobs.com/wday/cxs/arctera/Careers/jobs",
-  "method": "POST",
-  "status": 422,
-  "final_url": "https://arctera.wd1.myworkdayjobs.com/wday/cxs/arctera/Careers/jobs",
-  "ctype": "application/json;charset=ISO-8859-1",
-  "length": 135,
-  "json_shape": {
-   "errorCode": "HTTP_422",
-   "errorCaseId": "E130C1MVRIOD6K",
-   "httpStatus": 422,
-   "locale": "en-US,en;q=0.9",
-   "message": "",
-   "messageParams": {}
-  },
-  "snippet": "{\"errorCode\":\"HTTP_422\",\"errorCaseId\":\"E130C1MVRIOD6K\",\"httpStatus\":422,\"locale\":\"en-US,en;q\\u003d0.9\",\"message\":\"\",\"messageParams\":{}}",
-  "secs": 0.2
- },
- {
-  "name": "wd_arctera5c",
-  "url": "https://arctera.wd5.myworkdayjobs.com/wday/cxs/arctera/careers/jobs",
-  "method": "POST",
-  "status": 422,
-  "final_url": "https://arctera.wd5.myworkdayjobs.com/wday/cxs/arctera/careers/jobs",
-  "ctype": "application/json;charset=ISO-8859-1",
-  "length": 135,
-  "json_shape": {
-   "errorCode": "HTTP_422",
-   "errorCaseId": "975677MVRIOD88",
-   "httpStatus": 422,
-   "locale": "en-US,en;q=0.9",
-   "message": "",
-   "messageParams": {}
-  },
-  "snippet": "{\"errorCode\":\"HTTP_422\",\"errorCaseId\":\"975677MVRIOD88\",\"httpStatus\":422,\"locale\":\"en-US,en;q\\u003d0.9\",\"message\":\"\",\"messageParams\":{}}",
-  "secs": 0.25
- },
- {
-  "name": "arctera_site",
-  "url": "https://www.arctera.io/careers",
-  "method": "GET",
-  "status": 500,
-  "final_url": "https://www.arctera.io/careers",
-  "ctype": "application/json",
-  "length": 68,
-  "json_shape": {
-   "error": {
-    "code": "500",
-    "message": "A server error has occurred"
-   }
-  },
-  "snippet": "{\"error\": {\"code\": \"500\", \"message\": \"A server error has occurred\"}}",
-  "secs": 0.29
- },
- {
-  "name": "dnv_search",
-  "url": "https://jobs.dnv.com/job-search?location=India",
-  "method": "GET",
-  "status": 200,
-  "final_url": "https://jobs.dnv.com/job-search?location=India",
-  "ctype": "text/html; charset=UTF-8",
-  "length": 155759,
-  "html_title": "Search DNV Jobs | Find Your Next Role | DNV Careers | DNV careers",
-  "snippet": "<!DOCTYPE html>\n<html lang=\"en-us\">\n<head>\n\t<meta charset=\"UTF-8\">\n\t<meta http-equiv=\"Cache-control\" content=\"public\">\n\n\t<!-- Global JS -->\n        <script nonce=\"zX9s9yZTQ4i9Z//96/1hRSZr\" type=\"text/javascript\">\n    window.AG_ID    = \"RVMOB42DFH\";\n    window.AG_KEY   = \"fd9e8d499b1d7ede4cd848b00aef0c65\";\n    window.AG_INDEX = {\"jobs\":\"production__dnvvcare2301__sort-rank\"};\n    window.PLACES_ID = \"\";\n    window.PLACES_KEY = \"\";\n    window.AG_DETECTED_COUNTRY_CODE = \"\";\n</script>    \n\t\n<title>Search DNV Jobs | Find Your Next Role | DNV Careers | DNV careers</title>\n\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\n<meta name=\"description\" content=\"Browse open DNV vacancies across every business area and location. Find the right opportunity and apply today to start your career journey with DNV.\">\n<link rel=\"shortcut icon\" href=\"https://33-cdn-image-handler.s3.eu-west-2.amazonaws.com/production/dnvvcare2602/application/files/5717/8411/4445/favicon.ico\" type=\"image/x-icon\">\n<link rel=\"icon\" href=\"https://33-cdn-image-handler.s3.eu-west-2.amazonaws.com/production/dnvvcare2602/application/files/5717/8411/4445/favicon.ico\" type=\"image/x-icon\">\n<link rel=\"apple-touch-icon\" href=\"https://33-cdn-image-handler.s3.eu-west-2.amazonaws.com/production/dnvvcare2602/application/files/5417/8403/0198/dnv-icon-57.png\">\n<link rel=\"canonical\" href=\"https://jobs.dnv.com/job-search\" />\n<script type=\"text/javascript\" nonce=\"zX9s9yZTQ4i9Z//96/1hRSZr\">\n    var CCM_DISPATCHER_FILENAME",
-  "secs": 0.76
- },
- {
-  "name": "nykaa_skima",
-  "url": "https://careers.nykaa.com/",
-  "method": "GET",
-  "status": 200,
-  "final_url": "https://careers.nykaa.com/",
-  "ctype": "text/html",
-  "length": 12264,
-  "html_title": "Careers | Nykaa",
-  "snippet": "<!DOCTYPE html><html lang=\"en\"> <head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width\"><title>Careers | Nykaa</title><link rel=\"canonical\" href=\"https://careers.nykaa.com\"><meta name=\"description\" content=\"India's most preferred destination for beauty, fashion and lifestyle.\"><meta name=\"robots\" content=\"index, follow\"><meta property=\"og:title\" content=\"Careers | Nykaa\"><meta property=\"og:type\" content=\"website\"><meta property=\"og:image\" content=\"https://storage.googleapis.com/skima-prod/companies/logo/28216_360d2c3c7baefe99352a80f56a9141c688185b13_careersite_logo.png\"><meta property=\"og:url\" content=\"https://careers.nykaa.com\"><meta property=\"og:description\" content=\"India's most preferred destination for beauty, fashion and lifestyle.\"><meta property=\"og:site_name\" content=\"https://careers.nykaa.com\"><link rel=\"shortcut icon\" href=\"https://storage.googleapis.com/skima-prod/companies/logo/28216_113cdb7f4e0de03448bee2775c54171d89f9a2de_careersite_fav_icon.png\" type=\"image/x-icon\"><script type=\"module\">const f=\"f3141052bfa79b9948afe8dd374cfe05\",x=(isNaN(100),100);(function(){(function(r,n){if(!n.__SV){var c,a;window.mixpanel=n,n._i=[],n.init=function(g,m,i){function d(o,e){var p=e.split(\".\");p.length==2&&(o=o[p[0]],e=p[1]),o[e]=function(){o.push([e].concat(Array.prototype.slice.call(arguments,0)))}}var t=n;for(typeof i<\"u\"?t=n[i]=[]:i=\"mixpanel\",t.people=t.people||[],t.toString=function(o){var e=\"mixpanel\";return i!==\"mixpanel\"&&(e+=\".\"+i),o||(e+=\" (stu",
-  "secs": 0.44
- },
- {
-  "name": "kula_ct_full",
-  "url": "https://careers.kula.ai/clevertap",
-  "method": "GET",
-  "status": 200,
-  "final_url": "https://careers.kula.ai/clevertap",
-  "ctype": "text/html; charset=utf-8",
-  "length": 438158,
-  "html_title": "CleverTap Careers | Open Jobs",
-  "snippet": "<!DOCTYPE html><html lang=\"en\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/><link rel=\"preload\" as=\"image\" href=\"https://assets.kula.ai/images/career/m4mhvuoe7obsgm6bpbk6jrcnw0mh\"/><link rel=\"stylesheet\" href=\"https://careers-cdn.kula.ai/_next/static/css/012676eee51e6f21.css\" data-precedence=\"next\"/><link rel=\"stylesheet\" href=\"https://careers-cdn.kula.ai/_next/static/css/36d7a371984c82b2.css\" data-precedence=\"next\"/><link rel=\"stylesheet\" href=\"https://careers-cdn.kula.ai/_next/static/css/5067a2500a3dcda1.css\" data-precedence=\"next\"/><link rel=\"stylesheet\" href=\"https://careers-cdn.kula.ai/_next/static/css/38a9277115a27aa4.css\" data-precedence=\"next\"/><link rel=\"stylesheet\" href=\"https://careers-cdn.kula.ai/_next/static/css/915dd8b1d3c3af6c.css\" data-precedence=\"next\"/><link rel=\"stylesheet\" href=\"https://careers-cdn.kula.ai/_next/static/css/9cd09cd5990325ff.css\" data-precedence=\"next\"/><link rel=\"stylesheet\" href=\"https://careers-cdn.kula.ai/_next/static/css/dc21e3f964ba2a2a.css\" data-precedence=\"next\"/><link rel=\"preload\" as=\"script\" fetchPriority=\"low\" href=\"https://careers-cdn.kula.ai/_next/static/chunks/webpack-1175531cf6d9dff7.js\"/><script src=\"https://careers-cdn.kula.ai/_next/static/chunks/33d7a86f-2e5721a930ea3691.js\" async=\"\"></script><script src=\"https://careers-cdn.kula.ai/_next/static/chunks/8434-d79ae4d355548689.js\" async=\"\"></script><script src=\"https://careers-cdn.kula.ai/_next/static/chunks/main-app-61afea",
-  "secs": 0.74
+  "snippet": "{\n  \"items\" : [ {\n    \"SearchId\" : 1,\n    \"Keyword\" : \"data\",\n    \"CorrectedKeyword\" : null,\n    \"UseExactKeywordFlag\" : false,\n    \"SuggestedKeyword\" : null,\n    \"ExecuteSpellCheckFlag\" : true,\n    \"Location\" : null,\n    \"LocationId\" : null,\n    \"Radius\" : 0,\n    \"RadiusUnit\" : \"MI\",\n    \"SelectedTitlesFacet\" : null,\n    \"SelectedCategoriesFacet\" : null,\n    \"SelectedPostingDatesFacet\" : null,\n    \"SelectedLocationsFacet\" : null,\n    \"LastSelectedFacet\" : null,\n    \"Facets\" : \"LOCATIONS\",\n    \"Offset\" : 0,\n    \"Limit\" : 5,\n    \"SortBy\" : \"RELEVANCY\",\n    \"TotalJobsCount\" : 88,\n    \"Latitude\" : null,\n    \"Longitude\" : null,\n    \"SiteNumber\" : \"CX_1\",\n    \"JobFamilyId\" : null,\n    \"PostingStartDate\" : null,\n    \"PostingEndDate\" : null,\n    \"SelectedWorkLocationsFacet\" : null,\n    \"RequisitionId\" : null,\n    \"CandidateNumber\" : null,\n    \"WorkLocationZipCode\" : null,\n    \"WorkLocationCountryCode\" : null,\n    \"SelectedFlexFieldsFacets\" : null,\n    \"OrganizationId\" : null,\n    \"SelectedOrganizationsFacet\" : null,\n    \"UserTargetFacetName\" : null,\n    \"UserTargetFacetInputTerm\" : null,\n    \"HotJobFlag\" : null,\n    \"WorkplaceType\" : null,\n    \"SelectedWorkplaceTypesFacet\" : null,\n    \"BotQRShortCode\" : null,\n    \"categoriesFacet\" : [ ],\n    \"locationsFacet\" : [ {\n      \"Id\" : 300000000345520,\n      \"Name\" : \"United States\",\n      \"TotalCount\" : 12\n    }, {\n      \"Id\" : 300000000345142,\n      \"Name\" : \"India\",\n      \"TotalCount\" : 12\n    }, {\n      \"Id\" : 300000004231044,\n      \"Nam",
+  "secs": 0.96
  }
 ]

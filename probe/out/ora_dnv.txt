@@ -1,0 +1,112 @@
+{
+  "items" : [ {
+    "SearchId" : 1,
+    "Keyword" : "data",
+    "CorrectedKeyword" : null,
+    "UseExactKeywordFlag" : false,
+    "SuggestedKeyword" : null,
+    "ExecuteSpellCheckFlag" : true,
+    "Location" : null,
+    "LocationId" : null,
+    "Radius" : 0,
+    "RadiusUnit" : "MI",
+    "SelectedTitlesFacet" : null,
+    "SelectedCategoriesFacet" : null,
+    "SelectedPostingDatesFacet" : null,
+    "SelectedLocationsFacet" : null,
+    "LastSelectedFacet" : null,
+    "Facets" : "LOCATIONS",
+    "Offset" : 0,
+    "Limit" : 5,
+    "SortBy" : "RELEVANCY",
+    "TotalJobsCount" : 88,
+    "Latitude" : null,
+    "Longitude" : null,
+    "SiteNumber" : "CX_1",
+    "JobFamilyId" : null,
+    "PostingStartDate" : null,
+    "PostingEndDate" : null,
+    "SelectedWorkLocationsFacet" : null,
+    "RequisitionId" : null,
+    "CandidateNumber" : null,
+    "WorkLocationZipCode" : null,
+    "WorkLocationCountryCode" : null,
+    "SelectedFlexFieldsFacets" : null,
+    "OrganizationId" : null,
+    "SelectedOrganizationsFacet" : null,
+    "UserTargetFacetName" : null,
+    "UserTargetFacetInputTerm" : null,
+    "HotJobFlag" : null,
+    "WorkplaceType" : null,
+    "SelectedWorkplaceTypesFacet" : null,
+    "BotQRShortCode" : null,
+    "categoriesFacet" : [ ],
+    "locationsFacet" : [ {
+      "Id" : 300000000345520,
+      "Name" : "United States",
+      "TotalCount" : 12
+    }, {
+      "Id" : 300000000345142,
+      "Name" : "India",
+      "TotalCount" : 12
+    }, {
+      "Id" : 300000004231044,
+      "Name" : "TX, United States",
+      "TotalCount" : 10
+    }, {
+      "Id" : 300000000341944,
+      "Name" : "Canada",
+      "TotalCount" : 8
+    }, {
+      "Id" : 300000000345328,
+      "Name" : "Norway",
+      "TotalCount" : 8
+    }, {
+      "Id" : 100000077439011,
+      "Name" : "ON, Canada",
+      "TotalCount" : 8
+    }, {
+      "Id" : 100000077444635,
+      "Name" : "Toronto, ON, Canada",
+      "TotalCount" : 8
+    }, {
+      "Id" : 300000004283018,
+      "Name" : "Austin, TX, United States",
+      "TotalCount" : 8
+    }, {
+      "Id" : 300000000345364,
+      "Name" : "Poland",
+      "TotalCount" : 7
+    }, {
+      "Id" : 300000000345298,
+      "Name" : "Mexico",
+      "TotalCount" : 7
+    } ],
+    "postingDatesFacet" : [ ],
+    "titlesFacet" : [ ],
+    "workLocationsFacet" : [ ],
+    "flexFieldsFacet" : [ ],
+    "organizationsFacet" : [ ],
+    "workplaceTypesFacet" : [ ]
+  } ],
+  "count" : 1,
+  "hasMore" : false,
+  "limit" : 200,
+  "offset" : 0,
+  "links" : [ {
+    "rel" : "self",
+    "href" : "https://ecyq.fa.em2.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/recruitingCEJobRequisitions",
+    "name" : "recruitingCEJobRequisitions",
+    "kind" : "collection"
+  }, {
+    "rel" : "action",
+    "href" : "https://ecyq.fa.em2.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/recruitingCEJobRequisitions/action/getRequisitionsLocationCoordinates",
+    "name" : "getRequisitionsLocationCoordinates",
+    "kind" : "other"
+  }, {
+    "rel" : "action",
+    "href" : "https://ecyq.fa.em2.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/recruitingCEJobRequisitions/action/getRequisitionDetailsForMap",
+    "name" : "getRequisitionDetailsForMap",
+    "kind" : "other"
+  } ]
+}
