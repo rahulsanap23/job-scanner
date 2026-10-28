@@ -1001,22 +1001,10 @@ companies:
   careers_url: https://www.mitsubishielectric.in/careers
   note: no public job feed found
 - name: Atlas Copco
-  sources:
-  - type: csb_unify
-    base: https://www.jobs.atlascopcogroup.com
-    locale: en_US
-    detail_locations: true
-    max_pages: 3
-    terms:
-    - data engineer
-    - big data
-    - etl
-    - databricks
-    - spark
-    - analytics engineer
-    - data platform
-    - data warehouse
+  sources: []
   careers_url: https://www.jobs.atlascopcogroup.com/search/?q=data
+  note: SuccessFactors Unify site (www.jobs.atlascopcogroup.com) leaves most jobs' location out of its
+    search results, and reading each job page found fewer Pune roles than LinkedIn does; LinkedIn covers it
 - name: Sandvik
   sources:
   - type: workday
