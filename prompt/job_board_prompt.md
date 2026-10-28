@@ -45,9 +45,16 @@ For every company whose own site gave nothing today (status "not scanned" or "er
 returned zero postings), the scanner searches LinkedIn's public, logged-out job search: one search per
 company ("data engineer <company>", Maharashtra, posted in the last 30 days, first 10 results), paced a
 few seconds apart. LinkedIn usually stops answering after about a dozen searches from one machine, so
-each run starts with the companies checked longest ago and stops at the first rate limit; companies it
-didn't reach reuse their LinkedIn results from the last 4 days (`data/linkedin_cache.json`). Every
-company gets checked within a couple of days. A LinkedIn result counts only if its company name matches
+the searching is spread out: the `linkedin-refresh` workflow runs every 2 hours between the scans and
+searches about 8 companies per run from a fresh GitHub runner (`scanner/linkedin_refresh.py`). Its queue
+is the companies the latest scan sent to LinkedIn; a company whose careers site failed in that scan goes
+first, and its site is retried once before searching LinkedIn. The rest go least recently checked first,
+so every company is checked about twice a day. Results go into `data/linkedin_cache.json`, which is the
+only file the refresh job writes. The daily scan reads that cache, searches only companies not checked
+in the last 24 hours, stops at the first rate limit, and reuses results up to 4 days old for any company
+LinkedIn didn't let anyone check. Both workflows merge the cache company by company (newest wins) before
+pushing, so neither overwrites the other. `meta.linkedin` reads like "45 of 45 companies checked in the
+last 24 h (this scan: searched 0 companies)", and lists the companies that weren't. A LinkedIn result counts only if its company name matches
 the target's name or aliases after removing legal suffixes (Pvt Ltd, India, Technologies…). An exact
 core-name match is kept as is; a looser match (the target's words are inside a longer LinkedIn company
 name) is kept and flagged "company listed as '<LinkedIn name>'". These rows go through the same Part 1
@@ -191,7 +198,7 @@ Step 11 — Footer
 excluded). (b) Links go straight to the posting and are refreshed daily; "check" rows passed on a
 judgement call. (c) Coverage in three groups: careers site couldn't be reached today; no usable careers
 feed but checked on LinkedIn (with the number of roles found); not checked (e.g. LinkedIn rate-limited
-the run). Each company links to its careers page and to a LinkedIn search.
+every attempt for 4 days). Each company links to its careers page and to a LinkedIn search.
 
 ═══════════════════════════════════════════
 PART 3 — VISUAL DESIGN SPEC (unchanged, plus a dark theme)
