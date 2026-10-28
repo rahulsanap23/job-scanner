@@ -2,6 +2,7 @@ name: probe-endpoints
 
 # Maintenance helper: checks careers endpoints listed in probe/targets.json.
 # Runs when that file changes on the "probe" branch, or manually.
+# (Temporary: applies probe/config.patch to linkedin-refresh and test-runs the refresh job there.)
 on:
   push:
     branches: [probe]
@@ -14,25 +15,45 @@ permissions:
 jobs:
   probe:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install requests
-      - run: python probe/probe.py
-      - name: Commit results
+      - name: Apply docs patch and test-run the refresh on linkedin-refresh
         run: |
+          set -x
           git config user.name "github-actions[bot]"
           git config user.email "41898900+github-actions[bot]@users.noreply.github.com"
-          git add probe/results.json probe/out || true
+          mkdir -p /tmp/res
+          cp probe/config.patch /tmp/config.patch
+          git checkout -q -b lr origin/linkedin-refresh
+          git apply /tmp/config.patch
+          git add README.md board/template.html prompt/job_board_prompt.md
+          git commit -q -m "docs: describe the LinkedIn refresh job" \
+            -m "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>" \
+            -m "Claude-Session: https://claude.ai/code/session_017KkaAYsDqiCZ28PwRQhbtn"
+          git push origin HEAD:linkedin-refresh
+          pip install -q -r requirements.txt pytest
+          python -m pytest -q tests > /tmp/res/pytest.txt 2>&1 || true
+          python -m scanner.linkedin_refresh --dry-run > /tmp/res/dryrun.txt 2>&1 || true
+          cp data/linkedin_cache.json /tmp/res/cache_before.json
+          python -m scanner.linkedin_refresh --batch 4 > /tmp/res/refresh.txt 2>&1 || true
+          cp data/linkedin_cache.json /tmp/ours.json
+          # exercise the workflow's commit logic: reset to the branch head and merge our cache in
+          git reset -q --hard origin/linkedin-refresh
+          python -m scanner.linkedin_refresh --merge /tmp/ours.json > /tmp/res/merge.txt 2>&1 || true
+          cp data/linkedin_cache.json /tmp/res/cache_after_merge.json
+          git checkout -q -- data/linkedin_cache.json
+          timeout 900 python -m scanner.run --only "Jefferies,UBS,Postman,Tesla,Nykaa" --no-write > /tmp/res/run.txt 2>&1 || true
+          git checkout -q -f probe
+          mkdir -p probe/out
+          cp /tmp/res/* probe/out/
+      - name: Commit results
+        run: |
+          git add probe/out
           git commit -q -m "probe results [skip ci]" || exit 0
-          if ! out=$(git push 2>&1); then
-            echo "::warning title=push failed, retrying without page copies::$(echo "$out" | tr '\n' ' ' | cut -c1-600)"
-            git reset -q --soft HEAD~1 && git reset -q
-            rm -rf probe/out
-            python -c "import json;p='probe/results.json';r=json.load(open(p));[x.pop('snippet',None) for x in r];json.dump(r,open(p,'w'),indent=1)"
-            git add probe/results.json && git commit -q -m "probe results (no page copies) [skip ci]"
-            git push
-          fi
+          git push origin HEAD:probe
