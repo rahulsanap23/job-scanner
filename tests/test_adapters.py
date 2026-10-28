@@ -42,3 +42,14 @@ def test_csb_unify_dates():
     assert csb_unify._date("27/10/2026", "en_GB") == "2026-10-27"
     assert csb_unify._date("27/10/2026", "en_US") == "2026-10-27"  # day > 12 decides the order
     assert csb_unify._date("", "en_GB") is None
+
+
+def test_epam_job():
+    from scanner.adapters import epam
+    j = epam.to_job("blt1", {"name": "Senior Data Engineer", "vacancy_type": "Office",
+                             "city": [{"name": "Pune"}, {"name": "Hyderabad"}], "country": [{"name": "India"}],
+                             "seo": {"url": "/vacancy/senior-data-engineer-blt1"},
+                             "created_at": "2026-10-21T14:47:23.602Z"})
+    assert j["locations"] == ["Pune, India", "Hyderabad, India"]
+    assert j["url"] == "https://careers.epam.com/en/vacancy/senior-data-engineer-blt1_en"
+    assert j["remote"] is None and j["country"] == "India"

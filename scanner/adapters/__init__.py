@@ -7,7 +7,7 @@ Each adapter is `scan(src, http) -> list[dict]` returning raw postings:
 Adapters narrow the search server-side where the platform allows it (keyword
 search, India filter); the shared filters in scanner/filters.py do the rest.
 """
-from . import (amazon, ashby, atlassian, avature, csb, csb_rss, csb_unify, eightfold, goldman, greenhouse,
+from . import (amazon, ashby, atlassian, avature, csb, csb_rss, csb_unify, eightfold, epam, goldman, greenhouse,
                jazzhr, jibe, jobsyn, jobvite, kula, lever, oracle, phenom, smartrecruiters, visa, workable, workday)
 
 ADAPTERS = {
@@ -33,6 +33,7 @@ ADAPTERS = {
     "visa": visa.scan,
     "kula": kula.scan,
     "jazzhr": jazzhr.scan,
+    "epam": epam.scan,
 }
 
 # Search terms for platforms that need a keyword. "data" catches most titles;

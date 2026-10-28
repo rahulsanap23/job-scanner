@@ -602,9 +602,9 @@ companies:
 - name: EPAM Systems
   aliases:
   - EPAM
-  sources: []
-  careers_url: https://www.epam.com/careers/job-listings?country=India
-  note: adapter pending
+  sources:
+  - type: epam
+  careers_url: https://careers.epam.com/en/jobs/india
 - name: Atlassian
   sources:
   - type: atlassian
@@ -707,9 +707,10 @@ companies:
 - name: IDT Corporation
   aliases:
   - IDT
-  sources: []
-  careers_url: https://www.idt.net/careers/
-  note: no public job feed found
+  sources:
+  - type: lever
+    site: idt
+  careers_url: https://jobs.lever.co/idt
 - name: Confluent
   sources:
   - type: ashby
@@ -1003,7 +1004,7 @@ companies:
   sources: []
   careers_url: https://www.jobs.atlascopcogroup.com/search/?q=data
   note: SuccessFactors Unify site (www.jobs.atlascopcogroup.com) leaves most jobs' location out of its
-    search results, so India roles can't be picked out; LinkedIn covers it
+    search results, and reading each job page found fewer Pune roles than LinkedIn does; LinkedIn covers it
 - name: Sandvik
   sources:
   - type: workday
