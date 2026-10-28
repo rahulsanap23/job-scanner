@@ -1,4 +1,1 @@
-[{"name": "epam_tenant_in", "url": "https://careers.epam.com/api/jobs/v2/search/careers-india?lang=en&from=0&size=3&query=data", "save": true},
- {"name": "epam_tenant_in2", "url": "https://careers.epam.com/api/jobs/v2/search/careers?lang=en&from=0&size=3&query=data&tenant=careers-india", "save": true},
- {"name": "epam_in_site", "url": "https://careers.epam.com/en/india-it-jobs", "save": true, "save_bytes": 3000000},
- {"name": "epam_in_domain", "url": "https://careers.epam.in/", "save": true}]
+[{"name":"noop3","url":"https://api.lever.co/v0/postings/idt?mode=json&limit=1"}]

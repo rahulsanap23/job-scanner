@@ -2,6 +2,7 @@ name: probe-endpoints
 
 # Maintenance helper: checks careers endpoints listed in probe/targets.json.
 # Runs when that file changes on the "probe" branch, or manually.
+# (Temporary: also applies probe/config.patch to careers-feeds-2 and test-scans it.)
 on:
   push:
     branches: [probe]
@@ -14,25 +15,43 @@ permissions:
 jobs:
   probe:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install requests
-      - run: python probe/probe.py
-      - name: Commit results
+      - name: Apply config patch to careers-feeds-2 and test-scan
         run: |
+          set -x
           git config user.name "github-actions[bot]"
           git config user.email "41898900+github-actions[bot]@users.noreply.github.com"
-          git add probe/results.json probe/out || true
-          git commit -q -m "probe results [skip ci]" || exit 0
-          if ! out=$(git push 2>&1); then
-            echo "::warning title=push failed, retrying without page copies::$(echo "$out" | tr '\n' ' ' | cut -c1-600)"
-            git reset -q --soft HEAD~1 && git reset -q
-            rm -rf probe/out
-            python -c "import json;p='probe/results.json';r=json.load(open(p));[x.pop('snippet',None) for x in r];json.dump(r,open(p,'w'),indent=1)"
-            git add probe/results.json && git commit -q -m "probe results (no page copies) [skip ci]"
-            git push
+          mkdir -p /tmp/res
+          cp probe/config.patch /tmp/config.patch
+          git checkout -q -b cf origin/careers-feeds-2
+          if git apply --check /tmp/config.patch; then
+            git apply /tmp/config.patch
+            git add config/companies.yaml
+            git commit -q -m "config: read EPAM, IDT and Atlas Copco from their own careers sites" \
+              -m "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>" \
+              -m "Claude-Session: https://claude.ai/code/session_017KkaAYsDqiCZ28PwRQhbtn"
+            git push origin HEAD:careers-feeds-2
+            echo applied > /tmp/res/patch.txt
+          else
+            echo "patch did not apply" > /tmp/res/patch.txt
           fi
+          pip install -q -r requirements.txt pytest
+          python -m pytest -q tests > /tmp/res/pytest.txt 2>&1 || true
+          python -m scanner.run --only "EPAM Systems,IDT Corporation,Atlas Copco" \
+            --no-linkedin --debug > /tmp/res/run.log 2>&1 || true
+          cp data/scan_report.json data/jobs.json /tmp/res/ || true
+          git checkout -q -f probe
+          mkdir -p probe/out
+          cp /tmp/res/* probe/out/
+      - name: Commit results
+        run: |
+          git add probe/out
+          git commit -q -m "probe results [skip ci]" || exit 0
+          git push origin HEAD:probe
