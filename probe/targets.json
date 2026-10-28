@@ -1,6 +1,4 @@
-[{"name": "epam_js_jobs", "url": "https://careers.epam.com/_next/static/chunks/pages/jobs-996da3d165acdde7.js", "save": true, "save_bytes": 3000000},
- {"name": "epam_ssr_country", "url": "https://careers.epam.com/en/vacancies?country=4060741400035606931&search=data", "save": true, "save_bytes": 3000000},
- {"name": "epam_api_meta", "url": "https://careers.epam.com/api/jobs/v2/search/careers?lang=en&from=0&size=3&query=data&metadata.country.id=4060741400035606931"},
- {"name": "epam_api_facets", "url": "https://careers.epam.com/api/jobs/v2/search/careers?lang=en&from=0&size=3&query=data&facets=country:4060741400035606931"},
- {"name": "epam_api_filters", "url": "https://careers.epam.com/api/jobs/v2/search/careers?lang=en&from=0&size=3&query=data&filters[country]=4060741400035606931"},
- {"name": "epam_api_countryid", "url": "https://careers.epam.com/api/jobs/v2/search/careers?lang=en&from=0&size=3&query=data&country_id=4060741400035606931"}]
+[{"name": "epam_tenant_in", "url": "https://careers.epam.com/api/jobs/v2/search/careers-india?lang=en&from=0&size=3&query=data", "save": true},
+ {"name": "epam_tenant_in2", "url": "https://careers.epam.com/api/jobs/v2/search/careers?lang=en&from=0&size=3&query=data&tenant=careers-india", "save": true},
+ {"name": "epam_in_site", "url": "https://careers.epam.com/en/india-it-jobs", "save": true, "save_bytes": 3000000},
+ {"name": "epam_in_domain", "url": "https://careers.epam.in/", "save": true}]
