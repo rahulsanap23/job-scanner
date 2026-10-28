@@ -1,434 +1,230 @@
 [
  {
-  "name": "epam_js_jobs",
-  "url": "https://careers.epam.com/_next/static/chunks/pages/jobs-996da3d165acdde7.js",
+  "name": "epam_tenant_in",
+  "url": "https://careers.epam.com/api/jobs/v2/search/careers-india?lang=en&from=0&size=3&query=data",
   "method": "GET",
   "status": 200,
-  "final_url": "https://careers.epam.com/_next/static/chunks/pages/jobs-996da3d165acdde7.js",
-  "ctype": "application/javascript",
-  "length": 397,
-  "html_title": null,
-  "snippet": "(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[5232],{25803:(_,e,s)=>{\"use strict\";s.r(e),s.d(e,{__N_SSG:()=>n,default:()=>t});var u=s(61867),n=!0;let t=u.e},51215:(_,e,s)=>{(window.__NEXT_P=window.__NEXT_P||[]).push([\"/jobs\",function(){return s(25803)}])}},_=>{_.O(0,[2420,1145,1322,950,6370,5954,712,131,3721,1058,8834,726,1985,9523,1269,636,6593,8792],()=>_(_.s=51215)),_N_E=_.O()}]);",
-  "secs": 0.22
+  "final_url": "https://careers.epam.com/api/jobs/v2/search/careers-india?lang=en&from=0&size=3&query=data",
+  "ctype": "application/json",
+  "length": 57080,
+  "json_shape": {
+   "data": {
+    "total": 265,
+    "jobs": [
+     3,
+     {
+      "_key": "...",
+      "_partition": "...",
+      "_offset": "...",
+      "_operation": "...",
+      "uid": "...",
+      "unique_id": "...",
+      "tenant": "...",
+      "name": "...",
+      "posting_type": "...",
+      "city": "...",
+      "country": "...",
+      "vacancy_type": "...",
+      "seniority": "...",
+      "is_hot": "...",
+      "is_hidden": "...",
+      "skills": "...",
+      "primary_skill": "...",
+      "sd_pool_id": "...",
+      "request_id": "...",
+      "tags": "...",
+      "description": "...",
+      "category": "...",
+      "seo": "...",
+      "tests": "...",
+      "locale": "..."
+     }
+    ],
+    "facets": {
+     "job_type": [
+      0
+     ],
+     "assignment_duration": [
+      0
+     ],
+     "customer_industry": [
+      0
+     ],
+     "seniority": [
+      8,
+      "..."
+     ],
+     "primary_skill": [
+      65,
+      "..."
+     ],
+     "relocation": [
+      1,
+      "..."
+     ],
+     "english_level": [
+      0
+     ],
+     "created_at": [
+      0
+     ],
+     "country": [
+      1,
+      "..."
+     ],
+     "vacancy_type": [
+      2,
+      "..."
+     ],
+     "city": [
+      11,
+      "..."
+     ],
+     "is_hot": [
+      2,
+      "..."
+     ],
+     "job_specialization": [
+      11,
+      "..."
+     ],
+     "skills": [
+      505,
+      "..."
+     ]
+    }
+   },
+   "meta": {
+    "awsRequestId": "1a816a7c-4f3c-47a1-99bc-8cb63b265f5a"
+   }
+  },
+  "snippet": "{\"data\":{\"total\":265,\"jobs\":[{\"_key\":\"blt01ypik1l8xv994ze_en\",\"_partition\":0,\"_offset\":329784,\"_operation\":\"upsert\",\"uid\":\"blt01ypik1l8xv994ze\",\"unique_id\":\"careers-india_blt01ypik1l8xv994ze_en-us\",\"tenant\":\"careers-india\",\"name\":\"Senior Snowflake Data Engineer\",\"posting_type\":\"Standard\",\"city\":[{\"id\":\"8150000000000085750\",\"name\":\"Coimbatore\",\"country\":{\"id\":\"4060741400035606931\",\"name\":\"India\",\"type\":\"Country\"},\"state\":{\"id\":\"8150000000000343532\",\"name\":\"Tamil Nadu\",\"locode\":null},\"type\":null},{\"id\":\"4060741400041519794\",\"name\":\"Chennai\",\"country\":{\"id\":\"4060741400035606931\",\"name\":\"India\",\"type\":\"Country\"},\"state\":{\"id\":\"8150000000000343532\",\"name\":\"Tamil Nadu\",\"locode\":null},\"type\":null}],\"country\":[{\"id\":\"4060741400035606931\",\"name\":\"India\",\"type\":null}],\"vacancy_type\":\"Office\",\"seniority\":\"Senior\",\"is_hot\":false,\"is_hidden\":false,\"skills\":[\"Data Integration\",\"Snowflake\",\"SQL\",\"Oracle PL/SQL\",\"Snowpark\"],\"primary_skill\":\"Data Integration\",\"sd_pool_id\":\"597604288\",\"request_id\":\"c8bHT6b5zsJLAPMI6zO7Q\",\"tags\":[\"#copyof_blt85hp910g2dcvlamq\",\"#no_touch\",\"#copyof_bltb4es61iaru5vpjf5\"],\"description\":\"<p>We are seeking an experienced <strong>Senior Snowflake Data Engineer</strong> to join our data engineering team and drive the design, development and maintenance of scalable data solutions using Snowflake's cloud data platform. This role requires expertise in modern data engineering practices, cloud technologies and AI/ML integration within the Snowflake ecosystem.</p>\",\"category",
+  "secs": 0.47
  },
  {
-  "name": "epam_ssr_country",
-  "url": "https://careers.epam.com/en/vacancies?country=4060741400035606931&search=data",
+  "name": "epam_tenant_in2",
+  "url": "https://careers.epam.com/api/jobs/v2/search/careers?lang=en&from=0&size=3&query=data&tenant=careers-india",
   "method": "GET",
   "status": 200,
-  "final_url": "https://careers.epam.com/en/jobs",
+  "final_url": "https://careers.epam.com/api/jobs/v2/search/careers?lang=en&from=0&size=3&query=data&tenant=careers-india",
+  "ctype": "application/json",
+  "length": 63200,
+  "json_shape": {
+   "data": {
+    "total": 539,
+    "jobs": [
+     3,
+     {
+      "_key": "...",
+      "_partition": "...",
+      "_offset": "...",
+      "_operation": "...",
+      "uid": "...",
+      "unique_id": "...",
+      "tenant": "...",
+      "name": "...",
+      "posting_type": "...",
+      "city": "...",
+      "country": "...",
+      "vacancy_type": "...",
+      "seniority": "...",
+      "is_hot": "...",
+      "is_hidden": "...",
+      "skills": "...",
+      "primary_skill": "...",
+      "sd_pool_id": "...",
+      "request_id": "...",
+      "tags": "...",
+      "description": "...",
+      "category": "...",
+      "seo": "...",
+      "tests": "...",
+      "locale": "..."
+     }
+    ],
+    "facets": {
+     "job_type": [
+      0
+     ],
+     "assignment_duration": [
+      0
+     ],
+     "customer_industry": [
+      0
+     ],
+     "seniority": [
+      11,
+      "..."
+     ],
+     "primary_skill": [
+      64,
+      "..."
+     ],
+     "relocation": [
+      1,
+      "..."
+     ],
+     "english_level": [
+      0
+     ],
+     "created_at": [
+      0
+     ],
+     "country": [
+      27,
+      "..."
+     ],
+     "vacancy_type": [
+      3,
+      "..."
+     ],
+     "city": [
+      10,
+      "..."
+     ],
+     "is_hot": [
+      2,
+      "..."
+     ],
+     "job_specialization": [
+      15,
+      "..."
+     ],
+     "skills": [
+      494,
+      "..."
+     ]
+    }
+   },
+   "meta": {
+    "awsRequestId": "6a270632-1b59-4448-9e0a-7c18b2891a7d"
+   }
+  },
+  "snippet": "{\"data\":{\"total\":539,\"jobs\":[{\"_key\":\"blt00b5d7bvyyd4lc4w_en\",\"_partition\":0,\"_offset\":348654,\"_operation\":\"upsert\",\"uid\":\"blt00b5d7bvyyd4lc4w\",\"unique_id\":\"anywhere_blt00b5d7bvyyd4lc4w_en-us\",\"tenant\":\"anywhere\",\"name\":\"Senior Backend Developer, AI Pods\",\"posting_type\":\"Standard\",\"city\":null,\"country\":[{\"id\":\"8150000000000001018\",\"name\":\"Argentina\",\"type\":null},{\"id\":\"8150000000000001043\",\"name\":\"Chile\",\"type\":null},{\"id\":\"8150000000000001044\",\"name\":\"Colombia\",\"type\":null}],\"vacancy_type\":\"Remote\",\"seniority\":\"Senior\",\"is_hot\":false,\"is_hidden\":false,\"skills\":[\"Python.AI\",\"Amazon Web Services\",\"Gen AI Application Development\",\"LangChain\",\"REST API\",\"LangGraph\",\"LlamaIndex\",\"Model Context Protocol\",\"ReactJS\",\"Terraform\",\"Vector Databases\"],\"primary_skill\":\"Python.AI\",\"sd_pool_id\":\"706943265\",\"request_id\":\"dSV0ArjFW5SChlzMVqpXl\",\"tags\":[\"#no_touch\",\"#new_vacancy\",\"#utm\",\"#copyof_blt5kydlgwolnhgcexr\",\"#copyof_bltjla0facyhl94rqf7\",\"#copyof_blt8ias1l8uqk44og2l\",\"#referral_marketing_gts\"],\"description\":\"<p>We are seeking a <strong>Senior Backend Developer</strong> to join our AI Pods team, building robust AI-powered API services and agentic workflows. This role focuses on language model interaction with internal systems, vector databases, and external tools via orchestration frameworks, treating LLMs as components in a secure, scalable distributed system.</p>\",\"category\":{\"responsibilities\":[\"Design and build backend API services and LLM orchestration layers\",\"Own API contracts a",
+  "secs": 0.63
+ },
+ {
+  "name": "epam_in_site",
+  "url": "https://careers.epam.com/en/india-it-jobs",
+  "method": "GET",
+  "status": 200,
+  "final_url": "https://careers.epam.com/en/jobs/india",
   "ctype": "text/html; charset=utf-8",
-  "length": 686364,
+  "length": 1061289,
   "html_title": "Discover Exciting Job Opportunities | EPAM Careers",
-  "snippet": "<!DOCTYPE html><html lang=\"en\" data-critters-container><head><meta charset=\"utf-8\" data-next-head><meta content=\"width=device-width, initial-scale=1\" name=\"viewport\" data-next-head><link href=\"https://eu-images.contentstack.com/v3/assets/blt892f41c9788ae399/blt3765677deb2c02ec/64f1d7a76f9d59f962fcc73d/Favicon_16X16.png\" rel=\"icon\" sizes=\"16x16\" type=\"image/png\" data-next-head><link href=\"https://eu-images.contentstack.com/v3/assets/blt892f41c9788ae399/blt3738b8fe987944d5/64f1d7b21aea656f8ffb4bc9/Favicon_32x32.png\" rel=\"icon\" sizes=\"32x32\" type=\"image/png\" data-next-head><link href=\"https://eu-images.contentstack.com/v3/assets/blt892f41c9788ae399/blt7740fb8332d3d21d/64f1d7bb53e2010540ddd58e/Favicon_180x180.png\" rel=\"apple-touch-icon\" sizes=\"180x180\" data-next-head><link color=\"#5bbad5\" href=\"https://eu-images.contentstack.com/v3/assets/blt892f41c9788ae399/blt1deb85ef536a0920/65c4d271e371a5040a1af181/apple-touch-icon_2.svg\" rel=\"mask-icon\" data-next-head><link href=\"/static/site.webmanifest\" rel=\"manifest\" data-next-head><meta content=\"https://careers.epam.com/en/jobs\" property=\"og:url\" data-next-head><meta content=\"https://careers.epam.com/en/jobs\" property=\"twitter:url\" data-next-head><meta content=\"824669026656171c\" name=\"yandex-verification\" data-next-head><meta content=\"msowtjzJ2ZylgFFg212K56Rz2O4rz_MajxChMKYDF0Y\" name=\"google-site-verification\" data-next-head><link href=\"https://careers.epam.com/en/jobs\" rel=\"canonical\" data-next-head><link href=\"https://careers.epam.com/",
-  "secs": 1.37
+  "snippet": "<!DOCTYPE html><html lang=\"en\" data-critters-container><head><meta charset=\"utf-8\" data-next-head><meta content=\"width=device-width, initial-scale=1\" name=\"viewport\" data-next-head><link href=\"https://eu-images.contentstack.com/v3/assets/blt892f41c9788ae399/blt3765677deb2c02ec/64f1d7a76f9d59f962fcc73d/Favicon_16X16.png\" rel=\"icon\" sizes=\"16x16\" type=\"image/png\" data-next-head><link href=\"https://eu-images.contentstack.com/v3/assets/blt892f41c9788ae399/blt3738b8fe987944d5/64f1d7b21aea656f8ffb4bc9/Favicon_32x32.png\" rel=\"icon\" sizes=\"32x32\" type=\"image/png\" data-next-head><link href=\"https://eu-images.contentstack.com/v3/assets/blt892f41c9788ae399/blt7740fb8332d3d21d/64f1d7bb53e2010540ddd58e/Favicon_180x180.png\" rel=\"apple-touch-icon\" sizes=\"180x180\" data-next-head><link color=\"#5bbad5\" href=\"https://eu-images.contentstack.com/v3/assets/blt892f41c9788ae399/blt1deb85ef536a0920/65c4d271e371a5040a1af181/apple-touch-icon_2.svg\" rel=\"mask-icon\" data-next-head><link href=\"/static/site.webmanifest\" rel=\"manifest\" data-next-head><meta content=\"https://careers.epam.com/en/jobs/india\" property=\"og:url\" data-next-head><meta content=\"https://careers.epam.com/en/jobs/india\" property=\"twitter:url\" data-next-head><meta content=\"824669026656171c\" name=\"yandex-verification\" data-next-head><meta content=\"msowtjzJ2ZylgFFg212K56Rz2O4rz_MajxChMKYDF0Y\" name=\"google-site-verification\" data-next-head><link href=\"https://careers.epam.com/en/jobs/india\" rel=\"canonical\" data-next-head><link href=\"https:/",
+  "secs": 1.18
  },
  {
-  "name": "epam_api_meta",
-  "url": "https://careers.epam.com/api/jobs/v2/search/careers?lang=en&from=0&size=3&query=data&metadata.country.id=4060741400035606931",
+  "name": "epam_in_domain",
+  "url": "https://careers.epam.in/",
   "method": "GET",
-  "status": 200,
-  "final_url": "https://careers.epam.com/api/jobs/v2/search/careers?lang=en&from=0&size=3&query=data&metadata.country.id=4060741400035606931",
-  "ctype": "application/json",
-  "length": 63200,
-  "json_shape": {
-   "data": {
-    "total": 539,
-    "jobs": [
-     3,
-     {
-      "_key": "...",
-      "_partition": "...",
-      "_offset": "...",
-      "_operation": "...",
-      "uid": "...",
-      "unique_id": "...",
-      "tenant": "...",
-      "name": "...",
-      "posting_type": "...",
-      "city": "...",
-      "country": "...",
-      "vacancy_type": "...",
-      "seniority": "...",
-      "is_hot": "...",
-      "is_hidden": "...",
-      "skills": "...",
-      "primary_skill": "...",
-      "sd_pool_id": "...",
-      "request_id": "...",
-      "tags": "...",
-      "description": "...",
-      "category": "...",
-      "seo": "...",
-      "tests": "...",
-      "locale": "..."
-     }
-    ],
-    "facets": {
-     "job_type": [
-      0
-     ],
-     "assignment_duration": [
-      0
-     ],
-     "customer_industry": [
-      0
-     ],
-     "seniority": [
-      11,
-      "..."
-     ],
-     "primary_skill": [
-      64,
-      "..."
-     ],
-     "relocation": [
-      1,
-      "..."
-     ],
-     "english_level": [
-      0
-     ],
-     "created_at": [
-      0
-     ],
-     "country": [
-      27,
-      "..."
-     ],
-     "vacancy_type": [
-      3,
-      "..."
-     ],
-     "city": [
-      10,
-      "..."
-     ],
-     "is_hot": [
-      2,
-      "..."
-     ],
-     "job_specialization": [
-      15,
-      "..."
-     ],
-     "skills": [
-      494,
-      "..."
-     ]
-    }
-   },
-   "meta": {
-    "awsRequestId": "c8794597-d7c8-4b71-b546-5806bf087412"
-   }
-  },
-  "snippet": "{\"data\":{\"total\":539,\"jobs\":[{\"_key\":\"blt00b5d7bvyyd4lc4w_en\",\"_partition\":0,\"_offset\":348654,\"_operation\":\"upsert\",\"uid\":\"blt00b5d7bvyyd4lc4w\",\"unique_id\":\"anywhere_blt00b5d7bvyyd4lc4w_en-us\",\"tenant\":\"anywhere\",\"name\":\"Senior Backend Developer, AI Pods\",\"posting_type\":\"Standard\",\"city\":null,\"country\":[{\"id\":\"8150000000000001018\",\"name\":\"Argentina\",\"type\":null},{\"id\":\"8150000000000001043\",\"name\":\"Chile\",\"type\":null},{\"id\":\"8150000000000001044\",\"name\":\"Colombia\",\"type\":null}],\"vacancy_type\":\"Remote\",\"seniority\":\"Senior\",\"is_hot\":false,\"is_hidden\":false,\"skills\":[\"Python.AI\",\"Amazon Web Services\",\"Gen AI Application Development\",\"LangChain\",\"REST API\",\"LangGraph\",\"LlamaIndex\",\"Model Context Protocol\",\"ReactJS\",\"Terraform\",\"Vector Databases\"],\"primary_skill\":\"Python.AI\",\"sd_pool_id\":\"706943265\",\"request_id\":\"dSV0ArjFW5SChlzMVqpXl\",\"tags\":[\"#no_touch\",\"#new_vacancy\",\"#utm\",\"#copyof_blt5kydlgwolnhgcexr\",\"#copyof_bltjla0facyhl94rqf7\",\"#copyof_blt8ias1l8uqk44og2l\",\"#referral_marketing_gts\"],\"description\":\"<p>We are seeking a <strong>Senior Backend Developer</strong> to join our AI Pods team, building robust AI-powered API services and agentic workflows. This role focuses on language model interaction with internal systems, vector databases, and external tools via orchestration frameworks, treating LLMs as components in a secure, scalable distributed system.</p>\",\"category\":{\"responsibilities\":[\"Design and build backend API services and LLM orchestration layers\",\"Own API contracts a",
-  "secs": 0.58
- },
- {
-  "name": "epam_api_facets",
-  "url": "https://careers.epam.com/api/jobs/v2/search/careers?lang=en&from=0&size=3&query=data&facets=country:4060741400035606931",
-  "method": "GET",
-  "status": 200,
-  "final_url": "https://careers.epam.com/api/jobs/v2/search/careers?lang=en&from=0&size=3&query=data&facets=country:4060741400035606931",
-  "ctype": "application/json",
-  "length": 63200,
-  "json_shape": {
-   "data": {
-    "total": 539,
-    "jobs": [
-     3,
-     {
-      "_key": "...",
-      "_partition": "...",
-      "_offset": "...",
-      "_operation": "...",
-      "uid": "...",
-      "unique_id": "...",
-      "tenant": "...",
-      "name": "...",
-      "posting_type": "...",
-      "city": "...",
-      "country": "...",
-      "vacancy_type": "...",
-      "seniority": "...",
-      "is_hot": "...",
-      "is_hidden": "...",
-      "skills": "...",
-      "primary_skill": "...",
-      "sd_pool_id": "...",
-      "request_id": "...",
-      "tags": "...",
-      "description": "...",
-      "category": "...",
-      "seo": "...",
-      "tests": "...",
-      "locale": "..."
-     }
-    ],
-    "facets": {
-     "job_type": [
-      0
-     ],
-     "assignment_duration": [
-      0
-     ],
-     "customer_industry": [
-      0
-     ],
-     "seniority": [
-      11,
-      "..."
-     ],
-     "primary_skill": [
-      64,
-      "..."
-     ],
-     "relocation": [
-      1,
-      "..."
-     ],
-     "english_level": [
-      0
-     ],
-     "created_at": [
-      0
-     ],
-     "country": [
-      27,
-      "..."
-     ],
-     "vacancy_type": [
-      3,
-      "..."
-     ],
-     "city": [
-      10,
-      "..."
-     ],
-     "is_hot": [
-      2,
-      "..."
-     ],
-     "job_specialization": [
-      15,
-      "..."
-     ],
-     "skills": [
-      494,
-      "..."
-     ]
-    }
-   },
-   "meta": {
-    "awsRequestId": "3506ad07-ff00-4398-a048-ab6d95a759fa"
-   }
-  },
-  "snippet": "{\"data\":{\"total\":539,\"jobs\":[{\"_key\":\"blt00b5d7bvyyd4lc4w_en\",\"_partition\":0,\"_offset\":348654,\"_operation\":\"upsert\",\"uid\":\"blt00b5d7bvyyd4lc4w\",\"unique_id\":\"anywhere_blt00b5d7bvyyd4lc4w_en-us\",\"tenant\":\"anywhere\",\"name\":\"Senior Backend Developer, AI Pods\",\"posting_type\":\"Standard\",\"city\":null,\"country\":[{\"id\":\"8150000000000001018\",\"name\":\"Argentina\",\"type\":null},{\"id\":\"8150000000000001043\",\"name\":\"Chile\",\"type\":null},{\"id\":\"8150000000000001044\",\"name\":\"Colombia\",\"type\":null}],\"vacancy_type\":\"Remote\",\"seniority\":\"Senior\",\"is_hot\":false,\"is_hidden\":false,\"skills\":[\"Python.AI\",\"Amazon Web Services\",\"Gen AI Application Development\",\"LangChain\",\"REST API\",\"LangGraph\",\"LlamaIndex\",\"Model Context Protocol\",\"ReactJS\",\"Terraform\",\"Vector Databases\"],\"primary_skill\":\"Python.AI\",\"sd_pool_id\":\"706943265\",\"request_id\":\"dSV0ArjFW5SChlzMVqpXl\",\"tags\":[\"#no_touch\",\"#new_vacancy\",\"#utm\",\"#copyof_blt5kydlgwolnhgcexr\",\"#copyof_bltjla0facyhl94rqf7\",\"#copyof_blt8ias1l8uqk44og2l\",\"#referral_marketing_gts\"],\"description\":\"<p>We are seeking a <strong>Senior Backend Developer</strong> to join our AI Pods team, building robust AI-powered API services and agentic workflows. This role focuses on language model interaction with internal systems, vector databases, and external tools via orchestration frameworks, treating LLMs as components in a secure, scalable distributed system.</p>\",\"category\":{\"responsibilities\":[\"Design and build backend API services and LLM orchestration layers\",\"Own API contracts a",
-  "secs": 0.62
- },
- {
-  "name": "epam_api_filters",
-  "url": "https://careers.epam.com/api/jobs/v2/search/careers?lang=en&from=0&size=3&query=data&filters[country]=4060741400035606931",
-  "method": "GET",
-  "status": 200,
-  "final_url": "https://careers.epam.com/api/jobs/v2/search/careers?lang=en&from=0&size=3&query=data&filters%5Bcountry%5D=4060741400035606931",
-  "ctype": "application/json",
-  "length": 63200,
-  "json_shape": {
-   "data": {
-    "total": 539,
-    "jobs": [
-     3,
-     {
-      "_key": "...",
-      "_partition": "...",
-      "_offset": "...",
-      "_operation": "...",
-      "uid": "...",
-      "unique_id": "...",
-      "tenant": "...",
-      "name": "...",
-      "posting_type": "...",
-      "city": "...",
-      "country": "...",
-      "vacancy_type": "...",
-      "seniority": "...",
-      "is_hot": "...",
-      "is_hidden": "...",
-      "skills": "...",
-      "primary_skill": "...",
-      "sd_pool_id": "...",
-      "request_id": "...",
-      "tags": "...",
-      "description": "...",
-      "category": "...",
-      "seo": "...",
-      "tests": "...",
-      "locale": "..."
-     }
-    ],
-    "facets": {
-     "job_type": [
-      0
-     ],
-     "assignment_duration": [
-      0
-     ],
-     "customer_industry": [
-      0
-     ],
-     "seniority": [
-      11,
-      "..."
-     ],
-     "primary_skill": [
-      64,
-      "..."
-     ],
-     "relocation": [
-      1,
-      "..."
-     ],
-     "english_level": [
-      0
-     ],
-     "created_at": [
-      0
-     ],
-     "country": [
-      27,
-      "..."
-     ],
-     "vacancy_type": [
-      3,
-      "..."
-     ],
-     "city": [
-      10,
-      "..."
-     ],
-     "is_hot": [
-      2,
-      "..."
-     ],
-     "job_specialization": [
-      15,
-      "..."
-     ],
-     "skills": [
-      494,
-      "..."
-     ]
-    }
-   },
-   "meta": {
-    "awsRequestId": "dd953032-18e0-4573-94b0-80134a5cc7a2"
-   }
-  },
-  "snippet": "{\"data\":{\"total\":539,\"jobs\":[{\"_key\":\"blt00b5d7bvyyd4lc4w_en\",\"_partition\":0,\"_offset\":348654,\"_operation\":\"upsert\",\"uid\":\"blt00b5d7bvyyd4lc4w\",\"unique_id\":\"anywhere_blt00b5d7bvyyd4lc4w_en-us\",\"tenant\":\"anywhere\",\"name\":\"Senior Backend Developer, AI Pods\",\"posting_type\":\"Standard\",\"city\":null,\"country\":[{\"id\":\"8150000000000001018\",\"name\":\"Argentina\",\"type\":null},{\"id\":\"8150000000000001043\",\"name\":\"Chile\",\"type\":null},{\"id\":\"8150000000000001044\",\"name\":\"Colombia\",\"type\":null}],\"vacancy_type\":\"Remote\",\"seniority\":\"Senior\",\"is_hot\":false,\"is_hidden\":false,\"skills\":[\"Python.AI\",\"Amazon Web Services\",\"Gen AI Application Development\",\"LangChain\",\"REST API\",\"LangGraph\",\"LlamaIndex\",\"Model Context Protocol\",\"ReactJS\",\"Terraform\",\"Vector Databases\"],\"primary_skill\":\"Python.AI\",\"sd_pool_id\":\"706943265\",\"request_id\":\"dSV0ArjFW5SChlzMVqpXl\",\"tags\":[\"#no_touch\",\"#new_vacancy\",\"#utm\",\"#copyof_blt5kydlgwolnhgcexr\",\"#copyof_bltjla0facyhl94rqf7\",\"#copyof_blt8ias1l8uqk44og2l\",\"#referral_marketing_gts\"],\"description\":\"<p>We are seeking a <strong>Senior Backend Developer</strong> to join our AI Pods team, building robust AI-powered API services and agentic workflows. This role focuses on language model interaction with internal systems, vector databases, and external tools via orchestration frameworks, treating LLMs as components in a secure, scalable distributed system.</p>\",\"category\":{\"responsibilities\":[\"Design and build backend API services and LLM orchestration layers\",\"Own API contracts a",
-  "secs": 0.51
- },
- {
-  "name": "epam_api_countryid",
-  "url": "https://careers.epam.com/api/jobs/v2/search/careers?lang=en&from=0&size=3&query=data&country_id=4060741400035606931",
-  "method": "GET",
-  "status": 200,
-  "final_url": "https://careers.epam.com/api/jobs/v2/search/careers?lang=en&from=0&size=3&query=data&country_id=4060741400035606931",
-  "ctype": "application/json",
-  "length": 63200,
-  "json_shape": {
-   "data": {
-    "total": 539,
-    "jobs": [
-     3,
-     {
-      "_key": "...",
-      "_partition": "...",
-      "_offset": "...",
-      "_operation": "...",
-      "uid": "...",
-      "unique_id": "...",
-      "tenant": "...",
-      "name": "...",
-      "posting_type": "...",
-      "city": "...",
-      "country": "...",
-      "vacancy_type": "...",
-      "seniority": "...",
-      "is_hot": "...",
-      "is_hidden": "...",
-      "skills": "...",
-      "primary_skill": "...",
-      "sd_pool_id": "...",
-      "request_id": "...",
-      "tags": "...",
-      "description": "...",
-      "category": "...",
-      "seo": "...",
-      "tests": "...",
-      "locale": "..."
-     }
-    ],
-    "facets": {
-     "job_type": [
-      0
-     ],
-     "assignment_duration": [
-      0
-     ],
-     "customer_industry": [
-      0
-     ],
-     "seniority": [
-      11,
-      "..."
-     ],
-     "primary_skill": [
-      64,
-      "..."
-     ],
-     "relocation": [
-      1,
-      "..."
-     ],
-     "english_level": [
-      0
-     ],
-     "created_at": [
-      0
-     ],
-     "country": [
-      27,
-      "..."
-     ],
-     "vacancy_type": [
-      3,
-      "..."
-     ],
-     "city": [
-      10,
-      "..."
-     ],
-     "is_hot": [
-      2,
-      "..."
-     ],
-     "job_specialization": [
-      15,
-      "..."
-     ],
-     "skills": [
-      494,
-      "..."
-     ]
-    }
-   },
-   "meta": {
-    "awsRequestId": "1899b8f5-072f-412f-aa70-4ecb2c3a9d35"
-   }
-  },
-  "snippet": "{\"data\":{\"total\":539,\"jobs\":[{\"_key\":\"blt00b5d7bvyyd4lc4w_en\",\"_partition\":0,\"_offset\":348654,\"_operation\":\"upsert\",\"uid\":\"blt00b5d7bvyyd4lc4w\",\"unique_id\":\"anywhere_blt00b5d7bvyyd4lc4w_en-us\",\"tenant\":\"anywhere\",\"name\":\"Senior Backend Developer, AI Pods\",\"posting_type\":\"Standard\",\"city\":null,\"country\":[{\"id\":\"8150000000000001018\",\"name\":\"Argentina\",\"type\":null},{\"id\":\"8150000000000001043\",\"name\":\"Chile\",\"type\":null},{\"id\":\"8150000000000001044\",\"name\":\"Colombia\",\"type\":null}],\"vacancy_type\":\"Remote\",\"seniority\":\"Senior\",\"is_hot\":false,\"is_hidden\":false,\"skills\":[\"Python.AI\",\"Amazon Web Services\",\"Gen AI Application Development\",\"LangChain\",\"REST API\",\"LangGraph\",\"LlamaIndex\",\"Model Context Protocol\",\"ReactJS\",\"Terraform\",\"Vector Databases\"],\"primary_skill\":\"Python.AI\",\"sd_pool_id\":\"706943265\",\"request_id\":\"dSV0ArjFW5SChlzMVqpXl\",\"tags\":[\"#no_touch\",\"#new_vacancy\",\"#utm\",\"#copyof_blt5kydlgwolnhgcexr\",\"#copyof_bltjla0facyhl94rqf7\",\"#copyof_blt8ias1l8uqk44og2l\",\"#referral_marketing_gts\"],\"description\":\"<p>We are seeking a <strong>Senior Backend Developer</strong> to join our AI Pods team, building robust AI-powered API services and agentic workflows. This role focuses on language model interaction with internal systems, vector databases, and external tools via orchestration frameworks, treating LLMs as components in a secure, scalable distributed system.</p>\",\"category\":{\"responsibilities\":[\"Design and build backend API services and LLM orchestration layers\",\"Own API contracts a",
-  "secs": 0.53
+  "status": 403,
+  "final_url": "https://careers.epam.in/",
+  "ctype": "text/html; charset=UTF-8",
+  "length": 333170,
+  "html_title": "Cloudflare: WAF block",
+  "snippet": "<!doctype html>\n<html lang=\"\">\n\n<head>\n  <meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>Cloudflare: WAF block</title>\n  <style>@font-face {\n  font-family: \"Source Sans Pro\";\n  src: url(\"data:application/octet-stream;base64,d09GMgABAAAAAS6kAA4AAAAD5UQAAS5FAAIKPQAAAAAAAAAAAAAAAAAAAAAAAAAAGUYahwwbhbh6HIGkKAZgAO1CCoXyQITsawuebgABNgIkA71YBCAFkBQHgZUjWwmSs85SZLvztH73lE+twLYOkoQhOFXVTUSAqSZVa+12uD0T/m2MvT/POYIQwqOVXiJNROF0r92jG4qTpfvRgeq8GUl+qkxA2f//////////////vzz5Ebb5M2+TmT2yG0ISCITjFAEF+RWt/morE1LLHPYsACkCDJlFHJJBSQOmlipLzg3runCJNd4P2xEbex8jS16cc12jvpaJikyt9DNmmbr5YhkjW2VWZJnYmm3KuSRut1DEvMZqvGvGpfC9JEpNs3ooKqSHBXpUaMV8A1dNKBtKdJy2C2Txmk5IMp/MTc8C+6jIqaKxKjo9KbfyrCrVxTLFU5LrgV7I0RGJyQTJCqqY32rk2gsX+s9XrnkIzMcbuzFroQgUMW3JWyn0ojTWmd3unUQ996yjDl31ACVC6aHgw2QIkj+0re/ZAF7N5ZrZcBF7UR24X+SdtHTyrupfZfYr+FQtpi+D4jxJLkx12pTBjaRYahS6hNcuRU/CNnB+7/oqxAXF3JWsF/5WUxRyZGdUUMespZ6CUidXEqqEbyhVFriqtpLROZfPfCS8PQtZPqQz2CwnPb2bK4nZ1TxOd0arHM2OSH+XxXTSzykYJzF/xmr2wnd9WQ5LumR4wWLewTa1KbWJFblLgRWrA71Nm6qqKgon/AZ7a/5qfGzgx0aHFYt+D/t3czVXXFAnLHz6jo3H8/EAhgwjnsOSN0KWSmWHOf3v6Q9INiAhh7YGYnwg8cKTbeUg6EbCHunrmSwfUCJl6Wk9tm7AAlej7xZ9yE5ox28D64FVu0WTzOvakTAhrdHpjd339iiO1o5Zsh1QUj6rrKX0m+TdufWaPGlXdPA8VukDO37A8wSf8AseZxAWux3/qG+1r5mHC8F/oRhIdrsYY7Fm//IbQngNN3bPbwghhcS+8/cN32OM21FkRe7asHLh/JfC5ywqPVC/xSe8hjuF+/XWaMHf9vcdXakc0ZS+Inl8kvz8NQibKZ/kuqaH1TjLz8xuNJJ/XPBUrEARIPy+Zwe1klkLH6Wta3b33s+oZLWjFqhSB1QNJLPkys/AlvgTP+GIrfHAvM3fErf4J3/FF/r+UWTz9INOJn1++6ol4",
+  "secs": 0.3
  }
 ]
