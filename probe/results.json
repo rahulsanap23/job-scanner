@@ -1,6 +1,51 @@
 [
  {
-  "name": "unify_atlascopco",
+  "name": "unify_ac_noloc",
+  "url": "https://www.jobs.atlascopcogroup.com/services/recruiting/v1/jobs",
+  "method": "POST",
+  "status": 200,
+  "final_url": "https://www.jobs.atlascopcogroup.com/services/recruiting/v1/jobs",
+  "ctype": "application/json",
+  "length": 3463,
+  "json_shape": {
+   "jobSearchResult": [
+    10,
+    {
+     "response": {
+      "unifiedStandardEnd": "...",
+      "supportedLocales": "...",
+      "filter1": "...",
+      "unifiedUrlTitle": "...",
+      "unifiedStandardStart": "...",
+      "currency": "...",
+      "filter2": "...",
+      "id": "...",
+      "unifiedStandardTitle": "...",
+      "urlTitle": "..."
+     }
+    }
+   ],
+   "totalJobs": 1032
+  },
+  "snippet": "{\"jobSearchResult\":[{\"response\":{\"unifiedStandardEnd\":\"10/31/26\",\"supportedLocales\":[\"en_US\"],\"filter1\":[\"Atlas Copco Group\"],\"unifiedUrlTitle\":\"Data-Engineer\",\"unifiedStandardStart\":\"10/15/26\",\"currency\":[\"INR\"],\"filter2\":[\"Supply Chain/Logistics\"],\"id\":\"168787\",\"unifiedStandardTitle\":\"Data Engineer\",\"urlTitle\":\"Data-Engineer\"}},{\"response\":{\"supportedLocales\":[\"en_US\"],\"filter1\":[\"Atlas Copco Group\"],\"unifiedUrlTitle\":\"Data-Engineer\",\"unifiedStandardStart\":\"9/15/26\",\"currency\":[\"EUR\"],\"filter2\":[\"Engineering\"],\"id\":\"167676\",\"unifiedStandardTitle\":\"Data Engineer\",\"urlTitle\":\"Data-Engineer\"}},{\"response\":{\"supportedLocales\":[\"en_US\"],\"filter1\":[\"Atlas Copco Group\"],\"unifiedUrlTitle\":\"Cloud-&amp;-Data-engineer\",\"unifiedStandardStart\":\"10/5/26\",\"currency\":[\"EUR\"],\"filter2\":[\"Information Technology\"],\"id\":\"173406\",\"unifiedStandardTitle\":\"Cloud & Data engineer\",\"urlTitle\":\"Cloud-&amp;-Data-engineer\"}},{\"response\":{\"supportedLocales\":[\"en_US\"],\"filter1\":[\"Edwards\"],\"unifiedUrlTitle\":\"Data-Management-Engineer\",\"unifiedStandardStart\":\"9/27/26\",\"currency\":[\"USD\"],\"filter2\":[\"Manufacturing\"],\"id\":\"174333\",\"unifiedStandardTitle\":\"Data Management Engineer\",\"urlTitle\":\"Data-Management-Engineer\"}},{\"response\":{\"unifiedStandardEnd\":\"11/12/26\",\"supportedLocales\":[\"en_US\"],\"filter1\":[\"Edwards\"],\"unifiedUrlTitle\":\"Quality-Data-Analyst\",\"unifiedStandardStart\":\"10/14/26\",\"currency\":[\"GBP\"],\"filter2\":[\"Quality\"],\"id\":\"174466\",\"unifiedStandardTitle\":\"Quality Data Analyst\",\"urlTitle\":\"Quality-Data",
+  "secs": 1.3
+ },
+ {
+  "name": "unify_ac_pune",
+  "url": "https://www.jobs.atlascopcogroup.com/services/recruiting/v1/jobs",
+  "method": "POST",
+  "status": 200,
+  "final_url": "https://www.jobs.atlascopcogroup.com/services/recruiting/v1/jobs",
+  "ctype": "application/json",
+  "length": 15,
+  "json_shape": {
+   "totalJobs": 0
+  },
+  "snippet": "{\"totalJobs\":0}",
+  "secs": 1.15
+ },
+ {
+  "name": "unify_ac_ind",
   "url": "https://www.jobs.atlascopcogroup.com/services/recruiting/v1/jobs",
   "method": "POST",
   "status": 200,
@@ -30,62 +75,18 @@
    "totalJobs": 1
   },
   "snippet": "{\"jobSearchResult\":[{\"response\":{\"jobLocationShort\":[\"Brno, CZE, 63900<br/>\",\"Chinchwad, MH, IND, 411026<br/>\"],\"supportedLocales\":[\"en_US\"],\"jobLocationCountry\":[\"Czech Republic\",\"India\"],\"filter1\":[\"Atlas Copco Group\"],\"filter2\":[\"Human Resources\"],\"jobLocationShortWithCoordinates\":[{\"value\":\"Chinchwad, MH, IND, 411026<br/>\",\"key\":\"18.6374972,73.8360251\"},{\"value\":\"Brno, CZE, 63900<br/>\",\"key\":\"49.1820152,16.6059191\"}],\"unifiedUrlTitle\":\"HR-Data-Analytics-&amp;-Digital-Solutions-Analyst\",\"unifiedStandardStart\":\"10/27/26\",\"currency\":[\"CZK\"],\"id\":\"176091\",\"unifiedStandardTitle\":\"HR Data Analytics & Digital Solutions Analyst\",\"urlTitle\":\"HR-Data-Analytics-&amp;-Digital-Solutions-Analyst\"}}],\"totalJobs\":1}",
-  "secs": 1.23
+  "secs": 1.14
  },
  {
-  "name": "ora_dnv",
-  "url": "https://ecyq.fa.em2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs;siteNumber=CX_1,facetsList=LOCATIONS,limit=5,keyword=\"data\"",
+  "name": "csb_ac_de",
+  "url": "https://www.jobs.atlascopcogroup.com/search/?q=data+engineer",
   "method": "GET",
   "status": 200,
-  "final_url": "https://ecyq.fa.em2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs;siteNumber=CX_1,facetsList=LOCATIONS,limit=5,keyword=%22data%22",
-  "ctype": "application/json",
-  "length": 3197,
-  "json_shape": {
-   "items": [
-    1,
-    {
-     "SearchId": 1,
-     "Keyword": "data",
-     "CorrectedKeyword": null,
-     "UseExactKeywordFlag": false,
-     "SuggestedKeyword": null,
-     "ExecuteSpellCheckFlag": true,
-     "Location": null,
-     "LocationId": null,
-     "Radius": 0,
-     "RadiusUnit": "MI",
-     "SelectedTitlesFacet": null,
-     "SelectedCategoriesFacet": null,
-     "SelectedPostingDatesFacet": null,
-     "SelectedLocationsFacet": null,
-     "LastSelectedFacet": null,
-     "Facets": "LOCATIONS",
-     "Offset": 0,
-     "Limit": 5,
-     "SortBy": "RELEVANCY",
-     "TotalJobsCount": 88,
-     "Latitude": null,
-     "Longitude": null,
-     "SiteNumber": "CX_1",
-     "JobFamilyId": null,
-     "PostingStartDate": null
-    }
-   ],
-   "count": 1,
-   "hasMore": false,
-   "limit": 200,
-   "offset": 0,
-   "links": [
-    3,
-    {
-     "rel": "self",
-     "href": "https://ecyq.fa.em2.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/recruit",
-     "name": "recruitingCEJobRequisitions",
-     "kind": "collection"
-    }
-   ]
-  },
-  "snippet": "{\n  \"items\" : [ {\n    \"SearchId\" : 1,\n    \"Keyword\" : \"data\",\n    \"CorrectedKeyword\" : null,\n    \"UseExactKeywordFlag\" : false,\n    \"SuggestedKeyword\" : null,\n    \"ExecuteSpellCheckFlag\" : true,\n    \"Location\" : null,\n    \"LocationId\" : null,\n    \"Radius\" : 0,\n    \"RadiusUnit\" : \"MI\",\n    \"SelectedTitlesFacet\" : null,\n    \"SelectedCategoriesFacet\" : null,\n    \"SelectedPostingDatesFacet\" : null,\n    \"SelectedLocationsFacet\" : null,\n    \"LastSelectedFacet\" : null,\n    \"Facets\" : \"LOCATIONS\",\n    \"Offset\" : 0,\n    \"Limit\" : 5,\n    \"SortBy\" : \"RELEVANCY\",\n    \"TotalJobsCount\" : 88,\n    \"Latitude\" : null,\n    \"Longitude\" : null,\n    \"SiteNumber\" : \"CX_1\",\n    \"JobFamilyId\" : null,\n    \"PostingStartDate\" : null,\n    \"PostingEndDate\" : null,\n    \"SelectedWorkLocationsFacet\" : null,\n    \"RequisitionId\" : null,\n    \"CandidateNumber\" : null,\n    \"WorkLocationZipCode\" : null,\n    \"WorkLocationCountryCode\" : null,\n    \"SelectedFlexFieldsFacets\" : null,\n    \"OrganizationId\" : null,\n    \"SelectedOrganizationsFacet\" : null,\n    \"UserTargetFacetName\" : null,\n    \"UserTargetFacetInputTerm\" : null,\n    \"HotJobFlag\" : null,\n    \"WorkplaceType\" : null,\n    \"SelectedWorkplaceTypesFacet\" : null,\n    \"BotQRShortCode\" : null,\n    \"categoriesFacet\" : [ ],\n    \"locationsFacet\" : [ {\n      \"Id\" : 300000000345520,\n      \"Name\" : \"United States\",\n      \"TotalCount\" : 12\n    }, {\n      \"Id\" : 300000000345142,\n      \"Name\" : \"India\",\n      \"TotalCount\" : 12\n    }, {\n      \"Id\" : 300000004231044,\n      \"Nam",
-  "secs": 0.96
+  "final_url": "https://www.jobs.atlascopcogroup.com/search/?q=data+engineer",
+  "ctype": "text/html;charset=UTF-8",
+  "length": 104033,
+  "html_title": "Data Engineer - Search Jobs | Atlas Copco Group",
+  "snippet": "<!DOCTYPE html>\n<html class=\"html5\" xml:lang=\"en-US\" lang=\"en-US\" xmlns=\"http://www.w3.org/1999/xhtml\">\n\n        <head>\n            <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\" />\n            <meta http-equiv=\"Content-Type\" content=\"text/html;charset=UTF-8\" />\n            <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n                <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n                        <link type=\"text/css\" class=\"keepscript\" rel=\"stylesheet\" href=\"https://www.jobs.atlascopcogroup.com/platform/bootstrap/3.4.8_NES/css/bootstrap.min.css\" />\n                            <link type=\"text/css\" rel=\"stylesheet\" href=\"/platform/css/j2w/min/bootstrapV3.global.responsive.min.css?h=275f70e9\" />\n                \n                <script type=\"text/javascript\" src=\"/platform/js/j2w/j2w.fallbacks.js\"></script>\n                \n                \n                <script type=\"text/javascript\" src=\"https://performancemanager5.successfactors.eu/verp/vmod_v1/ui/extlib/jquery_3.5.1/jquery.js\" onerror=\"loadFallbacks('/platform/js/jquery/jquery-3.5.1.min.js', '/platform/js/jquery/jquery-migrate-3.1.0.min.js')\"></script>\n                <script type=\"text/javascript\" src=\"https://performancemanager5.successfactors.eu/verp/vmod_v1/ui/extlib/jquery_3.5.1/jquery-migrate.js\"></script>\n            <script type=\"text/javascript\" src=\"/platform/js/jquery/jquery-migrate-1.4.1.js\"></script>\n                    <title>Data Engi",
+  "secs": 1.33
  }
 ]
