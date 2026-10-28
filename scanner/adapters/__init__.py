@@ -8,7 +8,7 @@ Adapters narrow the search server-side where the platform allows it (keyword
 search, India filter); the shared filters in scanner/filters.py do the rest.
 """
 from . import (amazon, ashby, atlassian, avature, csb, csb_rss, csb_unify, eightfold, goldman, greenhouse,
-               jibe, jobsyn, jobvite, lever, oracle, phenom, smartrecruiters, visa, workable, workday)
+               jazzhr, jibe, jobsyn, jobvite, kula, lever, oracle, phenom, smartrecruiters, visa, workable, workday)
 
 ADAPTERS = {
     "workday": workday.scan,
@@ -31,6 +31,8 @@ ADAPTERS = {
     "workable": workable.scan,
     "csb_rss": csb_rss.scan,
     "visa": visa.scan,
+    "kula": kula.scan,
+    "jazzhr": jazzhr.scan,
 }
 
 # Search terms for platforms that need a keyword. "data" catches most titles;
