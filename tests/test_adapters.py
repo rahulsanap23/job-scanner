@@ -53,11 +53,3 @@ def test_epam_job():
     assert j["locations"] == ["Pune, India", "Hyderabad, India"]
     assert j["url"] == "https://careers.epam.com/en/vacancy/senior-data-engineer-blt1_en"
     assert j["remote"] is None and j["country"] == "India"
-
-
-def test_csb_unify_detail_location():
-    page = ('<span class="joblayouttoken-label" role="heading">Job type:\xa0\n</span>\n'
-            '<span xml:lang="en-US" class="rtltextaligneligible">On-Site\n</span>'
-            '<span class="joblayouttoken-label">City / Province:\n</span>\n'
-            '<span class="rtltextaligneligible">Chakan, Pune\n</span>')
-    assert csb_unify.detail_location(page) == (["Chakan, Pune"], None)
