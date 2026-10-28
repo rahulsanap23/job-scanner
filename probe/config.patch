@@ -1,126 +1,20 @@
 diff --git a/config/companies.yaml b/config/companies.yaml
-index 2afbf51..b0a014b 100644
+index b0a014b..3097f40 100644
 --- a/config/companies.yaml
 +++ b/config/companies.yaml
-@@ -568,9 +568,10 @@ companies:
-     tenant: godirect
-     site: voya_jobs
- - name: Fanatics
--  sources: []
--  careers_url: https://www.fanaticsinc.com/careers
--  note: no public job feed found
-+  sources:
-+  - type: greenhouse
-+    token: fanaticsinc
-+  careers_url: https://job-boards.greenhouse.io/fanaticsinc
- - name: Dassault Systèmes
-   aliases:
-   - Dassault Systemes
-@@ -695,9 +696,10 @@ companies:
-     tenant: cohesity
-     site: Cohesity_Careers
- - name: First Advantage
--  sources: []
--  careers_url: https://fadv.com/careers/
--  note: no public job feed found
-+  sources:
-+  - type: jazzhr
-+    account: firstadvantage
-+  careers_url: https://firstadvantage.applytojob.com/apply
- - name: Rubrik
-   sources:
-   - type: greenhouse
-@@ -829,9 +831,10 @@ companies:
-     base: https://jobs.chargebee.com
-     locale: en_US
- - name: CleverTap
--  sources: []
--  careers_url: https://clevertap.darwinbox.in/ms/candidate/careers
--  note: Darwinbox site, no public feed
-+  sources:
-+  - type: kula
-+    slug: clevertap
-+  careers_url: https://careers.kula.ai/clevertap
- - name: Sciative
-   aliases:
-   - Sciative Solutions
-@@ -844,7 +847,8 @@ companies:
-   - Arctera
-   sources: []
-   careers_url: https://www.veritas.com/company/careers
--  note: business merged into Cohesity; check by hand
-+  note: data-protection business merged into Cohesity (scanned as its own company); Arctera, the other
-+    Veritas spin-off, has no public job feed
- - name: DDN
-   sources:
-   - type: ashby
-@@ -874,9 +878,12 @@ companies:
-   - type: smartrecruiters
-     company_id: Ubisoft2
- - name: Amadeus
--  sources: []
--  careers_url: https://amadeus.com/en/careers
--  note: no public job feed found
-+  sources:
-+  - type: workday
-+    host: amadeus.wd502.myworkdayjobs.com
-+    tenant: amadeus
-+    site: jobs
-+  careers_url: https://amadeus.wd502.myworkdayjobs.com/jobs
- - name: TomTom
-   sources:
-   - type: lever
-@@ -891,9 +898,10 @@ companies:
- - name: HERE Technologies
-   aliases:
-   - HERE
--  sources: []
--  careers_url: https://careers-here.icims.com/jobs/search?ss=1
--  note: iCIMS site blocks automated access
-+  sources:
-+  - type: jibe
-+    base: https://careers.here.com
-+  careers_url: https://careers.here.com/jobs?location=India
- - name: Philips
-   sources:
-   - type: workday
-@@ -992,9 +1000,11 @@ companies:
+@@ -1000,11 +1000,10 @@ companies:
    careers_url: https://www.mitsubishielectric.in/careers
    note: no public job feed found
  - name: Atlas Copco
--  sources: []
--  careers_url: https://www.atlascopcogroup.com/en/careers
--  note: no public job feed found
-+  sources:
-+  - type: csb_unify
-+    base: https://www.jobs.atlascopcogroup.com
-+    locale: en_US
-+  careers_url: https://www.jobs.atlascopcogroup.com/search/?locationsearch=India
+-  sources:
+-  - type: csb_unify
+-    base: https://www.jobs.atlascopcogroup.com
+-    locale: en_US
+-  careers_url: https://www.jobs.atlascopcogroup.com/search/?locationsearch=India
++  sources: []
++  careers_url: https://www.jobs.atlascopcogroup.com/search/?q=data
++  note: SuccessFactors Unify site (www.jobs.atlascopcogroup.com) leaves most jobs' location out of its
++    search results, so India roles can't be picked out; LinkedIn covers it
  - name: Sandvik
    sources:
    - type: workday
-@@ -1011,15 +1021,18 @@ companies:
-     base: https://jobs.tetrapak.com
-     locale: en_GB
- - name: DNV
--  sources: []
--  careers_url: https://www.dnv.com/careers/
--  note: no public job feed found
-+  sources:
-+  - type: oracle
-+    host: ecyq.fa.em2.oraclecloud.com
-+    site: CX_1
-+  careers_url: https://jobs.dnv.com/locations/india
- - name: Wärtsilä
-   aliases:
-   - Wartsila
--  sources: []
--  careers_url: https://www.wartsila.com/careers
--  note: no public job feed found
-+  sources:
-+  - type: csb
-+    base: https://careers.wartsila.com
-+  careers_url: https://careers.wartsila.com/search/?locationsearch=India
- - name: FORVIA
-   aliases:
-   - Faurecia
