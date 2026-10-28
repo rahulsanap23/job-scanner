@@ -1,6 +1,27 @@
 """Newer SuccessFactors Career Site Builder sites that load results from
 /services/recruiting/v1/jobs (e.g. jobs.standardchartered.com, jobs.tetrapak.com)."""
+import re
+
 MAX_PAGES_PER_TERM = 10
+
+
+def _date(start, locale):
+    """unifiedStandardStart follows the site locale: dd/mm/yyyy (en_GB) or m/d/yy (en_US)."""
+    parts = (start or "").split("/")
+    if len(parts) != 3 or not all(p.strip().isdigit() for p in parts):
+        return None
+    a, b, y = (int(p) for p in parts)
+    if y < 100:
+        y += 2000
+    month_first = locale.lower().startswith("en_us")
+    if a > 12:
+        month_first = False
+    elif b > 12:
+        month_first = True
+    d, m = (b, a) if month_first else (a, b)
+    if not (1 <= m <= 12 and 1 <= d <= 31):
+        return None
+    return f"{y:04d}-{m:02d}-{d:02d}"
 
 
 def scan(src, http):
@@ -23,13 +44,9 @@ def scan(src, http):
     jobs = []
     for jid, r in seen.items():
         slug = r.get("urlTitle") or r.get("unifiedUrlTitle") or "job"
-        start = r.get("unifiedStandardStart")  # dd/mm/yyyy
-        posted = None
-        if start and len(start.split("/")) == 3:
-            d, m, y = start.split("/")
-            posted = f"{y}-{m.zfill(2)}-{d.zfill(2)}"
+        posted = _date(r.get("unifiedStandardStart"), locale)
         jobs.append({"id": jid, "title": r.get("unifiedStandardTitle", ""),
-                     "locations": [l.strip() for l in r.get("jobLocationShort") or []],
+                     "locations": [re.sub(r"<[^>]+>", " ", l).strip() for l in r.get("jobLocationShort") or []],
                      "url": f"{base}/job/{slug}/{jid}-{locale}/",
                      "posted": posted, "remote": None,
                      "country": (r.get("jobLocationCountry") or [None])[0]})
