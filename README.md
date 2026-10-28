@@ -17,6 +17,7 @@ Scheduled Claude task (weekdays 8 AM + 4 PM IST)       ──reads──▶  rev
 | `scanner/filters.py` | Title, location and recency rules (Part 1 of the prompt) |
 | `scanner/adapters/` | One reader per careers platform (Workday, Greenhouse, Lever, Ashby, Oracle, Eightfold, SuccessFactors, Avature, …) |
 | `scanner/linkedin.py` | Fallback for companies whose own site gave nothing: LinkedIn's public job search, matched by company name |
+| `scanner/linkedin_refresh.py`, `.github/workflows/linkedin-refresh.yml` | Searches LinkedIn for ~8 of those companies every 2 hours and keeps `data/linkedin_cache.json` fresh for the next scan |
 | `scanner/board.py`, `board/template.html` | Builds the job-board page (Parts 2–3 of the prompt) |
 | `prompt/job_board_prompt.md` | The full spec: sources, filters, page structure, design |
 | `data/jobs.json` | Today's matching roles (with `new` and `flags`) |

@@ -3,8 +3,13 @@
 Uses LinkedIn's public, logged-out job search (the same results anyone sees without
 signing in). One search per company, two pages at most, paced, and it stops at the
 first sign of rate limiting. No LinkedIn account is involved.
+
+Results are kept per company in data/linkedin_cache.json. The linkedin-refresh workflow
+(scanner/linkedin_refresh.py) fills it in small batches through the day; the daily scan
+reads it and only searches companies the cache hasn't covered in the last FRESH_HOURS.
 """
 import html
+import json
 import random
 import re
 import time
@@ -18,6 +23,7 @@ PAUSE_SECS = 4.0   # plus up to 4 s of jitter between requests
 BACKOFF = (30, 90)  # waits before retrying a 429; then give up for this run
 PAGES = 1          # 10 results per page; the search is limited to Maharashtra, so one page is enough
 CACHE_DAYS = 4     # companies LinkedIn didn't let us check this run reuse results this recent
+FRESH_HOURS = 24   # a company checked this recently isn't searched again by the daily scan
 TIME_BUDGET = 600  # seconds; the rest of the companies wait for the next run
 CARD = re.compile(r"<li>(.*?)</li>", re.S)
 FILLER = {"india", "pvt", "private", "ltd", "limited", "inc", "llc", "plc", "corp", "corporation", "co",
@@ -132,25 +138,55 @@ def scan_targets(targets, http, log=print):
     return found, checked, f"searched {done} companies"
 
 
-def run_fallback(targets, http, cache_path, now):
-    """Search LinkedIn for `targets`, least recently checked first, and fill gaps from the cache.
-
-    LinkedIn usually stops answering after a dozen or so searches from one machine, so each
-    run checks as many companies as it can and older results (up to CACHE_DAYS) cover the rest.
-    Returns ({name: [raw jobs]}, {name: checked_at iso}, note).
-    """
-    import json
-    from datetime import datetime, timedelta
+def load_cache(path):
     try:
-        with open(cache_path, encoding="utf-8") as f:
+        with open(path, encoding="utf-8") as f:
             cache = json.load(f)
+        return cache if isinstance(cache, dict) else {}
     except (FileNotFoundError, ValueError):
-        cache = {}
-    order = sorted(targets, key=lambda c: (cache.get(c["name"]) or {}).get("checked_at", ""))
-    found, checked, note = scan_targets(order, http)
+        return {}
+
+
+def save_cache(path, cache):
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(dict(sorted(cache.items())), f, indent=0, ensure_ascii=False)
+
+
+def merge_caches(*caches):
+    """Per company, keep the most recently checked entry (so two writers never lose each other's work)."""
+    out = {}
+    for cache in caches:
+        for name, entry in (cache or {}).items():
+            if not isinstance(entry, dict):
+                continue
+            if name not in out or entry.get("checked_at", "") > out[name].get("checked_at", ""):
+                out[name] = entry
+    return out
+
+
+def record(cache, found, checked, now):
     stamp = now.isoformat(timespec="seconds")
     for name in checked:
         cache[name] = {"checked_at": stamp, "jobs": found.get(name) or []}
+    return cache
+
+
+def run_fallback(targets, http, cache_path, now):
+    """Fill LinkedIn results for `targets` from the cache, searching only companies it hasn't covered lately.
+
+    The refresh workflow normally keeps every company checked within FRESH_HOURS, so this
+    usually searches few or none. Companies LinkedIn didn't let us check reuse results up to
+    CACHE_DAYS old. Returns ({name: [raw jobs]}, {name: checked_at iso}, note).
+    """
+    from datetime import timedelta
+    cache = load_cache(cache_path)
+    fresh = (now - timedelta(hours=FRESH_HOURS)).isoformat(timespec="seconds")
+    stale = [c for c in targets if (cache.get(c["name"]) or {}).get("checked_at", "") < fresh]
+    stale.sort(key=lambda c: (cache.get(c["name"]) or {}).get("checked_at", ""))
+    run_note = "searched 0 companies"
+    if stale:
+        found, checked, run_note = scan_targets(stale, http)
+        record(cache, found, checked, now)
     cutoff = (now - timedelta(days=CACHE_DAYS)).isoformat(timespec="seconds")
     results, when = {}, {}
     for c in targets:
@@ -159,7 +195,17 @@ def run_fallback(targets, http, cache_path, now):
             results[c["name"]] = entry.get("jobs") or []
             when[c["name"]] = entry["checked_at"]
     live = {c["name"] for c in targets}
-    cache = {k: v for k, v in cache.items() if k in live and v.get("checked_at", "") >= cutoff}
-    with open(cache_path, "w", encoding="utf-8") as f:
-        json.dump(cache, f, indent=0, ensure_ascii=False)
-    return results, when, f"{note}; {len(when)} of {len(targets)} companies have LinkedIn results from the last {CACHE_DAYS} days"
+    save_cache(cache_path, {k: v for k, v in cache.items() if k in live and v.get("checked_at", "") >= cutoff})
+    return results, when, coverage_note(targets, cache, now, run_note)
+
+
+def coverage_note(targets, cache, now, run_note):
+    """e.g. '45 of 45 companies checked in the last 24 h (this scan: searched 0 companies)'."""
+    from datetime import timedelta
+    fresh = (now - timedelta(hours=FRESH_HOURS)).isoformat(timespec="seconds")
+    missing = [c["name"] for c in targets if (cache.get(c["name"]) or {}).get("checked_at", "") < fresh]
+    note = f"{len(targets) - len(missing)} of {len(targets)} companies checked in the last {FRESH_HOURS} h"
+    if missing:
+        more = f" and {len(missing) - 8} more" if len(missing) > 8 else ""
+        note += f"; not checked in {FRESH_HOURS} h: {', '.join(missing[:8])}{more}"
+    return f"{note} (this scan: {run_note})"
