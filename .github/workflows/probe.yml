@@ -2,7 +2,6 @@ name: probe-endpoints
 
 # Maintenance helper: checks careers endpoints listed in probe/targets.json.
 # Runs when that file changes on the "probe" branch, or manually.
-# (Temporary: applies probe/config.patch to the careers-feeds branch.)
 on:
   push:
     branches: [probe]
@@ -18,19 +17,22 @@ jobs:
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
-          fetch-depth: 0
-      - name: Apply config patch to careers-feeds
+          python-version: "3.12"
+      - run: pip install requests
+      - run: python probe/probe.py
+      - name: Commit results
         run: |
-          set -x
           git config user.name "github-actions[bot]"
           git config user.email "41898900+github-actions[bot]@users.noreply.github.com"
-          cp probe/config.patch /tmp/config.patch
-          git checkout -q -b cf origin/careers-feeds
-          git apply /tmp/config.patch
-          git add config/companies.yaml
-          git commit -q -m "config: keep Atlas Copco on LinkedIn" \
-            -m "Its SuccessFactors Unify search leaves most jobs' location out, so India roles can't be picked out." \
-            -m "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>" \
-            -m "Claude-Session: https://claude.ai/code/session_017KkaAYsDqiCZ28PwRQhbtn"
-          git push origin HEAD:careers-feeds
+          git add probe/results.json probe/out || true
+          git commit -q -m "probe results [skip ci]" || exit 0
+          if ! out=$(git push 2>&1); then
+            echo "::warning title=push failed, retrying without page copies::$(echo "$out" | tr '\n' ' ' | cut -c1-600)"
+            git reset -q --soft HEAD~1 && git reset -q
+            rm -rf probe/out
+            python -c "import json;p='probe/results.json';r=json.load(open(p));[x.pop('snippet',None) for x in r];json.dump(r,open(p,'w'),indent=1)"
+            git add probe/results.json && git commit -q -m "probe results (no page copies) [skip ci]"
+            git push
+          fi
