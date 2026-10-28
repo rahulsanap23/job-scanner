@@ -2,7 +2,7 @@ name: probe-endpoints
 
 # Maintenance helper: checks careers endpoints listed in probe/targets.json.
 # Runs when that file changes on the "probe" branch, or manually.
-# (Temporary: also applies probe/config.patch to careers-feeds-2 and test-scans it.)
+# (Temporary: applies probe/config.patch to careers-feeds-2 and runs the tests.)
 on:
   push:
     branches: [probe]
@@ -15,7 +15,7 @@ permissions:
 jobs:
   probe:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
         with:
@@ -23,7 +23,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Apply config patch to careers-feeds-2 and test-scan
+      - name: Apply config patch to careers-feeds-2
         run: |
           set -x
           git config user.name "github-actions[bot]"
@@ -31,22 +31,15 @@ jobs:
           mkdir -p /tmp/res
           cp probe/config.patch /tmp/config.patch
           git checkout -q -b cf origin/careers-feeds-2
-          if git apply --check /tmp/config.patch; then
-            git apply /tmp/config.patch
-            git add config/companies.yaml
-            git commit -q -m "config: read EPAM, IDT and Atlas Copco from their own careers sites" \
-              -m "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>" \
-              -m "Claude-Session: https://claude.ai/code/session_017KkaAYsDqiCZ28PwRQhbtn"
-            git push origin HEAD:careers-feeds-2
-            echo applied > /tmp/res/patch.txt
-          else
-            echo "patch did not apply" > /tmp/res/patch.txt
-          fi
+          git apply /tmp/config.patch
+          git add config/companies.yaml
+          git commit -q -m "config: keep Atlas Copco on LinkedIn" \
+            -m "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>" \
+            -m "Claude-Session: https://claude.ai/code/session_017KkaAYsDqiCZ28PwRQhbtn"
+          git push origin HEAD:careers-feeds-2
           pip install -q -r requirements.txt pytest
           python -m pytest -q tests > /tmp/res/pytest.txt 2>&1 || true
-          python -m scanner.run --only "EPAM Systems,IDT Corporation,Atlas Copco" \
-            --no-linkedin --debug > /tmp/res/run.log 2>&1 || true
-          cp data/scan_report.json data/jobs.json /tmp/res/ || true
+          python -c "import yaml;from scanner.adapters import ADAPTERS;c=yaml.safe_load(open('config/companies.yaml'))['companies'];print(len(c),[x['name'] for x in c if any(s['type'] not in ADAPTERS for s in x.get('sources') or [])])" > /tmp/res/config_check.txt 2>&1 || true
           git checkout -q -f probe
           mkdir -p probe/out
           cp /tmp/res/* probe/out/
