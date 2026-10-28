@@ -1,0 +1,33 @@
+UBS                          not scanned fetched=   0 matched=  0 
+Jefferies                    not scanned fetched=   0 matched=  0 
+Tesla                        not scanned fetched=   0 matched=  0 
+Postman                      not scanned fetched=   0 matched=  0 
+Nykaa                        not scanned fetched=   0 matched=  0 
+LinkedIn: 5 of 5 companies checked in the last 24 h (this scan: searched 0 companies); 2 roles
+{
+ "generated_at": "2026-10-28T03:56:20+00:00",
+ "date": "2026-10-28",
+ "recency_days": 30,
+ "companies_total": 5,
+ "companies_scanned_ok": 0,
+ "companies_failed": [],
+ "companies_not_scanned": [
+  "Jefferies",
+  "Nykaa",
+  "Postman",
+  "Tesla",
+  "UBS"
+ ],
+ "jobs": 2,
+ "companies_with_jobs": 2,
+ "uncertain": 0,
+ "fresh": 0,
+ "linkedin": "5 of 5 companies checked in the last 24 h (this scan: searched 0 companies)",
+ "companies_checked_on_linkedin": [
+  "Jefferies",
+  "Nykaa",
+  "Postman",
+  "Tesla",
+  "UBS"
+ ]
+}
