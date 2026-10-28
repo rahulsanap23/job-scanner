@@ -1,92 +1,634 @@
 [
  {
-  "name": "unify_ac_noloc",
-  "url": "https://www.jobs.atlascopcogroup.com/services/recruiting/v1/jobs",
-  "method": "POST",
-  "status": 200,
-  "final_url": "https://www.jobs.atlascopcogroup.com/services/recruiting/v1/jobs",
-  "ctype": "application/json",
-  "length": 3463,
-  "json_shape": {
-   "jobSearchResult": [
-    10,
-    {
-     "response": {
-      "unifiedStandardEnd": "...",
-      "supportedLocales": "...",
-      "filter1": "...",
-      "unifiedUrlTitle": "...",
-      "unifiedStandardStart": "...",
-      "currency": "...",
-      "filter2": "...",
-      "id": "...",
-      "unifiedStandardTitle": "...",
-      "urlTitle": "..."
-     }
-    }
-   ],
-   "totalJobs": 1032
-  },
-  "snippet": "{\"jobSearchResult\":[{\"response\":{\"unifiedStandardEnd\":\"10/31/26\",\"supportedLocales\":[\"en_US\"],\"filter1\":[\"Atlas Copco Group\"],\"unifiedUrlTitle\":\"Data-Engineer\",\"unifiedStandardStart\":\"10/15/26\",\"currency\":[\"INR\"],\"filter2\":[\"Supply Chain/Logistics\"],\"id\":\"168787\",\"unifiedStandardTitle\":\"Data Engineer\",\"urlTitle\":\"Data-Engineer\"}},{\"response\":{\"supportedLocales\":[\"en_US\"],\"filter1\":[\"Atlas Copco Group\"],\"unifiedUrlTitle\":\"Data-Engineer\",\"unifiedStandardStart\":\"9/15/26\",\"currency\":[\"EUR\"],\"filter2\":[\"Engineering\"],\"id\":\"167676\",\"unifiedStandardTitle\":\"Data Engineer\",\"urlTitle\":\"Data-Engineer\"}},{\"response\":{\"supportedLocales\":[\"en_US\"],\"filter1\":[\"Atlas Copco Group\"],\"unifiedUrlTitle\":\"Cloud-&amp;-Data-engineer\",\"unifiedStandardStart\":\"10/5/26\",\"currency\":[\"EUR\"],\"filter2\":[\"Information Technology\"],\"id\":\"173406\",\"unifiedStandardTitle\":\"Cloud & Data engineer\",\"urlTitle\":\"Cloud-&amp;-Data-engineer\"}},{\"response\":{\"supportedLocales\":[\"en_US\"],\"filter1\":[\"Edwards\"],\"unifiedUrlTitle\":\"Data-Management-Engineer\",\"unifiedStandardStart\":\"9/27/26\",\"currency\":[\"USD\"],\"filter2\":[\"Manufacturing\"],\"id\":\"174333\",\"unifiedStandardTitle\":\"Data Management Engineer\",\"urlTitle\":\"Data-Management-Engineer\"}},{\"response\":{\"unifiedStandardEnd\":\"11/12/26\",\"supportedLocales\":[\"en_US\"],\"filter1\":[\"Edwards\"],\"unifiedUrlTitle\":\"Quality-Data-Analyst\",\"unifiedStandardStart\":\"10/14/26\",\"currency\":[\"GBP\"],\"filter2\":[\"Quality\"],\"id\":\"174466\",\"unifiedStandardTitle\":\"Quality Data Analyst\",\"urlTitle\":\"Quality-Data",
-  "secs": 1.3
- },
- {
-  "name": "unify_ac_pune",
-  "url": "https://www.jobs.atlascopcogroup.com/services/recruiting/v1/jobs",
-  "method": "POST",
-  "status": 200,
-  "final_url": "https://www.jobs.atlascopcogroup.com/services/recruiting/v1/jobs",
-  "ctype": "application/json",
-  "length": 15,
-  "json_shape": {
-   "totalJobs": 0
-  },
-  "snippet": "{\"totalJobs\":0}",
-  "secs": 1.15
- },
- {
-  "name": "unify_ac_ind",
-  "url": "https://www.jobs.atlascopcogroup.com/services/recruiting/v1/jobs",
-  "method": "POST",
-  "status": 200,
-  "final_url": "https://www.jobs.atlascopcogroup.com/services/recruiting/v1/jobs",
-  "ctype": "application/json",
-  "length": 713,
-  "json_shape": {
-   "jobSearchResult": [
-    1,
-    {
-     "response": {
-      "jobLocationShort": "...",
-      "supportedLocales": "...",
-      "jobLocationCountry": "...",
-      "filter1": "...",
-      "filter2": "...",
-      "jobLocationShortWithCoordinates": "...",
-      "unifiedUrlTitle": "...",
-      "unifiedStandardStart": "...",
-      "currency": "...",
-      "id": "...",
-      "unifiedStandardTitle": "...",
-      "urlTitle": "..."
-     }
-    }
-   ],
-   "totalJobs": 1
-  },
-  "snippet": "{\"jobSearchResult\":[{\"response\":{\"jobLocationShort\":[\"Brno, CZE, 63900<br/>\",\"Chinchwad, MH, IND, 411026<br/>\"],\"supportedLocales\":[\"en_US\"],\"jobLocationCountry\":[\"Czech Republic\",\"India\"],\"filter1\":[\"Atlas Copco Group\"],\"filter2\":[\"Human Resources\"],\"jobLocationShortWithCoordinates\":[{\"value\":\"Chinchwad, MH, IND, 411026<br/>\",\"key\":\"18.6374972,73.8360251\"},{\"value\":\"Brno, CZE, 63900<br/>\",\"key\":\"49.1820152,16.6059191\"}],\"unifiedUrlTitle\":\"HR-Data-Analytics-&amp;-Digital-Solutions-Analyst\",\"unifiedStandardStart\":\"10/27/26\",\"currency\":[\"CZK\"],\"id\":\"176091\",\"unifiedStandardTitle\":\"HR Data Analytics & Digital Solutions Analyst\",\"urlTitle\":\"HR-Data-Analytics-&amp;-Digital-Solutions-Analyst\"}}],\"totalJobs\":1}",
-  "secs": 1.14
- },
- {
-  "name": "csb_ac_de",
-  "url": "https://www.jobs.atlascopcogroup.com/search/?q=data+engineer",
+  "name": "skima_idx",
+  "url": "https://skima-careers-frontend.pages.dev/_astro/index.astro_astro_type_script_index_0_lang.CGHumnut.js",
   "method": "GET",
   "status": 200,
-  "final_url": "https://www.jobs.atlascopcogroup.com/search/?q=data+engineer",
+  "final_url": "https://skima-careers-frontend.pages.dev/_astro/index.astro_astro_type_script_index_0_lang.CGHumnut.js",
+  "ctype": "application/javascript",
+  "length": 1059,
+  "html_title": null,
+  "snippet": "import{d as i}from\"./debounceFunction.B5JpetLw.js\";const o=document.querySelector(\"#skima-search-jobs-input\");function m(t){const e=new URL(window.location.href).searchParams;e.delete(t);const n=e.toString(),r=n===\"\"?\"\":`?${n}`,c=`${window.location.pathname}${r}`;window.location.href=c}window.document.addEventListener(\"DOMContentLoaded\",()=>{document.querySelectorAll(\"[data-skima-job-listing-filter-tag-remove]\").forEach(a=>{a.addEventListener(\"click\",()=>{const e=a.dataset.skimaJobListingFilterTagRemove;e&&m(e)})})});const d=t=>{const e=new URL(window.location.href).searchParams;t?e.set(\"by_job_name\",t):e.delete(\"by_job_name\");const n=`${window.location.pathname}?${e.toString()}`;window.location.href=n},l=i(d,500);function h(){const e=new URL(window.location.href).searchParams.get(\"by_job_name\");e&&o&&(o.value=e)}h();o&&o.addEventListener(\"input\",t=>{const e=t.target.value?.trim()||void 0;l(e)});const s=document.getElementById(\"external-jobs-toggle\");s?.addEventListener(\"change\",()=>{const t=s.dataset.toggleHref;t&&(window.location.href=t)});\n",
+  "secs": 0.22
+ },
+ {
+  "name": "skima_client",
+  "url": "https://skima-careers-frontend.pages.dev/_astro/client.BbzZVBOJ.js",
+  "method": "GET",
+  "status": 200,
+  "final_url": "https://skima-careers-frontend.pages.dev/_astro/client.BbzZVBOJ.js",
+  "ctype": "application/javascript",
+  "length": 1868,
+  "html_title": null,
+  "snippet": "import{r as o}from\"./index.DgOxCJIz.js\";import{r as b}from\"./index.DUh_eYIC.js\";var s={},E;function g(){if(E)return s;E=1;var t=b();return s.createRoot=t.createRoot,s.hydrateRoot=t.hydrateRoot,s}var p=g();const v=({value:t,name:e,hydrate:r=!0})=>{if(!t)return null;const a=r?\"astro-slot\":\"astro-static-slot\";return o.createElement(a,{name:e,suppressHydrationWarning:!0,dangerouslySetInnerHTML:{__html:t}})};v.shouldComponentUpdate=()=>!1;var N=v;function C(t){for(const e in t)if(e.startsWith(\"__reactContainer\"))return e}function R(t){let e={};for(const r of t.attributes)e[r.name]=r.value;return t.firstChild===null?o.createElement(t.localName,e):o.createElement(t.localName,e,Array.from(t.childNodes).map(r=>r.nodeType===Node.TEXT_NODE?r.data:r.nodeType===Node.ELEMENT_NODE?R(r):void 0).filter(r=>!!r))}function O(t,e){if(e&&t){let r=[],a=document.createElement(\"template\");a.innerHTML=t;for(let u of a.content.children)r.push(R(u));return r}else return t?o.createElement(N,{value:t}):void 0}let y=new WeakMap;const h=(t,e)=>{let r=y.get(t);return r||(r=e(),y.set(t,r)),r};var H=t=>(e,r,{default:a,...u},{client:A})=>{if(!t.hasAttribute(\"ssr\"))return;const d=t.getAttribute(\"data-action-key\"),l=t.getAttribute(\"data-action-name\"),f=t.getAttribute(\"data-action-result\"),T=d&&l&&f?[JSON.parse(f),d,l]:void 0,_={identifierPrefix:t.getAttribute(\"prefix\"),formState:T};for(const[i,n]of Object.entries(u))r[i]=o.createElement(N,{value:n,name:i});const c=o.createElement(e,r,O(a,t.hasAttribute(\"data-reac",
+  "secs": 0.19
+ },
+ {
+  "name": "pp_sq_1041668727",
+  "url": "https://www.phonepe.com/page-data/sq/d/1041668727.json",
+  "method": "GET",
+  "status": 200,
+  "final_url": "https://www.phonepe.com/page-data/sq/d/1041668727.json",
+  "ctype": "application/json",
+  "length": 20713,
+  "json_shape": {
+   "data": {
+    "mobileHeroImage": {
+     "childImageSharp": {
+      "fluid": "..."
+     }
+    },
+    "irctcLogo": {
+     "childImageSharp": {
+      "fluid": "..."
+     }
+    },
+    "oyoLogo": {
+     "childImageSharp": {
+      "fluid": "..."
+     }
+    },
+    "airtelLogo": {
+     "childImageSharp": {
+      "fluid": "..."
+     }
+    },
+    "jarLogo": {
+     "childImageSharp": {
+      "fluid": "..."
+     }
+    },
+    "confirmtktLogo": {
+     "childImageSharp": {
+      "fluid": "..."
+     }
+    },
+    "pharmeasyLogo": {
+     "childImageSharp": {
+      "fluid": "..."
+     }
+    },
+    "joshTalksLogo": {
+     "childImageSharp": {
+      "fluid": "..."
+     }
+    },
+    "manMattersLogo": {
+     "childImageSharp": {
+      "fluid": "..."
+     }
+    },
+    "casheLogo": {
+     "childImageSharp": {
+      "fluid": "..."
+     }
+    },
+    "zoominLogo": {
+     "childImageSharp": {
+      "fluid": "..."
+     }
+    },
+    "bakingoLogo": {
+     "childImageSharp": {
+      "fluid": "..."
+     }
+    },
+    "winniLogo": {
+     "childImageSharp": {
+      "fluid": "..."
+     }
+    },
+    "branchLogo": {
+     "childImageSharp": {
+      "fluid": "..."
+     }
+    },
+    "hiscoreLogo": {
+     "childImageSharp": {
+      "fluid": "..."
+     }
+    },
+    "meeshoLogo": {
+     "childImageSharp": {
+      "fluid": "..."
+     }
+    },
+    "flowerAura": {
+     "childImageSharp": {
+      "fluid": "..."
+     }
+    }
+   }
+  },
+  "snippet": "{\"data\":{\"mobileHeroImage\":{\"childImageSharp\":{\"fluid\":{\"aspectRatio\":0.7117437722419929,\"base64\":\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAcCAYAAABh2p9gAAAACXBIWXMAABCcAAAQnAEmzTo0AAAHUklEQVR42pWWf1CT9x3Hn81Z61mdbW+3bu2dc1233lx36229dl2r1KprkfWm1g6UMTunwFGt4pROlEgSfoYkgELBWREoQgLKj3I4ixAIhEAIvylJniAJhJAAIcmTH8+TH8/z/ewbmLf9s+36vXvd5/n5et6f7/PcfR+C+BoDAL6xCo/3zVX+tU98LQkRuQnfrD25HhS8xzFPoH7eFmhP+zb0nt8MfeKNoC1fD3L5uv8rX0uAL+w7uxHGP3kSRoTPgpr/Agzwd4Am62eg4r0IQ4JtMJz1HRgVbYqI/6dsUs57jKw+tWX5S973vT2XdtAq3s6Amvceq+bHgpZ/BA3xD4JGsAc0/JdBlb4Np9/6X2TEWjIAPE//eArg9g6wlewHkzQZjCI+TOYWglZwFQaz8tEAPw2njkfKzF3QxX+BIEm0oY0kN0TqozmI1CrR3k1HYl59N+XIrqTs0+/wbmYeutEgjm9tvXpcbWpN1cBYtoqb4D8AMvM2zAiEyJxxFJbSXia05OzzqpmFbb0T5PNVo6Ob3ikq2hCR7vx11LmYGClEv3uJ3bf3KETtOgpvRSXA7rfz4PDv/hJ2KtMWoSFvMZibY2dyc/SspLgPpNdbiFbD3M67k7NvfKEzRl3Xm7f/TT3+XZxwXVTUgYr4hHtw9lx3iH+lB6WmtqPUM20oLrYFRf82DRmaToVBUMSFL1RBIKUYgsfFABcrgSibMh38VGd+/4Z+9nCh3vy2cIx8TQ3wg+j3Dje0NehgQmNlxydMMDFuhofTi7C0FICMi2IYl6UAZEuQL7EQUUn5yJEg5JY+FLKElLSmicm5jGydKV1smD9f8JUpuZpy7j8Qd+yBYXQBGDfNuj0rQFEucLtXIDJEuSWgvnUSIEcKntgscP9JCFgItvhMIPJ0c015pPXeTauvPV8/fyfnK/PN60sOXkzsCe0XzUNgMi9zep0NSIMdBjV6GBudhY9T+KCpTgLIxcKPS5A7rQQ5kkSc7UQOR1x7aJseXFxyzD7sZdvsK/MlpHWk1LbS9IePLpDD6inwe9zcitMNNM2sEhk5fCkM305GkCUFb2IpeM+WAnWmBKjTxUD4OUBh3wqaGq0FhkPgZgLolt1lOJp2xT4+oAO/l0YURYHf7weGoVeF4twi0FQm0nBf5PGVChzeEoHRLeUrHYLM6sg3B2GWQx7f6tNRiGWhyk654tOzvEPKSfC5g8jpcoLX64UAs5ZQlFPIdV5LWmCHJKRTlT3g1Rbe8Y6XZHl05YcIDuFULhfMzMyABycJhMNwy+4OJvByQgMdI+BeosH",
+  "secs": 0.52
+ },
+ {
+  "name": "pp_sq_3046390674",
+  "url": "https://www.phonepe.com/page-data/sq/d/3046390674.json",
+  "method": "GET",
+  "status": 200,
+  "final_url": "https://www.phonepe.com/page-data/sq/d/3046390674.json",
+  "ctype": "application/json",
+  "length": 2289,
+  "json_shape": {
+   "data": {
+    "image": {
+     "childImageSharp": {
+      "fluid": "..."
+     }
+    }
+   }
+  },
+  "snippet": "{\"data\":{\"image\":{\"childImageSharp\":{\"fluid\":{\"aspectRatio\":1.015228426395939,\"base64\":\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEQ0lEQVR42rWUfUxbVRjG+RgfYzCcYy4omzoVw9ggRqLiMjVhbrhIlE10/IFxZGKW8KGIYcLoBUbFsSkr6whXCoWW3nanLf3kln7Q20ElkIEOVlwYKJsbmUgZ5auYCX29BxxxyTD4hyd5k5vck9953vc85/Hy+n8XeAOAN0oBX4aAdQyzXASxVD7439pRGITAlyTBj4UEIv5YsFoAIbhEIthw5nPRhqwsXgCsBXwf5kDgLxCMh5ibYbNBORveKp3YRovnItpp2MLuwSAfkuzxw2r/FYg3IMLhr2ZhFmpmq1ni2mFB0ztbZXdj2zQQLSi3vRAfvbsm5vld6SzUlyCQP0EQPqvOjSCYdSQ5GsRIpsPMivkdrbLZWINkKt4gc+7rt0NcaQ6HK8pPh+rcY0PH076Omuqe2kyLxRuv89gRIOTrBV7eD7SL21hSh+aeMFAz0UaZe49NNXuQUU6+12uBpOoiflX18SPQyecOWxut7wzoLHsHdcrYoVbpNict3thDkn4PAHt6wM+MIFSvcD9pRXMv2un5/Tb1dDIjd6f2tkFaE7euVpiRDCfff2tCzmuouGVuPfGTrunjQX3jviGN6NnrrFqEla4AyWWgFrm3M/K5OLtu9uAl7Z+HjbKfv7TKmwcM31Uu9CtJII4dgQ8T9/8y3qFtGdILGobphvxhWp7Qp1RGOBwO/xUg9ppaPc5aZPzxdvlMjFU+mdChgUNmhYkmeV/B6TLOYs35b6HPqPAkxkZCC6/o9u/tss7BFmndNb3mox81bdEMcgSv2AnLRejX9VpyNKxN6nrGqpjYY9PDIVPjRbug+DM4W1qwWMElYKzPDioeF5pK82ZvmGQjV1WU7arWlNej7HqlQ3Jz04qd8Adum/VisFE085i+1hnVy0BiZWb2QMnhBOCXFSxWnj4F9cU5oCvPhCvissXLwiKPQ8KBH+QtFfbmkXhGMhqGfbrcthc2NlYJrBevhRiUEG4Q3nrjXE7Gndrco0AV5y2WHE2GxMhQ4HzwKlyu/hS6LxQu9DZduNkl7eRcQs6XtCyQgH8YHve//BLAT6WafMSkgOcauPWlZF62U1SYDSdT3/Yk7d4OKXGRnpLUdz3GamN/h/qPKgaNpVmo32IQuhsK8JAXhME0zxNgEN8Iv/I97JJWVjrk5QWgPcNZ0J4tAqq08J6u3tFla75X3yad+MJCud40SCefYucftOobx2mDw6HLCE/XnCoeFFdwgeKdW2jkV4FCqnHbVO7zJslMjkU2lWQRT+9EyPUo7mz1sGBnmpVFB7An+qd/klufllk4n1FYNX4gLd914h",
+  "secs": 0.5
+ },
+ {
+  "name": "pp_sq_3254909617",
+  "url": "https://www.phonepe.com/page-data/sq/d/3254909617.json",
+  "method": "GET",
+  "status": 200,
+  "final_url": "https://www.phonepe.com/page-data/sq/d/3254909617.json",
+  "ctype": "application/json",
+  "length": 6826,
+  "json_shape": {
+   "data": {
+    "image": {
+     "childImageSharp": {
+      "fluid": "..."
+     }
+    },
+    "bottomBanner": {
+     "childImageSharp": {
+      "fluid": "..."
+     }
+    },
+    "bottomBannerMobile": {
+     "childImageSharp": {
+      "fluid": "..."
+     }
+    }
+   }
+  },
+  "snippet": "{\"data\":{\"image\":{\"childImageSharp\":{\"fluid\":{\"aspectRatio\":0.847457627118644,\"base64\":\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAYCAYAAAD6S912AAAACXBIWXMAAAsTAAALEwEAmpwYAAAEZ0lEQVR42qWVeUyTZxzHuTZnTPwDoeEYR2kpK0ehYzYICAnMjSBy1VKOcXSOMQPDjaMiEMpZC7aom7CCC9mGDsICwgYEwW2RDTVIhiIaRZwDB2xmy0iYB/bt+93TcjqOwPZL3jxP3je/z/P9He/vMTBYaYZNTU3GAAwN/q8RiA700vzeUCaTmfwnsEgkMtat2Yc+iSmQ1o8OD9+XENBW3TsCNdKBdco3g9QDE8WqbJ7NEYQFHKPLCr66RcBJy8GbSMUcUBJdnslnZoC1I2XW2SqDjtxzEorC1qHbt395ayEVGwQvAMukfLsMvO56XOPtVKJ1YryvdbM5QouCqlFR2nZt9P6v0QT04hIYxusCY4U5WXxrKcoODWrkWQPYzVTB0y5fy7XMotztCmhxcC1U8vafxsamRItgwMhgudoF6Y+mIVDIWhsdTROREtGsrTg8hPBX6xDsWgNfphKvMQspruVhyoNZgtjQOhwv7+qfmPgtgvibrNDXdQmmI70/j/W2d0McrNByzBLh76hAkHMVYv3qEbO7nuxr4ceuxE5WMVGcR3kyFXSS8Cwazv7Yomu35eL01tfU2dr3XTfkeV9TttvD4fpyEngWhyCwKsI+d7VebSBLjQB2NQTsYniyizQcMxnSk7/8m4BY80CjRSpZt9XXXGn056WCbS6k+DZpSA5tRZh3NfiWOfCxP4oAVhX2sE/Dx6GCAPNpJ0Y+JGL1DPCEvQhcXpTIvemZHHMhOBYRGjeLFKhyh/Fx8S34O1TCy7YIAjsZfAlM4CCDq00WHeb/Eb5QX6bGx6cEqwITo6RSrmUkeDYxGg5DiCBPOZL3tZFwa0kuP0Mg5wS87IvAZ2aCw0hHrfIHqq9rDD0tdy+s2jYJImmas0UEuJbCWT4zgVQ1ClxGAlGXjxBeFYJd1Ah0qIY3qxROFql4W1irvXBuFBc77w2OjNBbFnG6JtWtJXnH7AIE8f0u1mHgmIfTzlZR1CtWIgKOhptVCnbZFSLQ9gRpIzl4Duk02ywN2amfa0A/8/pXyM9NHJMD4myRLy9u0M1GBCfGfpprKYaLdQycrePB88glHZAKD/MDpCipkMRUPlqlKEuzkDxGcx/pLYninHhvt7jrHEY4WNtCaSd+GjjfD9Ee6i7aIUROs3a8g4P7ywkQnDUV6lNgQEbW/Me23qs+ClUN9vq9C5aVmGaqu+n4yWnqjZsPKFbVeUSWNjx+ioeO6wJrBgZe+ObSHes/JyeDHk4/vTz0+2N09l/XyI9+Sr8ZJJ3hHlRTu1oGEDf2xzPPGxMw7RiU6B3JFHpemWzuhJr65p",
+  "secs": 0.45
+ },
+ {
+  "name": "pp_sq_327466689",
+  "url": "https://www.phonepe.com/page-data/sq/d/327466689.json",
+  "method": "GET",
+  "status": 200,
+  "final_url": "https://www.phonepe.com/page-data/sq/d/327466689.json",
+  "ctype": "application/json",
+  "length": 1214,
+  "json_shape": {
+   "data": {
+    "desktopImage": {
+     "childImageSharp": {
+      "fluid": "..."
+     }
+    }
+   }
+  },
+  "snippet": "{\"data\":{\"desktopImage\":{\"childImageSharp\":{\"fluid\":{\"aspectRatio\":3.3333333333333335,\"base64\":\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA3klEQVR42mNgGAbgP+P//xBMkrb6K1fYem48FWm/+VCp9/YjlckPH0p1X7jAzfCfAcMgiAX1TP/r65kYsEnWX3kk1HvtkX3PzSclvTcfT+m99WQmELf23nwSMefUc53ta79Ibln6QfD5hZ3c/0/WS/w/06T7/3ij+f+z9Xr/z7RI/rs1kf0/zOKJt26x9958ZNZz81FH3+0nB3tvPb7We+vpja7Lj8917Huyc+7q18t3rPi84ODKT5NOrLla+urQnNQ/Z5uq/59t7vp/urnm39mmoP8nmhX/n5nJCjIQAKSBgnXKkAM6AAAAAElFTkSuQmCC\",\"srcSet\":\"https://www.phonepe.com/webstatic/15371/static/d53eb5dccf4c3356d93c438e6db990cf/8ac63/faq-gradient-bg.png 200w,\\nhttps://www.phonepe.com/webstatic/15371/static/d53eb5dccf4c3356d93c438e6db990cf/3891b/faq-gradient-bg.png 400w,\\nhttps://www.phonepe.com/webstatic/15371/static/d53eb5dccf4c3356d93c438e6db990cf/bc8e0/faq-gradient-bg.png 800w,\\nhttps://www.phonepe.com/webstatic/15371/static/d53eb5dccf4c3356d93c438e6db990cf/6050d/faq-gradient-bg.png 1200w,\\nhttps://www.phonepe.com/webstatic/15371/static/d53eb5dccf4c3356d93c438e6db990cf/00405/faq-gradient-bg.png 1600w,\\nhttps://www.phonepe.com/webstatic/15371/static/d53eb5dccf4c3356d93c438e6db990cf/e9845/faq-gradient-bg.png 1961w\"}}}}}",
+  "secs": 0.52
+ },
+ {
+  "name": "pp_sq_357762014",
+  "url": "https://www.phonepe.com/page-data/sq/d/357762014.json",
+  "method": "GET",
+  "status": 200,
+  "final_url": "https://www.phonepe.com/page-data/sq/d/357762014.json",
+  "ctype": "application/json",
+  "length": 7234,
+  "json_shape": {
+   "data": {
+    "desktopOveriewImage": {
+     "childImageSharp": {
+      "fluid": "..."
+     }
+    },
+    "mobileOverviewImage": {
+     "childImageSharp": {
+      "fluid": "..."
+     }
+    },
+    "sdkDesktopImage": {
+     "childImageSharp": {
+      "fluid": "..."
+     }
+    },
+    "sdkMobileImage": {
+     "childImageSharp": {
+      "fluid": "..."
+     }
+    }
+   }
+  },
+  "snippet": "{\"data\":{\"desktopOveriewImage\":{\"childImageSharp\":{\"fluid\":{\"aspectRatio\":1.0050251256281406,\"base64\":\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEAUlEQVR42o1VbUxbVRg+95xzez/a2/YW2oIDEVJYaDama+YWNKlxyYJx0fij0SiJP4z74TKnGTr1h1dMUJQg4uqS+hETY7Kkyf6YjcWQgEETS2WjsI19GIQWtoEFwSEZ47Z7PQcuXWTOcZIn77nnvuc5z3nPuc9FACAwkN7eXhqPx4lhGDgSiZNYbEBErP30/dgTiZNXugesZysf9wLQ9eDjPEdAVjMMwEYwbusMdErtu+IKGyLdX4zU9B0fe66roUsykEHjbDFGW5hzR5s+d85x7ffUsxMjAy+nuvtqgihiaw3FXIerYq4P7z+qG6UxlRPwGAvxPkLdw+mqX9LZ5kQ6+z5H/0T2vf70zEeJ9MwedC2T2jI1Onhs8sJA12gy2cjyaVvdt76Wyi/9RkW0xAhGS1q28H6Hu+PFb9yc8Nf03OvjJsDInJk7P5+D8yyOLQMM/bHYgyZ/S5ZfuXj646nLZ6ODPwzsCSPD0fnw8bK22u8q2mrilR2bjz3QXh3f1FZ13Pd1Q5+XEyYuzTYNZ5egPzO7lMz8aSYn5paGZ5YgmZntQaFQSGTFlOofrH+3urzsku++8mSx7h/0eUpSXr1kyKf7U/zZq/vOeD2+026nO1FdXZuuD++GnY8+dovHbdt35JqaWyE1vdiLKirCMl9Vk/UjJcUuUHSHKckSyIoEiipbUApQ7SqINhH4gXNgQnjM737yaThz9XoPCgQaJE4oCrYoRgQUqt5URDmvimpeQDjPk9chJwhCngE4CKWcMNfwTAQuLsCPBYUEiZ9LogR+zW/aJQ1sxMYShYKSuwFjfIvH7bseWRiaXtxfUEgQidqoCC67y5RdMhCJgICZCsJIhf8lzVnxxMo9DAQC0urtFo6IkggOr2YqxRrIbhlkndVPV4DK9J6EbP4pdrh2FAwGbRbhZxRTcCiaqTp1VksZsEA2sGUxx8D7XYxQvU0okE6eIFPJLFI94JCcLPnehIKA2SFhphCfWtlyKITEVULhU54gEnG5yO4BsgF167e89jlTK7YTtpKuuG+wEzbZEgzormACTEvdTYvwxHrCT1ZqIuDlDSr7t0JBOLlGiFeDWEex8qqEna8o1Llfo77X7Nh5QKPug0XUd8hrKz3st216i+FtLy19s9xZ+c5DtTs/2FYbata1oiaK5PAdVgbMDyEOhBslxIB/44JlqgQOgAT7QIU3QFsZy8LjC9ch8fcN+Jm938HHuEkXyCIoQur8h+xPbf5KiwSjjue3HtX3lu5TG/2N9hc8hvNgheF+qczwGOFYMS/TYHK8cXxyLj9",
+  "secs": 0.45
+ },
+ {
+  "name": "pp_sq_3754414346",
+  "url": "https://www.phonepe.com/page-data/sq/d/3754414346.json",
+  "method": "GET",
+  "status": 200,
+  "final_url": "https://www.phonepe.com/page-data/sq/d/3754414346.json",
+  "ctype": "application/json",
+  "length": 3350,
+  "json_shape": {
+   "data": {
+    "logoDesktop": {
+     "childImageSharp": {
+      "fluid": "..."
+     }
+    },
+    "logoMobile": {
+     "childImageSharp": {
+      "fluid": "..."
+     }
+    }
+   }
+  },
+  "snippet": "{\"data\":{\"logoDesktop\":{\"childImageSharp\":{\"fluid\":{\"aspectRatio\":0.8163265306122449,\"base64\":\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZCAYAAAAxFw7TAAAACXBIWXMAABYlAAAWJQFJUiTwAAAEBklEQVR42pWVaWxUVRTHp1UTI9FExQVB1LJUMDFGjYnGmPhBSFSU0oVSuwOxLUlBPqiRKosfjIYPFtLOSDtLmTadNrZUyhKQWsSgDY6t1YoK1WoVobS10L3z7n1/zznzXh0nTDLeycm9b965v3fu2a7DEWMASCS5juT6KOH/EhzxDhsUhx6DE+OByddN01xA6xytdTnNAa3RQOs9tM4jWWjpJ8SE2lbRnETips1XER4m/h2yJvgovffRcnHk3mvB0siy4YjNisSYHJsxpiZCBq+t/7QomOYITVn/gUbA1pOCDTL6egZN/84ObHuxBa8904itJDvTDqHpw04M9I+KDmFt64uioc+STDNMhUxV/94Z5C7yIP0uF7IWViNj3j5k3VeNdfdWIe1OFzY+7McJ/1k5vfzClq+wYTeSP4L8VhlaVZS2I3WuC9kPuPH6c024/Mcojvl6kDl/Hwoe9GH9Q/uRk+QWcHN5JywX8PG7aZrDwGzLbNXq7MaauU4ULq8RC9k6/7sd8rLhg6BAcuj//GQv8pZ6kbmgCt98+vsslMYGh1a6lVfDF8dVyeN18vX8pT4UP1aHTU/UI3exF7UWtOrNL7CBLMxP9qGAZB0B33n5E4q6Vlb0jzromOf54WTDzzrjnvCxGBI8/hsmR2fw96VxDF4YgxHSCE0rjI9MY3fhcay1dHOSPDjfOSDBUUoPEVBJvnnLTpsZ8z4SpbwlXols3/dDBJzAW88fQMveLrHSve00Xn2kVlzCumvJt211PwrQCCmDLeToomJzO0U1DOTjpNzmRGdbPy70jmDlDeWo3HJSgG+saELG3ZYeCfuVfW8BNQPFQk+EhQzkI3V91o+RyxNYfWslnFs/l007Ulopfapn/ch6J2rPRliodC8/tAd+0pxv9pfTyYr9O74SyC/dg5I+nMbbUw5KPjKMXcM+PBe8FC5JpYcdFKHDEuW/xlXRo7WiwFFmZQ4O+RanPj6H7079SXmqZoGFy2okymVUSWSUnTbHOA8L7Dw8QI5PvcMleZhPeZZHwMz5VXjhpr3YU9ImSttXH5T8ZCAf98yRvsg8LGLgHLLyW7tSyovbsOb2SrGyYBlXRo1Yu/npBvje/hKlTwbwyv1upFIwGncHYTcKGj+Q3GyX30qrHs2ZKUP7d3VI6XHU+XjZlOw8v3RLhVQSl99RT084lzWLZh+uiu42myLbVm/XgOmhnCtb1YLSpwKSl7vSDyHw/te4+OsVM6qNbYnVwnJJxiLBoRllXBmaVFeHJxVtD9knsXQmCLbR7vaxmmwyHaGeIjcVu2NLMTS",
+  "secs": 0.51
+ },
+ {
+  "name": "pp_sq_4084334844",
+  "url": "https://www.phonepe.com/page-data/sq/d/4084334844.json",
+  "method": "GET",
+  "status": 200,
+  "final_url": "https://www.phonepe.com/page-data/sq/d/4084334844.json",
+  "ctype": "application/json",
+  "length": 5426,
+  "json_shape": {
+   "data": {
+    "mobileImage": {
+     "childImageSharp": {
+      "fluid": "..."
+     }
+    },
+    "desktopImage": {
+     "childImageSharp": {
+      "fluid": "..."
+     }
+    }
+   }
+  },
+  "snippet": "{\"data\":{\"mobileImage\":{\"childImageSharp\":{\"fluid\":{\"aspectRatio\":0.5780346820809249,\"base64\":\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAjCAYAAACU9ioYAAAACXBIWXMAABCcAAAQnAEmzTo0AAAIX0lEQVR42rWWeXAT1x3HRcIRE64CMXXqEGdKgRaKk6EerlJIJtA0dKY0A5mkE+r0SjIpKROmdAiQamxjYzAOGIOpjMGAuSIuY4Mx8aFrtefbQ9LqtC4LHT5lyZYsW5b1+iRIIS3pX+3OfGbert77vN9Kq/19JZL/9QEhnPAvpNKnnsjjc1JIJBP+ixAtkMufTqOQTnwiX38O/32DJ4jTC6BsEhTlk5O2iino/BmoqH2INE2yCV0XpZMfzE2J4VNp+ZMqTi/ylGdAoexZiO2aniSlMx4HYgenoznTIJBOTc9FYgBkkxRp+WMVfy2F4nE0uXQmxKWz0aK5UCvNhMRn89IIaKz+7DnYsnsO5KWz+prQBvfKnvXg5Rk2VHVK/KDiR9UiYfls2Fo8D7LS5yFd9AIkpDmQLHopliI1BtL5UVKaHQH7s4a0ZZkhvHx2EBUgKo5PS4mbkFiGxFKFYqIUfRUSiCGRAi1kpQsgKF4MqcIlEC/8MQQIWroUksU/GtRKF4fYkgUB/kDOfbI026E/Os9EVc4BQD5TIcqnyXF5RoWtCYnBJAkERd9PsoU/hFxhLqQL8pJg/8o4U7AGIuJc0eo4KF0ZokvyBvhDL/fzXyzxCpULXeaTOTpddTahvzSvhboxp5a/Oeu4qJhWjuMZEnSLyyBXkofEP0UVvjoGijZCbv8vxpiSN0cQMfbQG0Nc6YYB/sj6bq5idSdbtdwu1CwVhHMLCf5yTiPf+L3rwr3MU2Lz7DobOUMChYIVkClaD9miN8aYgl8lqANbE8zBd0fZsm2j4Gh+BBx/P8ic/G0/W/NOF1+72QPO/dwK6tbqWflyDX91STN7a0EDaJlfB1RZMguYK4F8wasQ7N8EmeItCfbAewlw6E9xpuKTYbpqV4Q6vXcQ1P09BL78vBdc2+0DN3Z42Prf27j6LXru1gZM37CqmWvOrde1LbpsJnIumc3PSyBT+CYSbk2A0vwEOPznODi2O8acLo7QF46Fqas1A3h9XT91t66HbK71UV+d8DAtxR1sy06D0LZNy7dsaje0r7ktYi9f1GsXVwvkSxL0g7yVACX5CaZse5yp2jdMnTkSoy6fG8RvNoaw28qgtoXowdroAK7CfYSm1UNhV+0UdsLIYnsBj73fzqs23TZrV18xkLk1Ot0iVGHJu5Ap+yhOH9szimQR/NKVCF7fFsaahH7NV44edbu3S632+9WY16sl7Z04xTlJ5q6NYat1gN5D6On3mgzkxktGYkWNSViKHpuS/DhzZOcofao0hl+si2hvtg9p7hgHlC3+PmV7qEepiga",
+  "secs": 0.49
+ },
+ {
+  "name": "pp_sq_63159454",
+  "url": "https://www.phonepe.com/page-data/sq/d/63159454.json",
+  "method": "GET",
+  "status": 200,
+  "final_url": "https://www.phonepe.com/page-data/sq/d/63159454.json",
+  "ctype": "application/json",
+  "length": 252,
+  "json_shape": {
+   "data": {
+    "site": {
+     "siteMetadata": {
+      "title": "...",
+      "description": "...",
+      "author": "..."
+     }
+    }
+   }
+  },
+  "snippet": "{\"data\":{\"site\":{\"siteMetadata\":{\"title\":\"PhonePe India's Payments App - PhonePe.com\",\"description\":\"PhonePe.com revolutionizing payments by building India's Payments App to provide a cashless and a seamless payment experience.\",\"author\":\"@PhonePe\"}}}}",
+  "secs": 0.52
+ },
+ {
+  "name": "pp_sq_708616196",
+  "url": "https://www.phonepe.com/page-data/sq/d/708616196.json",
+  "method": "GET",
+  "status": 200,
+  "final_url": "https://www.phonepe.com/page-data/sq/d/708616196.json",
+  "ctype": "application/json",
+  "length": 16507,
+  "json_shape": {
+   "data": {
+    "oyoLogo": {
+     "childImageSharp": {
+      "fluid": "..."
+     }
+    },
+    "jarLogo": {
+     "childImageSharp": {
+      "fluid": "..."
+     }
+    },
+    "confirmtktLogo": {
+     "childImageSharp": {
+      "fluid": "..."
+     }
+    },
+    "irctcLogo": {
+     "childImageSharp": {
+      "fluid": "..."
+     }
+    },
+    "pharmeasyLogo": {
+     "childImageSharp": {
+      "fluid": "..."
+     }
+    },
+    "manMattersLogo": {
+     "childImageSharp": {
+      "fluid": "..."
+     }
+    },
+    "casheLogo": {
+     "childImageSharp": {
+      "fluid": "..."
+     }
+    },
+    "zoominLogo": {
+     "childImageSharp": {
+      "fluid": "..."
+     }
+    },
+    "givaLogo": {
+     "childImageSharp": {
+      "fluid": "..."
+     }
+    },
+    "redBusLogo": {
+     "childImageSharp": {
+      "fluid": "..."
+     }
+    },
+    "emtLogo": {
+     "childImageSharp": {
+      "fluid": "..."
+     }
+    },
+    "ixigoLogo": {
+     "childImageSharp": {
+      "fluid": "..."
+     }
+    },
+    "goibiboLogo": {
+     "childImageSharp": {
+      "fluid": "..."
+     }
+    },
+    "mmtLogo": {
+     "childImageSharp": {
+      "fluid": "..."
+     }
+    }
+   }
+  },
+  "snippet": "{\"data\":{\"oyoLogo\":{\"childImageSharp\":{\"fluid\":{\"aspectRatio\":1.7391304347826086,\"base64\":\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAACxLAAAsSwGlPZapAAABlklEQVR42rVST0sCURBfM6gufYDS3bd/6hL43roldtqjfYD8HgVRFEKXiD5DWJ0E9VSQh4LwEKSuDy1Sg4iCrXN0qEuX18zqglqCHXyXmfnN7/1m5r2RpFEdIUkBISWDYMeKkj3ux+hjvo15+QD6eUkK+ryBgoPiXSgyDK8HKBux6SqhqYpMC47MNpyZhXCVsBPA9rETwPYqhB1fa5bsEMgTWqjIZgrv9Qt7jqOyvGvERFO1vl/BlmR69KBZuWd9SZSVyMGTvihampUtEZp+83imx6sqLNfVX1u0oZtGU7MgSc+Kij0J1a9uCfuqqWy1RthHU4uKOlgus2SdmJ+Yv4nHp5APRcR92NI7XbafpqaxORTkKj19NFYmHIVd3KmmqIfis+AfvkCXjkLTMF4IcRC8LNr2JPJbUOyXIB5s3e2M4oIAJzSDOFxYe59fFg3VXMeYEzPj6j0jZ7veMNDzKdDNDifsHD5i039sTiIJDqNxEk34vAqhW8jjCtv+61OGW4d/8rxEHhYXF9Zf4G68P0ZeNz6y8wObUMbfJNDJNwAAAABJRU5ErkJggg==\",\"srcSet\":\"https://www.phonepe.com/webstatic/15371/static/bdb61f15b22aaa65e3ba8222fff943c1/8ac63/oyo-logo.png 200w,\\nhttps://www.phonepe.com/webstatic/15371/static/bdb61f15b22aaa65e3ba8222fff943c1/37d5a/oyo-logo.png 300w\"}}},\"jarLogo\":{\"childImageSharp\":{\"fluid\":{\"aspectRatio\":1.7699115044247788,\"base64\":\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAACxLAAAsSwGlPZapAAACs0lEQVR42o1S60tTYRgfwabOmjp3djYb6tzZpRVRiDL7UCSNTrqxyzln8y6IdpMlKxOjlJZh62baRSwL51wJhtOyEUFIZNB/EK6ozfzSt/rUl/Hw9G5maF/qhR/v874Pz++5/B6R6PcxmwWJWm2TCoI/x2IRcjSa/0M6RiQSJKKNhyl0n9ApuM8GlbCsltbGSwtccQPNx/VKPs5QXAYb7b+wnI5llNzxDBlNW3P1Su9Hk6oBKfERaHYPoGVnB6pz7FiS50ID7UW90oPaAg4ZSkCTqg5N6jo0qrwZn1HtBSNdT3yeL+Z0pYy8UUayJ0hV2H3ydmrx5Xu4e",
+  "secs": 0.51
+ },
+ {
+  "name": "gh_postman_job",
+  "url": "https://job-boards.greenhouse.io/postman/jobs/7774448003",
+  "method": "GET",
+  "status": 404,
+  "final_url": "https://job-boards.greenhouse.io/postman?error=true",
+  "ctype": "text/html; charset=utf-8",
+  "length": 12249,
+  "html_title": "Page not found",
+  "snippet": "<!DOCTYPE html><html lang=\"en\"><head><meta name=\"robots\" content=\"noindex\"/><title>Page not found</title><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"/><link rel=\"stylesheet\" href=\"https://job-boards.cdn.greenhouse.io/assets/entry-CYrTbB0d.css\"/><link rel=\"stylesheet\" href=\"https://job-boards.cdn.greenhouse.io/assets/vendor-da5IcPkB.css\"/></head><body><div id=\"react-portal-mount-point\"></div><main class=\"main\"><svg width=\"261px\" height=\"36px\" viewBox=\"0 0 259 30\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"recruiting-logo\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M11.1476 10.828C11.1476 12.119 10.6014 13.2611 9.70759 14.1549C9.29852 14.5639 8.81363 14.8466 8.38478 15.0967C7.77251 15.4536 7.27448 15.744 7.27448 16.2404C7.27448 16.8238 7.75395 17.0185 8.45803 17.3044C9.13218 17.5781 10.0122 17.9354 10.8745 18.7976C12.0414 19.9645 12.7614 21.5038 12.7614 23.2914C12.7614 26.8169 9.93104 29.6225 6.38069 29.6225C2.83035 29.6225 0 26.8194 0 23.2939C0 21.5063 0.72 19.967 1.8869 18.8001C2.74914 17.9379 3.6292 17.5806 4.30335 17.3068C5.00743 17.021 5.4869 16.8263 5.4869 16.2429C5.4869 15.7464 4.98887 15.4561 4.3766 15.0991C3.94775 14.8491 3.46286 14.5664 3.05379 14.1574C2.16 13.2636 1.61379 12.1215 1.61379 10.7808C1.61379 8.19874 3.72414 6.11322 6.30621 6.11322C6.57231 6.11322 6.82415 6.13461 7.05791 6.15447C7.26035 6.17166 7.44923 6.18771 7.62207 6.18771C8.29241 6.18771 8.64 5.88977 8.64 5.41805C8.64 5.29207 8.61358 5.15023",
+  "secs": 0.35
+ },
+ {
+  "name": "gh_phonepe_job",
+  "url": "https://job-boards.greenhouse.io/phonepe/jobs/7789885003",
+  "method": "GET",
+  "status": 404,
+  "final_url": "https://job-boards.greenhouse.io/phonepe?error=true",
+  "ctype": "text/html; charset=utf-8",
+  "length": 12249,
+  "html_title": "Page not found",
+  "snippet": "<!DOCTYPE html><html lang=\"en\"><head><meta name=\"robots\" content=\"noindex\"/><title>Page not found</title><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"/><link rel=\"stylesheet\" href=\"https://job-boards.cdn.greenhouse.io/assets/entry-CYrTbB0d.css\"/><link rel=\"stylesheet\" href=\"https://job-boards.cdn.greenhouse.io/assets/vendor-da5IcPkB.css\"/></head><body><div id=\"react-portal-mount-point\"></div><main class=\"main\"><svg width=\"261px\" height=\"36px\" viewBox=\"0 0 259 30\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"recruiting-logo\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M11.1476 10.828C11.1476 12.119 10.6014 13.2611 9.70759 14.1549C9.29852 14.5639 8.81363 14.8466 8.38478 15.0967C7.77251 15.4536 7.27448 15.744 7.27448 16.2404C7.27448 16.8238 7.75395 17.0185 8.45803 17.3044C9.13218 17.5781 10.0122 17.9354 10.8745 18.7976C12.0414 19.9645 12.7614 21.5038 12.7614 23.2914C12.7614 26.8169 9.93104 29.6225 6.38069 29.6225C2.83035 29.6225 0 26.8194 0 23.2939C0 21.5063 0.72 19.967 1.8869 18.8001C2.74914 17.9379 3.6292 17.5806 4.30335 17.3068C5.00743 17.021 5.4869 16.8263 5.4869 16.2429C5.4869 15.7464 4.98887 15.4561 4.3766 15.0991C3.94775 14.8491 3.46286 14.5664 3.05379 14.1574C2.16 13.2636 1.61379 12.1215 1.61379 10.7808C1.61379 8.19874 3.72414 6.11322 6.30621 6.11322C6.57231 6.11322 6.82415 6.13461 7.05791 6.15447C7.26035 6.17166 7.44923 6.18771 7.62207 6.18771C8.29241 6.18771 8.64 5.88977 8.64 5.41805C8.64 5.29207 8.61358 5.15023",
+  "secs": 0.21
+ },
+ {
+  "name": "lv_idt",
+  "url": "https://api.lever.co/v0/postings/idt?mode=json&limit=3",
+  "method": "GET",
+  "status": 200,
+  "final_url": "https://api.lever.co/v0/postings/idt?mode=json&limit=3",
+  "ctype": "application/json; charset=utf-8",
+  "length": 17696,
+  "json_shape": [
+   3,
+   {
+    "additionalPlain": "About us: IDT is a Communications and Money Transfer company founded in 1990 and",
+    "additional": "<div><b>About us: </b><a href=\"https://www.idt.net/\">IDT</a> is a Communications",
+    "categories": {
+     "commitment": "Sales - Outside",
+     "department": "IDT Corporation",
+     "location": "Tampa, Fl 33603",
+     "team": "BOSS Revolution",
+     "allLocations": [
+      1,
+      "..."
+     ]
+    },
+    "createdAt": 1768328075593,
+    "descriptionPlain": "The Brand Ambassador maintains a close relationship with retailers that sell the",
+    "description": "<div><span style=\"font-size: 14.6667px\">The Brand Ambassador maintains a close r",
+    "id": "09101f0b-5111-4e69-a646-a146b902da21",
+    "lists": [
+     2,
+     {
+      "text": "...",
+      "content": "..."
+     }
+    ],
+    "salaryRange": {
+     "min": 15,
+     "max": 15,
+     "currency": "USD",
+     "interval": "per-hour-wage"
+    },
+    "text": "Brand Ambassador",
+    "country": "US",
+    "workplaceType": "hybrid",
+    "opening": "",
+    "openingPlain": "",
+    "descriptionBody": "<div><span style=\"font-size: 14.6667px\">The Brand Ambassador maintains a close r",
+    "descriptionBodyPlain": "The Brand Ambassador maintains a close relationship with retailers that sell the",
+    "hostedUrl": "https://jobs.lever.co/idt/09101f0b-5111-4e69-a646-a146b902da21",
+    "applyUrl": "https://jobs.lever.co/idt/09101f0b-5111-4e69-a646-a146b902da21/apply"
+   }
+  ],
+  "snippet": "[{\"additionalPlain\":\"About us: IDT is a Communications and Money Transfer company founded in 1990 and headquartered in Newark, New Jersey. IDT is an industry leader in prepaid communication, money transfer, and payment services and one of the world's largest international voice carriers. We are listed on the NYSE, employ over 1800 people across 20+ countries, and have over $1.5 billion in revenues.  Our flagship brand, Boss Revolution, includes Money Transfer, International Calling, and Mobile Top-Up services and supports IDT's mission of enabling people to keep in touch and share resources with family and friends worldwide. Join us!\\n\",\"additional\":\"<div><b>About us: </b><a href=\\\"https://www.idt.net/\\\">IDT</a> is a Communications and Money Transfer company founded in 1990 and headquartered in Newark, New Jersey. IDT is an industry leader in prepaid communication, money transfer, and payment services and one of the world's largest international voice carriers. We are listed on the NYSE, employ over 1800 people across 20+ countries, and have over $1.5 billion in revenues.&nbsp;&nbsp;Our flagship brand, <a href=\\\"https://www.bossrevolution.com/en-us\\\">Boss Revolution</a>, includes Money Transfer, International Calling, and Mobile Top-Up services and supports IDT's mission of enabling people to keep in touch and share resources with family and friends worldwide.&nbsp;<b>Join us!</b></div>\",\"categories\":{\"commitment\":\"Sales - Outside\",\"department\":\"IDT Corporation\",\"location\":\"T",
+  "secs": 0.24
+ },
+ {
+  "name": "lvhtml_upstox",
+  "url": "https://jobs.lever.co/upstox",
+  "method": "GET",
+  "status": 404,
+  "final_url": "https://jobs.lever.co/upstox",
+  "ctype": "text/html; charset=utf-8",
+  "length": 297266,
+  "html_title": "Not found – 404 error",
+  "snippet": "<!DOCTYPE html><meta charset=\"utf-8\"><title>Not found – 404 error</title><style>@font-face {font-family: 'Meta';src: url(\"https://cdn.lever.co/fonts/Meta/metaboldlf-webfont-2017.woff\") format('woff');font-weight: 600;font-style: normal;}@font-face {font-family: 'Meta';src: url(\"https://cdn.lever.co/fonts/Meta/metanormal-webfont-2017.woff\") format('woff');font-weight: 400;font-style: normal;}@font-face {font-family: 'Meta';src: url(\"https://cdn.lever.co/fonts/Meta/metanormalitaliclf-webfont-2017.woff\") format('woff');font-weight: 400;font-style: italic;}@font-face {font-family: 'Meta';src: url(\"https://cdn.lever.co/fonts/Meta/metabolditaliclf-webfont-2017.woff\") format('woff');font-weight: 600;font-style: italic;}@font-face {font-family: 'Meta-Caps';src: url(\"https://cdn.lever.co/fonts/Meta/MetaScWeb-Normal.eot\");src: url(\"https://cdn.lever.co/fonts/Meta/MetaScWeb-Normal.woff\") format('woff');font-weight: 400;font-style: normal;}@font-face {font-family: 'Avenir';src: url(\"https://cdn.lever.co/fonts/Avenir/Avenir-Next-Pro-Regular.eot\");src: url(\"https://cdn.lever.co/fonts/Avenir/Avenir-Next-Pro-Regular.woff\") format('woff');src: url(\"https://cdn.lever.co/fonts/Avenir/Avenir-Next-Pro-Regular.ttf\") format('truetype');font-weight: normal;font-style: normal;}.caps-label,.classic-table th,h4,h6,th,.btn,.submit,.btn-large,.submit-large,.btn-large-secondary,.dark-button,.toggle-label,.gated-feature:before,.gated-feature-inline:before,.gated-feature-inline-enterprise:before,.gated-feat",
+  "secs": 0.2
+ },
+ {
+  "name": "lvhtml_dreamsports",
+  "url": "https://jobs.lever.co/dreamsports",
+  "method": "GET",
+  "status": 404,
+  "final_url": "https://jobs.lever.co/dreamsports",
+  "ctype": "text/html; charset=utf-8",
+  "length": 297266,
+  "html_title": "Not found – 404 error",
+  "snippet": "<!DOCTYPE html><meta charset=\"utf-8\"><title>Not found – 404 error</title><style>@font-face {font-family: 'Meta';src: url(\"https://cdn.lever.co/fonts/Meta/metaboldlf-webfont-2017.woff\") format('woff');font-weight: 600;font-style: normal;}@font-face {font-family: 'Meta';src: url(\"https://cdn.lever.co/fonts/Meta/metanormal-webfont-2017.woff\") format('woff');font-weight: 400;font-style: normal;}@font-face {font-family: 'Meta';src: url(\"https://cdn.lever.co/fonts/Meta/metanormalitaliclf-webfont-2017.woff\") format('woff');font-weight: 400;font-style: italic;}@font-face {font-family: 'Meta';src: url(\"https://cdn.lever.co/fonts/Meta/metabolditaliclf-webfont-2017.woff\") format('woff');font-weight: 600;font-style: italic;}@font-face {font-family: 'Meta-Caps';src: url(\"https://cdn.lever.co/fonts/Meta/MetaScWeb-Normal.eot\");src: url(\"https://cdn.lever.co/fonts/Meta/MetaScWeb-Normal.woff\") format('woff');font-weight: 400;font-style: normal;}@font-face {font-family: 'Avenir';src: url(\"https://cdn.lever.co/fonts/Avenir/Avenir-Next-Pro-Regular.eot\");src: url(\"https://cdn.lever.co/fonts/Avenir/Avenir-Next-Pro-Regular.woff\") format('woff');src: url(\"https://cdn.lever.co/fonts/Avenir/Avenir-Next-Pro-Regular.ttf\") format('truetype');font-weight: normal;font-style: normal;}.caps-label,.classic-table th,h4,h6,th,.btn,.submit,.btn-large,.submit-large,.btn-large-secondary,.dark-button,.toggle-label,.gated-feature:before,.gated-feature-inline:before,.gated-feature-inline-enterprise:before,.gated-feat",
+  "secs": 0.14
+ },
+ {
+  "name": "sr_cimpress",
+  "url": "https://api.smartrecruiters.com/v1/companies/Cimpress/postings?limit=2",
+  "method": "GET",
+  "status": 200,
+  "final_url": "https://api.smartrecruiters.com/v1/companies/Cimpress/postings?limit=2",
+  "ctype": "application/json; charset=utf-8",
+  "length": 50,
+  "json_shape": {
+   "offset": 0,
+   "limit": 2,
+   "totalFound": 0,
+   "content": [
+    0
+   ]
+  },
+  "snippet": "{\"offset\":0,\"limit\":2,\"totalFound\":0,\"content\":[]}",
+  "secs": 0.51
+ },
+ {
+  "name": "sr_cimpressindia",
+  "url": "https://api.smartrecruiters.com/v1/companies/CimpressIndia/postings?limit=2",
+  "method": "GET",
+  "status": 200,
+  "final_url": "https://api.smartrecruiters.com/v1/companies/CimpressIndia/postings?limit=2",
+  "ctype": "application/json; charset=utf-8",
+  "length": 50,
+  "json_shape": {
+   "offset": 0,
+   "limit": 2,
+   "totalFound": 0,
+   "content": [
+    0
+   ]
+  },
+  "snippet": "{\"offset\":0,\"limit\":2,\"totalFound\":0,\"content\":[]}",
+  "secs": 0.5
+ },
+ {
+  "name": "lv_cimpress",
+  "url": "https://api.lever.co/v0/postings/cimpress?mode=json&limit=2",
+  "method": "GET",
+  "status": 404,
+  "final_url": "https://api.lever.co/v0/postings/cimpress?mode=json&limit=2",
+  "ctype": "application/json; charset=utf-8",
+  "length": 41,
+  "json_shape": {
+   "ok": false,
+   "error": "Document not found"
+  },
+  "snippet": "{\"ok\":false,\"error\":\"Document not found\"}",
+  "secs": 0.2
+ },
+ {
+  "name": "ab_cimpress",
+  "url": "https://api.ashbyhq.com/posting-api/job-board/cimpress",
+  "method": "GET",
+  "status": 404,
+  "final_url": "https://api.ashbyhq.com/posting-api/job-board/cimpress",
+  "ctype": "text/plain; charset=utf-8",
+  "length": 9,
+  "html_title": null,
+  "snippet": "Not Found",
+  "secs": 0.2
+ },
+ {
+  "name": "wk_cimpress",
+  "url": "https://apply.workable.com/api/v3/accounts/cimpress/jobs",
+  "method": "GET",
+  "status": 404,
+  "final_url": "https://apply.workable.com/api/v3/accounts/cimpress/jobs",
+  "ctype": "text/plain; charset=utf-8",
+  "length": 9,
+  "html_title": null,
+  "snippet": "Not Found",
+  "secs": 0.23
+ },
+ {
+  "name": "cimpress_site",
+  "url": "https://careers.cimpress.com/",
+  "method": "GET",
+  "error": "SSLError: HTTPSConnectionPool(host='careers.cimpress.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'careers.cimpress.com'. (_ssl.c:1010)\")))",
+  "secs": 0.21
+ },
+ {
+  "name": "medianet_eng",
+  "url": "https://careers.media.net/engineering",
+  "method": "GET",
+  "status": 200,
+  "final_url": "https://careers.media.net/engineering/",
+  "ctype": "text/html; charset=UTF-8",
+  "length": 28898,
+  "html_title": "Engineering | Careers@Media.Net",
+  "snippet": "<!DOCTYPE html>\n<html lang=\"en\">\n    <head>\n\t\t<meta charset=\"UTF-8\">\n\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1 maximum-scale=1, user-scalable=0\"/>\n\t\t<title>Engineering | Careers@Media.Net</title>\n\t\t<link rel='icon' href='https://s33917.pcdn.co/wp-content/themes/mnet-careers/assets/images/favicon.ico' sizes='32x32' /><link rel='icon' href='https://s33917.pcdn.co/wp-content/themes/mnet-careers/assets/images/favicon192x192.ico' sizes='192x192' /><link rel='apple-touch-icon' href='https://s33917.pcdn.co/wp-content/themes/mnet-careers/assets/images/favicon.ico' /><meta name='msapplication-TileImage' content='https://s33917.pcdn.co/wp-content/themes/mnet-careers/assets/images/favicon.ico' />\t\t<script>\n\t\t\tif(!\"gdprAppliesGlobally\" in window){window.gdprAppliesGlobally=true}if(!(\"cmp_id\" in window)||window.cmp_id<1){window.cmp_id=0}if(!(\"cmp_cdid\" in window)){window.cmp_cdid=\"0c19504251cf1\"}if(!(\"cmp_params\" in window)){window.cmp_params=\"\"}if(!(\"cmp_host\" in window)){window.cmp_host=\"d.delivery.consentmanager.net\"}if(!(\"cmp_cdn\" in window)){window.cmp_cdn=\"cdn.consentmanager.net\"}if(!(\"cmp_proto\" in window)){window.cmp_proto=\"https:\"}if(!(\"cmp_codesrc\" in window)){window.cmp_codesrc=\"1\"}window.cmp_getsupportedLangs=function(){var b=[\"DE\",\"EN\",\"FR\",\"IT\",\"NO\",\"DA\",\"FI\",\"ES\",\"PT\",\"RO\",\"BG\",\"ET\",\"EL\",\"GA\",\"HR\",\"LV\",\"LT\",\"MT\",\"NL\",\"PL\",\"SV\",\"SK\",\"SL\",\"CS\",\"HU\",\"RU\",\"SR\",\"ZH\",\"TR\",\"UK\",\"AR\",\"BS\"];if(\"cmp_customlanguages\" in window){for(var a=0;a<window.cmp_custo",
+  "secs": 0.81
+ },
+ {
+  "name": "medianet_dsa",
+  "url": "https://careers.media.net/data-science-analytics",
+  "method": "GET",
+  "status": 200,
+  "final_url": "https://careers.media.net/data-science-analytics/",
+  "ctype": "text/html; charset=UTF-8",
+  "length": 29146,
+  "html_title": "Data Science &amp; Analytics | Careers@Media.Net",
+  "snippet": "<!DOCTYPE html>\n<html lang=\"en\">\n    <head>\n\t\t<meta charset=\"UTF-8\">\n\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1 maximum-scale=1, user-scalable=0\"/>\n\t\t<title>Data Science &amp; Analytics | Careers@Media.Net</title>\n\t\t<link rel='icon' href='https://s33917.pcdn.co/wp-content/themes/mnet-careers/assets/images/favicon.ico' sizes='32x32' /><link rel='icon' href='https://s33917.pcdn.co/wp-content/themes/mnet-careers/assets/images/favicon192x192.ico' sizes='192x192' /><link rel='apple-touch-icon' href='https://s33917.pcdn.co/wp-content/themes/mnet-careers/assets/images/favicon.ico' /><meta name='msapplication-TileImage' content='https://s33917.pcdn.co/wp-content/themes/mnet-careers/assets/images/favicon.ico' />\t\t<script>\n\t\t\tif(!\"gdprAppliesGlobally\" in window){window.gdprAppliesGlobally=true}if(!(\"cmp_id\" in window)||window.cmp_id<1){window.cmp_id=0}if(!(\"cmp_cdid\" in window)){window.cmp_cdid=\"0c19504251cf1\"}if(!(\"cmp_params\" in window)){window.cmp_params=\"\"}if(!(\"cmp_host\" in window)){window.cmp_host=\"d.delivery.consentmanager.net\"}if(!(\"cmp_cdn\" in window)){window.cmp_cdn=\"cdn.consentmanager.net\"}if(!(\"cmp_proto\" in window)){window.cmp_proto=\"https:\"}if(!(\"cmp_codesrc\" in window)){window.cmp_codesrc=\"1\"}window.cmp_getsupportedLangs=function(){var b=[\"DE\",\"EN\",\"FR\",\"IT\",\"NO\",\"DA\",\"FI\",\"ES\",\"PT\",\"RO\",\"BG\",\"ET\",\"EL\",\"GA\",\"HR\",\"LV\",\"LT\",\"MT\",\"NL\",\"PL\",\"SV\",\"SK\",\"SL\",\"CS\",\"HU\",\"RU\",\"SR\",\"ZH\",\"TR\",\"UK\",\"AR\",\"BS\"];if(\"cmp_customlanguages\" in window){for(var a=0;a",
+  "secs": 1.06
+ },
+ {
+  "name": "ac_detail",
+  "url": "https://www.jobs.atlascopcogroup.com/job/Data-Engineer/168787-en_US/",
+  "method": "GET",
+  "status": 200,
+  "final_url": "https://www.jobs.atlascopcogroup.com/job/Data-Engineer/168787-en_US/",
   "ctype": "text/html;charset=UTF-8",
-  "length": 104033,
-  "html_title": "Data Engineer - Search Jobs | Atlas Copco Group",
-  "snippet": "<!DOCTYPE html>\n<html class=\"html5\" xml:lang=\"en-US\" lang=\"en-US\" xmlns=\"http://www.w3.org/1999/xhtml\">\n\n        <head>\n            <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\" />\n            <meta http-equiv=\"Content-Type\" content=\"text/html;charset=UTF-8\" />\n            <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n                <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n                        <link type=\"text/css\" class=\"keepscript\" rel=\"stylesheet\" href=\"https://www.jobs.atlascopcogroup.com/platform/bootstrap/3.4.8_NES/css/bootstrap.min.css\" />\n                            <link type=\"text/css\" rel=\"stylesheet\" href=\"/platform/css/j2w/min/bootstrapV3.global.responsive.min.css?h=275f70e9\" />\n                \n                <script type=\"text/javascript\" src=\"/platform/js/j2w/j2w.fallbacks.js\"></script>\n                \n                \n                <script type=\"text/javascript\" src=\"https://performancemanager5.successfactors.eu/verp/vmod_v1/ui/extlib/jquery_3.5.1/jquery.js\" onerror=\"loadFallbacks('/platform/js/jquery/jquery-3.5.1.min.js', '/platform/js/jquery/jquery-migrate-3.1.0.min.js')\"></script>\n                <script type=\"text/javascript\" src=\"https://performancemanager5.successfactors.eu/verp/vmod_v1/ui/extlib/jquery_3.5.1/jquery-migrate.js\"></script>\n            <script type=\"text/javascript\" src=\"/platform/js/jquery/jquery-migrate-1.4.1.js\"></script>\n                    <title>Data Engi",
-  "secs": 1.33
+  "length": 130197,
+  "html_title": "Data Engineer Job Details | Atlas Copco Group",
+  "snippet": "<!DOCTYPE html>\n<html class=\"html5\" xml:lang=\"en-US\" lang=\"en-US\" xmlns=\"http://www.w3.org/1999/xhtml\">\n\n        <head>\n            <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\" />\n            <meta http-equiv=\"Content-Type\" content=\"text/html;charset=UTF-8\" />\n            <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n                <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n                        <link type=\"text/css\" class=\"keepscript\" rel=\"stylesheet\" href=\"https://www.jobs.atlascopcogroup.com/platform/bootstrap/3.4.8_NES/css/bootstrap.min.css\" />\n                            <link type=\"text/css\" rel=\"stylesheet\" href=\"/platform/css/j2w/min/bootstrapV3.global.responsive.min.css?h=275f70e9\" />\n                \n                <script type=\"text/javascript\" src=\"/platform/js/j2w/j2w.fallbacks.js\"></script>\n                \n                \n                <script type=\"text/javascript\" src=\"https://performancemanager5.successfactors.eu/verp/vmod_v1/ui/extlib/jquery_3.5.1/jquery.js\" onerror=\"loadFallbacks('/platform/js/jquery/jquery-3.5.1.min.js', '/platform/js/jquery/jquery-migrate-3.1.0.min.js')\"></script>\n                <script type=\"text/javascript\" src=\"https://performancemanager5.successfactors.eu/verp/vmod_v1/ui/extlib/jquery_3.5.1/jquery-migrate.js\"></script>\n            <script type=\"text/javascript\" src=\"/platform/js/jquery/jquery-migrate-1.4.1.js\"></script>\n                <title>Data Engineer",
+  "secs": 1.17
+ },
+ {
+  "name": "jefferies_root",
+  "url": "https://careers.jefferies.com/",
+  "method": "GET",
+  "status": 522,
+  "final_url": "https://careers.jefferies.com/",
+  "ctype": "text/html;charset=UTF-8",
+  "length": 3766,
+  "html_title": null,
+  "snippet": "<!DOCTYPE html>\n<html>\n<head>\n    <script>\n\n    function makeHttpObject() {\n        try {\n            return new XMLHttpRequest();\n        } catch(error) {}\n\n        try {\n            return new ActiveXObject();\n        } catch(error) {}\n        throw new Error(\"Could not create HTTP request object.\");\n    }\n\n    function readCookie(name) {\n        let nameEQ = name + \"=\";\n        let ca = document.cookie.split(';');\n        for(let i = 0; i < ca.length; i++) {\n            let c = ca[i];\n            while(c.charAt(0) == ' ')\n                c = c.substring(1, c.length);\n            if(c.indexOf(nameEQ) == 0)\n                return c.substring(nameEQ.length, c.length);\n        }\n        return '';\n    }\n\n    function replacecontent() {\n        // required for honoring site preferences from provided cookie consent\n        let langCookieVal = readCookie('siteLang');\n        let anchortext = (document.URL.split('#').length > 1) ? document.URL.split('#')[1] : langCookieVal;\n\n\t\t// Original Instruction\n//        const host = 'https://hdid.fa.us2.oraclecloud.com/';\n//        const ceBaseURL = host + 'hcmUI/CandidateExperience/en/sites/CX_1/'; \n        const host = 'https://hdid.fa.us2.oraclecloud.com/';\n        const ceBaseURL = host + 'hcmUI/CandidateExperience/'; \t\n\n\n\t\n//\t\t\n        var replaced = null;\n        var xhr = makeHttpObject();\n        xhr.open('GET', ceBaseURL + anchortext, true);\n        xhr.setRequestHeader('ora-irc-vanity-domain', 'Y');\n        xhr.send();\n        xhr",
+  "secs": 0.27
+ },
+ {
+  "name": "epam_vac",
+  "url": "https://careers.epam.com/en/vacancies",
+  "method": "GET",
+  "status": 200,
+  "final_url": "https://careers.epam.com/en/jobs",
+  "ctype": "text/html; charset=utf-8",
+  "length": 686364,
+  "html_title": "Discover Exciting Job Opportunities | EPAM Careers",
+  "snippet": "<!DOCTYPE html><html lang=\"en\" data-critters-container><head><meta charset=\"utf-8\" data-next-head><meta content=\"width=device-width, initial-scale=1\" name=\"viewport\" data-next-head><link href=\"https://eu-images.contentstack.com/v3/assets/blt892f41c9788ae399/blt3765677deb2c02ec/64f1d7a76f9d59f962fcc73d/Favicon_16X16.png\" rel=\"icon\" sizes=\"16x16\" type=\"image/png\" data-next-head><link href=\"https://eu-images.contentstack.com/v3/assets/blt892f41c9788ae399/blt3738b8fe987944d5/64f1d7b21aea656f8ffb4bc9/Favicon_32x32.png\" rel=\"icon\" sizes=\"32x32\" type=\"image/png\" data-next-head><link href=\"https://eu-images.contentstack.com/v3/assets/blt892f41c9788ae399/blt7740fb8332d3d21d/64f1d7bb53e2010540ddd58e/Favicon_180x180.png\" rel=\"apple-touch-icon\" sizes=\"180x180\" data-next-head><link color=\"#5bbad5\" href=\"https://eu-images.contentstack.com/v3/assets/blt892f41c9788ae399/blt1deb85ef536a0920/65c4d271e371a5040a1af181/apple-touch-icon_2.svg\" rel=\"mask-icon\" data-next-head><link href=\"/static/site.webmanifest\" rel=\"manifest\" data-next-head><meta content=\"https://careers.epam.com/en/jobs\" property=\"og:url\" data-next-head><meta content=\"https://careers.epam.com/en/jobs\" property=\"twitter:url\" data-next-head><meta content=\"824669026656171c\" name=\"yandex-verification\" data-next-head><meta content=\"msowtjzJ2ZylgFFg212K56Rz2O4rz_MajxChMKYDF0Y\" name=\"google-site-verification\" data-next-head><link href=\"https://careers.epam.com/en/jobs\" rel=\"canonical\" data-next-head><link href=\"https://careers.epam.com/",
+  "secs": 1.25
  }
 ]
