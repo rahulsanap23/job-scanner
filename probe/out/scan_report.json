@@ -1,153 +1,80 @@
 {
  "meta": {
-  "generated_at": "2026-10-28T02:55:32+00:00",
+  "generated_at": "2026-10-28T03:18:07+00:00",
   "date": "2026-10-28",
   "recency_days": 30,
-  "companies_total": 8,
-  "companies_scanned_ok": 8,
+  "companies_total": 3,
+  "companies_scanned_ok": 3,
   "companies_failed": [],
   "companies_not_scanned": [],
-  "jobs": 0,
-  "companies_with_jobs": 0,
+  "jobs": 2,
+  "companies_with_jobs": 2,
   "uncertain": 0,
-  "fresh": 0,
+  "fresh": 2,
   "linkedin": "skipped",
   "companies_checked_on_linkedin": []
  },
  "companies": [
-  {
-   "company": "Amadeus",
-   "platforms": [
-    "workday"
-   ],
-   "status": "ok",
-   "fetched": 11,
-   "title_matches": 0,
-   "matched": 0,
-   "errors": [],
-   "notes": [
-    "workday: locationCountry=India"
-   ],
-   "careers_url": "https://amadeus.wd502.myworkdayjobs.com/jobs",
-   "rejected_examples": [],
-   "requests": 10,
-   "secs": 5.3
-  },
   {
    "company": "Atlas Copco",
    "platforms": [
     "csb_unify"
    ],
    "status": "ok",
-   "fetched": 1,
-   "title_matches": 0,
-   "matched": 0,
+   "fetched": 4,
+   "title_matches": 2,
+   "matched": 1,
    "errors": [],
    "notes": [],
-   "careers_url": "https://www.jobs.atlascopcogroup.com/search/?locationsearch=India",
-   "rejected_examples": [],
-   "requests": 9,
-   "secs": 3.4
+   "careers_url": "https://www.jobs.atlascopcogroup.com/search/?q=data",
+   "rejected_examples": [
+    "older than 30d: Commercial Senior Data Engineer | 2026-07-14"
+   ],
+   "requests": 20,
+   "secs": 6.8
   },
   {
-   "company": "CleverTap",
+   "company": "EPAM Systems",
    "platforms": [
-    "kula"
+    "epam"
    ],
    "status": "ok",
-   "fetched": 21,
-   "title_matches": 0,
-   "matched": 0,
+   "fetched": 150,
+   "title_matches": 10,
+   "matched": 1,
    "errors": [],
    "notes": [],
-   "careers_url": "https://careers.kula.ai/clevertap",
-   "rejected_examples": [],
-   "requests": 1,
-   "secs": 0.9
+   "careers_url": "https://careers.epam.com/en/jobs/india",
+   "rejected_examples": [
+    "location: Senior Snowflake Data Engineer | Coimbatore, India; Chennai, India",
+    "older than 30d: Data Quality Engineer | 2026-09-16T10:38:27.149Z",
+    "older than 30d: Senior Data Quality Engineer | 2026-09-16T09:56:59.318Z",
+    "location: Senior Software Engineer - Java with Data Structures & Algorithms | Hyderabad, India; Bangalore, India",
+    "older than 30d: Lead Palantir Data Software Engineer | 2026-08-31T06:51:49.043Z",
+    "location: Sr. Data / Data Solutions Architect - Databricks | Coimbatore, India; Chennai, India; Hyderabad, India; Bangalore, India",
+    "older than 30d: Lead Snowflake Data Engineer | 2026-08-31T06:52:05.719Z",
+    "location: Lead Software Engineer - Data | Bangalore, India"
+   ],
+   "requests": 27,
+   "secs": 9.7
   },
   {
-   "company": "DNV",
+   "company": "IDT Corporation",
    "platforms": [
-    "oracle"
+    "lever"
    ],
    "status": "ok",
-   "fetched": 13,
-   "title_matches": 0,
-   "matched": 0,
-   "errors": [],
-   "notes": [
-    "oracle: locationId=India"
-   ],
-   "careers_url": "https://jobs.dnv.com/locations/india",
-   "rejected_examples": [],
-   "requests": 10,
-   "secs": 5.3
-  },
-  {
-   "company": "Fanatics",
-   "platforms": [
-    "greenhouse"
-   ],
-   "status": "ok",
-   "fetched": 24,
-   "title_matches": 0,
-   "matched": 0,
-   "errors": [],
-   "notes": [],
-   "careers_url": "https://job-boards.greenhouse.io/fanaticsinc",
-   "rejected_examples": [],
-   "requests": 1,
-   "secs": 0.2
-  },
-  {
-   "company": "First Advantage",
-   "platforms": [
-    "jazzhr"
-   ],
-   "status": "ok",
-   "fetched": 31,
-   "title_matches": 0,
-   "matched": 0,
-   "errors": [],
-   "notes": [],
-   "careers_url": "https://firstadvantage.applytojob.com/apply",
-   "rejected_examples": [],
-   "requests": 1,
-   "secs": 0.5
-  },
-  {
-   "company": "HERE Technologies",
-   "platforms": [
-    "jibe"
-   ],
-   "status": "ok",
-   "fetched": 12,
+   "fetched": 103,
    "title_matches": 1,
    "matched": 0,
    "errors": [],
    "notes": [],
-   "careers_url": "https://careers.here.com/jobs?location=India",
+   "careers_url": "https://jobs.lever.co/idt",
    "rejected_examples": [
-    "location: Lead Software Engineer (Bigdata/spark/Java) | Bengaluru, India; Bengaluru, India"
+    "older than 30d: Senior Data Engineer (with AI/ML experience) India | 1769783746103"
    ],
-   "requests": 11,
-   "secs": 3.4
-  },
-  {
-   "company": "Wärtsilä",
-   "platforms": [
-    "csb"
-   ],
-   "status": "ok",
-   "fetched": 13,
-   "title_matches": 0,
-   "matched": 0,
-   "errors": [],
-   "notes": [],
-   "careers_url": "https://careers.wartsila.com/search/?locationsearch=India",
-   "rejected_examples": [],
-   "requests": 9,
-   "secs": 4.5
+   "requests": 1,
+   "secs": 1.1
   }
  ]
 }

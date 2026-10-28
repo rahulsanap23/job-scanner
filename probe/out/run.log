@@ -1,23 +1,18 @@
-Fanatics                     ok          fetched=  24 matched=  0 
-First Advantage              ok          fetched=  31 matched=  0 
-CleverTap                    ok          fetched=  21 matched=  0 
-HERE Technologies            ok          fetched=  12 matched=  0 
-Atlas Copco                  ok          fetched=   1 matched=  0 
-Wärtsilä                     ok          fetched=  13 matched=  0 
-Amadeus                      ok          fetched=  11 matched=  0 
-DNV                          ok          fetched=  13 matched=  0 
+IDT Corporation              ok          fetched= 103 matched=  0 
+Atlas Copco                  ok          fetched=   4 matched=  1 
+EPAM Systems                 ok          fetched= 150 matched=  1 
 {
- "generated_at": "2026-10-28T02:55:32+00:00",
+ "generated_at": "2026-10-28T03:18:07+00:00",
  "date": "2026-10-28",
  "recency_days": 30,
- "companies_total": 8,
- "companies_scanned_ok": 8,
+ "companies_total": 3,
+ "companies_scanned_ok": 3,
  "companies_failed": [],
  "companies_not_scanned": [],
- "jobs": 0,
- "companies_with_jobs": 0,
+ "jobs": 2,
+ "companies_with_jobs": 2,
  "uncertain": 0,
- "fresh": 0,
+ "fresh": 2,
  "linkedin": "skipped",
  "companies_checked_on_linkedin": []
 }

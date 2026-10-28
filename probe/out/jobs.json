@@ -1,18 +1,53 @@
 {
  "meta": {
-  "generated_at": "2026-10-28T02:55:32+00:00",
+  "generated_at": "2026-10-28T03:18:07+00:00",
   "date": "2026-10-28",
   "recency_days": 30,
-  "companies_total": 8,
-  "companies_scanned_ok": 8,
+  "companies_total": 3,
+  "companies_scanned_ok": 3,
   "companies_failed": [],
   "companies_not_scanned": [],
-  "jobs": 0,
-  "companies_with_jobs": 0,
+  "jobs": 2,
+  "companies_with_jobs": 2,
   "uncertain": 0,
-  "fresh": 0,
+  "fresh": 2,
   "linkedin": "skipped",
   "companies_checked_on_linkedin": []
  },
- "jobs": []
+ "jobs": [
+  {
+   "company": "Atlas Copco",
+   "title": "Data Engineer",
+   "location": "Chakan, Pune",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-10-15",
+   "days_ago": 13,
+   "url": "https://www.jobs.atlascopcogroup.com/job/Data-Engineer/168787-en_US/",
+   "source": "csb_unify",
+   "match": "title",
+   "flags": [],
+   "fresh": true,
+   "first_seen": "2026-10-28",
+   "new": true
+  },
+  {
+   "company": "EPAM Systems",
+   "title": "Senior Systems Engineer - Data DevOps/MLOps",
+   "location": "Chennai, India; Bangalore, India; Hyderabad, India; Coimbatore, India; Pune, India; Gurgaon, India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-10-07",
+   "days_ago": 21,
+   "url": "https://careers.epam.com/en/vacancy/senior-systems-engineer-data-devops-mlops-bltc4bt040c0f8c46jp_en",
+   "source": "epam",
+   "match": "pattern",
+   "flags": [],
+   "fresh": true,
+   "first_seen": "2026-10-28",
+   "new": true
+  }
+ ]
 }
