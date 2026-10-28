@@ -1000,11 +1000,10 @@ companies:
   careers_url: https://www.mitsubishielectric.in/careers
   note: no public job feed found
 - name: Atlas Copco
-  sources:
-  - type: csb_unify
-    base: https://www.jobs.atlascopcogroup.com
-    locale: en_US
-  careers_url: https://www.jobs.atlascopcogroup.com/search/?locationsearch=India
+  sources: []
+  careers_url: https://www.jobs.atlascopcogroup.com/search/?q=data
+  note: SuccessFactors Unify site (www.jobs.atlascopcogroup.com) leaves most jobs' location out of its
+    search results, so India roles can't be picked out; LinkedIn covers it
 - name: Sandvik
   sources:
   - type: workday
