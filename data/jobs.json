@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-10-29T10:21:04+00:00",
+  "generated_at": "2026-10-29T18:24:25+00:00",
   "date": "2026-10-29",
   "recency_days": 30,
   "companies_total": 190,
@@ -53,10 +53,10 @@
    "Volkswagen Group Digital Solutions",
    "Yes Bank"
   ],
-  "jobs": 104,
-  "companies_with_jobs": 37,
+  "jobs": 108,
+  "companies_with_jobs": 36,
   "uncertain": 15,
-  "fresh": 7,
+  "fresh": 10,
   "linkedin": "48 of 48 companies checked in the last 24 h (this scan: searched 0 companies)",
   "companies_checked_on_linkedin": [
    "3Pillar Global",
@@ -146,6 +146,40 @@
   },
   {
    "company": "Atlassian",
+   "title": "Data Platform Engineer",
+   "location": "Bengaluru - India -   Bengaluru,  560071 India; Remote - Remote",
+   "location_tags": [
+    "Remote"
+   ],
+   "posted": "2026-10-29",
+   "days_ago": 0,
+   "url": "https://careers-apac-atlassian.icims.com/jobs/27589/data-platform-engineer/job",
+   "source": "atlassian",
+   "match": "keyword:data platform",
+   "flags": [],
+   "fresh": true,
+   "first_seen": "2026-10-29",
+   "new": true
+  },
+  {
+   "company": "Atlassian",
+   "title": "Senior Data Platform Engineer",
+   "location": "Bengaluru - India -   Bengaluru,  560071 India; Remote - Remote",
+   "location_tags": [
+    "Remote"
+   ],
+   "posted": "2026-10-29",
+   "days_ago": 0,
+   "url": "https://careers-apac-atlassian.icims.com/jobs/27230/senior-data-platform-engineer/job",
+   "source": "atlassian",
+   "match": "keyword:data platform",
+   "flags": [],
+   "fresh": true,
+   "first_seen": "2026-10-29",
+   "new": true
+  },
+  {
+   "company": "Atlassian",
    "title": "Senior Software Engineer - Trusted Data Platform",
    "location": "Remote - India - Remote; Remote - Remote; Bengaluru - India -   Bengaluru,  560071 India",
    "location_tags": [
@@ -194,23 +228,6 @@
    "fresh": false,
    "first_seen": "2026-10-29",
    "new": true
-  },
-  {
-   "company": "Atlassian",
-   "title": "Senior Software Engineer - Data Platform",
-   "location": "Bengaluru - India -   Bengaluru,  560071 India; Remote - Remote",
-   "location_tags": [
-    "Remote"
-   ],
-   "posted": "2026-10-07",
-   "days_ago": 22,
-   "url": "https://careers-apac-atlassian.icims.com/jobs/27230/senior-software-engineer---data-platform/job",
-   "source": "atlassian",
-   "match": "title",
-   "flags": [],
-   "fresh": false,
-   "first_seen": "2026-10-24",
-   "new": false
   },
   {
    "company": "Avaloq",
@@ -275,6 +292,40 @@
    "posted": "2026-10-29",
    "days_ago": 0,
    "url": "https://barclays.wd3.myworkdayjobs.com/en-US/External_Career_Site_Barclays/job/Pune-Gera-Commerzone-SEZ/AVP---Data-Engineer_JR-0000104633",
+   "source": "workday",
+   "match": "title",
+   "flags": [],
+   "fresh": false,
+   "first_seen": "2026-10-29",
+   "new": true
+  },
+  {
+   "company": "Barclays",
+   "title": "Data Engineer - BA4",
+   "location": "Pune, Gera Commerzone SEZ",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-10-29",
+   "days_ago": 0,
+   "url": "https://barclays.wd3.myworkdayjobs.com/en-US/External_Career_Site_Barclays/job/Pune-Gera-Commerzone-SEZ/Data-Engineer---BA4_JR-0000106159",
+   "source": "workday",
+   "match": "title",
+   "flags": [],
+   "fresh": true,
+   "first_seen": "2026-10-29",
+   "new": true
+  },
+  {
+   "company": "Barclays",
+   "title": "Data Engineering Lead",
+   "location": "Pune, Gera Commerzone SEZ",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-10-29",
+   "days_ago": 0,
+   "url": "https://barclays.wd3.myworkdayjobs.com/en-US/External_Career_Site_Barclays/job/Pune-Gera-Commerzone-SEZ/Data-Engineering-Lead_JR-0000104321",
    "source": "workday",
    "match": "title",
    "flags": [],
@@ -400,6 +451,40 @@
    "fresh": false,
    "first_seen": "2026-10-24",
    "new": false
+  },
+  {
+   "company": "Citi",
+   "title": "Lead Data Engineer",
+   "location": "Pune Maharashtra India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-10-29",
+   "days_ago": 0,
+   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Lead-Data-Engineer_26999426-1",
+   "source": "workday",
+   "match": "title",
+   "flags": [],
+   "fresh": true,
+   "first_seen": "2026-10-29",
+   "new": true
+  },
+  {
+   "company": "Citi",
+   "title": "Senior PySpark Developer – Vice President – Market Risk",
+   "location": "Pune Maharashtra India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-10-29",
+   "days_ago": 0,
+   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Senior-PySpark-Developer---Vice-President---Market-Risk_26997445",
+   "source": "workday",
+   "match": "title",
+   "flags": [],
+   "fresh": true,
+   "first_seen": "2026-10-29",
+   "new": true
   },
   {
    "company": "Citi",
@@ -793,6 +878,23 @@
    "fresh": false,
    "first_seen": "2026-10-24",
    "new": false
+  },
+  {
+   "company": "Deutsche Bank",
+   "title": "Lead Engineer, Data Ingestion, VP",
+   "location": "Pune - Business Bay",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-10-29",
+   "days_ago": 0,
+   "url": "https://db.wd3.myworkdayjobs.com/en-US/DBWebsite/job/Pune---Business-Bay/Lead-Engineer--Data-Ingestion--VP_R0454255",
+   "source": "workday",
+   "match": "pattern",
+   "flags": [],
+   "fresh": true,
+   "first_seen": "2026-10-29",
+   "new": true
   },
   {
    "company": "Deutsche Bank",
@@ -1231,6 +1333,23 @@
   },
   {
    "company": "Mastercard",
+   "title": "Lead Data Engineer",
+   "location": "Pune, India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-10-29",
+   "days_ago": 0,
+   "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Lead-Data-Engineer_R-280352",
+   "source": "workday",
+   "match": "title",
+   "flags": [],
+   "fresh": true,
+   "first_seen": "2026-10-29",
+   "new": true
+  },
+  {
+   "company": "Mastercard",
    "title": "Lead Data Scientist (AI/ML, Python, Langchain, GenAI, Pyspark, SQL)",
    "location": "Pune, India",
    "location_tags": [
@@ -1244,7 +1363,7 @@
    "flags": [
     "title borderline"
    ],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-10-29",
    "new": true
   },
@@ -1263,7 +1382,7 @@
    "flags": [
     "title borderline"
    ],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-10-29",
    "new": true
   },
@@ -1283,23 +1402,6 @@
    "fresh": false,
    "first_seen": "2026-10-28",
    "new": true
-  },
-  {
-   "company": "Mastercard",
-   "title": "Lead Data Engineer",
-   "location": "Pune, India",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": "2026-10-26",
-   "days_ago": 3,
-   "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Lead-Data-Engineer_R-289561",
-   "source": "workday",
-   "match": "title",
-   "flags": [],
-   "fresh": false,
-   "first_seen": "2026-10-26",
-   "new": false
   },
   {
    "company": "Mastercard",
@@ -1347,23 +1449,6 @@
    "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Data-Engineer-II--Data-Warehouse--Big-Data--Spark-with-Scala-Python-Java-on-Hadoop--Oracle-SQL-_R-292591-1",
    "source": "workday",
    "match": "title",
-   "flags": [],
-   "fresh": false,
-   "first_seen": "2026-10-24",
-   "new": false
-  },
-  {
-   "company": "Mastercard",
-   "title": "Software engineer II (Java, Apache/ Spark, AWS and ETL)",
-   "location": "Pune, India",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": "2026-10-15",
-   "days_ago": 14,
-   "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Software-engineer-II--Java--Apache--Spark--AWS-and-ETL-_R-293439",
-   "source": "workday",
-   "match": "keyword:spark",
    "flags": [],
    "fresh": false,
    "first_seen": "2026-10-24",
@@ -1467,7 +1552,7 @@
    "source": "workday",
    "match": "title",
    "flags": [],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-10-29",
    "new": true
   },
@@ -1524,7 +1609,7 @@
   },
   {
    "company": "Northern Trust",
-   "title": "Director- Cloud Data Platform Operations",
+   "title": "Director- Cloud Data Platform",
    "location": "Pune, India",
    "location_tags": [
     "Pune"
@@ -1588,7 +1673,7 @@
    "source": "oracle",
    "match": "pattern",
    "flags": [],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-10-29",
    "new": true
   },
@@ -1766,14 +1851,14 @@
   },
   {
    "company": "Siemens Digital Industries Software",
-   "title": "Senior Salesforce Developer – Agentforce & Data 360",
+   "title": "Senior Data Engineer",
    "location": "Multiple Locations",
    "location_tags": [],
    "posted": null,
    "days_ago": null,
-   "url": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/524136",
+   "url": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/515214",
    "source": "avature",
-   "match": "pattern",
+   "match": "title",
    "flags": [
     "multiple locations - check"
    ],
@@ -1831,23 +1916,6 @@
    "fresh": false,
    "first_seen": "2026-10-24",
    "new": false
-  },
-  {
-   "company": "Snowflake",
-   "title": "Data Engineer",
-   "location": "IN-Pune",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": "2026-10-28",
-   "days_ago": 1,
-   "url": "https://jobs.ashbyhq.com/snowflake/1af751fb-d53e-43b0-a3bc-6fcc4004cafb",
-   "source": "ashby",
-   "match": "title",
-   "flags": [],
-   "fresh": false,
-   "first_seen": "2026-10-28",
-   "new": true
   },
   {
    "company": "UBS",
