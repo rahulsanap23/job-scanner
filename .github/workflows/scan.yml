@@ -53,6 +53,12 @@ jobs:
         if: steps.check.outputs.skip != 'true'
         run: python -m scanner.run
 
+      - name: Fetch job descriptions (new roles only)
+        if: steps.check.outputs.skip != 'true'
+        continue-on-error: true   # a description problem must never block the scan
+        timeout-minutes: 10
+        run: python -m scanner.descriptions
+
       - name: Build board page
         if: steps.check.outputs.skip != 'true'
         run: python -m scanner.board
