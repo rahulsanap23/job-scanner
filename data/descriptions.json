@@ -119,20 +119,24 @@
  "https://careers.epam.com/en/vacancy/lead-systems-engineer-data-devops-mlops-bltx3zova01hptsib2q_en": {
   "company": "EPAM Systems",
   "title": "Lead Systems Engineer - Data DevOps/MLOps",
-  "status": "failed",
+  "status": "needs_linkedin",
   "error": "page: ValueError: description too short (13 chars)",
   "via": "page",
   "tries": 1,
-  "fetched_at": "2026-10-29T18:24:25+00:00"
+  "fetched_at": "2026-10-29T18:24:25+00:00",
+  "li_tries": 0,
+  "updated_at": "2026-10-30T01:33:59+00:00"
  },
  "https://careers.epam.com/en/vacancy/senior-systems-engineer-data-devops-mlops-bltc4bt040c0f8c46jp_en": {
   "company": "EPAM Systems",
   "title": "Senior Systems Engineer - Data DevOps/MLOps",
-  "status": "failed",
+  "status": "needs_linkedin",
   "error": "page: ValueError: description too short (13 chars)",
   "via": "page",
   "tries": 1,
-  "fetched_at": "2026-10-29T18:24:25+00:00"
+  "fetched_at": "2026-10-29T18:24:25+00:00",
+  "li_tries": 0,
+  "updated_at": "2026-10-30T01:33:59+00:00"
  },
  "https://citi.wd5.myworkdayjobs.com/en-US/2/job/DLF-CYBERCITY-12B/Big-Data-Java-Spark-Developer_26998231": {
   "company": "Citi",
@@ -344,11 +348,13 @@
  "https://dejobs.org/pune-ind/ai-data-engineer-senior/01AAF78AF70044629F957B53FC016608/job/": {
   "company": "Cummins",
   "title": "AI Data Engineer - Senior",
-  "status": "failed",
+  "status": "needs_linkedin",
   "error": "page: ValueError: description too short (0 chars)",
   "via": "page",
   "tries": 1,
-  "fetched_at": "2026-10-29T18:24:25+00:00"
+  "fetched_at": "2026-10-29T18:24:25+00:00",
+  "li_tries": 0,
+  "updated_at": "2026-10-30T01:33:59+00:00"
  },
  "https://eaton.eightfold.ai/careers/job/687239486196": {
   "company": "Eaton",

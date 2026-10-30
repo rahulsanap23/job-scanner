@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-10-30T01:31:34+00:00",
+  "generated_at": "2026-10-30T01:33:59+00:00",
   "date": "2026-10-30",
   "recency_days": 30,
   "companies_total": 190,
@@ -56,7 +56,7 @@
   "jobs": 101,
   "companies_with_jobs": 35,
   "uncertain": 12,
-  "fresh": 9,
+  "fresh": 0,
   "linkedin": "48 of 48 companies checked in the last 24 h (this scan: searched 0 companies)",
   "companies_checked_on_linkedin": [
    "3Pillar Global",
@@ -157,7 +157,7 @@
    "source": "atlassian",
    "match": "keyword:data platform",
    "flags": [],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-10-30",
    "new": true
   },
@@ -174,7 +174,7 @@
    "source": "atlassian",
    "match": "keyword:data platform",
    "flags": [],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-10-30",
    "new": true
   },
@@ -295,7 +295,7 @@
    "source": "workday",
    "match": "title",
    "flags": [],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-10-30",
    "new": true
   },
@@ -312,7 +312,7 @@
    "source": "workday",
    "match": "title",
    "flags": [],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-10-30",
    "new": true
   },
@@ -431,7 +431,7 @@
    "source": "workday",
    "match": "title",
    "flags": [],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-10-30",
    "new": true
   },
@@ -448,7 +448,7 @@
    "source": "workday",
    "match": "title",
    "flags": [],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-10-30",
    "new": true
   },
@@ -822,7 +822,7 @@
    "source": "workday",
    "match": "pattern",
    "flags": [],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-10-30",
    "new": true
   },
@@ -1257,7 +1257,7 @@
    "source": "workday",
    "match": "title",
    "flags": [],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-10-30",
    "new": true
   },
@@ -1535,7 +1535,7 @@
    "flags": [
     "title borderline"
    ],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-10-30",
    "new": true
   },
