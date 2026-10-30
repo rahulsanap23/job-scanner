@@ -2,8 +2,9 @@ name: linkedin-refresh
 
 # Checks LinkedIn for a few companies at a time between the daily scans (see
 # scanner/linkedin_refresh.py). Each run gets a fresh GitHub runner, so small batches
-# rarely hit LinkedIn's rate limit. Writes only data/linkedin_cache.json, which the
-# next daily scan reads.
+# rarely hit LinkedIn's rate limit. Writes data/linkedin_cache.json, which the next daily
+# scan reads, and data/descriptions.json (descriptions for a few roles whose careers site
+# didn't give one, looked up on LinkedIn by company and title).
 on:
   schedule:                 # every 2 hours, clear of the scans at 00:30-01:30 and 09:30-10:00 UTC
     - cron: "15 3,5,7,11,13,15,17,19,21,23 * * *"   # 8:45 AM, 10:45 AM, 12:45 PM, 4:45 PM ... IST
@@ -38,18 +39,21 @@ jobs:
       - name: Search LinkedIn for the next batch
         run: python -m scanner.linkedin_refresh --batch "${{ github.event.inputs.batch || '8' }}"
 
-      - name: Commit the cache
+      - name: Commit the cache and descriptions
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           cp data/linkedin_cache.json /tmp/linkedin_cache.json
+          cp data/descriptions.json /tmp/descriptions.json 2>/dev/null || echo "{}" > /tmp/descriptions.json
           for attempt in 1 2 3; do
-            # start from the latest main and merge our results in, company by company (newest wins),
-            # so a scan or another refresh that pushed meanwhile is never overwritten
+            # start from the latest main and merge our results in (cache: company by company, newest
+            # wins; descriptions: role by role, a found description wins), so a scan or another
+            # refresh that pushed meanwhile is never overwritten
             git fetch -q origin "$GITHUB_REF_NAME"
             git reset -q --hard "origin/$GITHUB_REF_NAME"
             python -m scanner.linkedin_refresh --merge /tmp/linkedin_cache.json
-            git add data/linkedin_cache.json
+            python -m scanner.descriptions --merge /tmp/descriptions.json
+            git add data/linkedin_cache.json data/descriptions.json
             if git diff --cached --quiet; then echo "nothing to commit"; exit 0; fi
             git commit -q -m "linkedin refresh $(TZ=Asia/Kolkata date '+%F %H:%M')"
             if git push -q origin "HEAD:$GITHUB_REF_NAME"; then exit 0; fi

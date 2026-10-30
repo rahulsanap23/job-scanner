@@ -7,8 +7,13 @@
 LinkedIn blocks a machine after a dozen or so searches, so the daily scan alone can't
 check every company that needs it. This runs every couple of hours from a fresh GitHub
 runner, searches a small batch and adds the results to data/linkedin_cache.json, which
-the next daily scan reads. It never touches the scan's other outputs (jobs.json, the
-scan report, the board).
+the next daily scan reads. It never touches jobs.json, the scan report or the board.
+
+It also looks up a few job descriptions on LinkedIn: roles whose own careers site gave the
+daily scan no description (marked needs_linkedin in data/descriptions.json) are searched by
+company and title, and only a posting with the same title is used (see
+scanner/descriptions.py, linkedin_lookup). The scheduled Claude task then picks those roles'
+skills on its next run.
 
 Which companies: the ones the latest scan sent to LinkedIn (no usable careers feed, or a
 site that failed or returned nothing). Companies whose site failed in that scan come
@@ -19,7 +24,7 @@ import argparse
 import os
 from datetime import datetime, timezone
 
-from . import linkedin
+from . import descriptions, linkedin
 from .http import Http
 from .run import DATA, load_companies, scan_company
 from .filters import today_utc
@@ -90,13 +95,22 @@ def refresh(batch=BATCH, dry_run=False, log=print):
     queue = [c for c in queue if c["name"] not in recovered]
 
     log(f"LinkedIn batch ({len(queue)}): {', '.join(c['name'] for c in queue) or '-'}")
-    if dry_run or not queue:
+    if dry_run:
         return
-    http = Http(max_requests=len(queue) * linkedin.PAGES * 3 + 10)
-    found, checked, note = linkedin.scan_targets(queue, http, log=log)
-    linkedin.record(cache, found, checked, datetime.now(timezone.utc))
-    linkedin.save_cache(CACHE, cache)
-    log(f"LinkedIn: {note}; {sum(len(found.get(n) or []) for n in checked)} postings from {len(checked)} companies")
+    if queue:
+        http = Http(max_requests=len(queue) * linkedin.PAGES * 3 + 10)
+        found, checked, note = linkedin.scan_targets(queue, http, log=log)
+        linkedin.record(cache, found, checked, datetime.now(timezone.utc))
+        linkedin.save_cache(CACHE, cache)
+        log(f"LinkedIn: {note}; {sum(len(found.get(n) or []) for n in checked)} postings from {len(checked)} companies")
+        if "LinkedIn answered" in note:
+            log("descriptions: skipping LinkedIn lookups this run (rate limited)")
+            return
+    # roles whose careers site gave no description: look a few up on LinkedIn (same company + title)
+    try:
+        descriptions.linkedin_lookup(log=log)
+    except Exception as e:  # noqa: BLE001 - never let this break the company refresh
+        log(f"descriptions: LinkedIn lookup skipped ({type(e).__name__}: {str(e)[:120]})")
 
 
 def merge(ours_path, into=CACHE, now=None):
