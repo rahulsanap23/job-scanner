@@ -133,12 +133,13 @@
   "company": "EPAM Systems",
   "title": "Senior Data Quality Engineer",
   "status": "needs_linkedin",
-  "error": "page: ValueError: description too short (13 chars)",
+  "error": "LinkedIn try 1: no posting with the same company and title",
   "via": "page",
   "tries": 1,
   "fetched_at": "2026-10-30T10:21:10+00:00",
-  "updated_at": "2026-10-30T10:21:10+00:00",
-  "li_tries": 0
+  "updated_at": "2026-10-30T11:52:33+00:00",
+  "li_tries": 1,
+  "li_checked_at": "2026-10-30T11:52:33+00:00"
  },
  "https://careers.epam.com/en/vacancy/senior-systems-engineer-data-devops-mlops-bltc4bt040c0f8c46jp_en": {
   "company": "EPAM Systems",
@@ -379,12 +380,13 @@
   "company": "HSBC",
   "title": "GCP, Bigquery, Python, Agentic AI/Senior Consultant Specialist",
   "status": "needs_linkedin",
-  "error": "page: ValueError: description too short (0 chars)",
+  "error": "LinkedIn try 1: no posting with the same company and title",
   "via": "page",
   "tries": 1,
   "fetched_at": "2026-10-30T10:21:10+00:00",
-  "updated_at": "2026-10-30T10:21:10+00:00",
-  "li_tries": 0
+  "updated_at": "2026-10-30T11:52:39+00:00",
+  "li_tries": 1,
+  "li_checked_at": "2026-10-30T11:52:39+00:00"
  },
  "https://eaton.eightfold.ai/careers/job/687239486196": {
   "company": "Eaton",
