@@ -71,3 +71,19 @@ def test_merge_keeps_found_descriptions_and_board_roles_only():
     newer = d.merge_stores({"x": {"status": "needs_linkedin", "li_tries": 1, "updated_at": "1"}},
                            {"x": {"status": "needs_linkedin", "li_tries": 2, "updated_at": "2"}})
     assert newer["x"]["li_tries"] == 2        # otherwise the newest write wins
+
+
+def test_migrated_entry_wins_the_merge(tmp_path, monkeypatch):
+    import json
+    jobs = tmp_path / "jobs.json"
+    jobs.write_text(json.dumps({"jobs": [{"url": "u", "company": "EPAM Systems", "title": "T"}]}))
+    old = {"u": {"status": "failed", "via": "page", "fetched_at": "2026-10-29T18:24:00+00:00"}}
+    store = tmp_path / "descriptions.json"
+    store.write_text(json.dumps(old))
+    monkeypatch.setattr(d, "OUT", str(store))
+    monkeypatch.setattr(d, "live_jobs", lambda path=None: json.loads(jobs.read_text()) and {"u": {}})
+    monkeypatch.setattr(d, "load_config", lambda: ({}, {}))
+    d.scan_step()
+    ours = json.loads(store.read_text())
+    assert ours["u"]["status"] == "needs_linkedin"
+    assert d.merge_stores(old, ours)["u"]["status"] == "needs_linkedin"
