@@ -133,13 +133,13 @@
   "company": "EPAM Systems",
   "title": "Senior Data Quality Engineer",
   "status": "needs_linkedin",
-  "error": "LinkedIn try 1: no posting with the same company and title",
+  "error": "LinkedIn try 2: no posting with the same company and title",
   "via": "page",
   "tries": 1,
   "fetched_at": "2026-10-30T10:21:10+00:00",
-  "updated_at": "2026-10-30T11:52:33+00:00",
-  "li_tries": 1,
-  "li_checked_at": "2026-10-30T11:52:33+00:00"
+  "updated_at": "2026-10-30T15:58:51+00:00",
+  "li_tries": 2,
+  "li_checked_at": "2026-10-30T15:58:51+00:00"
  },
  "https://careers.epam.com/en/vacancy/senior-systems-engineer-data-devops-mlops-bltc4bt040c0f8c46jp_en": {
   "company": "EPAM Systems",
@@ -379,14 +379,15 @@
  "https://dejobs.org/pune-ind/gcp-bigquery-python-agentic-aisenior-consultant-specialist/E7178CB952184D00963B79E78A327840/job/": {
   "company": "HSBC",
   "title": "GCP, Bigquery, Python, Agentic AI/Senior Consultant Specialist",
-  "status": "needs_linkedin",
-  "error": "LinkedIn try 1: no posting with the same company and title",
-  "via": "page",
+  "status": "ok",
+  "via": "linkedin-search",
   "tries": 1,
   "fetched_at": "2026-10-30T10:21:10+00:00",
-  "updated_at": "2026-10-30T11:52:39+00:00",
-  "li_tries": 1,
-  "li_checked_at": "2026-10-30T11:52:39+00:00"
+  "updated_at": "2026-10-30T15:58:56+00:00",
+  "li_tries": 2,
+  "li_checked_at": "2026-10-30T15:58:56+00:00",
+  "text": "Some careers shine brighter than others.\nIf you’re looking for a career that will help you stand out, join HSBC and fulfil your potential. Whether you want a career that could take you to the top, or simply take you in an exciting new direction, HSBC offers opportunities, support and rewards that will take you further.\nHSBC is one of the largest banking and financial services organisations in the world, with operations in 64 countries and territories. We aim to be where the growth is, enabling businesses to thrive and economies to prosper, and, ultimately, helping people to fulfil their hopes and realise their ambitions.\nWhy HSBC\nHSBC is one of the largest banking and financial services organisations in the world. Guided by our purpose of opening up a world of opportunity, our ambition is to become the world’s most trusted bank globally, putting customers at the heart of everything we do.\nThe Opportunity\nThis role sits within CF Finance IT Data in Group Functions Technology, helping modernise applications and data services used in a large global banking environment. You’ll contribute to the technical direction and roadmap for improving scalability, security, maintainability and operational reliability. The focus is on building and evolving cloud-native services using Python microservices and Google Cloud Platform, including BigQuery. You’ll work across backend services, APIs and event-driven patterns with support for React-based micro-frontends where needed. Success means delivering secure, observable services and data solutions with appropriate cost controls and clear outcomes for stakeholders. You’ll also apply engineering standards consistently and use AI tooling responsibly to improve quality and productivity.\nWe are currently seeking an experienced professional to join our team in the role of Senior Consultant Specialist\nWhat you'll be doing\n- Shape the technical direction and roadmap for modernising applications across the Finance IT Data domain\n- Design and develop Python-based microservices, APIs and event-driven solutions\n- Build scalable data solutions using BigQuery and other Google Cloud Platform (GCP) services with security and cost controls\n- Develop React-based micro-frontends and integrate them with backend services\n- Embed engineering standards across architecture, coding, testing, observability, continuous integration and continuous delivery\n- Modernise legacy systems using cloud-native patterns, reusable components automation and incremental migration approaches\n- Apply AI tools including GitHub Copilot and Claude responsibly to improve development, testing documentation and problem-solving\n- Partner with engineers product architecture operations and business stakeholders to deliver secure measurable outcomes\nWhat we're looking for\n- Bring proven experience designing and developing enterprise-grade backend applications and microservices using Python\n- Demonstrate strong knowledge of BigQuery and GCP services including data modelling performance optimisation security and cost management\n- Show experience modernising complex or legacy systems using cloud-native architecture approaches\n- Apply a strong understanding of APIs distributed systems event-driven architecture automated testing observability and secure engineering\n- Bring hands-on experience with React and micro-frontend architecture including modular design and backend integration\n- Use engineering standards and GitHub workflows for version control code review and automated delivery\n- Demonstrate experience using GitHub Copilot Claude or similar AI tools responsibly to improve productivity and quality\n- Contribute technical leadership through architectural input colleague support stakeholder engagement and translating business needs into sustainable solutions\nBuilding the next Finance IT platform\nIf you want to help modernise how finance data and services are built and operated at scale this role offers the scope to make a visible impact. You’ll work on cloud-native patterns that improve reliability security and maintainability while keeping a strong focus on cost and controls. The work spans engineering standards modernisation and collaboration across product architecture operations and business teams. Apply to help deliver measurable outcomes through modern Python services and GCP data solutions.\nYou’ll achieve more when you join HSBC.\nwww.hsbc.com/careers\nHSBC is an equal opportunity employer committed to building a culture where all employees are valued, respected and opinions count. We take pride in providing a workplace that fosters continuous professional development, flexible working and, opportunities to grow within an inclusive and diverse environment. We encourage applications from all suitably qualified persons irrespective of, but not limited to, their gender or genetic information, sexual orientation, ethnicity, religion, social status, medical care leave requirements, political affiliation, people with disabilities, color, national origin, veteran status, etc., We consider all applications based on merit and suitability to the role.”\nPersonal data held by the Bank relating to employment applications will be used in accordance with our Privacy Statement, which is available on our website.",
+  "li_url": "https://in.linkedin.com/jobs/view/gcp-bigquery-python-agentic-ai-senior-consultant-specialist-at-hsbc-4485347325"
  },
  "https://eaton.eightfold.ai/careers/job/687239486196": {
   "company": "Eaton",
