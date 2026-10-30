@@ -268,17 +268,17 @@ def now_iso():
     return datetime.now(timezone.utc).isoformat(timespec="seconds")
 
 
-def load_store(path=OUT):
+def load_store(path=None):
     try:
-        with open(path, encoding="utf-8") as f:
+        with open(path or OUT, encoding="utf-8") as f:
             data = json.load(f)
         return data if isinstance(data, dict) else {}
     except (FileNotFoundError, ValueError):
         return {}
 
 
-def save_store(store, path=OUT):
-    with open(path, "w", encoding="utf-8") as f:
+def save_store(store, path=None):
+    with open(path or OUT, "w", encoding="utf-8") as f:
         json.dump(dict(sorted(store.items())), f, indent=1, ensure_ascii=False)
 
 
@@ -304,12 +304,13 @@ def merge_stores(*stores, keep=None):
     return out
 
 
-def merge(ours_path, into=OUT):
+def merge(ours_path, into=None):
     """Merge a descriptions file into `into`, keeping only roles in the current data/jobs.json.
 
     Both the daily scan and the linkedin-refresh workflow write data/descriptions.json, so each
     merges its results into the latest version on the branch instead of overwriting it.
     """
+    into = into or OUT
     save_store(merge_stores(load_store(into), load_store(ours_path), keep=set(live_jobs())), into)
 
 
@@ -323,7 +324,7 @@ def scan_step(workers=8, debug=False):
     store = {u: v for u, v in load_store().items() if u in live}  # drop roles that left the board
     for v in store.values():  # entries written before LinkedIn lookups existed
         if v.get("status") == "failed" and v.get("via") != "linkedin" and "li_tries" not in v:
-            v.update(status="needs_linkedin", li_tries=0)
+            v.update(status="needs_linkedin", li_tries=0, updated_at=now_iso())
     todo = [j for u, j in live.items()
             if u not in store or (store[u].get("status") == "failed" and store[u].get("via") == "linkedin"
                                   and store[u].get("tries", 0) < MAX_TRIES)]
