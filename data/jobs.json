@@ -1,11 +1,14 @@
 {
  "meta": {
-  "generated_at": "2026-10-30T01:35:37+00:00",
+  "generated_at": "2026-10-30T01:48:41+00:00",
   "date": "2026-10-30",
   "recency_days": 30,
   "companies_total": 190,
-  "companies_scanned_ok": 145,
-  "companies_failed": [],
+  "companies_scanned_ok": 143,
+  "companies_failed": [
+   "Tetra Pak",
+   "Worldline"
+  ],
   "companies_not_scanned": [
    "3Pillar Global",
    "Atlas Copco",
@@ -56,8 +59,8 @@
   "jobs": 101,
   "companies_with_jobs": 35,
   "uncertain": 12,
-  "fresh": 9,
-  "linkedin": "48 of 48 companies checked in the last 24 h (this scan: searched 0 companies)",
+  "fresh": 0,
+  "linkedin": "50 of 50 companies checked in the last 24 h (this scan: searched 2 companies)",
   "companies_checked_on_linkedin": [
    "3Pillar Global",
    "Atlas Copco",
@@ -99,6 +102,7 @@
    "Société Générale",
    "TeamViewer",
    "Tesla",
+   "Tetra Pak",
    "Tietoevry",
    "Trajector",
    "UBS",
@@ -106,6 +110,7 @@
    "Vector Informatik",
    "Veritas Technologies",
    "Volkswagen Group Digital Solutions",
+   "Worldline",
    "Yes Bank"
   ]
  },
@@ -157,7 +162,7 @@
    "source": "atlassian",
    "match": "keyword:data platform",
    "flags": [],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-10-30",
    "new": true
   },
@@ -174,7 +179,7 @@
    "source": "atlassian",
    "match": "keyword:data platform",
    "flags": [],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-10-30",
    "new": true
   },
@@ -295,7 +300,7 @@
    "source": "workday",
    "match": "title",
    "flags": [],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-10-30",
    "new": true
   },
@@ -312,7 +317,7 @@
    "source": "workday",
    "match": "title",
    "flags": [],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-10-30",
    "new": true
   },
@@ -431,7 +436,7 @@
    "source": "workday",
    "match": "title",
    "flags": [],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-10-30",
    "new": true
   },
@@ -448,7 +453,7 @@
    "source": "workday",
    "match": "title",
    "flags": [],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-10-30",
    "new": true
   },
@@ -822,7 +827,7 @@
    "source": "workday",
    "match": "pattern",
    "flags": [],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-10-30",
    "new": true
   },
@@ -1257,7 +1262,7 @@
    "source": "workday",
    "match": "title",
    "flags": [],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-10-30",
    "new": true
   },
@@ -1535,7 +1540,7 @@
    "flags": [
     "title borderline"
    ],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-10-30",
    "new": true
   },
