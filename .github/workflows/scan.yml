@@ -76,10 +76,12 @@ jobs:
             git fetch -q origin "$GITHUB_REF_NAME"
             git reset -q --hard "origin/$GITHUB_REF_NAME"
             for f in /tmp/out/data/*; do
-              [ "$(basename "$f")" = linkedin_cache.json ] || cp "$f" data/
+              case "$(basename "$f")" in linkedin_cache.json|descriptions.json) ;; *) cp "$f" data/ ;; esac
             done
             cp /tmp/out/index.html board/index.html
             python -m scanner.linkedin_refresh --merge /tmp/out/data/linkedin_cache.json
+            # linkedin-refresh also writes descriptions.json: merge role by role instead of overwriting
+            if [ -f /tmp/out/data/descriptions.json ]; then python -m scanner.descriptions --merge /tmp/out/data/descriptions.json; fi
             git add data board/index.html
             if git diff --cached --quiet; then echo "nothing to commit"; exit 0; fi
             git commit -q -m "scan $(TZ=Asia/Kolkata date +%F)"

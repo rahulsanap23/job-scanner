@@ -2,12 +2,19 @@
 
     python -m scanner.descriptions            # after scanner.run; updates data/descriptions.json
     python -m scanner.descriptions --debug
+    python -m scanner.descriptions --merge OURS   # merge OURS into data/descriptions.json (used before a push)
+
+Same pattern as finding jobs: the daily scan tries each new role's own careers site; when
+that gives no description the role is marked needs_linkedin, and the linkedin-refresh
+workflow (every 2 hours) looks a few of those up on LinkedIn's public job search, accepting
+only a posting with the same company and the same title (linkedin_lookup below). After
+LI_MAX_TRIES misses the role is marked failed.
 
 data/descriptions.json maps each job URL to
-    {"company", "title", "status": "ok" | "failed", "text", "error", "tries", "fetched_at"}
-Roles already fetched are skipped, failed ones are retried up to MAX_TRIES runs, and roles
-that left the board are dropped. The scheduled Claude task reads this file to pick each
-role's top skills.
+    {"company", "title", "status": "ok" | "needs_linkedin" | "failed", "text", "via", "error",
+     "tries", "li_tries", "li_url", "fetched_at", "li_checked_at", "updated_at"}
+Roles that left the board are dropped. The scheduled Claude task reads this file to pick
+each role's top skills.
 """
 import argparse
 import html
@@ -15,6 +22,7 @@ import json
 import os
 import re
 import time
+import unicodedata
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 from urllib.parse import parse_qs, urlparse
@@ -254,43 +262,205 @@ def fetch_one(job, cfg):
         return {"status": "failed", "error": f"{name}: {type(e).__name__}: {str(e)[:160]}", "via": name}
 
 
-def main():
-    ap = argparse.ArgumentParser()
-    ap.add_argument("--debug", action="store_true")
-    ap.add_argument("--workers", type=int, default=8)
-    args = ap.parse_args()
+# ---------- file helpers ----------
 
-    with open(os.path.join(DATA, "jobs.json"), encoding="utf-8") as f:
-        jobs = json.load(f)["jobs"]
+def now_iso():
+    return datetime.now(timezone.utc).isoformat(timespec="seconds")
+
+
+def load_store(path=OUT):
     try:
-        with open(OUT, encoding="utf-8") as f:
-            store = json.load(f)
+        with open(path, encoding="utf-8") as f:
+            data = json.load(f)
+        return data if isinstance(data, dict) else {}
     except (FileNotFoundError, ValueError):
-        store = {}
+        return {}
+
+
+def save_store(store, path=OUT):
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(dict(sorted(store.items())), f, indent=1, ensure_ascii=False)
+
+
+def live_jobs(path=os.path.join(DATA, "jobs.json")):
+    with open(path, encoding="utf-8") as f:
+        return {j["url"]: j for j in json.load(f)["jobs"] if j.get("url")}
+
+
+def _rank(v):
+    """Which of two entries for the same role to keep: a description beats none, then the newest write."""
+    return (v.get("status") == "ok", v.get("updated_at") or v.get("fetched_at") or "")
+
+
+def merge_stores(*stores, keep=None):
+    """Per role URL keep the better entry (see _rank). keep: only these URLs (the roles on the board)."""
+    out = {}
+    for store in stores:
+        for url, v in (store or {}).items():
+            if not isinstance(v, dict) or (keep is not None and url not in keep):
+                continue
+            if url not in out or _rank(v) > _rank(out[url]):
+                out[url] = v
+    return out
+
+
+def merge(ours_path, into=OUT):
+    """Merge a descriptions file into `into`, keeping only roles in the current data/jobs.json.
+
+    Both the daily scan and the linkedin-refresh workflow write data/descriptions.json, so each
+    merges its results into the latest version on the branch instead of overwriting it.
+    """
+    save_store(merge_stores(load_store(into), load_store(ours_path), keep=set(live_jobs())), into)
+
+
+# ---------- daily scan step ----------
+
+def scan_step(workers=8, debug=False):
+    """Careers-site fetch for roles without a description. A careers-site miss becomes
+    needs_linkedin (linkedin-refresh then looks the role up on LinkedIn, a few per run);
+    a role that came from LinkedIn and still failed is retried here up to MAX_TRIES runs."""
+    live = live_jobs()
+    store = {u: v for u, v in load_store().items() if u in live}  # drop roles that left the board
+    for v in store.values():  # entries written before LinkedIn lookups existed
+        if v.get("status") == "failed" and v.get("via") != "linkedin" and "li_tries" not in v:
+            v.update(status="needs_linkedin", li_tries=0)
+    todo = [j for u, j in live.items()
+            if u not in store or (store[u].get("status") == "failed" and store[u].get("via") == "linkedin"
+                                  and store[u].get("tries", 0) < MAX_TRIES)]
 
     per, tenants = load_config()
-    live = {j["url"]: j for j in jobs if j.get("url")}
-    store = {u: v for u, v in store.items() if u in live}  # drop roles that left the board
-    todo = [j for u, j in live.items()
-            if store.get(u, {}).get("status") != "ok" and store.get(u, {}).get("tries", 0) < MAX_TRIES]
-
-    started = time.time()
-    now = datetime.now(timezone.utc).isoformat(timespec="seconds")
-    with ThreadPoolExecutor(max_workers=args.workers) as ex:
+    started, now = time.time(), now_iso()
+    with ThreadPoolExecutor(max_workers=workers) as ex:
         results = list(ex.map(lambda j: (j, fetch_one(j, {"company": per.get(j["company"], {}),
                                                            "tenants": tenants})), todo))
     for j, r in results:
         prev = store.get(j["url"], {})
-        store[j["url"]] = {"company": j["company"], "title": j["title"], **r,
-                           "tries": prev.get("tries", 0) + 1, "fetched_at": now}
-        if args.debug or r["status"] != "ok":
-            print(f"{r['status']:6} {j['company'][:24]:24} {j['title'][:50]:50} {r.get('error', '')}", flush=True)
+        entry = {"company": j["company"], "title": j["title"], **r,
+                 "tries": prev.get("tries", 0) + 1, "fetched_at": now, "updated_at": now}
+        if r["status"] != "ok" and r.get("via") != "linkedin":
+            entry.update(status="needs_linkedin", li_tries=0)
+        store[j["url"]] = entry
+        if debug or entry["status"] != "ok":
+            print(f"{entry['status']:14} {j['company'][:24]:24} {j['title'][:50]:50} {r.get('error', '')}", flush=True)
 
-    with open(OUT, "w", encoding="utf-8") as f:
-        json.dump(dict(sorted(store.items())), f, indent=1, ensure_ascii=False)
+    save_store(store)
     ok = sum(1 for v in store.values() if v["status"] == "ok")
-    print(f"descriptions: {ok}/{len(live)} roles have one; fetched {len(todo)} this run "
-          f"({sum(1 for _, r in results if r['status'] == 'ok')} ok) in {time.time() - started:.0f}s")
+    waiting = sum(1 for v in store.values() if v["status"] == "needs_linkedin")
+    print(f"descriptions: {ok}/{len(live)} roles have one; {waiting} waiting for LinkedIn; fetched {len(todo)} "
+          f"this run ({sum(1 for _, r in results if r['status'] == 'ok')} ok) in {time.time() - started:.0f}s")
+
+
+# ---------- LinkedIn lookup (run by linkedin-refresh) ----------
+
+LI_BATCH = 5        # roles looked up per linkedin-refresh run
+LI_MAX_TRIES = 3    # then give up: the role probably isn't on LinkedIn
+LI_GAP_HOURS = 4    # wait at least this long between tries for the same role
+ABBREV = {"sr": "senior", "snr": "senior", "jr": "junior", "eng": "engineer", "engg": "engineering",
+          "mgr": "manager", "dev": "developer", "assoc": "associate", "avp": "assistant vice president",
+          "vp": "vice president", "svp": "senior vice president", "mgmt": "management"}
+TITLE_NOISE = {"pune", "mumbai", "navi", "bangalore", "bengaluru", "hyderabad", "chennai", "india", "remote",
+               "hybrid", "onsite", "m", "f", "d", "x", "w", "the", "and", "of"}
+
+
+def title_words(t):
+    """Job title reduced to comparable words: lower case, abbreviations expanded, locations dropped."""
+    t = unicodedata.normalize("NFKD", t or "").encode("ascii", "ignore").decode().lower().replace("&", " and ")
+    words = []
+    for w in re.findall(r"[a-z0-9+#]+", t):
+        words.extend(ABBREV.get(w, w).split())
+    return sorted(w for w in words if w not in TITLE_NOISE)
+
+
+def same_title(a, b):
+    """True when two titles name the same job: same words after normalising (so a different level
+    such as Senior vs Lead, or II vs III, never matches)."""
+    wa, wb = title_words(a), title_words(b)
+    return bool(wa) and wa == wb
+
+
+def lookup_due(store, live, now=None, batch=LI_BATCH):
+    """needs_linkedin roles still on the board, fewest tries first, not tried in the last LI_GAP_HOURS."""
+    from datetime import timedelta
+    now = now or datetime.now(timezone.utc)
+    gap = (now - timedelta(hours=LI_GAP_HOURS)).isoformat(timespec="seconds")
+    due = [(u, v) for u, v in store.items()
+           if u in live and v.get("status") == "needs_linkedin" and v.get("li_tries", 0) < LI_MAX_TRIES
+           and (v.get("li_checked_at") or "") < gap]
+    due.sort(key=lambda uv: (uv[1].get("li_tries", 0), uv[1].get("li_checked_at") or ""))
+    return due[:batch]
+
+
+def linkedin_lookup(batch=LI_BATCH, log=print):
+    """Look up a few needs_linkedin roles on LinkedIn's public job search: same company and same
+    title only. Paced and stops at the first sign of rate limiting, like the company search."""
+    import random
+    import requests
+    from . import linkedin as li
+
+    live = live_jobs()
+    store = load_store()
+    due = lookup_due(store, live, batch=batch)
+    if not due:
+        log("descriptions: no roles waiting for a LinkedIn lookup")
+        return 0
+    cfg = {c["name"]: c for c in yaml.safe_load(open(os.path.join(ROOT, "config", "companies.yaml"),
+                                                       encoding="utf-8"))["companies"]}
+    http = Http(max_requests=batch * 3 + 5)
+    sess = requests.Session()  # no automatic retries: back off at the first 429
+    sess.headers.update(http.s.headers)
+    found = 0
+    for url, v in due:
+        job = live[url]
+        c = cfg.get(job["company"]) or {"name": job["company"]}
+        names = [c["name"], li.search_name(c)] + list(c.get("aliases") or [])
+        v["li_tries"] = v.get("li_tries", 0) + 1
+        v["li_checked_at"] = v["updated_at"] = now_iso()
+        try:
+            time.sleep(li.PAUSE_SECS + random.random() * 4)
+            r = sess.get(li.API, timeout=20, params={"keywords": f"{job['title']} {li.search_name(c)}",
+                                                    "location": "India", "f_TPR": "r2592000"})
+            if r.status_code in (429, 999) or r.status_code >= 400:
+                v["li_tries"] -= 1  # not the role's fault: try it again next run
+                log(f"descriptions: LinkedIn answered {r.status_code}; stopping this run")
+                break
+            card = next((k for k in li.parse(r.text)
+                         if li.name_match(names, k["company"]) and same_title(job["title"], k["title"])), None)
+            if card:
+                time.sleep(li.PAUSE_SECS + random.random() * 4)
+                text = to_text(linkedin(http, {"url": card["url"]}, {}))
+                if len(text) >= MIN_CHARS:
+                    v.update(status="ok", text=text, via="linkedin-search", li_url=card["url"])
+                    v.pop("error", None)
+                    found += 1
+                    log(f"descriptions: found on LinkedIn: {job['company']} | {job['title']}")
+                    continue
+            v["error"] = f"LinkedIn try {v['li_tries']}: no posting with the same company and title"
+            if v["li_tries"] >= LI_MAX_TRIES:
+                v["status"] = "failed"
+            log(f"descriptions: not on LinkedIn (try {v['li_tries']}): {job['company']} | {job['title']}")
+        except requests.RequestException as e:
+            v["li_tries"] -= 1  # network trouble, not a miss: try the role again next run
+            log(f"descriptions: LinkedIn unreachable ({type(e).__name__}); stopping this run")
+            break
+        except Exception as e:  # noqa: BLE001
+            v["error"] = f"LinkedIn try {v['li_tries']}: {type(e).__name__}: {str(e)[:120]}"
+            if v["li_tries"] >= LI_MAX_TRIES:
+                v["status"] = "failed"
+            log(f"descriptions: LinkedIn lookup error for {job['company']} | {job['title']}: {e}")
+    save_store(store)
+    return found
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--debug", action="store_true")
+    ap.add_argument("--workers", type=int, default=8)
+    ap.add_argument("--merge", metavar="OURS", help="merge this descriptions file into data/descriptions.json and exit")
+    args = ap.parse_args()
+    if args.merge:
+        merge(args.merge)
+    else:
+        scan_step(args.workers, args.debug)
 
 
 if __name__ == "__main__":
