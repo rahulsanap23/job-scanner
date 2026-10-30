@@ -132,14 +132,14 @@
  "https://careers.epam.com/en/vacancy/senior-data-quality-engineer-blt0h7rslhs5rrvx5dd_en": {
   "company": "EPAM Systems",
   "title": "Senior Data Quality Engineer",
-  "status": "needs_linkedin",
-  "error": "LinkedIn try 2: no posting with the same company and title",
+  "status": "failed",
+  "error": "LinkedIn try 3: no posting with the same company and title",
   "via": "page",
   "tries": 1,
   "fetched_at": "2026-10-30T10:21:10+00:00",
-  "updated_at": "2026-10-30T15:58:51+00:00",
-  "li_tries": 2,
-  "li_checked_at": "2026-10-30T15:58:51+00:00"
+  "updated_at": "2026-10-30T21:47:49+00:00",
+  "li_tries": 3,
+  "li_checked_at": "2026-10-30T21:47:49+00:00"
  },
  "https://careers.epam.com/en/vacancy/senior-systems-engineer-data-devops-mlops-bltc4bt040c0f8c46jp_en": {
   "company": "EPAM Systems",
