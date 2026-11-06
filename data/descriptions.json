@@ -96,12 +96,13 @@
   "company": "EPAM Systems",
   "title": "Lead Systems Engineer - Data DevOps/MLOps",
   "status": "needs_linkedin",
-  "error": "page: ValueError: description too short (13 chars)",
+  "error": "LinkedIn try 1: no posting with the same company and title",
   "via": "page",
   "tries": 1,
   "fetched_at": "2026-11-06T01:46:25+00:00",
-  "updated_at": "2026-11-06T01:46:25+00:00",
-  "li_tries": 0
+  "updated_at": "2026-11-06T04:01:00+00:00",
+  "li_tries": 1,
+  "li_checked_at": "2026-11-06T04:01:00+00:00"
  },
  "https://careers.epam.com/en/vacancy/senior-data-quality-engineer-blt0h7rslhs5rrvx5dd_en": {
   "company": "EPAM Systems",
