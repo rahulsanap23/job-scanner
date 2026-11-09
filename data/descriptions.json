@@ -92,6 +92,17 @@
   "tries": 1,
   "fetched_at": "2026-10-29T18:24:25+00:00"
  },
+ "https://careers.epam.com/en/vacancy/lead-systems-engineer-data-devops-mlops-bltagknkh9k1a5qyvd0_en": {
+  "company": "EPAM Systems",
+  "title": "Lead Systems Engineer - Data DevOps/MLOps",
+  "status": "needs_linkedin",
+  "error": "page: ValueError: description too short (13 chars)",
+  "via": "page",
+  "tries": 1,
+  "fetched_at": "2026-11-09T10:25:30+00:00",
+  "updated_at": "2026-11-09T10:25:30+00:00",
+  "li_tries": 0
+ },
  "https://careers.epam.com/en/vacancy/lead-systems-engineer-data-devops-mlops-bltx3zova01hptsib2q_en": {
   "company": "EPAM Systems",
   "title": "Lead Systems Engineer - Data DevOps/MLOps",
@@ -104,6 +115,17 @@
   "li_tries": 3,
   "li_checked_at": "2026-11-06T14:25:17+00:00"
  },
+ "https://careers.epam.com/en/vacancy/senior-business-analyst-supply-chain-azure-databricks-bltn4imc1b716i74sdi_en": {
+  "company": "EPAM Systems",
+  "title": "Senior Business Analyst - Supply Chain + Azure Databricks",
+  "status": "needs_linkedin",
+  "error": "page: ValueError: description too short (13 chars)",
+  "via": "page",
+  "tries": 1,
+  "fetched_at": "2026-11-09T10:25:30+00:00",
+  "updated_at": "2026-11-09T10:25:30+00:00",
+  "li_tries": 0
+ },
  "https://careers.epam.com/en/vacancy/senior-data-quality-engineer-blt0h7rslhs5rrvx5dd_en": {
   "company": "EPAM Systems",
   "title": "Senior Data Quality Engineer",
@@ -115,6 +137,17 @@
   "updated_at": "2026-10-30T21:47:49+00:00",
   "li_tries": 3,
   "li_checked_at": "2026-10-30T21:47:49+00:00"
+ },
+ "https://careers.epam.com/en/vacancy/senior-systems-engineer-data-devops-mlops-bltc4bt040c0f8c46jp_en": {
+  "company": "EPAM Systems",
+  "title": "Senior Systems Engineer - Data DevOps/MLOps",
+  "status": "needs_linkedin",
+  "error": "page: ValueError: description too short (13 chars)",
+  "via": "page",
+  "tries": 1,
+  "fetched_at": "2026-11-09T10:25:30+00:00",
+  "updated_at": "2026-11-09T10:25:30+00:00",
+  "li_tries": 0
  },
  "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Data-Architect---13--years-exp--Snowflake--dBT--Python_2017847": {
   "company": "Cisco",
@@ -213,15 +246,6 @@
   "tries": 1,
   "fetched_at": "2026-11-03T01:40:24+00:00",
   "updated_at": "2026-11-03T01:40:24+00:00"
- },
- "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Data-Engineer---Python--AI_26965263": {
-  "company": "Citi",
-  "title": "Data Engineer - Python, AI",
-  "status": "ok",
-  "text": "Role Summary\nWe are looking for a mid-level Python Developer with combined experience in Data Engineering and AI/NLP engineering. The candidate will build NLP pipelines using libraries such as Flair, BERT, and LLM frameworks, and will also work on large-scale data processing using PySpark, Pandas, and related data tools. The role includes developing APIs, integrating with platform services, and supporting CI/CD deployments using GitHub and LightSpeed Enterprise.\nKey Responsibilities\n- Develop and optimize ETL/data processing jobs using PySpark, Pandas, PyArrow, and related libraries.\n- Build and maintain NLP pipelines using Flair, BERT, and LLM-based models.\n- Develop scalable ingestion and data transformation pipelines for AI and analytics use cases.\n- Build and maintain Flask-based APIs for model inference and service integrations.\n- Use regular expressions for text cleaning, parsing, and NLP preprocessing.\n- Integrate caching and fast lookups using Redis.\n- Manage and deploy ML models using MLflow for tracking and versioning.\n- Support CI/CD workflows using GitHub, LightSpeed Enterprise, and deployment pipelines.\n- Create and maintain Autosys JILs for job scheduling and automation.\n- Use basic Linux commands for troubleshooting, operations, and deployment tasks.\n- Monitor application and system health using ITRS Geneos.\n- Write unit tests and improve automation test coverage (PyTest/unittest).\n- Work with REST APIs, microservices, and basic shell scripting.\n- Work with cloud services (ECS), including boto3.\nRequired Skills\n- 10–12 years of hands-on Python programming experience.\n- Strong fundamentals in Python, OOP, and design patterns.\n- Experience with NLP libraries such as Flair, BERT, HuggingFace Transformers, or similar.\n- Solid experience with PySpark, Pandas, PyArrow, and distributed data pipelines.\n- Experience building APIs using Flask (FastAPI is a plus).\n- Experience with MLflow for model tracking and deployment.\n- Good understanding of CI/CD practices and Git workflows.\n- Experience working with Redis or similar in-memory stores.\n- Experience with Autosys JILs for job scheduling.\n- Comfortable with Linux command line and shell scripting.\n- Strong debugging, problem-solving, and teamwork skills.\n- Exposure to cloud services; AWS boto3 experience is an asset.\nNice-to-Have\n- Experience with Polars or Dask for high-performance data processing.\n- Experience with PyTorch or TensorFlow for model training.\n- Experience with Docker, Kubernetes, or containerized deployments.\n- Experience with monitoring tools such as ITRS Geneos.\n- Experience with FastAPI, Airflow, or Prefect.\n------------------------------------------------------\nJob Family Group:\nTechnology\n------------------------------------------------------\nJob Family:\nApplications Development\n------------------------------------------------------\nTime Type:\nFull time\n------------------------------------------------------\nMost Relevant Skills\nPlease see the requirements listed above.\n------------------------------------------------------\nOther Relevant Skills\nFor complementary skills, please see above and/or contact the recruiter.\n------------------------------------------------------\nCiti is an equal opportunity employer, and qualified candidates will receive consideration without regard to their race, color, religion, sex, sexual orientation, gender identity, national origin, disability, status as a protected veteran, or any other characteristic protected by law.\nIf you are a person with a disability and need a reasonable accommodation to use our search tools and/or apply for a career opportunity review Accessibility at Citi .\nView Citi’s EEO Policy Statement and the Know Your Rights poster.",
-  "via": "workday",
-  "tries": 1,
-  "fetched_at": "2026-10-29T18:24:25+00:00"
  },
  "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Data-Engineer-Assistant-Vice-President_261003236": {
   "company": "Citi",
@@ -694,26 +718,6 @@
   "tries": 1,
   "fetched_at": "2026-11-07T01:34:11+00:00",
   "updated_at": "2026-11-07T01:34:11+00:00"
- },
- "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210806262": {
-  "company": "JPMorgan Chase",
-  "title": "Software Engineer III - Java, microservice, AWS, Databricks, MLOps",
-  "status": "ok",
-  "text": "We have an exciting and rewarding opportunity for you to take your software engineering career to the next level.\nAs a Software Engineer III at JPMorganChase within the JPM - US Wealth Management Tech , you serve as a seasoned member of an agile team to design and deliver trusted market-leading technology products in a secure, stable, and scalable way. You are responsible for carrying out critical technology solutions across multiple technical areas within various business functions in support of the firm’s business objectives.\nJob responsibilities\n- Design, develop, and maintain Java-based backend services and python based Databricks applications.\n- Build and integrate REST APIs and event-driven services.\n- Apply resilient microservice design practices, including service decomposition and inter-service communication.\n- Deploy and support applications on AWS.\n- Write and maintain automated tests, participate in code reviews, and help troubleshoot production issues.\n- Collaborate with product, design, and engineering partners throughout delivery demonstrating end-to-end ownership.\n- Leverages enterprise-authorized AI coding assist tools within the work environment to improve code quality, delivery speed, and productivity across complex deliverables (e.g., code generation/refactoring, unit test creation, documentation), while validating outputs through peer review, automated testing, and secure coding standards; contributes learnings and reusable patterns to improve broader team effectiveness.\n-\nApplies knowledge of tools within the Software Development Life Cycle toolchain, including enterprise-authorized AI-assisted development and automation capabilities, to improve the value realized by automation.\nRequired qualifications, capabilities, and skills\n- Formal training or certification on software engineering concepts and 3+ years applied experience in full stack/software engineering roles with strong Java, Microservices, Messaging, React, and AWS fundamentals.\n- Hands-on Java experience, including Core Java, object-oriented design, collections, and concurrency.\n- Experience building and supporting microservices and REST APIs. Deep knowledge of microservice architecture: service decomposition, inter-service communication, resilience patterns\n- Experience with messaging or event-streaming technologies such as Kafka or RabbitMQ. Experience deploying or operating applications on AWS, using relevant services such as EC2, Lambda, S3, ECS/EKS, or API Gateway.\n- Understanding of relational or NoSQL databases and secure software development practices.\n- Proficient in Python for scripting, automation, and backend/data processing tasks. Exposure to Databricks for data engineering/analytics workloads.\n- Observability practices, including logging, metrics, and distributed tracing; familiarity with tools such as ELK, Prometheus, Grafana, or CloudWatch.\n- DevOps practices — Production monitoring, alerting, and reliability practices. CI/CD pipelines, containerization (Docker), orchestration (Kubernetes), and infrastructure as code.\n- Familiarity with MLOps practices — model deployment, monitoring, versioning, CI/CD for ML pipelines. Experience with containerization (Docker) and orchestration (Kubernetes).\n- Hands-on experience using enterprise-authorized AI-assisted software development tools within the work environment (e.g., for coding, test creation, troubleshooting, or documentation) with demonstrated ability to critically evaluate, validate, and refine AI-generated outputs for correctness, performance, and security.\n-\nUnderstanding of responsible AI use in engineering workflows, including data sensitivity considerations, secure handling of inputs/outputs, and adherence to resiliency and security expectations; ability to guide peers on safe and effective usage within team practices.",
-  "via": "oracle",
-  "tries": 1,
-  "fetched_at": "2026-11-04T10:38:00+00:00",
-  "updated_at": "2026-11-04T10:38:00+00:00"
- },
- "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210806267": {
-  "company": "JPMorgan Chase",
-  "title": "Data Engineer III - Data Engineering, Databricks, Model Serving, ML Ops, Data Architecture and modeling",
-  "status": "ok",
-  "text": "Be part of a dynamic team where your distinctive skills will contribute to a winning culture and team.\nAs a Data Engineer III at JPMorganChase within the JPM - US Wealth Management Tech , you serve as a seasoned member of an agile team to design and deliver trusted data collection, storage, access, and analytics solutions in a secure, stable, and scalable way. You are responsible for developing, testing, and maintaining critical data pipelines and architectures across multiple technical areas within various business functions in support of the firm’s business objectives.\nJob responsibilities\n- Architects and maintains large-scale data pipelines using Apache Spark and related distributed computing frameworks, ensuring efficient processing of structured and unstructured data.\n- Builds and optimizes both batch and streaming data workloads to support analytical and operational use cases.\n- Develops, optimizes, and productionizes notebooks, jobs, and workflows within the Databricks environment to support analytical and machine learning use cases.\n- Designs and implements data architecture and data modeling strategies, including dimensional models, lakehouse structures, and schema design that balance performance, scalability, and governance requirements.\n- Writes and optimizes complex SQL queries for data transformation, validation, and performance tuning across large datasets.\n- Supports ML model serving infrastructure, ensuring trained models are deployed, monitored, and scaled reliably in production environments.\n- Collaborates closely with data scientists and ML engineers on MLOps practices, including model versioning, CI/CD pipelines for ML artifacts, monitoring, and automated retraining workflows.\n- Partners with cross-functional stakeholders — including analytics, risk, and platform engineering teams — to translate business requirements into technical data solutions.\n- Maintains strong data quality, lineage, and security standards consistent with data governance and compliance expectations.\n- Leverages enterprise-authorized AI coding assist tools within the work environment to improve code quality, delivery speed, and productivity across complex deliverables (e.g., code generation/refactoring, unit test creation, documentation), while validating outputs through peer review, automated testing, and secure coding standards; contributes learnings and reusable patterns to improve broader team effectiveness.\n- Applies knowledge of tools within the Software Development Life Cycle toolchain, including enterprise-authorized AI-assisted development and automation capabilities, to improve the value realized by automation.\nRequired qualifications, capabilities, and skills\n- Formal training or certification on data engineering concepts and 3+ years applied experience.\n- Demonstrates strong, hands-on proficiency with Apache Spark or comparable distributed compute frameworks, including experience optimizing jobs for performance and cost at scale.\n- Holds direct, production-level experience with Databricks , including notebooks, Delta Lake, job orchestration, and cluster management.\n- Demonstrates solid command of SQL , with the ability to write, debug, and optimize complex queries against large and varied datasets.\n- Brings practical experience supporting ML model serving infrastructure in production environments.\n- Shows familiarity with MLOps tooling and practices, such as model monitoring, versioning, and deployment automation.\n- Possesses a strong foundation in data architecture and data modeling , covering both operational and analytical data store design.\n- Has working knowledge of cloud data platforms such as AWS, Azure, or GCP. Maintains proficiency with version control systems such as Git.\n- Demonstrates hands-on exposure to distributed computing, cloud data platforms, and production ML infrastructure.\n- Hands-on experience using enterprise-authorized AI-assisted software development tools within the work environment (e.g., for coding, test creation, troubleshooting, or documentation) with demonstrated ability to critically evaluate, validate, and refine AI-generated outputs for correctness, performance, and security.\n- Understanding of responsible AI use in engineering workflows, including data sensitivity considerations, secure handling of inputs/outputs, and adherence to resiliency and security expectations; ability to guide peers on safe and effective usage within team practices\nPreferred qualifications, capabilities, and skills\n- Experience with workflow orchestration tools such as Airflow or Databricks Workflows.\n- Familiarity with containerization technologies such as Docker and Kubernetes.\n- Exposure to CI/CD pipelines applied to data and ML workflows. Familiarity with feature stores and model registries such as MLflow.\n- Experience with real-time streaming architectures such as Kafka and Spark Structured Streaming.\n- Prior experience in financial services or other highly regulated industries, with an understanding of data governance and compliance requirements.",
-  "via": "oracle",
-  "tries": 1,
-  "fetched_at": "2026-11-04T10:38:00+00:00",
-  "updated_at": "2026-11-04T10:38:00+00:00"
  },
  "https://maersk.wd3.myworkdayjobs.com/en-US/Maersk_Careers/job/IN---Pune/Sr-Data-Architect---BI-Analyst_R200012": {
   "company": "Maersk",
