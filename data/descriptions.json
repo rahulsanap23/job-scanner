@@ -96,12 +96,13 @@
   "company": "EPAM Systems",
   "title": "Lead Systems Engineer - Data DevOps/MLOps",
   "status": "needs_linkedin",
-  "error": "page: ValueError: description too short (13 chars)",
+  "error": "LinkedIn try 1: no posting with the same company and title",
   "via": "page",
   "tries": 1,
   "fetched_at": "2026-11-09T10:25:30+00:00",
-  "updated_at": "2026-11-09T10:25:30+00:00",
-  "li_tries": 0
+  "updated_at": "2026-11-09T12:06:05+00:00",
+  "li_tries": 1,
+  "li_checked_at": "2026-11-09T12:06:05+00:00"
  },
  "https://careers.epam.com/en/vacancy/lead-systems-engineer-data-devops-mlops-bltx3zova01hptsib2q_en": {
   "company": "EPAM Systems",
@@ -119,12 +120,13 @@
   "company": "EPAM Systems",
   "title": "Senior Business Analyst - Supply Chain + Azure Databricks",
   "status": "needs_linkedin",
-  "error": "page: ValueError: description too short (13 chars)",
+  "error": "LinkedIn try 1: no posting with the same company and title",
   "via": "page",
   "tries": 1,
   "fetched_at": "2026-11-09T10:25:30+00:00",
-  "updated_at": "2026-11-09T10:25:30+00:00",
-  "li_tries": 0
+  "updated_at": "2026-11-09T12:06:13+00:00",
+  "li_tries": 1,
+  "li_checked_at": "2026-11-09T12:06:13+00:00"
  },
  "https://careers.epam.com/en/vacancy/senior-data-quality-engineer-blt0h7rslhs5rrvx5dd_en": {
   "company": "EPAM Systems",
@@ -142,12 +144,13 @@
   "company": "EPAM Systems",
   "title": "Senior Systems Engineer - Data DevOps/MLOps",
   "status": "needs_linkedin",
-  "error": "page: ValueError: description too short (13 chars)",
+  "error": "LinkedIn try 1: no posting with the same company and title",
   "via": "page",
   "tries": 1,
   "fetched_at": "2026-11-09T10:25:30+00:00",
-  "updated_at": "2026-11-09T10:25:30+00:00",
-  "li_tries": 0
+  "updated_at": "2026-11-09T12:06:20+00:00",
+  "li_tries": 1,
+  "li_checked_at": "2026-11-09T12:06:20+00:00"
  },
  "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Data-Architect---13--years-exp--Snowflake--dBT--Python_2017847": {
   "company": "Cisco",
