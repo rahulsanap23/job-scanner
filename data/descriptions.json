@@ -120,12 +120,13 @@
   "company": "EPAM Systems",
   "title": "Middle Data Quality Engineer",
   "status": "needs_linkedin",
-  "error": "page: ValueError: description too short (13 chars)",
+  "error": "LinkedIn try 1: no posting with the same company and title",
   "via": "page",
   "tries": 1,
   "fetched_at": "2026-11-10T01:38:53+00:00",
-  "updated_at": "2026-11-10T01:38:53+00:00",
-  "li_tries": 0
+  "updated_at": "2026-11-10T06:03:28+00:00",
+  "li_tries": 1,
+  "li_checked_at": "2026-11-10T06:03:28+00:00"
  },
  "https://careers.epam.com/en/vacancy/senior-business-analyst-supply-chain-azure-databricks-bltn4imc1b716i74sdi_en": {
   "company": "EPAM Systems",
