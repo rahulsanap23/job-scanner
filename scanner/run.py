@@ -429,11 +429,13 @@ def main():
     with open(os.path.join(DATA, "jobs.csv"), "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
         w.writerow(["company", "title", "location", "location_tags", "posted", "days_ago",
-                    "new", "flags", "url"])
+                    "new", "flags", "url", "via"])
         for j in jobs:
             w.writerow([j["company"], j["title"], j["location"], "|".join(j["location_tags"]),
                         j["posted"] or "", "" if j["days_ago"] is None else j["days_ago"],
-                        "Y" if j["new"] else "", "; ".join(j["flags"]), j["url"]])
+                        "Y" if j["new"] else "", "; ".join(j["flags"]), j["url"],
+                        "LinkedIn (missed by careers site)" if j.get("crosscheck") else
+                        "LinkedIn" if j["source"] == "linkedin" else "careers site"])
     print(json.dumps(meta, indent=1))
 
 
