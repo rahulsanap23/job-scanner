@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-11-13T02:19:04+00:00",
+  "generated_at": "2026-11-13T02:43:04+00:00",
   "date": "2026-11-13",
   "recency_days": 60,
   "companies_total": 190,
@@ -57,7 +57,7 @@
   "jobs": 138,
   "companies_with_jobs": 43,
   "uncertain": 20,
-  "fresh": 6,
+  "fresh": 0,
   "linkedin": "49 of 49 companies checked in the last 24 h (this scan: searched 0 companies)",
   "companies_checked_on_linkedin": [
    "3Pillar Global",
@@ -130,7 +130,7 @@
    "match": "title",
    "flags": [],
    "crosscheck": true,
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-11-13",
    "new": true
   },
@@ -148,7 +148,7 @@
    "match": "title",
    "flags": [],
    "crosscheck": true,
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-11-13",
    "new": true
   },
@@ -166,7 +166,7 @@
    "match": "title",
    "flags": [],
    "crosscheck": true,
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-11-13",
    "new": true
   },
@@ -1303,7 +1303,7 @@
    "source": "linkedin",
    "match": "title",
    "flags": [],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-11-13",
    "new": true
   },
@@ -1320,7 +1320,7 @@
    "source": "linkedin",
    "match": "title",
    "flags": [],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-11-13",
    "new": true
   },
@@ -1655,7 +1655,7 @@
     "company listed as 'Marsh Agency'"
    ],
    "crosscheck": true,
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-11-13",
    "new": true
   },
