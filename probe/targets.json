@@ -1,12 +1,26 @@
 [
  {
-  "name": "Mizuho_MGS_careers",
-  "url": "https://www.mizuhogroup.com/asia-pacific/mizuho-global-services/careers",
+  "name": "MizuhoAm_facets",
+  "url": "https://mizuho.wd1.myworkdayjobs.com/wday/cxs/mizuho/mizuhoamericas/jobs",
+  "method": "POST",
+  "json": {
+   "appliedFacets": {},
+   "limit": 1,
+   "offset": 0,
+   "searchText": ""
+  },
   "save": true
  },
  {
-  "name": "Mizuho_americas_careers",
-  "url": "https://www.mizuhogroup.com/americas/careers",
+  "name": "MizuhoAm_pune",
+  "url": "https://mizuho.wd1.myworkdayjobs.com/wday/cxs/mizuho/mizuhoamericas/jobs",
+  "method": "POST",
+  "json": {
+   "appliedFacets": {},
+   "limit": 20,
+   "offset": 0,
+   "searchText": "data engineer pune"
+  },
   "save": true
  }
 ]
