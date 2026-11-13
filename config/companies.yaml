@@ -184,11 +184,10 @@ companies:
 - name: Mizuho
   aliases:
   - Mizhuo
-  sources:
-  - type: workday
-    host: mizuhogroup.wd102.myworkdayjobs.com
-    tenant: mizuhogroup
-    site: External
+  - Mizuho Global Services India
+  sources: []
+  careers_url: https://www.mizuhogroup.com/asia-pacific/mizuho-global-services/careers
+  note: India roles (Mizuho Global Services, Pune) are listed only on LinkedIn; its Workday sites have none
 - name: Oracle
   sources:
   - type: oracle
