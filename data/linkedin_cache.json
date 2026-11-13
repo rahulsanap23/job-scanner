@@ -769,7 +769,7 @@
 "jobs": []
 },
 "ESTECO": {
-"checked_at": "2026-11-13T12:06:21+00:00",
+"checked_at": "2026-11-13T23:50:50+00:00",
 "jobs": []
 },
 "Eaton": {
@@ -963,9 +963,35 @@
 }
 ]
 },
+"Google": {
+"checked_at": "2026-11-13T23:50:50+00:00",
+"jobs": []
+},
 "HDFC Bank": {
 "checked_at": "2026-11-13T19:09:02+00:00",
 "jobs": []
+},
+"HERE Technologies": {
+"checked_at": "2026-11-13T23:50:50+00:00",
+"jobs": []
+},
+"HSBC": {
+"checked_at": "2026-11-13T23:50:50+00:00",
+"jobs": [
+{
+"id": "https://in.linkedin.com/jobs/view/gcp-bigquery-pyspark-senior-consultant-specialist-at-hsbc-4490774421",
+"title": "GCP, Bigquery, Pyspark/Senior Consultant Specialist",
+"company": "HSBC",
+"locations": [
+"Pune Division, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/gcp-bigquery-pyspark-senior-consultant-specialist-at-hsbc-4490774421",
+"posted": "2026-11-13",
+"remote": null,
+"country": null,
+"name_match": "exact"
+}
+]
 },
 "ICICI Bank": {
 "checked_at": "2026-11-13T19:09:02+00:00",
@@ -1038,7 +1064,7 @@
 ]
 },
 "Jio": {
-"checked_at": "2026-11-13T12:06:21+00:00",
+"checked_at": "2026-11-13T23:50:50+00:00",
 "jobs": []
 },
 "JioHotstar": {
@@ -1191,7 +1217,7 @@
 "jobs": []
 },
 "Tesla": {
-"checked_at": "2026-11-13T12:06:21+00:00",
+"checked_at": "2026-11-13T23:50:50+00:00",
 "jobs": []
 },
 "Tietoevry": {
@@ -1199,11 +1225,11 @@
 "jobs": []
 },
 "Trajector": {
-"checked_at": "2026-11-13T12:06:21+00:00",
+"checked_at": "2026-11-13T23:50:50+00:00",
 "jobs": []
 },
 "UBS": {
-"checked_at": "2026-11-13T12:06:21+00:00",
+"checked_at": "2026-11-13T23:50:50+00:00",
 "jobs": []
 },
 "Upstox": {
