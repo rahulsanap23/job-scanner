@@ -11,6 +11,9 @@ on:
   schedule:                 # every hour (22 runs a day), clear of the scans at 00:30-01:30 and 09:30-10:00 UTC
     - cron: "15 2-8,11-23 * * *"   # 7:45 AM to 1:45 PM and 4:45 PM to 4:45 AM IST
     - cron: "45 1,10 * * *"        # 7:15 AM and 4:15 PM IST, after the scans
+  push:                     # TEMP: test runs on the coverage-crosscheck branch
+    branches: [coverage-crosscheck]
+    paths: [".github/linkedin-test-run"]
   workflow_dispatch:
     inputs:
       batch:

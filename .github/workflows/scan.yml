@@ -8,7 +8,7 @@ on:
     - cron: "0 10 * * *"    # 3:30 PM IST retry (skips itself if the 3 PM scan finished)
   workflow_dispatch:         # "Run workflow" button for manual runs
   push:
-    branches: [dev]          # test runs while changing the scanner
+    branches: [dev, coverage-crosscheck]   # test runs while changing the scanner (TEMP: coverage-crosscheck)
     paths: ["scanner/**", "config/**", "board/template.html", ".github/workflows/scan.yml"]
 
 permissions:
