@@ -105,11 +105,11 @@
 "jobs": []
 },
 "BMW TechWorks India": {
-"checked_at": "2026-11-13T02:44:44+00:00",
+"checked_at": "2026-11-13T17:07:07+00:00",
 "jobs": []
 },
 "BNP Paribas": {
-"checked_at": "2026-11-13T02:44:44+00:00",
+"checked_at": "2026-11-13T17:07:07+00:00",
 "jobs": [
 {
 "id": "https://in.linkedin.com/jobs/view/assistant-manager-data-engineer-at-bnp-paribas-4489932102",
@@ -120,6 +120,32 @@
 ],
 "url": "https://in.linkedin.com/jobs/view/assistant-manager-data-engineer-at-bnp-paribas-4489932102",
 "posted": "2026-11-11",
+"remote": null,
+"country": null,
+"name_match": "exact"
+},
+{
+"id": "https://in.linkedin.com/jobs/view/senior-python-engineer-%E2%80%94-technical-lead-at-bnp-paribas-4490731993",
+"title": "Senior Python Engineer — Technical Lead",
+"company": "BNP Paribas",
+"locations": [
+"Mumbai, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/senior-python-engineer-%E2%80%94-technical-lead-at-bnp-paribas-4490731993",
+"posted": "2026-11-13",
+"remote": null,
+"country": null,
+"name_match": "exact"
+},
+{
+"id": "https://in.linkedin.com/jobs/view/python-data-engineer-at-bnp-paribas-4490745382",
+"title": "Python Data Engineer",
+"company": "BNP Paribas",
+"locations": [
+"Mumbai, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/python-data-engineer-at-bnp-paribas-4490745382",
+"posted": "2026-11-13",
 "remote": null,
 "country": null,
 "name_match": "exact"
@@ -618,8 +644,20 @@
 "checked_at": "2026-11-13T16:00:07+00:00",
 "jobs": []
 },
+"DDN": {
+"checked_at": "2026-11-13T17:07:07+00:00",
+"jobs": []
+},
+"DNV": {
+"checked_at": "2026-11-13T17:07:07+00:00",
+"jobs": []
+},
 "Dassault Systèmes": {
 "checked_at": "2026-11-13T11:38:01+00:00",
+"jobs": []
+},
+"Databricks": {
+"checked_at": "2026-11-13T17:07:07+00:00",
 "jobs": []
 },
 "Dream Sports": {
@@ -764,7 +802,7 @@
 "jobs": []
 },
 "Lentra": {
-"checked_at": "2026-11-13T04:08:42+00:00",
+"checked_at": "2026-11-13T17:07:07+00:00",
 "jobs": []
 },
 "Media.net": {
@@ -790,7 +828,7 @@
 "jobs": []
 },
 "Mizuho": {
-"checked_at": "2026-11-13T02:14:08+00:00",
+"checked_at": "2026-11-13T17:07:07+00:00",
 "jobs": [
 {
 "id": "https://in.linkedin.com/jobs/view/cloud-data-engineer-at-mizuho-4486041019",
@@ -910,7 +948,7 @@
 "jobs": []
 },
 "Yes Bank": {
-"checked_at": "2026-11-12T23:53:33+00:00",
+"checked_at": "2026-11-13T17:07:07+00:00",
 "jobs": []
 },
 "_remote_india": {
