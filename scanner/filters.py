@@ -6,7 +6,7 @@ tuned without touching the scrapers.
 import re
 from datetime import date, datetime, timedelta, timezone
 
-RECENCY_DAYS = 30
+RECENCY_DAYS = 60  # roles posted in the last 60 days (India date) are kept
 
 # ---------------------------------------------------------------- normalising
 

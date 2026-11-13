@@ -29,13 +29,39 @@ def test_plan_puts_failed_sites_first_then_oldest():
                {"company": "Fine", "status": "ok", "fetched": 40},
                {"company": "Skipped", "status": "not scanned"}]
     cache = {"Feedless1": entry("2026-10-28T08:00:00+00:00"), "Feedless2": entry("2026-10-27T08:00:00+00:00")}
-    urgent, queue = plan(companies, reports, cache, "2026-10-28T01:00:00+00:00", batch=8)
+    urgent, queue = plan(companies, reports, cache, "2026-10-28T01:00:00+00:00", batch=8, now=NOW)
     assert [c["name"] for c in urgent] == ["Broken"]
-    assert [c["name"] for c in queue] == ["Broken", "Feedless2", "Feedless1"]
+    # due fallback first (Feedless1 was checked 4 h ago, so it only fills a spare slot); Fine is cross-checked
+    assert [c["name"] for c in queue] == ["Broken", "Feedless2", "Fine", "Feedless1"]
     # once Broken has been checked on LinkedIn after that scan, it's no longer urgent
     cache["Broken"] = entry("2026-10-28T02:00:00+00:00")
-    urgent, queue = plan(companies, reports, cache, "2026-10-28T01:00:00+00:00", batch=2)
-    assert urgent == [] and [c["name"] for c in queue] == ["Feedless2", "Broken"]
+    urgent, queue = plan(companies, reports, cache, "2026-10-28T01:00:00+00:00", batch=2, now=NOW)
+    assert urgent == [] and [c["name"] for c in queue] == ["Feedless2", "Fine"]  # one slot kept for the cross-check
+
+
+def test_plan_keeps_a_third_for_the_crosscheck_and_lends_spare_slots():
+    names = [f"Feedless{i}" for i in range(20)] + [f"Site{i}" for i in range(20)]
+    companies = [{"name": n} for n in names]
+    reports = [{"company": n, "status": "not scanned"} for n in names[:20]] + \
+              [{"company": n, "status": "ok", "fetched": 30} for n in names[20:]]
+    _, queue = plan(companies, reports, {}, None, batch=8, now=NOW)
+    got = [c["name"] for c in queue]
+    assert len(got) == 8 and sum(n.startswith("Site") for n in got) == 3  # ceil(8/3) reserved
+    # every cross-check company checked recently: all 8 slots go to fallback companies
+    cache = {n: entry("2026-10-28T10:00:00+00:00") for n in names[20:]}
+    _, queue = plan(companies, reports, cache, None, batch=8, now=NOW)
+    assert all(c["name"].startswith("Feedless") for c in queue) and len(queue) == 8
+    # no fallback company due: the cross-check gets every slot
+    cache = {n: entry("2026-10-28T10:00:00+00:00") for n in names[:20]}
+    _, queue = plan(companies, reports, cache, None, batch=8, now=NOW)
+    assert [c["name"] for c in queue][:8] == [f"Site{i}" for i in range(8)]
+
+
+def test_remote_due():
+    from scanner.linkedin_refresh import remote_due
+    assert remote_due({}, NOW)
+    assert not remote_due({linkedin.REMOTE_KEY: entry("2026-10-28T06:00:00+00:00")}, NOW)
+    assert remote_due({linkedin.REMOTE_KEY: entry("2026-10-27T23:00:00+00:00")}, NOW)
 
 
 def test_run_fallback_uses_fresh_cache_without_searching(tmp_path):
@@ -56,7 +82,7 @@ def test_run_fallback_uses_fresh_cache_without_searching(tmp_path):
         linkedin.scan_targets = orig
     assert results["A"] == [{"title": "Data Engineer"}] and results["B"] == [{"title": "Old"}]
     assert note.startswith("1 of 2 companies checked in the last 24 h; not checked in 24 h: B")
-    assert set(json.loads(path.read_text())) == {"A", "B"}  # companies no longer needing LinkedIn are dropped
+    assert set(json.loads(path.read_text())) == {"A", "B"}  # companies no longer in the config are dropped
 
 
 def test_merge_file_drops_expired(tmp_path):

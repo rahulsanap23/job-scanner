@@ -80,6 +80,7 @@ h1 { font-family: var(--serif); font-weight: 600; font-size: clamp(32px, 6vw, 48
 .new { font: 600 10.5px var(--mono); letter-spacing: .06em; color: var(--on-teal); background: var(--teal); border-radius: 4px; padding: 1px 6px; }
 .flag { font: 500 11px var(--mono); color: var(--flag); background: var(--flag-soft); border-radius: 4px; padding: 1px 6px; }
 .via { font: 500 11px var(--mono); color: var(--ink-soft); border: 1px solid var(--line); border-radius: 4px; padding: 0 6px; }
+.via.missed { color: var(--ochre); border-color: var(--ochre); }
 .cov .li { font-family: var(--mono); font-size: 11.5px; margin-left: 4px; }
 .empty { padding: 28px; text-align: center; color: var(--ink-soft); background: var(--surface); border: 1px dashed var(--line); border-radius: 10px; }
 
@@ -107,7 +108,7 @@ footer p { margin: 0; max-width: 72ch; }
   <header>
     <div class="eyebrow">Career-site scan · Pune · Mumbai · Navi Mumbai · Remote India · __SCAN_DATE__</div>
     <h1>Data engineering roles at your target companies</h1>
-    <p class="sub" id="sub">Every listing below comes straight from a target company's own careers site, has a data-engineering title or skill in its title, is based in Pune, Mumbai, Navi Mumbai or remote in India, and was posted in the last 30 days or carries no date.</p>
+    <p class="sub" id="sub">Every listing below comes straight from a target company's own careers site, has a data-engineering title or skill in its title, is based in Pune, Mumbai, Navi Mumbai or remote in India, and was posted in the last 60 days or carries no date. LinkedIn fills in for companies whose site can't be read, and double-checks the rest for roles their site didn't show.</p>
     <div class="stats" id="stats"></div>
   </header>
 
@@ -131,7 +132,7 @@ footer p { margin: 0; max-width: 72ch; }
   <footer>
     <h2>How this list is made</h2>
     <p>A scraper runs at 6 AM and 3 PM IST against each company's own careers site (Workday, Greenhouse, Lever, Oracle and similar). Titles match on data-engineering roles (Data Engineer, Analytics Engineer, Big Data, Software Engineer – Data and the reverse word order) or a skill word in the title (Spark, PySpark, Hadoop, ETL, Databricks, Airflow, dbt, Snowflake, data warehouse or pipeline). Abbreviations such as Sr., Eng. and Dev are expanded first. Locations include neighbourhoods (Hinjewadi, Kharadi, Powai, Goregaon, Airoli and others) and remote roles open in India. Internships, data-centre, data-entry and data-scientist roles are left out.</p>
-    <p>Job titles link to the posting itself. The list is rebuilt twice a day, so links are fresh; a role that closes drops off at the next scan. For companies without a usable careers feed, or whose site failed that day, roles come from LinkedIn's public job search, checked every couple of hours, and are marked <span class="via">via LinkedIn</span>. Rows marked <span class="flag">check</span> passed the filters on a judgement call, such as a remote role that doesn't name a country.</p>
+    <p>Job titles link to the posting itself. The list is rebuilt twice a day, so links are fresh; a role that closes drops off at the next scan. For companies without a usable careers feed, or whose site failed that day, roles come from LinkedIn's public job search, checked about twice a day, and are marked <span class="via">via LinkedIn</span>. Every other company is also searched on LinkedIn every day or two; a role LinkedIn shows that the careers-site scan didn't give is added and marked <span class="via missed">via LinkedIn · missed by careers site</span>. Roles with no date on the careers site take the date from the posting page or LinkedIn where possible. Rows marked <span class="flag">check</span> passed the filters on a judgement call, such as a remote role that doesn't name a country.</p>
     <div id="coverage"></div>
   </footer>
 </div>
@@ -142,7 +143,7 @@ footer p { margin: 0; max-width: 72ch; }
   var DATA = JSON.parse(document.getElementById("data").textContent || "{}");
   var jobs = DATA.jobs || [], meta = DATA.meta || {}, coverage = DATA.coverage || [];
   var LOCS = ["All", "Pune", "Mumbai", "Navi Mumbai", "Remote"];
-  var SHOWS = [["all", "All roles"], ["new", "New (2 days)"], ["check", "Needs a check"]];
+  var SHOWS = [["all", "All roles"], ["new", "New (2 days)"], ["missed", "Missed by careers site"], ["check", "Needs a check"]];
   var state = { loc: "All", show: "all", q: "" };
   try { var saved = JSON.parse(localStorage.getItem("jobscan-filters") || "{}");
     if (LOCS.indexOf(saved.loc) >= 0) state.loc = saved.loc; } catch (e) {}
@@ -158,7 +159,8 @@ footer p { margin: 0; max-width: 72ch; }
     return (j.days_ago === 0 ? "today" : j.days_ago + "d ago") + " · " + md;
   }
   function locMatch(j) { return state.loc === "All" || (j.location_tags || []).indexOf(state.loc) >= 0; }
-  function showMatch(j) { return state.show === "all" || (state.show === "new" ? j.new : (j.flags || []).length > 0); }
+  function showMatch(j) { return state.show === "all" || (state.show === "new" ? j.new :
+    state.show === "missed" ? !!j.crosscheck : (j.flags || []).length > 0); }
   function qMatch(j) { if (!state.q) return true; var q = state.q.toLowerCase();
     return j.company.toLowerCase().indexOf(q) >= 0 || j.title.toLowerCase().indexOf(q) >= 0; }
 
@@ -201,7 +203,8 @@ footer p { margin: 0; max-width: 72ch; }
         '<span class="badge">' + count + (all.length === 1 ? " role" : " roles") + "</span>" + chev + "</button>" +
         (isOpen ? '<ul class="jobs">' + vis.map(function (j) {
           var pills = (j.new ? '<span class="new">NEW</span>' : "") +
-            (j.source === "linkedin" ? '<span class="via">via LinkedIn</span>' : "") +
+            (j.crosscheck ? '<span class="via missed" title="On LinkedIn but not given by the company\'s careers site scan">via LinkedIn · missed by careers site</span>'
+              : j.source === "linkedin" ? '<span class="via">via LinkedIn</span>' : "") +
             (j.flags || []).map(function (f) { return '<span class="flag" title="' + esc(f) + '">check: ' + esc(f) + "</span>"; }).join("");
           return '<li class="job"><span><a href="' + esc(j.url) + '" target="_blank" rel="noopener">' + esc(j.title) + ext + "</a>" +
             (pills ? '<span class="pills">' + pills + "</span>" : "") + "</span>" +
@@ -215,7 +218,10 @@ footer p { margin: 0; max-width: 72ch; }
       ? shownJobs + (shownJobs === 1 ? " role" : " roles") + " · " + shownCos + (shownCos === 1 ? " company" : " companies") : "";
   }
   function footer() {
-    if (!coverage.length) { document.getElementById("coverage").innerHTML =
+    var alerts = meta.scanner_alerts || [];
+    var warn = alerts.length ? "<p><b>Scan may be missing roles (" + alerts.length + "):</b> worth a look by hand.</p>" +
+      '<ul class="cov">' + alerts.map(function (a) { return "<li>" + esc(a.company) + ' <span class="li">' + esc(a.why) + "</span></li>"; }).join("") + "</ul>" : "";
+    if (!coverage.length) { document.getElementById("coverage").innerHTML = warn +
       "<p>Every target company's careers site was scanned successfully.</p>"; return; }
     function items(arr) { return '<ul class="cov">' + arr.map(function (c) {
       var label = c.url ? '<a href="' + esc(c.url) + '" target="_blank" rel="noopener">' + esc(c.company) + "</a>" : esc(c.company);
@@ -225,7 +231,7 @@ footer p { margin: 0; max-width: 72ch; }
     var failed = coverage.filter(function (c) { return c.status === "error"; });
     var checked = coverage.filter(function (c) { return c.status !== "error" && c.linkedin_checked; });
     var unchecked = coverage.filter(function (c) { return c.status !== "error" && !c.linkedin_checked; });
-    var out = "";
+    var out = warn;
     if (failed.length) out += "<p><b>Careers site couldn't be reached (" + failed.length + "):</b> checked on LinkedIn instead where possible.</p>" + items(failed);
     if (checked.length) out += "<p><b>No usable careers feed, checked on LinkedIn instead (" + checked.length + "):</b> their roles above are marked via LinkedIn.</p>" + items(checked);
     if (unchecked.length) out += "<p><b>Not checked automatically (" + unchecked.length + "):</b> use the links to look by hand.</p>" + items(unchecked);

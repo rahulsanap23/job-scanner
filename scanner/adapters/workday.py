@@ -1,13 +1,29 @@
 """Workday (*.myworkdayjobs.com) — the public CXS JSON API behind every Workday careers site."""
 import re
 
-from ..filters import title_match
+from ..filters import location_tags, title_match
 
 INDIA_ID = "c4f78be1a8f14da0ab49ce1162348a5e"  # Workday's global id for India
 PAGE = 20
 MAX_PAGES_PER_TERM = 15
 COUNTRY_RE = re.compile(r"^\s*(india|ind|in)\s*(\(.*\))?\s*$", re.I)
 CITY_RE = re.compile(r"pune|mumbai|bombay|maharashtra|\bindia\b|\bind\b", re.I)
+MULTI_RE = re.compile(r"^\d+\s+locations?$", re.I)
+VAGUE_DATE_RE = re.compile(r"\d+\s*\+", re.I)  # "Posted 30+ Days Ago": the list doesn't say how old
+
+
+def needs_detail(job):
+    """Open a posting's own data only for roles we might keep: a data title, and either
+    hidden cities ("3 Locations") or a vague date ("30+ Days Ago") on a Pune/Mumbai/remote role."""
+    if not title_match(job["title"])[0]:
+        return False
+    loc = job["locations"][0] if job["locations"] else ""
+    if MULTI_RE.match(loc.strip()):
+        return True
+    if VAGUE_DATE_RE.search(str(job.get("posted") or "")):
+        tags, notes = location_tags(job["locations"], job.get("remote"), job.get("country"))
+        return bool(tags or notes)
+    return False
 
 
 def _walk(facets):
@@ -55,10 +71,10 @@ def scan(src, http, terms=None):
     applied, how = india_facets(first.get("facets"))
     src["_note"] = how
 
-    seen = {}
+    seen, capped = {}, []
     for term in terms:
         offset, total = 0, None
-        for _ in range(MAX_PAGES_PER_TERM):
+        for page in range(MAX_PAGES_PER_TERM):
             data = http.post_json(api, {"appliedFacets": applied, "limit": PAGE,
                                         "offset": offset, "searchText": term})
             if total is None:
@@ -71,6 +87,10 @@ def scan(src, http, terms=None):
             offset += PAGE
             if not posts or offset >= total:
                 break
+            if page == MAX_PAGES_PER_TERM - 1:
+                capped.append(f"'{term}' stopped at {offset} of {total}")
+    if capped:
+        src["_capped"] = capped  # paging cap hit: some postings were never read
 
     jobs = []
     for path, p in seen.items():
@@ -81,11 +101,13 @@ def scan(src, http, terms=None):
             "remote": (p.get("remoteType") or "").lower().startswith("remote") or None,
             "country": "India" if how == "country=India" else None,
         }
-        # "3 Locations" hides the cities: look them up, but only for roles we'd keep
-        if re.match(r"^\d+\s+locations?$", loc.strip(), re.I) and title_match(job["title"])[0]:
+        # "3 Locations" hides the cities and "30+ Days Ago" hides the date: the posting's own
+        # data has both (location + additionalLocations, and startDate, the exact posting date)
+        if needs_detail(job):
             try:
                 info = http.get_json(f"https://{host}/wday/cxs/{tenant}/{site}{path}").get("jobPostingInfo", {})
-                job["locations"] = [info.get("location", "")] + list(info.get("additionalLocations") or [])
+                if MULTI_RE.match(loc.strip()):
+                    job["locations"] = [info.get("location", "")] + list(info.get("additionalLocations") or [])
                 job["posted"] = info.get("startDate") or job["posted"]
                 if info.get("remoteType"):
                     job["remote"] = info["remoteType"].lower().startswith("remote")

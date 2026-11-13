@@ -1,12 +1,15 @@
-"""LinkedIn fallback for target companies whose own careers site gave us nothing today.
+"""LinkedIn's public job search: the fallback for companies whose own careers site gave us
+nothing today, and a cross-check for every other company.
 
 Uses LinkedIn's public, logged-out job search (the same results anyone sees without
-signing in). One search per company, two pages at most, paced, and it stops at the
-first sign of rate limiting. No LinkedIn account is involved.
+signing in). One search per company, paced, and it stops at the first sign of rate
+limiting. No LinkedIn account is involved.
 
-Results are kept per company in data/linkedin_cache.json. The linkedin-refresh workflow
-(scanner/linkedin_refresh.py) fills it in small batches through the day; the daily scan
-reads it and only searches companies the cache hasn't covered in the last FRESH_HOURS.
+Results are kept per company in data/linkedin_cache.json, plus one entry, REMOTE_KEY, for a
+general "data engineer, remote, India" search matched against every target company. The
+linkedin-refresh workflow (scanner/linkedin_refresh.py) fills the cache in small batches
+through the day; the daily scan reads it. For fallback companies the scan also searches any
+the cache hasn't covered in the last FRESH_HOURS; the cross-check only ever reads the cache.
 """
 import html
 import json
@@ -18,6 +21,8 @@ from difflib import SequenceMatcher
 
 import requests
 
+from .filters import RECENCY_DAYS
+
 API = "https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search"
 PAUSE_SECS = 4.0   # plus up to 4 s of jitter between requests
 BACKOFF = (30, 90)  # waits before retrying a 429; then give up for this run
@@ -25,6 +30,9 @@ PAGES = 1          # 10 results per page; the search is limited to Maharashtra, 
 CACHE_DAYS = 4     # companies LinkedIn didn't let us check this run reuse results this recent
 FRESH_HOURS = 24   # a company checked this recently isn't searched again by the daily scan
 TIME_BUDGET = 600  # seconds; the rest of the companies wait for the next run
+POSTED_WITHIN = f"r{RECENCY_DAYS * 86400}"  # LinkedIn's "posted in the last N seconds" filter
+REMOTE_KEY = "_remote_india"  # cache entry for the general remote-India search
+REMOTE_PAGES = 3   # 10 results a page, newest first
 CARD = re.compile(r"<li>(.*?)</li>", re.S)
 FILLER = {"india", "pvt", "private", "ltd", "limited", "inc", "llc", "plc", "corp", "corporation", "co",
           "company", "the", "group", "technologies", "technology", "solutions", "solution", "services",
@@ -83,6 +91,95 @@ def parse(page):
     return cards
 
 
+def fetch_page(sess, params, http):
+    """One search page, paced; backs off on a 429 and raises RateLimited if LinkedIn keeps refusing."""
+    for wait in (0,) + BACKOFF:
+        time.sleep(wait or PAUSE_SECS + random.random() * 4)
+        r = sess.get(API, params=params, timeout=20)
+        http.count += 1
+        if r.status_code not in (429, 999):
+            break
+    if r.status_code in (429, 999) or (r.status_code >= 400 and r.status_code != 404):
+        raise RateLimited(f"LinkedIn answered {r.status_code}")
+    return parse(r.text) if r.status_code == 200 else []
+
+
+def _session(http):
+    sess = requests.Session()  # no automatic retries: back off at the first 429
+    sess.headers.update(http.s.headers)
+    sess.headers["Accept"] = "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+    return sess
+
+
+def all_names(companies):
+    return {c["name"]: [c["name"], search_name(c)] + list(c.get("aliases") or []) for c in companies}
+
+
+def scan_remote(companies, http, pages=REMOTE_PAGES, log=print):
+    """General search for remote data engineer roles in India, matched against every target company.
+    Returns (cards with a "target" company name, note). Stops at the first rate limit."""
+    names = all_names([c for c in companies if not c.get("skip_linkedin")])
+    sess, out, seen = _session(http), [], set()
+    try:
+        for page in range(pages):
+            cards = fetch_page(sess, {"keywords": "data engineer", "location": "India", "f_WT": "2",
+                                      "f_TPR": POSTED_WITHIN, "start": page * 10}, http)
+            for card in cards:
+                if card["id"] in seen:
+                    continue
+                seen.add(card["id"])
+                for name, alts in names.items():
+                    how = name_match(alts, card["company"])
+                    if how:
+                        out.append({**card, "remote": True, "country": "India", "name_match": how, "target": name})
+                        break
+            if len(cards) < 10:
+                break
+    except RateLimited as e:
+        log(f"LinkedIn remote search stopped: {e}")
+        return out, f"stopped: {e}"
+    except Exception as e:  # noqa: BLE001
+        log(f"LinkedIn remote search stopped: {type(e).__name__}")
+        return out, f"stopped: {type(e).__name__}"
+    return out, f"{len(out)} target-company roles in {len(seen)} remote results"
+
+
+def remote_jobs(cache, now):
+    """{company: [cards]} from the latest remote-India search if it is recent enough, and when it ran."""
+    from datetime import timedelta
+    entry = cache.get(REMOTE_KEY) or {}
+    if entry.get("checked_at", "") < (now - timedelta(days=CACHE_DAYS)).isoformat(timespec="seconds"):
+        return {}, None
+    by = {}
+    for card in entry.get("jobs") or []:
+        by.setdefault(card.get("target"), []).append(card)
+    return by, entry.get("checked_at")
+
+
+def fresh_entry(cache, name, now):
+    """A company's cached search if it is recent enough to use (CACHE_DAYS), else None."""
+    from datetime import timedelta
+    entry = cache.get(name)
+    if entry and entry.get("checked_at", "") >= (now - timedelta(days=CACHE_DAYS)).isoformat(timespec="seconds"):
+        return entry
+    return None
+
+
+def add_unique(*lists):
+    out, seen = [], set()
+    for lst in lists:
+        for card in lst or []:
+            if card.get("id") not in seen:
+                seen.add(card.get("id"))
+                out.append(card)
+    return out
+
+
+def needs_linkedin(rep):
+    """LinkedIn is the only source when there is no usable feed, the site failed, or it returned nothing."""
+    return rep.get("status") in ("not scanned", "error") or rep.get("fetched", 0) == 0
+
+
 def search_name(c):
     return re.sub(r"\s*\(.*?\)", "", c["name"]).strip()
 
@@ -90,12 +187,10 @@ def search_name(c):
 def scan_targets(targets, http, log=print):
     """targets: company dicts from config. Returns ({name: [raw jobs]}, [names checked], note)."""
     found = {c["name"]: [] for c in targets}
-    names = {c["name"]: [c["name"], search_name(c)] + list(c.get("aliases") or []) for c in targets}
+    names = all_names(targets)
     seen = set()
     done, checked = 0, []
-    sess = requests.Session()  # no automatic retries: back off at the first 429
-    sess.headers.update(http.s.headers)
-    sess.headers["Accept"] = "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+    sess = _session(http)
     started = time.time()
     try:
         for c in targets:
@@ -103,16 +198,8 @@ def scan_targets(targets, http, log=print):
                 raise RateLimited(f"time budget of {TIME_BUDGET // 60} min used")
             for page in range(PAGES):
                 params = {"keywords": f"data engineer {search_name(c)}", "location": "Maharashtra, India",
-                          "f_TPR": "r2592000", "start": page * 10}
-                for wait in (0,) + BACKOFF:
-                    time.sleep(wait or PAUSE_SECS + random.random() * 4)
-                    r = sess.get(API, params=params, timeout=20)
-                    http.count += 1
-                    if r.status_code not in (429, 999):
-                        break
-                if r.status_code in (429, 999) or (r.status_code >= 400 and r.status_code != 404):
-                    raise RateLimited(f"LinkedIn answered {r.status_code}")
-                cards = parse(r.text) if r.status_code == 200 else []
+                          "f_TPR": POSTED_WITHIN, "start": page * 10}
+                cards = fetch_page(sess, params, http)
                 for card in cards:
                     if card["id"] in seen:
                         continue
@@ -171,7 +258,7 @@ def record(cache, found, checked, now):
     return cache
 
 
-def run_fallback(targets, http, cache_path, now):
+def run_fallback(targets, http, cache_path, now, keep=None):
     """Fill LinkedIn results for `targets` from the cache, searching only companies it hasn't covered lately.
 
     The refresh workflow normally keeps every company checked within FRESH_HOURS, so this
@@ -194,7 +281,7 @@ def run_fallback(targets, http, cache_path, now):
         if entry and entry.get("checked_at", "") >= cutoff:
             results[c["name"]] = entry.get("jobs") or []
             when[c["name"]] = entry["checked_at"]
-    live = {c["name"] for c in targets}
+    live = {c["name"] for c in targets} | set(keep or []) | {REMOTE_KEY}  # keep cross-check results too
     save_cache(cache_path, {k: v for k, v in cache.items() if k in live and v.get("checked_at", "") >= cutoff})
     return results, when, coverage_note(targets, cache, now, run_note)
 

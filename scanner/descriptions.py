@@ -6,7 +6,7 @@
 
 Same pattern as finding jobs: the daily scan tries each new role's own careers site; when
 that gives no description the role is marked needs_linkedin, and the linkedin-refresh
-workflow (every 2 hours) looks a few of those up on LinkedIn's public job search, accepting
+workflow (every hour) looks a few of those up on LinkedIn's public job search, accepting
 only a posting with the same company and the same title (linkedin_lookup below). After
 LI_MAX_TRIES misses the role is marked failed.
 

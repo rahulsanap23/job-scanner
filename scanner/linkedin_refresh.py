@@ -5,7 +5,7 @@
     python -m scanner.linkedin_refresh --merge OURS  # merge OURS into data/linkedin_cache.json (used before a push)
 
 LinkedIn blocks a machine after a dozen or so searches, so the daily scan alone can't
-check every company that needs it. This runs every couple of hours from a fresh GitHub
+check every company that needs it. This runs every hour from a fresh GitHub
 runner, searches a small batch and adds the results to data/linkedin_cache.json, which
 the next daily scan reads. It never touches jobs.json, the scan report or the board.
 
@@ -15,14 +15,25 @@ company and title, and only a posting with the same title is used (see
 scanner/descriptions.py, linkedin_lookup). The scheduled Claude task then picks those roles'
 skills on its next run.
 
-Which companies: the ones the latest scan sent to LinkedIn (no usable careers feed, or a
-site that failed or returned nothing). Companies whose site failed in that scan come
-first, and their site is retried once before searching LinkedIn: if it answers now, the
-next scan will read it and LinkedIn isn't needed. The rest go least recently checked first.
+Which companies (8 per run, every hour):
+- Fallback companies: the ones the latest scan sent to LinkedIn (no usable careers feed, or a
+  site that failed or returned nothing). The list is rebuilt from the latest scan on every
+  run, so it grows and shrinks as sites fail and recover. Each is due again FALLBACK_HOURS
+  after its last check, so it is searched about twice a day. Companies whose site failed in
+  that scan come first, and their site is retried once before searching LinkedIn: if it
+  answers now, the next scan will read it and LinkedIn isn't needed.
+- Cross-check companies: every other company. Their careers site is read by the scan; LinkedIn
+  is a second source that catches roles the site scan missed. Least recently checked first.
+  At least a third of each run's searches (CROSSCHECK_SHARE) are kept for them, so the
+  cross-check never stops even when many sites fail on the same day.
+- Every REMOTE_HOURS, one general "data engineer, remote, India" search (REMOTE_PAGES pages)
+  matched against every target company, for remote roles the Maharashtra searches don't show.
+Slots one group doesn't need go to the other.
 """
 import argparse
+import math
 import os
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 from . import descriptions, linkedin
 from .http import Http
@@ -30,6 +41,10 @@ from .run import DATA, load_companies, scan_company
 from .filters import today_utc
 
 BATCH = 8
+FALLBACK_HOURS = 11     # a fallback company is due again this long after its last check (~twice a day)
+CROSSCHECK_HOURS = 20   # a cross-check company isn't searched again sooner than this
+CROSSCHECK_SHARE = 1 / 3
+REMOTE_HOURS = 12
 CACHE = os.path.join(DATA, "linkedin_cache.json")
 REPORT = os.path.join(DATA, "scan_report.json")
 
@@ -44,30 +59,56 @@ def load_report(path=REPORT):
         return {}, []
 
 
-def needs_linkedin(rep):
-    """Same rule as the daily scan: no usable feed, a failed site, or a site that returned nothing."""
-    return rep.get("status") in ("not scanned", "error") or rep.get("fetched", 0) == 0
+needs_linkedin = linkedin.needs_linkedin
 
 
 def site_failed(rep):
     return rep.get("status") != "not scanned" and needs_linkedin(rep)
 
 
-def plan(companies, reports, cache, scanned_at, batch=BATCH):
-    """Return (retry_first, queue): sites to retry, then companies in LinkedIn search order."""
+def remote_due(cache, now):
+    last = (cache.get(linkedin.REMOTE_KEY) or {}).get("checked_at", "")
+    return last < (now - timedelta(hours=REMOTE_HOURS)).isoformat(timespec="seconds")
+
+
+def plan(companies, reports, cache, scanned_at, batch=BATCH, now=None):
+    """Return (retry_first, queue): sites to retry, then the companies to search this run, in order.
+
+    batch is the number of company searches this run. Fallback companies that are due (urgent
+    first) take the slots not reserved for the cross-check; the cross-check takes at least
+    ceil(batch * CROSSCHECK_SHARE); unused slots go to the other group.
+    """
+    now = now or datetime.now(timezone.utc)
     by_name = {c["name"]: c for c in companies}
-    wanted = [(by_name[r["company"]], r) for r in reports
-              if r.get("company") in by_name and not by_name[r["company"]].get("skip_linkedin")
-              and needs_linkedin(r)]
+    reported = {r.get("company") for r in reports}
+    usable = [(by_name[r["company"]], r) for r in reports
+              if r.get("company") in by_name and not by_name[r["company"]].get("skip_linkedin")]
+    wanted = [(c, r) for c, r in usable if needs_linkedin(r)]
+    others = [c for c, r in usable if not needs_linkedin(r)] + \
+             [c for c in companies if c["name"] not in reported and not c.get("skip_linkedin")]
 
     def checked(c):
         return (cache.get(c["name"]) or {}).get("checked_at", "")
+
+    def iso(hours):
+        return (now - timedelta(hours=hours)).isoformat(timespec="seconds")
 
     # failed in the latest scan and not looked at on LinkedIn since: these go first
     urgent = [c for c, r in wanted if site_failed(r) and checked(c) < (scanned_at or "")]
     first = {c["name"] for c in urgent}
     rest = sorted((c for c, _ in wanted if c["name"] not in first), key=checked)
-    return urgent, (urgent + rest)[:batch]
+    fb_due = urgent + [c for c in rest if checked(c) < iso(FALLBACK_HOURS)]
+    fb_later = [c for c in rest if c not in fb_due]
+    xc = sorted(others, key=checked)
+    xc_due = [c for c in xc if checked(c) < iso(CROSSCHECK_HOURS)]
+    xc_later = [c for c in xc if c not in xc_due]
+
+    reserve = min(len(xc_due), math.ceil(batch * CROSSCHECK_SHARE))
+    queue = fb_due[:batch - reserve]
+    queue += xc_due[:batch - len(queue)]
+    for pool in (fb_due, fb_later, xc_later):  # fill any slots left over
+        queue += [c for c in pool if c not in queue][:batch - len(queue)]
+    return urgent, queue
 
 
 def refresh(batch=BATCH, dry_run=False, log=print):
@@ -77,7 +118,11 @@ def refresh(batch=BATCH, dry_run=False, log=print):
         return
     companies = load_companies()
     cache = linkedin.load_cache(CACHE)
-    urgent, queue = plan(companies, reports, cache, meta.get("generated_at"), batch)
+    now = datetime.now(timezone.utc)
+    do_remote = remote_due(cache, now)
+    slots = max(1, batch - linkedin.REMOTE_PAGES) if do_remote else batch  # the remote search uses a few slots
+    urgent, queue = plan(companies, reports, cache, meta.get("generated_at"), slots, now)
+    fallback = {r["company"] for r in reports if needs_linkedin(r)}
 
     today = today_utc()
     recovered = set()
@@ -94,7 +139,9 @@ def refresh(batch=BATCH, dry_run=False, log=print):
             log(f"{c['name']}: careers site answers again ({rep.get('fetched')} postings); the next scan will read it")
     queue = [c for c in queue if c["name"] not in recovered]
 
-    log(f"LinkedIn batch ({len(queue)}): {', '.join(c['name'] for c in queue) or '-'}")
+    log(f"LinkedIn batch ({len(queue)}): " + (", ".join(
+        c["name"] + ("" if c["name"] in fallback else " (cross-check)") for c in queue) or "-")
+        + (" + remote-India search" if do_remote else ""))
     if dry_run:
         return
     if queue:
@@ -104,6 +151,17 @@ def refresh(batch=BATCH, dry_run=False, log=print):
         linkedin.save_cache(CACHE, cache)
         log(f"LinkedIn: {note}; {sum(len(found.get(n) or []) for n in checked)} postings from {len(checked)} companies")
         if "LinkedIn answered" in note:
+            log("descriptions: skipping LinkedIn lookups this run (rate limited)")
+            return
+    if do_remote:
+        http = Http(max_requests=linkedin.REMOTE_PAGES * 3 + 5)
+        cards, note = linkedin.scan_remote(companies, http, log=log)
+        if not note.startswith("stopped") or cards:
+            cache[linkedin.REMOTE_KEY] = {"checked_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+                                          "jobs": cards}
+            linkedin.save_cache(CACHE, cache)
+        log(f"LinkedIn remote-India search: {note}")
+        if note.startswith("stopped: LinkedIn answered"):
             log("descriptions: skipping LinkedIn lookups this run (rate limited)")
             return
     # roles whose careers site gave no description: look a few up on LinkedIn (same company + title)
