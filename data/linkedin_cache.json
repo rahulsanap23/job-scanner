@@ -3,6 +3,28 @@
 "checked_at": "2026-11-12T21:56:05+00:00",
 "jobs": []
 },
+"AIG": {
+"checked_at": "2026-11-13T02:12:44+00:00",
+"jobs": []
+},
+"Abbott": {
+"checked_at": "2026-11-13T02:12:44+00:00",
+"jobs": [
+{
+"id": "https://in.linkedin.com/jobs/view/data-engineer-%E2%80%93-commercial-enablement-at-abbott-4473283702",
+"title": "Data Engineer – Commercial Enablement",
+"company": "Abbott",
+"locations": [
+"Mumbai Metropolitan Region"
+],
+"url": "https://in.linkedin.com/jobs/view/data-engineer-%E2%80%93-commercial-enablement-at-abbott-4473283702",
+"posted": "2026-10-07",
+"remote": null,
+"country": null,
+"name_match": "exact"
+}
+]
+},
 "Atlas Copco": {
 "checked_at": "2026-11-12T21:56:05+00:00",
 "jobs": [
@@ -77,7 +99,7 @@
 "jobs": []
 },
 "Confluent": {
-"checked_at": "2026-11-12T23:53:33+00:00",
+"checked_at": "2026-11-13T02:12:44+00:00",
 "jobs": []
 },
 "Dassault Systèmes": {
@@ -292,7 +314,7 @@
 "jobs": []
 },
 "TeamViewer": {
-"checked_at": "2026-11-12T23:53:33+00:00",
+"checked_at": "2026-11-13T02:12:44+00:00",
 "jobs": []
 },
 "Tesla": {
@@ -300,7 +322,7 @@
 "jobs": []
 },
 "Tietoevry": {
-"checked_at": "2026-11-12T23:53:33+00:00",
+"checked_at": "2026-11-13T02:12:44+00:00",
 "jobs": []
 },
 "Trajector": {
@@ -330,5 +352,108 @@
 "Yes Bank": {
 "checked_at": "2026-11-12T23:53:33+00:00",
 "jobs": []
+},
+"_remote_india": {
+"checked_at": "2026-11-13T02:12:59+00:00",
+"jobs": [
+{
+"id": "https://in.linkedin.com/jobs/view/data-engineer-i-at-amazon-4481247187",
+"title": "Data Engineer I",
+"company": "Amazon",
+"locations": [
+"Bengaluru, Karnataka, India"
+],
+"url": "https://in.linkedin.com/jobs/view/data-engineer-i-at-amazon-4481247187",
+"posted": "2026-11-10",
+"remote": true,
+"country": "India",
+"name_match": "exact",
+"target": "Amazon"
+},
+{
+"id": "https://in.linkedin.com/jobs/view/data-engineer-i-spiv-data-engineering-at-amazon-4487761167",
+"title": "Data Engineer I, SPIV Data Engineering",
+"company": "Amazon",
+"locations": [
+"Bengaluru, Karnataka, India"
+],
+"url": "https://in.linkedin.com/jobs/view/data-engineer-i-spiv-data-engineering-at-amazon-4487761167",
+"posted": "2026-11-05",
+"remote": true,
+"country": "India",
+"name_match": "exact",
+"target": "Amazon"
+},
+{
+"id": "https://in.linkedin.com/jobs/view/data-engineer-at-metlife-4488130676",
+"title": "Data Engineer",
+"company": "MetLife",
+"locations": [
+"Pune Division, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/data-engineer-at-metlife-4488130676",
+"posted": "2026-11-06",
+"remote": true,
+"country": "India",
+"name_match": "exact",
+"target": "MetLife"
+},
+{
+"id": "https://in.linkedin.com/jobs/view/oliver-wyman-data-engineer-senior-data-engineer-data-and-analytics-dna-gurugram-india-at-marsh-agency-4490000532",
+"title": "Oliver Wyman - Data Engineer / Senior Data Engineer - Data and Analytics (DNA) - Gurugram, India",
+"company": "Marsh Agency",
+"locations": [
+"Gurugram, Haryana, India"
+],
+"url": "https://in.linkedin.com/jobs/view/oliver-wyman-data-engineer-senior-data-engineer-data-and-analytics-dna-gurugram-india-at-marsh-agency-4490000532",
+"posted": "2026-11-11",
+"remote": true,
+"country": "India",
+"name_match": "loose",
+"target": "Marsh McLennan"
+},
+{
+"id": "https://in.linkedin.com/jobs/view/senior-data-engineer-%E2%80%93-microsoft-fabric-data-integration-pune-chennai-at-wolters-kluwer-4443133794",
+"title": "Senior Data Engineer – Microsoft Fabric & Data Integration - Pune/Chennai",
+"company": "Wolters Kluwer",
+"locations": [
+"Pune/Pimpri-Chinchwad Area"
+],
+"url": "https://in.linkedin.com/jobs/view/senior-data-engineer-%E2%80%93-microsoft-fabric-data-integration-pune-chennai-at-wolters-kluwer-4443133794",
+"posted": "2026-11-06",
+"remote": true,
+"country": "India",
+"name_match": "exact",
+"target": "Wolters Kluwer"
+},
+{
+"id": "https://in.linkedin.com/jobs/view/data-engineer-senior-ii-12-at-fedex-4408784128",
+"title": "Data Engineer-Senior II-12",
+"company": "FedEx",
+"locations": [
+"Chennai, Tamil Nadu, India"
+],
+"url": "https://in.linkedin.com/jobs/view/data-engineer-senior-ii-12-at-fedex-4408784128",
+"posted": "2026-11-11",
+"remote": true,
+"country": "India",
+"name_match": "exact",
+"target": "FedEx"
+},
+{
+"id": "https://in.linkedin.com/jobs/view/data-engineer-senior-ii-14-at-fedex-4408778271",
+"title": "Data Engineer-Senior II-14",
+"company": "FedEx",
+"locations": [
+"Chennai, Tamil Nadu, India"
+],
+"url": "https://in.linkedin.com/jobs/view/data-engineer-senior-ii-14-at-fedex-4408778271",
+"posted": "2026-11-10",
+"remote": true,
+"country": "India",
+"name_match": "exact",
+"target": "FedEx"
+}
+]
 }
 }
