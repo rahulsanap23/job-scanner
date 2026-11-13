@@ -1,13 +1,11 @@
 {
  "meta": {
-  "generated_at": "2026-11-13T02:06:33+00:00",
+  "generated_at": "2026-11-13T02:11:41+00:00",
   "date": "2026-11-13",
   "recency_days": 60,
   "companies_total": 190,
-  "companies_scanned_ok": 144,
-  "companies_failed": [
-   "Panasonic Avionics"
-  ],
+  "companies_scanned_ok": 145,
+  "companies_failed": [],
   "companies_not_scanned": [
    "3Pillar Global",
    "Atlas Copco",
@@ -55,11 +53,11 @@
    "Volkswagen Group Digital Solutions",
    "Yes Bank"
   ],
-  "jobs": 118,
+  "jobs": 129,
   "companies_with_jobs": 39,
   "uncertain": 19,
-  "fresh": 12,
-  "linkedin": "49 of 49 companies checked in the last 24 h (this scan: searched 1 companies)",
+  "fresh": 4,
+  "linkedin": "48 of 48 companies checked in the last 24 h (this scan: searched 0 companies)",
   "companies_checked_on_linkedin": [
    "3Pillar Global",
    "Atlas Copco",
@@ -93,7 +91,6 @@
    "NPCI",
    "Netcore Cloud",
    "Nykaa",
-   "Panasonic Avionics",
    "PhonePe",
    "Postman",
    "RBL Bank",
@@ -111,26 +108,9 @@
    "Volkswagen Group Digital Solutions",
    "Yes Bank"
   ],
-  "linkedin_crosscheck": "0 of 141 scanned companies cross-checked on LinkedIn in the last 4 days; 0 roles the careers sites missed",
+  "linkedin_crosscheck": "1 of 142 scanned companies cross-checked on LinkedIn in the last 4 days; 0 roles the careers sites missed",
   "missed_by_site": 0,
-  "scanner_alerts": [
-   {
-    "company": "Air Products",
-    "why": "stopped paging early: workday 'data' stopped at 300 of 405"
-   },
-   {
-    "company": "Cisco",
-    "why": "stopped paging early: workday 'data' stopped at 300 of 310; workday 'big data' stopped at 300 of 310"
-   },
-   {
-    "company": "Citi",
-    "why": "stopped paging early: workday 'data' stopped at 300 of 651"
-   },
-   {
-    "company": "Hitachi (Vantara, Payment Services)",
-    "why": "stopped paging early: workday 'data' stopped at 300 of 778"
-   }
-  ],
+  "scanner_alerts": [],
   "rejected": 553
  },
  "jobs": [
@@ -260,6 +240,23 @@
    "location_tags": [
     "Remote"
    ],
+   "posted": "2026-10-14",
+   "days_ago": 30,
+   "url": "https://careers-apac-atlassian.icims.com/jobs/27555/principal-data-engineer/job",
+   "source": "atlassian",
+   "match": "title",
+   "flags": [],
+   "fresh": false,
+   "first_seen": "2026-10-29",
+   "new": false
+  },
+  {
+   "company": "Atlassian",
+   "title": "Principal Data Engineer",
+   "location": "Bengaluru - India -   Bengaluru,  560071 India; Remote - Remote",
+   "location_tags": [
+    "Remote"
+   ],
    "posted": "2026-09-28",
    "days_ago": 46,
    "url": "https://careers-apac-atlassian.icims.com/jobs/26569/principal-data-engineer/job",
@@ -285,7 +282,7 @@
    "flags": [
     "title borderline"
    ],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-11-13",
    "new": true
   },
@@ -338,7 +335,7 @@
    "source": "avature",
    "match": "title",
    "flags": [],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-11-13",
    "new": true
   },
@@ -440,7 +437,7 @@
    "source": "workday",
    "match": "title",
    "flags": [],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-11-13",
    "new": true
   },
@@ -508,7 +505,7 @@
    "source": "workday",
    "match": "title",
    "flags": [],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-11-13",
    "new": true
   },
@@ -544,6 +541,23 @@
    "flags": [],
    "fresh": false,
    "first_seen": "2026-10-24",
+   "new": false
+  },
+  {
+   "company": "Citi",
+   "title": "Data Engineer",
+   "location": "Pune Maharashtra India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-11-12",
+   "days_ago": 1,
+   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Data-Engineer_26995604",
+   "source": "workday",
+   "match": "title",
+   "flags": [],
+   "fresh": false,
+   "first_seen": "2026-11-11",
    "new": false
   },
   {
@@ -596,6 +610,23 @@
    "fresh": false,
    "first_seen": "2026-11-06",
    "new": false
+  },
+  {
+   "company": "Citi",
+   "title": "Lead Java Spark and Big Data Developer - Vice President",
+   "location": "Pune Maharashtra India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-11-06",
+   "days_ago": 7,
+   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Lead-Java-Spark-and-Big-Data-Developer---Vice-President_261002964",
+   "source": "workday",
+   "match": "title",
+   "flags": [],
+   "fresh": true,
+   "first_seen": "2026-11-13",
+   "new": true
   },
   {
    "company": "Citi",
@@ -804,6 +835,23 @@
   },
   {
    "company": "Citi",
+   "title": "Data Engineer",
+   "location": "Pune Maharashtra India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-10-27",
+   "days_ago": 17,
+   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Data-Engineer_261000770",
+   "source": "workday",
+   "match": "title",
+   "flags": [],
+   "fresh": false,
+   "first_seen": "2026-11-05",
+   "new": false
+  },
+  {
+   "company": "Citi",
    "title": "Senior Software Engineer - Python and Data - Vice President",
    "location": "Pune Maharashtra India",
    "location_tags": [
@@ -852,6 +900,23 @@
    "fresh": false,
    "first_seen": "2026-10-24",
    "new": false
+  },
+  {
+   "company": "Citi",
+   "title": "Senior PySpark Python Data Engineer - Assistant Vice President",
+   "location": "Pune Maharashtra India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-10-22",
+   "days_ago": 22,
+   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Senior-PySpark-Python-Data-Engineer---Assistant-Vice-President_261000757",
+   "source": "workday",
+   "match": "title",
+   "flags": [],
+   "fresh": true,
+   "first_seen": "2026-11-13",
+   "new": true
   },
   {
    "company": "Citi",
@@ -1129,7 +1194,7 @@
    "flags": [
     "title borderline"
    ],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-11-13",
    "new": true
   },
@@ -1168,6 +1233,24 @@
    "fresh": false,
    "first_seen": "2026-10-24",
    "new": false
+  },
+  {
+   "company": "Gallagher",
+   "title": "Associate Lead Data Integration Engineer",
+   "location": "Kochi, India; Pune, India; Kochi, Kerala, India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-11-05",
+   "days_ago": 8,
+   "url": "https://jobs.ajg.com/jobs/60970",
+   "source": "jibe",
+   "match": "keyword:data integration",
+   "flags": [],
+   "date_source": "posting page",
+   "fresh": true,
+   "first_seen": "2026-11-13",
+   "new": true
   },
   {
    "company": "Gallagher",
@@ -1239,7 +1322,7 @@
    "match": "title",
    "flags": [],
    "date_source": "posting page",
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-11-13",
    "new": true
   },
@@ -1332,6 +1415,23 @@
   },
   {
    "company": "General Mills",
+   "title": "Sr. Infrastructure Engineer – Data Platforms",
+   "location": "Powai, Mumbai, MH",
+   "location_tags": [
+    "Mumbai"
+   ],
+   "posted": "2026-09-21",
+   "days_ago": 53,
+   "url": "https://genmills.wd1.myworkdayjobs.com/en-US/GMI_External_Careers/job/Powai-Mumbai-MH/Sr-Infrastructure-Engineer---Data-Platforms--SQL-DBA-_10129203",
+   "source": "workday",
+   "match": "pattern",
+   "flags": [],
+   "fresh": true,
+   "first_seen": "2026-11-13",
+   "new": true
+  },
+  {
+   "company": "General Mills",
    "title": "Sr. Infrastructure Engineer – Data Platforms (Python + Cloud)",
    "location": "Pune, MH",
    "location_tags": [
@@ -1343,7 +1443,7 @@
    "source": "workday",
    "match": "pattern",
    "flags": [],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-11-13",
    "new": true
   },
@@ -1506,6 +1606,40 @@
   },
   {
    "company": "Mastercard",
+   "title": "Lead Data Engineer",
+   "location": "Pune, India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-10-27",
+   "days_ago": 17,
+   "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Lead-Data-Engineer_R-289561",
+   "source": "workday",
+   "match": "title",
+   "flags": [],
+   "fresh": false,
+   "first_seen": "2026-10-26",
+   "new": false
+  },
+  {
+   "company": "Mastercard",
+   "title": "Lead Data Engineer",
+   "location": "Pune, India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-10-15",
+   "days_ago": 29,
+   "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Lead-Data-Engineer_R-291025-1",
+   "source": "workday",
+   "match": "title",
+   "flags": [],
+   "fresh": false,
+   "first_seen": "2026-10-24",
+   "new": false
+  },
+  {
+   "company": "Mastercard",
    "title": "Data Engineer II",
    "location": "Navi Mumbai, India (Finicity)",
    "location_tags": [
@@ -1551,7 +1685,7 @@
    "source": "workday",
    "match": "title",
    "flags": [],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-11-13",
    "new": true
   },
@@ -1738,7 +1872,7 @@
    "source": "workable",
    "match": "title",
    "flags": [],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-11-13",
    "new": true
   },
@@ -1861,7 +1995,7 @@
    "source": "workday",
    "match": "title",
    "flags": [],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-11-13",
    "new": true
   },
@@ -2119,8 +2253,25 @@
    "flags": [
     "title borderline"
    ],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-11-13",
+   "new": true
+  },
+  {
+   "company": "Vodafone (VOIS)",
+   "title": "AWS Data Engineer - VOIS",
+   "location": "Pune, Maharashtra, India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-11-09",
+   "days_ago": 4,
+   "url": "https://jobs.vodafone.com/careers/job/563018698344659",
+   "source": "eightfold",
+   "match": "title",
+   "flags": [],
+   "fresh": false,
+   "first_seen": "2026-11-12",
    "new": true
   },
   {
@@ -2147,13 +2298,30 @@
    "location_tags": [
     "Pune"
    ],
+   "posted": "2026-11-02",
+   "days_ago": 11,
+   "url": "https://jobs.vodafone.com/careers/job/563018698313894",
+   "source": "eightfold",
+   "match": "title",
+   "flags": [],
+   "fresh": false,
+   "first_seen": "2026-11-02",
+   "new": false
+  },
+  {
+   "company": "Vodafone (VOIS)",
+   "title": "AWS Data Engineer - VOIS",
+   "location": "Pune, Maharashtra, India",
+   "location_tags": [
+    "Pune"
+   ],
    "posted": "2026-09-22",
    "days_ago": 52,
    "url": "https://jobs.vodafone.com/careers/job/563018697959104",
    "source": "eightfold",
    "match": "title",
    "flags": [],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-11-13",
    "new": true
   },
