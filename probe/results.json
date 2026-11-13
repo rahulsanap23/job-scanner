@@ -1,230 +1,478 @@
 [
  {
-  "name": "epam_tenant_in",
-  "url": "https://careers.epam.com/api/jobs/v2/search/careers-india?lang=en&from=0&size=3&query=data",
-  "method": "GET",
+  "name": "Red_Hat_facets",
+  "url": "https://redhat.wd5.myworkdayjobs.com/wday/cxs/redhat/Jobs/jobs",
+  "method": "POST",
   "status": 200,
-  "final_url": "https://careers.epam.com/api/jobs/v2/search/careers-india?lang=en&from=0&size=3&query=data",
+  "final_url": "https://redhat.wd5.myworkdayjobs.com/wday/cxs/redhat/Jobs/jobs",
   "ctype": "application/json",
-  "length": 57080,
+  "length": 7146,
   "json_shape": {
-   "data": {
-    "total": 265,
-    "jobs": [
-     3,
-     {
-      "_key": "...",
-      "_partition": "...",
-      "_offset": "...",
-      "_operation": "...",
-      "uid": "...",
-      "unique_id": "...",
-      "tenant": "...",
-      "name": "...",
-      "posting_type": "...",
-      "city": "...",
-      "country": "...",
-      "vacancy_type": "...",
-      "seniority": "...",
-      "is_hot": "...",
-      "is_hidden": "...",
-      "skills": "...",
-      "primary_skill": "...",
-      "sd_pool_id": "...",
-      "request_id": "...",
-      "tags": "...",
-      "description": "...",
-      "category": "...",
-      "seo": "...",
-      "tests": "...",
-      "locale": "..."
-     }
-    ],
-    "facets": {
-     "job_type": [
-      0
-     ],
-     "assignment_duration": [
-      0
-     ],
-     "customer_industry": [
-      0
-     ],
-     "seniority": [
-      8,
-      "..."
-     ],
-     "primary_skill": [
-      65,
-      "..."
-     ],
-     "relocation": [
+   "total": 154,
+   "jobPostings": [
+    1,
+    {
+     "title": "Sales Operations Analyst",
+     "externalPath": "/job/Pune/Sales-Operations-Analyst_R-059702-2",
+     "locationsText": "Pune",
+     "postedOn": "Posted Today",
+     "remoteType": "Hybrid",
+     "bulletFields": [
       1,
-      "..."
-     ],
-     "english_level": [
-      0
-     ],
-     "created_at": [
-      0
-     ],
-     "country": [
-      1,
-      "..."
-     ],
-     "vacancy_type": [
-      2,
-      "..."
-     ],
-     "city": [
-      11,
-      "..."
-     ],
-     "is_hot": [
-      2,
-      "..."
-     ],
-     "job_specialization": [
-      11,
-      "..."
-     ],
-     "skills": [
-      505,
       "..."
      ]
     }
-   },
-   "meta": {
-    "awsRequestId": "1a816a7c-4f3c-47a1-99bc-8cb63b265f5a"
-   }
+   ],
+   "facets": [
+    5,
+    {
+     "facetParameter": "a",
+     "descriptor": "Country",
+     "values": [
+      25,
+      "..."
+     ]
+    }
+   ],
+   "userAuthenticated": false
   },
-  "snippet": "{\"data\":{\"total\":265,\"jobs\":[{\"_key\":\"blt01ypik1l8xv994ze_en\",\"_partition\":0,\"_offset\":329784,\"_operation\":\"upsert\",\"uid\":\"blt01ypik1l8xv994ze\",\"unique_id\":\"careers-india_blt01ypik1l8xv994ze_en-us\",\"tenant\":\"careers-india\",\"name\":\"Senior Snowflake Data Engineer\",\"posting_type\":\"Standard\",\"city\":[{\"id\":\"8150000000000085750\",\"name\":\"Coimbatore\",\"country\":{\"id\":\"4060741400035606931\",\"name\":\"India\",\"type\":\"Country\"},\"state\":{\"id\":\"8150000000000343532\",\"name\":\"Tamil Nadu\",\"locode\":null},\"type\":null},{\"id\":\"4060741400041519794\",\"name\":\"Chennai\",\"country\":{\"id\":\"4060741400035606931\",\"name\":\"India\",\"type\":\"Country\"},\"state\":{\"id\":\"8150000000000343532\",\"name\":\"Tamil Nadu\",\"locode\":null},\"type\":null}],\"country\":[{\"id\":\"4060741400035606931\",\"name\":\"India\",\"type\":null}],\"vacancy_type\":\"Office\",\"seniority\":\"Senior\",\"is_hot\":false,\"is_hidden\":false,\"skills\":[\"Data Integration\",\"Snowflake\",\"SQL\",\"Oracle PL/SQL\",\"Snowpark\"],\"primary_skill\":\"Data Integration\",\"sd_pool_id\":\"597604288\",\"request_id\":\"c8bHT6b5zsJLAPMI6zO7Q\",\"tags\":[\"#copyof_blt85hp910g2dcvlamq\",\"#no_touch\",\"#copyof_bltb4es61iaru5vpjf5\"],\"description\":\"<p>We are seeking an experienced <strong>Senior Snowflake Data Engineer</strong> to join our data engineering team and drive the design, development and maintenance of scalable data solutions using Snowflake's cloud data platform. This role requires expertise in modern data engineering practices, cloud technologies and AI/ML integration within the Snowflake ecosystem.</p>\",\"category",
-  "secs": 0.47
+  "snippet": "{\"total\":154,\"jobPostings\":[{\"title\":\"Sales Operations Analyst\",\"externalPath\":\"/job/Pune/Sales-Operations-Analyst_R-059702-2\",\"locationsText\":\"Pune\",\"postedOn\":\"Posted Today\",\"remoteType\":\"Hybrid\",\"bulletFields\":[\"R-059702\"]}],\"facets\":[{\"facetParameter\":\"a\",\"descriptor\":\"Country\",\"values\":[{\"descriptor\":\"United States of America\",\"id\":\"bc33aa3152ec42d4995f4791a106ed09\",\"count\":52},{\"descriptor\":\"Singapore\",\"id\":\"80938777cac5440fab50d729f9634969\",\"count\":19},{\"descriptor\":\"Japan\",\"id\":\"8b705da2becf43cfaccc091da0988ab2\",\"count\":19},{\"descriptor\":\"Australia\",\"id\":\"d903bb3fedad45039383f6de334ad4db\",\"count\":13},{\"descriptor\":\"India\",\"id\":\"c4f78be1a8f14da0ab49ce1162348a5e\",\"count\":7},{\"descriptor\":\"Netherlands\",\"id\":\"9696868b09c64d52a62ee13b052383cc\",\"count\":6},{\"descriptor\":\"France\",\"id\":\"54c5b6971ffb4bf0b116fe7651ec789a\",\"count\":6},{\"descriptor\":\"Brazil\",\"id\":\"1a29bb1357b240ab99a2fa755cc87c0e\",\"count\":5},{\"descriptor\":\"Mexico\",\"id\":\"e2adff9272454660ac4fdb56fc70bb51\",\"count\":4},{\"descriptor\":\"Germany\",\"id\":\"dcc5b7608d8644b3a93716604e78e995\",\"count\":4},{\"descriptor\":\"Korea, Republic of\",\"id\":\"7a5a2aadf9d34086a2bfbfd408bc28da\",\"count\":3},{\"descriptor\":\"Italy\",\"id\":\"8cd04a563fd94da7b06857a79faaf815\",\"count\":3},{\"descriptor\":\"Colombia\",\"id\":\"e8106cd6a3534f2dba6fdee2d41db89d\",\"count\":3},{\"descriptor\":\"United Kingdom\",\"id\":\"29247e57dbaf46fb855b224e03170bc7\",\"count\":2},{\"descriptor\":\"Taiwan\",\"id\":\"a4e08b475d6a4176853c9d1cb9854e02\",\"count\":2},{\"descriptor\":\"Sweden\",\"id\":\"6a800a4736884df",
+  "secs": 0.57
  },
  {
-  "name": "epam_tenant_in2",
-  "url": "https://careers.epam.com/api/jobs/v2/search/careers?lang=en&from=0&size=3&query=data&tenant=careers-india",
-  "method": "GET",
+  "name": "Red_Hat_data_engineer",
+  "url": "https://redhat.wd5.myworkdayjobs.com/wday/cxs/redhat/Jobs/jobs",
+  "method": "POST",
   "status": 200,
-  "final_url": "https://careers.epam.com/api/jobs/v2/search/careers?lang=en&from=0&size=3&query=data&tenant=careers-india",
+  "final_url": "https://redhat.wd5.myworkdayjobs.com/wday/cxs/redhat/Jobs/jobs",
   "ctype": "application/json",
-  "length": 63200,
+  "length": 1716,
   "json_shape": {
-   "data": {
-    "total": 539,
-    "jobs": [
-     3,
-     {
-      "_key": "...",
-      "_partition": "...",
-      "_offset": "...",
-      "_operation": "...",
-      "uid": "...",
-      "unique_id": "...",
-      "tenant": "...",
-      "name": "...",
-      "posting_type": "...",
-      "city": "...",
-      "country": "...",
-      "vacancy_type": "...",
-      "seniority": "...",
-      "is_hot": "...",
-      "is_hidden": "...",
-      "skills": "...",
-      "primary_skill": "...",
-      "sd_pool_id": "...",
-      "request_id": "...",
-      "tags": "...",
-      "description": "...",
-      "category": "...",
-      "seo": "...",
-      "tests": "...",
-      "locale": "..."
-     }
-    ],
-    "facets": {
-     "job_type": [
-      0
-     ],
-     "assignment_duration": [
-      0
-     ],
-     "customer_industry": [
-      0
-     ],
-     "seniority": [
-      11,
-      "..."
-     ],
-     "primary_skill": [
-      64,
-      "..."
-     ],
-     "relocation": [
+   "total": 3,
+   "jobPostings": [
+    3,
+    {
+     "title": "Technical Account Manager - OpenShift",
+     "externalPath": "/job/New-Delhi/Technical-Account-Manager---OpenShift_R-059640-1",
+     "locationsText": "2 Locations",
+     "postedOn": "Posted 14 Days Ago",
+     "remoteType": "Hybrid",
+     "bulletFields": [
       1,
       "..."
-     ],
-     "english_level": [
-      0
-     ],
-     "created_at": [
-      0
-     ],
-     "country": [
-      27,
+     ]
+    }
+   ],
+   "facets": [
+    5,
+    {
+     "facetParameter": "a",
+     "descriptor": "Country",
+     "values": [
+      1,
       "..."
-     ],
-     "vacancy_type": [
+     ]
+    }
+   ],
+   "userAuthenticated": false
+  },
+  "snippet": "{\"total\":3,\"jobPostings\":[{\"title\":\"Technical Account Manager - OpenShift\",\"externalPath\":\"/job/New-Delhi/Technical-Account-Manager---OpenShift_R-059640-1\",\"locationsText\":\"2 Locations\",\"postedOn\":\"Posted 14 Days Ago\",\"remoteType\":\"Hybrid\",\"bulletFields\":[\"R-059640\"]},{\"title\":\"Senior Technical Account Manager\",\"externalPath\":\"/job/New-Delhi/Senior-Technical-Account-Manager_R-059815\",\"locationsText\":\"New Delhi\",\"postedOn\":\"Posted 22 Days Ago\",\"remoteType\":\"Onsite\",\"bulletFields\":[\"R-059815\"]},{\"title\":\"Senior Consultant - Middleware/OCP\",\"externalPath\":\"/job/Remote-India-Mumbai/Senior-Consultant---Middleware-OCP_R-059564-1\",\"locationsText\":\"Remote India Mumbai\",\"postedOn\":\"Posted 30+ Days Ago\",\"remoteType\":\"Hybrid\",\"bulletFields\":[\"R-059564\"]}],\"facets\":[{\"facetParameter\":\"a\",\"descriptor\":\"Country\",\"values\":[{\"descriptor\":\"India\",\"id\":\"c4f78be1a8f14da0ab49ce1162348a5e\",\"count\":3}]},{\"facetParameter\":\"b\",\"descriptor\":\"Region/State/Province\",\"values\":[{\"descriptor\":\"Mahārāshtra\",\"id\":\"a3c37012f51642f4a7b3dafc8ac37801\",\"count\":2},{\"descriptor\":\"Delhi\",\"id\":\"a1dd3300691e478c83f6632acd616705\",\"count\":2}]},{\"facetParameter\":\"c\",\"descriptor\":\"Remote Type\",\"values\":[{\"descriptor\":\"Hybrid\",\"id\":\"c0dc068729fd100110e3536e3af70000\",\"count\":2},{\"descriptor\":\"Onsite\",\"id\":\"48e76bf7cb5510011a9542195ab40000\",\"count\":1}]},{\"facetParameter\":\"d\",\"descriptor\":\"Job Function\",\"values\":[{\"descriptor\":\"Engineering\",\"id\":\"c18026e77576010f6ef6126f4e43ec4a\",\"count\":2},{\"descriptor\":\"Consulting\",\"id\":\"c",
+  "secs": 0.78
+ },
+ {
+  "name": "Fiserv_facets",
+  "url": "https://fiserv.wd5.myworkdayjobs.com/wday/cxs/fiserv/EXT/jobs",
+  "method": "POST",
+  "status": 200,
+  "final_url": "https://fiserv.wd5.myworkdayjobs.com/wday/cxs/fiserv/EXT/jobs",
+  "ctype": "application/json",
+  "length": 13004,
+  "json_shape": {
+   "total": 401,
+   "jobPostings": [
+    1,
+    {
+     "title": "Product Commercialization Manager (Remote)",
+     "externalPath": "/job/Hagerstown-Maryland/Product-Commercialization-Manager--Remote-_R-10406592",
+     "timeType": "Full time",
+     "locationsText": "Hagerstown, Maryland",
+     "postedOn": "Posted Today",
+     "bulletFields": [
+      1,
+      "..."
+     ]
+    }
+   ],
+   "facets": [
+    4,
+    {
+     "facetParameter": "timeType",
+     "descriptor": "Full/Part-time",
+     "values": [
+      1,
+      "..."
+     ]
+    }
+   ],
+   "userAuthenticated": false
+  },
+  "snippet": "{\"total\":401,\"jobPostings\":[{\"title\":\"Product Commercialization Manager (Remote)\",\"externalPath\":\"/job/Hagerstown-Maryland/Product-Commercialization-Manager--Remote-_R-10406592\",\"timeType\":\"Full time\",\"locationsText\":\"Hagerstown, Maryland\",\"postedOn\":\"Posted Today\",\"bulletFields\":[\"R-10406592\"]}],\"facets\":[{\"facetParameter\":\"timeType\",\"descriptor\":\"Full/Part-time\",\"values\":[{\"descriptor\":\"Full time\",\"id\":\"f1fcabeda1b8105f92d4b58bb84d3c44\",\"count\":401}]},{\"facetParameter\":\"workerSubType\",\"descriptor\":\"Job Type\",\"values\":[{\"descriptor\":\"Intern (Fixed Term)\",\"id\":\"9845595a26eb1060bff54954ae658f90\",\"count\":3},{\"descriptor\":\"Regular\",\"id\":\"9845595a26eb1060bff54587bc2d8f8e\",\"count\":395},{\"descriptor\":\"Regular - Fixed (Fixed Term)\",\"id\":\"cac65328b5a110468dc4512556fc4aba\",\"count\":3}]},{\"facetParameter\":\"jobFamilyGroup\",\"descriptor\":\"Job Category\",\"values\":[{\"descriptor\":\"Account Management Group\",\"id\":\"44409066be6e100bc791dd582581fd8d\",\"count\":4},{\"descriptor\":\"AM Business Operations\",\"id\":\"44409066be6e100bc798c69d12dbfe33\",\"count\":1},{\"descriptor\":\"Artificial Intelligence (AI)\",\"id\":\"2ffe4a0bcac71000cc3f08874a9b0000\",\"count\":5},{\"descriptor\":\"Audit\",\"id\":\"21bcd77223041072203ef3586f45f716\",\"count\":3},{\"descriptor\":\"Brand Management, Marketing & Communications\",\"id\":\"21bcd77223041071e03c0a8fd776fe2e\",\"count\":1},{\"descriptor\":\"Business Intelligence Management\",\"id\":\"21bcd77223041071dff3e2dd2d6cfbe0\",\"count\":6},{\"descriptor\":\"Client Services Group\",\"id\":\"21bcd77223041071e0132d2b9799fd2d",
+  "secs": 0.36
+ },
+ {
+  "name": "Fiserv_data_engineer",
+  "url": "https://fiserv.wd5.myworkdayjobs.com/wday/cxs/fiserv/EXT/jobs",
+  "method": "POST",
+  "status": 200,
+  "final_url": "https://fiserv.wd5.myworkdayjobs.com/wday/cxs/fiserv/EXT/jobs",
+  "ctype": "application/json",
+  "length": 66,
+  "json_shape": {
+   "total": 0,
+   "jobPostings": [
+    0
+   ],
+   "facets": [
+    0
+   ],
+   "userAuthenticated": false
+  },
+  "snippet": "{\"total\":0,\"jobPostings\":[],\"facets\":[],\"userAuthenticated\":false}",
+  "secs": 0.36
+ },
+ {
+  "name": "Mizuho_facets",
+  "url": "https://mizuhogroup.wd102.myworkdayjobs.com/wday/cxs/mizuhogroup/External/jobs",
+  "method": "POST",
+  "status": 200,
+  "final_url": "https://mizuhogroup.wd102.myworkdayjobs.com/wday/cxs/mizuhogroup/External/jobs",
+  "ctype": "application/json",
+  "length": 1473,
+  "json_shape": {
+   "total": 6,
+   "jobPostings": [
+    1,
+    {
+     "title": "Director, Transformation Programs",
+     "externalPath": "/job/Singapore/Director--Transformation-Programs_JR100490",
+     "locationsText": "Singapore",
+     "postedOn": "Posted 6 Days Ago",
+     "bulletFields": [
+      1,
+      "..."
+     ]
+    }
+   ],
+   "facets": [
+    4,
+    {
+     "facetParameter": "jobFamilyGroup",
+     "descriptor": "Job Category",
+     "values": [
+      4,
+      "..."
+     ]
+    }
+   ],
+   "userAuthenticated": false
+  },
+  "snippet": "{\"total\":6,\"jobPostings\":[{\"title\":\"Director, Transformation Programs\",\"externalPath\":\"/job/Singapore/Director--Transformation-Programs_JR100490\",\"locationsText\":\"Singapore\",\"postedOn\":\"Posted 6 Days Ago\",\"bulletFields\":[\"JR100490\"]}],\"facets\":[{\"facetParameter\":\"jobFamilyGroup\",\"descriptor\":\"Job Category\",\"values\":[{\"descriptor\":\"COO Office\",\"id\":\"6f5371d1e9a91001b63eba1e34f50000\",\"count\":3},{\"descriptor\":\"Internship\",\"id\":\"6f5371d1e9a91001b63ee99530d40000\",\"count\":1},{\"descriptor\":\"Graduate Program\",\"id\":\"6f5371d1e9a91001b63f02d100b80000\",\"count\":1},{\"descriptor\":\"Debt Capital Markets\",\"id\":\"6f5371d1e9a91001b63f0069beb00000\",\"count\":1}]},{\"facetParameter\":\"workerSubType\",\"descriptor\":\"Job Type\",\"values\":[{\"descriptor\":\"Permanent\",\"id\":\"6f5371d1e9a91001b6386101324e0000\",\"count\":4},{\"descriptor\":\"Intern (Fixed Term)\",\"id\":\"6f5371d1e9a91001b6385f33bd980000\",\"count\":1},{\"descriptor\":\"Graduate\",\"id\":\"6f5371d1e9a91001b6385e9a0b4d0000\",\"count\":1}]},{\"facetParameter\":\"timeType\",\"descriptor\":\"Time Type\",\"values\":[{\"descriptor\":\"Full time\",\"id\":\"9c2e6e164f1d1014fadee0b5f1620001\",\"count\":6}]},{\"facetParameter\":\"locationMainGroup\",\"values\":[{\"facetParameter\":\"locations\",\"descriptor\":\"Locations\",\"values\":[{\"descriptor\":\"Hong Kong\",\"id\":\"6f5371d1e9a9100202ba556269630000\",\"count\":3},{\"descriptor\":\"Singapore\",\"id\":\"6f5371d1e9a9100202ba5ac965690000\",\"count\":2},{\"descriptor\":\"Sydney\",\"id\":\"6f5371d1e9a9100202ba5e63b4d90000\",\"count\":1}]}]}],\"userAuthenticated\":false}",
+  "secs": 0.82
+ },
+ {
+  "name": "Mizuho_data_engineer",
+  "url": "https://mizuhogroup.wd102.myworkdayjobs.com/wday/cxs/mizuhogroup/External/jobs",
+  "method": "POST",
+  "status": 200,
+  "final_url": "https://mizuhogroup.wd102.myworkdayjobs.com/wday/cxs/mizuhogroup/External/jobs",
+  "ctype": "application/json",
+  "length": 66,
+  "json_shape": {
+   "total": 0,
+   "jobPostings": [
+    0
+   ],
+   "facets": [
+    0
+   ],
+   "userAuthenticated": false
+  },
+  "snippet": "{\"total\":0,\"jobPostings\":[],\"facets\":[],\"userAuthenticated\":false}",
+  "secs": 1.51
+ },
+ {
+  "name": "Air_Products_facets",
+  "url": "https://airproducts.wd5.myworkdayjobs.com/wday/cxs/airproducts/AP0001/jobs",
+  "method": "POST",
+  "status": 200,
+  "final_url": "https://airproducts.wd5.myworkdayjobs.com/wday/cxs/airproducts/AP0001/jobs",
+  "ctype": "application/json",
+  "length": 19453,
+  "json_shape": {
+   "total": 408,
+   "jobPostings": [
+    1,
+    {
+     "title": "Contracts Administrator",
+     "externalPath": "/job/Jubail-Saudi-Arabia/Contracts-Administrator_JR-2026-22572",
+     "locationsText": "Jubail, Saudi Arabia",
+     "postedOn": "Posted 30+ Days Ago",
+     "bulletFields": [
       3,
       "..."
-     ],
-     "city": [
-      10,
-      "..."
-     ],
-     "is_hot": [
-      2,
-      "..."
-     ],
-     "job_specialization": [
-      15,
-      "..."
-     ],
-     "skills": [
-      494,
+     ]
+    }
+   ],
+   "facets": [
+    2,
+    {
+     "facetParameter": "timeType",
+     "descriptor": "Time Type",
+     "values": [
+      1,
       "..."
      ]
     }
-   },
-   "meta": {
-    "awsRequestId": "6a270632-1b59-4448-9e0a-7c18b2891a7d"
-   }
+   ],
+   "userAuthenticated": false
   },
-  "snippet": "{\"data\":{\"total\":539,\"jobs\":[{\"_key\":\"blt00b5d7bvyyd4lc4w_en\",\"_partition\":0,\"_offset\":348654,\"_operation\":\"upsert\",\"uid\":\"blt00b5d7bvyyd4lc4w\",\"unique_id\":\"anywhere_blt00b5d7bvyyd4lc4w_en-us\",\"tenant\":\"anywhere\",\"name\":\"Senior Backend Developer, AI Pods\",\"posting_type\":\"Standard\",\"city\":null,\"country\":[{\"id\":\"8150000000000001018\",\"name\":\"Argentina\",\"type\":null},{\"id\":\"8150000000000001043\",\"name\":\"Chile\",\"type\":null},{\"id\":\"8150000000000001044\",\"name\":\"Colombia\",\"type\":null}],\"vacancy_type\":\"Remote\",\"seniority\":\"Senior\",\"is_hot\":false,\"is_hidden\":false,\"skills\":[\"Python.AI\",\"Amazon Web Services\",\"Gen AI Application Development\",\"LangChain\",\"REST API\",\"LangGraph\",\"LlamaIndex\",\"Model Context Protocol\",\"ReactJS\",\"Terraform\",\"Vector Databases\"],\"primary_skill\":\"Python.AI\",\"sd_pool_id\":\"706943265\",\"request_id\":\"dSV0ArjFW5SChlzMVqpXl\",\"tags\":[\"#no_touch\",\"#new_vacancy\",\"#utm\",\"#copyof_blt5kydlgwolnhgcexr\",\"#copyof_bltjla0facyhl94rqf7\",\"#copyof_blt8ias1l8uqk44og2l\",\"#referral_marketing_gts\"],\"description\":\"<p>We are seeking a <strong>Senior Backend Developer</strong> to join our AI Pods team, building robust AI-powered API services and agentic workflows. This role focuses on language model interaction with internal systems, vector databases, and external tools via orchestration frameworks, treating LLMs as components in a secure, scalable distributed system.</p>\",\"category\":{\"responsibilities\":[\"Design and build backend API services and LLM orchestration layers\",\"Own API contracts a",
-  "secs": 0.63
+  "snippet": "{\"total\":408,\"jobPostings\":[{\"title\":\"Contracts Administrator\",\"externalPath\":\"/job/Jubail-Saudi-Arabia/Contracts-Administrator_JR-2026-22572\",\"locationsText\":\"Jubail, Saudi Arabia\",\"postedOn\":\"Posted 30+ Days Ago\",\"bulletFields\":[\"Jubail, Saudi Arabia\",\"JR-2026-22572\",\"Contracts Administrator\"]}],\"facets\":[{\"facetParameter\":\"timeType\",\"descriptor\":\"Time Type\",\"values\":[{\"descriptor\":\"Full time\",\"id\":\"c48d85fd3a34101ca6091c1ea6600002\",\"count\":376}]},{\"facetParameter\":\"locationMainGroup\",\"values\":[{\"facetParameter\":\"locationCountry\",\"descriptor\":\"Location Country\",\"values\":[{\"descriptor\":\"Belgium\",\"id\":\"a04ea128f43a42e59b1e6a19e8f0b374\",\"count\":13},{\"descriptor\":\"Brazil\",\"id\":\"1a29bb1357b240ab99a2fa755cc87c0e\",\"count\":10},{\"descriptor\":\"Canada\",\"id\":\"a30a87ed25634629aa6c3958aa2b91ea\",\"count\":3},{\"descriptor\":\"Chile\",\"id\":\"53fe09ef12b9408682a1d2439823f2e0\",\"count\":16},{\"descriptor\":\"China\",\"id\":\"6cb77610a8a543aea2d6bc10457e35d4\",\"count\":59},{\"descriptor\":\"Colombia\",\"id\":\"e8106cd6a3534f2dba6fdee2d41db89d\",\"count\":7},{\"descriptor\":\"Czechia\",\"id\":\"fc078443155c4ad294201ecf5a61a499\",\"count\":3},{\"descriptor\":\"Ecuador\",\"id\":\"2752bce253374948a6bad7ed2059e054\",\"count\":3},{\"descriptor\":\"Egypt\",\"id\":\"d865e83093ad42319653b08e61f7db49\",\"count\":1},{\"descriptor\":\"France\",\"id\":\"54c5b6971ffb4bf0b116fe7651ec789a\",\"count\":9},{\"descriptor\":\"Germany\",\"id\":\"dcc5b7608d8644b3a93716604e78e995\",\"count\":4},{\"descriptor\":\"Indonesia\",\"id\":\"b31234dbcdda4da9ba8fa073c5944e36\",\"count\":1},{\"descriptor\":\"Ireland",
+  "secs": 1.03
  },
  {
-  "name": "epam_in_site",
-  "url": "https://careers.epam.com/en/india-it-jobs",
-  "method": "GET",
+  "name": "Air_Products_data_engineer",
+  "url": "https://airproducts.wd5.myworkdayjobs.com/wday/cxs/airproducts/AP0001/jobs",
+  "method": "POST",
   "status": 200,
-  "final_url": "https://careers.epam.com/en/jobs/india",
-  "ctype": "text/html; charset=utf-8",
-  "length": 1061289,
-  "html_title": "Discover Exciting Job Opportunities | EPAM Careers",
-  "snippet": "<!DOCTYPE html><html lang=\"en\" data-critters-container><head><meta charset=\"utf-8\" data-next-head><meta content=\"width=device-width, initial-scale=1\" name=\"viewport\" data-next-head><link href=\"https://eu-images.contentstack.com/v3/assets/blt892f41c9788ae399/blt3765677deb2c02ec/64f1d7a76f9d59f962fcc73d/Favicon_16X16.png\" rel=\"icon\" sizes=\"16x16\" type=\"image/png\" data-next-head><link href=\"https://eu-images.contentstack.com/v3/assets/blt892f41c9788ae399/blt3738b8fe987944d5/64f1d7b21aea656f8ffb4bc9/Favicon_32x32.png\" rel=\"icon\" sizes=\"32x32\" type=\"image/png\" data-next-head><link href=\"https://eu-images.contentstack.com/v3/assets/blt892f41c9788ae399/blt7740fb8332d3d21d/64f1d7bb53e2010540ddd58e/Favicon_180x180.png\" rel=\"apple-touch-icon\" sizes=\"180x180\" data-next-head><link color=\"#5bbad5\" href=\"https://eu-images.contentstack.com/v3/assets/blt892f41c9788ae399/blt1deb85ef536a0920/65c4d271e371a5040a1af181/apple-touch-icon_2.svg\" rel=\"mask-icon\" data-next-head><link href=\"/static/site.webmanifest\" rel=\"manifest\" data-next-head><meta content=\"https://careers.epam.com/en/jobs/india\" property=\"og:url\" data-next-head><meta content=\"https://careers.epam.com/en/jobs/india\" property=\"twitter:url\" data-next-head><meta content=\"824669026656171c\" name=\"yandex-verification\" data-next-head><meta content=\"msowtjzJ2ZylgFFg212K56Rz2O4rz_MajxChMKYDF0Y\" name=\"google-site-verification\" data-next-head><link href=\"https://careers.epam.com/en/jobs/india\" rel=\"canonical\" data-next-head><link href=\"https:/",
-  "secs": 1.18
+  "final_url": "https://airproducts.wd5.myworkdayjobs.com/wday/cxs/airproducts/AP0001/jobs",
+  "ctype": "application/json",
+  "length": 2356,
+  "json_shape": {
+   "total": 4,
+   "jobPostings": [
+    4,
+    {
+     "title": "DT Industrial Automation Senior Engineer",
+     "externalPath": "/job/Duba-Saudi-Arabia/DT-Industrial-Automation-Senior-Engineer_JR-2026-21402",
+     "locationsText": "Duba, Saudi Arabia",
+     "postedOn": "Posted 30+ Days Ago",
+     "bulletFields": [
+      3,
+      "..."
+     ]
+    }
+   ],
+   "facets": [
+    2,
+    {
+     "facetParameter": "timeType",
+     "descriptor": "Time Type",
+     "values": [
+      1,
+      "..."
+     ]
+    }
+   ],
+   "userAuthenticated": false
+  },
+  "snippet": "{\"total\":4,\"jobPostings\":[{\"title\":\"DT Industrial Automation Senior Engineer\",\"externalPath\":\"/job/Duba-Saudi-Arabia/DT-Industrial-Automation-Senior-Engineer_JR-2026-21402\",\"locationsText\":\"Duba, Saudi Arabia\",\"postedOn\":\"Posted 30+ Days Ago\",\"bulletFields\":[\"Duba, Saudi Arabia\",\"JR-2026-21402\",\"DT Industrial Automation Senior Engineer\"]},{\"title\":\"Project Engineer\",\"externalPath\":\"/job/Polanenpark-Netherlands/Project-Engineer_JR-2026-23019\",\"locationsText\":\"Polanenpark, Netherlands\",\"postedOn\":\"Posted 8 Days Ago\",\"bulletFields\":[\"Polanenpark, Netherlands\",\"JR-2026-23019\",\"Project Engineer\"]},{\"title\":\"Heartland Spinning Supervisor (Days)\",\"externalPath\":\"/job/St-Louis-Missouri/Heartland-Spinning-Supervisor--Days-_JR-2026-22931\",\"locationsText\":\"St. Louis, Missouri\",\"postedOn\":\"Posted 16 Days Ago\",\"bulletFields\":[\"St. Louis, Missouri\",\"JR-2026-22931\",\"Heartland Spinning Supervisor (Days)\"]},{\"title\":\"Construction Manager\",\"externalPath\":\"/job/Bundang-Korea/Construction-Manager_JR-2026-22535\",\"locationsText\":\"2 Locations\",\"postedOn\":\"Posted 30 Days Ago\",\"bulletFields\":[\"Pyeongtaek-si, Gyeonggi-do; Bundang, Korea\",\"JR-2026-22535\",\"Pyeongtaek-si, Gyeonggi-do\",\"Construction Manager\"]}],\"facets\":[{\"facetParameter\":\"timeType\",\"descriptor\":\"Time Type\",\"values\":[{\"descriptor\":\"Full time\",\"id\":\"c48d85fd3a34101ca6091c1ea6600002\",\"count\":3}]},{\"facetParameter\":\"locationMainGroup\",\"values\":[{\"facetParameter\":\"locationCountry\",\"descriptor\":\"Location Country\",\"values\":[{\"descriptor\":\"Saudi",
+  "secs": 0.89
  },
  {
-  "name": "epam_in_domain",
-  "url": "https://careers.epam.in/",
-  "method": "GET",
-  "status": 403,
-  "final_url": "https://careers.epam.in/",
-  "ctype": "text/html; charset=UTF-8",
-  "length": 333170,
-  "html_title": "Cloudflare: WAF block",
-  "snippet": "<!doctype html>\n<html lang=\"\">\n\n<head>\n  <meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>Cloudflare: WAF block</title>\n  <style>@font-face {\n  font-family: \"Source Sans Pro\";\n  src: url(\"data:application/octet-stream;base64,d09GMgABAAAAAS6kAA4AAAAD5UQAAS5FAAIKPQAAAAAAAAAAAAAAAAAAAAAAAAAAGUYahwwbhbh6HIGkKAZgAO1CCoXyQITsawuebgABNgIkA71YBCAFkBQHgZUjWwmSs85SZLvztH73lE+twLYOkoQhOFXVTUSAqSZVa+12uD0T/m2MvT/POYIQwqOVXiJNROF0r92jG4qTpfvRgeq8GUl+qkxA2f//////////////vzz5Ebb5M2+TmT2yG0ISCITjFAEF+RWt/morE1LLHPYsACkCDJlFHJJBSQOmlipLzg3runCJNd4P2xEbex8jS16cc12jvpaJikyt9DNmmbr5YhkjW2VWZJnYmm3KuSRut1DEvMZqvGvGpfC9JEpNs3ooKqSHBXpUaMV8A1dNKBtKdJy2C2Txmk5IMp/MTc8C+6jIqaKxKjo9KbfyrCrVxTLFU5LrgV7I0RGJyQTJCqqY32rk2gsX+s9XrnkIzMcbuzFroQgUMW3JWyn0ojTWmd3unUQ996yjDl31ACVC6aHgw2QIkj+0re/ZAF7N5ZrZcBF7UR24X+SdtHTyrupfZfYr+FQtpi+D4jxJLkx12pTBjaRYahS6hNcuRU/CNnB+7/oqxAXF3JWsF/5WUxRyZGdUUMespZ6CUidXEqqEbyhVFriqtpLROZfPfCS8PQtZPqQz2CwnPb2bK4nZ1TxOd0arHM2OSH+XxXTSzykYJzF/xmr2wnd9WQ5LumR4wWLewTa1KbWJFblLgRWrA71Nm6qqKgon/AZ7a/5qfGzgx0aHFYt+D/t3czVXXFAnLHz6jo3H8/EAhgwjnsOSN0KWSmWHOf3v6Q9INiAhh7YGYnwg8cKTbeUg6EbCHunrmSwfUCJl6Wk9tm7AAlej7xZ9yE5ox28D64FVu0WTzOvakTAhrdHpjd339iiO1o5Zsh1QUj6rrKX0m+TdufWaPGlXdPA8VukDO37A8wSf8AseZxAWux3/qG+1r5mHC8F/oRhIdrsYY7Fm//IbQngNN3bPbwghhcS+8/cN32OM21FkRe7asHLh/JfC5ywqPVC/xSe8hjuF+/XWaMHf9vcdXakc0ZS+Inl8kvz8NQibKZ/kuqaH1TjLz8xuNJJ/XPBUrEARIPy+Zwe1klkLH6Wta3b33s+oZLWjFqhSB1QNJLPkys/AlvgTP+GIrfHAvM3fErf4J3/FF/r+UWTz9INOJn1++6ol4",
-  "secs": 0.3
+  "name": "Workday_facets",
+  "url": "https://workday.wd5.myworkdayjobs.com/wday/cxs/workday/Workday/jobs",
+  "method": "POST",
+  "status": 200,
+  "final_url": "https://workday.wd5.myworkdayjobs.com/wday/cxs/workday/Workday/jobs",
+  "ctype": "application/json",
+  "length": 18377,
+  "json_shape": {
+   "total": 364,
+   "jobPostings": [
+    1,
+    {
+     "title": "Software Development Engineer - Agent Factory",
+     "externalPath": "/job/Canada-BC-Vancouver/Software-Development-Engineer---Agent-Factory_JR-011048",
+     "locationsText": "Canada, BC, Vancouver",
+     "postedOn": "Posted Today",
+     "remoteType": "Flex",
+     "bulletFields": [
+      1,
+      "..."
+     ]
+    }
+   ],
+   "facets": [
+    7,
+    {
+     "facetParameter": "remoteType",
+     "descriptor": "Remote Type",
+     "values": [
+      3,
+      "..."
+     ]
+    }
+   ],
+   "userAuthenticated": false
+  },
+  "snippet": "{\"total\":364,\"jobPostings\":[{\"title\":\"Software Development Engineer - Agent Factory\",\"externalPath\":\"/job/Canada-BC-Vancouver/Software-Development-Engineer---Agent-Factory_JR-0110488\",\"locationsText\":\"Canada, BC, Vancouver\",\"postedOn\":\"Posted Today\",\"remoteType\":\"Flex\",\"bulletFields\":[\"JR-0110488\"]}],\"facets\":[{\"facetParameter\":\"remoteType\",\"descriptor\":\"Remote Type\",\"values\":[{\"descriptor\":\"Flex\",\"id\":\"bf0480ca9d751000ea15bc9c334b0001\",\"count\":328},{\"descriptor\":\"Onsite\",\"id\":\"bf0480ca9d751000ea15bc0178070000\",\"count\":21},{\"descriptor\":\"Remote\",\"id\":\"bf0480ca9d751000ea15bc9c334b0000\",\"count\":15}]},{\"facetParameter\":\"Location_Country\",\"descriptor\":\"Country / Territory\",\"values\":[{\"descriptor\":\"United States of America\",\"id\":\"bc33aa3152ec42d4995f4791a106ed09\",\"count\":187},{\"descriptor\":\"Ireland\",\"id\":\"04a05835925f45b3a59406a2a6b72c8a\",\"count\":37},{\"descriptor\":\"Canada\",\"id\":\"a30a87ed25634629aa6c3958aa2b91ea\",\"count\":29},{\"descriptor\":\"India\",\"id\":\"c4f78be1a8f14da0ab49ce1162348a5e\",\"count\":21},{\"descriptor\":\"Japan\",\"id\":\"8b705da2becf43cfaccc091da0988ab2\",\"count\":14},{\"descriptor\":\"Australia\",\"id\":\"d903bb3fedad45039383f6de334ad4db\",\"count\":12},{\"descriptor\":\"United Kingdom\",\"id\":\"29247e57dbaf46fb855b224e03170bc7\",\"count\":12},{\"descriptor\":\"Germany\",\"id\":\"dcc5b7608d8644b3a93716604e78e995\",\"count\":10},{\"descriptor\":\"Costa Rica\",\"id\":\"99abe7e6bb3f4c108aebebf01a369ec5\",\"count\":7},{\"descriptor\":\"New Zealand\",\"id\":\"55273a1b49934d97ae15342ef51f6b95\",\"count\":7},{\"descriptor\":\"Singapore\"",
+  "secs": 2.38
+ },
+ {
+  "name": "Workday_data_engineer",
+  "url": "https://workday.wd5.myworkdayjobs.com/wday/cxs/workday/Workday/jobs",
+  "method": "POST",
+  "status": 200,
+  "final_url": "https://workday.wd5.myworkdayjobs.com/wday/cxs/workday/Workday/jobs",
+  "ctype": "application/json",
+  "length": 4234,
+  "json_shape": {
+   "total": 9,
+   "jobPostings": [
+    9,
+    {
+     "title": "Sr Associate Paradox Technical Support Engineer",
+     "externalPath": "/job/INDPune/Sr-Associate-Paradox-Technical-Support-Engineer_JR-0110312",
+     "locationsText": "IND.Pune",
+     "postedOn": "Posted 30+ Days Ago",
+     "remoteType": "Flex",
+     "bulletFields": [
+      1,
+      "..."
+     ]
+    }
+   ],
+   "facets": [
+    7,
+    {
+     "facetParameter": "remoteType",
+     "descriptor": "Remote Type",
+     "values": [
+      2,
+      "..."
+     ]
+    }
+   ],
+   "userAuthenticated": false
+  },
+  "snippet": "{\"total\":9,\"jobPostings\":[{\"title\":\"Sr Associate Paradox Technical Support Engineer\",\"externalPath\":\"/job/INDPune/Sr-Associate-Paradox-Technical-Support-Engineer_JR-0110312\",\"locationsText\":\"IND.Pune\",\"postedOn\":\"Posted 30+ Days Ago\",\"remoteType\":\"Flex\",\"bulletFields\":[\"JR-0110312\"]},{\"title\":\"Sr. Software Engineer (Distributed Systems)\",\"externalPath\":\"/job/Ireland-Dublin/Sr-Software-Engineer--Distributed-Systems-_JR-0110726\",\"locationsText\":\"Ireland, Dublin\",\"postedOn\":\"Posted 30 Days Ago\",\"remoteType\":\"Flex\",\"bulletFields\":[\"JR-0110726\"]},{\"title\":\"Sr Associate Support Engineer, Adaptive Planning AI, ML & Platform Operations\",\"externalPath\":\"/job/INDPune/Sr-Associate-Support-Engineer--Adaptive-Planning-AI--ML---Platform-Operations_JR-0110344\",\"locationsText\":\"IND.Pune\",\"postedOn\":\"Posted Today\",\"remoteType\":\"Flex\",\"bulletFields\":[\"JR-0110344\"]},{\"title\":\"Software Development Engineer\",\"externalPath\":\"/job/Ireland-Dublin/Software-Development-Engineer_JR-0110727\",\"locationsText\":\"Ireland, Dublin\",\"postedOn\":\"Posted 30 Days Ago\",\"remoteType\":\"Flex\",\"bulletFields\":[\"JR-0110727\"]},{\"title\":\"Sr. Network Engineer\",\"externalPath\":\"/job/INDPune/Sr-Network-Engineer_JR-0101654\",\"locationsText\":\"IND.Pune\",\"postedOn\":\"Posted 30+ Days Ago\",\"remoteType\":\"Flex\",\"bulletFields\":[\"JR-0101654\"]},{\"title\":\"Sr. Collaboration Engineer\",\"externalPath\":\"/job/INDPune/Sr-Collaboration-Engineer_JR-0110517-1\",\"locationsText\":\"IND.Pune\",\"postedOn\":\"Posted 30+ Days Ago\",\"remoteType\":\"Flex\",\"bulletFields",
+  "secs": 3.77
+ },
+ {
+  "name": "Mastercard_facets",
+  "url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs",
+  "method": "POST",
+  "status": 200,
+  "final_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs",
+  "ctype": "application/json",
+  "length": 16680,
+  "json_shape": {
+   "total": 875,
+   "jobPostings": [
+    1,
+    {
+     "title": "Lead Site Reliability Engineer (Big Data)",
+     "externalPath": "/job/OFallon-Missouri/Lead-Site-Reliability-Engineer--Big-Data-_R-294454",
+     "locationsText": "O'Fallon, Missouri",
+     "postedOn": "Posted Today",
+     "bulletFields": [
+      1,
+      "..."
+     ]
+    }
+   ],
+   "facets": [
+    4,
+    {
+     "facetParameter": "jobFamilyGroup",
+     "descriptor": "Job Category",
+     "values": [
+      32,
+      "..."
+     ]
+    }
+   ],
+   "userAuthenticated": false
+  },
+  "snippet": "{\"total\":875,\"jobPostings\":[{\"title\":\"Lead Site Reliability Engineer (Big Data)\",\"externalPath\":\"/job/OFallon-Missouri/Lead-Site-Reliability-Engineer--Big-Data-_R-294454\",\"locationsText\":\"O'Fallon, Missouri\",\"postedOn\":\"Posted Today\",\"bulletFields\":[\"R-294454\"]}],\"facets\":[{\"facetParameter\":\"jobFamilyGroup\",\"descriptor\":\"Job Category\",\"values\":[{\"descriptor\":\"Engineering\",\"id\":\"189119ebe266100103737c3d6a6e0000\",\"count\":233},{\"descriptor\":\"Product\",\"id\":\"2008c8ccf9ae4e56b7d0ea7b3d319a98\",\"count\":122},{\"descriptor\":\"Advisors & Consulting Services\",\"id\":\"04fcfb2e3b294a62813e23ef34d8e6f9\",\"count\":100},{\"descriptor\":\"AI & Data\",\"id\":\"0ea6171d1dd81001035429e2c6b00000\",\"count\":78},{\"descriptor\":\"Sales Function\",\"id\":\"04fe0e372b1b4b48a752fd254d55050f\",\"count\":77},{\"descriptor\":\"Core Finance\",\"id\":\"32c63b91509d103811a310695e3f3146\",\"count\":40},{\"descriptor\":\"Technology Design and Development\",\"id\":\"866c0ed135ff106f00587685e7483440\",\"count\":35},{\"descriptor\":\"Market Development\",\"id\":\"0d55cde3a1344a42980c0c57e3cb2c0d\",\"count\":31},{\"descriptor\":\"Business Enablers\",\"id\":\"32c63b91509d1037cdc1ee728fc05b02\",\"count\":22},{\"descriptor\":\"Other\",\"id\":\"70c27ec1148d483eb285aaadb278ef42\",\"count\":18},{\"descriptor\":\"Customer & Product Delivery\",\"id\":\"9290e3c013ea406499c856229ef7803a\",\"count\":15},{\"descriptor\":\"Law\",\"id\":\"c60a11dae9894e08bbbaafe81ffe802e\",\"count\":14},{\"descriptor\":\"Corporate Security\",\"id\":\"ef682c24739410700797d3388abcc077\",\"count\":11},{\"descriptor\":\"Marketing Function\",\"id\":\"8c67e6c9",
+  "secs": 0.97
+ },
+ {
+  "name": "Mastercard_data_engineer",
+  "url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs",
+  "method": "POST",
+  "status": 200,
+  "final_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs",
+  "ctype": "application/json",
+  "length": 5731,
+  "json_shape": {
+   "total": 138,
+   "jobPostings": [
+    20,
+    {
+     "title": "Senior Software Engineer",
+     "externalPath": "/job/Pune-India/Senior-Software-Engineer_R-294786",
+     "locationsText": "Pune, India",
+     "postedOn": "Posted Today",
+     "bulletFields": [
+      1,
+      "..."
+     ]
+    }
+   ],
+   "facets": [
+    4,
+    {
+     "facetParameter": "jobFamilyGroup",
+     "descriptor": "Job Category",
+     "values": [
+      7,
+      "..."
+     ]
+    }
+   ],
+   "userAuthenticated": false
+  },
+  "snippet": "{\"total\":138,\"jobPostings\":[{\"title\":\"Senior Software Engineer\",\"externalPath\":\"/job/Pune-India/Senior-Software-Engineer_R-294786\",\"locationsText\":\"Pune, India\",\"postedOn\":\"Posted Today\",\"bulletFields\":[\"R-294786\"]},{\"title\":\"Vice President, Software Engineering\",\"externalPath\":\"/job/Pune-India/Vice-President--Software-Engineering_R-276668\",\"locationsText\":\"2 Locations\",\"postedOn\":\"Posted 6 Days Ago\",\"bulletFields\":[\"R-276668\"]},{\"title\":\"Lead Data Engineer\",\"externalPath\":\"/job/Hyderabad-India/Lead-Data-Engineer_R-292041-1\",\"locationsText\":\"Hyderabad, India\",\"postedOn\":\"Posted 8 Days Ago\",\"bulletFields\":[\"R-292041\"]},{\"title\":\"Lead Software Engineer\",\"externalPath\":\"/job/Pune-India/Lead-Software-Engineer_R-291096\",\"locationsText\":\"Pune, India\",\"postedOn\":\"Posted 8 Days Ago\",\"bulletFields\":[\"R-291096\"]},{\"title\":\"Senior Technical Program Manager\",\"externalPath\":\"/job/Vendor---Pune-India-EPAM/Senior-Technical-Program-Manager_R-294273-1\",\"locationsText\":\"Vendor - Pune, India (EPAM)\",\"postedOn\":\"Posted 9 Days Ago\",\"bulletFields\":[\"R-294273\"]},{\"title\":\"Lead Software Engineer - Java Spring Boot, Kafka and Event-Driven Architecture\",\"externalPath\":\"/job/Pune-India/Lead-Software-Engineer---Java-Spring-Boot--Kafka-and-Event-Driven-Architecture_R-294147\",\"locationsText\":\"Pune, India\",\"postedOn\":\"Posted 9 Days Ago\",\"bulletFields\":[\"R-294147\"]},{\"title\":\"Senior Data Scientist\",\"externalPath\":\"/job/Gurgaon-India/Senior-Data-Scientist_R-293061\",\"locationsText\":\"Gurgaon, India\",\"postedOn\"",
+  "secs": 1.13
+ },
+ {
+  "name": "Mastercard_R-271045",
+  "url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs",
+  "method": "POST",
+  "status": 200,
+  "final_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs",
+  "ctype": "application/json",
+  "length": 886,
+  "json_shape": {
+   "total": 1,
+   "jobPostings": [
+    1,
+    {
+     "title": "Sr Data Engineer",
+     "externalPath": "/job/Pune-India/Sr-Tester-Data-Engineer_R-271045",
+     "locationsText": "Pune, India",
+     "postedOn": "Posted 30+ Days Ago",
+     "bulletFields": [
+      1,
+      "..."
+     ]
+    }
+   ],
+   "facets": [
+    4,
+    {
+     "facetParameter": "jobFamilyGroup",
+     "descriptor": "Job Category",
+     "values": [
+      1,
+      "..."
+     ]
+    }
+   ],
+   "userAuthenticated": false
+  },
+  "snippet": "{\"total\":1,\"jobPostings\":[{\"title\":\"Sr Data Engineer\",\"externalPath\":\"/job/Pune-India/Sr-Tester-Data-Engineer_R-271045\",\"locationsText\":\"Pune, India\",\"postedOn\":\"Posted 30+ Days Ago\",\"bulletFields\":[\"R-271045\"]}],\"facets\":[{\"facetParameter\":\"jobFamilyGroup\",\"descriptor\":\"Job Category\",\"values\":[{\"descriptor\":\"AI & Data\",\"id\":\"0ea6171d1dd81001035429e2c6b00000\",\"count\":1}]},{\"facetParameter\":\"workerSubType\",\"descriptor\":\"Job Type\",\"values\":[{\"descriptor\":\"Regular\",\"id\":\"4989ab17f4c24a42a64a54369451fb0b\",\"count\":1}]},{\"facetParameter\":\"timeType\",\"descriptor\":\"Time Type\",\"values\":[{\"descriptor\":\"Full time\",\"id\":\"6580990a12634e01b59be43712d78b21\",\"count\":1}]},{\"facetParameter\":\"locationMainGroup\",\"values\":[{\"facetParameter\":\"locations\",\"descriptor\":\"Locations\",\"values\":[{\"descriptor\":\"Pune, India\",\"id\":\"8eab563831bf10acbc722e4859721571\",\"count\":1}]}]}],\"userAuthenticated\":false}",
+  "secs": 0.83
  }
 ]
