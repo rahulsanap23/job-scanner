@@ -1,1 +1,158 @@
-[{"name":"noop5","url":"https://api.lever.co/v0/postings/idt?mode=json&limit=1"}]
+[
+ {
+  "name": "Red_Hat_facets",
+  "url": "https://redhat.wd5.myworkdayjobs.com/wday/cxs/redhat/Jobs/jobs",
+  "method": "POST",
+  "json": {
+   "appliedFacets": {},
+   "limit": 1,
+   "offset": 0,
+   "searchText": ""
+  },
+  "save": true
+ },
+ {
+  "name": "Red_Hat_data_engineer",
+  "url": "https://redhat.wd5.myworkdayjobs.com/wday/cxs/redhat/Jobs/jobs",
+  "method": "POST",
+  "json": {
+   "appliedFacets": {},
+   "limit": 20,
+   "offset": 0,
+   "searchText": "data engineer india"
+  },
+  "save": true
+ },
+ {
+  "name": "Fiserv_facets",
+  "url": "https://fiserv.wd5.myworkdayjobs.com/wday/cxs/fiserv/EXT/jobs",
+  "method": "POST",
+  "json": {
+   "appliedFacets": {},
+   "limit": 1,
+   "offset": 0,
+   "searchText": ""
+  },
+  "save": true
+ },
+ {
+  "name": "Fiserv_data_engineer",
+  "url": "https://fiserv.wd5.myworkdayjobs.com/wday/cxs/fiserv/EXT/jobs",
+  "method": "POST",
+  "json": {
+   "appliedFacets": {},
+   "limit": 20,
+   "offset": 0,
+   "searchText": "data engineer india"
+  },
+  "save": true
+ },
+ {
+  "name": "Mizuho_facets",
+  "url": "https://mizuhogroup.wd102.myworkdayjobs.com/wday/cxs/mizuhogroup/External/jobs",
+  "method": "POST",
+  "json": {
+   "appliedFacets": {},
+   "limit": 1,
+   "offset": 0,
+   "searchText": ""
+  },
+  "save": true
+ },
+ {
+  "name": "Mizuho_data_engineer",
+  "url": "https://mizuhogroup.wd102.myworkdayjobs.com/wday/cxs/mizuhogroup/External/jobs",
+  "method": "POST",
+  "json": {
+   "appliedFacets": {},
+   "limit": 20,
+   "offset": 0,
+   "searchText": "data engineer india"
+  },
+  "save": true
+ },
+ {
+  "name": "Air_Products_facets",
+  "url": "https://airproducts.wd5.myworkdayjobs.com/wday/cxs/airproducts/AP0001/jobs",
+  "method": "POST",
+  "json": {
+   "appliedFacets": {},
+   "limit": 1,
+   "offset": 0,
+   "searchText": ""
+  },
+  "save": true
+ },
+ {
+  "name": "Air_Products_data_engineer",
+  "url": "https://airproducts.wd5.myworkdayjobs.com/wday/cxs/airproducts/AP0001/jobs",
+  "method": "POST",
+  "json": {
+   "appliedFacets": {},
+   "limit": 20,
+   "offset": 0,
+   "searchText": "data engineer india"
+  },
+  "save": true
+ },
+ {
+  "name": "Workday_facets",
+  "url": "https://workday.wd5.myworkdayjobs.com/wday/cxs/workday/Workday/jobs",
+  "method": "POST",
+  "json": {
+   "appliedFacets": {},
+   "limit": 1,
+   "offset": 0,
+   "searchText": ""
+  },
+  "save": true
+ },
+ {
+  "name": "Workday_data_engineer",
+  "url": "https://workday.wd5.myworkdayjobs.com/wday/cxs/workday/Workday/jobs",
+  "method": "POST",
+  "json": {
+   "appliedFacets": {},
+   "limit": 20,
+   "offset": 0,
+   "searchText": "data engineer india"
+  },
+  "save": true
+ },
+ {
+  "name": "Mastercard_facets",
+  "url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs",
+  "method": "POST",
+  "json": {
+   "appliedFacets": {},
+   "limit": 1,
+   "offset": 0,
+   "searchText": ""
+  },
+  "save": true
+ },
+ {
+  "name": "Mastercard_data_engineer",
+  "url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs",
+  "method": "POST",
+  "json": {
+   "appliedFacets": {},
+   "limit": 20,
+   "offset": 0,
+   "searchText": "data engineer india"
+  },
+  "save": true
+ },
+ {
+  "name": "Mastercard_R-271045",
+  "url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs",
+  "method": "POST",
+  "json": {
+   "appliedFacets": {},
+   "limit": 20,
+   "offset": 0,
+   "searchText": "R-271045"
+  },
+  "save": true
+ }
+]
