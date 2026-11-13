@@ -1,10 +1,10 @@
 {
  "meta": {
-  "generated_at": "2026-11-13T02:11:41+00:00",
+  "generated_at": "2026-11-13T02:14:15+00:00",
   "date": "2026-11-13",
   "recency_days": 60,
   "companies_total": 190,
-  "companies_scanned_ok": 145,
+  "companies_scanned_ok": 144,
   "companies_failed": [],
   "companies_not_scanned": [
    "3Pillar Global",
@@ -35,6 +35,7 @@
    "Lentra",
    "Media.net",
    "Mitsubishi Electric India",
+   "Mizuho",
    "NPCI",
    "Netcore Cloud",
    "Nykaa",
@@ -53,11 +54,11 @@
    "Volkswagen Group Digital Solutions",
    "Yes Bank"
   ],
-  "jobs": 129,
-  "companies_with_jobs": 39,
+  "jobs": 132,
+  "companies_with_jobs": 40,
   "uncertain": 19,
-  "fresh": 4,
-  "linkedin": "48 of 48 companies checked in the last 24 h (this scan: searched 0 companies)",
+  "fresh": 3,
+  "linkedin": "49 of 49 companies checked in the last 24 h (this scan: searched 1 companies)",
   "companies_checked_on_linkedin": [
    "3Pillar Global",
    "Atlas Copco",
@@ -88,6 +89,7 @@
    "Lentra",
    "Media.net",
    "Mitsubishi Electric India",
+   "Mizuho",
    "NPCI",
    "Netcore Cloud",
    "Nykaa",
@@ -108,7 +110,7 @@
    "Volkswagen Group Digital Solutions",
    "Yes Bank"
   ],
-  "linkedin_crosscheck": "1 of 142 scanned companies cross-checked on LinkedIn in the last 4 days; 0 roles the careers sites missed",
+  "linkedin_crosscheck": "1 of 141 scanned companies cross-checked on LinkedIn in the last 4 days; 0 roles the careers sites missed",
   "missed_by_site": 0,
   "scanner_alerts": [],
   "rejected": 553
@@ -624,7 +626,7 @@
    "source": "workday",
    "match": "title",
    "flags": [],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-11-13",
    "new": true
   },
@@ -914,7 +916,7 @@
    "source": "workday",
    "match": "title",
    "flags": [],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-11-13",
    "new": true
   },
@@ -1248,7 +1250,7 @@
    "match": "keyword:data integration",
    "flags": [],
    "date_source": "posting page",
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-11-13",
    "new": true
   },
@@ -1426,7 +1428,7 @@
    "source": "workday",
    "match": "pattern",
    "flags": [],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-11-13",
    "new": true
   },
@@ -1773,6 +1775,57 @@
    "fresh": false,
    "first_seen": "2026-11-05",
    "new": false
+  },
+  {
+   "company": "Mizuho",
+   "title": "VP-L2 – Data Integration Engineer",
+   "location": "Pune City, Maharashtra, India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-11-11",
+   "days_ago": 2,
+   "url": "https://in.linkedin.com/jobs/view/vp-l2-%E2%80%93-data-integration-engineer-at-mizuho-4488672783",
+   "source": "linkedin",
+   "match": "keyword:data integration",
+   "flags": [],
+   "fresh": true,
+   "first_seen": "2026-11-13",
+   "new": true
+  },
+  {
+   "company": "Mizuho",
+   "title": "Cloud Data Engineer",
+   "location": "Pune City, Maharashtra, India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-11-03",
+   "days_ago": 10,
+   "url": "https://in.linkedin.com/jobs/view/cloud-data-engineer-at-mizuho-4486041019",
+   "source": "linkedin",
+   "match": "title",
+   "flags": [],
+   "fresh": true,
+   "first_seen": "2026-11-13",
+   "new": true
+  },
+  {
+   "company": "Mizuho",
+   "title": "Data Platform Engineer",
+   "location": "Pune City, Maharashtra, India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-11-03",
+   "days_ago": 10,
+   "url": "https://in.linkedin.com/jobs/view/data-platform-engineer-at-mizuho-4486025589",
+   "source": "linkedin",
+   "match": "keyword:data platform",
+   "flags": [],
+   "fresh": true,
+   "first_seen": "2026-11-13",
+   "new": true
   },
   {
    "company": "Mondelez",
