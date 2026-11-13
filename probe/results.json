@@ -1,26 +1,80 @@
 [
  {
-  "name": "Mizuho_MGS_careers",
-  "url": "https://www.mizuhogroup.com/asia-pacific/mizuho-global-services/careers",
-  "method": "GET",
+  "name": "MizuhoAm_facets",
+  "url": "https://mizuho.wd1.myworkdayjobs.com/wday/cxs/mizuho/mizuhoamericas/jobs",
+  "method": "POST",
   "status": 200,
-  "final_url": "https://www.mizuhogroup.com/asia-pacific/mizuho-global-services/careers",
-  "ctype": "text/html; charset=utf-8",
-  "length": 243372,
-  "html_title": "Careers",
-  "snippet": "<!DOCTYPE html><!-- Last Published: Thu Nov 12 2026 21:50:22 GMT+0000 (Coordinated Universal Time) --><html data-wf-domain=\"www.mizuhogroup.com\" data-wf-page=\"69a5fe4c034d5cae08ced8d8\" data-wf-site=\"67cb23eaf0c6c4d4080e059a\" data-wf-intellimize-customer-id=\"117215832\" lang=\"en\"><head><meta charset=\"utf-8\"/><link href=\"https://cdn.prod.website-files.com\" rel=\"preconnect\" crossorigin=\"anonymous\"/><title>Careers</title><link rel=\"alternate\" hrefLang=\"x-default\" href=\"https://www.mizuhogroup.com/asia-pacific/mizuho-global-services/careers\"/><link rel=\"alternate\" hrefLang=\"en\" href=\"https://www.mizuhogroup.com/asia-pacific/mizuho-global-services/careers\"/><meta content=\"We have expanded our footprint in India with the establishment of Mizuho Pune, a state-of-the-art facility in Kharadi, Pune, that serves as a key strategic arm of Mizuho Financial Group.\" name=\"description\"/><meta content=\"Careers\" property=\"og:title\"/><meta content=\"We have expanded our footprint in India with the establishment of Mizuho Pune, a state-of-the-art facility in Kharadi, Pune, that serves as a key strategic arm of Mizuho Financial Group.\" property=\"og:description\"/><meta content=\"Careers\" name=\"twitter:title\"/><meta content=\"We have expanded our footprint in India with the establishment of Mizuho Pune, a state-of-the-art facility in Kharadi, Pune, that serves as a key strategic arm of Mizuho Financial Group.\" name=\"twitter:description\"/><meta property=\"og:type\" content=\"website\"/><meta content=\"summary",
-  "secs": 0.29
+  "final_url": "https://mizuho.wd1.myworkdayjobs.com/wday/cxs/mizuho/mizuhoamericas/jobs",
+  "ctype": "application/json",
+  "length": 3095,
+  "json_shape": {
+   "total": 114,
+   "jobPostings": [
+    1,
+    {
+     "title": "Investment & Corporate Banking – Healthcare, Analyst",
+     "externalPath": "/job/New-York-NY-1271-AOA6th-Ave/Investment---Corporate-Banking---Healthcare--An",
+     "locationsText": "New York, NY (1271 AOA/6th Ave)",
+     "postedOn": "Posted Today",
+     "bulletFields": [
+      1,
+      "..."
+     ]
+    }
+   ],
+   "facets": [
+    4,
+    {
+     "facetParameter": "jobFamilyGroup",
+     "descriptor": "Job Category",
+     "values": [
+      13,
+      "..."
+     ]
+    }
+   ],
+   "userAuthenticated": false
+  },
+  "snippet": "{\"total\":114,\"jobPostings\":[{\"title\":\"Investment & Corporate Banking – Healthcare, Analyst\",\"externalPath\":\"/job/New-York-NY-1271-AOA6th-Ave/Investment---Corporate-Banking---Healthcare--Analyst_R7461-1\",\"locationsText\":\"New York, NY (1271 AOA/6th Ave)\",\"postedOn\":\"Posted Today\",\"bulletFields\":[\"R7461\"]}],\"facets\":[{\"facetParameter\":\"jobFamilyGroup\",\"descriptor\":\"Job Category\",\"values\":[{\"descriptor\":\"Investment & Corporate Banking\",\"id\":\"6c507b7295da107a6615fea08dd99b0d\",\"count\":40},{\"descriptor\":\"Information Technology\",\"id\":\"6c507b7295da107a661607dfe8419b15\",\"count\":28},{\"descriptor\":\"Finance\",\"id\":\"6c507b7295da107a6616033fe3bc9b11\",\"count\":18},{\"descriptor\":\"Risk Management\",\"id\":\"6c507b7295da107a66161886fc069b23\",\"count\":11},{\"descriptor\":\"Operations\",\"id\":\"6c507b7295da107a661610e4a2e79b1d\",\"count\":5},{\"descriptor\":\"Legal\",\"id\":\"bd4bf8e2e7411001ceac4b993d680000\",\"count\":4},{\"descriptor\":\"Equity\",\"id\":\"e2908a27d8a701011ab8cd9b6b4d0000\",\"count\":2},{\"descriptor\":\"Fixed Income\",\"id\":\"19b34d8a191d01011aea05906f9e0000\",\"count\":2},{\"descriptor\":\"Treasury\",\"id\":\"6c507b7295da107a66161b440afb9b25\",\"count\":1},{\"descriptor\":\"Administration\",\"id\":\"6c507b7295da107a6615f7d569ea9b07\",\"count\":1},{\"descriptor\":\"United Kingdom Job Profiles\",\"id\":\"f3385d20bcc910010f86c1edf7180000\",\"count\":1},{\"descriptor\":\"Germany Job Profiles\",\"id\":\"f3385d20bcc910010f7e81be42180000\",\"count\":1},{\"descriptor\":\"Canada\",\"id\":\"2151ee4fe31b01588a32878407014414\",\"count\":1}]},{\"facetParameter\":\"workerSubType\",\"desc",
+  "secs": 0.58
  },
  {
-  "name": "Mizuho_americas_careers",
-  "url": "https://www.mizuhogroup.com/americas/careers",
-  "method": "GET",
+  "name": "MizuhoAm_pune",
+  "url": "https://mizuho.wd1.myworkdayjobs.com/wday/cxs/mizuho/mizuhoamericas/jobs",
+  "method": "POST",
   "status": 200,
-  "final_url": "https://www.mizuhogroup.com/americas/careers",
-  "ctype": "text/html; charset=utf-8",
-  "length": 207420,
-  "html_title": "Careers | Mizuho Americas",
-  "snippet": "<!DOCTYPE html><!-- Last Published: Thu Nov 12 2026 21:50:22 GMT+0000 (Coordinated Universal Time) --><html data-wf-domain=\"www.mizuhogroup.com\" data-wf-page=\"6893188aae28220a592f1753\" data-wf-site=\"67cb23eaf0c6c4d4080e059a\" data-wf-intellimize-customer-id=\"117215832\" lang=\"en\"><head><meta charset=\"utf-8\"/><link href=\"https://cdn.prod.website-files.com\" rel=\"preconnect\" crossorigin=\"anonymous\"/><title>Careers | Mizuho Americas</title><link rel=\"alternate\" hrefLang=\"x-default\" href=\"https://www.mizuhogroup.com/americas/careers\"/><link rel=\"alternate\" hrefLang=\"en\" href=\"https://www.mizuhogroup.com/americas/careers\"/><meta content=\"Learn more about careers at Mizuho.\" name=\"description\"/><meta content=\"Careers | Mizuho Americas\" property=\"og:title\"/><meta content=\"Learn more about careers at Mizuho.\" property=\"og:description\"/><meta content=\"Careers | Mizuho Americas\" name=\"twitter:title\"/><meta content=\"Learn more about careers at Mizuho.\" name=\"twitter:description\"/><meta property=\"og:type\" content=\"website\"/><meta content=\"summary_large_image\" name=\"twitter:card\"/><meta content=\"width=device-width, initial-scale=1\" name=\"viewport\"/><link href=\"https://cdn.prod.website-files.com/67cb23eaf0c6c4d4080e059a/css/mizuho-new.shared.3cb77d1c2.min.css\" rel=\"stylesheet\" type=\"text/css\" integrity=\"sha384-PLd9HC5v5ul3uamLGJCFtmFHzrIOuxyLgEzagSi34Shej/tv1NL/JE1d0aeoU66l\" crossorigin=\"anonymous\"/><script type=\"text/javascript\">!function(o,c){var n=c.documentElement,t=\" w-mod-\";n.className+",
-  "secs": 0.2
+  "final_url": "https://mizuho.wd1.myworkdayjobs.com/wday/cxs/mizuho/mizuhoamericas/jobs",
+  "ctype": "application/json",
+  "length": 919,
+  "json_shape": {
+   "total": 1,
+   "jobPostings": [
+    1,
+    {
+     "title": "Compute & Storage Engineering Lead",
+     "externalPath": "/job/NYC-1285/Compute---Storage-Engineering-Lead_R7510-3",
+     "locationsText": "NYC (1285)",
+     "postedOn": "Posted 14 Days Ago",
+     "bulletFields": [
+      1,
+      "..."
+     ]
+    }
+   ],
+   "facets": [
+    4,
+    {
+     "facetParameter": "jobFamilyGroup",
+     "descriptor": "Job Category",
+     "values": [
+      1,
+      "..."
+     ]
+    }
+   ],
+   "userAuthenticated": false
+  },
+  "snippet": "{\"total\":1,\"jobPostings\":[{\"title\":\"Compute & Storage Engineering Lead\",\"externalPath\":\"/job/NYC-1285/Compute---Storage-Engineering-Lead_R7510-3\",\"locationsText\":\"NYC (1285)\",\"postedOn\":\"Posted 14 Days Ago\",\"bulletFields\":[\"R7510\"]}],\"facets\":[{\"facetParameter\":\"jobFamilyGroup\",\"descriptor\":\"Job Category\",\"values\":[{\"descriptor\":\"Information Technology\",\"id\":\"6c507b7295da107a661607dfe8419b15\",\"count\":1}]},{\"facetParameter\":\"workerSubType\",\"descriptor\":\"Job Type\",\"values\":[{\"descriptor\":\"Regular\",\"id\":\"6c507b7295da1079f02ac930f27836e2\",\"count\":1}]},{\"facetParameter\":\"timeType\",\"descriptor\":\"Time Type\",\"values\":[{\"descriptor\":\"Full time\",\"id\":\"ae35010887eb1077911604a93b576527\",\"count\":1}]},{\"facetParameter\":\"locationMainGroup\",\"values\":[{\"facetParameter\":\"locations\",\"descriptor\":\"Locations\",\"values\":[{\"descriptor\":\"NYC (1285)\",\"id\":\"293b8374f97a10016738647b16f40000\",\"count\":1}]}]}],\"userAuthenticated\":false}",
+  "secs": 0.56
  }
 ]
