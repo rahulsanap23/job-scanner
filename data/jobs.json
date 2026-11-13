@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-11-13T02:14:15+00:00",
+  "generated_at": "2026-11-13T02:19:04+00:00",
   "date": "2026-11-13",
   "recency_days": 60,
   "companies_total": 190,
@@ -54,11 +54,11 @@
    "Volkswagen Group Digital Solutions",
    "Yes Bank"
   ],
-  "jobs": 132,
-  "companies_with_jobs": 40,
-  "uncertain": 19,
-  "fresh": 3,
-  "linkedin": "49 of 49 companies checked in the last 24 h (this scan: searched 1 companies)",
+  "jobs": 138,
+  "companies_with_jobs": 43,
+  "uncertain": 20,
+  "fresh": 6,
+  "linkedin": "49 of 49 companies checked in the last 24 h (this scan: searched 0 companies)",
   "companies_checked_on_linkedin": [
    "3Pillar Global",
    "Atlas Copco",
@@ -110,12 +110,66 @@
    "Volkswagen Group Digital Solutions",
    "Yes Bank"
   ],
-  "linkedin_crosscheck": "1 of 141 scanned companies cross-checked on LinkedIn in the last 4 days; 0 roles the careers sites missed",
-  "missed_by_site": 0,
+  "linkedin_crosscheck": "3 of 141 scanned companies cross-checked on LinkedIn in the last 4 days; 4 roles the careers sites missed",
+  "missed_by_site": 4,
   "scanner_alerts": [],
-  "rejected": 553
+  "rejected": 554
  },
  "jobs": [
+  {
+   "company": "Abbott",
+   "title": "Data Engineer – Commercial Enablement",
+   "location": "Mumbai Metropolitan Region",
+   "location_tags": [
+    "Mumbai"
+   ],
+   "posted": "2026-10-07",
+   "days_ago": 37,
+   "url": "https://in.linkedin.com/jobs/view/data-engineer-%E2%80%93-commercial-enablement-at-abbott-4473283702",
+   "source": "linkedin",
+   "match": "title",
+   "flags": [],
+   "crosscheck": true,
+   "fresh": true,
+   "first_seen": "2026-11-13",
+   "new": true
+  },
+  {
+   "company": "Amazon",
+   "title": "Data Engineer I",
+   "location": "Bengaluru, Karnataka, India",
+   "location_tags": [
+    "Remote"
+   ],
+   "posted": "2026-11-10",
+   "days_ago": 3,
+   "url": "https://in.linkedin.com/jobs/view/data-engineer-i-at-amazon-4481247187",
+   "source": "linkedin",
+   "match": "title",
+   "flags": [],
+   "crosscheck": true,
+   "fresh": true,
+   "first_seen": "2026-11-13",
+   "new": true
+  },
+  {
+   "company": "Amazon",
+   "title": "Data Engineer I, SPIV Data Engineering",
+   "location": "Bengaluru, Karnataka, India",
+   "location_tags": [
+    "Remote"
+   ],
+   "posted": "2026-11-05",
+   "days_ago": 8,
+   "url": "https://in.linkedin.com/jobs/view/data-engineer-i-spiv-data-engineering-at-amazon-4487761167",
+   "source": "linkedin",
+   "match": "title",
+   "flags": [],
+   "crosscheck": true,
+   "fresh": true,
+   "first_seen": "2026-11-13",
+   "new": true
+  },
   {
    "company": "Atlas Copco",
    "title": "Senior Azure Data Engineer",
@@ -1237,6 +1291,40 @@
    "new": false
   },
   {
+   "company": "FedEx",
+   "title": "Data Engineer-Senior II-12",
+   "location": "Chennai, Tamil Nadu, India",
+   "location_tags": [
+    "Remote"
+   ],
+   "posted": "2026-11-11",
+   "days_ago": 2,
+   "url": "https://in.linkedin.com/jobs/view/data-engineer-senior-ii-12-at-fedex-4408784128",
+   "source": "linkedin",
+   "match": "title",
+   "flags": [],
+   "fresh": true,
+   "first_seen": "2026-11-13",
+   "new": true
+  },
+  {
+   "company": "FedEx",
+   "title": "Data Engineer-Senior II-14",
+   "location": "Chennai, Tamil Nadu, India",
+   "location_tags": [
+    "Remote"
+   ],
+   "posted": "2026-11-10",
+   "days_ago": 3,
+   "url": "https://in.linkedin.com/jobs/view/data-engineer-senior-ii-14-at-fedex-4408778271",
+   "source": "linkedin",
+   "match": "title",
+   "flags": [],
+   "fresh": true,
+   "first_seen": "2026-11-13",
+   "new": true
+  },
+  {
    "company": "Gallagher",
    "title": "Associate Lead Data Integration Engineer",
    "location": "Kochi, India; Pune, India; Kochi, Kerala, India",
@@ -1552,6 +1640,26 @@
    "new": true
   },
   {
+   "company": "Marsh McLennan",
+   "title": "Oliver Wyman - Data Engineer / Senior Data Engineer - Data and Analytics (DNA) - Gurugram, India",
+   "location": "Gurugram, Haryana, India",
+   "location_tags": [
+    "Remote"
+   ],
+   "posted": "2026-11-11",
+   "days_ago": 2,
+   "url": "https://in.linkedin.com/jobs/view/oliver-wyman-data-engineer-senior-data-engineer-data-and-analytics-dna-gurugram-india-at-marsh-agency-4490000532",
+   "source": "linkedin",
+   "match": "title",
+   "flags": [
+    "company listed as 'Marsh Agency'"
+   ],
+   "crosscheck": true,
+   "fresh": true,
+   "first_seen": "2026-11-13",
+   "new": true
+  },
+  {
    "company": "Mastercard",
    "title": "Lead Data Engineer",
    "location": "Pune, India",
@@ -1789,7 +1897,7 @@
    "source": "linkedin",
    "match": "keyword:data integration",
    "flags": [],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-11-13",
    "new": true
   },
@@ -1806,7 +1914,7 @@
    "source": "linkedin",
    "match": "title",
    "flags": [],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-11-13",
    "new": true
   },
@@ -1823,7 +1931,7 @@
    "source": "linkedin",
    "match": "keyword:data platform",
    "flags": [],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-11-13",
    "new": true
   },
