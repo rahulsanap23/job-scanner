@@ -2,14 +2,14 @@
  "https://apply.workable.com/mrsool-3/j/0928A9FFB1/": {
   "company": "Mrsool",
   "title": "Data Engineer II",
-  "status": "needs_linkedin",
-  "error": "LinkedIn try 2: no posting with the same company and title",
+  "status": "failed",
+  "error": "LinkedIn try 3: no posting with the same company and title",
   "via": "page",
   "tries": 1,
   "fetched_at": "2026-11-13T02:06:33+00:00",
-  "updated_at": "2026-11-13T06:15:35+00:00",
-  "li_tries": 2,
-  "li_checked_at": "2026-11-13T06:15:35+00:00"
+  "updated_at": "2026-11-13T11:38:01+00:00",
+  "li_tries": 3,
+  "li_checked_at": "2026-11-13T11:38:01+00:00"
  },
  "https://barclays.wd3.myworkdayjobs.com/en-US/External_Career_Site_Barclays/job/Mumbai-Nirlon-Knowledge-Park-BX-9th--11-12-floor/Data-Engineer---Analyst_JR-0000110756": {
   "company": "Barclays",
@@ -139,14 +139,14 @@
  "https://careers.epam.com/en/vacancy/data-quality-engineer-blt06hk69sc08xdo078_en": {
   "company": "EPAM Systems",
   "title": "Data Quality Engineer",
-  "status": "needs_linkedin",
-  "error": "LinkedIn try 2: no posting with the same company and title",
+  "status": "failed",
+  "error": "LinkedIn try 3: no posting with the same company and title",
   "via": "page",
   "tries": 1,
   "fetched_at": "2026-11-13T02:06:33+00:00",
-  "updated_at": "2026-11-13T06:15:42+00:00",
-  "li_tries": 2,
-  "li_checked_at": "2026-11-13T06:15:42+00:00"
+  "updated_at": "2026-11-13T11:38:08+00:00",
+  "li_tries": 3,
+  "li_checked_at": "2026-11-13T11:38:08+00:00"
  },
  "https://careers.epam.com/en/vacancy/lead-systems-engineer-data-devops-mlops-bltagknkh9k1a5qyvd0_en": {
   "company": "EPAM Systems",
