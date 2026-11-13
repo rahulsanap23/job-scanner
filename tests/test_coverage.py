@@ -121,3 +121,11 @@ def test_remote_cache_entry():
     assert linkedin.fresh_entry(cache, "Acme", NOW) is None  # older than CACHE_DAYS
     assert linkedin.add_unique([{"id": "1"}], [{"id": "1"}, {"id": "3"}]) == [{"id": "1"}, {"id": "3"}]
     assert linkedin.POSTED_WITHIN == "r5184000"
+
+
+def test_dedupe_keeps_two_openings_with_the_same_title():
+    from scanner.run import dedupe
+    a = {**site("Data Engineer"), "posted": "2026-11-12", "url": "https://site/1"}
+    b = {**site("Data Engineer"), "posted": "2026-10-05", "url": "https://site/2"}
+    c = {**a, "url": "https://site/1?again"}  # the same opening reached twice
+    assert [j["url"] for j in dedupe([a, b, c])] == ["https://site/1", "https://site/2"]

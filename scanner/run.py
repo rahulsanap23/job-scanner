@@ -247,9 +247,12 @@ def job_key(j):
 
 
 def dedupe(jobs):
+    """Drop repeats of one posting (reached through two search terms or two sources). Two openings
+    with the same title and city but different posting dates are different jobs and both stay."""
     out, seen = [], set()
     for j in jobs:
-        k = (norm(j["company"]), norm(j["title"]), tuple(j["location_tags"]), norm(j["location"]))
+        k = (norm(j["company"]), norm(j["title"]), tuple(j["location_tags"]), norm(j["location"]),
+             j.get("posted") or j.get("url"))
         if k in seen:
             continue
         seen.add(k)
