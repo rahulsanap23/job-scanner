@@ -1644,6 +1644,18 @@
 }
 ]
 },
+"MongoDB": {
+"checked_at": "2026-11-14T09:00:07+00:00",
+"jobs": []
+},
+"Morgan Stanley": {
+"checked_at": "2026-11-14T09:00:07+00:00",
+"jobs": []
+},
+"Mrsool": {
+"checked_at": "2026-11-14T09:00:07+00:00",
+"jobs": []
+},
 "NPCI": {
 "checked_at": "2026-11-13T17:59:39+00:00",
 "jobs": []
@@ -1710,7 +1722,7 @@
 ]
 },
 "Nvidia": {
-"checked_at": "2026-11-14T01:39:22+00:00",
+"checked_at": "2026-11-14T09:00:07+00:00",
 "jobs": []
 },
 "Nykaa": {
@@ -1718,7 +1730,7 @@
 "jobs": []
 },
 "P&G": {
-"checked_at": "2026-11-14T01:39:22+00:00",
+"checked_at": "2026-11-14T09:00:07+00:00",
 "jobs": [
 {
 "id": "https://in.linkedin.com/jobs/view/senior-data-engineer-at-procter-gamble-4467366679",
@@ -1739,6 +1751,24 @@
 "checked_at": "2026-11-13T02:06:27+00:00",
 "jobs": []
 },
+"Pfizer": {
+"checked_at": "2026-11-14T09:00:07+00:00",
+"jobs": [
+{
+"id": "https://in.linkedin.com/jobs/view/director-analytics-engineering-ai%E2%80%8B-at-pfizer-4473792606",
+"title": "Director, Analytics Engineering & AI",
+"company": "Pfizer",
+"locations": [
+"Mumbai, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/director-analytics-engineering-ai%E2%80%8B-at-pfizer-4473792606",
+"posted": "2026-11-03",
+"remote": null,
+"country": null,
+"name_match": "exact"
+}
+]
+},
 "PhonePe": {
 "checked_at": "2026-11-13T20:04:51+00:00",
 "jobs": []
@@ -1747,8 +1777,56 @@
 "checked_at": "2026-11-13T20:04:51+00:00",
 "jobs": []
 },
+"Priceline (Booking Holdings)": {
+"checked_at": "2026-11-14T09:00:07+00:00",
+"jobs": [
+{
+"id": "https://in.linkedin.com/jobs/view/senior-data-engineer-at-priceline-4467546456",
+"title": "Senior Data Engineer",
+"company": "Priceline",
+"locations": [
+"Mumbai, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/senior-data-engineer-at-priceline-4467546456",
+"posted": "2026-10-30",
+"remote": null,
+"country": null,
+"name_match": "exact"
+},
+{
+"id": "https://in.linkedin.com/jobs/view/data-engineer-at-priceline-4479355818",
+"title": "Data Engineer",
+"company": "Priceline",
+"locations": [
+"Mumbai, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/data-engineer-at-priceline-4479355818",
+"posted": "2026-11-06",
+"remote": null,
+"country": null,
+"name_match": "exact"
+},
+{
+"id": "https://in.linkedin.com/jobs/view/staff-data-engineer-at-priceline-4440086642",
+"title": "Staff Data Engineer",
+"company": "Priceline",
+"locations": [
+"Mumbai, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/staff-data-engineer-at-priceline-4440086642",
+"posted": "2026-10-29",
+"remote": null,
+"country": null,
+"name_match": "exact"
+}
+]
+},
 "RBL Bank": {
 "checked_at": "2026-11-13T21:02:58+00:00",
+"jobs": []
+},
+"Red Hat": {
+"checked_at": "2026-11-14T09:00:07+00:00",
 "jobs": []
 },
 "SBI": {
