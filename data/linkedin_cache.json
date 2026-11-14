@@ -2319,6 +2319,14 @@
 "checked_at": "2026-11-13T17:07:07+00:00",
 "jobs": []
 },
+"Zapier": {
+"checked_at": "2026-11-14T22:50:28+00:00",
+"jobs": []
+},
+"Zscaler": {
+"checked_at": "2026-11-14T22:50:28+00:00",
+"jobs": []
+},
 "_remote_india": {
 "checked_at": "2026-11-14T16:53:04+00:00",
 "jobs": [
@@ -2419,6 +2427,37 @@
 "country": "India",
 "name_match": "exact",
 "target": "FedEx"
+}
+]
+},
+"bp": {
+"checked_at": "2026-11-14T22:50:28+00:00",
+"jobs": [
+{
+"id": "https://in.linkedin.com/jobs/view/staff-data-engineer-at-bp-4480034597",
+"title": "Staff Data Engineer",
+"company": "bp",
+"locations": [
+"Pune District, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/staff-data-engineer-at-bp-4480034597",
+"posted": "2026-10-22",
+"remote": null,
+"country": null,
+"name_match": "exact"
+},
+{
+"id": "https://in.linkedin.com/jobs/view/enterprise-technology-engineer-at-bp-4480017154",
+"title": "Enterprise Technology Engineer",
+"company": "bp",
+"locations": [
+"Pune District, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/enterprise-technology-engineer-at-bp-4480017154",
+"posted": "2026-10-22",
+"remote": null,
+"country": null,
+"name_match": "exact"
 }
 ]
 }
