@@ -1098,12 +1098,20 @@
 }
 ]
 },
+"Johnson & Johnson": {
+"checked_at": "2026-11-14T01:39:22+00:00",
+"jobs": []
+},
 "Kotak Mahindra Bank": {
 "checked_at": "2026-11-13T16:00:07+00:00",
 "jobs": []
 },
 "Lentra": {
 "checked_at": "2026-11-13T17:07:07+00:00",
+"jobs": []
+},
+"MSD (Merck & Co.)": {
+"checked_at": "2026-11-14T01:39:22+00:00",
 "jobs": []
 },
 "Media.net": {
@@ -1180,9 +1188,31 @@
 "checked_at": "2026-11-13T17:59:39+00:00",
 "jobs": []
 },
+"Nvidia": {
+"checked_at": "2026-11-14T01:39:22+00:00",
+"jobs": []
+},
 "Nykaa": {
 "checked_at": "2026-11-13T19:09:02+00:00",
 "jobs": []
+},
+"P&G": {
+"checked_at": "2026-11-14T01:39:22+00:00",
+"jobs": [
+{
+"id": "https://in.linkedin.com/jobs/view/senior-data-engineer-at-procter-gamble-4467366679",
+"title": "Senior Data Engineer",
+"company": "Procter & Gamble",
+"locations": [
+"Mumbai Metropolitan Region"
+],
+"url": "https://in.linkedin.com/jobs/view/senior-data-engineer-at-procter-gamble-4467366679",
+"posted": "2026-11-12",
+"remote": null,
+"country": null,
+"name_match": "exact"
+}
+]
 },
 "Panasonic Avionics": {
 "checked_at": "2026-11-13T02:06:27+00:00",
