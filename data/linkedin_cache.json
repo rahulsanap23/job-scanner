@@ -1257,8 +1257,21 @@
 "jobs": []
 },
 "Mastercard": {
-"checked_at": "2026-11-14T07:17:43+00:00",
+"checked_at": "2026-11-14T15:51:52+00:00",
 "jobs": [
+{
+"id": "https://in.linkedin.com/jobs/view/data-engineer-ii-at-mastercard-4474075906",
+"title": "Data Engineer II",
+"company": "Mastercard",
+"locations": [
+"Navi Mumbai, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/data-engineer-ii-at-mastercard-4474075906",
+"posted": "2026-10-27",
+"remote": null,
+"country": null,
+"name_match": "exact"
+},
 {
 "id": "https://in.linkedin.com/jobs/view/lead-data-engineer-at-mastercard-4454122491",
 "title": "Lead Data Engineer",
@@ -1294,19 +1307,6 @@
 ],
 "url": "https://in.linkedin.com/jobs/view/principal-data-engineer-aws-databricks-ai-ml-flow-data-architecture-apache-airflow-at-mastercard-4468908637",
 "posted": "2026-11-04",
-"remote": null,
-"country": null,
-"name_match": "exact"
-},
-{
-"id": "https://in.linkedin.com/jobs/view/data-engineer-ii-at-mastercard-4474075906",
-"title": "Data Engineer II",
-"company": "Mastercard",
-"locations": [
-"Navi Mumbai, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/data-engineer-ii-at-mastercard-4474075906",
-"posted": "2026-10-27",
 "remote": null,
 "country": null,
 "name_match": "exact"
@@ -1410,7 +1410,7 @@
 ]
 },
 "Medline": {
-"checked_at": "2026-11-14T07:17:43+00:00",
+"checked_at": "2026-11-14T15:51:52+00:00",
 "jobs": [
 {
 "id": "https://in.linkedin.com/jobs/view/technical-lead-bi-at-medline-4484653590",
@@ -1773,7 +1773,7 @@
 "jobs": []
 },
 "Nvidia": {
-"checked_at": "2026-11-14T09:00:07+00:00",
+"checked_at": "2026-11-14T15:51:52+00:00",
 "jobs": []
 },
 "Nykaa": {
@@ -1963,8 +1963,87 @@
 "checked_at": "2026-11-13T21:02:58+00:00",
 "jobs": []
 },
+"Siemens Digital Industries Software": {
+"checked_at": "2026-11-14T15:51:52+00:00",
+"jobs": [
+{
+"id": "https://in.linkedin.com/jobs/view/dbt-cloud-data-engineer-at-siemens-digital-industries-software-4481371786",
+"title": "dbt Cloud Data Engineer",
+"company": "Siemens Digital Industries Software",
+"locations": [
+"Pune Division, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/dbt-cloud-data-engineer-at-siemens-digital-industries-software-4481371786",
+"posted": "2026-11-13",
+"remote": null,
+"country": null,
+"name_match": "exact"
+},
+{
+"id": "https://in.linkedin.com/jobs/view/software-engineer-senior-at-siemens-digital-industries-software-4481390059",
+"title": "Software Engineer - Senior",
+"company": "Siemens Digital Industries Software",
+"locations": [
+"Pune Division, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/software-engineer-senior-at-siemens-digital-industries-software-4481390059",
+"posted": "2026-11-13",
+"remote": null,
+"country": null,
+"name_match": "exact"
+},
+{
+"id": "https://in.linkedin.com/jobs/view/sr-software-engineer-datawarehouse-at-siemens-healthineers-4486994260",
+"title": "Sr. Software Engineer (Datawarehouse)",
+"company": "Siemens Healthineers",
+"locations": [
+"Pune District, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/sr-software-engineer-datawarehouse-at-siemens-healthineers-4486994260",
+"posted": "2026-11-06",
+"remote": null,
+"country": null,
+"name_match": "loose"
+},
+{
+"id": "https://in.linkedin.com/jobs/view/dbt-cloud-solution-architect-at-siemens-digital-industries-software-4481391076",
+"title": "dbt Cloud Solution Architect",
+"company": "Siemens Digital Industries Software",
+"locations": [
+"Pune Division, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/dbt-cloud-solution-architect-at-siemens-digital-industries-software-4481391076",
+"posted": "2026-11-13",
+"remote": null,
+"country": null,
+"name_match": "exact"
+}
+]
+},
+"Snowflake": {
+"checked_at": "2026-11-14T15:51:52+00:00",
+"jobs": [
+{
+"id": "https://in.linkedin.com/jobs/view/data-engineer-at-snowflake-4484427163",
+"title": "Data Engineer",
+"company": "Snowflake",
+"locations": [
+"Pune Division, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/data-engineer-at-snowflake-4484427163",
+"posted": "2026-10-28",
+"remote": null,
+"country": null,
+"name_match": "exact"
+}
+]
+},
 "Société Générale": {
 "checked_at": "2026-11-13T21:57:15+00:00",
+"jobs": []
+},
+"Standard Chartered": {
+"checked_at": "2026-11-14T15:51:52+00:00",
 "jobs": []
 },
 "TIAA": {
