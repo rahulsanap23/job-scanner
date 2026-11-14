@@ -1,10 +1,10 @@
 {
  "meta": {
-  "generated_at": "2026-11-14T01:39:53+00:00",
+  "generated_at": "2026-11-14T10:17:33+00:00",
   "date": "2026-11-14",
   "recency_days": 60,
   "companies_total": 190,
-  "companies_scanned_ok": 101,
+  "companies_scanned_ok": 103,
   "companies_failed": [
    "AIG",
    "Abbott",
@@ -33,22 +33,20 @@
    "Mastercard",
    "Medline",
    "Northern Trust",
+   "Novartis",
    "Nvidia",
    "P&G",
+   "Panasonic Avionics",
    "Pfizer",
    "Priceline (Booking Holdings)",
    "Red Hat",
    "Rockwell Automation",
    "S&P Global",
-   "Standard Chartered",
    "TIAA",
-   "Tetra Pak",
    "Thermo Fisher Scientific",
    "VMware (Broadcom)",
    "Voya",
-   "Workday",
-   "Worldline",
-   "Wärtsilä"
+   "Workday"
   ],
   "companies_not_scanned": [
    "3Pillar Global",
@@ -98,11 +96,11 @@
    "Volkswagen Group Digital Solutions",
    "Yes Bank"
   ],
-  "jobs": 96,
-  "companies_with_jobs": 37,
-  "uncertain": 14,
-  "fresh": 20,
-  "linkedin": "71 of 92 companies checked in the last 24 h; not checked in 24 h: Pfizer, TIAA, Thermo Fisher Scientific, Standard Chartered, Mastercard, Medline, Marsh McLennan, Priceline (Booking Holdings) and 13 more (this scan: stopped after 4 of 25 companies: LinkedIn answered 500)",
+  "jobs": 118,
+  "companies_with_jobs": 43,
+  "uncertain": 15,
+  "fresh": 23,
+  "linkedin": "90 of 90 companies checked in the last 24 h (this scan: searched 9 companies)",
   "companies_checked_on_linkedin": [
    "3Pillar Global",
    "AIG",
@@ -141,6 +139,7 @@
    "Fiserv",
    "General Mills",
    "HDFC Bank",
+   "Hitachi (Vantara, Payment Services)",
    "ICICI Bank",
    "IDFC FIRST Bank",
    "IndusInd Bank",
@@ -148,39 +147,56 @@
    "Jio",
    "JioHotstar",
    "Johnson & Johnson",
+   "Johnson Controls",
    "Kotak Mahindra Bank",
    "Lentra",
    "MSD (Merck & Co.)",
    "Marsh McLennan",
+   "Marvell",
+   "Mastercard",
    "Media.net",
+   "Medline",
    "Mitsubishi Electric India",
    "Mizuho",
    "NPCI",
    "Netcore Cloud",
+   "Northern Trust",
+   "Novartis",
    "Nvidia",
    "Nykaa",
    "P&G",
+   "Panasonic Avionics",
+   "Pfizer",
    "PhonePe",
    "Postman",
+   "Priceline (Booking Holdings)",
    "RBL Bank",
+   "Red Hat",
+   "Rockwell Automation",
+   "S&P Global",
    "SBI",
    "Sciative",
    "Société Générale",
+   "TIAA",
    "TeamViewer",
    "Tesla",
+   "Thermo Fisher Scientific",
    "Tietoevry",
    "Trajector",
    "UBS",
    "Upstox",
+   "VMware (Broadcom)",
    "Vector Informatik",
    "Veritas Technologies",
    "Volkswagen Group Digital Solutions",
+   "Voya",
+   "Workday",
    "Yes Bank"
   ],
-  "linkedin_crosscheck": "43 of 98 scanned companies cross-checked on LinkedIn in the last 4 days; 3 roles the careers sites missed",
+  "linkedin_crosscheck": "62 of 100 scanned companies cross-checked on LinkedIn in the last 4 days; 3 roles the careers sites missed",
   "missed_by_site": 3,
   "scanner_alerts": [],
-  "rejected": 426
+  "rejected": 427
  },
  "companies": [
   {
@@ -212,15 +228,15 @@
    "title_matches": 0,
    "matched": 0,
    "errors": [
-    "workday: HTTPError: 521 Server Error: <none> for url: https://aig.wd1.myworkdayjobs.com/wday/cxs/aig/aig/jobs"
+    "workday: JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.1,
+   "secs": 0.5,
    "linkedin": {
-    "checked_at": "2026-11-13T02:12:44+00:00",
+    "checked_at": "2026-11-14T02:30:47+00:00",
     "fetched": 0,
     "matched": 0,
     "rejected_examples": []
@@ -236,15 +252,15 @@
    "title_matches": 0,
    "matched": 1,
    "errors": [
-    "workday: HTTPError: 521 Server Error: <none> for url: https://abbott.wd5.myworkdayjobs.com/wday/cxs/abbott/abbottcareers/jobs"
+    "workday: JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.2,
+   "secs": 0.5,
    "linkedin": {
-    "checked_at": "2026-11-13T02:12:44+00:00",
+    "checked_at": "2026-11-14T02:30:47+00:00",
     "fetched": 1,
     "matched": 1,
     "rejected_examples": []
@@ -260,15 +276,15 @@
    "title_matches": 0,
    "matched": 0,
    "errors": [
-    "workday: HTTPError: 521 Server Error: <none> for url: https://airproducts.wd5.myworkdayjobs.com/wday/cxs/airproducts/AP0001/jobs"
+    "workday: JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.2,
+   "secs": 0.5,
    "linkedin": {
-    "checked_at": "2026-11-13T02:44:44+00:00",
+    "checked_at": "2026-11-14T02:30:47+00:00",
     "fetched": 0,
     "matched": 0,
     "rejected_examples": []
@@ -280,7 +296,7 @@
     "greenhouse"
    ],
    "status": "ok",
-   "fetched": 215,
+   "fetched": 214,
    "title_matches": 5,
    "matched": 0,
    "errors": [],
@@ -311,15 +327,15 @@
    "title_matches": 0,
    "matched": 0,
    "errors": [
-    "workday: HTTPError: 521 Server Error: <none> for url: https://abglobal.wd1.myworkdayjobs.com/wday/cxs/abglobal/alliancebernsteincareers/jobs"
+    "workday: JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.1,
+   "secs": 0.4,
    "linkedin": {
-    "checked_at": "2026-11-13T02:44:44+00:00",
+    "checked_at": "2026-11-14T02:30:47+00:00",
     "fetched": 0,
     "matched": 0,
     "rejected_examples": []
@@ -335,15 +351,15 @@
    "title_matches": 0,
    "matched": 0,
    "errors": [
-    "workday: HTTPError: 521 Server Error: <none> for url: https://allstate.wd5.myworkdayjobs.com/wday/cxs/allstate/allstate_careers/jobs"
+    "workday: JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.3,
+   "secs": 0.6,
    "linkedin": {
-    "checked_at": "2026-11-13T04:08:42+00:00",
+    "checked_at": "2026-11-14T02:30:47+00:00",
     "fetched": 0,
     "matched": 0,
     "rejected_examples": []
@@ -365,7 +381,7 @@
    "careers_url": "https://amadeus.wd502.myworkdayjobs.com/jobs",
    "rejected_examples": [],
    "requests": 10,
-   "secs": 4.6,
+   "secs": 5.4,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-13T05:12:43+00:00",
     "fetched": 0,
@@ -395,7 +411,7 @@
     "location: Software Development Engineer, Sports Data Platform - Prime Video Sports | Bengaluru, Karnataka, IND; IN, KA, Bengaluru"
    ],
    "requests": 14,
-   "secs": 5.2,
+   "secs": 8.3,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-13T05:12:43+00:00",
     "fetched": 2,
@@ -427,7 +443,7 @@
     "atlassian"
    ],
    "status": "ok",
-   "fetched": 261,
+   "fetched": 260,
    "title_matches": 14,
    "matched": 6,
    "errors": [],
@@ -461,15 +477,15 @@
    "title_matches": 0,
    "matched": 0,
    "errors": [
-    "workday: HTTPError: 521 Server Error: <none> for url: https://autodesk.wd1.myworkdayjobs.com/wday/cxs/autodesk/Ext/jobs"
+    "workday: JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.1,
+   "secs": 0.5,
    "linkedin": {
-    "checked_at": "2026-11-13T06:15:35+00:00",
+    "checked_at": "2026-11-14T03:00:24+00:00",
     "fetched": 0,
     "matched": 0,
     "rejected_examples": []
@@ -512,7 +528,7 @@
     "older than 60 days: Senior Snowflake Data & AI Platform Engineer | 2026-05-04"
    ],
    "requests": 1,
-   "secs": 0.4,
+   "secs": 0.5,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-13T06:15:35+00:00",
     "fetched": 0,
@@ -556,7 +572,7 @@
     "location: Senior AI Data Architect / Solution Engineer - India based | Bangalore, India"
    ],
    "requests": 10,
-   "secs": 8.5,
+   "secs": 9.1,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-13T07:41:11+00:00",
     "fetched": 0,
@@ -630,15 +646,15 @@
    "title_matches": 0,
    "matched": 0,
    "errors": [
-    "workday: HTTPError: 521 Server Error: <none> for url: https://bakerhughes.wd5.myworkdayjobs.com/wday/cxs/bakerhughes/BakerHughes/jobs"
+    "workday: JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.2,
+   "secs": 0.6,
    "linkedin": {
-    "checked_at": "2026-11-13T07:41:11+00:00",
+    "checked_at": "2026-11-14T03:00:24+00:00",
     "fetched": 0,
     "matched": 0,
     "rejected_examples": []
@@ -655,7 +671,7 @@
    "title_matches": 0,
    "matched": 0,
    "errors": [
-    "workday: HTTPError: 521 Server Error: <none> for url: https://ghr.wd1.myworkdayjobs.com/wday/cxs/ghr/lateral-ba_continuum/jobs"
+    "workday: JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
    ],
    "notes": [
     "used fallback source jobsyn"
@@ -663,7 +679,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 25,
-   "secs": 2.1,
+   "secs": 4.8,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-13T07:41:11+00:00",
     "fetched": 0,
@@ -692,7 +708,7 @@
     "older than 60 days: Senior ETL Data Egg | 2026-08-10"
    ],
    "requests": 28,
-   "secs": 11.0,
+   "secs": 12.6,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-13T09:14:52+00:00",
     "fetched": 6,
@@ -726,19 +742,19 @@
    "status": "error",
    "fetched": 0,
    "title_matches": 0,
-   "matched": 1,
+   "matched": 2,
    "errors": [
-    "workday: HTTPError: 521 Server Error: <none> for url: https://blackrock.wd1.myworkdayjobs.com/wday/cxs/blackrock/BlackRock_Professional/jobs"
+    "workday: JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.1,
+   "secs": 0.4,
    "linkedin": {
-    "checked_at": "2026-11-13T09:14:52+00:00",
-    "fetched": 2,
-    "matched": 1,
+    "checked_at": "2026-11-14T03:00:24+00:00",
+    "fetched": 3,
+    "matched": 2,
     "rejected_examples": [
      "title not a data-engineering role: Associate – Data Analytics | 2026-10-27"
     ]
@@ -750,24 +766,24 @@
     "avature"
    ],
    "status": "ok",
-   "fetched": 121,
+   "fetched": 117,
    "title_matches": 13,
    "matched": 0,
    "errors": [],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [
-    "location: Senior Data Management Professional - Data Automation Engineer - People Data | New York, New York, United States of America",
-    "location: Senior Software Engineer – Data and Platform Tools – Bloomberg Connects | New York, New York, United States of America",
+    "location: Team Leader - Data Engineering & Integration - Commodities Data | London, United Kingdom",
     "location: Senior Software Engineer - Data Governance & Management Platforms | New York, New York, United States of America",
-    "location: Senior Data Management Professional - Data Engineering (Data AI) | New York, New York, United States of America",
+    "location: Senior Data Management Professional - Automation Engineer - Economics News | Princeton, New Jersey, United States of America",
+    "location: Senior Software Engineer – Data and Platform Tools – Bloomberg Connects | New York, New York, United States of America",
     "location: Senior Data Management Professional - Data Engineering (Data AI) | Princeton, New Jersey, United States of America",
+    "location: Senior Data Management Professional - Data Engineering (Data AI) | New York, New York, United States of America",
     "location: Senior Data Management Professional – Automation Engineer - Economics News | New York, New York, United States of America",
-    "location: Senior Data Management Professional - Data Engineering - Corporate Actions | Princeton, New Jersey, United States of America",
-    "location: Senior Data Management Professional - Automation Engineer - Economics News | Princeton, New Jersey, United States of America"
+    "location: Senior Data Management Professional - Data Engineering - Corporate Actions | Princeton, New Jersey, United States of America"
    ],
    "requests": 16,
-   "secs": 18.1,
+   "secs": 18.8,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-13T09:14:52+00:00",
     "fetched": 1,
@@ -788,7 +804,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.7,
+   "secs": 0.5,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-13T11:38:01+00:00",
     "fetched": 0,
@@ -811,7 +827,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 11,
-   "secs": 5.0,
+   "secs": 5.8,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-13T11:38:01+00:00",
     "fetched": 0,
@@ -832,7 +848,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.6,
+   "secs": 0.5,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-13T11:38:01+00:00",
     "fetched": 0,
@@ -917,15 +933,15 @@
    "title_matches": 0,
    "matched": 1,
    "errors": [
-    "workday: HTTPError: 521 Server Error: <none> for url: https://cisco.wd5.myworkdayjobs.com/wday/cxs/cisco/Cisco_Careers/jobs"
+    "workday: JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.2,
+   "secs": 0.5,
    "linkedin": {
-    "checked_at": "2026-11-13T12:06:21+00:00",
+    "checked_at": "2026-11-14T03:00:24+00:00",
     "fetched": 1,
     "matched": 1,
     "rejected_examples": []
@@ -941,15 +957,15 @@
    "title_matches": 0,
    "matched": 10,
    "errors": [
-    "workday: HTTPError: 521 Server Error: <none> for url: https://citi.wd5.myworkdayjobs.com/wday/cxs/citi/2/jobs"
+    "workday: JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.3,
+   "secs": 0.6,
    "linkedin": {
-    "checked_at": "2026-11-13T13:24:41+00:00",
+    "checked_at": "2026-11-14T03:00:24+00:00",
     "fetched": 10,
     "matched": 10,
     "rejected_examples": []
@@ -988,7 +1004,7 @@
    "careers_url": "https://careers.kula.ai/clevertap",
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.6,
+   "secs": 0.8,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-13T13:24:41+00:00",
     "fetched": 0,
@@ -1005,15 +1021,15 @@
    "title_matches": 0,
    "matched": 0,
    "errors": [
-    "workday: HTTPError: 521 Server Error: <none> for url: https://cohesity.wd5.myworkdayjobs.com/wday/cxs/cohesity/Cohesity_Careers/jobs"
+    "workday: JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.2,
+   "secs": 0.4,
    "linkedin": {
-    "checked_at": "2026-11-13T13:24:41+00:00",
+    "checked_at": "2026-11-14T04:02:48+00:00",
     "fetched": 0,
     "matched": 0,
     "rejected_examples": []
@@ -1061,9 +1077,9 @@
    "careers_url": "https://careers.confluent.io/open-positions/india",
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.0,
+   "secs": 0.1,
    "linkedin": {
-    "checked_at": "2026-11-13T22:55:13+00:00",
+    "checked_at": "2026-11-14T04:02:48+00:00",
     "fetched": 0,
     "matched": 0,
     "rejected_examples": []
@@ -1100,15 +1116,15 @@
    "title_matches": 0,
    "matched": 0,
    "errors": [
-    "workday: HTTPError: 521 Server Error: <none> for url: https://crowdstrike.wd5.myworkdayjobs.com/wday/cxs/crowdstrike/crowdstrikecareers/jobs"
+    "workday: JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.1,
+   "secs": 0.6,
    "linkedin": {
-    "checked_at": "2026-11-13T16:00:07+00:00",
+    "checked_at": "2026-11-14T04:02:48+00:00",
     "fetched": 0,
     "matched": 0,
     "rejected_examples": []
@@ -1120,7 +1136,7 @@
     "jobsyn"
    ],
    "status": "ok",
-   "fetched": 99,
+   "fetched": 98,
    "title_matches": 13,
    "matched": 1,
    "errors": [],
@@ -1128,8 +1144,8 @@
    "careers_url": "https://cummins.jobs/",
    "rejected_examples": [
     "older than 60 days: Data Engineer 5 | 2026-08-25",
-    "older than 60 days: Data Engineer 7 | 2026-08-25",
     "older than 60 days: Data Engineer 8 | 2026-08-25",
+    "older than 60 days: Data Engineer 7 | 2026-08-25",
     "older than 60 days: Data Engineer 10 | 2026-08-25",
     "older than 60 days: Data Engineer 6 | 2026-08-25",
     "older than 60 days: Data Engineer 9 | 2026-08-25",
@@ -1137,7 +1153,7 @@
     "older than 60 days: Data Engineer 3 | 2026-08-21"
    ],
    "requests": 35,
-   "secs": 3.5,
+   "secs": 4.3,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-13T16:00:07+00:00",
     "fetched": 10,
@@ -1162,7 +1178,7 @@
     "location: Associate, Data Engineer, Transformation and Data | Hyderabad - DTI Skyview SEZ"
    ],
    "requests": 16,
-   "secs": 8.6,
+   "secs": 10.3,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-13T16:00:07+00:00",
     "fetched": 0,
@@ -1210,7 +1226,7 @@
    "careers_url": "https://jobs.dnv.com/locations/india",
    "rejected_examples": [],
    "requests": 10,
-   "secs": 5.8,
+   "secs": 5.4,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-13T17:07:07+00:00",
     "fetched": 0,
@@ -1284,7 +1300,7 @@
     "location: AVP – Data Engineer | Bangalore Velankani ISC"
    ],
    "requests": 28,
-   "secs": 16.7,
+   "secs": 17.4,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-13T17:59:39+00:00",
     "fetched": 5,
@@ -1308,7 +1324,7 @@
     "location: Software Engineer, Data Engineering | Hyderabad, India"
    ],
    "requests": 1,
-   "secs": 0.1,
+   "secs": 0.2,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-13T17:59:39+00:00",
     "fetched": 0,
@@ -1325,15 +1341,15 @@
    "title_matches": 0,
    "matched": 0,
    "errors": [
-    "workday: HTTPError: 521 Server Error: <none> for url: https://dow.wd1.myworkdayjobs.com/wday/cxs/dow/ExternalCareers/jobs"
+    "workday: JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.1,
+   "secs": 0.5,
    "linkedin": {
-    "checked_at": "2026-11-13T17:59:39+00:00",
+    "checked_at": "2026-11-14T05:04:08+00:00",
     "fetched": 1,
     "matched": 0,
     "rejected_examples": []
@@ -1375,7 +1391,7 @@
     "older than 60 days: Software Engineer (Data Engineering) | 2022-12-24"
    ],
    "requests": 1,
-   "secs": 0.8,
+   "secs": 0.7,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-13T19:09:02+00:00",
     "fetched": 0,
@@ -1410,8 +1426,8 @@
    ],
    "status": "ok",
    "fetched": 200,
-   "title_matches": 17,
-   "matched": 6,
+   "title_matches": 18,
+   "matched": 7,
    "errors": [],
    "notes": [],
    "careers_url": "https://careers.epam.com/en/jobs/india",
@@ -1426,7 +1442,7 @@
     "location: Senior Palantir Data Software Engineer | Coimbatore, India"
    ],
    "requests": 36,
-   "secs": 13.4,
+   "secs": 14.4,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-13T19:09:02+00:00",
     "fetched": 0,
@@ -1458,7 +1474,7 @@
     "eightfold"
    ],
    "status": "ok",
-   "fetched": 118,
+   "fetched": 119,
    "title_matches": 2,
    "matched": 2,
    "errors": [],
@@ -1466,7 +1482,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 22,
-   "secs": 7.7,
+   "secs": 8.1,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-13T20:04:51+00:00",
     "fetched": 1,
@@ -1483,15 +1499,15 @@
    "title_matches": 0,
    "matched": 0,
    "errors": [
-    "workday: HTTPError: 521 Server Error: <none> for url: https://ecolab.wd1.myworkdayjobs.com/wday/cxs/ecolab/Ecolab_External/jobs"
+    "workday: JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.1,
+   "secs": 0.5,
    "linkedin": {
-    "checked_at": "2026-11-13T20:04:51+00:00",
+    "checked_at": "2026-11-14T05:04:08+00:00",
     "fetched": 0,
     "matched": 0,
     "rejected_examples": []
@@ -1513,7 +1529,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 16,
-   "secs": 9.4,
+   "secs": 9.2,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-13T20:04:51+00:00",
     "fetched": 0,
@@ -1536,7 +1552,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 10,
-   "secs": 5.5,
+   "secs": 5.7,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-13T21:02:58+00:00",
     "fetched": 0,
@@ -1553,15 +1569,15 @@
    "title_matches": 0,
    "matched": 0,
    "errors": [
-    "workday: HTTPError: 521 Server Error: <none> for url: https://equinix.wd1.myworkdayjobs.com/wday/cxs/equinix/External/jobs"
+    "workday: JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.1,
+   "secs": 0.5,
    "linkedin": {
-    "checked_at": "2026-11-13T21:02:58+00:00",
+    "checked_at": "2026-11-14T05:04:08+00:00",
     "fetched": 0,
     "matched": 0,
     "rejected_examples": []
@@ -1596,15 +1612,15 @@
    "title_matches": 0,
    "matched": 0,
    "errors": [
-    "workday: HTTPError: 521 Server Error: <none> for url: https://fis.wd5.myworkdayjobs.com/wday/cxs/fis/SearchJobs/jobs"
+    "workday: JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.2,
+   "secs": 0.5,
    "linkedin": {
-    "checked_at": "2026-11-13T21:02:58+00:00",
+    "checked_at": "2026-11-14T05:04:08+00:00",
     "fetched": 0,
     "matched": 0,
     "rejected_examples": []
@@ -1643,7 +1659,7 @@
    "careers_url": "https://job-boards.greenhouse.io/fanaticsinc",
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.2,
+   "secs": 0.1,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-13T21:57:15+00:00",
     "fetched": 0,
@@ -1702,7 +1718,7 @@
    "careers_url": "https://firstadvantage.applytojob.com/apply",
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.2,
+   "secs": 0.4,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-13T21:57:15+00:00",
     "fetched": 0,
@@ -1738,15 +1754,15 @@
    "title_matches": 0,
    "matched": 0,
    "errors": [
-    "workday: HTTPError: 521 Server Error: <none> for url: https://fiserv.wd5.myworkdayjobs.com/wday/cxs/fiserv/EXT/jobs"
+    "workday: JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.2,
+   "secs": 0.5,
    "linkedin": {
-    "checked_at": "2026-11-13T21:57:15+00:00",
+    "checked_at": "2026-11-14T05:04:08+00:00",
     "fetched": 0,
     "matched": 0,
     "rejected_examples": []
@@ -1774,7 +1790,7 @@
     "location: Staff Software Engineer-dbt core | Bangalore, India"
    ],
    "requests": 1,
-   "secs": 0.1,
+   "secs": 0.2,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-13T21:57:15+00:00",
     "fetched": 0,
@@ -1822,7 +1838,7 @@
     "older than 60 days: Senior Gen AI Data Engineer | 2026-09-11"
    ],
    "requests": 52,
-   "secs": 13.8,
+   "secs": 15.8,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-13T21:57:15+00:00",
     "fetched": 0,
@@ -1839,15 +1855,15 @@
    "title_matches": 0,
    "matched": 6,
    "errors": [
-    "workday: HTTPError: 521 Server Error: <none> for url: https://genmills.wd1.myworkdayjobs.com/wday/cxs/genmills/GMI_External_Careers/jobs"
+    "workday: JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.1,
+   "secs": 0.5,
    "linkedin": {
-    "checked_at": "2026-11-13T21:57:15+00:00",
+    "checked_at": "2026-11-14T05:59:41+00:00",
     "fetched": 6,
     "matched": 6,
     "rejected_examples": []
@@ -1905,7 +1921,7 @@
     "goldman"
    ],
    "status": "ok",
-   "fetched": 499,
+   "fetched": 497,
    "title_matches": 8,
    "matched": 0,
    "errors": [],
@@ -1922,7 +1938,7 @@
     "location: The Core Engineering - NFR & Controls Data Eng - Associate - Hyderabad | Hyderabad, Telangana, India"
    ],
    "requests": 16,
-   "secs": 1.5,
+   "secs": 2.8,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-13T22:55:13+00:00",
     "fetched": 1,
@@ -1943,7 +1959,7 @@
    "careers_url": "https://www.google.com/about/careers/applications/jobs/results?location=India",
    "rejected_examples": [],
    "requests": 23,
-   "secs": 2.1,
+   "secs": 4.5,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-13T23:50:50+00:00",
     "fetched": 0,
@@ -1983,7 +1999,7 @@
    "careers_url": "https://careers.here.com/jobs?location=India",
    "rejected_examples": [],
    "requests": 9,
-   "secs": 1.7,
+   "secs": 1.3,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-13T23:50:50+00:00",
     "fetched": 0,
@@ -2004,7 +2020,7 @@
    "careers_url": "https://mycareer.hsbc.com/en_GB/external/SearchJobs",
    "rejected_examples": [],
    "requests": 23,
-   "secs": 2.2,
+   "secs": 4.3,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-13T23:50:50+00:00",
     "fetched": 1,
@@ -2028,7 +2044,12 @@
     "older than 60 days: Sr. Product Manager - Custom Objects & CRM Data Platform | 2026-09-10"
    ],
    "requests": 1,
-   "secs": 1.8
+   "secs": 0.7,
+   "linkedin_crosscheck": {
+    "checked_at": "2026-11-14T02:30:47+00:00",
+    "fetched": 0,
+    "missed_by_site": 0
+   }
   },
   {
    "company": "Hitachi (Vantara, Payment Services)",
@@ -2038,15 +2059,21 @@
    "status": "error",
    "fetched": 0,
    "title_matches": 0,
-   "matched": 0,
+   "matched": 1,
    "errors": [
-    "workday: HTTPError: 521 Server Error: <none> for url: https://hitachi.wd1.myworkdayjobs.com/wday/cxs/hitachi/hitachi/jobs"
+    "workday: JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.1
+   "secs": 0.4,
+   "linkedin": {
+    "checked_at": "2026-11-14T05:59:41+00:00",
+    "fetched": 1,
+    "matched": 1,
+    "rejected_examples": []
+   }
   },
   {
    "company": "Honeywell",
@@ -2054,7 +2081,7 @@
     "oracle"
    ],
    "status": "ok",
-   "fetched": 131,
+   "fetched": 130,
    "title_matches": 0,
    "matched": 0,
    "errors": [],
@@ -2064,7 +2091,12 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 16,
-   "secs": 8.5
+   "secs": 8.9,
+   "linkedin_crosscheck": {
+    "checked_at": "2026-11-14T02:30:47+00:00",
+    "fetched": 0,
+    "missed_by_site": 0
+   }
   },
   {
    "company": "ICE",
@@ -2083,7 +2115,12 @@
     "location: Senior Developer, Data Engineer | Hyderabad, India; Hyderabad, India"
    ],
    "requests": 20,
-   "secs": 4.3
+   "secs": 5.9,
+   "linkedin_crosscheck": {
+    "checked_at": "2026-11-14T02:30:47+00:00",
+    "fetched": 0,
+    "missed_by_site": 0
+   }
   },
   {
    "company": "ICICI Bank",
@@ -2142,7 +2179,12 @@
     "older than 60 days: Senior Data Engineer (with AI/ML experience) India | 2026-01-30"
    ],
    "requests": 1,
-   "secs": 0.9
+   "secs": 0.6,
+   "linkedin_crosscheck": {
+    "checked_at": "2026-11-14T03:00:24+00:00",
+    "fetched": 0,
+    "missed_by_site": 0
+   }
   },
   {
    "company": "Icertis",
@@ -2160,7 +2202,12 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 10,
-   "secs": 5.3
+   "secs": 6.2,
+   "linkedin_crosscheck": {
+    "checked_at": "2026-11-14T03:00:24+00:00",
+    "fetched": 0,
+    "missed_by_site": 0
+   }
   },
   {
    "company": "IndusInd Bank",
@@ -2187,7 +2234,7 @@
     "oracle"
    ],
    "status": "ok",
-   "fetched": 258,
+   "fetched": 242,
    "title_matches": 5,
    "matched": 0,
    "errors": [],
@@ -2202,8 +2249,13 @@
     "location: Senior Lead Software Engineer- Data Engineer | Bengaluru, Karnataka, India",
     "location: Senior Lead Software Engineer Data Platform Python or Java, big data | Bengaluru, Karnataka, India"
    ],
-   "requests": 22,
-   "secs": 9.3
+   "requests": 21,
+   "secs": 8.3,
+   "linkedin_crosscheck": {
+    "checked_at": "2026-11-14T03:00:24+00:00",
+    "fetched": 1,
+    "missed_by_site": 0
+   }
   },
   {
    "company": "Jefferies",
@@ -2268,7 +2320,7 @@
     "eightfold"
    ],
    "status": "ok",
-   "fetched": 123,
+   "fetched": 122,
    "title_matches": 2,
    "matched": 0,
    "errors": [],
@@ -2278,8 +2330,13 @@
     "location: Analytics Data Engineer II - Campinas/SP | Campinas,Sao Paulo,Brazil",
     "location: Mid-Level Software Engineer (Data Solutions) - Indaiatuba/SP | Indaiatuba,Sao Paulo,Brazil"
    ],
-   "requests": 25,
-   "secs": 9.5
+   "requests": 23,
+   "secs": 10.3,
+   "linkedin_crosscheck": {
+    "checked_at": "2026-11-14T04:02:48+00:00",
+    "fetched": 0,
+    "missed_by_site": 0
+   }
   },
   {
    "company": "Johnson & Johnson",
@@ -2291,15 +2348,15 @@
    "title_matches": 0,
    "matched": 0,
    "errors": [
-    "workday: HTTPError: 521 Server Error: <none> for url: https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/jj/jobs"
+    "workday: JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.3,
+   "secs": 0.6,
    "linkedin": {
-    "checked_at": "2026-11-14T01:39:22+00:00",
+    "checked_at": "2026-11-14T05:59:41+00:00",
     "fetched": 0,
     "matched": 0,
     "rejected_examples": []
@@ -2315,13 +2372,19 @@
    "title_matches": 0,
    "matched": 0,
    "errors": [
-    "workday: HTTPError: 521 Server Error: <none> for url: https://jci.wd5.myworkdayjobs.com/wday/cxs/jci/JCI/jobs"
+    "workday: JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.2
+   "secs": 0.4,
+   "linkedin": {
+    "checked_at": "2026-11-14T05:59:41+00:00",
+    "fetched": 0,
+    "matched": 0,
+    "rejected_examples": []
+   }
   },
   {
    "company": "KONE",
@@ -2341,7 +2404,12 @@
     "older than 60 days: Principal Data Engineer, Data Products | 2026-07-22"
    ],
    "requests": 13,
-   "secs": 8.6
+   "secs": 9.0,
+   "linkedin_crosscheck": {
+    "checked_at": "2026-11-14T04:02:48+00:00",
+    "fetched": 1,
+    "missed_by_site": 0
+   }
   },
   {
    "company": "Kotak Mahindra Bank",
@@ -2387,7 +2455,12 @@
     "location: Senior Data Platform Administrator | IND-BLR-Divyasree Technopolis; IND-Bangalore-A, RMZ Infinity"
    ],
    "requests": 23,
-   "secs": 20.5
+   "secs": 19.4,
+   "linkedin_crosscheck": {
+    "checked_at": "2026-11-14T05:04:08+00:00",
+    "fetched": 0,
+    "missed_by_site": 0
+   }
   },
   {
    "company": "Lentra",
@@ -2424,7 +2497,12 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 11,
-   "secs": 6.9
+   "secs": 8.0,
+   "linkedin_crosscheck": {
+    "checked_at": "2026-11-14T05:04:08+00:00",
+    "fetched": 0,
+    "missed_by_site": 0
+   }
   },
   {
    "company": "MSD (Merck & Co.)",
@@ -2436,15 +2514,15 @@
    "title_matches": 0,
    "matched": 0,
    "errors": [
-    "workday: HTTPError: 521 Server Error: <none> for url: https://msd.wd5.myworkdayjobs.com/wday/cxs/msd/SearchJobs/jobs"
+    "workday: JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.2,
+   "secs": 0.6,
    "linkedin": {
-    "checked_at": "2026-11-14T01:39:22+00:00",
+    "checked_at": "2026-11-14T05:59:41+00:00",
     "fetched": 0,
     "matched": 0,
     "rejected_examples": []
@@ -2470,7 +2548,12 @@
     "location: Lead Engineer - Data & AI | India, Bengaluru, 560064"
    ],
    "requests": 17,
-   "secs": 6.5
+   "secs": 6.9,
+   "linkedin_crosscheck": {
+    "checked_at": "2026-11-14T05:04:08+00:00",
+    "fetched": 0,
+    "missed_by_site": 0
+   }
   },
   {
    "company": "Marsh McLennan",
@@ -2480,19 +2563,19 @@
    "status": "error",
    "fetched": 0,
    "title_matches": 0,
-   "matched": 1,
+   "matched": 3,
    "errors": [
-    "workday: HTTPError: 521 Server Error: <none> for url: https://mmc.wd1.myworkdayjobs.com/wday/cxs/mmc/MMC/jobs"
+    "workday: JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.1,
+   "secs": 0.4,
    "linkedin": {
-    "checked_at": "2026-11-13T15:00:54+00:00",
-    "fetched": 1,
-    "matched": 1,
+    "checked_at": "2026-11-14T07:17:43+00:00",
+    "fetched": 3,
+    "matched": 3,
     "rejected_examples": []
    }
   },
@@ -2506,13 +2589,19 @@
    "title_matches": 0,
    "matched": 0,
    "errors": [
-    "workday: HTTPError: 521 Server Error: <none> for url: https://marvell.wd1.myworkdayjobs.com/wday/cxs/marvell/MarvellCareers/jobs"
+    "workday: JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.1
+   "secs": 0.5,
+   "linkedin": {
+    "checked_at": "2026-11-14T07:17:43+00:00",
+    "fetched": 0,
+    "matched": 0,
+    "rejected_examples": []
+   }
   },
   {
    "company": "Mastercard",
@@ -2522,15 +2611,21 @@
    "status": "error",
    "fetched": 0,
    "title_matches": 0,
-   "matched": 0,
+   "matched": 9,
    "errors": [
-    "workday: HTTPError: 521 Server Error: <none> for url: https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
+    "workday: JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.1
+   "secs": 0.5,
+   "linkedin": {
+    "checked_at": "2026-11-14T07:17:43+00:00",
+    "fetched": 10,
+    "matched": 9,
+    "rejected_examples": []
+   }
   },
   {
    "company": "Media.net",
@@ -2561,13 +2656,19 @@
    "title_matches": 0,
    "matched": 0,
    "errors": [
-    "workday: HTTPError: 521 Server Error: <none> for url: https://medline.wd5.myworkdayjobs.com/wday/cxs/medline/Medline/jobs"
+    "workday: JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.2
+   "secs": 0.6,
+   "linkedin": {
+    "checked_at": "2026-11-14T07:17:43+00:00",
+    "fetched": 1,
+    "matched": 0,
+    "rejected_examples": []
+   }
   },
   {
    "company": "Meesho",
@@ -2583,7 +2684,12 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 4.4
+   "secs": 0.6,
+   "linkedin_crosscheck": {
+    "checked_at": "2026-11-14T05:59:41+00:00",
+    "fetched": 0,
+    "missed_by_site": 0
+   }
   },
   {
    "company": "MetLife",
@@ -2591,7 +2697,7 @@
     "avature"
    ],
    "status": "ok",
-   "fetched": 12,
+   "fetched": 10,
    "title_matches": 6,
    "matched": 5,
    "errors": [],
@@ -2601,10 +2707,10 @@
     "location: Lead Data Engineer | Cary, United States"
    ],
    "requests": 9,
-   "secs": 6.9,
+   "secs": 6.3,
    "linkedin_crosscheck": {
-    "checked_at": "2026-11-13T15:00:54+00:00",
-    "fetched": 1,
+    "checked_at": "2026-11-14T05:59:41+00:00",
+    "fetched": 5,
     "missed_by_site": 0
    }
   },
@@ -2624,7 +2730,12 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 10,
-   "secs": 8.5
+   "secs": 9.8,
+   "linkedin_crosscheck": {
+    "checked_at": "2026-11-14T05:59:41+00:00",
+    "fetched": 0,
+    "missed_by_site": 0
+   }
   },
   {
    "company": "Microsoft",
@@ -2632,7 +2743,7 @@
     "eightfold"
    ],
    "status": "ok",
-   "fetched": 129,
+   "fetched": 128,
    "title_matches": 0,
    "matched": 0,
    "errors": [],
@@ -2640,7 +2751,12 @@
    "careers_url": "https://apply.careers.microsoft.com/careers?location=India",
    "rejected_examples": [],
    "requests": 28,
-   "secs": 7.3
+   "secs": 10.2,
+   "linkedin_crosscheck": {
+    "checked_at": "2026-11-14T07:17:43+00:00",
+    "fetched": 0,
+    "missed_by_site": 0
+   }
   },
   {
    "company": "Mindtickle",
@@ -2656,7 +2772,12 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.7
+   "secs": 0.5,
+   "linkedin_crosscheck": {
+    "checked_at": "2026-11-14T07:17:43+00:00",
+    "fetched": 0,
+    "missed_by_site": 0
+   }
   },
   {
    "company": "Mitsubishi Electric India",
@@ -2712,7 +2833,12 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 14,
-   "secs": 13.2
+   "secs": 13.3,
+   "linkedin_crosscheck": {
+    "checked_at": "2026-11-14T07:17:43+00:00",
+    "fetched": 6,
+    "missed_by_site": 0
+   }
   },
   {
    "company": "MongoDB",
@@ -2730,7 +2856,12 @@
     "location: Software Engineer 3, Data Pipeline | Dublin, Ireland"
    ],
    "requests": 1,
-   "secs": 0.3
+   "secs": 0.2,
+   "linkedin_crosscheck": {
+    "checked_at": "2026-11-14T09:00:07+00:00",
+    "fetched": 0,
+    "missed_by_site": 0
+   }
   },
   {
    "company": "Morgan Stanley",
@@ -2748,7 +2879,12 @@
     "location: HR Strats / Data Engineer _Vice President_HR Business Management | Bengaluru, Karnataka, India"
    ],
    "requests": 15,
-   "secs": 5.7
+   "secs": 6.7,
+   "linkedin_crosscheck": {
+    "checked_at": "2026-11-14T09:00:07+00:00",
+    "fetched": 0,
+    "missed_by_site": 0
+   }
   },
   {
    "company": "Mrsool",
@@ -2764,7 +2900,12 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 2,
-   "secs": 0.1
+   "secs": 0.2,
+   "linkedin_crosscheck": {
+    "checked_at": "2026-11-14T09:00:07+00:00",
+    "fetched": 0,
+    "missed_by_site": 0
+   }
   },
   {
    "company": "NEC Software Solutions",
@@ -2796,7 +2937,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.1
+   "secs": 0.2
   },
   {
    "company": "NPCI",
@@ -2850,7 +2991,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.8
+   "secs": 0.6
   },
   {
    "company": "Nomura",
@@ -2866,7 +3007,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 26,
-   "secs": 3.9
+   "secs": 5.3
   },
   {
    "company": "Northern Trust",
@@ -2876,37 +3017,45 @@
    "status": "error",
    "fetched": 0,
    "title_matches": 0,
-   "matched": 0,
+   "matched": 3,
    "errors": [
-    "workday: HTTPError: 521 Server Error: <none> for url: https://ntrs.wd1.myworkdayjobs.com/wday/cxs/ntrs/northerntrust/jobs"
+    "workday: JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.1
+   "secs": 0.6,
+   "linkedin": {
+    "checked_at": "2026-11-14T07:17:43+00:00",
+    "fetched": 4,
+    "matched": 3,
+    "rejected_examples": []
+   }
   },
   {
    "company": "Novartis",
    "platforms": [
     "workday"
    ],
-   "status": "ok",
-   "fetched": 101,
-   "title_matches": 3,
+   "status": "error",
+   "fetched": 0,
+   "title_matches": 0,
    "matched": 0,
-   "errors": [],
-   "notes": [
-    "workday: locationCountry=India"
+   "errors": [
+    "workday: HTTPError: 401 Client Error: Unauthorized for url: https://novartis.wd3.myworkdayjobs.com/wday/cxs/novartis/Novartis_Careers/jobs"
    ],
+   "notes": [],
    "careers_url": null,
-   "rejected_examples": [
-    "location: Senior Data Engineer – Data & AI Platforms | Hyderabad (Office)",
-    "location: Senior Semantic Data & Knowledge Engineer | Hyderabad (Office)",
-    "location: Associate Director, Cloud Data Platform Architecture | Barcelona Gran Vía; Hyderabad (Office)"
-   ],
-   "requests": 16,
-   "secs": 10.0
+   "rejected_examples": [],
+   "requests": 1,
+   "secs": 0.6,
+   "linkedin": {
+    "checked_at": "2026-11-14T10:16:39+00:00",
+    "fetched": 0,
+    "matched": 0,
+    "rejected_examples": []
+   }
   },
   {
    "company": "Nutanix",
@@ -2925,7 +3074,7 @@
     "location: Sr. Manager, Analytics Engineering | San Jose, California"
    ],
    "requests": 1,
-   "secs": 0.8
+   "secs": 0.6
   },
   {
    "company": "Nvidia",
@@ -2937,15 +3086,15 @@
    "title_matches": 0,
    "matched": 0,
    "errors": [
-    "workday: HTTPError: 521 Server Error: <none> for url: https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    "workday: JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.2,
+   "secs": 0.5,
    "linkedin": {
-    "checked_at": "2026-11-14T01:39:22+00:00",
+    "checked_at": "2026-11-14T09:00:07+00:00",
     "fetched": 0,
     "matched": 0,
     "rejected_examples": []
@@ -2991,7 +3140,7 @@
     "location: Principal Data Systems Software Engineer | BENGALURU, KARNATAKA, India"
    ],
    "requests": 21,
-   "secs": 15.1
+   "secs": 14.6
   },
   {
    "company": "P&G",
@@ -3003,15 +3152,15 @@
    "title_matches": 0,
    "matched": 1,
    "errors": [
-    "workday: HTTPError: 521 Server Error: <none> for url: https://pg.wd5.myworkdayjobs.com/wday/cxs/pg/1000/jobs"
+    "workday: JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.2,
+   "secs": 0.5,
    "linkedin": {
-    "checked_at": "2026-11-14T01:39:22+00:00",
+    "checked_at": "2026-11-14T09:00:07+00:00",
     "fetched": 1,
     "matched": 1,
     "rejected_examples": []
@@ -3022,20 +3171,23 @@
    "platforms": [
     "jobsyn"
    ],
-   "status": "ok",
-   "fetched": 7,
+   "status": "error",
+   "fetched": 0,
    "title_matches": 0,
    "matched": 0,
-   "errors": [],
+   "errors": [
+    "jobsyn: RetryError: HTTPSConnectionPool(host='prod-search-api.jobsyn.org', port=443): Max retries exceeded with url: /api/v1/solr/search?q=data+engineer&location=Pune&company=Panasonic+Avionics+Corporation&page=1 (Caused"
+   ],
    "notes": [],
    "careers_url": "https://www.panasonic.aero/join-us",
    "rejected_examples": [],
-   "requests": 21,
-   "secs": 1.7,
-   "linkedin_crosscheck": {
-    "checked_at": "2026-11-13T02:06:27+00:00",
+   "requests": 1,
+   "secs": 9.2,
+   "linkedin": {
+    "checked_at": "2026-11-14T10:16:39+00:00",
     "fetched": 0,
-    "missed_by_site": 0
+    "matched": 0,
+    "rejected_examples": []
    }
   },
   {
@@ -3046,15 +3198,21 @@
    "status": "error",
    "fetched": 0,
    "title_matches": 0,
-   "matched": 0,
+   "matched": 1,
    "errors": [
-    "workday: HTTPError: 521 Server Error: <none> for url: https://pfizer.wd1.myworkdayjobs.com/wday/cxs/pfizer/PfizerCareers/jobs"
+    "workday: JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.1
+   "secs": 0.5,
+   "linkedin": {
+    "checked_at": "2026-11-14T09:00:07+00:00",
+    "fetched": 1,
+    "matched": 1,
+    "rejected_examples": []
+   }
   },
   {
    "company": "Philips",
@@ -3072,7 +3230,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 12,
-   "secs": 16.5
+   "secs": 18.2
   },
   {
    "company": "PhonePe",
@@ -3120,15 +3278,21 @@
    "status": "error",
    "fetched": 0,
    "title_matches": 0,
-   "matched": 0,
+   "matched": 3,
    "errors": [
-    "workday: HTTPError: 521 Server Error: <none> for url: https://priceline.wd1.myworkdayjobs.com/wday/cxs/priceline/Priceline/jobs"
+    "workday: JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.1
+   "secs": 0.5,
+   "linkedin": {
+    "checked_at": "2026-11-14T09:00:07+00:00",
+    "fetched": 3,
+    "matched": 3,
+    "rejected_examples": []
+   }
   },
   {
    "company": "Principal Global Services",
@@ -3136,7 +3300,7 @@
     "jibe"
    ],
    "status": "ok",
-   "fetched": 40,
+   "fetched": 39,
    "title_matches": 1,
    "matched": 0,
    "errors": [],
@@ -3146,7 +3310,7 @@
     "location: Lead Data Engineer (AWS, Data Pipelines) | Hyderabad, India; Hyderabad, Telangana, India"
    ],
    "requests": 13,
-   "secs": 3.1
+   "secs": 3.7
   },
   {
    "company": "PubMatic",
@@ -3212,13 +3376,19 @@
    "title_matches": 0,
    "matched": 0,
    "errors": [
-    "workday: HTTPError: 521 Server Error: <none> for url: https://redhat.wd5.myworkdayjobs.com/wday/cxs/redhat/Jobs/jobs"
+    "workday: JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.3
+   "secs": 0.6,
+   "linkedin": {
+    "checked_at": "2026-11-14T09:00:07+00:00",
+    "fetched": 0,
+    "matched": 0,
+    "rejected_examples": []
+   }
   },
   {
    "company": "Resilinc",
@@ -3236,7 +3406,7 @@
     "older than 60 days: Senior Data Engineer | 2026-07-30"
    ],
    "requests": 1,
-   "secs": 0.6
+   "secs": 0.7
   },
   {
    "company": "Rockwell Automation",
@@ -3246,15 +3416,21 @@
    "status": "error",
    "fetched": 0,
    "title_matches": 0,
-   "matched": 0,
+   "matched": 2,
    "errors": [
-    "workday: HTTPError: 521 Server Error: <none> for url: https://rockwellautomation.wd1.myworkdayjobs.com/wday/cxs/rockwellautomation/External_Rockwell_Automation/jobs"
+    "workday: JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.1
+   "secs": 0.5,
+   "linkedin": {
+    "checked_at": "2026-11-14T10:16:39+00:00",
+    "fetched": 2,
+    "matched": 2,
+    "rejected_examples": []
+   }
   },
   {
    "company": "Rubrik",
@@ -3282,13 +3458,19 @@
    "title_matches": 0,
    "matched": 0,
    "errors": [
-    "workday: HTTPError: 521 Server Error: <none> for url: https://spgi.wd5.myworkdayjobs.com/wday/cxs/spgi/SPGI_Careers/jobs"
+    "workday: JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.2
+   "secs": 0.7,
+   "linkedin": {
+    "checked_at": "2026-11-14T10:16:39+00:00",
+    "fetched": 0,
+    "matched": 0,
+    "rejected_examples": []
+   }
   },
   {
    "company": "SAP",
@@ -3304,7 +3486,7 @@
    "careers_url": "https://jobs.sap.com/",
    "rejected_examples": [],
    "requests": 21,
-   "secs": 1.5
+   "secs": 2.5
   },
   {
    "company": "SBI",
@@ -3331,7 +3513,7 @@
     "workday"
    ],
    "status": "ok",
-   "fetched": 104,
+   "fetched": 103,
    "title_matches": 3,
    "matched": 0,
    "errors": [],
@@ -3345,7 +3527,7 @@
     "location: Success Guide - Informatica Product experience mandatory | India - Bangalore"
    ],
    "requests": 16,
-   "secs": 8.5
+   "secs": 5.7
   },
   {
    "company": "Sandvik",
@@ -3392,20 +3574,22 @@
     "avature"
    ],
    "status": "ok",
-   "fetched": 37,
-   "title_matches": 12,
+   "fetched": 39,
+   "title_matches": 14,
    "matched": 8,
    "errors": [],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [
-    "location: Senior Data & Cloud Engineer | Cluj-Napoca",
+    "location: Senior Software Engineer - Data and AI Services [MULTIPLE POSITIONS] | Parsippany",
     "location: Senior Data Engineer - AI Solutions | Bangalore",
+    "location: Data Platform Ops Engineer | Bangalore",
+    "location: Senior Data & Cloud Engineer | Cluj-Napoca",
     "location: Analytics Engineer & Service Manager | Thane",
     "location: Data Engineer (w/m/d) | Frankfurt am Main"
    ],
    "requests": 24,
-   "secs": 33.5
+   "secs": 38.0
   },
   {
    "company": "Snowflake",
@@ -3430,7 +3614,7 @@
     "location: Startup Business Development Lead - Snowflake for Startups | US-CA-Menlo Park"
    ],
    "requests": 1,
-   "secs": 0.7
+   "secs": 0.3
   },
   {
    "company": "Société Générale",
@@ -3456,18 +3640,16 @@
    "platforms": [
     "csb_unify"
    ],
-   "status": "error",
-   "fetched": 0,
+   "status": "ok",
+   "fetched": 137,
    "title_matches": 0,
    "matched": 0,
-   "errors": [
-    "csb_unify: HTTPError: 404 Client Error: Not Found for url: https://jobs.standardchartered.com/services/recruiting/v1/jobs"
-   ],
+   "errors": [],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
-   "requests": 1,
-   "secs": 0.4
+   "requests": 36,
+   "secs": 9.7
   },
   {
    "company": "TIAA",
@@ -3479,13 +3661,19 @@
    "title_matches": 0,
    "matched": 0,
    "errors": [
-    "workday: HTTPError: 521 Server Error: <none> for url: https://tiaa.wd1.myworkdayjobs.com/wday/cxs/tiaa/Search/jobs"
+    "workday: JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.1
+   "secs": 0.5,
+   "linkedin": {
+    "checked_at": "2026-11-14T10:16:39+00:00",
+    "fetched": 4,
+    "matched": 0,
+    "rejected_examples": []
+   }
   },
   {
    "company": "TeamViewer",
@@ -3501,7 +3689,7 @@
    "careers_url": "https://www.teamviewer.com/en/company/careers/",
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.4,
+   "secs": 0.5,
    "linkedin": {
     "checked_at": "2026-11-13T22:55:13+00:00",
     "fetched": 0,
@@ -3525,7 +3713,7 @@
     "location: Senior Software Engineer - Data Engineer | Bangalore HQ"
    ],
    "requests": 1,
-   "secs": 0.1
+   "secs": 0.3
   },
   {
    "company": "Telstra",
@@ -3543,7 +3731,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 10,
-   "secs": 6.2
+   "secs": 6.8
   },
   {
    "company": "Teradata",
@@ -3559,7 +3747,7 @@
    "careers_url": "https://careers.teradata.com/jobs",
    "rejected_examples": [],
    "requests": 21,
-   "secs": 2.9
+   "secs": 2.7
   },
   {
    "company": "Tesla",
@@ -3585,18 +3773,16 @@
    "platforms": [
     "csb_unify"
    ],
-   "status": "error",
-   "fetched": 0,
+   "status": "ok",
+   "fetched": 5,
    "title_matches": 0,
    "matched": 0,
-   "errors": [
-    "csb_unify: HTTPError: 404 Client Error: Not Found for url: https://jobs.tetrapak.com/services/recruiting/v1/jobs"
-   ],
+   "errors": [],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
-   "requests": 1,
-   "secs": 0.9
+   "requests": 9,
+   "secs": 64.2
   },
   {
    "company": "Thermo Fisher Scientific",
@@ -3608,13 +3794,19 @@
    "title_matches": 0,
    "matched": 0,
    "errors": [
-    "workday: HTTPError: 521 Server Error: <none> for url: https://thermofisher.wd5.myworkdayjobs.com/wday/cxs/thermofisher/thermofishercareers/jobs"
+    "workday: JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.2
+   "secs": 0.6,
+   "linkedin": {
+    "checked_at": "2026-11-14T10:16:39+00:00",
+    "fetched": 0,
+    "matched": 0,
+    "rejected_examples": []
+   }
   },
   {
    "company": "Tietoevry",
@@ -3661,7 +3853,7 @@
     "location: Technology Partner - Databricks | Sunnyvale, California, United States; Sunnyvale, California, United States; Dall"
    ],
    "requests": 10,
-   "secs": 0.6
+   "secs": 1.0
   },
   {
    "company": "TomTom",
@@ -3679,7 +3871,7 @@
     "older than 60 days: Data Scientist - II ( 3- 5 Yrs, Databricks, Pyspark, Statistical Analysis, ML, DL) | 2026-07-29"
    ],
    "requests": 1,
-   "secs": 0.8
+   "secs": 1.0
   },
   {
    "company": "Trajector",
@@ -3737,7 +3929,7 @@
     "location: Staff Software Engineer (L4) Data Platform | Remote - US"
    ],
    "requests": 1,
-   "secs": 0.2
+   "secs": 0.1
   },
   {
    "company": "UBS",
@@ -3803,13 +3995,19 @@
    "title_matches": 0,
    "matched": 0,
    "errors": [
-    "workday: HTTPError: 521 Server Error: <none> for url: https://broadcom.wd1.myworkdayjobs.com/wday/cxs/broadcom/External_Career/jobs"
+    "workday: JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.1
+   "secs": 0.6,
+   "linkedin": {
+    "checked_at": "2026-11-14T10:16:39+00:00",
+    "fetched": 0,
+    "matched": 0,
+    "rejected_examples": []
+   }
   },
   {
    "company": "Vector Informatik",
@@ -3880,7 +4078,7 @@
     "oracle"
    ],
    "status": "ok",
-   "fetched": 150,
+   "fetched": 147,
    "title_matches": 0,
    "matched": 0,
    "errors": [],
@@ -3890,7 +4088,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 16,
-   "secs": 8.9
+   "secs": 8.3
   },
   {
    "company": "Visa",
@@ -3906,7 +4104,7 @@
    "careers_url": "https://corporate.visa.com/en/jobs/",
    "rejected_examples": [],
    "requests": 5,
-   "secs": 0.3
+   "secs": 0.6
   },
   {
    "company": "Vodafone (VOIS)",
@@ -3921,17 +4119,17 @@
    "notes": [],
    "careers_url": null,
    "rejected_examples": [
+    "location: Data Core Engineer_Manager | Bangalore, Karnataka, India",
     "location: Manager_Data Core Engineer | Bangalore, Karnataka, India",
-    "location: Manager_Data Core Engineer_BLR | Bangalore, Karnataka, India",
     "location: Voice & Data Core Network Operations Engineer - VOIS | Bangalore, Karnataka, India",
     "location: Voice & Data Core NOC Engineer - VOIS | Bangalore, Karnataka, India",
     "location: Voice & Data Core NOC Engineer - VOIS | Bangalore, Karnataka, India",
     "location: Voice & Data Core NOC Engineer - VOIS | Bangalore, Karnataka, India",
-    "location: Data Core Engineer_Manager | Bangalore, Karnataka, India",
+    "location: Manager_Data Core Engineer_BLR | Bangalore, Karnataka, India",
     "older than 60 days: OSS Performance Management & Analytics Engineer(InfoVista & Kibana) -Pune | 2026-08-12"
    ],
    "requests": 27,
-   "secs": 8.4
+   "secs": 11.2
   },
   {
    "company": "Volkswagen Group Digital Solutions",
@@ -3962,13 +4160,19 @@
    "title_matches": 0,
    "matched": 0,
    "errors": [
-    "workday: HTTPError: 521 Server Error: <none> for url: https://godirect.wd5.myworkdayjobs.com/wday/cxs/godirect/voya_jobs/jobs"
+    "workday: JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.2
+   "secs": 0.6,
+   "linkedin": {
+    "checked_at": "2026-11-14T10:16:39+00:00",
+    "fetched": 0,
+    "matched": 0,
+    "rejected_examples": []
+   }
   },
   {
    "company": "Whirlpool",
@@ -3984,7 +4188,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 11,
-   "secs": 3.1
+   "secs": 3.6
   },
   {
    "company": "Wolters Kluwer",
@@ -4001,14 +4205,14 @@
    ],
    "careers_url": null,
    "rejected_examples": [
-    "older than 60 days: Senior Data Engineer – Microsoft Fabric & Data Integration - Pune/Chennai | 2026-07-22",
     "location: Lead Data Engineer (10+ years with MS Fabric, Azure, ADF, Data Platforms only) | IND - Chennai, Neville Towers",
-    "location: Senior Data Engineer(6+ years with MS Fabric, Azure, ADF, Data Platforms only) | IND - Chennai, Neville Towers"
+    "location: Senior Data Engineer(6+ years with MS Fabric, Azure, ADF, Data Platforms only) | IND - Chennai, Neville Towers",
+    "older than 60 days: Senior Data Engineer – Microsoft Fabric & Data Integration - Pune/Chennai | 2026-07-22"
    ],
    "requests": 12,
-   "secs": 9.8,
+   "secs": 10.2,
    "linkedin_crosscheck": {
-    "checked_at": "2026-11-13T15:00:54+00:00",
+    "checked_at": "2026-11-14T04:03:09+00:00",
     "fetched": 1,
     "missed_by_site": 0
    }
@@ -4023,49 +4227,51 @@
    "title_matches": 0,
    "matched": 0,
    "errors": [
-    "workday: HTTPError: 521 Server Error: <none> for url: https://workday.wd5.myworkdayjobs.com/wday/cxs/workday/Workday/jobs"
+    "workday: JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.3
+   "secs": 0.6,
+   "linkedin": {
+    "checked_at": "2026-11-14T10:16:39+00:00",
+    "fetched": 0,
+    "matched": 0,
+    "rejected_examples": []
+   }
   },
   {
    "company": "Worldline",
    "platforms": [
     "csb_unify"
    ],
-   "status": "error",
-   "fetched": 0,
+   "status": "ok",
+   "fetched": 22,
    "title_matches": 0,
    "matched": 0,
-   "errors": [
-    "csb_unify: HTTPError: 404 Client Error: Not Found for url: https://jobs.worldline.com/services/recruiting/v1/jobs"
-   ],
+   "errors": [],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
-   "requests": 1,
-   "secs": 0.4
+   "requests": 15,
+   "secs": 3.8
   },
   {
    "company": "Wärtsilä",
    "platforms": [
     "csb"
    ],
-   "status": "error",
-   "fetched": 0,
+   "status": "ok",
+   "fetched": 13,
    "title_matches": 0,
    "matched": 0,
-   "errors": [
-    "csb: HTTPError: 404 Client Error: Not Found for url: https://careers.wartsila.com/search/?q=data&locationsearch=India&startrow=0"
-   ],
+   "errors": [],
    "notes": [],
    "careers_url": "https://careers.wartsila.com/search/?locationsearch=India",
    "rejected_examples": [],
-   "requests": 1,
-   "secs": 0.7
+   "requests": 9,
+   "secs": 3.7
   },
   {
    "company": "Yes Bank",
@@ -4100,7 +4306,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.0
+   "secs": 0.1
   },
   {
    "company": "Zscaler",
@@ -4122,7 +4328,7 @@
     "location: Sr. Software Development Engineer - Java/ Agentic AI/ Big Data | Bangalore, IND"
    ],
    "requests": 1,
-   "secs": 0.4
+   "secs": 0.2
   },
   {
    "company": "bp",
@@ -4140,7 +4346,7 @@
    "careers_url": "https://www.bp.com/en/global/corporate/careers.html",
    "rejected_examples": [],
    "requests": 10,
-   "secs": 7.8
+   "secs": 8.5
   }
  ]
 }
