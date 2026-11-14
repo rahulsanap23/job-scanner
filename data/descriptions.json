@@ -192,12 +192,13 @@
   "company": "EPAM Systems",
   "title": "Senior Systems Engineer - Data DevOps/MLOps",
   "status": "needs_linkedin",
-  "error": "page: ValueError: description too short (13 chars)",
+  "error": "LinkedIn try 1: no posting with the same company and title",
   "via": "page",
   "tries": 1,
   "fetched_at": "2026-11-14T10:17:33+00:00",
-  "updated_at": "2026-11-14T10:17:33+00:00",
-  "li_tries": 0
+  "updated_at": "2026-11-14T11:19:20+00:00",
+  "li_tries": 1,
+  "li_checked_at": "2026-11-14T11:19:20+00:00"
  },
  "https://db.wd3.myworkdayjobs.com/en-US/DBWebsite/job/Pune---Business-Bay/Lead-Engineer--Data-Ingestion--VP_R0454255": {
   "company": "Deutsche Bank",

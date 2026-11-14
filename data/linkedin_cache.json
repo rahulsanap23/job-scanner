@@ -4,11 +4,11 @@
 "jobs": []
 },
 "AIG": {
-"checked_at": "2026-11-14T02:30:47+00:00",
+"checked_at": "2026-11-14T11:19:20+00:00",
 "jobs": []
 },
 "Abbott": {
-"checked_at": "2026-11-14T02:30:47+00:00",
+"checked_at": "2026-11-14T11:19:20+00:00",
 "jobs": [
 {
 "id": "https://in.linkedin.com/jobs/view/data-engineer-%E2%80%93-commercial-enablement-at-abbott-4473283702",
@@ -26,7 +26,7 @@
 ]
 },
 "Air Products": {
-"checked_at": "2026-11-14T02:30:47+00:00",
+"checked_at": "2026-11-14T11:19:20+00:00",
 "jobs": []
 },
 "Airbnb": {
@@ -34,11 +34,11 @@
 "jobs": []
 },
 "AllianceBernstein (Equitable)": {
-"checked_at": "2026-11-14T02:30:47+00:00",
+"checked_at": "2026-11-14T11:19:20+00:00",
 "jobs": []
 },
 "Allstate": {
-"checked_at": "2026-11-14T02:30:47+00:00",
+"checked_at": "2026-11-14T11:19:20+00:00",
 "jobs": []
 },
 "Amadeus": {
@@ -1656,6 +1656,14 @@
 "checked_at": "2026-11-14T09:00:07+00:00",
 "jobs": []
 },
+"NEC Software Solutions": {
+"checked_at": "2026-11-14T11:19:20+00:00",
+"jobs": []
+},
+"NICE": {
+"checked_at": "2026-11-14T11:19:20+00:00",
+"jobs": []
+},
 "NPCI": {
 "checked_at": "2026-11-13T17:59:39+00:00",
 "jobs": []
@@ -1663,6 +1671,37 @@
 "Netcore Cloud": {
 "checked_at": "2026-11-13T17:59:39+00:00",
 "jobs": []
+},
+"Nium": {
+"checked_at": "2026-11-14T11:19:20+00:00",
+"jobs": [
+{
+"id": "https://in.linkedin.com/jobs/view/data-engineer-ii-at-nium-4478568766",
+"title": "Data Engineer II",
+"company": "Nium",
+"locations": [
+"Mumbai, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/data-engineer-ii-at-nium-4478568766",
+"posted": "2026-10-17",
+"remote": null,
+"country": null,
+"name_match": "exact"
+},
+{
+"id": "https://in.linkedin.com/jobs/view/senior-data-engineer-at-nium-4478568767",
+"title": "Senior Data Engineer",
+"company": "Nium",
+"locations": [
+"Mumbai, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/senior-data-engineer-at-nium-4478568767",
+"posted": "2026-10-18",
+"remote": null,
+"country": null,
+"name_match": "exact"
+}
+]
 },
 "Northern Trust": {
 "checked_at": "2026-11-14T07:17:43+00:00",
