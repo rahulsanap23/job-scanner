@@ -816,7 +816,7 @@
 "jobs": []
 },
 "Equinix": {
-"checked_at": "2026-11-14T05:04:08+00:00",
+"checked_at": "2026-11-14T14:00:18+00:00",
 "jobs": []
 },
 "Eruditus": {
@@ -824,7 +824,7 @@
 "jobs": []
 },
 "FIS": {
-"checked_at": "2026-11-14T05:04:08+00:00",
+"checked_at": "2026-11-14T14:00:18+00:00",
 "jobs": []
 },
 "FORVIA": {
@@ -852,7 +852,7 @@
 "jobs": []
 },
 "Fiserv": {
-"checked_at": "2026-11-14T05:04:08+00:00",
+"checked_at": "2026-11-14T14:00:18+00:00",
 "jobs": []
 },
 "Fivetran": {
@@ -868,7 +868,7 @@
 "jobs": []
 },
 "General Mills": {
-"checked_at": "2026-11-14T05:59:41+00:00",
+"checked_at": "2026-11-14T14:00:18+00:00",
 "jobs": [
 {
 "id": "https://in.linkedin.com/jobs/view/cpw-data-engineer-ii-at-general-mills-4448964045",
@@ -1011,7 +1011,7 @@
 "jobs": []
 },
 "Hitachi (Vantara, Payment Services)": {
-"checked_at": "2026-11-14T05:59:41+00:00",
+"checked_at": "2026-11-14T14:00:18+00:00",
 "jobs": [
 {
 "id": "https://in.linkedin.com/jobs/view/databricks-data-engineer-at-hitachi-solutions-india-pvt-ltd-4478105207",
@@ -1892,8 +1892,16 @@
 "checked_at": "2026-11-13T21:02:58+00:00",
 "jobs": []
 },
+"Razorpay": {
+"checked_at": "2026-11-14T14:00:18+00:00",
+"jobs": []
+},
 "Red Hat": {
 "checked_at": "2026-11-14T09:00:07+00:00",
+"jobs": []
+},
+"Resilinc": {
+"checked_at": "2026-11-14T14:00:18+00:00",
 "jobs": []
 },
 "Rockwell Automation": {
@@ -1926,6 +1934,10 @@
 "name_match": "exact"
 }
 ]
+},
+"Rubrik": {
+"checked_at": "2026-11-14T14:00:18+00:00",
+"jobs": []
 },
 "S&P Global": {
 "checked_at": "2026-11-14T10:16:39+00:00",
