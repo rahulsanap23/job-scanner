@@ -85,7 +85,7 @@
 "jobs": []
 },
 "Autodesk": {
-"checked_at": "2026-11-14T03:00:24+00:00",
+"checked_at": "2026-11-14T11:50:57+00:00",
 "jobs": []
 },
 "Automattic": {
@@ -157,7 +157,7 @@
 "jobs": []
 },
 "Baker Hughes": {
-"checked_at": "2026-11-14T03:00:24+00:00",
+"checked_at": "2026-11-14T11:50:57+00:00",
 "jobs": []
 },
 "Bank of America": {
@@ -252,7 +252,7 @@
 "jobs": []
 },
 "BlackRock": {
-"checked_at": "2026-11-14T03:00:24+00:00",
+"checked_at": "2026-11-14T11:50:57+00:00",
 "jobs": [
 {
 "id": "https://in.linkedin.com/jobs/view/data-engineer-aladdin-data-associate-at-blackrock-4488133317",
@@ -338,7 +338,7 @@
 "jobs": []
 },
 "Cisco": {
-"checked_at": "2026-11-14T03:00:24+00:00",
+"checked_at": "2026-11-14T11:50:57+00:00",
 "jobs": [
 {
 "id": "https://in.linkedin.com/jobs/view/data-engineer-at-cisco-4467704802",
@@ -356,8 +356,21 @@
 ]
 },
 "Citi": {
-"checked_at": "2026-11-14T03:00:24+00:00",
+"checked_at": "2026-11-14T11:50:57+00:00",
 "jobs": [
+{
+"id": "https://in.linkedin.com/jobs/view/senior-data-engineer-at-citi-4486917612",
+"title": "Senior Data Engineer",
+"company": "Citi",
+"locations": [
+"Pune Division, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/senior-data-engineer-at-citi-4486917612",
+"posted": "2026-11-05",
+"remote": null,
+"country": null,
+"name_match": "exact"
+},
 {
 "id": "https://in.linkedin.com/jobs/view/lead-data-engineer-assistant-vice-president-at-citi-4486918603",
 "title": "Lead Data Engineer - Assistant Vice President",
@@ -379,19 +392,6 @@
 "Pune Division, Maharashtra, India"
 ],
 "url": "https://in.linkedin.com/jobs/view/senior-databricks-engineer-apache-spark-and-aws-vice-president-at-citi-4486910770",
-"posted": "2026-11-05",
-"remote": null,
-"country": null,
-"name_match": "exact"
-},
-{
-"id": "https://in.linkedin.com/jobs/view/senior-data-engineer-at-citi-4486917612",
-"title": "Senior Data Engineer",
-"company": "Citi",
-"locations": [
-"Pune Division, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/senior-data-engineer-at-citi-4486917612",
 "posted": "2026-11-05",
 "remote": null,
 "country": null,
@@ -1703,6 +1703,10 @@
 }
 ]
 },
+"Nomura": {
+"checked_at": "2026-11-14T11:50:57+00:00",
+"jobs": []
+},
 "Northern Trust": {
 "checked_at": "2026-11-14T07:17:43+00:00",
 "jobs": [
@@ -1764,12 +1768,20 @@
 "checked_at": "2026-11-14T10:16:39+00:00",
 "jobs": []
 },
+"Nutanix": {
+"checked_at": "2026-11-14T11:50:57+00:00",
+"jobs": []
+},
 "Nvidia": {
 "checked_at": "2026-11-14T09:00:07+00:00",
 "jobs": []
 },
 "Nykaa": {
 "checked_at": "2026-11-13T19:09:02+00:00",
+"jobs": []
+},
+"Oracle": {
+"checked_at": "2026-11-14T11:50:57+00:00",
 "jobs": []
 },
 "P&G": {
