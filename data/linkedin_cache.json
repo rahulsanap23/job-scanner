@@ -85,7 +85,7 @@
 "jobs": []
 },
 "Autodesk": {
-"checked_at": "2026-11-13T06:15:35+00:00",
+"checked_at": "2026-11-14T03:00:24+00:00",
 "jobs": []
 },
 "Automattic": {
@@ -157,7 +157,7 @@
 "jobs": []
 },
 "Baker Hughes": {
-"checked_at": "2026-11-13T07:41:11+00:00",
+"checked_at": "2026-11-14T03:00:24+00:00",
 "jobs": []
 },
 "Bank of America": {
@@ -252,7 +252,7 @@
 "jobs": []
 },
 "BlackRock": {
-"checked_at": "2026-11-13T09:14:52+00:00",
+"checked_at": "2026-11-14T03:00:24+00:00",
 "jobs": [
 {
 "id": "https://in.linkedin.com/jobs/view/data-engineer-aladdin-data-associate-at-blackrock-4488133317",
@@ -263,6 +263,19 @@
 ],
 "url": "https://in.linkedin.com/jobs/view/data-engineer-aladdin-data-associate-at-blackrock-4488133317",
 "posted": "2026-11-06",
+"remote": null,
+"country": null,
+"name_match": "exact"
+},
+{
+"id": "https://in.linkedin.com/jobs/view/data-engineer-aladdin-data-associate-at-blackrock-4490795129",
+"title": "Data Engineer, Aladdin Data, Associate",
+"company": "BlackRock",
+"locations": [
+"Mumbai, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/data-engineer-aladdin-data-associate-at-blackrock-4490795129",
+"posted": "2026-11-13",
 "remote": null,
 "country": null,
 "name_match": "exact"
@@ -325,7 +338,7 @@
 "jobs": []
 },
 "Cisco": {
-"checked_at": "2026-11-13T12:06:21+00:00",
+"checked_at": "2026-11-14T03:00:24+00:00",
 "jobs": [
 {
 "id": "https://in.linkedin.com/jobs/view/data-engineer-at-cisco-4467704802",
@@ -343,7 +356,7 @@
 ]
 },
 "Citi": {
-"checked_at": "2026-11-13T13:24:41+00:00",
+"checked_at": "2026-11-14T03:00:24+00:00",
 "jobs": [
 {
 "id": "https://in.linkedin.com/jobs/view/lead-data-engineer-assistant-vice-president-at-citi-4486918603",
@@ -1040,9 +1053,35 @@
 }
 ]
 },
+"IDT Corporation": {
+"checked_at": "2026-11-14T03:00:24+00:00",
+"jobs": []
+},
+"Icertis": {
+"checked_at": "2026-11-14T03:00:24+00:00",
+"jobs": []
+},
 "IndusInd Bank": {
 "checked_at": "2026-11-13T19:09:02+00:00",
 "jobs": []
+},
+"JPMorgan Chase": {
+"checked_at": "2026-11-14T03:00:24+00:00",
+"jobs": [
+{
+"id": "https://in.linkedin.com/jobs/view/wholesale-credit-risk%E2%80%AFassociate-product-strategy-at-jpmorganchase-4479261359",
+"title": "Wholesale Credit Risk Associate - Product Strategy",
+"company": "JPMorganChase",
+"locations": [
+"Mumbai, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/wholesale-credit-risk%E2%80%AFassociate-product-strategy-at-jpmorganchase-4479261359",
+"posted": "2026-11-04",
+"remote": null,
+"country": null,
+"name_match": "exact"
+}
+]
 },
 "Jefferies": {
 "checked_at": "2026-11-13T21:02:58+00:00",
