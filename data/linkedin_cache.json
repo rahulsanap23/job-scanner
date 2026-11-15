@@ -1179,7 +1179,7 @@
 "jobs": []
 },
 "Lentra": {
-"checked_at": "2026-11-15T01:44:56+00:00",
+"checked_at": "2026-11-15T17:48:11+00:00",
 "jobs": []
 },
 "M&G": {
@@ -1365,7 +1365,7 @@
 ]
 },
 "Media.net": {
-"checked_at": "2026-11-15T01:44:56+00:00",
+"checked_at": "2026-11-15T17:48:11+00:00",
 "jobs": [
 {
 "id": "https://in.linkedin.com/jobs/view/senior-data-engineer-nr-2026-0240-at-media-net-4490300664",
@@ -1487,7 +1487,7 @@
 "jobs": []
 },
 "Mitsubishi Electric India": {
-"checked_at": "2026-11-15T01:44:56+00:00",
+"checked_at": "2026-11-15T17:48:11+00:00",
 "jobs": []
 },
 "Mizuho": {
@@ -1630,11 +1630,11 @@
 "jobs": []
 },
 "NEC Software Solutions": {
-"checked_at": "2026-11-14T11:19:20+00:00",
+"checked_at": "2026-11-15T17:48:11+00:00",
 "jobs": []
 },
 "NICE": {
-"checked_at": "2026-11-14T11:19:20+00:00",
+"checked_at": "2026-11-15T17:48:11+00:00",
 "jobs": []
 },
 "NPCI": {
@@ -2301,7 +2301,7 @@
 "jobs": []
 },
 "_remote_india": {
-"checked_at": "2026-11-15T05:06:17+00:00",
+"checked_at": "2026-11-15T17:48:28+00:00",
 "jobs": [
 {
 "id": "https://in.linkedin.com/jobs/view/data-engineer-i-at-amazon-4481247187",
@@ -2400,6 +2400,20 @@
 "country": "India",
 "name_match": "exact",
 "target": "FedEx"
+},
+{
+"id": "https://in.linkedin.com/jobs/view/data-engineer-aladdin-data-associate-at-blackrock-4490795129",
+"title": "Data Engineer, Aladdin Data, Associate",
+"company": "BlackRock",
+"locations": [
+"Mumbai, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/data-engineer-aladdin-data-associate-at-blackrock-4490795129",
+"posted": "2026-11-13",
+"remote": true,
+"country": "India",
+"name_match": "exact",
+"target": "BlackRock"
 }
 ]
 },
