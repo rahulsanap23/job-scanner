@@ -252,21 +252,8 @@
 "jobs": []
 },
 "BlackRock": {
-"checked_at": "2026-11-14T11:50:57+00:00",
+"checked_at": "2026-11-15T19:54:12+00:00",
 "jobs": [
-{
-"id": "https://in.linkedin.com/jobs/view/data-engineer-aladdin-data-associate-at-blackrock-4488133317",
-"title": "Data Engineer, Aladdin Data, Associate",
-"company": "BlackRock",
-"locations": [
-"Mumbai, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/data-engineer-aladdin-data-associate-at-blackrock-4488133317",
-"posted": "2026-11-06",
-"remote": null,
-"country": null,
-"name_match": "exact"
-},
 {
 "id": "https://in.linkedin.com/jobs/view/data-engineer-aladdin-data-associate-at-blackrock-4490795129",
 "title": "Data Engineer, Aladdin Data, Associate",
@@ -276,6 +263,19 @@
 ],
 "url": "https://in.linkedin.com/jobs/view/data-engineer-aladdin-data-associate-at-blackrock-4490795129",
 "posted": "2026-11-13",
+"remote": null,
+"country": null,
+"name_match": "exact"
+},
+{
+"id": "https://in.linkedin.com/jobs/view/data-engineer-aladdin-data-associate-at-blackrock-4488133317",
+"title": "Data Engineer, Aladdin Data, Associate",
+"company": "BlackRock",
+"locations": [
+"Mumbai, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/data-engineer-aladdin-data-associate-at-blackrock-4488133317",
+"posted": "2026-11-06",
 "remote": null,
 "country": null,
 "name_match": "exact"
@@ -338,7 +338,7 @@
 "jobs": []
 },
 "Cisco": {
-"checked_at": "2026-11-14T11:50:57+00:00",
+"checked_at": "2026-11-15T19:54:12+00:00",
 "jobs": [
 {
 "id": "https://in.linkedin.com/jobs/view/data-engineer-at-cisco-4467704802",
@@ -356,8 +356,21 @@
 ]
 },
 "Citi": {
-"checked_at": "2026-11-14T11:50:57+00:00",
+"checked_at": "2026-11-15T19:54:12+00:00",
 "jobs": [
+{
+"id": "https://in.linkedin.com/jobs/view/senior-data-platform-engineer-assistant-vice-president-at-citi-4486926297",
+"title": "Senior Data Platform Engineer - Assistant Vice President",
+"company": "Citi",
+"locations": [
+"Pune Division, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/senior-data-platform-engineer-assistant-vice-president-at-citi-4486926297",
+"posted": "2026-11-05",
+"remote": null,
+"country": null,
+"name_match": "exact"
+},
 {
 "id": "https://in.linkedin.com/jobs/view/senior-data-engineer-at-citi-4486917612",
 "title": "Senior Data Engineer",
@@ -444,19 +457,6 @@
 "Pune Division, Maharashtra, India"
 ],
 "url": "https://in.linkedin.com/jobs/view/pyspark-big-data-engineer-at-citi-4486921427",
-"posted": "2026-11-05",
-"remote": null,
-"country": null,
-"name_match": "exact"
-},
-{
-"id": "https://in.linkedin.com/jobs/view/senior-data-platform-engineer-assistant-vice-president-at-citi-4486926297",
-"title": "Senior Data Platform Engineer - Assistant Vice President",
-"company": "Citi",
-"locations": [
-"Pune Division, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/senior-data-platform-engineer-assistant-vice-president-at-citi-4486926297",
 "posted": "2026-11-05",
 "remote": null,
 "country": null,
@@ -1806,7 +1806,7 @@
 "jobs": []
 },
 "Postman": {
-"checked_at": "2026-11-15T01:44:56+00:00",
+"checked_at": "2026-11-15T19:54:12+00:00",
 "jobs": []
 },
 "Priceline (Booking Holdings)": {
@@ -1862,7 +1862,7 @@
 "jobs": []
 },
 "RBL Bank": {
-"checked_at": "2026-11-15T01:44:56+00:00",
+"checked_at": "2026-11-15T19:54:12+00:00",
 "jobs": []
 },
 "Razorpay": {
@@ -1921,7 +1921,7 @@
 "jobs": []
 },
 "SBI": {
-"checked_at": "2026-11-15T01:44:56+00:00",
+"checked_at": "2026-11-15T19:54:12+00:00",
 "jobs": []
 },
 "Salesforce": {
@@ -1933,7 +1933,7 @@
 "jobs": []
 },
 "Sciative": {
-"checked_at": "2026-11-15T01:44:56+00:00",
+"checked_at": "2026-11-15T19:54:12+00:00",
 "jobs": []
 },
 "Siemens Digital Industries Software": {
@@ -2012,7 +2012,7 @@
 ]
 },
 "Société Générale": {
-"checked_at": "2026-11-15T01:44:56+00:00",
+"checked_at": "2026-11-15T19:54:12+00:00",
 "jobs": []
 },
 "Standard Chartered": {
