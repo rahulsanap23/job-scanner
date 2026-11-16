@@ -332,7 +332,7 @@
 "jobs": []
 },
 "BrowserStack": {
-"checked_at": "2026-11-16T10:56:27+00:00",
+"checked_at": "2026-11-16T15:56:17+00:00",
 "jobs": []
 },
 "CRED": {
@@ -352,7 +352,7 @@
 "jobs": []
 },
 "Cisco": {
-"checked_at": "2026-11-15T19:54:12+00:00",
+"checked_at": "2026-11-16T15:56:17+00:00",
 "jobs": [
 {
 "id": "https://in.linkedin.com/jobs/view/data-engineer-at-cisco-4467704802",
@@ -370,34 +370,8 @@
 ]
 },
 "Citi": {
-"checked_at": "2026-11-15T19:54:12+00:00",
+"checked_at": "2026-11-16T15:56:17+00:00",
 "jobs": [
-{
-"id": "https://in.linkedin.com/jobs/view/senior-data-platform-engineer-assistant-vice-president-at-citi-4486926297",
-"title": "Senior Data Platform Engineer - Assistant Vice President",
-"company": "Citi",
-"locations": [
-"Pune Division, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/senior-data-platform-engineer-assistant-vice-president-at-citi-4486926297",
-"posted": "2026-11-05",
-"remote": null,
-"country": null,
-"name_match": "exact"
-},
-{
-"id": "https://in.linkedin.com/jobs/view/senior-data-engineer-at-citi-4486917612",
-"title": "Senior Data Engineer",
-"company": "Citi",
-"locations": [
-"Pune Division, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/senior-data-engineer-at-citi-4486917612",
-"posted": "2026-11-05",
-"remote": null,
-"country": null,
-"name_match": "exact"
-},
 {
 "id": "https://in.linkedin.com/jobs/view/lead-data-engineer-assistant-vice-president-at-citi-4486918603",
 "title": "Lead Data Engineer - Assistant Vice President",
@@ -419,6 +393,19 @@
 "Pune Division, Maharashtra, India"
 ],
 "url": "https://in.linkedin.com/jobs/view/senior-databricks-engineer-apache-spark-and-aws-vice-president-at-citi-4486910770",
+"posted": "2026-11-05",
+"remote": null,
+"country": null,
+"name_match": "exact"
+},
+{
+"id": "https://in.linkedin.com/jobs/view/senior-data-engineer-at-citi-4486917612",
+"title": "Senior Data Engineer",
+"company": "Citi",
+"locations": [
+"Pune Division, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/senior-data-engineer-at-citi-4486917612",
 "posted": "2026-11-05",
 "remote": null,
 "country": null,
@@ -477,6 +464,19 @@
 "name_match": "exact"
 },
 {
+"id": "https://in.linkedin.com/jobs/view/senior-data-platform-engineer-assistant-vice-president-at-citi-4486926297",
+"title": "Senior Data Platform Engineer - Assistant Vice President",
+"company": "Citi",
+"locations": [
+"Pune Division, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/senior-data-platform-engineer-assistant-vice-president-at-citi-4486926297",
+"posted": "2026-11-05",
+"remote": null,
+"country": null,
+"name_match": "exact"
+},
+{
 "id": "https://in.linkedin.com/jobs/view/data-engineer-java-and-oracle-assistant-vice-president-at-citi-4486906847",
 "title": "Data Engineer, Java and Oracle - Assistant Vice President",
 "company": "Citi",
@@ -513,7 +513,7 @@
 "jobs": []
 },
 "Cohesity": {
-"checked_at": "2026-11-15T21:51:26+00:00",
+"checked_at": "2026-11-16T15:56:17+00:00",
 "jobs": []
 },
 "Coinbase": {
@@ -521,7 +521,7 @@
 "jobs": []
 },
 "Confluent": {
-"checked_at": "2026-11-16T02:42:06+00:00",
+"checked_at": "2026-11-16T15:56:17+00:00",
 "jobs": []
 },
 "Coursera": {
@@ -2178,7 +2178,7 @@
 "jobs": []
 },
 "Veeam": {
-"checked_at": "2026-11-14T19:53:12+00:00",
+"checked_at": "2026-11-16T15:56:17+00:00",
 "jobs": []
 },
 "Veritas Technologies": {
@@ -2186,11 +2186,11 @@
 "jobs": []
 },
 "Vertiv": {
-"checked_at": "2026-11-14T19:53:12+00:00",
+"checked_at": "2026-11-16T15:56:17+00:00",
 "jobs": []
 },
 "Visa": {
-"checked_at": "2026-11-14T20:51:10+00:00",
+"checked_at": "2026-11-16T15:56:17+00:00",
 "jobs": []
 },
 "Vodafone (VOIS)": {
