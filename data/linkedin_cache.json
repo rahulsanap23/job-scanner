@@ -42,7 +42,7 @@
 "jobs": []
 },
 "Amadeus": {
-"checked_at": "2026-11-14T23:47:09+00:00",
+"checked_at": "2026-11-16T10:56:27+00:00",
 "jobs": []
 },
 "Amazon": {
@@ -165,8 +165,21 @@
 "jobs": []
 },
 "Barclays": {
-"checked_at": "2026-11-15T02:59:41+00:00",
+"checked_at": "2026-11-16T10:56:27+00:00",
 "jobs": [
+{
+"id": "https://in.linkedin.com/jobs/view/data-engineer-vp-at-barclays-4472627956",
+"title": "Data Engineer-VP",
+"company": "Barclays",
+"locations": [
+"Pune Division, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/data-engineer-vp-at-barclays-4472627956",
+"posted": "2026-10-01",
+"remote": null,
+"country": null,
+"name_match": "exact"
+},
 {
 "id": "https://in.linkedin.com/jobs/view/data-engineer-at-barclays-4479496036",
 "title": "Data Engineer",
@@ -202,19 +215,6 @@
 ],
 "url": "https://in.linkedin.com/jobs/view/data-engineer-at-barclays-4473687634",
 "posted": "2026-10-06",
-"remote": null,
-"country": null,
-"name_match": "exact"
-},
-{
-"id": "https://in.linkedin.com/jobs/view/data-engineer-vp-at-barclays-4472627956",
-"title": "Data Engineer-VP",
-"company": "Barclays",
-"locations": [
-"Pune Division, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/data-engineer-vp-at-barclays-4472627956",
-"posted": "2026-10-01",
 "remote": null,
 "country": null,
 "name_match": "exact"
@@ -318,7 +318,7 @@
 "jobs": []
 },
 "BrowserStack": {
-"checked_at": "2026-11-15T02:59:41+00:00",
+"checked_at": "2026-11-16T10:56:27+00:00",
 "jobs": []
 },
 "CRED": {
@@ -654,7 +654,7 @@
 ]
 },
 "DBS Bank": {
-"checked_at": "2026-11-15T04:04:23+00:00",
+"checked_at": "2026-11-16T10:56:27+00:00",
 "jobs": []
 },
 "DDN": {
@@ -674,7 +674,7 @@
 "jobs": []
 },
 "Deutsche Bank": {
-"checked_at": "2026-11-15T04:04:23+00:00",
+"checked_at": "2026-11-16T10:56:27+00:00",
 "jobs": [
 {
 "id": "https://in.linkedin.com/jobs/view/bigdata-hadoop-scala-engineer-avp-at-deutsche-bank-4472111802",
@@ -703,19 +703,6 @@
 "name_match": "exact"
 },
 {
-"id": "https://in.linkedin.com/jobs/view/senior-engineer-vp-at-deutsche-bank-4484059493",
-"title": "Senior Engineer, VP",
-"company": "Deutsche Bank",
-"locations": [
-"Pune Division, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/senior-engineer-vp-at-deutsche-bank-4484059493",
-"posted": "2026-10-27",
-"remote": null,
-"country": null,
-"name_match": "exact"
-},
-{
 "id": "https://in.linkedin.com/jobs/view/senior-engineer-avp-at-deutsche-bank-4480119373",
 "title": "Senior Engineer, AVP",
 "company": "Deutsche Bank",
@@ -724,6 +711,19 @@
 ],
 "url": "https://in.linkedin.com/jobs/view/senior-engineer-avp-at-deutsche-bank-4480119373",
 "posted": "2026-10-15",
+"remote": null,
+"country": null,
+"name_match": "exact"
+},
+{
+"id": "https://in.linkedin.com/jobs/view/senior-engineer-vp-at-deutsche-bank-4484059493",
+"title": "Senior Engineer, VP",
+"company": "Deutsche Bank",
+"locations": [
+"Pune Division, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/senior-engineer-vp-at-deutsche-bank-4484059493",
+"posted": "2026-10-27",
 "remote": null,
 "country": null,
 "name_match": "exact"
@@ -1153,7 +1153,7 @@
 "jobs": []
 },
 "KONE": {
-"checked_at": "2026-11-15T09:00:10+00:00",
+"checked_at": "2026-11-16T10:56:27+00:00",
 "jobs": [
 {
 "id": "https://in.linkedin.com/jobs/view/principal-data-engineer-data-products-at-kone-4435593803",
@@ -1175,7 +1175,7 @@
 "jobs": []
 },
 "LSEG": {
-"checked_at": "2026-11-15T09:00:10+00:00",
+"checked_at": "2026-11-16T10:56:27+00:00",
 "jobs": []
 },
 "Lentra": {
@@ -1183,15 +1183,29 @@
 "jobs": []
 },
 "M&G": {
-"checked_at": "2026-11-15T09:00:10+00:00",
-"jobs": []
+"checked_at": "2026-11-16T10:56:27+00:00",
+"jobs": [
+{
+"id": "https://in.linkedin.com/jobs/view/vp-data-engineering-asset-management-at-m-g-india-4480054116",
+"title": "VP - Data Engineering - Asset Management",
+"company": "M&G India",
+"locations": [
+"Pune Division, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/vp-data-engineering-asset-management-at-m-g-india-4480054116",
+"posted": "2026-10-22",
+"remote": null,
+"country": null,
+"name_match": "exact"
+}
+]
 },
 "MSD (Merck & Co.)": {
 "checked_at": "2026-11-15T23:56:19+00:00",
 "jobs": []
 },
 "Maersk": {
-"checked_at": "2026-11-15T09:00:10+00:00",
+"checked_at": "2026-11-16T10:56:27+00:00",
 "jobs": []
 },
 "Marsh McLennan": {
@@ -2274,7 +2288,7 @@
 "jobs": []
 },
 "Wolters Kluwer": {
-"checked_at": "2026-11-14T21:50:13+00:00",
+"checked_at": "2026-11-16T10:56:27+00:00",
 "jobs": []
 },
 "Workday": {
@@ -2419,7 +2433,7 @@
 ]
 },
 "bp": {
-"checked_at": "2026-11-14T22:50:28+00:00",
+"checked_at": "2026-11-16T10:56:27+00:00",
 "jobs": [
 {
 "id": "https://in.linkedin.com/jobs/view/staff-data-engineer-at-bp-4480034597",
