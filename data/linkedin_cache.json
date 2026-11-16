@@ -42,7 +42,7 @@
 "jobs": []
 },
 "Amadeus": {
-"checked_at": "2026-11-16T10:56:27+00:00",
+"checked_at": "2026-11-16T12:26:06+00:00",
 "jobs": []
 },
 "Amazon": {
@@ -85,7 +85,7 @@
 "jobs": []
 },
 "Autodesk": {
-"checked_at": "2026-11-15T18:58:36+00:00",
+"checked_at": "2026-11-16T12:26:06+00:00",
 "jobs": []
 },
 "Automattic": {
@@ -157,29 +157,30 @@
 "jobs": []
 },
 "Baker Hughes": {
-"checked_at": "2026-11-15T18:58:36+00:00",
-"jobs": []
+"checked_at": "2026-11-16T12:26:06+00:00",
+"jobs": [
+{
+"id": "https://in.linkedin.com/jobs/view/digital-technology-senior-specialist-data-operations-engineering-at-baker-hughes-4490601118",
+"title": "Digital Technology Senior Specialist - Data Operations Engineering",
+"company": "Baker Hughes",
+"locations": [
+"Mumbai Metropolitan Region"
+],
+"url": "https://in.linkedin.com/jobs/view/digital-technology-senior-specialist-data-operations-engineering-at-baker-hughes-4490601118",
+"posted": "2026-11-16",
+"remote": null,
+"country": null,
+"name_match": "exact"
+}
+]
 },
 "Bank of America": {
 "checked_at": "2026-11-15T02:34:00+00:00",
 "jobs": []
 },
 "Barclays": {
-"checked_at": "2026-11-16T10:56:27+00:00",
+"checked_at": "2026-11-16T12:26:06+00:00",
 "jobs": [
-{
-"id": "https://in.linkedin.com/jobs/view/data-engineer-vp-at-barclays-4472627956",
-"title": "Data Engineer-VP",
-"company": "Barclays",
-"locations": [
-"Pune Division, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/data-engineer-vp-at-barclays-4472627956",
-"posted": "2026-10-01",
-"remote": null,
-"country": null,
-"name_match": "exact"
-},
 {
 "id": "https://in.linkedin.com/jobs/view/data-engineer-at-barclays-4479496036",
 "title": "Data Engineer",
@@ -202,6 +203,19 @@
 ],
 "url": "https://in.linkedin.com/jobs/view/ifc-cloud-data-engineer-at-barclays-4476496341",
 "posted": "2026-10-15",
+"remote": null,
+"country": null,
+"name_match": "exact"
+},
+{
+"id": "https://in.linkedin.com/jobs/view/data-engineer-vp-at-barclays-4472627956",
+"title": "Data Engineer-VP",
+"company": "Barclays",
+"locations": [
+"Pune Division, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/data-engineer-vp-at-barclays-4472627956",
+"posted": "2026-10-01",
 "remote": null,
 "country": null,
 "name_match": "exact"
@@ -252,21 +266,8 @@
 "jobs": []
 },
 "BlackRock": {
-"checked_at": "2026-11-15T19:54:12+00:00",
+"checked_at": "2026-11-16T12:26:06+00:00",
 "jobs": [
-{
-"id": "https://in.linkedin.com/jobs/view/data-engineer-aladdin-data-associate-at-blackrock-4490795129",
-"title": "Data Engineer, Aladdin Data, Associate",
-"company": "BlackRock",
-"locations": [
-"Mumbai, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/data-engineer-aladdin-data-associate-at-blackrock-4490795129",
-"posted": "2026-11-13",
-"remote": null,
-"country": null,
-"name_match": "exact"
-},
 {
 "id": "https://in.linkedin.com/jobs/view/data-engineer-aladdin-data-associate-at-blackrock-4488133317",
 "title": "Data Engineer, Aladdin Data, Associate",
@@ -276,6 +277,19 @@
 ],
 "url": "https://in.linkedin.com/jobs/view/data-engineer-aladdin-data-associate-at-blackrock-4488133317",
 "posted": "2026-11-06",
+"remote": null,
+"country": null,
+"name_match": "exact"
+},
+{
+"id": "https://in.linkedin.com/jobs/view/data-engineer-aladdin-data-associate-at-blackrock-4490795129",
+"title": "Data Engineer, Aladdin Data, Associate",
+"company": "BlackRock",
+"locations": [
+"Mumbai, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/data-engineer-aladdin-data-associate-at-blackrock-4490795129",
+"posted": "2026-11-13",
 "remote": null,
 "country": null,
 "name_match": "exact"
@@ -2136,11 +2150,11 @@
 "jobs": []
 },
 "Truecaller": {
-"checked_at": "2026-11-14T18:57:56+00:00",
+"checked_at": "2026-11-16T12:26:06+00:00",
 "jobs": []
 },
 "Twilio": {
-"checked_at": "2026-11-14T18:57:56+00:00",
+"checked_at": "2026-11-16T12:26:06+00:00",
 "jobs": []
 },
 "UBS": {
@@ -2148,7 +2162,7 @@
 "jobs": []
 },
 "Ubisoft": {
-"checked_at": "2026-11-14T19:53:12+00:00",
+"checked_at": "2026-11-16T12:26:06+00:00",
 "jobs": []
 },
 "Upstox": {
