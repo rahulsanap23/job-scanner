@@ -829,7 +829,7 @@
 "jobs": []
 },
 "Equinix": {
-"checked_at": "2026-11-15T22:51:29+00:00",
+"checked_at": "2026-11-16T19:10:51+00:00",
 "jobs": []
 },
 "Eruditus": {
@@ -837,7 +837,7 @@
 "jobs": []
 },
 "FIS": {
-"checked_at": "2026-11-15T22:51:29+00:00",
+"checked_at": "2026-11-16T19:10:51+00:00",
 "jobs": []
 },
 "FORVIA": {
@@ -865,7 +865,7 @@
 "jobs": []
 },
 "Fiserv": {
-"checked_at": "2026-11-15T22:51:29+00:00",
+"checked_at": "2026-11-16T19:10:51+00:00",
 "jobs": []
 },
 "Fivetran": {
@@ -2313,7 +2313,7 @@
 "jobs": []
 },
 "Wärtsilä": {
-"checked_at": "2026-11-14T21:50:13+00:00",
+"checked_at": "2026-11-16T19:10:51+00:00",
 "jobs": []
 },
 "Yes Bank": {
@@ -2321,7 +2321,7 @@
 "jobs": []
 },
 "Zapier": {
-"checked_at": "2026-11-14T22:50:28+00:00",
+"checked_at": "2026-11-16T19:10:51+00:00",
 "jobs": []
 },
 "Zscaler": {
@@ -2329,7 +2329,7 @@
 "jobs": []
 },
 "_remote_india": {
-"checked_at": "2026-11-16T06:38:06+00:00",
+"checked_at": "2026-11-16T19:11:13+00:00",
 "jobs": [
 {
 "id": "https://in.linkedin.com/jobs/view/data-engineer-i-at-amazon-4481247187",
@@ -2344,6 +2344,20 @@
 "country": "India",
 "name_match": "exact",
 "target": "Amazon"
+},
+{
+"id": "https://in.linkedin.com/jobs/view/associate-big-data-engineer-at-metlife-4490293394",
+"title": "Associate Big Data Engineer",
+"company": "MetLife",
+"locations": [
+"Pune Division, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/associate-big-data-engineer-at-metlife-4490293394",
+"posted": "2026-11-16",
+"remote": true,
+"country": "India",
+"name_match": "exact",
+"target": "MetLife"
 },
 {
 "id": "https://in.linkedin.com/jobs/view/data-engineer-i-spiv-data-engineering-at-amazon-4487761167",
@@ -2374,20 +2388,6 @@
 "target": "MetLife"
 },
 {
-"id": "https://in.linkedin.com/jobs/view/oliver-wyman-data-engineer-senior-data-engineer-data-and-analytics-dna-gurugram-india-at-marsh-agency-4490000532",
-"title": "Oliver Wyman - Data Engineer / Senior Data Engineer - Data and Analytics (DNA) - Gurugram, India",
-"company": "Marsh Agency",
-"locations": [
-"Gurugram, Haryana, India"
-],
-"url": "https://in.linkedin.com/jobs/view/oliver-wyman-data-engineer-senior-data-engineer-data-and-analytics-dna-gurugram-india-at-marsh-agency-4490000532",
-"posted": "2026-11-11",
-"remote": true,
-"country": "India",
-"name_match": "loose",
-"target": "Marsh McLennan"
-},
-{
 "id": "https://in.linkedin.com/jobs/view/senior-data-engineer-%E2%80%93-microsoft-fabric-data-integration-pune-chennai-at-wolters-kluwer-4443133794",
 "title": "Senior Data Engineer – Microsoft Fabric & Data Integration - Pune/Chennai",
 "company": "Wolters Kluwer",
@@ -2416,14 +2416,14 @@
 "target": "FedEx"
 },
 {
-"id": "https://in.linkedin.com/jobs/view/data-engineer-senior-ii-14-at-fedex-4408778271",
-"title": "Data Engineer-Senior II-14",
+"id": "https://in.linkedin.com/jobs/view/data-engineer-senior-ii-11-at-fedex-4408784121",
+"title": "Data Engineer-Senior II-11",
 "company": "FedEx",
 "locations": [
 "Chennai, Tamil Nadu, India"
 ],
-"url": "https://in.linkedin.com/jobs/view/data-engineer-senior-ii-14-at-fedex-4408778271",
-"posted": "2026-11-10",
+"url": "https://in.linkedin.com/jobs/view/data-engineer-senior-ii-11-at-fedex-4408784121",
+"posted": "2026-11-11",
 "remote": true,
 "country": "India",
 "name_match": "exact",
