@@ -97,7 +97,7 @@
 "jobs": []
 },
 "Axis Bank": {
-"checked_at": "2026-11-15T13:07:07+00:00",
+"checked_at": "2026-11-16T03:10:27+00:00",
 "jobs": []
 },
 "BMC Software": {
@@ -105,11 +105,11 @@
 "jobs": []
 },
 "BMW TechWorks India": {
-"checked_at": "2026-11-15T13:07:07+00:00",
+"checked_at": "2026-11-16T03:10:27+00:00",
 "jobs": []
 },
 "BNP Paribas": {
-"checked_at": "2026-11-15T13:07:07+00:00",
+"checked_at": "2026-11-16T03:10:27+00:00",
 "jobs": [
 {
 "id": "https://in.linkedin.com/jobs/view/assistant-manager-data-engineer-at-bnp-paribas-4489932102",
@@ -153,7 +153,7 @@
 ]
 },
 "BNY": {
-"checked_at": "2026-11-15T14:02:33+00:00",
+"checked_at": "2026-11-16T03:10:27+00:00",
 "jobs": []
 },
 "Baker Hughes": {
@@ -248,7 +248,7 @@
 ]
 },
 "BillDesk": {
-"checked_at": "2026-11-15T14:02:33+00:00",
+"checked_at": "2026-11-16T03:10:27+00:00",
 "jobs": []
 },
 "BlackRock": {
@@ -1230,21 +1230,8 @@
 "jobs": []
 },
 "Mastercard": {
-"checked_at": "2026-11-14T15:51:52+00:00",
+"checked_at": "2026-11-16T03:10:27+00:00",
 "jobs": [
-{
-"id": "https://in.linkedin.com/jobs/view/data-engineer-ii-at-mastercard-4474075906",
-"title": "Data Engineer II",
-"company": "Mastercard",
-"locations": [
-"Navi Mumbai, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/data-engineer-ii-at-mastercard-4474075906",
-"posted": "2026-10-27",
-"remote": null,
-"country": null,
-"name_match": "exact"
-},
 {
 "id": "https://in.linkedin.com/jobs/view/lead-data-engineer-at-mastercard-4454122491",
 "title": "Lead Data Engineer",
@@ -1259,14 +1246,14 @@
 "name_match": "exact"
 },
 {
-"id": "https://in.linkedin.com/jobs/view/principal-data-engineer-aws-databricks-ai-ml-flow-data-architecture-apache-airflow-at-mastercard-4468916469",
-"title": "Principal Data Engineer (AWS, Databricks, Ai, ML Flow, Data Architecture, Apache Airflow)",
+"id": "https://in.linkedin.com/jobs/view/data-engineer-ii-at-mastercard-4474075906",
+"title": "Data Engineer II",
 "company": "Mastercard",
 "locations": [
-"Pune Division, Maharashtra, India"
+"Navi Mumbai, Maharashtra, India"
 ],
-"url": "https://in.linkedin.com/jobs/view/principal-data-engineer-aws-databricks-ai-ml-flow-data-architecture-apache-airflow-at-mastercard-4468916469",
-"posted": "2026-11-04",
+"url": "https://in.linkedin.com/jobs/view/data-engineer-ii-at-mastercard-4474075906",
+"posted": "2026-10-27",
 "remote": null,
 "country": null,
 "name_match": "exact"
@@ -1285,6 +1272,19 @@
 "name_match": "exact"
 },
 {
+"id": "https://in.linkedin.com/jobs/view/principal-data-engineer-aws-databricks-ai-ml-flow-data-architecture-apache-airflow-at-mastercard-4468916469",
+"title": "Principal Data Engineer (AWS, Databricks, Ai, ML Flow, Data Architecture, Apache Airflow)",
+"company": "Mastercard",
+"locations": [
+"Pune Division, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/principal-data-engineer-aws-databricks-ai-ml-flow-data-architecture-apache-airflow-at-mastercard-4468916469",
+"posted": "2026-11-04",
+"remote": null,
+"country": null,
+"name_match": "exact"
+},
+{
 "id": "https://in.linkedin.com/jobs/view/lead-data-engineer-at-mastercard-4476646831",
 "title": "Lead Data Engineer",
 "company": "Mastercard",
@@ -1293,19 +1293,6 @@
 ],
 "url": "https://in.linkedin.com/jobs/view/lead-data-engineer-at-mastercard-4476646831",
 "posted": "2026-11-04",
-"remote": null,
-"country": null,
-"name_match": "exact"
-},
-{
-"id": "https://in.linkedin.com/jobs/view/lead-data-engineer-at-mastercard-4481455165",
-"title": "Lead Data Engineer",
-"company": "Mastercard",
-"locations": [
-"Pune Division, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/lead-data-engineer-at-mastercard-4481455165",
-"posted": "2026-10-26",
 "remote": null,
 "country": null,
 "name_match": "exact"
@@ -1925,11 +1912,25 @@
 "jobs": []
 },
 "Salesforce": {
-"checked_at": "2026-11-14T14:54:38+00:00",
-"jobs": []
+"checked_at": "2026-11-16T03:10:27+00:00",
+"jobs": [
+{
+"id": "https://in.linkedin.com/jobs/view/solution-builder-technical-builder-at-salesforce-4484086439",
+"title": "Solution Builder (Technical Builder)",
+"company": "Salesforce",
+"locations": [
+"Mumbai, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/solution-builder-technical-builder-at-salesforce-4484086439",
+"posted": "2026-10-27",
+"remote": null,
+"country": null,
+"name_match": "exact"
+}
+]
 },
 "Sandvik": {
-"checked_at": "2026-11-14T14:54:38+00:00",
+"checked_at": "2026-11-16T03:10:27+00:00",
 "jobs": []
 },
 "Sciative": {
