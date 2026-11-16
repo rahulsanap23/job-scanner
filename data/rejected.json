@@ -1,9 +1,9 @@
 {
 "meta": {
-"generated_at": "2026-11-15T11:02:33+00:00",
-"date": "2026-11-15",
+"generated_at": "2026-11-16T01:58:51+00:00",
+"date": "2026-11-16",
 "recency_days": 60,
-"count": 572
+"count": 574
 },
 "rejected": [
 {
@@ -740,16 +740,6 @@
 },
 {
 "company": "Atlassian",
-"title": "Senior Software Engineer- Data Platform",
-"location": "Sydney - Australia -   Sydney,  2000 Australia; Remote - Remote; Melbourne - Australia -   Melbourne,  3000 Australia; B",
-"posted": "2026-11-09 06:27 AM",
-"reason": "location",
-"tags": [],
-"url": "https://careers-australia-atlassian.icims.com/jobs/27078/senior-software-engineer--data-platform/job",
-"source": "atlassian"
-},
-{
-"company": "Atlassian",
 "title": "Principal Data Scientist",
 "location": "Remote - India - Remote; Remote - Remote",
 "posted": "2026-10-30 06:11 AM",
@@ -824,6 +814,18 @@
 "reason": "location",
 "tags": [],
 "url": "https://jobs.bmc.com/Careers/JobDetail/Sr-Data-Scientist-India/47230",
+"source": "avature"
+},
+{
+"company": "BMC Software",
+"title": "Senior Data Engineer",
+"location": "Pune, India",
+"posted": "2026-09-16",
+"reason": "older than 60 days",
+"tags": [
+"Pune"
+],
+"url": "https://jobs.bmc.com/Careers/JobDetail/GTM-Data-Specialist-II-India/47535",
 "source": "avature"
 },
 {
@@ -995,18 +997,6 @@
 {
 "company": "BlackRock",
 "title": "Associate – Data Analytics",
-"location": "Mumbai, India",
-"posted": "Posted 20 Days Ago",
-"reason": "title not a data-engineering role",
-"tags": [
-"Mumbai"
-],
-"url": "https://blackrock.wd1.myworkdayjobs.com/en-US/BlackRock_Professional/job/Mumbai-India/Associate---Data-Analytics_R266961",
-"source": "workday"
-},
-{
-"company": "BlackRock",
-"title": "Associate – Data Analytics",
 "location": "Mumbai, Maharashtra, India",
 "posted": "2026-10-27",
 "reason": "title not a data-engineering role",
@@ -1070,12 +1060,12 @@
 },
 {
 "company": "Bloomberg",
-"title": "Senior Data Management Professional - Data Engineering (Data AI)",
-"location": "Princeton, New Jersey, United States of America",
+"title": "Senior Data Management Professional - Data Automation Engineer - People Data",
+"location": "New York, New York, United States of America",
 "posted": null,
 "reason": "location",
 "tags": [],
-"url": "https://bloomberg.avature.net/careers/JobDetail/Senior-Data-Management-Professional-Data-Engineering-Data-AI/20832",
+"url": "https://bloomberg.avature.net/careers/JobDetail/Senior-Data-Management-Professional-Data-Automation-Engineer-People-Data/45870",
 "source": "avature"
 },
 {
@@ -1086,6 +1076,16 @@
 "reason": "location",
 "tags": [],
 "url": "https://bloomberg.avature.net/careers/JobDetail/Senior-Data-Management-Professional-Data-Engineering-Data-AI/45112",
+"source": "avature"
+},
+{
+"company": "Bloomberg",
+"title": "Senior Data Management Professional - Data Engineering (Data AI)",
+"location": "Princeton, New Jersey, United States of America",
+"posted": null,
+"reason": "location",
+"tags": [],
+"url": "https://bloomberg.avature.net/careers/JobDetail/Senior-Data-Management-Professional-Data-Engineering-Data-AI/20832",
 "source": "avature"
 },
 {
@@ -1120,6 +1120,16 @@
 },
 {
 "company": "Bloomberg",
+"title": "Senior Software Engineer - Data Governance & Management Platforms",
+"location": "New York, New York, United States of America",
+"posted": null,
+"reason": "location",
+"tags": [],
+"url": "https://bloomberg.avature.net/careers/JobDetail/Senior-Software-Engineer-Data-Governance-Management-Platforms/20462",
+"source": "avature"
+},
+{
+"company": "Bloomberg",
 "title": "Senior Software Engineer - Data License Plus",
 "location": "Dublin, Ireland",
 "posted": null,
@@ -1146,6 +1156,16 @@
 "reason": "location",
 "tags": [],
 "url": "https://bloomberg.avature.net/careers/JobDetail/Senior-Software-Engineer-Data-and-Platform-Tools-Bloomberg-Connects/45014",
+"source": "avature"
+},
+{
+"company": "Bloomberg",
+"title": "Team Leader - Data Engineering & Integration - Commodities Data",
+"location": "London, United Kingdom",
+"posted": null,
+"reason": "location",
+"tags": [],
+"url": "https://bloomberg.avature.net/careers/JobDetail/Team-Leader-Data-Engineering-Integration-Commodities-Data/20834",
 "source": "avature"
 },
 {
@@ -1390,16 +1410,6 @@
 "reason": "location",
 "tags": [],
 "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Chennai-Tamil-Nadu-India/Java-Spark-Developer_261001150",
-"source": "workday"
-},
-{
-"company": "Citi",
-"title": "Java Spark developer",
-"location": "Chennai Tamil Nadu India",
-"posted": "Posted 19 Days Ago",
-"reason": "location",
-"tags": [],
-"url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Chennai-Tamil-Nadu-India/Java-Spark-developer_26987817",
 "source": "workday"
 },
 {
@@ -2289,11 +2299,11 @@
 {
 "company": "Databricks",
 "title": "Senior Software Engineer - Distributed Data Systems",
-"location": "Mountain View, California",
-"posted": "2023-06-23T18:46:50-04:00",
+"location": "Belgrade, Serbia",
+"posted": "2025-05-28T09:57:52-04:00",
 "reason": "location",
 "tags": [],
-"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6544325002",
+"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8012800002",
 "source": "greenhouse"
 },
 {
@@ -2309,16 +2319,6 @@
 {
 "company": "Databricks",
 "title": "Senior Software Engineer - Distributed Data Systems",
-"location": "Belgrade, Serbia",
-"posted": "2025-05-28T09:57:52-04:00",
-"reason": "location",
-"tags": [],
-"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8012800002",
-"source": "greenhouse"
-},
-{
-"company": "Databricks",
-"title": "Senior Software Engineer - Distributed Data Systems",
 "location": "San Francisco, California",
 "posted": "2019-11-14T17:28:57-05:00",
 "reason": "location",
@@ -2328,32 +2328,12 @@
 },
 {
 "company": "Databricks",
-"title": "Senior Solutions Architect (EDW Enterprise Data Warehouse Migrations)",
-"location": "Milan, Italy",
-"posted": "2026-08-17T03:55:20-04:00",
+"title": "Senior Software Engineer - Distributed Data Systems",
+"location": "Mountain View, California",
+"posted": "2023-06-23T18:46:50-04:00",
 "reason": "location",
 "tags": [],
-"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8720254002",
-"source": "greenhouse"
-},
-{
-"company": "Databricks",
-"title": "Senior Solutions Architect (EDW Enterprise Data Warehouse Migrations)",
-"location": "Berlin, Germany; Munich, Germany",
-"posted": "2026-08-17T03:55:20-04:00",
-"reason": "location",
-"tags": [],
-"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8720253002",
-"source": "greenhouse"
-},
-{
-"company": "Databricks",
-"title": "Senior Solutions Architect (EDW Enterprise Data Warehouse Migrations)",
-"location": "Amsterdam, Netherlands",
-"posted": "2026-08-17T03:49:58-04:00",
-"reason": "location",
-"tags": [],
-"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8720252002",
+"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6544325002",
 "source": "greenhouse"
 },
 {
@@ -2374,6 +2354,36 @@
 "reason": "location",
 "tags": [],
 "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8704938002",
+"source": "greenhouse"
+},
+{
+"company": "Databricks",
+"title": "Senior Solutions Architect (EDW Enterprise Data Warehouse Migrations)",
+"location": "Amsterdam, Netherlands",
+"posted": "2026-08-17T03:49:58-04:00",
+"reason": "location",
+"tags": [],
+"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8720252002",
+"source": "greenhouse"
+},
+{
+"company": "Databricks",
+"title": "Senior Solutions Architect (EDW Enterprise Data Warehouse Migrations)",
+"location": "Berlin, Germany; Munich, Germany",
+"posted": "2026-08-17T03:55:20-04:00",
+"reason": "location",
+"tags": [],
+"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8720253002",
+"source": "greenhouse"
+},
+{
+"company": "Databricks",
+"title": "Senior Solutions Architect (EDW Enterprise Data Warehouse Migrations)",
+"location": "Milan, Italy",
+"posted": "2026-08-17T03:55:20-04:00",
+"reason": "location",
+"tags": [],
+"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8720254002",
 "source": "greenhouse"
 },
 {
@@ -2529,21 +2539,21 @@
 {
 "company": "Databricks",
 "title": "Sr. Product Manager, Lakebase/Lakehouse",
-"location": "San Francisco, California",
-"posted": "2026-10-07T15:09:26-04:00",
-"reason": "location",
-"tags": [],
-"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8811265002",
-"source": "greenhouse"
-},
-{
-"company": "Databricks",
-"title": "Sr. Product Manager, Lakebase/Lakehouse",
 "location": "Seattle, Washington",
 "posted": "2026-10-07T15:09:28-04:00",
 "reason": "location",
 "tags": [],
 "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8876675002",
+"source": "greenhouse"
+},
+{
+"company": "Databricks",
+"title": "Sr. Product Manager, Lakebase/Lakehouse",
+"location": "San Francisco, California",
+"posted": "2026-10-07T15:09:26-04:00",
+"reason": "location",
+"tags": [],
+"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8811265002",
 "source": "greenhouse"
 },
 {
@@ -2589,11 +2599,11 @@
 {
 "company": "Databricks",
 "title": "Staff Software Engineer - Distributed Data Systems",
-"location": "Mountain View, California",
-"posted": "2023-04-13T17:55:08-04:00",
+"location": "San Francisco, California",
+"posted": "2023-04-13T17:55:06-04:00",
 "reason": "location",
 "tags": [],
-"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6544364002",
+"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=5646855002",
 "source": "greenhouse"
 },
 {
@@ -2609,21 +2619,21 @@
 {
 "company": "Databricks",
 "title": "Staff Software Engineer - Distributed Data Systems",
-"location": "San Francisco, California",
-"posted": "2023-04-13T17:55:06-04:00",
-"reason": "location",
-"tags": [],
-"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=5646855002",
-"source": "greenhouse"
-},
-{
-"company": "Databricks",
-"title": "Staff Software Engineer - Distributed Data Systems",
 "location": "Bellevue, Washington",
 "posted": "2023-12-11T15:53:57-05:00",
 "reason": "location",
 "tags": [],
 "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6937001002",
+"source": "greenhouse"
+},
+{
+"company": "Databricks",
+"title": "Staff Software Engineer - Distributed Data Systems",
+"location": "Mountain View, California",
+"posted": "2023-04-13T17:55:08-04:00",
+"reason": "location",
+"tags": [],
+"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6544364002",
 "source": "greenhouse"
 },
 {
@@ -2848,6 +2858,18 @@
 "reason": "location",
 "tags": [],
 "url": "https://careers.epam.com/en/vacancy/senior-snowflake-data-engineer-blt01ypik1l8xv994ze_en",
+"source": "epam"
+},
+{
+"company": "EPAM Systems",
+"title": "Data Quality Engineer",
+"location": "Gurgaon, India; Hyderabad, India; Bangalore, India; Pune, India; Chennai, India; Coimbatore, India",
+"posted": "2026-09-16",
+"reason": "older than 60 days",
+"tags": [
+"Pune"
+],
+"url": "https://careers.epam.com/en/vacancy/data-quality-engineer-blt06hk69sc08xdo078_en",
 "source": "epam"
 },
 {
@@ -4275,6 +4297,18 @@
 "source": "eightfold"
 },
 {
+"company": "Johnson & Johnson",
+"title": "Senior Associate / Assistant Manager – Business Analytics & Data",
+"location": "Mumbai, India",
+"posted": "Posted Today",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://jj.wd5.myworkdayjobs.com/en-US/jj/job/Mumbai-India/Senior-Associate---Assistant-Manager---Business-Analytics---Data_R-108719",
+"source": "workday"
+},
+{
 "company": "Johnson Controls",
 "title": "Security Data & SIEM Engineer",
 "location": "Bangalore-Karnataka-India",
@@ -5262,16 +5296,6 @@
 },
 {
 "company": "Salesforce",
-"title": "Data Engineering SMTS/LMTS",
-"location": "India - Hyderabad",
-"posted": "Posted 4 Days Ago",
-"reason": "location",
-"tags": [],
-"url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Hyderabad/Data-Engineering-SMTS-LMTS--Revenue-Analytics_JR364686",
-"source": "workday"
-},
-{
-"company": "Salesforce",
 "title": "Success Guide - Informatica Product experience mandatory",
 "location": "India - Bangalore",
 "posted": "Posted 16 Days Ago",
@@ -5949,21 +5973,21 @@
 {
 "company": "Veeam",
 "title": "Senior Sales Engineer - Data & AI Security",
-"location": "Remote, France",
-"posted": "2026-10-19T04:51:53-04:00",
-"reason": "location",
-"tags": [],
-"url": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/5001212101",
-"source": "greenhouse"
-},
-{
-"company": "Veeam",
-"title": "Senior Sales Engineer - Data & AI Security",
 "location": "Munich, Germany",
 "posted": "2026-08-27T10:36:53-04:00",
 "reason": "location",
 "tags": [],
 "url": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4781633101",
+"source": "greenhouse"
+},
+{
+"company": "Veeam",
+"title": "Senior Sales Engineer - Data & AI Security",
+"location": "Remote, France",
+"posted": "2026-10-19T04:51:53-04:00",
+"reason": "location",
+"tags": [],
+"url": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/5001212101",
 "source": "greenhouse"
 },
 {

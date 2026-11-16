@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at": "2026-11-15T11:02:33+00:00",
-  "date": "2026-11-15",
+  "generated_at": "2026-11-16T01:58:51+00:00",
+  "date": "2026-11-16",
   "recency_days": 60,
   "companies_total": 190,
   "companies_scanned_ok": 144,
@@ -54,9 +54,9 @@
    "Volkswagen Group Digital Solutions",
    "Yes Bank"
   ],
-  "jobs": 143,
+  "jobs": 139,
   "companies_with_jobs": 46,
-  "uncertain": 17,
+  "uncertain": 15,
   "fresh": 0,
   "linkedin": "49 of 49 companies checked in the last 24 h (this scan: searched 0 companies)",
   "companies_checked_on_linkedin": [
@@ -113,7 +113,7 @@
   "linkedin_crosscheck": "141 of 141 scanned companies cross-checked on LinkedIn in the last 4 days; 8 roles the careers sites missed",
   "missed_by_site": 8,
   "scanner_alerts": [],
-  "rejected": 572
+  "rejected": 574
  },
  "companies": [
   {
@@ -129,7 +129,7 @@
    ],
    "careers_url": "https://www.3pillarglobal.com/careers/",
    "linkedin": {
-    "checked_at": "2026-11-15T01:44:56+00:00",
+    "checked_at": "2026-11-15T13:07:07+00:00",
     "fetched": 0,
     "matched": 0,
     "rejected_examples": []
@@ -154,9 +154,9 @@
     "location: Snowflake Platform Leader | NJ-Jersey City; NJ-Parsippany; NY-New York; NC-Charlotte"
    ],
    "requests": 25,
-   "secs": 21.5,
+   "secs": 19.9,
    "linkedin_crosscheck": {
-    "checked_at": "2026-11-14T11:19:20+00:00",
+    "checked_at": "2026-11-15T15:52:22+00:00",
     "fetched": 0,
     "missed_by_site": 0
    }
@@ -177,9 +177,9 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 12,
-   "secs": 10.4,
+   "secs": 10.9,
    "linkedin_crosscheck": {
-    "checked_at": "2026-11-14T11:19:20+00:00",
+    "checked_at": "2026-11-15T15:52:22+00:00",
     "fetched": 1,
     "missed_by_site": 1
    }
@@ -200,9 +200,9 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 29,
-   "secs": 18.5,
+   "secs": 30.1,
    "linkedin_crosscheck": {
-    "checked_at": "2026-11-14T11:19:20+00:00",
+    "checked_at": "2026-11-15T16:53:42+00:00",
     "fetched": 0,
     "missed_by_site": 0
    }
@@ -213,7 +213,7 @@
     "greenhouse"
    ],
    "status": "ok",
-   "fetched": 214,
+   "fetched": 211,
    "title_matches": 5,
    "matched": 0,
    "errors": [],
@@ -227,7 +227,7 @@
     "location: Staff Software Engineer, Data Warehouse | USA"
    ],
    "requests": 1,
-   "secs": 0.2,
+   "secs": 0.1,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-14T23:47:09+00:00",
     "fetched": 0,
@@ -250,9 +250,9 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 10,
-   "secs": 4.3,
+   "secs": 5.2,
    "linkedin_crosscheck": {
-    "checked_at": "2026-11-14T11:19:20+00:00",
+    "checked_at": "2026-11-15T16:53:42+00:00",
     "fetched": 0,
     "missed_by_site": 0
    }
@@ -263,7 +263,7 @@
     "workday"
    ],
    "status": "ok",
-   "fetched": 5,
+   "fetched": 4,
    "title_matches": 0,
    "matched": 0,
    "errors": [],
@@ -273,9 +273,9 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 10,
-   "secs": 4.9,
+   "secs": 5.3,
    "linkedin_crosscheck": {
-    "checked_at": "2026-11-14T11:19:20+00:00",
+    "checked_at": "2026-11-15T16:53:42+00:00",
     "fetched": 0,
     "missed_by_site": 0
    }
@@ -286,7 +286,7 @@
     "workday"
    ],
    "status": "ok",
-   "fetched": 10,
+   "fetched": 8,
    "title_matches": 0,
    "matched": 0,
    "errors": [],
@@ -296,7 +296,7 @@
    "careers_url": "https://amadeus.wd502.myworkdayjobs.com/jobs",
    "rejected_examples": [],
    "requests": 10,
-   "secs": 5.4,
+   "secs": 4.4,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-14T23:47:09+00:00",
     "fetched": 0,
@@ -346,7 +346,7 @@
    ],
    "careers_url": "https://www.jobs.atlascopcogroup.com/search/?q=data",
    "linkedin": {
-    "checked_at": "2026-11-15T01:44:56+00:00",
+    "checked_at": "2026-11-15T13:07:07+00:00",
     "fetched": 2,
     "matched": 2,
     "rejected_examples": []
@@ -358,8 +358,8 @@
     "atlassian"
    ],
    "status": "ok",
-   "fetched": 308,
-   "title_matches": 16,
+   "fetched": 276,
+   "title_matches": 15,
    "matched": 7,
    "errors": [],
    "notes": [],
@@ -375,7 +375,7 @@
     "location: Senior Product Manager, DX - Data Platform and Integrations | Salt Lake City - United States -   Salt Lake City, Utah 84044 United States; Rem"
    ],
    "requests": 1,
-   "secs": 0.3,
+   "secs": 0.2,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-15T02:34:00+00:00",
     "fetched": 0,
@@ -398,9 +398,9 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 10,
-   "secs": 5.4,
+   "secs": 5.2,
    "linkedin_crosscheck": {
-    "checked_at": "2026-11-14T11:50:57+00:00",
+    "checked_at": "2026-11-15T18:58:36+00:00",
     "fetched": 0,
     "missed_by_site": 0
    }
@@ -442,7 +442,7 @@
     "older than 60 days: Senior Snowflake Data & AI Platform Engineer | 2026-05-04"
    ],
    "requests": 1,
-   "secs": 0.5,
+   "secs": 0.4,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-15T02:34:00+00:00",
     "fetched": 0,
@@ -462,7 +462,7 @@
    ],
    "careers_url": "https://www.axis.bank.in/careers",
    "linkedin": {
-    "checked_at": "2026-11-15T01:44:56+00:00",
+    "checked_at": "2026-11-15T13:07:07+00:00",
     "fetched": 0,
     "matched": 0,
     "rejected_examples": []
@@ -476,17 +476,18 @@
    "status": "ok",
    "fetched": 23,
    "title_matches": 5,
-   "matched": 2,
+   "matched": 1,
    "errors": [],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [
+    "older than 60 days: Senior Data Engineer | 2026-09-16",
     "location: Senior AI Data Architect / Solution Engineer - Flexible across Portugal, Spain, Ireland, India | Lisbon, Portugal",
     "location: Senior AI Data Architect / Solution Engineer - Canada | Montreal, Canada",
     "location: Senior AI Data Architect / Solution Engineer - India based | Bangalore, India"
    ],
    "requests": 10,
-   "secs": 9.4,
+   "secs": 7.8,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-15T02:34:00+00:00",
     "fetched": 0,
@@ -506,7 +507,7 @@
    ],
    "careers_url": "https://www.bmwgroup.jobs/in/en.html",
    "linkedin": {
-    "checked_at": "2026-11-15T01:44:56+00:00",
+    "checked_at": "2026-11-15T13:07:07+00:00",
     "fetched": 0,
     "matched": 0,
     "rejected_examples": []
@@ -525,7 +526,7 @@
    ],
    "careers_url": "https://group.bnpparibas/en/careers/all-job-offers/india",
    "linkedin": {
-    "checked_at": "2026-11-15T01:44:56+00:00",
+    "checked_at": "2026-11-15T13:07:07+00:00",
     "fetched": 3,
     "matched": 2,
     "rejected_examples": []
@@ -544,7 +545,7 @@
    ],
    "careers_url": "https://bny.wd1.myworkdayjobs.com/",
    "linkedin": {
-    "checked_at": "2026-11-15T01:44:56+00:00",
+    "checked_at": "2026-11-15T14:02:33+00:00",
     "fetched": 0,
     "matched": 0,
     "rejected_examples": []
@@ -566,9 +567,9 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 10,
-   "secs": 7.7,
+   "secs": 7.4,
    "linkedin_crosscheck": {
-    "checked_at": "2026-11-14T11:50:57+00:00",
+    "checked_at": "2026-11-15T18:58:36+00:00",
     "fetched": 0,
     "missed_by_site": 0
    }
@@ -579,7 +580,7 @@
     "workday"
    ],
    "status": "ok",
-   "fetched": 64,
+   "fetched": 63,
    "title_matches": 0,
    "matched": 0,
    "errors": [],
@@ -589,7 +590,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 13,
-   "secs": 3.8,
+   "secs": 2.8,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-15T02:34:00+00:00",
     "fetched": 0,
@@ -602,7 +603,7 @@
     "workday"
    ],
    "status": "ok",
-   "fetched": 192,
+   "fetched": 191,
    "title_matches": 10,
    "matched": 5,
    "errors": [],
@@ -618,7 +619,7 @@
     "older than 60 days: Senior ETL Data Egg | 2026-08-10"
    ],
    "requests": 28,
-   "secs": 12.6,
+   "secs": 12.3,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-15T02:59:41+00:00",
     "fetched": 6,
@@ -638,7 +639,7 @@
    ],
    "careers_url": "https://www.billdesk.com/web/careers",
    "linkedin": {
-    "checked_at": "2026-11-15T01:44:56+00:00",
+    "checked_at": "2026-11-15T14:02:33+00:00",
     "fetched": 0,
     "matched": 0,
     "rejected_examples": []
@@ -650,7 +651,7 @@
     "workday"
    ],
    "status": "ok",
-   "fetched": 37,
+   "fetched": 35,
    "title_matches": 3,
    "matched": 2,
    "errors": [],
@@ -662,9 +663,9 @@
     "location: VP - Senior Data Engineer | Bengaluru, India"
    ],
    "requests": 12,
-   "secs": 3.7,
+   "secs": 2.7,
    "linkedin_crosscheck": {
-    "checked_at": "2026-11-14T11:50:57+00:00",
+    "checked_at": "2026-11-15T19:54:12+00:00",
     "fetched": 3,
     "missed_by_site": 0
    }
@@ -675,24 +676,24 @@
     "avature"
    ],
    "status": "ok",
-   "fetched": 114,
-   "title_matches": 12,
+   "fetched": 117,
+   "title_matches": 15,
    "matched": 0,
    "errors": [],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [
-    "location: Senior Software Engineer - Data License Plus | Dublin, Ireland",
+    "location: Senior Software Engineer – Data and Platform Tools – Bloomberg Connects | New York, New York, United States of America",
+    "location: Senior Data Management Professional - Data Engineering (Data AI) | New York, New York, United States of America",
+    "location: Senior Data Management Professional - Data Automation Engineer - People Data | New York, New York, United States of America",
+    "location: Team Leader - Data Engineering & Integration - Commodities Data | London, United Kingdom",
     "location: Database Platform Engineer - Data License Plus | Dublin, Ireland",
-    "location: Senior Software Engineer - Hadoop Infrastructure | New York, New York, United States of America",
-    "location: Senior Data Management Professional - Data Engineering - OTC Composites & Instruments | Dublin, Ireland",
-    "location: Climate Data Utility Tech Team - Senior Data Engineer | London, United Kingdom",
-    "location: Senior Data Management Professional - Data Engineering (Data AI) | Princeton, New Jersey, United States of America",
-    "location: Senior Data Management Professional - Data Engineering - Corporate Actions | Princeton, New Jersey, United States of America",
-    "location: Senior Data Management Professional – Automation Engineer - Economics News | New York, New York, United States of America"
+    "location: Senior Software Engineer - Data Governance & Management Platforms | New York, New York, United States of America",
+    "location: Senior Data Management Professional - Automation Engineer - Economics News | Princeton, New Jersey, United States of America",
+    "location: Senior Data Management Professional - Data Engineering - OTC Composites & Instruments | Dublin, Ireland"
    ],
    "requests": 16,
-   "secs": 19.6,
+   "secs": 16.5,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-15T02:59:41+00:00",
     "fetched": 1,
@@ -713,7 +714,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 23.3,
+   "secs": 0.9,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-15T02:59:41+00:00",
     "fetched": 0,
@@ -736,7 +737,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 11,
-   "secs": 6.1,
+   "secs": 5.6,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-15T02:59:41+00:00",
     "fetched": 0,
@@ -757,7 +758,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 17.1,
+   "secs": 0.6,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-15T02:59:41+00:00",
     "fetched": 0,
@@ -806,7 +807,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 9,
-   "secs": 2.3,
+   "secs": 2.9,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-15T02:59:41+00:00",
     "fetched": 0,
@@ -826,7 +827,7 @@
    ],
    "careers_url": "https://careers.cimpress.com/",
    "linkedin": {
-    "checked_at": "2026-11-15T01:44:56+00:00",
+    "checked_at": "2026-11-15T14:02:33+00:00",
     "fetched": 0,
     "matched": 0,
     "rejected_examples": []
@@ -838,7 +839,7 @@
     "workday"
    ],
    "status": "ok",
-   "fetched": 312,
+   "fetched": 313,
    "title_matches": 7,
    "matched": 1,
    "errors": [],
@@ -855,9 +856,9 @@
     "older than 60 days: Data Engineer | 2026-09-15"
    ],
    "requests": 44,
-   "secs": 12.9,
+   "secs": 15.6,
    "linkedin_crosscheck": {
-    "checked_at": "2026-11-14T11:50:57+00:00",
+    "checked_at": "2026-11-15T19:54:12+00:00",
     "fetched": 1,
     "missed_by_site": 0
    }
@@ -868,8 +869,8 @@
     "workday"
    ],
    "status": "ok",
-   "fetched": 662,
-   "title_matches": 56,
+   "fetched": 654,
+   "title_matches": 55,
    "matched": 31,
    "errors": [],
    "notes": [
@@ -886,10 +887,10 @@
     "older than 60 days: Lead Data Engineer - Assistant Vice President | 2025-09-25",
     "location: AVP C12- Data Engineering (Pyspark, Cloud, Hive, Scala)- Bangalore | Bangalore Karnataka India; Chennai Tamil Nadu India"
    ],
-   "requests": 80,
-   "secs": 54.8,
+   "requests": 79,
+   "secs": 58.6,
    "linkedin_crosscheck": {
-    "checked_at": "2026-11-14T11:50:57+00:00",
+    "checked_at": "2026-11-15T19:54:12+00:00",
     "fetched": 10,
     "missed_by_site": 0
    }
@@ -907,7 +908,7 @@
    ],
    "careers_url": "https://www.claroda.com/careers",
    "linkedin": {
-    "checked_at": "2026-11-15T01:44:56+00:00",
+    "checked_at": "2026-11-15T14:02:33+00:00",
     "fetched": 0,
     "matched": 0,
     "rejected_examples": []
@@ -927,7 +928,7 @@
    "careers_url": "https://careers.kula.ai/clevertap",
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.8,
+   "secs": 0.5,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-15T02:59:41+00:00",
     "fetched": 0,
@@ -950,9 +951,9 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 10,
-   "secs": 4.6,
+   "secs": 4.5,
    "linkedin_crosscheck": {
-    "checked_at": "2026-11-14T13:05:06+00:00",
+    "checked_at": "2026-11-15T21:51:26+00:00",
     "fetched": 0,
     "missed_by_site": 0
    }
@@ -978,7 +979,7 @@
     "location: Staff Data Engineer, Market Data | Remote - USA"
    ],
    "requests": 1,
-   "secs": 0.2,
+   "secs": 0.1,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-15T04:04:23+00:00",
     "fetched": 0,
@@ -999,9 +1000,9 @@
    "careers_url": "https://careers.confluent.io/open-positions/india",
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.1,
+   "secs": 0.0,
    "linkedin": {
-    "checked_at": "2026-11-15T02:34:00+00:00",
+    "checked_at": "2026-11-15T22:51:29+00:00",
     "fetched": 0,
     "matched": 0,
     "rejected_examples": []
@@ -1044,9 +1045,9 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 10,
-   "secs": 4.9,
+   "secs": 5.0,
    "linkedin_crosscheck": {
-    "checked_at": "2026-11-14T13:05:06+00:00",
+    "checked_at": "2026-11-15T21:51:26+00:00",
     "fetched": 0,
     "missed_by_site": 0
    }
@@ -1057,7 +1058,7 @@
     "jobsyn"
    ],
    "status": "ok",
-   "fetched": 98,
+   "fetched": 97,
    "title_matches": 13,
    "matched": 1,
    "errors": [],
@@ -1074,7 +1075,7 @@
     "older than 60 days: Data Engineer 3 | 2026-08-21"
    ],
    "requests": 35,
-   "secs": 6.7,
+   "secs": 1.8,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-15T04:04:23+00:00",
     "fetched": 10,
@@ -1099,7 +1100,7 @@
     "location: Associate, Data Engineer, Transformation and Data | Hyderabad - DTI Skyview SEZ"
    ],
    "requests": 16,
-   "secs": 9.8,
+   "secs": 8.8,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-15T04:04:23+00:00",
     "fetched": 0,
@@ -1124,7 +1125,7 @@
     "older than 60 days: Staff Engineer - Data Path | 2026-08-10"
    ],
    "requests": 1,
-   "secs": 0.2,
+   "secs": 0.1,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-15T04:04:23+00:00",
     "fetched": 0,
@@ -1147,7 +1148,7 @@
    "careers_url": "https://jobs.dnv.com/locations/india",
    "rejected_examples": [],
    "requests": 10,
-   "secs": 5.6,
+   "secs": 5.1,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-15T04:04:23+00:00",
     "fetched": 0,
@@ -1167,7 +1168,7 @@
    ],
    "careers_url": "https://www.3ds.com/careers/jobs?location=Pune",
    "linkedin": {
-    "checked_at": "2026-11-15T01:44:56+00:00",
+    "checked_at": "2026-11-15T14:02:33+00:00",
     "fetched": 0,
     "matched": 0,
     "rejected_examples": []
@@ -1193,10 +1194,10 @@
     "location: Senior Manager - Technical Solutions (Big Data / AI) | Bengaluru, India",
     "location: Senior Software Engineer - Data + AI Observability | Bengaluru, India",
     "location: Senior Software Engineer (Data Platform) | Bengaluru, India",
-    "location: Senior Software Engineer - Distributed Data Systems | Mountain View, California"
+    "location: Senior Software Engineer - Distributed Data Systems | Belgrade, Serbia"
    ],
    "requests": 1,
-   "secs": 0.5,
+   "secs": 0.2,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-15T04:04:23+00:00",
     "fetched": 0,
@@ -1209,7 +1210,7 @@
     "workday"
    ],
    "status": "ok",
-   "fetched": 301,
+   "fetched": 300,
    "title_matches": 3,
    "matched": 2,
    "errors": [],
@@ -1220,8 +1221,8 @@
    "rejected_examples": [
     "location: AVP – Data Engineer | Bangalore Velankani ISC"
    ],
-   "requests": 28,
-   "secs": 19.4,
+   "requests": 27,
+   "secs": 16.9,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-15T04:04:23+00:00",
     "fetched": 5,
@@ -1245,7 +1246,7 @@
     "location: Software Engineer, Data Engineering | Hyderabad, India"
    ],
    "requests": 1,
-   "secs": 0.2,
+   "secs": 0.1,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-15T05:05:58+00:00",
     "fetched": 0,
@@ -1258,7 +1259,7 @@
     "workday"
    ],
    "status": "ok",
-   "fetched": 6,
+   "fetched": 5,
    "title_matches": 0,
    "matched": 0,
    "errors": [],
@@ -1268,9 +1269,9 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 10,
-   "secs": 7.6,
+   "secs": 5.7,
    "linkedin_crosscheck": {
-    "checked_at": "2026-11-14T13:05:06+00:00",
+    "checked_at": "2026-11-15T21:51:26+00:00",
     "fetched": 1,
     "missed_by_site": 0
    }
@@ -1288,7 +1289,7 @@
    ],
    "careers_url": "https://www.dreamsports.group/",
    "linkedin": {
-    "checked_at": "2026-11-15T01:44:56+00:00",
+    "checked_at": "2026-11-15T14:55:49+00:00",
     "fetched": 0,
     "matched": 0,
     "rejected_examples": []
@@ -1311,7 +1312,7 @@
     "older than 60 days: Software Engineer (Data Engineering) | 2022-12-24"
    ],
    "requests": 1,
-   "secs": 0.6,
+   "secs": 0.9,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-15T05:05:58+00:00",
     "fetched": 0,
@@ -1347,22 +1348,22 @@
    "status": "ok",
    "fetched": 200,
    "title_matches": 18,
-   "matched": 7,
+   "matched": 6,
    "errors": [],
    "notes": [],
    "careers_url": "https://careers.epam.com/en/jobs/india",
    "rejected_examples": [
     "location: Senior Snowflake Data Engineer | Coimbatore, India; Chennai, India",
+    "older than 60 days: Data Quality Engineer | 2026-09-16",
     "location: Senior Palantir Data Software Engineer | Chennai, India",
     "location: Lead Data Software Engineer | Chennai, India; Coimbatore, India",
     "location: Lead Palantir Data Software Engineer | Chennai, India",
     "older than 60 days: Senior Snowflake Data Engineer | 2026-08-31",
     "older than 60 days: Lead Data Software Engineer | 2026-08-31",
-    "location: Senior Data Software Engineer | Chennai, India; Coimbatore, India",
-    "location: Senior Palantir Data Software Engineer | Coimbatore, India"
+    "location: Senior Data Software Engineer | Chennai, India; Coimbatore, India"
    ],
    "requests": 36,
-   "secs": 15.8,
+   "secs": 13.2,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-15T05:05:58+00:00",
     "fetched": 0,
@@ -1382,7 +1383,7 @@
    ],
    "careers_url": "https://www.esteco.com/",
    "linkedin": {
-    "checked_at": "2026-11-15T01:44:56+00:00",
+    "checked_at": "2026-11-15T14:55:49+00:00",
     "fetched": 0,
     "matched": 0,
     "rejected_examples": []
@@ -1402,7 +1403,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 22,
-   "secs": 5.4,
+   "secs": 7.6,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-15T05:05:58+00:00",
     "fetched": 1,
@@ -1434,9 +1435,9 @@
     "location: Principal AI Engineer — AI & Data Platform | IND - Karnataka - Bangalore - EDC"
    ],
    "requests": 16,
-   "secs": 5.8,
+   "secs": 4.4,
    "linkedin_crosscheck": {
-    "checked_at": "2026-11-14T13:05:06+00:00",
+    "checked_at": "2026-11-15T21:51:26+00:00",
     "fetched": 0,
     "missed_by_site": 0
    }
@@ -1447,7 +1448,7 @@
     "oracle"
    ],
    "status": "ok",
-   "fetched": 136,
+   "fetched": 138,
    "title_matches": 0,
    "matched": 0,
    "errors": [],
@@ -1457,7 +1458,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 16,
-   "secs": 8.7,
+   "secs": 9.6,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-15T06:02:36+00:00",
     "fetched": 0,
@@ -1480,7 +1481,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 10,
-   "secs": 6.6,
+   "secs": 5.5,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-15T06:02:36+00:00",
     "fetched": 0,
@@ -1506,9 +1507,9 @@
     "location: Senior Staff Engineer - Network Telemetry & Data Platforms | Bangalore Office BLS2"
    ],
    "requests": 11,
-   "secs": 6.2,
+   "secs": 5.5,
    "linkedin_crosscheck": {
-    "checked_at": "2026-11-14T14:00:18+00:00",
+    "checked_at": "2026-11-15T22:51:29+00:00",
     "fetched": 0,
     "missed_by_site": 0
    }
@@ -1526,7 +1527,7 @@
    ],
    "careers_url": "https://eruditus.com/",
    "linkedin": {
-    "checked_at": "2026-11-15T01:44:56+00:00",
+    "checked_at": "2026-11-15T14:55:49+00:00",
     "fetched": 0,
     "matched": 0,
     "rejected_examples": []
@@ -1538,19 +1539,19 @@
     "workday"
    ],
    "status": "ok",
-   "fetched": 67,
+   "fetched": 66,
    "title_matches": 0,
    "matched": 0,
    "errors": [],
    "notes": [
-    "workday: locations in [IND BNGL FL2-3 TWR 3, IND BNGL Flr5 TWR1, IND CHNN 32 A&B 3FL STE C-D, IND HRYN 402, IND HYDB 18-23 OB3, IND MUMB FL3…]"
+    "workday: locations in [IND BNGL FL2-3 TWR 3, IND CHNN 32 A&B 3FL STE C-D, IND HRYN 402, IND HYDB 18-23 OB3, IND MUMB FL3, IND NOID C-25 SEC-62 TWR 1…]"
    ],
    "careers_url": null,
    "rejected_examples": [],
    "requests": 13,
    "secs": 3.4,
    "linkedin_crosscheck": {
-    "checked_at": "2026-11-14T14:00:18+00:00",
+    "checked_at": "2026-11-15T22:51:29+00:00",
     "fetched": 0,
     "missed_by_site": 0
    }
@@ -1568,7 +1569,7 @@
    ],
    "careers_url": "https://www.forvia.com/en/careers",
    "linkedin": {
-    "checked_at": "2026-11-15T01:44:56+00:00",
+    "checked_at": "2026-11-15T14:55:49+00:00",
     "fetched": 0,
     "matched": 0,
     "rejected_examples": []
@@ -1608,7 +1609,7 @@
    ],
    "careers_url": "https://careers.fedex.com/jobs",
    "linkedin": {
-    "checked_at": "2026-11-15T01:44:56+00:00",
+    "checked_at": "2026-11-15T14:55:49+00:00",
     "fetched": 2,
     "matched": 2,
     "rejected_examples": []
@@ -1627,7 +1628,7 @@
    ],
    "careers_url": "https://www.federalbank.co.in/careers",
    "linkedin": {
-    "checked_at": "2026-11-15T01:44:56+00:00",
+    "checked_at": "2026-11-15T15:52:22+00:00",
     "fetched": 0,
     "matched": 0,
     "rejected_examples": []
@@ -1647,7 +1648,7 @@
    "careers_url": "https://firstadvantage.applytojob.com/apply",
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.6,
+   "secs": 0.1,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-15T06:02:36+00:00",
     "fetched": 0,
@@ -1667,7 +1668,7 @@
    ],
    "careers_url": "https://www.firstcry.com/careers",
    "linkedin": {
-    "checked_at": "2026-11-15T01:44:56+00:00",
+    "checked_at": "2026-11-15T15:52:22+00:00",
     "fetched": 0,
     "matched": 0,
     "rejected_examples": []
@@ -1679,7 +1680,7 @@
     "workday"
    ],
    "status": "ok",
-   "fetched": 9,
+   "fetched": 8,
    "title_matches": 0,
    "matched": 0,
    "errors": [],
@@ -1689,9 +1690,9 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 10,
-   "secs": 2.2,
+   "secs": 3.1,
    "linkedin_crosscheck": {
-    "checked_at": "2026-11-14T14:00:18+00:00",
+    "checked_at": "2026-11-15T22:51:29+00:00",
     "fetched": 0,
     "missed_by_site": 0
    }
@@ -1718,7 +1719,7 @@
     "location: Staff Software Engineer-dbt core | Bangalore, India"
    ],
    "requests": 1,
-   "secs": 0.1,
+   "secs": 0.2,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-15T06:02:36+00:00",
     "fetched": 0,
@@ -1739,7 +1740,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.6,
+   "secs": 0.4,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-15T06:02:36+00:00",
     "fetched": 0,
@@ -1752,7 +1753,7 @@
     "jibe"
    ],
    "status": "ok",
-   "fetched": 132,
+   "fetched": 196,
    "title_matches": 12,
    "matched": 6,
    "errors": [],
@@ -1766,8 +1767,8 @@
     "older than 60 days: Senior Gen AI Data Engineer | 2026-09-11",
     "older than 60 days: Senior Gen AI Data Engineer | 2026-09-11"
    ],
-   "requests": 38,
-   "secs": 13.3,
+   "requests": 52,
+   "secs": 14.0,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-15T06:02:36+00:00",
     "fetched": 0,
@@ -1797,9 +1798,9 @@
     "older than 60 days: Senior Data Engineer (10–12 Years' Experience Required) | 2026-08-05"
    ],
    "requests": 37,
-   "secs": 16.7,
+   "secs": 28.4,
    "linkedin_crosscheck": {
-    "checked_at": "2026-11-14T14:00:18+00:00",
+    "checked_at": "2026-11-15T23:56:19+00:00",
     "fetched": 6,
     "missed_by_site": 0
    }
@@ -1856,7 +1857,7 @@
     "goldman"
    ],
    "status": "ok",
-   "fetched": 496,
+   "fetched": 499,
    "title_matches": 8,
    "matched": 0,
    "errors": [],
@@ -1873,7 +1874,7 @@
     "location: The Core Engineering - NFR & Controls Data Eng - Associate - Hyderabad | Hyderabad, Telangana, India"
    ],
    "requests": 15,
-   "secs": 3.2,
+   "secs": 1.5,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-15T07:18:43+00:00",
     "fetched": 1,
@@ -1894,7 +1895,7 @@
    "careers_url": "https://www.google.com/about/careers/applications/jobs/results?location=India",
    "rejected_examples": [],
    "requests": 23,
-   "secs": 4.7,
+   "secs": 2.3,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-15T07:18:43+00:00",
     "fetched": 0,
@@ -1914,7 +1915,7 @@
    ],
    "careers_url": "https://www.hdfc.bank.in/careers",
    "linkedin": {
-    "checked_at": "2026-11-15T01:44:56+00:00",
+    "checked_at": "2026-11-15T15:52:22+00:00",
     "fetched": 0,
     "matched": 0,
     "rejected_examples": []
@@ -1934,7 +1935,7 @@
    "careers_url": "https://careers.here.com/jobs?location=India",
    "rejected_examples": [],
    "requests": 9,
-   "secs": 1.7,
+   "secs": 2.1,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-15T07:18:43+00:00",
     "fetched": 0,
@@ -1947,7 +1948,7 @@
     "jobsyn"
    ],
    "status": "ok",
-   "fetched": 49,
+   "fetched": 45,
    "title_matches": 0,
    "matched": 0,
    "errors": [],
@@ -1955,7 +1956,7 @@
    "careers_url": "https://mycareer.hsbc.com/en_GB/external/SearchJobs",
    "rejected_examples": [],
    "requests": 23,
-   "secs": 3.6,
+   "secs": 2.2,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-15T07:18:43+00:00",
     "fetched": 0,
@@ -1979,7 +1980,7 @@
     "older than 60 days: Sr. Product Manager - Custom Objects & CRM Data Platform | 2026-09-10"
    ],
    "requests": 1,
-   "secs": 0.5,
+   "secs": 1.0,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-15T07:18:43+00:00",
     "fetched": 0,
@@ -1992,7 +1993,7 @@
     "workday"
    ],
    "status": "ok",
-   "fetched": 772,
+   "fetched": 763,
    "title_matches": 3,
    "matched": 1,
    "errors": [],
@@ -2006,9 +2007,9 @@
     "location: Legal & Integrity Operations Developer & Data Analyst | Bengaluru, Karnataka, India"
    ],
    "requests": 49,
-   "secs": 37.8,
+   "secs": 34.3,
    "linkedin_crosscheck": {
-    "checked_at": "2026-11-14T14:00:18+00:00",
+    "checked_at": "2026-11-15T23:56:19+00:00",
     "fetched": 1,
     "missed_by_site": 1
    }
@@ -2029,7 +2030,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 16,
-   "secs": 9.0,
+   "secs": 9.2,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-15T07:18:43+00:00",
     "fetched": 0,
@@ -2052,8 +2053,8 @@
     "location: Senior Developer, Data Engineer | Hyderabad, India; Hyderabad, India",
     "location: Senior Developer, Data Engineer | Hyderabad, India; Hyderabad, India"
    ],
-   "requests": 17,
-   "secs": 4.5,
+   "requests": 20,
+   "secs": 5.1,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-15T07:18:43+00:00",
     "fetched": 0,
@@ -2073,7 +2074,7 @@
    ],
    "careers_url": "https://careers.icici.bank.in/",
    "linkedin": {
-    "checked_at": "2026-11-15T01:44:56+00:00",
+    "checked_at": "2026-11-15T15:52:22+00:00",
     "fetched": 0,
     "matched": 0,
     "rejected_examples": []
@@ -2092,7 +2093,7 @@
    ],
    "careers_url": "https://www.idfcfirstbank.com/careers",
    "linkedin": {
-    "checked_at": "2026-11-15T01:44:56+00:00",
+    "checked_at": "2026-11-15T15:52:22+00:00",
     "fetched": 1,
     "matched": 0,
     "rejected_examples": [
@@ -2116,7 +2117,7 @@
     "older than 60 days: Senior Data Engineer (with AI/ML experience) India | 2026-01-30"
    ],
    "requests": 1,
-   "secs": 13.2,
+   "secs": 1.5,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-15T09:00:10+00:00",
     "fetched": 0,
@@ -2139,7 +2140,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 10,
-   "secs": 5.8,
+   "secs": 5.5,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-15T09:00:10+00:00",
     "fetched": 0,
@@ -2159,7 +2160,7 @@
    ],
    "careers_url": "https://www.indusind.com/in/en/careers.html",
    "linkedin": {
-    "checked_at": "2026-11-15T01:44:56+00:00",
+    "checked_at": "2026-11-15T16:53:42+00:00",
     "fetched": 0,
     "matched": 0,
     "rejected_examples": []
@@ -2171,7 +2172,7 @@
     "oracle"
    ],
    "status": "ok",
-   "fetched": 241,
+   "fetched": 240,
    "title_matches": 5,
    "matched": 0,
    "errors": [],
@@ -2187,7 +2188,7 @@
     "location: Senior Lead Software Engineer Data Platform Python or Java, big data | Bengaluru, Karnataka, India"
    ],
    "requests": 21,
-   "secs": 7.9,
+   "secs": 8.7,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-15T09:00:10+00:00",
     "fetched": 1,
@@ -2207,7 +2208,7 @@
    ],
    "careers_url": "https://www.jefferies.com/careers/",
    "linkedin": {
-    "checked_at": "2026-11-15T01:44:56+00:00",
+    "checked_at": "2026-11-15T16:53:42+00:00",
     "fetched": 2,
     "matched": 1,
     "rejected_examples": []
@@ -2226,7 +2227,7 @@
    ],
    "careers_url": "https://careers.jio.com/",
    "linkedin": {
-    "checked_at": "2026-11-15T01:44:56+00:00",
+    "checked_at": "2026-11-15T16:53:42+00:00",
     "fetched": 0,
     "matched": 0,
     "rejected_examples": []
@@ -2245,7 +2246,7 @@
    ],
    "careers_url": "https://careers.jiostar.com/",
    "linkedin": {
-    "checked_at": "2026-11-15T01:44:56+00:00",
+    "checked_at": "2026-11-15T16:53:42+00:00",
     "fetched": 2,
     "matched": 2,
     "rejected_examples": []
@@ -2268,7 +2269,7 @@
     "location: Analytics Data Engineer II - Campinas/SP | Campinas,Sao Paulo,Brazil"
    ],
    "requests": 22,
-   "secs": 6.0,
+   "secs": 9.9,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-15T09:00:10+00:00",
     "fetched": 0,
@@ -2281,7 +2282,7 @@
     "workday"
    ],
    "status": "ok",
-   "fetched": 60,
+   "fetched": 58,
    "title_matches": 0,
    "matched": 0,
    "errors": [],
@@ -2291,9 +2292,9 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 12,
-   "secs": 3.8,
+   "secs": 3.9,
    "linkedin_crosscheck": {
-    "checked_at": "2026-11-14T14:54:38+00:00",
+    "checked_at": "2026-11-15T23:56:19+00:00",
     "fetched": 0,
     "missed_by_site": 0
    }
@@ -2304,7 +2305,7 @@
     "workday"
    ],
    "status": "ok",
-   "fetched": 73,
+   "fetched": 69,
    "title_matches": 1,
    "matched": 0,
    "errors": [],
@@ -2316,9 +2317,9 @@
     "location: Security Data & SIEM Engineer | Bangalore-Karnataka-India"
    ],
    "requests": 13,
-   "secs": 7.4,
+   "secs": 4.4,
    "linkedin_crosscheck": {
-    "checked_at": "2026-11-14T14:54:38+00:00",
+    "checked_at": "2026-11-15T23:56:19+00:00",
     "fetched": 0,
     "missed_by_site": 0
    }
@@ -2341,7 +2342,7 @@
     "older than 60 days: Principal Data Engineer, Data Products | 2026-07-22"
    ],
    "requests": 13,
-   "secs": 8.9,
+   "secs": 8.6,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-15T09:00:10+00:00",
     "fetched": 1,
@@ -2361,7 +2362,7 @@
    ],
    "careers_url": "https://www.kotak.bank.in/en/about-us/careers.html",
    "linkedin": {
-    "checked_at": "2026-11-15T01:44:56+00:00",
+    "checked_at": "2026-11-15T16:53:42+00:00",
     "fetched": 0,
     "matched": 0,
     "rejected_examples": []
@@ -2373,7 +2374,7 @@
     "workday"
    ],
    "status": "ok",
-   "fetched": 202,
+   "fetched": 197,
    "title_matches": 10,
    "matched": 0,
    "errors": [],
@@ -2391,8 +2392,8 @@
     "location: Senior Data Platform Administrator | IND-BLR-Divyasree Technopolis; IND-Bangalore-A, RMZ Infinity",
     "location: FTSE Software Engineering & Data Engineering Opportunities | IND-BLR-Divyasree Technopolis"
    ],
-   "requests": 23,
-   "secs": 21.1,
+   "requests": 22,
+   "secs": 17.2,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-15T09:00:10+00:00",
     "fetched": 0,
@@ -2412,7 +2413,7 @@
    ],
    "careers_url": "https://lentra.ai/",
    "linkedin": {
-    "checked_at": "2026-11-15T01:44:56+00:00",
+    "checked_at": "2026-11-15T17:48:11+00:00",
     "fetched": 0,
     "matched": 0,
     "rejected_examples": []
@@ -2434,7 +2435,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 11,
-   "secs": 8.2,
+   "secs": 7.0,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-15T09:00:10+00:00",
     "fetched": 0,
@@ -2447,7 +2448,7 @@
     "workday"
    ],
    "status": "ok",
-   "fetched": 27,
+   "fetched": 20,
    "title_matches": 3,
    "matched": 0,
    "errors": [],
@@ -2460,10 +2461,10 @@
     "location: Sr. Specialist, Data Engineering | IND - Telangana - Hyderabad (Hitec City Raidurg)",
     "location: Lead Semantic Data Engineer | CZE - Central Bohemian - Prague (Five); IND - Telangana - Hyderabad; IND - Telan"
    ],
-   "requests": 12,
-   "secs": 3.9,
+   "requests": 11,
+   "secs": 3.6,
    "linkedin_crosscheck": {
-    "checked_at": "2026-11-14T14:54:38+00:00",
+    "checked_at": "2026-11-15T23:56:19+00:00",
     "fetched": 0,
     "missed_by_site": 0
    }
@@ -2474,7 +2475,7 @@
     "workday"
    ],
    "status": "ok",
-   "fetched": 116,
+   "fetched": 115,
    "title_matches": 5,
    "matched": 2,
    "errors": [],
@@ -2488,7 +2489,7 @@
     "location: Lead Engineer - Data & AI | India, Bengaluru, 560064"
    ],
    "requests": 17,
-   "secs": 7.1,
+   "secs": 6.3,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-15T09:00:10+00:00",
     "fetched": 0,
@@ -2514,7 +2515,7 @@
     "location: Oliver Wyman - Lead Data Engineer - Data and Analytics (DNA) - Gurugram, India | Gurugram - Horizon"
    ],
    "requests": 12,
-   "secs": 9.3,
+   "secs": 8.3,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-14T14:54:38+00:00",
     "fetched": 3,
@@ -2537,7 +2538,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 12,
-   "secs": 4.8,
+   "secs": 4.0,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-14T14:54:38+00:00",
     "fetched": 0,
@@ -2550,9 +2551,9 @@
     "workday"
    ],
    "status": "ok",
-   "fetched": 166,
-   "title_matches": 16,
-   "matched": 10,
+   "fetched": 164,
+   "title_matches": 15,
+   "matched": 9,
    "errors": [],
    "notes": [
     "workday: locations in [Bangalore, India, Gurgaon, India, Gurgaon, India, Hyderabad, India, Mumbai, India, Mumbai, India…]"
@@ -2567,7 +2568,7 @@
     "older than 60 days: Sr Data Engineer | 2026-07-21"
    ],
    "requests": 30,
-   "secs": 20.9,
+   "secs": 17.5,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-14T15:51:52+00:00",
     "fetched": 10,
@@ -2587,7 +2588,7 @@
    ],
    "careers_url": "https://careers.media.net/",
    "linkedin": {
-    "checked_at": "2026-11-15T01:44:56+00:00",
+    "checked_at": "2026-11-15T17:48:11+00:00",
     "fetched": 1,
     "matched": 1,
     "rejected_examples": []
@@ -2609,7 +2610,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 12,
-   "secs": 5.3,
+   "secs": 5.4,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-14T15:51:52+00:00",
     "fetched": 1,
@@ -2630,9 +2631,9 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.4,
+   "secs": 0.8,
    "linkedin_crosscheck": {
-    "checked_at": "2026-11-14T05:59:41+00:00",
+    "checked_at": "2026-11-15T11:22:08+00:00",
     "fetched": 0,
     "missed_by_site": 0
    }
@@ -2643,7 +2644,7 @@
     "avature"
    ],
    "status": "ok",
-   "fetched": 10,
+   "fetched": 12,
    "title_matches": 6,
    "matched": 5,
    "errors": [],
@@ -2653,9 +2654,9 @@
     "location: Lead Data Engineer | Cary, United States"
    ],
    "requests": 9,
-   "secs": 5.6,
+   "secs": 6.5,
    "linkedin_crosscheck": {
-    "checked_at": "2026-11-14T05:59:41+00:00",
+    "checked_at": "2026-11-15T11:22:08+00:00",
     "fetched": 5,
     "missed_by_site": 0
    }
@@ -2666,7 +2667,7 @@
     "workday"
    ],
    "status": "ok",
-   "fetched": 11,
+   "fetched": 10,
    "title_matches": 0,
    "matched": 0,
    "errors": [],
@@ -2676,9 +2677,9 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 10,
-   "secs": 9.0,
+   "secs": 8.9,
    "linkedin_crosscheck": {
-    "checked_at": "2026-11-14T05:59:41+00:00",
+    "checked_at": "2026-11-15T11:22:08+00:00",
     "fetched": 0,
     "missed_by_site": 0
    }
@@ -2689,7 +2690,7 @@
     "eightfold"
    ],
    "status": "ok",
-   "fetched": 126,
+   "fetched": 125,
    "title_matches": 0,
    "matched": 0,
    "errors": [],
@@ -2697,9 +2698,9 @@
    "careers_url": "https://apply.careers.microsoft.com/careers?location=India",
    "rejected_examples": [],
    "requests": 28,
-   "secs": 7.0,
+   "secs": 7.1,
    "linkedin_crosscheck": {
-    "checked_at": "2026-11-14T07:17:43+00:00",
+    "checked_at": "2026-11-15T11:22:08+00:00",
     "fetched": 0,
     "missed_by_site": 0
    }
@@ -2718,9 +2719,9 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 5.7,
+   "secs": 0.8,
    "linkedin_crosscheck": {
-    "checked_at": "2026-11-14T07:17:43+00:00",
+    "checked_at": "2026-11-15T11:22:08+00:00",
     "fetched": 0,
     "missed_by_site": 0
    }
@@ -2738,7 +2739,7 @@
    ],
    "careers_url": "https://www.mitsubishielectric.in/careers",
    "linkedin": {
-    "checked_at": "2026-11-15T01:44:56+00:00",
+    "checked_at": "2026-11-15T17:48:11+00:00",
     "fetched": 0,
     "matched": 0,
     "rejected_examples": []
@@ -2757,7 +2758,7 @@
    ],
    "careers_url": "https://www.mizuhogroup.com/asia-pacific/mizuho-global-services/careers",
    "linkedin": {
-    "checked_at": "2026-11-15T01:44:56+00:00",
+    "checked_at": "2026-11-15T18:58:36+00:00",
     "fetched": 3,
     "matched": 3,
     "rejected_examples": []
@@ -2769,7 +2770,7 @@
     "workday"
    ],
    "status": "ok",
-   "fetched": 52,
+   "fetched": 47,
    "title_matches": 6,
    "matched": 6,
    "errors": [],
@@ -2779,9 +2780,9 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 14,
-   "secs": 14.1,
+   "secs": 11.9,
    "linkedin_crosscheck": {
-    "checked_at": "2026-11-14T07:17:43+00:00",
+    "checked_at": "2026-11-15T11:53:16+00:00",
     "fetched": 6,
     "missed_by_site": 0
    }
@@ -2792,7 +2793,7 @@
     "greenhouse"
    ],
    "status": "ok",
-   "fetched": 390,
+   "fetched": 391,
    "title_matches": 1,
    "matched": 0,
    "errors": [],
@@ -2804,7 +2805,7 @@
    "requests": 1,
    "secs": 0.2,
    "linkedin_crosscheck": {
-    "checked_at": "2026-11-14T09:00:07+00:00",
+    "checked_at": "2026-11-15T11:53:16+00:00",
     "fetched": 0,
     "missed_by_site": 0
    }
@@ -2825,9 +2826,9 @@
     "location: HR Strats / Data Engineer _Vice President_HR Business Management | Bengaluru, Karnataka, India"
    ],
    "requests": 15,
-   "secs": 3.5,
+   "secs": 5.3,
    "linkedin_crosscheck": {
-    "checked_at": "2026-11-14T09:00:07+00:00",
+    "checked_at": "2026-11-15T11:53:16+00:00",
     "fetched": 0,
     "missed_by_site": 0
    }
@@ -2846,9 +2847,9 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 2,
-   "secs": 0.5,
+   "secs": 0.4,
    "linkedin_crosscheck": {
-    "checked_at": "2026-11-14T09:00:07+00:00",
+    "checked_at": "2026-11-15T11:53:16+00:00",
     "fetched": 0,
     "missed_by_site": 0
    }
@@ -2867,9 +2868,9 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.5,
+   "secs": 0.4,
    "linkedin_crosscheck": {
-    "checked_at": "2026-11-14T11:19:20+00:00",
+    "checked_at": "2026-11-15T17:48:11+00:00",
     "fetched": 0,
     "missed_by_site": 0
    }
@@ -2890,7 +2891,7 @@
    "requests": 1,
    "secs": 0.1,
    "linkedin_crosscheck": {
-    "checked_at": "2026-11-14T11:19:20+00:00",
+    "checked_at": "2026-11-15T17:48:11+00:00",
     "fetched": 0,
     "missed_by_site": 0
    }
@@ -2908,7 +2909,7 @@
    ],
    "careers_url": "https://www.npci.org.in/careers",
    "linkedin": {
-    "checked_at": "2026-11-15T01:44:56+00:00",
+    "checked_at": "2026-11-15T18:58:36+00:00",
     "fetched": 0,
     "matched": 0,
     "rejected_examples": []
@@ -2927,7 +2928,7 @@
    ],
    "careers_url": "https://netcore.ai/careers/",
    "linkedin": {
-    "checked_at": "2026-11-15T01:44:56+00:00",
+    "checked_at": "2026-11-15T18:58:36+00:00",
     "fetched": 0,
     "matched": 0,
     "rejected_examples": []
@@ -2947,9 +2948,9 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.4,
+   "secs": 1.1,
    "linkedin_crosscheck": {
-    "checked_at": "2026-11-14T11:19:20+00:00",
+    "checked_at": "2026-11-15T18:58:36+00:00",
     "fetched": 2,
     "missed_by_site": 2
    }
@@ -2968,9 +2969,9 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 26,
-   "secs": 7.3,
+   "secs": 5.9,
    "linkedin_crosscheck": {
-    "checked_at": "2026-11-14T11:50:57+00:00",
+    "checked_at": "2026-11-15T20:52:05+00:00",
     "fetched": 0,
     "missed_by_site": 0
    }
@@ -2981,7 +2982,7 @@
     "workday"
    ],
    "status": "ok",
-   "fetched": 66,
+   "fetched": 62,
    "title_matches": 5,
    "matched": 4,
    "errors": [],
@@ -2992,10 +2993,10 @@
    "rejected_examples": [
     "older than 60 days: Senior Lead - Data Engineering | 2026-09-04"
    ],
-   "requests": 16,
-   "secs": 9.2,
+   "requests": 15,
+   "secs": 7.0,
    "linkedin_crosscheck": {
-    "checked_at": "2026-11-14T07:17:43+00:00",
+    "checked_at": "2026-11-15T11:53:16+00:00",
     "fetched": 4,
     "missed_by_site": 0
    }
@@ -3006,7 +3007,7 @@
     "workday"
    ],
    "status": "ok",
-   "fetched": 97,
+   "fetched": 98,
    "title_matches": 3,
    "matched": 0,
    "errors": [],
@@ -3020,9 +3021,9 @@
     "location: Associate Director, Cloud Data Platform Architecture | Barcelona Gran Vía; Hyderabad (Office)"
    ],
    "requests": 15,
-   "secs": 11.9,
+   "secs": 9.3,
    "linkedin_crosscheck": {
-    "checked_at": "2026-11-14T10:16:39+00:00",
+    "checked_at": "2026-11-15T13:07:07+00:00",
     "fetched": 0,
     "missed_by_site": 0
    }
@@ -3033,7 +3034,7 @@
     "jobvite"
    ],
    "status": "ok",
-   "fetched": 127,
+   "fetched": 128,
    "title_matches": 2,
    "matched": 0,
    "errors": [],
@@ -3044,9 +3045,9 @@
     "location: Sr. Manager, Analytics Engineering | San Jose, California"
    ],
    "requests": 1,
-   "secs": 0.9,
+   "secs": 0.8,
    "linkedin_crosscheck": {
-    "checked_at": "2026-11-14T11:50:57+00:00",
+    "checked_at": "2026-11-15T20:52:05+00:00",
     "fetched": 0,
     "missed_by_site": 0
    }
@@ -3067,7 +3068,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 20,
-   "secs": 16.2,
+   "secs": 14.9,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-14T15:51:52+00:00",
     "fetched": 0,
@@ -3087,7 +3088,7 @@
    ],
    "careers_url": "https://careers.nykaa.com/",
    "linkedin": {
-    "checked_at": "2026-11-15T01:44:56+00:00",
+    "checked_at": "2026-11-15T18:58:36+00:00",
     "fetched": 0,
     "matched": 0,
     "rejected_examples": []
@@ -3114,9 +3115,9 @@
     "location: Principal Data Systems Software Engineer | BENGALURU, KARNATAKA, India"
    ],
    "requests": 21,
-   "secs": 14.2,
+   "secs": 15.3,
    "linkedin_crosscheck": {
-    "checked_at": "2026-11-14T11:50:57+00:00",
+    "checked_at": "2026-11-15T20:52:05+00:00",
     "fetched": 0,
     "missed_by_site": 0
    }
@@ -3142,9 +3143,9 @@
     "location: Senior Data Engineer (TOP Organization) | HYDERABAD OFFICE APAC PSC GDOP"
    ],
    "requests": 12,
-   "secs": 8.9,
+   "secs": 10.2,
    "linkedin_crosscheck": {
-    "checked_at": "2026-11-14T09:00:07+00:00",
+    "checked_at": "2026-11-15T11:53:16+00:00",
     "fetched": 1,
     "missed_by_site": 0
    }
@@ -3163,9 +3164,9 @@
    "careers_url": "https://www.panasonic.aero/join-us",
    "rejected_examples": [],
    "requests": 21,
-   "secs": 3.3,
+   "secs": 43.2,
    "linkedin_crosscheck": {
-    "checked_at": "2026-11-14T10:16:39+00:00",
+    "checked_at": "2026-11-15T13:07:07+00:00",
     "fetched": 0,
     "missed_by_site": 0
    }
@@ -3176,7 +3177,7 @@
     "workday"
    ],
    "status": "ok",
-   "fetched": 13,
+   "fetched": 12,
    "title_matches": 1,
    "matched": 1,
    "errors": [],
@@ -3186,9 +3187,9 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 10,
-   "secs": 10.3,
+   "secs": 7.5,
    "linkedin_crosscheck": {
-    "checked_at": "2026-11-14T09:00:07+00:00",
+    "checked_at": "2026-11-15T11:53:16+00:00",
     "fetched": 1,
     "missed_by_site": 0
    }
@@ -3209,9 +3210,9 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 12,
-   "secs": 19.1,
+   "secs": 17.0,
    "linkedin_crosscheck": {
-    "checked_at": "2026-11-14T13:05:06+00:00",
+    "checked_at": "2026-11-15T21:51:26+00:00",
     "fetched": 0,
     "missed_by_site": 0
    }
@@ -3229,7 +3230,7 @@
    ],
    "careers_url": "https://www.phonepe.com/careers/",
    "linkedin": {
-    "checked_at": "2026-11-15T01:44:56+00:00",
+    "checked_at": "2026-11-15T18:58:36+00:00",
     "fetched": 0,
     "matched": 0,
     "rejected_examples": []
@@ -3248,7 +3249,7 @@
    ],
    "careers_url": "https://www.postman.com/company/careers/open-positions/",
    "linkedin": {
-    "checked_at": "2026-11-15T01:44:56+00:00",
+    "checked_at": "2026-11-15T19:54:12+00:00",
     "fetched": 0,
     "matched": 0,
     "rejected_examples": []
@@ -3270,9 +3271,9 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 12,
-   "secs": 6.6,
+   "secs": 4.0,
    "linkedin_crosscheck": {
-    "checked_at": "2026-11-14T09:00:07+00:00",
+    "checked_at": "2026-11-15T11:53:16+00:00",
     "fetched": 3,
     "missed_by_site": 0
    }
@@ -3291,9 +3292,9 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 13,
-   "secs": 2.0,
+   "secs": 3.2,
    "linkedin_crosscheck": {
-    "checked_at": "2026-11-14T13:05:06+00:00",
+    "checked_at": "2026-11-15T22:51:29+00:00",
     "fetched": 0,
     "missed_by_site": 0
    }
@@ -3317,7 +3318,7 @@
    "requests": 1,
    "secs": 0.1,
    "linkedin_crosscheck": {
-    "checked_at": "2026-11-14T13:05:06+00:00",
+    "checked_at": "2026-11-15T22:51:29+00:00",
     "fetched": 0,
     "missed_by_site": 0
    }
@@ -3335,7 +3336,7 @@
    ],
    "careers_url": "https://www.rblbank.com/careers",
    "linkedin": {
-    "checked_at": "2026-11-15T01:44:56+00:00",
+    "checked_at": "2026-11-15T19:54:12+00:00",
     "fetched": 0,
     "matched": 0,
     "rejected_examples": []
@@ -3357,7 +3358,7 @@
    "requests": 1,
    "secs": 0.1,
    "linkedin_crosscheck": {
-    "checked_at": "2026-11-14T14:00:18+00:00",
+    "checked_at": "2026-11-15T23:56:19+00:00",
     "fetched": 0,
     "missed_by_site": 0
    }
@@ -3378,9 +3379,9 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 10,
-   "secs": 4.4,
+   "secs": 4.9,
    "linkedin_crosscheck": {
-    "checked_at": "2026-11-14T09:00:07+00:00",
+    "checked_at": "2026-11-15T13:07:07+00:00",
     "fetched": 0,
     "missed_by_site": 0
    }
@@ -3401,9 +3402,9 @@
     "older than 60 days: Senior Data Engineer | 2026-07-30"
    ],
    "requests": 1,
-   "secs": 5.1,
+   "secs": 0.6,
    "linkedin_crosscheck": {
-    "checked_at": "2026-11-14T14:00:18+00:00",
+    "checked_at": "2026-11-15T23:56:19+00:00",
     "fetched": 0,
     "missed_by_site": 0
    }
@@ -3424,9 +3425,9 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 12,
-   "secs": 8.6,
+   "secs": 6.4,
    "linkedin_crosscheck": {
-    "checked_at": "2026-11-14T10:16:39+00:00",
+    "checked_at": "2026-11-15T14:02:33+00:00",
     "fetched": 2,
     "missed_by_site": 0
    }
@@ -3437,7 +3438,7 @@
     "greenhouse"
    ],
    "status": "ok",
-   "fetched": 182,
+   "fetched": 184,
    "title_matches": 0,
    "matched": 0,
    "errors": [],
@@ -3447,7 +3448,7 @@
    "requests": 1,
    "secs": 0.1,
    "linkedin_crosscheck": {
-    "checked_at": "2026-11-14T14:00:18+00:00",
+    "checked_at": "2026-11-15T23:56:19+00:00",
     "fetched": 0,
     "missed_by_site": 0
    }
@@ -3458,7 +3459,7 @@
     "workday"
    ],
    "status": "ok",
-   "fetched": 50,
+   "fetched": 45,
    "title_matches": 2,
    "matched": 0,
    "errors": [],
@@ -3471,9 +3472,9 @@
     "location: Principal / Associate Director – Data Management Engineering | Noida, Uttarpradesh"
    ],
    "requests": 15,
-   "secs": 12.4,
+   "secs": 9.3,
    "linkedin_crosscheck": {
-    "checked_at": "2026-11-14T10:16:39+00:00",
+    "checked_at": "2026-11-15T14:02:33+00:00",
     "fetched": 0,
     "missed_by_site": 0
    }
@@ -3492,7 +3493,7 @@
    "careers_url": "https://jobs.sap.com/",
    "rejected_examples": [],
    "requests": 21,
-   "secs": 3.2,
+   "secs": 3.1,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-14T14:54:38+00:00",
     "fetched": 0,
@@ -3512,7 +3513,7 @@
    ],
    "careers_url": "https://sbi.co.in/web/careers",
    "linkedin": {
-    "checked_at": "2026-11-15T01:44:56+00:00",
+    "checked_at": "2026-11-15T19:54:12+00:00",
     "fetched": 0,
     "matched": 0,
     "rejected_examples": []
@@ -3524,8 +3525,8 @@
     "workday"
    ],
    "status": "ok",
-   "fetched": 103,
-   "title_matches": 3,
+   "fetched": 96,
+   "title_matches": 2,
    "matched": 0,
    "errors": [],
    "notes": [
@@ -3533,12 +3534,11 @@
    ],
    "careers_url": null,
    "rejected_examples": [
-    "location: Data Engineering SMTS/LMTS | India - Hyderabad",
     "location: Customer Success Manager – Informatica Implementation Experience (CDI / Data Governance/ MDM) | India - Bangalore",
     "location: Success Guide - Informatica Product experience mandatory | India - Bangalore"
    ],
-   "requests": 16,
-   "secs": 5.1,
+   "requests": 15,
+   "secs": 5.7,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-14T14:54:38+00:00",
     "fetched": 0,
@@ -3552,7 +3552,7 @@
     "workday"
    ],
    "status": "ok",
-   "fetched": 4,
+   "fetched": 3,
    "title_matches": 0,
    "matched": 0,
    "errors": [],
@@ -3563,7 +3563,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 20,
-   "secs": 14.4,
+   "secs": 11.5,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-14T14:54:38+00:00",
     "fetched": 0,
@@ -3583,7 +3583,7 @@
    ],
    "careers_url": "https://sciative.com/careers",
    "linkedin": {
-    "checked_at": "2026-11-15T01:44:56+00:00",
+    "checked_at": "2026-11-15T19:54:12+00:00",
     "fetched": 0,
     "matched": 0,
     "rejected_examples": []
@@ -3595,9 +3595,9 @@
     "avature"
    ],
    "status": "ok",
-   "fetched": 42,
-   "title_matches": 12,
-   "matched": 7,
+   "fetched": 41,
+   "title_matches": 11,
+   "matched": 6,
    "errors": [],
    "notes": [],
    "careers_url": null,
@@ -3608,8 +3608,8 @@
     "location: Analytics Engineer & Service Manager | Thane",
     "location: Data Engineer (w/m/d) | Frankfurt am Main"
    ],
-   "requests": 23,
-   "secs": 36.2,
+   "requests": 22,
+   "secs": 29.7,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-14T15:51:52+00:00",
     "fetched": 4,
@@ -3622,7 +3622,7 @@
     "ashby"
    ],
    "status": "ok",
-   "fetched": 376,
+   "fetched": 377,
    "title_matches": 22,
    "matched": 1,
    "errors": [],
@@ -3659,7 +3659,7 @@
    ],
    "careers_url": "https://careers.societegenerale.com/en/search?refinementList%5BjobLocation%5D%5B0%5D=India",
    "linkedin": {
-    "checked_at": "2026-11-15T01:44:56+00:00",
+    "checked_at": "2026-11-15T19:54:12+00:00",
     "fetched": 0,
     "matched": 0,
     "rejected_examples": []
@@ -3671,7 +3671,7 @@
     "csb_unify"
    ],
    "status": "ok",
-   "fetched": 133,
+   "fetched": 134,
    "title_matches": 0,
    "matched": 0,
    "errors": [],
@@ -3679,7 +3679,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 36,
-   "secs": 10.1,
+   "secs": 7.1,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-14T15:51:52+00:00",
     "fetched": 0,
@@ -3702,9 +3702,9 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 13,
-   "secs": 6.7,
+   "secs": 5.7,
    "linkedin_crosscheck": {
-    "checked_at": "2026-11-14T10:16:39+00:00",
+    "checked_at": "2026-11-15T14:02:33+00:00",
     "fetched": 4,
     "missed_by_site": 0
    }
@@ -3725,7 +3725,7 @@
    "requests": 1,
    "secs": 0.4,
    "linkedin": {
-    "checked_at": "2026-11-15T02:34:00+00:00",
+    "checked_at": "2026-11-15T22:51:29+00:00",
     "fetched": 0,
     "matched": 0,
     "rejected_examples": []
@@ -3770,7 +3770,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 10,
-   "secs": 7.7,
+   "secs": 7.3,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-14T16:52:46+00:00",
     "fetched": 0,
@@ -3791,7 +3791,7 @@
    "careers_url": "https://careers.teradata.com/jobs",
    "rejected_examples": [],
    "requests": 21,
-   "secs": 4.5,
+   "secs": 1.4,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-14T17:48:28+00:00",
     "fetched": 0,
@@ -3811,7 +3811,7 @@
    ],
    "careers_url": "https://www.tesla.com/careers/search/?country=IN",
    "linkedin": {
-    "checked_at": "2026-11-15T01:44:56+00:00",
+    "checked_at": "2026-11-15T20:52:05+00:00",
     "fetched": 0,
     "matched": 0,
     "rejected_examples": []
@@ -3831,7 +3831,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 9,
-   "secs": 4.0,
+   "secs": 3.0,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-14T17:48:28+00:00",
     "fetched": 0,
@@ -3844,7 +3844,7 @@
     "workday"
    ],
    "status": "ok",
-   "fetched": 226,
+   "fetched": 225,
    "title_matches": 8,
    "matched": 0,
    "errors": [],
@@ -3865,7 +3865,7 @@
    "requests": 23,
    "secs": 6.9,
    "linkedin_crosscheck": {
-    "checked_at": "2026-11-14T10:16:39+00:00",
+    "checked_at": "2026-11-15T14:55:49+00:00",
     "fetched": 0,
     "missed_by_site": 0
    }
@@ -3884,9 +3884,9 @@
    "careers_url": "https://www.tietoevry.com/en/careers/",
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.5,
+   "secs": 0.4,
    "linkedin": {
-    "checked_at": "2026-11-15T02:34:00+00:00",
+    "checked_at": "2026-11-15T22:51:29+00:00",
     "fetched": 0,
     "matched": 0,
     "rejected_examples": []
@@ -3915,7 +3915,7 @@
     "location: Technology Partner - Databricks | Sunnyvale, California, United States; Sunnyvale, California, United States; Dall"
    ],
    "requests": 10,
-   "secs": 1.5,
+   "secs": 0.9,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-14T17:48:28+00:00",
     "fetched": 0,
@@ -3938,7 +3938,7 @@
     "older than 60 days: Data Scientist - II ( 3- 5 Yrs, Databricks, Pyspark, Statistical Analysis, ML, DL) | 2026-07-29"
    ],
    "requests": 1,
-   "secs": 1.2,
+   "secs": 0.8,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-14T18:57:56+00:00",
     "fetched": 0,
@@ -3958,7 +3958,7 @@
    ],
    "careers_url": "https://www.trajector.com/careers/",
    "linkedin": {
-    "checked_at": "2026-11-15T01:44:56+00:00",
+    "checked_at": "2026-11-15T20:52:05+00:00",
     "fetched": 0,
     "matched": 0,
     "rejected_examples": []
@@ -4026,7 +4026,7 @@
    ],
    "careers_url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012",
    "linkedin": {
-    "checked_at": "2026-11-15T01:44:56+00:00",
+    "checked_at": "2026-11-15T20:52:05+00:00",
     "fetched": 0,
     "matched": 0,
     "rejected_examples": []
@@ -4046,7 +4046,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.5,
+   "secs": 0.4,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-14T19:53:12+00:00",
     "fetched": 0,
@@ -4066,7 +4066,7 @@
    ],
    "careers_url": "https://upstox.com/careers/",
    "linkedin": {
-    "checked_at": "2026-11-15T01:44:56+00:00",
+    "checked_at": "2026-11-15T20:52:05+00:00",
     "fetched": 0,
     "matched": 0,
     "rejected_examples": []
@@ -4078,7 +4078,7 @@
     "workday"
    ],
    "status": "ok",
-   "fetched": 19,
+   "fetched": 20,
    "title_matches": 0,
    "matched": 0,
    "errors": [],
@@ -4088,9 +4088,9 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 10,
-   "secs": 2.8,
+   "secs": 2.5,
    "linkedin_crosscheck": {
-    "checked_at": "2026-11-14T10:16:39+00:00",
+    "checked_at": "2026-11-15T14:55:49+00:00",
     "fetched": 0,
     "missed_by_site": 0
    }
@@ -4108,7 +4108,7 @@
    ],
    "careers_url": "https://www.vector.com/int/en/company/career/",
    "linkedin": {
-    "checked_at": "2026-11-15T01:44:56+00:00",
+    "checked_at": "2026-11-15T20:52:05+00:00",
     "fetched": 0,
     "matched": 0,
     "rejected_examples": []
@@ -4132,8 +4132,8 @@
     "location: Middle C# Developer (Data Management) | Prague, Czechia",
     "location: Middle C# Developer (Data Management) | Warsaw, Poland",
     "location: Sales Engineer - Data & AI Security | Remote, Spain",
-    "location: Senior Sales Engineer - Data & AI Security | Remote, France",
     "location: Senior Sales Engineer - Data & AI Security | Munich, Germany",
+    "location: Senior Sales Engineer - Data & AI Security | Remote, France",
     "location: Solutions Engineer, Veeam Data Cloud Vault | Remote, France"
    ],
    "requests": 1,
@@ -4157,7 +4157,7 @@
    ],
    "careers_url": "https://www.veritas.com/company/careers",
    "linkedin": {
-    "checked_at": "2026-11-15T01:44:56+00:00",
+    "checked_at": "2026-11-15T21:51:26+00:00",
     "fetched": 0,
     "matched": 0,
     "rejected_examples": []
@@ -4169,7 +4169,7 @@
     "oracle"
    ],
    "status": "ok",
-   "fetched": 147,
+   "fetched": 146,
    "title_matches": 0,
    "matched": 0,
    "errors": [],
@@ -4179,7 +4179,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 16,
-   "secs": 7.9,
+   "secs": 9.1,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-14T19:53:12+00:00",
     "fetched": 0,
@@ -4200,7 +4200,7 @@
    "careers_url": "https://corporate.visa.com/en/jobs/",
    "rejected_examples": [],
    "requests": 5,
-   "secs": 1.3,
+   "secs": 0.4,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-14T20:51:10+00:00",
     "fetched": 0,
@@ -4230,7 +4230,7 @@
     "older than 60 days: OSS Performance Management & Analytics Engineer(InfoVista & Kibana) -Pune | 2026-08-12"
    ],
    "requests": 27,
-   "secs": 13.8,
+   "secs": 9.6,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-14T20:51:10+00:00",
     "fetched": 7,
@@ -4250,7 +4250,7 @@
    ],
    "careers_url": "https://www.vwgds.in/careers/",
    "linkedin": {
-    "checked_at": "2026-11-15T01:44:56+00:00",
+    "checked_at": "2026-11-15T21:51:26+00:00",
     "fetched": 0,
     "matched": 0,
     "rejected_examples": []
@@ -4274,9 +4274,9 @@
     "location: Director, Data Engineering | CT-Work@Home, Connecticut; NJ-Work@Home, New Jersey; NY-Work@Home, New York; GA-"
    ],
    "requests": 16,
-   "secs": 11.2,
+   "secs": 11.6,
    "linkedin_crosscheck": {
-    "checked_at": "2026-11-14T10:16:39+00:00",
+    "checked_at": "2026-11-15T14:55:49+00:00",
     "fetched": 0,
     "missed_by_site": 0
    }
@@ -4295,7 +4295,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 11,
-   "secs": 2.5,
+   "secs": 3.5,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-14T20:51:10+00:00",
     "fetched": 0,
@@ -4320,7 +4320,7 @@
     "older than 60 days: Senior Data Engineer – Microsoft Fabric & Data Integration - Pune/Chennai | 2026-07-22"
    ],
    "requests": 12,
-   "secs": 10.9,
+   "secs": 9.8,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-14T21:50:13+00:00",
     "fetched": 1,
@@ -4343,9 +4343,9 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 12,
-   "secs": 24.0,
+   "secs": 24.5,
    "linkedin_crosscheck": {
-    "checked_at": "2026-11-14T10:16:39+00:00",
+    "checked_at": "2026-11-15T15:52:22+00:00",
     "fetched": 0,
     "missed_by_site": 0
    }
@@ -4364,7 +4364,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 13,
-   "secs": 4.3,
+   "secs": 2.9,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-14T21:50:13+00:00",
     "fetched": 0,
@@ -4385,7 +4385,7 @@
    "careers_url": "https://careers.wartsila.com/search/?locationsearch=India",
    "rejected_examples": [],
    "requests": 9,
-   "secs": 4.1,
+   "secs": 3.1,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-14T21:50:13+00:00",
     "fetched": 0,
@@ -4405,7 +4405,7 @@
    ],
    "careers_url": "https://www.yesbank.in/about-us/careers",
    "linkedin": {
-    "checked_at": "2026-11-15T01:44:56+00:00",
+    "checked_at": "2026-11-15T21:51:26+00:00",
     "fetched": 0,
     "matched": 0,
     "rejected_examples": []
@@ -4452,7 +4452,7 @@
     "location: Sr. Software Development Engineer - Java/ Agentic AI/ Big Data | Bangalore, IND"
    ],
    "requests": 1,
-   "secs": 0.4,
+   "secs": 0.2,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-14T22:50:28+00:00",
     "fetched": 0,
@@ -4465,7 +4465,7 @@
     "workday"
    ],
    "status": "ok",
-   "fetched": 14,
+   "fetched": 11,
    "title_matches": 0,
    "matched": 1,
    "errors": [],
@@ -4475,7 +4475,7 @@
    "careers_url": "https://www.bp.com/en/global/corporate/careers.html",
    "rejected_examples": [],
    "requests": 10,
-   "secs": 9.0,
+   "secs": 9.2,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-14T22:50:28+00:00",
     "fetched": 2,
