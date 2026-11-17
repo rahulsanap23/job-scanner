@@ -997,7 +997,7 @@
 "jobs": []
 },
 "Hitachi (Vantara, Payment Services)": {
-"checked_at": "2026-11-17T06:16:29+00:00",
+"checked_at": "2026-11-17T17:17:55+00:00",
 "jobs": [
 {
 "id": "https://in.linkedin.com/jobs/view/databricks-data-engineer-at-hitachi-solutions-india-pvt-ltd-4478105207",
@@ -1154,19 +1154,19 @@
 ]
 },
 "John Deere": {
-"checked_at": "2026-11-15T09:00:10+00:00",
+"checked_at": "2026-11-17T17:17:55+00:00",
 "jobs": []
 },
 "Johnson & Johnson": {
-"checked_at": "2026-11-17T07:41:43+00:00",
+"checked_at": "2026-11-17T17:17:55+00:00",
 "jobs": []
 },
 "Johnson Controls": {
-"checked_at": "2026-11-17T07:41:43+00:00",
+"checked_at": "2026-11-17T17:17:55+00:00",
 "jobs": []
 },
 "KONE": {
-"checked_at": "2026-11-17T07:41:43+00:00",
+"checked_at": "2026-11-17T17:17:55+00:00",
 "jobs": [
 {
 "id": "https://in.linkedin.com/jobs/view/principal-data-engineer-data-products-at-kone-4435593803",
@@ -1188,7 +1188,7 @@
 "jobs": []
 },
 "LSEG": {
-"checked_at": "2026-11-17T09:20:14+00:00",
+"checked_at": "2026-11-17T17:17:55+00:00",
 "jobs": []
 },
 "Lentra": {
@@ -1388,51 +1388,12 @@
 ]
 },
 "Meesho": {
-"checked_at": "2026-11-15T11:22:08+00:00",
+"checked_at": "2026-11-17T17:17:55+00:00",
 "jobs": []
 },
 "MetLife": {
-"checked_at": "2026-11-15T11:22:08+00:00",
+"checked_at": "2026-11-17T17:17:55+00:00",
 "jobs": [
-{
-"id": "https://in.linkedin.com/jobs/view/lead-big-data-engineer-at-metlife-4487502217",
-"title": "Lead Big Data Engineer",
-"company": "MetLife",
-"locations": [
-"Pune Division, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/lead-big-data-engineer-at-metlife-4487502217",
-"posted": "2026-11-04",
-"remote": null,
-"country": null,
-"name_match": "exact"
-},
-{
-"id": "https://in.linkedin.com/jobs/view/big-data-engineer-ii-at-metlife-4487299381",
-"title": "Big Data Engineer II",
-"company": "MetLife",
-"locations": [
-"Pune Division, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/big-data-engineer-ii-at-metlife-4487299381",
-"posted": "2026-11-04",
-"remote": null,
-"country": null,
-"name_match": "exact"
-},
-{
-"id": "https://in.linkedin.com/jobs/view/senior-big-data-engineer-i-at-metlife-4487282954",
-"title": "Senior Big Data Engineer - I",
-"company": "MetLife",
-"locations": [
-"Pune Division, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/senior-big-data-engineer-i-at-metlife-4487282954",
-"posted": "2026-11-04",
-"remote": null,
-"country": null,
-"name_match": "exact"
-},
 {
 "id": "https://in.linkedin.com/jobs/view/data-engineer-at-metlife-4488124857",
 "title": "Data Engineer",
@@ -1455,6 +1416,58 @@
 ],
 "url": "https://in.linkedin.com/jobs/view/data-engineer-at-metlife-4488130676",
 "posted": "2026-11-06",
+"remote": null,
+"country": null,
+"name_match": "exact"
+},
+{
+"id": "https://in.linkedin.com/jobs/view/big-data-engineer-ii-at-metlife-4487299381",
+"title": "Big Data Engineer II",
+"company": "MetLife",
+"locations": [
+"Pune Division, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/big-data-engineer-ii-at-metlife-4487299381",
+"posted": "2026-11-04",
+"remote": null,
+"country": null,
+"name_match": "exact"
+},
+{
+"id": "https://in.linkedin.com/jobs/view/associate-big-data-engineer-at-metlife-4490293394",
+"title": "Associate Big Data Engineer",
+"company": "MetLife",
+"locations": [
+"Pune Division, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/associate-big-data-engineer-at-metlife-4490293394",
+"posted": "2026-11-16",
+"remote": null,
+"country": null,
+"name_match": "exact"
+},
+{
+"id": "https://in.linkedin.com/jobs/view/senior-big-data-engineer-i-at-metlife-4487282954",
+"title": "Senior Big Data Engineer - I",
+"company": "MetLife",
+"locations": [
+"Pune Division, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/senior-big-data-engineer-i-at-metlife-4487282954",
+"posted": "2026-11-04",
+"remote": null,
+"country": null,
+"name_match": "exact"
+},
+{
+"id": "https://in.linkedin.com/jobs/view/lead-big-data-engineer-at-metlife-4487502217",
+"title": "Lead Big Data Engineer",
+"company": "MetLife",
+"locations": [
+"Pune Division, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/lead-big-data-engineer-at-metlife-4487502217",
+"posted": "2026-11-04",
 "remote": null,
 "country": null,
 "name_match": "exact"
