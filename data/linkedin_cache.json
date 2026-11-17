@@ -42,7 +42,7 @@
 "jobs": []
 },
 "Amadeus": {
-"checked_at": "2026-11-17T03:00:48+00:00",
+"checked_at": "2026-11-17T13:26:39+00:00",
 "jobs": []
 },
 "Amazon": {
@@ -318,7 +318,7 @@
 "jobs": []
 },
 "BrowserStack": {
-"checked_at": "2026-11-17T04:08:26+00:00",
+"checked_at": "2026-11-17T13:26:39+00:00",
 "jobs": []
 },
 "CRED": {
@@ -338,7 +338,7 @@
 "jobs": []
 },
 "Cisco": {
-"checked_at": "2026-11-17T04:08:26+00:00",
+"checked_at": "2026-11-17T13:26:39+00:00",
 "jobs": [
 {
 "id": "https://in.linkedin.com/jobs/view/data-engineer-at-cisco-4467704802",
@@ -356,7 +356,7 @@
 ]
 },
 "Citi": {
-"checked_at": "2026-11-17T04:08:26+00:00",
+"checked_at": "2026-11-17T13:26:39+00:00",
 "jobs": [
 {
 "id": "https://in.linkedin.com/jobs/view/lead-data-engineer-assistant-vice-president-at-citi-4486918603",
@@ -450,19 +450,6 @@
 "name_match": "exact"
 },
 {
-"id": "https://in.linkedin.com/jobs/view/senior-data-platform-engineer-assistant-vice-president-at-citi-4486926297",
-"title": "Senior Data Platform Engineer - Assistant Vice President",
-"company": "Citi",
-"locations": [
-"Pune Division, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/senior-data-platform-engineer-assistant-vice-president-at-citi-4486926297",
-"posted": "2026-11-05",
-"remote": null,
-"country": null,
-"name_match": "exact"
-},
-{
 "id": "https://in.linkedin.com/jobs/view/data-engineer-java-and-oracle-assistant-vice-president-at-citi-4486906847",
 "title": "Data Engineer, Java and Oracle - Assistant Vice President",
 "company": "Citi",
@@ -499,7 +486,7 @@
 "jobs": []
 },
 "Cohesity": {
-"checked_at": "2026-11-17T04:08:26+00:00",
+"checked_at": "2026-11-17T13:26:39+00:00",
 "jobs": []
 },
 "Coinbase": {
@@ -976,7 +963,7 @@
 ]
 },
 "Google": {
-"checked_at": "2026-11-15T07:18:43+00:00",
+"checked_at": "2026-11-17T13:26:39+00:00",
 "jobs": []
 },
 "HDFC Bank": {
@@ -984,12 +971,39 @@
 "jobs": []
 },
 "HERE Technologies": {
-"checked_at": "2026-11-15T07:18:43+00:00",
+"checked_at": "2026-11-17T13:26:39+00:00",
 "jobs": []
 },
 "HSBC": {
-"checked_at": "2026-11-15T07:18:43+00:00",
-"jobs": []
+"checked_at": "2026-11-17T13:26:39+00:00",
+"jobs": [
+{
+"id": "https://in.linkedin.com/jobs/view/data-platform-engineer-ai-associate-director-at-hsbc-4491550635",
+"title": "Data platform engineer- AI / Associate Director",
+"company": "HSBC",
+"locations": [
+"Pune Division, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/data-platform-engineer-ai-associate-director-at-hsbc-4491550635",
+"posted": "2026-11-17",
+"remote": null,
+"country": null,
+"name_match": "exact"
+},
+{
+"id": "https://in.linkedin.com/jobs/view/gcp-bigquery-python-agentic-ai-senior-consultant-specialist-at-hsbc-4485347325",
+"title": "GCP, Bigquery, Python, Agentic AI/Senior Consultant Specialist",
+"company": "HSBC",
+"locations": [
+"Pune Division, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/gcp-bigquery-python-agentic-ai-senior-consultant-specialist-at-hsbc-4485347325",
+"posted": "2026-10-30",
+"remote": null,
+"country": null,
+"name_match": "exact"
+}
+]
 },
 "HighLevel": {
 "checked_at": "2026-11-15T07:18:43+00:00",
