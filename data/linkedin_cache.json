@@ -777,7 +777,7 @@
 ]
 },
 "Ecolab": {
-"checked_at": "2026-11-17T05:12:34+00:00",
+"checked_at": "2026-11-17T16:10:05+00:00",
 "jobs": []
 },
 "Emerson": {
@@ -789,7 +789,7 @@
 "jobs": []
 },
 "Equinix": {
-"checked_at": "2026-11-17T06:16:29+00:00",
+"checked_at": "2026-11-17T16:10:05+00:00",
 "jobs": []
 },
 "Eruditus": {
@@ -797,7 +797,7 @@
 "jobs": []
 },
 "FIS": {
-"checked_at": "2026-11-17T06:16:29+00:00",
+"checked_at": "2026-11-17T16:10:05+00:00",
 "jobs": []
 },
 "FORVIA": {
@@ -825,7 +825,7 @@
 "jobs": []
 },
 "Fiserv": {
-"checked_at": "2026-11-17T06:16:29+00:00",
+"checked_at": "2026-11-17T16:10:05+00:00",
 "jobs": []
 },
 "Fivetran": {
@@ -841,7 +841,7 @@
 "jobs": []
 },
 "General Mills": {
-"checked_at": "2026-11-17T06:16:29+00:00",
+"checked_at": "2026-11-17T16:10:05+00:00",
 "jobs": [
 {
 "id": "https://in.linkedin.com/jobs/view/cpw-data-engineer-ii-at-general-mills-4448964045",
@@ -1045,11 +1045,11 @@
 ]
 },
 "IDT Corporation": {
-"checked_at": "2026-11-15T09:00:10+00:00",
+"checked_at": "2026-11-17T16:10:05+00:00",
 "jobs": []
 },
 "Icertis": {
-"checked_at": "2026-11-15T09:00:10+00:00",
+"checked_at": "2026-11-17T16:10:05+00:00",
 "jobs": []
 },
 "IndusInd Bank": {
@@ -1057,8 +1057,21 @@
 "jobs": []
 },
 "JPMorgan Chase": {
-"checked_at": "2026-11-15T09:00:10+00:00",
+"checked_at": "2026-11-17T16:10:05+00:00",
 "jobs": [
+{
+"id": "https://in.linkedin.com/jobs/view/lead-data-engineer-data-engineering-databricks-model-serving-ml-ops-data-architecture-and-modeling-at-jpmorganchase-4489790714",
+"title": "Lead Data Engineer - Data Engineering, Databricks, Model Serving, ML Ops, Data Architecture and modeling",
+"company": "JPMorganChase",
+"locations": [
+"Mumbai, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/lead-data-engineer-data-engineering-databricks-model-serving-ml-ops-data-architecture-and-modeling-at-jpmorganchase-4489790714",
+"posted": "2026-11-16",
+"remote": null,
+"country": null,
+"name_match": "exact"
+},
 {
 "id": "https://in.linkedin.com/jobs/view/wholesale-credit-risk%E2%80%AFassociate-product-strategy-at-jpmorganchase-4479261359",
 "title": "Wholesale Credit Risk Associate - Product Strategy",
