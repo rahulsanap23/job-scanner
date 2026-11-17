@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-11-17T01:54:15+00:00",
+  "generated_at": "2026-11-17T10:35:40+00:00",
   "date": "2026-11-17",
   "recency_days": 60,
   "companies_total": 190,
@@ -112,11 +112,11 @@
    "Volkswagen Group Digital Solutions",
    "Yes Bank"
   ],
-  "jobs": 113,
-  "companies_with_jobs": 43,
+  "jobs": 116,
+  "companies_with_jobs": 42,
   "uncertain": 14,
-  "fresh": 4,
-  "linkedin": "106 of 106 companies checked in the last 24 h (this scan: searched 36 companies)",
+  "fresh": 3,
+  "linkedin": "82 of 106 companies checked in the last 24 h; not checked in 24 h: BNP Paribas, FedEx, HDFC Bank, BNY, ICICI Bank, Salesforce, Axis Bank, Telstra and 16 more (this scan: stopped after 1 of 25 companies: LinkedIn answered 429)",
   "companies_checked_on_linkedin": [
    "3Pillar Global",
    "AIG",
@@ -228,7 +228,7 @@
   "linkedin_crosscheck": "84 of 84 scanned companies cross-checked on LinkedIn in the last 4 days; 4 roles the careers sites missed",
   "missed_by_site": 4,
   "scanner_alerts": [],
-  "rejected": 380
+  "rejected": 385
  },
  "jobs": [
   {
@@ -457,23 +457,6 @@
    "new": false
   },
   {
-   "company": "BMC Software",
-   "title": "Data Engineer - Snowflake",
-   "location": "Pune, India",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": "2026-10-13",
-   "days_ago": 35,
-   "url": "https://jobs.bmc.com/Careers/JobDetail/Staff-Applications-Developer-India/47708",
-   "source": "avature",
-   "match": "title",
-   "flags": [],
-   "fresh": false,
-   "first_seen": "2026-10-27",
-   "new": false
-  },
-  {
    "company": "BNP Paribas",
    "title": "Python Data Engineer",
    "location": "Mumbai, Maharashtra, India",
@@ -520,7 +503,7 @@
    "source": "linkedin",
    "match": "pattern",
    "flags": [],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-11-17",
    "new": true
   },
@@ -938,6 +921,40 @@
   },
   {
    "company": "EPAM Systems",
+   "title": "Lead Palantir Data Software Engineer",
+   "location": "Hyderabad, India; Bangalore, India; Pune, India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-11-06",
+   "days_ago": 11,
+   "url": "https://careers.epam.com/en/vacancy/lead-palantir-data-software-engineer-bltp8t6eryuvzmu4d7q_en",
+   "source": "epam",
+   "match": "pattern",
+   "flags": [],
+   "fresh": true,
+   "first_seen": "2026-11-17",
+   "new": true
+  },
+  {
+   "company": "EPAM Systems",
+   "title": "Senior Palantir Data Software Engineer",
+   "location": "Hyderabad, India; Bangalore, India; Pune, India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-11-06",
+   "days_ago": 11,
+   "url": "https://careers.epam.com/en/vacancy/senior-palantir-data-software-engineer-bltp37cttltre4txqro_en",
+   "source": "epam",
+   "match": "pattern",
+   "flags": [],
+   "fresh": true,
+   "first_seen": "2026-11-17",
+   "new": true
+  },
+  {
+   "company": "EPAM Systems",
    "title": "Lead Systems Engineer - Data DevOps/MLOps",
    "location": "Chennai, India; Bangalore, India; Pune, India; Coimbatore, India; Hyderabad, India; Gurgaon, India",
    "location_tags": [
@@ -1072,7 +1089,7 @@
    "source": "linkedin",
    "match": "title",
    "flags": [],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-11-17",
    "new": true
   },
@@ -1092,6 +1109,24 @@
    "fresh": false,
    "first_seen": "2026-11-13",
    "new": false
+  },
+  {
+   "company": "Gallagher",
+   "title": "Data Engineer",
+   "location": "Pune, India; Pune, Maharashtra, India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-11-16",
+   "days_ago": 1,
+   "url": "https://jobs.ajg.com/jobs/58254",
+   "source": "jibe",
+   "match": "title",
+   "flags": [],
+   "date_source": "posting page",
+   "fresh": true,
+   "first_seen": "2026-11-17",
+   "new": true
   },
   {
    "company": "Gallagher",
@@ -1622,7 +1657,7 @@
    "source": "linkedin",
    "match": "title",
    "flags": [],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-11-17",
    "new": true
   },
@@ -1692,7 +1727,7 @@
    "flags": [
     "company listed as 'Mondelēz International'"
    ],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-11-17",
    "new": true
   },
@@ -2012,6 +2047,23 @@
    "match": "keyword:dbt",
    "flags": [],
    "date_source": "LinkedIn",
+   "fresh": false,
+   "first_seen": "2026-10-24",
+   "new": false
+  },
+  {
+   "company": "Siemens Digital Industries Software",
+   "title": "Data Engineer ( 2 to 5 Years)",
+   "location": "Pune",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": null,
+   "days_ago": null,
+   "url": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/520335",
+   "source": "avature",
+   "match": "title",
+   "flags": [],
    "fresh": false,
    "first_seen": "2026-10-24",
    "new": false
