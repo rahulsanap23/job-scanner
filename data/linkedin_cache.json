@@ -179,7 +179,7 @@
 "jobs": []
 },
 "Barclays": {
-"checked_at": "2026-11-18T03:04:06+00:00",
+"checked_at": "2026-11-18T12:13:22+00:00",
 "jobs": [
 {
 "id": "https://in.linkedin.com/jobs/view/data-engineer-at-barclays-4479496036",
@@ -202,7 +202,7 @@
 "Pune Division, Maharashtra, India"
 ],
 "url": "https://in.linkedin.com/jobs/view/cloud-data-engineer-at-barclays-4490482125",
-"posted": "2026-11-17",
+"posted": "2026-11-18",
 "remote": null,
 "country": null,
 "name_match": "exact"
@@ -273,19 +273,6 @@
 "name_match": "exact"
 },
 {
-"id": "https://in.linkedin.com/jobs/view/data-engineer-analyst-at-barclays-4466947755",
-"title": "Data Engineer - Analyst",
-"company": "Barclays",
-"locations": [
-"Mumbai, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/data-engineer-analyst-at-barclays-4466947755",
-"posted": "2026-09-19",
-"remote": null,
-"country": null,
-"name_match": "exact"
-},
-{
 "id": "https://in.linkedin.com/jobs/view/margin-data-analytics-at-barclays-4479430264",
 "title": "Margin Data & Analytics",
 "company": "Barclays",
@@ -305,21 +292,8 @@
 "jobs": []
 },
 "BlackRock": {
-"checked_at": "2026-11-18T04:11:51+00:00",
+"checked_at": "2026-11-18T12:13:22+00:00",
 "jobs": [
-{
-"id": "https://in.linkedin.com/jobs/view/data-engineer-aladdin-data-associate-at-blackrock-4488133317",
-"title": "Data Engineer, Aladdin Data, Associate",
-"company": "BlackRock",
-"locations": [
-"Mumbai, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/data-engineer-aladdin-data-associate-at-blackrock-4488133317",
-"posted": "2026-11-06",
-"remote": null,
-"country": null,
-"name_match": "exact"
-},
 {
 "id": "https://in.linkedin.com/jobs/view/data-engineer-aladdin-data-associate-at-blackrock-4490795129",
 "title": "Data Engineer, Aladdin Data, Associate",
@@ -329,6 +303,19 @@
 ],
 "url": "https://in.linkedin.com/jobs/view/data-engineer-aladdin-data-associate-at-blackrock-4490795129",
 "posted": "2026-11-13",
+"remote": null,
+"country": null,
+"name_match": "exact"
+},
+{
+"id": "https://in.linkedin.com/jobs/view/data-engineer-aladdin-data-associate-at-blackrock-4488133317",
+"title": "Data Engineer, Aladdin Data, Associate",
+"company": "BlackRock",
+"locations": [
+"Mumbai, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/data-engineer-aladdin-data-associate-at-blackrock-4488133317",
+"posted": "2026-11-06",
 "remote": null,
 "country": null,
 "name_match": "exact"
@@ -358,7 +345,7 @@
 "jobs": []
 },
 "BrowserStack": {
-"checked_at": "2026-11-18T04:11:51+00:00",
+"checked_at": "2026-11-18T12:13:22+00:00",
 "jobs": []
 },
 "CRED": {
