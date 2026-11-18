@@ -4,11 +4,11 @@
 "jobs": []
 },
 "AIG": {
-"checked_at": "2026-11-18T02:39:30+00:00",
+"checked_at": "2026-11-18T11:45:29+00:00",
 "jobs": []
 },
 "Abbott": {
-"checked_at": "2026-11-18T02:39:30+00:00",
+"checked_at": "2026-11-18T11:45:29+00:00",
 "jobs": [
 {
 "id": "https://in.linkedin.com/jobs/view/data-engineer-%E2%80%93-commercial-enablement-at-abbott-4473283702",
@@ -26,7 +26,7 @@
 ]
 },
 "Air Products": {
-"checked_at": "2026-11-18T02:39:30+00:00",
+"checked_at": "2026-11-18T11:45:29+00:00",
 "jobs": []
 },
 "Airbnb": {
@@ -34,7 +34,7 @@
 "jobs": []
 },
 "AllianceBernstein (Equitable)": {
-"checked_at": "2026-11-18T02:39:30+00:00",
+"checked_at": "2026-11-18T11:45:29+00:00",
 "jobs": []
 },
 "Allstate": {
@@ -171,7 +171,7 @@
 ]
 },
 "Baker Hughes": {
-"checked_at": "2026-11-18T04:11:51+00:00",
+"checked_at": "2026-11-18T11:45:29+00:00",
 "jobs": []
 },
 "Bank of America": {
@@ -2241,25 +2241,12 @@
 "jobs": []
 },
 "Visa": {
-"checked_at": "2026-11-16T15:56:17+00:00",
+"checked_at": "2026-11-18T11:45:29+00:00",
 "jobs": []
 },
 "Vodafone (VOIS)": {
-"checked_at": "2026-11-16T17:26:18+00:00",
+"checked_at": "2026-11-18T11:45:29+00:00",
 "jobs": [
-{
-"id": "https://in.linkedin.com/jobs/view/aws-data-engineer-vois-at-vodafone-4487117380",
-"title": "AWS Data Engineer - VOIS",
-"company": "Vodafone",
-"locations": [
-"Pune Division, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/aws-data-engineer-vois-at-vodafone-4487117380",
-"posted": "2026-11-08",
-"remote": null,
-"country": null,
-"name_match": "exact"
-},
 {
 "id": "https://in.linkedin.com/jobs/view/aws-data-engineer-vois-at-vois-4468599094",
 "title": "AWS Data Engineer - VOIS",
@@ -2269,6 +2256,19 @@
 ],
 "url": "https://in.linkedin.com/jobs/view/aws-data-engineer-vois-at-vois-4468599094",
 "posted": "2026-10-03",
+"remote": null,
+"country": null,
+"name_match": "exact"
+},
+{
+"id": "https://in.linkedin.com/jobs/view/aws-data-engineer-vois-at-vodafone-4487117380",
+"title": "AWS Data Engineer - VOIS",
+"company": "Vodafone",
+"locations": [
+"Pune Division, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/aws-data-engineer-vois-at-vodafone-4487117380",
+"posted": "2026-11-08",
 "remote": null,
 "country": null,
 "name_match": "exact"
@@ -2333,7 +2333,7 @@
 "Pune Division, Maharashtra, India"
 ],
 "url": "https://in.linkedin.com/jobs/view/process-mining-developer-vois-at-vois-4483047813",
-"posted": "2026-10-29",
+"posted": "2026-11-17",
 "remote": null,
 "country": null,
 "name_match": "exact"
@@ -2349,7 +2349,7 @@
 "jobs": []
 },
 "Whirlpool": {
-"checked_at": "2026-11-16T17:26:18+00:00",
+"checked_at": "2026-11-18T11:45:29+00:00",
 "jobs": []
 },
 "Wolters Kluwer": {
