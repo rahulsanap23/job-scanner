@@ -38,11 +38,11 @@
 "jobs": []
 },
 "Allstate": {
-"checked_at": "2026-11-17T11:32:23+00:00",
+"checked_at": "2026-11-18T03:04:06+00:00",
 "jobs": []
 },
 "Amadeus": {
-"checked_at": "2026-11-17T13:26:39+00:00",
+"checked_at": "2026-11-18T03:04:06+00:00",
 "jobs": []
 },
 "Amazon": {
@@ -85,7 +85,7 @@
 "jobs": []
 },
 "Autodesk": {
-"checked_at": "2026-11-17T12:01:18+00:00",
+"checked_at": "2026-11-18T03:04:06+00:00",
 "jobs": []
 },
 "Automattic": {
@@ -179,7 +179,7 @@
 "jobs": []
 },
 "Barclays": {
-"checked_at": "2026-11-17T12:01:18+00:00",
+"checked_at": "2026-11-18T03:04:06+00:00",
 "jobs": [
 {
 "id": "https://in.linkedin.com/jobs/view/data-engineer-at-barclays-4479496036",
@@ -190,6 +190,19 @@
 ],
 "url": "https://in.linkedin.com/jobs/view/data-engineer-at-barclays-4479496036",
 "posted": "2026-10-22",
+"remote": null,
+"country": null,
+"name_match": "exact"
+},
+{
+"id": "https://in.linkedin.com/jobs/view/cloud-data-engineer-at-barclays-4490482125",
+"title": "Cloud Data Engineer",
+"company": "Barclays",
+"locations": [
+"Pune Division, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/cloud-data-engineer-at-barclays-4490482125",
+"posted": "2026-11-17",
 "remote": null,
 "country": null,
 "name_match": "exact"
@@ -208,19 +221,6 @@
 "name_match": "exact"
 },
 {
-"id": "https://in.linkedin.com/jobs/view/data-engineer-vp-at-barclays-4472627956",
-"title": "Data Engineer-VP",
-"company": "Barclays",
-"locations": [
-"Pune Division, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/data-engineer-vp-at-barclays-4472627956",
-"posted": "2026-10-01",
-"remote": null,
-"country": null,
-"name_match": "exact"
-},
-{
 "id": "https://in.linkedin.com/jobs/view/data-engineer-at-barclays-4473687634",
 "title": "Data Engineer",
 "company": "Barclays",
@@ -229,6 +229,32 @@
 ],
 "url": "https://in.linkedin.com/jobs/view/data-engineer-at-barclays-4473687634",
 "posted": "2026-10-06",
+"remote": null,
+"country": null,
+"name_match": "exact"
+},
+{
+"id": "https://in.linkedin.com/jobs/view/lead-cloud-data-engineer-at-barclays-4490483095",
+"title": "Lead Cloud & Data Engineer",
+"company": "Barclays",
+"locations": [
+"Pune Division, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/lead-cloud-data-engineer-at-barclays-4490483095",
+"posted": "2026-11-17",
+"remote": null,
+"country": null,
+"name_match": "exact"
+},
+{
+"id": "https://in.linkedin.com/jobs/view/data-engineer-vp-at-barclays-4472627956",
+"title": "Data Engineer-VP",
+"company": "Barclays",
+"locations": [
+"Pune Division, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/data-engineer-vp-at-barclays-4472627956",
+"posted": "2026-10-01",
 "remote": null,
 "country": null,
 "name_match": "exact"
@@ -1970,7 +1996,7 @@
 "jobs": []
 },
 "SAP": {
-"checked_at": "2026-11-16T02:42:06+00:00",
+"checked_at": "2026-11-18T03:04:06+00:00",
 "jobs": []
 },
 "SBI": {
@@ -2004,7 +2030,7 @@
 "jobs": []
 },
 "Siemens Digital Industries Software": {
-"checked_at": "2026-11-16T04:40:04+00:00",
+"checked_at": "2026-11-18T03:04:06+00:00",
 "jobs": [
 {
 "id": "https://in.linkedin.com/jobs/view/dbt-cloud-data-engineer-at-siemens-digital-industries-software-4481371786",
@@ -2061,7 +2087,7 @@
 ]
 },
 "Snowflake": {
-"checked_at": "2026-11-16T06:37:45+00:00",
+"checked_at": "2026-11-18T03:04:06+00:00",
 "jobs": [
 {
 "id": "https://in.linkedin.com/jobs/view/data-engineer-at-snowflake-4484427163",
