@@ -1,18 +1,15 @@
 {
  "meta": {
-  "generated_at": "2026-11-18T01:59:13+00:00",
+  "generated_at": "2026-11-18T10:31:21+00:00",
   "date": "2026-11-18",
   "recency_days": 60,
   "companies_total": 190,
-  "companies_scanned_ok": 87,
+  "companies_scanned_ok": 91,
   "companies_failed": [
    "AIG",
    "Abbott",
    "Air Products",
    "AllianceBernstein (Equitable)",
-   "Allstate",
-   "Amadeus",
-   "Autodesk",
    "Baker Hughes",
    "Barclays",
    "BlackRock",
@@ -54,7 +51,6 @@
    "Rockwell Automation",
    "S&P Global",
    "Salesforce",
-   "Sandvik",
    "TIAA",
    "Telstra",
    "Thermo Fisher Scientific",
@@ -112,21 +108,18 @@
    "Volkswagen Group Digital Solutions",
    "Yes Bank"
   ],
-  "jobs": 117,
+  "jobs": 120,
   "companies_with_jobs": 43,
   "uncertain": 15,
   "fresh": 4,
-  "linkedin": "106 of 106 companies checked in the last 24 h (this scan: searched 56 companies)",
+  "linkedin": "102 of 102 companies checked in the last 24 h (this scan: searched 0 companies)",
   "companies_checked_on_linkedin": [
    "3Pillar Global",
    "AIG",
    "Abbott",
    "Air Products",
    "AllianceBernstein (Equitable)",
-   "Allstate",
-   "Amadeus",
    "Atlas Copco",
-   "Autodesk",
    "Axis Bank",
    "BMW TechWorks India",
    "BNP Paribas",
@@ -203,7 +196,6 @@
    "S&P Global",
    "SBI",
    "Salesforce",
-   "Sandvik",
    "Sciative",
    "Société Générale",
    "TIAA",
@@ -225,8 +217,8 @@
    "Yes Bank",
    "bp"
   ],
-  "linkedin_crosscheck": "84 of 84 scanned companies cross-checked on LinkedIn in the last 4 days; 5 roles the careers sites missed",
-  "missed_by_site": 5,
+  "linkedin_crosscheck": "88 of 88 scanned companies cross-checked on LinkedIn in the last 4 days; 6 roles the careers sites missed",
+  "missed_by_site": 6,
   "scanner_alerts": [],
   "rejected": 385
  },
@@ -492,6 +484,40 @@
   },
   {
    "company": "Barclays",
+   "title": "Cloud Data Engineer",
+   "location": "Pune Division, Maharashtra, India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-11-17",
+   "days_ago": 1,
+   "url": "https://in.linkedin.com/jobs/view/cloud-data-engineer-at-barclays-4490482125",
+   "source": "linkedin",
+   "match": "title",
+   "flags": [],
+   "fresh": true,
+   "first_seen": "2026-11-18",
+   "new": true
+  },
+  {
+   "company": "Barclays",
+   "title": "Lead Cloud & Data Engineer",
+   "location": "Pune Division, Maharashtra, India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-11-17",
+   "days_ago": 1,
+   "url": "https://in.linkedin.com/jobs/view/lead-cloud-data-engineer-at-barclays-4490483095",
+   "source": "linkedin",
+   "match": "title",
+   "flags": [],
+   "fresh": true,
+   "first_seen": "2026-11-18",
+   "new": true
+  },
+  {
+   "company": "Barclays",
    "title": "Data Engineer",
    "location": "Pune Division, Maharashtra, India",
    "location_tags": [
@@ -616,8 +642,8 @@
    "location_tags": [
     "Mumbai"
    ],
-   "posted": "2026-10-27",
-   "days_ago": 22,
+   "posted": "2026-11-17",
+   "days_ago": 1,
    "url": "https://in.linkedin.com/jobs/view/data-engineer-at-cisco-4467704802",
    "source": "linkedin",
    "match": "title",
@@ -625,6 +651,23 @@
    "fresh": false,
    "first_seen": "2026-11-14",
    "new": false
+  },
+  {
+   "company": "Citi",
+   "title": "Senior Data Platform Engineer - Vice President",
+   "location": "Pune Division, Maharashtra, India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-11-17",
+   "days_ago": 1,
+   "url": "https://in.linkedin.com/jobs/view/senior-data-platform-engineer-vice-president-at-citi-4491429923",
+   "source": "linkedin",
+   "match": "keyword:data platform",
+   "flags": [],
+   "fresh": true,
+   "first_seen": "2026-11-18",
+   "new": true
   },
   {
    "company": "Citi",
@@ -1269,7 +1312,7 @@
     "title borderline"
    ],
    "crosscheck": true,
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-11-18",
    "new": true
   },
@@ -1286,7 +1329,7 @@
    "source": "jobsyn",
    "match": "keyword:data platform",
    "flags": [],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-11-18",
    "new": true
   },
@@ -1565,19 +1608,20 @@
   {
    "company": "MetLife",
    "title": "Associate Big Data Engineer",
-   "location": "Pune, India",
+   "location": "Pune Division, Maharashtra, India",
    "location_tags": [
     "Pune"
    ],
    "posted": "2026-11-16",
    "days_ago": 2,
-   "url": "https://www.metlifecareers.com/en_US/ml/JobDetail/Associate-Big-Data-Engineer/20923",
-   "source": "avature",
+   "url": "https://in.linkedin.com/jobs/view/associate-big-data-engineer-at-metlife-4490293394",
+   "source": "linkedin",
    "match": "title",
    "flags": [],
-   "fresh": false,
-   "first_seen": "2026-10-28",
-   "new": false
+   "crosscheck": true,
+   "fresh": true,
+   "first_seen": "2026-11-18",
+   "new": true
   },
   {
    "company": "MetLife",
@@ -1588,12 +1632,12 @@
    ],
    "posted": "2026-11-06",
    "days_ago": 12,
-   "url": "https://www.metlifecareers.com/en_US/ml/JobDetail/Senior-Data-Engineer-Databricks-Data-Modeling-Architecture/21475",
+   "url": "https://www.metlifecareers.com/en_US/ml/JobDetail/Sr-Software-Platform-Engineer-I-Data-Engineer/21474",
    "source": "avature",
    "match": "title",
    "flags": [],
    "fresh": false,
-   "first_seen": "2026-11-08",
+   "first_seen": "2026-11-14",
    "new": false
   },
   {
@@ -1998,7 +2042,7 @@
    "match": "title",
    "flags": [],
    "date_source": "posting page",
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-11-18",
    "new": true
   },
@@ -2049,7 +2093,7 @@
    "source": "linkedin",
    "match": "title",
    "flags": [],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-11-18",
    "new": true
   },
