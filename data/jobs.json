@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-11-19T01:50:50+00:00",
+  "generated_at": "2026-11-19T10:42:28+00:00",
   "date": "2026-11-19",
   "recency_days": 60,
   "companies_total": 190,
@@ -113,9 +113,9 @@
   ],
   "jobs": 121,
   "companies_with_jobs": 42,
-  "uncertain": 16,
+  "uncertain": 14,
   "fresh": 5,
-  "linkedin": "105 of 105 companies checked in the last 24 h (this scan: searched 0 companies)",
+  "linkedin": "88 of 105 companies checked in the last 24 h; not checked in 24 h: Claroda, Trajector, BMW TechWorks India, Volkswagen Group Digital Solutions, Media.net, FirstCry, Lentra, Netcore Cloud and 9 more (this scan: stopped after 31 of 48 companies: LinkedIn answered 429)",
   "companies_checked_on_linkedin": [
    "3Pillar Global",
    "AIG",
@@ -223,10 +223,10 @@
    "Yes Bank",
    "bp"
   ],
-  "linkedin_crosscheck": "85 of 85 scanned companies cross-checked on LinkedIn in the last 4 days; 7 roles the careers sites missed",
-  "missed_by_site": 7,
+  "linkedin_crosscheck": "85 of 85 scanned companies cross-checked on LinkedIn in the last 4 days; 5 roles the careers sites missed",
+  "missed_by_site": 5,
   "scanner_alerts": [],
-  "rejected": 381
+  "rejected": 382
  },
  "jobs": [
   {
@@ -456,23 +456,6 @@
   },
   {
    "company": "BNP Paribas",
-   "title": "Python Data Engineer",
-   "location": "Mumbai, Maharashtra, India",
-   "location_tags": [
-    "Mumbai"
-   ],
-   "posted": "2026-11-13",
-   "days_ago": 6,
-   "url": "https://in.linkedin.com/jobs/view/python-data-engineer-at-bnp-paribas-4490745382",
-   "source": "linkedin",
-   "match": "title",
-   "flags": [],
-   "fresh": false,
-   "first_seen": "2026-11-14",
-   "new": false
-  },
-  {
-   "company": "BNP Paribas",
    "title": "Assistant Manager - Data Engineer",
    "location": "Mumbai, Maharashtra, India",
    "location_tags": [
@@ -512,14 +495,31 @@
    "location_tags": [
     "Pune"
    ],
-   "posted": "2026-11-17",
-   "days_ago": 2,
+   "posted": "2026-11-18",
+   "days_ago": 1,
    "url": "https://in.linkedin.com/jobs/view/lead-cloud-data-engineer-at-barclays-4490483095",
    "source": "linkedin",
    "match": "title",
    "flags": [],
    "fresh": false,
    "first_seen": "2026-11-18",
+   "new": true
+  },
+  {
+   "company": "Barclays",
+   "title": "Data Engineer",
+   "location": "Pune Division, Maharashtra, India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-10-29",
+   "days_ago": 21,
+   "url": "https://in.linkedin.com/jobs/view/data-engineer-at-barclays-4482266928",
+   "source": "linkedin",
+   "match": "title",
+   "flags": [],
+   "fresh": true,
+   "first_seen": "2026-11-19",
    "new": true
   },
   {
@@ -1267,44 +1267,6 @@
    "new": false
   },
   {
-   "company": "HSBC",
-   "title": "Data platform engineer- AI / Associate Director",
-   "location": "Pune Division, Maharashtra, India",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": "2026-11-17",
-   "days_ago": 2,
-   "url": "https://in.linkedin.com/jobs/view/data-platform-engineer-ai-associate-director-at-hsbc-4491550635",
-   "source": "linkedin",
-   "match": "keyword:data platform",
-   "flags": [],
-   "crosscheck": true,
-   "fresh": true,
-   "first_seen": "2026-11-19",
-   "new": true
-  },
-  {
-   "company": "HSBC",
-   "title": "GCP, Bigquery, Python, Agentic AI/Senior Consultant Specialist",
-   "location": "Pune Division, Maharashtra, India",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": "2026-10-30",
-   "days_ago": 20,
-   "url": "https://in.linkedin.com/jobs/view/gcp-bigquery-python-agentic-ai-senior-consultant-specialist-at-hsbc-4485347325",
-   "source": "linkedin",
-   "match": "keyword:bigquery",
-   "flags": [
-    "title borderline"
-   ],
-   "crosscheck": true,
-   "fresh": false,
-   "first_seen": "2026-11-18",
-   "new": true
-  },
-  {
    "company": "HighLevel",
    "title": "Staff Engineer – Distributed Data Systems & Infrastructure",
    "location": "India",
@@ -1339,17 +1301,68 @@
    "new": false
   },
   {
-   "company": "JPMorgan Chase",
-   "title": "Software Engineer III - Databricks, Python Pyspark",
+   "company": "IDFC FIRST Bank",
+   "title": "Data Engineer",
    "location": "Mumbai, Maharashtra, India",
    "location_tags": [
     "Mumbai"
    ],
-   "posted": "2026-11-18",
-   "days_ago": 1,
-   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210808660",
+   "posted": "2026-11-19",
+   "days_ago": 0,
+   "url": "https://in.linkedin.com/jobs/view/data-engineer-at-idfc-first-bank-4492133700",
+   "source": "linkedin",
+   "match": "title",
+   "flags": [],
+   "fresh": true,
+   "first_seen": "2026-11-19",
+   "new": true
+  },
+  {
+   "company": "JPMorgan Chase",
+   "title": "Lead Software Engineer - Data analytics, Databricks",
+   "location": "Mumbai, Maharashtra, India",
+   "location_tags": [
+    "Mumbai"
+   ],
+   "posted": "2026-11-19",
+   "days_ago": 0,
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210809902",
    "source": "oracle",
-   "match": "keyword:pyspark",
+   "match": "title",
+   "flags": [],
+   "fresh": true,
+   "first_seen": "2026-11-19",
+   "new": true
+  },
+  {
+   "company": "JPMorgan Chase",
+   "title": "Software Engineer III - Data analytics, Databricks",
+   "location": "Mumbai, Maharashtra, India",
+   "location_tags": [
+    "Mumbai"
+   ],
+   "posted": "2026-11-19",
+   "days_ago": 0,
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210809888",
+   "source": "oracle",
+   "match": "keyword:databricks",
+   "flags": [],
+   "fresh": true,
+   "first_seen": "2026-11-19",
+   "new": true
+  },
+  {
+   "company": "JPMorgan Chase",
+   "title": "Lead Software Engineer - Python, Data,AI",
+   "location": "Mumbai, Maharashtra, India",
+   "location_tags": [
+    "Mumbai"
+   ],
+   "posted": "2026-11-17",
+   "days_ago": 2,
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210791231",
+   "source": "oracle",
+   "match": "pattern",
    "flags": [],
    "fresh": true,
    "first_seen": "2026-11-19",
@@ -1453,7 +1466,7 @@
    "source": "linkedin",
    "match": "pattern",
    "flags": [],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-11-19",
    "new": true
   },
@@ -1620,12 +1633,12 @@
    ],
    "posted": "2026-11-06",
    "days_ago": 13,
-   "url": "https://www.metlifecareers.com/en_US/ml/JobDetail/Senior-Data-Engineer-Databricks-Data-Modeling-Architecture/21475",
+   "url": "https://www.metlifecareers.com/en_US/ml/JobDetail/Sr-Software-Platform-Engineer-I-Data-Engineer/21474",
    "source": "avature",
    "match": "title",
    "flags": [],
    "fresh": false,
-   "first_seen": "2026-11-08",
+   "first_seen": "2026-11-14",
    "new": false
   },
   {
@@ -1781,7 +1794,7 @@
    "flags": [
     "company listed as 'Mondelēz International'"
    ],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-11-19",
    "new": true
   },
@@ -1800,7 +1813,7 @@
    "flags": [
     "company listed as 'Mondelēz International'"
    ],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-11-19",
    "new": true
   },
@@ -2165,23 +2178,6 @@
    "posted": null,
    "days_ago": null,
    "url": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/525818",
-   "source": "avature",
-   "match": "title",
-   "flags": [
-    "multiple locations - check"
-   ],
-   "fresh": false,
-   "first_seen": "2026-10-24",
-   "new": false
-  },
-  {
-   "company": "Siemens Digital Industries Software",
-   "title": "Senior Data Engineer",
-   "location": "Multiple Locations",
-   "location_tags": [],
-   "posted": null,
-   "days_ago": null,
-   "url": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/524101",
    "source": "avature",
    "match": "title",
    "flags": [

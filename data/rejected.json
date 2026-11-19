@@ -1,9 +1,9 @@
 {
 "meta": {
-"generated_at": "2026-11-19T01:50:50+00:00",
+"generated_at": "2026-11-19T10:42:28+00:00",
 "date": "2026-11-19",
 "recency_days": 60,
-"count": 381
+"count": 382
 },
 "rejected": [
 {
@@ -222,6 +222,16 @@
 },
 {
 "company": "Amazon",
+"title": "Data Engineer II, , GFS (Global Finance Solution)",
+"location": "Bengaluru, Karnataka, IND; IN, KA, Bengaluru",
+"posted": "November 19, 2026",
+"reason": "location",
+"tags": [],
+"url": "https://www.amazon.jobs/en/jobs/10609176/data-engineer-ii-gfs-global-finance-solution",
+"source": "amazon"
+},
+{
+"company": "Amazon",
 "title": "Data Engineer II, Alexa AI - ML Engineering",
 "location": "Bengaluru, Karnataka, IND; IN, KA, Bengaluru",
 "posted": "November  6, 2026",
@@ -424,6 +434,16 @@
 "company": "Amazon",
 "title": "Data Engineer, IN Data Engineering & Analytics",
 "location": "Bengaluru, Karnataka, IND; IN, KA, Bengaluru",
+"posted": "November 19, 2026",
+"reason": "location",
+"tags": [],
+"url": "https://www.amazon.jobs/en/jobs/10609147/data-engineer-in-data-engineering-analytics",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Engineer, IN Data Engineering & Analytics",
+"location": "Bengaluru, Karnataka, IND; IN, KA, Bengaluru",
 "posted": "October 13, 2026",
 "reason": "location",
 "tags": [],
@@ -518,16 +538,6 @@
 "reason": "location",
 "tags": [],
 "url": "https://www.amazon.jobs/en/jobs/10589830/software-development-engineer-sports-data-platform-prime-video-sports",
-"source": "amazon"
-},
-{
-"company": "Amazon",
-"title": "Software Development Manager, Sports Data Platform - Prime Video Sports",
-"location": "Bengaluru, Karnataka, IND; IN, KA, Bengaluru",
-"posted": "October 27, 2026",
-"reason": "location",
-"tags": [],
-"url": "https://www.amazon.jobs/en/jobs/10589829/software-development-manager-sports-data-platform-prime-video-sports",
 "source": "amazon"
 },
 {
@@ -891,18 +901,6 @@
 "source": "linkedin"
 },
 {
-"company": "Barclays",
-"title": "Margin Data & Analytics",
-"location": "Pune Division, Maharashtra, India",
-"posted": "2026-10-22",
-"reason": "title not a data-engineering role",
-"tags": [
-"Pune"
-],
-"url": "https://in.linkedin.com/jobs/view/margin-data-analytics-at-barclays-4479430264",
-"source": "linkedin"
-},
-{
 "company": "Bloomberg",
 "title": "Climate Data Utility Tech Team - Senior Data Engineer",
 "location": "London, United Kingdom",
@@ -930,16 +928,6 @@
 "reason": "location",
 "tags": [],
 "url": "https://bloomberg.avature.net/careers/JobDetail/Senior-Data-Management-Professional-Automation-Engineer-Economics-News/45827",
-"source": "avature"
-},
-{
-"company": "Bloomberg",
-"title": "Senior Data Management Professional - Data Automation Engineer - People Data",
-"location": "New York, New York, United States of America",
-"posted": null,
-"reason": "location",
-"tags": [],
-"url": "https://bloomberg.avature.net/careers/JobDetail/Senior-Data-Management-Professional-Data-Automation-Engineer-People-Data/45870",
 "source": "avature"
 },
 {
@@ -990,16 +978,6 @@
 "reason": "location",
 "tags": [],
 "url": "https://bloomberg.avature.net/careers/JobDetail/Senior-Data-Management-Professional-Metadata-Data-Engineering-Automation-Knowledge-Graph-Group/45270",
-"source": "avature"
-},
-{
-"company": "Bloomberg",
-"title": "Senior Software Engineer - Data Governance & Management Platforms",
-"location": "New York, New York, United States of America",
-"posted": null,
-"reason": "location",
-"tags": [],
-"url": "https://bloomberg.avature.net/careers/JobDetail/Senior-Software-Engineer-Data-Governance-Management-Platforms/20462",
 "source": "avature"
 },
 {
@@ -1537,11 +1515,11 @@
 {
 "company": "Databricks",
 "title": "Senior Software Engineer - Distributed Data Systems",
-"location": "Bellevue, Washington",
-"posted": "2023-12-11T15:48:06-05:00",
+"location": "Mountain View, California",
+"posted": "2023-06-23T18:46:50-04:00",
 "reason": "location",
 "tags": [],
-"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6936994002",
+"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6544325002",
 "source": "greenhouse"
 },
 {
@@ -1557,11 +1535,11 @@
 {
 "company": "Databricks",
 "title": "Senior Software Engineer - Distributed Data Systems",
-"location": "Mountain View, California",
-"posted": "2023-06-23T18:46:50-04:00",
+"location": "Bellevue, Washington",
+"posted": "2023-12-11T15:48:06-05:00",
 "reason": "location",
 "tags": [],
-"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6544325002",
+"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6936994002",
 "source": "greenhouse"
 },
 {
@@ -1697,16 +1675,6 @@
 {
 "company": "Databricks",
 "title": "Sr. Product Manager, Databricks AI",
-"location": "Seattle, Washington",
-"posted": "2025-08-25T14:19:53-04:00",
-"reason": "location",
-"tags": [],
-"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8136204002",
-"source": "greenhouse"
-},
-{
-"company": "Databricks",
-"title": "Sr. Product Manager, Databricks AI",
 "location": "San Francisco, California",
 "posted": "2025-08-25T14:19:01-04:00",
 "reason": "location",
@@ -1716,12 +1684,12 @@
 },
 {
 "company": "Databricks",
-"title": "Sr. Product Manager, Databricks Free Edition",
-"location": "San Francisco, California",
-"posted": "2024-10-11T14:53:30-04:00",
+"title": "Sr. Product Manager, Databricks AI",
+"location": "Seattle, Washington",
+"posted": "2025-08-25T14:19:53-04:00",
 "reason": "location",
 "tags": [],
-"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7680573002",
+"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8136204002",
 "source": "greenhouse"
 },
 {
@@ -1736,12 +1704,12 @@
 },
 {
 "company": "Databricks",
-"title": "Sr. Product Manager, Databricks Repos",
+"title": "Sr. Product Manager, Databricks Free Edition",
 "location": "San Francisco, California",
-"posted": "2025-12-05T16:31:10-05:00",
+"posted": "2024-10-11T14:53:30-04:00",
 "reason": "location",
 "tags": [],
-"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8326513002",
+"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7680573002",
 "source": "greenhouse"
 },
 {
@@ -1756,12 +1724,12 @@
 },
 {
 "company": "Databricks",
-"title": "Sr. Product Manager, Lakebase/Lakehouse",
+"title": "Sr. Product Manager, Databricks Repos",
 "location": "San Francisco, California",
-"posted": "2026-10-07T15:09:26-04:00",
+"posted": "2025-12-05T16:31:10-05:00",
 "reason": "location",
 "tags": [],
-"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8811265002",
+"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8326513002",
 "source": "greenhouse"
 },
 {
@@ -1772,6 +1740,16 @@
 "reason": "location",
 "tags": [],
 "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8876675002",
+"source": "greenhouse"
+},
+{
+"company": "Databricks",
+"title": "Sr. Product Manager, Lakebase/Lakehouse",
+"location": "San Francisco, California",
+"posted": "2026-10-07T15:09:26-04:00",
+"reason": "location",
+"tags": [],
+"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8811265002",
 "source": "greenhouse"
 },
 {
@@ -1817,11 +1795,11 @@
 {
 "company": "Databricks",
 "title": "Staff Software Engineer - Distributed Data Systems",
-"location": "Belgrade, Serbia",
-"posted": "2025-05-28T09:58:13-04:00",
+"location": "San Francisco, California",
+"posted": "2023-04-13T17:55:06-04:00",
 "reason": "location",
 "tags": [],
-"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8012831002",
+"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=5646855002",
 "source": "greenhouse"
 },
 {
@@ -1837,11 +1815,11 @@
 {
 "company": "Databricks",
 "title": "Staff Software Engineer - Distributed Data Systems",
-"location": "San Francisco, California",
-"posted": "2023-04-13T17:55:06-04:00",
+"location": "Belgrade, Serbia",
+"posted": "2025-05-28T09:58:13-04:00",
 "reason": "location",
 "tags": [],
-"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=5646855002",
+"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8012831002",
 "source": "greenhouse"
 },
 {
@@ -2639,6 +2617,18 @@
 "source": "jobsyn"
 },
 {
+"company": "Google",
+"title": "Tactical Intelligence Manager, Compliance, Strategy and Risk Management, Data Centers",
+"location": "Mumbai, India",
+"posted": "2026-11-19T06:57:43Z",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://dejobs.org/mumbai-ind/tactical-intelligence-manager-compliance-strategy-and-risk-management-data-centers/F8074B3D74FE4C1AB3831361EB7AFBC4/job/",
+"source": "jobsyn"
+},
+{
 "company": "HERE Technologies",
 "title": "Principal Data Scientist-GenAI l LLMs l Computer Vision l Multimodal AI",
 "location": "Mumbai, India; Mumbai, India",
@@ -2660,6 +2650,18 @@
 "Mumbai"
 ],
 "url": "https://careers.here.com/jobs/81832",
+"source": "jibe"
+},
+{
+"company": "HERE Technologies",
+"title": "Sr GIS Data Quality Analyst- Python l Sql l FME",
+"location": "Mumbai, India; Mumbai, India",
+"posted": "2026-11-19T10:01:00+0000",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://careers.here.com/jobs/83711",
 "source": "jibe"
 },
 {
@@ -2719,26 +2721,6 @@
 ],
 "url": "https://jobs.lever.co/gohighlevel/69f404bd-1e27-4cbe-95ea-8850d81b0736",
 "source": "lever"
-},
-{
-"company": "ICE",
-"title": "Senior Developer, Data Engineer",
-"location": "Hyderabad, India; Hyderabad, India",
-"posted": "2026-06-30T17:13:00+0000",
-"reason": "location",
-"tags": [],
-"url": "https://careers.ice.com/jobs/12714",
-"source": "jibe"
-},
-{
-"company": "ICE",
-"title": "Senior Developer, Data Engineer",
-"location": "Hyderabad, India; Hyderabad, India",
-"posted": "2026-10-01T07:02:00+0000",
-"reason": "location",
-"tags": [],
-"url": "https://careers.ice.com/jobs/12713",
-"source": "jibe"
 },
 {
 "company": "ICE",
@@ -2814,12 +2796,22 @@
 },
 {
 "company": "JPMorgan Chase",
-"title": "Lead Software Engineer - Python, Data,AI",
-"location": "Bengaluru, Karnataka, India",
-"posted": "2026-11-17",
+"title": "Lead Software Engineer - Python/Java, Snowflake, Spark, AWS",
+"location": "Hyderabad, Telangana, India",
+"posted": "2026-11-19",
 "reason": "location",
 "tags": [],
-"url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210791231",
+"url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210755551",
+"source": "oracle"
+},
+{
+"company": "JPMorgan Chase",
+"title": "Principal Software Engineer -Forward Deployment Engineer - Databricks",
+"location": "Hyderabad, Telangana, India",
+"posted": "2026-11-19",
+"reason": "location",
+"tags": [],
+"url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210780917",
 "source": "oracle"
 },
 {
@@ -3113,7 +3105,7 @@
 "tags": [
 "Mumbai"
 ],
-"url": "https://careers.nomura.com/Nomura/job/Mumbai-OPS-CS-Client-Data/1450446200/",
+"url": "https://careers.nomura.com/Nomura/job/Mumbai-OPS-CS-Client-Data/1444836900/",
 "source": "csb"
 },
 {
@@ -3125,7 +3117,7 @@
 "tags": [
 "Mumbai"
 ],
-"url": "https://careers.nomura.com/Nomura/job/Mumbai-OPS-CS-Client-Data/1444836900/",
+"url": "https://careers.nomura.com/Nomura/job/Mumbai-OPS-CS-Client-Data/1450446200/",
 "source": "csb"
 },
 {
@@ -3172,6 +3164,26 @@
 "company": "Oracle",
 "title": "Principal Data Systems Software Engineer",
 "location": "BENGALURU, KARNATAKA, India",
+"posted": "2026-11-11",
+"reason": "location",
+"tags": [],
+"url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/350277",
+"source": "oracle"
+},
+{
+"company": "Oracle",
+"title": "Principal Data Systems Software Engineer",
+"location": "BENGALURU, KARNATAKA, India",
+"posted": "2026-11-11",
+"reason": "location",
+"tags": [],
+"url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/350276",
+"source": "oracle"
+},
+{
+"company": "Oracle",
+"title": "Principal Data Systems Software Engineer",
+"location": "BENGALURU, KARNATAKA, India",
 "posted": "2026-10-27",
 "reason": "location",
 "tags": [],
@@ -3186,16 +3198,6 @@
 "reason": "location",
 "tags": [],
 "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/348735",
-"source": "oracle"
-},
-{
-"company": "Oracle",
-"title": "Senior Data Systems Software Engineer",
-"location": "India; BENGALURU, KARNATAKA, India; NOIDA, UTTAR PRADESH, India",
-"posted": "2026-11-11",
-"reason": "location",
-"tags": [],
-"url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/350293",
 "source": "oracle"
 },
 {
@@ -3236,6 +3238,26 @@
 ],
 "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/344106",
 "source": "oracle"
+},
+{
+"company": "Principal Global Services",
+"title": "Consultant - Data Engineer",
+"location": "Hyderabad, India; Hyderabad, Telangana, India",
+"posted": "2026-08-20T15:00:00+0000",
+"reason": "location",
+"tags": [],
+"url": "https://careers.principal.com/jobs/52200",
+"source": "jibe"
+},
+{
+"company": "Principal Global Services",
+"title": "Lead Data Engineer (AWS, Data Pipelines)",
+"location": "Hyderabad, India; Hyderabad, Telangana, India",
+"posted": "2026-07-16T08:58:00+0000",
+"reason": "location",
+"tags": [],
+"url": "https://careers.principal.com/jobs/51782",
+"source": "jibe"
 },
 {
 "company": "PubMatic",
@@ -3308,22 +3330,22 @@
 },
 {
 "company": "Siemens Digital Industries Software",
-"title": "Data Context Engineer (m/f/d)",
-"location": "Amadora",
-"posted": null,
-"reason": "location",
-"tags": [],
-"url": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/525481",
-"source": "avature"
-},
-{
-"company": "Siemens Digital Industries Software",
 "title": "Data Engineer (w/m/d)",
 "location": "Frankfurt am Main",
 "posted": null,
 "reason": "location",
 "tags": [],
 "url": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/516012",
+"source": "avature"
+},
+{
+"company": "Siemens Digital Industries Software",
+"title": "IT Solution Expert-Data Pipeline and Retrieval Engineer (AI Capability)",
+"location": "Bangalore",
+"posted": null,
+"reason": "location",
+"tags": [],
+"url": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/527252",
 "source": "avature"
 },
 {
@@ -3545,16 +3567,6 @@
 "tags": [],
 "url": "https://jobs.ashbyhq.com/snowflake/92b3b8b0-b60d-43c5-a15b-7fcd7aeeeb3e",
 "source": "ashby"
-},
-{
-"company": "Standard Chartered",
-"title": "Manager, Engineer - Data",
-"location": "Chennai, IND",
-"posted": "2026-11-17",
-"reason": "location",
-"tags": [],
-"url": "https://jobs.standardchartered.com/job/Manager%2C-Engineer-Data/66292-en_GB/",
-"source": "csb_unify"
 },
 {
 "company": "Standard Chartered",
@@ -3845,21 +3857,21 @@
 {
 "company": "Veeam",
 "title": "Senior Sales Engineer - Data & AI Security",
-"location": "Munich, Germany",
-"posted": "2026-08-27T10:36:53-04:00",
-"reason": "location",
-"tags": [],
-"url": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4781633101",
-"source": "greenhouse"
-},
-{
-"company": "Veeam",
-"title": "Senior Sales Engineer - Data & AI Security",
 "location": "Remote, France",
 "posted": "2026-10-19T04:51:53-04:00",
 "reason": "location",
 "tags": [],
 "url": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/5001212101",
+"source": "greenhouse"
+},
+{
+"company": "Veeam",
+"title": "Senior Sales Engineer - Data & AI Security",
+"location": "Munich, Germany",
+"posted": "2026-08-27T10:36:53-04:00",
+"reason": "location",
+"tags": [],
+"url": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4781633101",
 "source": "greenhouse"
 },
 {
@@ -3871,18 +3883,6 @@
 "tags": [],
 "url": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4944762101",
 "source": "greenhouse"
-},
-{
-"company": "Vertiv",
-"title": "IT Data Analytics Specialist",
-"location": "Pune, India",
-"posted": "2026-10-12",
-"reason": "title not a data-engineering role",
-"tags": [
-"Pune"
-],
-"url": "https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20282148",
-"source": "oracle"
 },
 {
 "company": "Vertiv",
@@ -3988,6 +3988,18 @@
 "Pune"
 ],
 "url": "https://jobs.vodafone.com/careers/job/563018698204073",
+"source": "eightfold"
+},
+{
+"company": "Vodafone (VOIS)",
+"title": "Deputy Manager- Data Scientist",
+"location": "Pune, Maharashtra, India",
+"posted": 1795073037,
+"reason": "title not a data-engineering role",
+"tags": [
+"Pune"
+],
+"url": "https://jobs.vodafone.com/careers/job/563018698351559",
 "source": "eightfold"
 },
 {
