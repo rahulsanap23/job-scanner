@@ -85,7 +85,7 @@
 "jobs": []
 },
 "Autodesk": {
-"checked_at": "2026-11-19T03:04:08+00:00",
+"checked_at": "2026-11-19T12:13:10+00:00",
 "jobs": []
 },
 "Automattic": {
@@ -158,7 +158,7 @@
 ]
 },
 "Baker Hughes": {
-"checked_at": "2026-11-19T03:04:08+00:00",
+"checked_at": "2026-11-19T12:13:10+00:00",
 "jobs": []
 },
 "Bank of America": {
@@ -166,7 +166,7 @@
 "jobs": []
 },
 "Barclays": {
-"checked_at": "2026-11-19T03:04:08+00:00",
+"checked_at": "2026-11-19T12:13:10+00:00",
 "jobs": [
 {
 "id": "https://in.linkedin.com/jobs/view/data-engineer-at-barclays-4482266928",
@@ -260,19 +260,6 @@
 "name_match": "exact"
 },
 {
-"id": "https://in.linkedin.com/jobs/view/data-architect-at-barclays-4488598496",
-"title": "Data architect",
-"company": "Barclays",
-"locations": [
-"Pune Division, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/data-architect-at-barclays-4488598496",
-"posted": "2026-11-13",
-"remote": null,
-"country": null,
-"name_match": "exact"
-},
-{
 "id": "https://in.linkedin.com/jobs/view/technical-lead-at-barclays-4491353105",
 "title": "Technical Lead",
 "company": "Barclays",
@@ -284,6 +271,19 @@
 "remote": null,
 "country": null,
 "name_match": "exact"
+},
+{
+"id": "https://in.linkedin.com/jobs/view/margin-data-analytics-at-barclays-4479430264",
+"title": "Margin Data & Analytics",
+"company": "Barclays",
+"locations": [
+"Pune Division, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/margin-data-analytics-at-barclays-4479430264",
+"posted": "2026-10-22",
+"remote": null,
+"country": null,
+"name_match": "exact"
 }
 ]
 },
@@ -292,7 +292,7 @@
 "jobs": []
 },
 "BlackRock": {
-"checked_at": "2026-11-19T03:04:08+00:00",
+"checked_at": "2026-11-19T12:13:10+00:00",
 "jobs": [
 {
 "id": "https://in.linkedin.com/jobs/view/data-engineer-aladdin-data-associate-at-blackrock-4488133317",
@@ -345,7 +345,7 @@
 "jobs": []
 },
 "BrowserStack": {
-"checked_at": "2026-11-19T03:04:08+00:00",
+"checked_at": "2026-11-19T12:13:10+00:00",
 "jobs": []
 },
 "CRED": {
@@ -1392,7 +1392,7 @@
 "jobs": []
 },
 "MetLife": {
-"checked_at": "2026-11-17T17:17:55+00:00",
+"checked_at": "2026-11-19T12:13:10+00:00",
 "jobs": [
 {
 "id": "https://in.linkedin.com/jobs/view/data-engineer-at-metlife-4488124857",
@@ -1402,19 +1402,6 @@
 "Pune Division, Maharashtra, India"
 ],
 "url": "https://in.linkedin.com/jobs/view/data-engineer-at-metlife-4488124857",
-"posted": "2026-11-06",
-"remote": null,
-"country": null,
-"name_match": "exact"
-},
-{
-"id": "https://in.linkedin.com/jobs/view/data-engineer-at-metlife-4488130676",
-"title": "Data Engineer",
-"company": "MetLife",
-"locations": [
-"Pune Division, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/data-engineer-at-metlife-4488130676",
 "posted": "2026-11-06",
 "remote": null,
 "country": null,
@@ -1434,27 +1421,14 @@
 "name_match": "exact"
 },
 {
-"id": "https://in.linkedin.com/jobs/view/associate-big-data-engineer-at-metlife-4490293394",
-"title": "Associate Big Data Engineer",
+"id": "https://in.linkedin.com/jobs/view/data-engineer-at-metlife-4488130676",
+"title": "Data Engineer",
 "company": "MetLife",
 "locations": [
 "Pune Division, Maharashtra, India"
 ],
-"url": "https://in.linkedin.com/jobs/view/associate-big-data-engineer-at-metlife-4490293394",
-"posted": "2026-11-16",
-"remote": null,
-"country": null,
-"name_match": "exact"
-},
-{
-"id": "https://in.linkedin.com/jobs/view/senior-big-data-engineer-i-at-metlife-4487282954",
-"title": "Senior Big Data Engineer - I",
-"company": "MetLife",
-"locations": [
-"Pune Division, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/senior-big-data-engineer-i-at-metlife-4487282954",
-"posted": "2026-11-04",
+"url": "https://in.linkedin.com/jobs/view/data-engineer-at-metlife-4488130676",
+"posted": "2026-11-06",
 "remote": null,
 "country": null,
 "name_match": "exact"
@@ -1471,6 +1445,19 @@
 "remote": null,
 "country": null,
 "name_match": "exact"
+},
+{
+"id": "https://in.linkedin.com/jobs/view/senior-big-data-engineer-i-at-metlife-4487282954",
+"title": "Senior Big Data Engineer - I",
+"company": "MetLife",
+"locations": [
+"Pune Division, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/senior-big-data-engineer-i-at-metlife-4487282954",
+"posted": "2026-11-04",
+"remote": null,
+"country": null,
+"name_match": "exact"
 }
 ]
 },
@@ -1479,11 +1466,11 @@
 "jobs": []
 },
 "Microsoft": {
-"checked_at": "2026-11-17T19:16:47+00:00",
+"checked_at": "2026-11-19T12:13:10+00:00",
 "jobs": []
 },
 "Mindtickle": {
-"checked_at": "2026-11-17T19:16:47+00:00",
+"checked_at": "2026-11-19T12:13:10+00:00",
 "jobs": []
 },
 "Mitsubishi Electric India": {
