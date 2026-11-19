@@ -85,7 +85,7 @@
 "jobs": []
 },
 "Autodesk": {
-"checked_at": "2026-11-18T03:04:06+00:00",
+"checked_at": "2026-11-19T03:04:08+00:00",
 "jobs": []
 },
 "Automattic": {
@@ -171,7 +171,7 @@
 ]
 },
 "Baker Hughes": {
-"checked_at": "2026-11-18T11:45:29+00:00",
+"checked_at": "2026-11-19T03:04:08+00:00",
 "jobs": []
 },
 "Bank of America": {
@@ -179,8 +179,21 @@
 "jobs": []
 },
 "Barclays": {
-"checked_at": "2026-11-18T12:13:22+00:00",
+"checked_at": "2026-11-19T03:04:08+00:00",
 "jobs": [
+{
+"id": "https://in.linkedin.com/jobs/view/data-engineer-at-barclays-4482266928",
+"title": "Data Engineer",
+"company": "Barclays",
+"locations": [
+"Pune Division, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/data-engineer-at-barclays-4482266928",
+"posted": "2026-10-29",
+"remote": null,
+"country": null,
+"name_match": "exact"
+},
 {
 "id": "https://in.linkedin.com/jobs/view/data-engineer-at-barclays-4479496036",
 "title": "Data Engineer",
@@ -195,19 +208,6 @@
 "name_match": "exact"
 },
 {
-"id": "https://in.linkedin.com/jobs/view/cloud-data-engineer-at-barclays-4490482125",
-"title": "Cloud Data Engineer",
-"company": "Barclays",
-"locations": [
-"Pune Division, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/cloud-data-engineer-at-barclays-4490482125",
-"posted": "2026-11-18",
-"remote": null,
-"country": null,
-"name_match": "exact"
-},
-{
 "id": "https://in.linkedin.com/jobs/view/ifc-cloud-data-engineer-at-barclays-4476496341",
 "title": "IFC - Cloud Data Engineer",
 "company": "Barclays",
@@ -216,6 +216,32 @@
 ],
 "url": "https://in.linkedin.com/jobs/view/ifc-cloud-data-engineer-at-barclays-4476496341",
 "posted": "2026-10-15",
+"remote": null,
+"country": null,
+"name_match": "exact"
+},
+{
+"id": "https://in.linkedin.com/jobs/view/data-engineer-vp-at-barclays-4472627956",
+"title": "Data Engineer-VP",
+"company": "Barclays",
+"locations": [
+"Pune Division, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/data-engineer-vp-at-barclays-4472627956",
+"posted": "2026-10-01",
+"remote": null,
+"country": null,
+"name_match": "exact"
+},
+{
+"id": "https://in.linkedin.com/jobs/view/cloud-data-engineer-at-barclays-4490482125",
+"title": "Cloud Data Engineer",
+"company": "Barclays",
+"locations": [
+"Pune Division, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/cloud-data-engineer-at-barclays-4490482125",
+"posted": "2026-11-18",
 "remote": null,
 "country": null,
 "name_match": "exact"
@@ -241,20 +267,7 @@
 "Pune Division, Maharashtra, India"
 ],
 "url": "https://in.linkedin.com/jobs/view/lead-cloud-data-engineer-at-barclays-4490483095",
-"posted": "2026-11-17",
-"remote": null,
-"country": null,
-"name_match": "exact"
-},
-{
-"id": "https://in.linkedin.com/jobs/view/data-engineer-vp-at-barclays-4472627956",
-"title": "Data Engineer-VP",
-"company": "Barclays",
-"locations": [
-"Pune Division, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/data-engineer-vp-at-barclays-4472627956",
-"posted": "2026-10-01",
+"posted": "2026-11-18",
 "remote": null,
 "country": null,
 "name_match": "exact"
@@ -273,14 +286,14 @@
 "name_match": "exact"
 },
 {
-"id": "https://in.linkedin.com/jobs/view/margin-data-analytics-at-barclays-4479430264",
-"title": "Margin Data & Analytics",
+"id": "https://in.linkedin.com/jobs/view/technical-lead-at-barclays-4491353105",
+"title": "Technical Lead",
 "company": "Barclays",
 "locations": [
 "Pune Division, Maharashtra, India"
 ],
-"url": "https://in.linkedin.com/jobs/view/margin-data-analytics-at-barclays-4479430264",
-"posted": "2026-10-22",
+"url": "https://in.linkedin.com/jobs/view/technical-lead-at-barclays-4491353105",
+"posted": "2026-11-18",
 "remote": null,
 "country": null,
 "name_match": "exact"
@@ -292,21 +305,8 @@
 "jobs": []
 },
 "BlackRock": {
-"checked_at": "2026-11-18T12:13:22+00:00",
+"checked_at": "2026-11-19T03:04:08+00:00",
 "jobs": [
-{
-"id": "https://in.linkedin.com/jobs/view/data-engineer-aladdin-data-associate-at-blackrock-4490795129",
-"title": "Data Engineer, Aladdin Data, Associate",
-"company": "BlackRock",
-"locations": [
-"Mumbai, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/data-engineer-aladdin-data-associate-at-blackrock-4490795129",
-"posted": "2026-11-13",
-"remote": null,
-"country": null,
-"name_match": "exact"
-},
 {
 "id": "https://in.linkedin.com/jobs/view/data-engineer-aladdin-data-associate-at-blackrock-4488133317",
 "title": "Data Engineer, Aladdin Data, Associate",
@@ -316,6 +316,19 @@
 ],
 "url": "https://in.linkedin.com/jobs/view/data-engineer-aladdin-data-associate-at-blackrock-4488133317",
 "posted": "2026-11-06",
+"remote": null,
+"country": null,
+"name_match": "exact"
+},
+{
+"id": "https://in.linkedin.com/jobs/view/data-engineer-aladdin-data-associate-at-blackrock-4490795129",
+"title": "Data Engineer, Aladdin Data, Associate",
+"company": "BlackRock",
+"locations": [
+"Mumbai, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/data-engineer-aladdin-data-associate-at-blackrock-4490795129",
+"posted": "2026-11-13",
 "remote": null,
 "country": null,
 "name_match": "exact"
@@ -345,7 +358,7 @@
 "jobs": []
 },
 "BrowserStack": {
-"checked_at": "2026-11-18T12:13:22+00:00",
+"checked_at": "2026-11-19T03:04:08+00:00",
 "jobs": []
 },
 "CRED": {
@@ -843,15 +856,15 @@
 "jobs": []
 },
 "Fivetran": {
-"checked_at": "2026-11-17T11:32:23+00:00",
+"checked_at": "2026-11-19T03:04:08+00:00",
 "jobs": []
 },
 "Freshworks": {
-"checked_at": "2026-11-17T11:32:23+00:00",
+"checked_at": "2026-11-19T03:04:08+00:00",
 "jobs": []
 },
 "Gallagher": {
-"checked_at": "2026-11-17T11:32:23+00:00",
+"checked_at": "2026-11-19T03:04:08+00:00",
 "jobs": []
 },
 "General Mills": {
