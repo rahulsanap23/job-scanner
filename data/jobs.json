@@ -1,16 +1,16 @@
 {
  "meta": {
-  "generated_at": "2026-11-19T10:42:28+00:00",
-  "date": "2026-11-19",
+  "generated_at": "2026-11-20T01:49:55+00:00",
+  "date": "2026-11-20",
   "recency_days": 60,
   "companies_total": 190,
-  "companies_scanned_ok": 88,
+  "companies_scanned_ok": 98,
   "companies_failed": [
    "AIG",
    "Abbott",
    "Air Products",
    "AllianceBernstein (Equitable)",
-   "Allstate",
+   "Amadeus",
    "Autodesk",
    "Baker Hughes",
    "Barclays",
@@ -22,15 +22,10 @@
    "CrowdStrike",
    "DBS Bank",
    "Deutsche Bank",
-   "Dow",
    "Ecolab",
    "Equinix",
    "FIS",
-   "Fiserv",
-   "General Mills",
-   "Hitachi (Vantara, Payment Services)",
    "Johnson & Johnson",
-   "Johnson Controls",
    "KONE",
    "LSEG",
    "M&G",
@@ -42,12 +37,10 @@
    "Medline",
    "Michelin",
    "Mondelez",
-   "Northern Trust",
    "Novartis",
    "Nvidia",
    "P&G",
    "Pfizer",
-   "Philips",
    "Priceline (Booking Holdings)",
    "Red Hat",
    "Rockwell Automation",
@@ -56,11 +49,8 @@
    "Sandvik",
    "TIAA",
    "Telstra",
-   "Thermo Fisher Scientific",
    "VMware (Broadcom)",
-   "Voya",
    "Wolters Kluwer",
-   "Workday",
    "bp"
   ],
   "companies_not_scanned": [
@@ -111,18 +101,18 @@
    "Volkswagen Group Digital Solutions",
    "Yes Bank"
   ],
-  "jobs": 121,
+  "jobs": 122,
   "companies_with_jobs": 42,
-  "uncertain": 14,
-  "fresh": 5,
-  "linkedin": "88 of 105 companies checked in the last 24 h; not checked in 24 h: Claroda, Trajector, BMW TechWorks India, Volkswagen Group Digital Solutions, Media.net, FirstCry, Lentra, Netcore Cloud and 9 more (this scan: stopped after 31 of 48 companies: LinkedIn answered 429)",
+  "uncertain": 15,
+  "fresh": 3,
+  "linkedin": "72 of 95 companies checked in the last 24 h; not checked in 24 h: TIAA, VMware (Broadcom), Telstra, Rockwell Automation, TeamViewer, Trajector, BMW TechWorks India, Volkswagen Group Digital Solutions and 15 more (this scan: stopped after 1 of 24 companies: LinkedIn answered 429)",
   "companies_checked_on_linkedin": [
    "3Pillar Global",
    "AIG",
    "Abbott",
    "Air Products",
    "AllianceBernstein (Equitable)",
-   "Allstate",
+   "Amadeus",
    "Atlas Copco",
    "Autodesk",
    "Axis Bank",
@@ -144,7 +134,6 @@
    "DBS Bank",
    "Dassault Systèmes",
    "Deutsche Bank",
-   "Dow",
    "Dream Sports",
    "ESTECO",
    "Ecolab",
@@ -155,10 +144,7 @@
    "FedEx",
    "Federal Bank",
    "FirstCry",
-   "Fiserv",
-   "General Mills",
    "HDFC Bank",
-   "Hitachi (Vantara, Payment Services)",
    "ICICI Bank",
    "IDFC FIRST Bank",
    "IndusInd Bank",
@@ -166,7 +152,6 @@
    "Jio",
    "JioHotstar",
    "Johnson & Johnson",
-   "Johnson Controls",
    "KONE",
    "Kotak Mahindra Bank",
    "LSEG",
@@ -185,13 +170,11 @@
    "Mondelez",
    "NPCI",
    "Netcore Cloud",
-   "Northern Trust",
    "Novartis",
    "Nvidia",
    "Nykaa",
    "P&G",
    "Pfizer",
-   "Philips",
    "PhonePe",
    "Postman",
    "Priceline (Booking Holdings)",
@@ -208,7 +191,6 @@
    "TeamViewer",
    "Telstra",
    "Tesla",
-   "Thermo Fisher Scientific",
    "Tietoevry",
    "Trajector",
    "UBS",
@@ -217,16 +199,14 @@
    "Vector Informatik",
    "Veritas Technologies",
    "Volkswagen Group Digital Solutions",
-   "Voya",
    "Wolters Kluwer",
-   "Workday",
    "Yes Bank",
    "bp"
   ],
-  "linkedin_crosscheck": "85 of 85 scanned companies cross-checked on LinkedIn in the last 4 days; 5 roles the careers sites missed",
-  "missed_by_site": 5,
+  "linkedin_crosscheck": "95 of 95 scanned companies cross-checked on LinkedIn in the last 4 days; 7 roles the careers sites missed",
+  "missed_by_site": 7,
   "scanner_alerts": [],
-  "rejected": 382
+  "rejected": 427
  },
  "jobs": [
   {
@@ -237,7 +217,7 @@
     "Mumbai"
    ],
    "posted": "2026-10-07",
-   "days_ago": 43,
+   "days_ago": 44,
    "url": "https://in.linkedin.com/jobs/view/data-engineer-%E2%80%93-commercial-enablement-at-abbott-4473283702",
    "source": "linkedin",
    "match": "title",
@@ -254,7 +234,7 @@
     "Remote"
    ],
    "posted": "2026-11-10",
-   "days_ago": 9,
+   "days_ago": 10,
    "url": "https://in.linkedin.com/jobs/view/data-engineer-i-at-amazon-4481247187",
    "source": "linkedin",
    "match": "title",
@@ -272,7 +252,7 @@
     "Remote"
    ],
    "posted": "2026-11-05",
-   "days_ago": 14,
+   "days_ago": 15,
    "url": "https://in.linkedin.com/jobs/view/data-engineer-i-spiv-data-engineering-at-amazon-4487761167",
    "source": "linkedin",
    "match": "title",
@@ -290,7 +270,7 @@
     "Pune"
    ],
    "posted": "2026-11-09",
-   "days_ago": 10,
+   "days_ago": 11,
    "url": "https://in.linkedin.com/jobs/view/senior-azure-data-engineer-at-atlas-copco-group-4487903093",
    "source": "linkedin",
    "match": "title",
@@ -307,7 +287,7 @@
     "Pune"
    ],
    "posted": "2026-11-02",
-   "days_ago": 17,
+   "days_ago": 18,
    "url": "https://in.linkedin.com/jobs/view/commercial-senior-data-engineer-at-atlas-copco-group-4477516618",
    "source": "linkedin",
    "match": "title",
@@ -324,7 +304,7 @@
     "Remote"
    ],
    "posted": "2026-11-16",
-   "days_ago": 3,
+   "days_ago": 4,
    "url": "https://careers-apac-atlassian.icims.com/jobs/27615/senior-engineering-manager---data-platform/job",
    "source": "atlassian",
    "match": "keyword:data platform",
@@ -341,7 +321,7 @@
     "Remote"
    ],
    "posted": "2026-11-12",
-   "days_ago": 7,
+   "days_ago": 8,
    "url": "https://careers-apac-atlassian.icims.com/jobs/27230/senior-data-platform-engineer/job",
    "source": "atlassian",
    "match": "keyword:data platform",
@@ -358,7 +338,7 @@
     "Remote"
    ],
    "posted": "2026-10-30",
-   "days_ago": 20,
+   "days_ago": 21,
    "url": "https://careers-apac-atlassian.icims.com/jobs/26751/senior-software-engineer---trusted-data-platform/job",
    "source": "atlassian",
    "match": "keyword:data platform",
@@ -375,7 +355,7 @@
     "Remote"
    ],
    "posted": "2026-10-29",
-   "days_ago": 21,
+   "days_ago": 22,
    "url": "https://careers-apac-atlassian.icims.com/jobs/27589/data-platform-engineer/job",
    "source": "atlassian",
    "match": "keyword:data platform",
@@ -392,7 +372,7 @@
     "Remote"
    ],
    "posted": "2026-10-20",
-   "days_ago": 30,
+   "days_ago": 31,
    "url": "https://careers-apac-atlassian.icims.com/jobs/26571/senior-data-engineering-manager/job",
    "source": "atlassian",
    "match": "title",
@@ -409,7 +389,7 @@
     "Remote"
    ],
    "posted": "2026-10-14",
-   "days_ago": 36,
+   "days_ago": 37,
    "url": "https://careers-apac-atlassian.icims.com/jobs/27555/principal-data-engineer/job",
    "source": "atlassian",
    "match": "title",
@@ -426,7 +406,7 @@
     "Remote"
    ],
    "posted": "2026-09-28",
-   "days_ago": 52,
+   "days_ago": 53,
    "url": "https://careers-apac-atlassian.icims.com/jobs/26569/principal-data-engineer/job",
    "source": "atlassian",
    "match": "title",
@@ -443,7 +423,7 @@
     "Pune"
    ],
    "posted": "2026-10-28",
-   "days_ago": 22,
+   "days_ago": 23,
    "url": "https://jobs.smartrecruiters.com/Avaloq1/744000158226064",
    "source": "smartrecruiters",
    "match": "keyword:data platform",
@@ -462,7 +442,7 @@
     "Mumbai"
    ],
    "posted": "2026-11-11",
-   "days_ago": 8,
+   "days_ago": 9,
    "url": "https://in.linkedin.com/jobs/view/assistant-manager-data-engineer-at-bnp-paribas-4489932102",
    "source": "linkedin",
    "match": "title",
@@ -479,14 +459,14 @@
     "Pune"
    ],
    "posted": "2026-11-18",
-   "days_ago": 1,
+   "days_ago": 2,
    "url": "https://in.linkedin.com/jobs/view/cloud-data-engineer-at-barclays-4490482125",
    "source": "linkedin",
    "match": "title",
    "flags": [],
    "fresh": false,
    "first_seen": "2026-11-18",
-   "new": true
+   "new": false
   },
   {
    "company": "Barclays",
@@ -496,14 +476,14 @@
     "Pune"
    ],
    "posted": "2026-11-18",
-   "days_ago": 1,
+   "days_ago": 2,
    "url": "https://in.linkedin.com/jobs/view/lead-cloud-data-engineer-at-barclays-4490483095",
    "source": "linkedin",
    "match": "title",
    "flags": [],
    "fresh": false,
    "first_seen": "2026-11-18",
-   "new": true
+   "new": false
   },
   {
    "company": "Barclays",
@@ -513,12 +493,12 @@
     "Pune"
    ],
    "posted": "2026-10-29",
-   "days_ago": 21,
+   "days_ago": 22,
    "url": "https://in.linkedin.com/jobs/view/data-engineer-at-barclays-4482266928",
    "source": "linkedin",
    "match": "title",
    "flags": [],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-11-19",
    "new": true
   },
@@ -530,7 +510,7 @@
     "Pune"
    ],
    "posted": "2026-10-22",
-   "days_ago": 28,
+   "days_ago": 29,
    "url": "https://in.linkedin.com/jobs/view/data-engineer-at-barclays-4479496036",
    "source": "linkedin",
    "match": "title",
@@ -547,7 +527,7 @@
     "Pune"
    ],
    "posted": "2026-10-15",
-   "days_ago": 35,
+   "days_ago": 36,
    "url": "https://in.linkedin.com/jobs/view/ifc-cloud-data-engineer-at-barclays-4476496341",
    "source": "linkedin",
    "match": "title",
@@ -564,7 +544,7 @@
     "Pune"
    ],
    "posted": "2026-10-06",
-   "days_ago": 44,
+   "days_ago": 45,
    "url": "https://in.linkedin.com/jobs/view/data-engineer-at-barclays-4473687634",
    "source": "linkedin",
    "match": "title",
@@ -581,7 +561,7 @@
     "Pune"
    ],
    "posted": "2026-10-01",
-   "days_ago": 49,
+   "days_ago": 50,
    "url": "https://in.linkedin.com/jobs/view/data-engineer-vp-at-barclays-4472627956",
    "source": "linkedin",
    "match": "title",
@@ -598,7 +578,7 @@
     "Mumbai"
    ],
    "posted": "2026-11-13",
-   "days_ago": 6,
+   "days_ago": 7,
    "url": "https://in.linkedin.com/jobs/view/data-engineer-aladdin-data-associate-at-blackrock-4490795129",
    "source": "linkedin",
    "match": "title",
@@ -615,7 +595,7 @@
     "Mumbai"
    ],
    "posted": "2026-11-06",
-   "days_ago": 13,
+   "days_ago": 14,
    "url": "https://in.linkedin.com/jobs/view/data-engineer-aladdin-data-associate-at-blackrock-4488133317",
    "source": "linkedin",
    "match": "title",
@@ -632,7 +612,7 @@
     "Mumbai"
    ],
    "posted": "2026-11-17",
-   "days_ago": 2,
+   "days_ago": 3,
    "url": "https://in.linkedin.com/jobs/view/data-engineer-at-cisco-4467704802",
    "source": "linkedin",
    "match": "title",
@@ -649,14 +629,14 @@
     "Pune"
    ],
    "posted": "2026-11-17",
-   "days_ago": 2,
+   "days_ago": 3,
    "url": "https://in.linkedin.com/jobs/view/senior-data-platform-engineer-vice-president-at-citi-4491429923",
    "source": "linkedin",
    "match": "keyword:data platform",
    "flags": [],
    "fresh": false,
    "first_seen": "2026-11-18",
-   "new": true
+   "new": false
   },
   {
    "company": "Citi",
@@ -666,7 +646,7 @@
     "Pune"
    ],
    "posted": "2026-11-12",
-   "days_ago": 7,
+   "days_ago": 8,
    "url": "https://in.linkedin.com/jobs/view/data-engineer-at-citi-4489210181",
    "source": "linkedin",
    "match": "title",
@@ -683,7 +663,7 @@
     "Pune"
    ],
    "posted": "2026-11-12",
-   "days_ago": 7,
+   "days_ago": 8,
    "url": "https://in.linkedin.com/jobs/view/data-platform-engineer-assistant-vice-president-at-citi-4489512171",
    "source": "linkedin",
    "match": "keyword:data platform",
@@ -700,7 +680,7 @@
     "Pune"
    ],
    "posted": "2026-11-06",
-   "days_ago": 13,
+   "days_ago": 14,
    "url": "https://in.linkedin.com/jobs/view/lead-python-and-spark-data-engineer-vice-president-at-citi-4487320469",
    "source": "linkedin",
    "match": "title",
@@ -717,7 +697,7 @@
     "Pune"
    ],
    "posted": "2026-11-05",
-   "days_ago": 14,
+   "days_ago": 15,
    "url": "https://in.linkedin.com/jobs/view/data-engineer-python-ai-at-citi-4486920474",
    "source": "linkedin",
    "match": "title",
@@ -734,7 +714,7 @@
     "Pune"
    ],
    "posted": "2026-11-05",
-   "days_ago": 14,
+   "days_ago": 15,
    "url": "https://in.linkedin.com/jobs/view/data-engineer-java-and-oracle-assistant-vice-president-at-citi-4486906847",
    "source": "linkedin",
    "match": "title",
@@ -751,7 +731,7 @@
     "Pune"
    ],
    "posted": "2026-11-05",
-   "days_ago": 14,
+   "days_ago": 15,
    "url": "https://in.linkedin.com/jobs/view/lead-data-engineer-assistant-vice-president-at-citi-4486918603",
    "source": "linkedin",
    "match": "title",
@@ -768,7 +748,7 @@
     "Pune"
    ],
    "posted": "2026-11-05",
-   "days_ago": 14,
+   "days_ago": 15,
    "url": "https://in.linkedin.com/jobs/view/pyspark-big-data-engineer-at-citi-4486921427",
    "source": "linkedin",
    "match": "title",
@@ -785,7 +765,7 @@
     "Pune"
    ],
    "posted": "2026-11-05",
-   "days_ago": 14,
+   "days_ago": 15,
    "url": "https://in.linkedin.com/jobs/view/senior-data-engineer-at-citi-4486917612",
    "source": "linkedin",
    "match": "title",
@@ -802,7 +782,7 @@
     "Pune"
    ],
    "posted": "2026-11-05",
-   "days_ago": 14,
+   "days_ago": 15,
    "url": "https://in.linkedin.com/jobs/view/senior-databricks-engineer-apache-spark-and-aws-vice-president-at-citi-4486910770",
    "source": "linkedin",
    "match": "keyword:spark",
@@ -819,7 +799,7 @@
     "Remote"
    ],
    "posted": "2026-10-27",
-   "days_ago": 23,
+   "days_ago": 24,
    "url": "https://www.coinbase.com/careers/positions/8325213?gh_jid=8325213",
    "source": "greenhouse",
    "match": "title",
@@ -830,13 +810,31 @@
   },
   {
    "company": "Cummins",
+   "title": "Data Engineer - Senior 1",
+   "location": "Pune Division, Maharashtra, India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-10-29",
+   "days_ago": 22,
+   "url": "https://in.linkedin.com/jobs/view/data-engineer-senior-1-at-cummins-india-4457443885",
+   "source": "linkedin",
+   "match": "title",
+   "flags": [],
+   "crosscheck": true,
+   "fresh": true,
+   "first_seen": "2026-11-20",
+   "new": true
+  },
+  {
+   "company": "Cummins",
    "title": "AI Data Engineer - Senior",
    "location": "Pune, India",
    "location_tags": [
     "Pune"
    ],
    "posted": "2026-10-01",
-   "days_ago": 49,
+   "days_ago": 50,
    "url": "https://dejobs.org/pune-ind/ai-data-engineer-senior/01AAF78AF70044629F957B53FC016608/job/",
    "source": "jobsyn",
    "match": "title",
@@ -853,7 +851,7 @@
     "Pune"
    ],
    "posted": "2026-10-29",
-   "days_ago": 21,
+   "days_ago": 22,
    "url": "https://in.linkedin.com/jobs/view/lead-engineer-data-ingestion-vp-at-deutsche-bank-4485223443",
    "source": "linkedin",
    "match": "pattern",
@@ -870,7 +868,7 @@
     "Pune"
    ],
    "posted": "2026-09-30",
-   "days_ago": 50,
+   "days_ago": 51,
    "url": "https://in.linkedin.com/jobs/view/bigdata-hadoop-scala-engineer-avp-at-deutsche-bank-4472111802",
    "source": "linkedin",
    "match": "keyword:hadoop",
@@ -881,22 +879,20 @@
   },
   {
    "company": "EPAM Systems",
-   "title": "Senior Business Analyst - Supply Chain + Azure Databricks",
-   "location": "Jaipur, India; Coimbatore, India; Chennai, India; Pune, India; Bangalore, India; Hyderabad, India",
+   "title": "Lead Data Software Engineer",
+   "location": "Hyderabad, India; Bangalore, India; Pune, India",
    "location_tags": [
     "Pune"
    ],
-   "posted": "2026-11-09",
-   "days_ago": 10,
-   "url": "https://careers.epam.com/en/vacancy/senior-business-analyst-supply-chain-azure-databricks-bltn4imc1b716i74sdi_en",
+   "posted": "2026-11-19",
+   "days_ago": 1,
+   "url": "https://careers.epam.com/en/vacancy/lead-data-software-engineer-bltb7ba98d3cbf0fd8b_en",
    "source": "epam",
-   "match": "keyword:databricks",
-   "flags": [
-    "title borderline"
-   ],
-   "fresh": false,
-   "first_seen": "2026-11-09",
-   "new": false
+   "match": "pattern",
+   "flags": [],
+   "fresh": true,
+   "first_seen": "2026-11-20",
+   "new": true
   },
   {
    "company": "EPAM Systems",
@@ -906,7 +902,7 @@
     "Pune"
    ],
    "posted": "2026-11-06",
-   "days_ago": 13,
+   "days_ago": 14,
    "url": "https://careers.epam.com/en/vacancy/lead-palantir-data-software-engineer-bltp8t6eryuvzmu4d7q_en",
    "source": "epam",
    "match": "pattern",
@@ -923,7 +919,7 @@
     "Pune"
    ],
    "posted": "2026-11-06",
-   "days_ago": 13,
+   "days_ago": 14,
    "url": "https://careers.epam.com/en/vacancy/senior-palantir-data-software-engineer-bltp37cttltre4txqro_en",
    "source": "epam",
    "match": "pattern",
@@ -935,29 +931,12 @@
   {
    "company": "EPAM Systems",
    "title": "Lead Systems Engineer - Data DevOps/MLOps",
-   "location": "Chennai, India; Bangalore, India; Pune, India; Coimbatore, India; Hyderabad, India; Gurgaon, India",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": "2026-10-30",
-   "days_ago": 20,
-   "url": "https://careers.epam.com/en/vacancy/lead-systems-engineer-data-devops-mlops-bltagknkh9k1a5qyvd0_en",
-   "source": "epam",
-   "match": "pattern",
-   "flags": [],
-   "fresh": false,
-   "first_seen": "2026-11-09",
-   "new": false
-  },
-  {
-   "company": "EPAM Systems",
-   "title": "Lead Systems Engineer - Data DevOps/MLOps",
    "location": "Coimbatore, India; Bangalore, India; Hyderabad, India; Chennai, India; Pune, India; Gurgaon, India",
    "location_tags": [
     "Pune"
    ],
    "posted": "2026-10-30",
-   "days_ago": 20,
+   "days_ago": 21,
    "url": "https://careers.epam.com/en/vacancy/lead-systems-engineer-data-devops-mlops-bltx3zova01hptsib2q_en",
    "source": "epam",
    "match": "pattern",
@@ -974,7 +953,7 @@
     "Pune"
    ],
    "posted": "2026-10-30",
-   "days_ago": 20,
+   "days_ago": 21,
    "url": "https://careers.epam.com/en/vacancy/senior-data-quality-engineer-blt0h7rslhs5rrvx5dd_en",
    "source": "epam",
    "match": "pattern",
@@ -993,7 +972,7 @@
     "Pune"
    ],
    "posted": "2026-10-30",
-   "days_ago": 20,
+   "days_ago": 21,
    "url": "https://careers.epam.com/en/vacancy/senior-systems-engineer-data-devops-mlops-bltc4bt040c0f8c46jp_en",
    "source": "epam",
    "match": "pattern",
@@ -1010,7 +989,7 @@
     "Pune"
    ],
    "posted": "2026-10-30",
-   "days_ago": 20,
+   "days_ago": 21,
    "url": "https://careers.epam.com/en/vacancy/senior-systems-engineer-data-devops-mlops-bltoi6v8qcfto2tjf30_en",
    "source": "epam",
    "match": "pattern",
@@ -1027,7 +1006,7 @@
     "Pune"
    ],
    "posted": "2026-11-03",
-   "days_ago": 16,
+   "days_ago": 17,
    "url": "https://eaton.eightfold.ai/careers/job/687240101470",
    "source": "eightfold",
    "match": "pattern",
@@ -1044,7 +1023,7 @@
     "Pune"
    ],
    "posted": "2026-10-16",
-   "days_ago": 34,
+   "days_ago": 35,
    "url": "https://eaton.eightfold.ai/careers/job/687239486196",
    "source": "eightfold",
    "match": "pattern",
@@ -1063,7 +1042,7 @@
     "Remote"
    ],
    "posted": "2026-11-11",
-   "days_ago": 8,
+   "days_ago": 9,
    "url": "https://in.linkedin.com/jobs/view/data-engineer-senior-ii-11-at-fedex-4408784121",
    "source": "linkedin",
    "match": "title",
@@ -1080,7 +1059,7 @@
     "Remote"
    ],
    "posted": "2026-11-11",
-   "days_ago": 8,
+   "days_ago": 9,
    "url": "https://in.linkedin.com/jobs/view/data-engineer-senior-ii-12-at-fedex-4408784128",
    "source": "linkedin",
    "match": "title",
@@ -1097,7 +1076,7 @@
     "Pune"
    ],
    "posted": "2026-11-16",
-   "days_ago": 3,
+   "days_ago": 4,
    "url": "https://jobs.ajg.com/jobs/58254",
    "source": "jibe",
    "match": "title",
@@ -1115,7 +1094,7 @@
     "Pune"
    ],
    "posted": "2026-11-05",
-   "days_ago": 14,
+   "days_ago": 15,
    "url": "https://jobs.ajg.com/jobs/60970",
    "source": "jibe",
    "match": "keyword:data integration",
@@ -1133,7 +1112,7 @@
     "Pune"
    ],
    "posted": "2026-11-03",
-   "days_ago": 16,
+   "days_ago": 17,
    "url": "https://jobs.ajg.com/jobs/60987",
    "source": "jibe",
    "match": "keyword:data integration",
@@ -1151,7 +1130,7 @@
     "Mumbai"
    ],
    "posted": "2026-10-08",
-   "days_ago": 42,
+   "days_ago": 43,
    "url": "https://jobs.ajg.com/jobs/60574",
    "source": "jibe",
    "match": "pattern",
@@ -1171,7 +1150,7 @@
     "Pune"
    ],
    "posted": "2026-09-30",
-   "days_ago": 50,
+   "days_ago": 51,
    "url": "https://jobs.ajg.com/jobs/59183",
    "source": "jibe",
    "match": "keyword:data integration",
@@ -1184,86 +1163,105 @@
   {
    "company": "General Mills",
    "title": "Lead Data Engineer",
-   "location": "Mumbai Metropolitan Region",
+   "location": "Powai, Mumbai, MH",
    "location_tags": [
     "Mumbai"
    ],
-   "posted": "2026-11-05",
+   "posted": "2026-11-06",
    "days_ago": 14,
-   "url": "https://in.linkedin.com/jobs/view/lead-data-engineer-at-general-mills-4486768531",
-   "source": "linkedin",
+   "url": "https://genmills.wd1.myworkdayjobs.com/en-US/GMI_External_Careers/job/Powai-Mumbai-MH/Lead-Data-Engineer_10128222",
+   "source": "workday",
    "match": "title",
    "flags": [],
    "fresh": false,
-   "first_seen": "2026-11-14",
+   "first_seen": "2026-11-06",
    "new": false
   },
   {
    "company": "General Mills",
-   "title": "Data Engineer I (5–8 Years' Experience Required)",
-   "location": "Mumbai Metropolitan Region",
+   "title": "Sr. Infrastructure Engineer – Data Platforms",
+   "location": "Powai, Mumbai, MH",
    "location_tags": [
     "Mumbai"
    ],
-   "posted": "2026-10-30",
-   "days_ago": 20,
-   "url": "https://in.linkedin.com/jobs/view/data-engineer-i-5%E2%80%938-years-experience-required-at-general-mills-4448951881",
-   "source": "linkedin",
-   "match": "title",
+   "posted": "2026-10-15",
+   "days_ago": 36,
+   "url": "https://genmills.wd1.myworkdayjobs.com/en-US/GMI_External_Careers/job/Powai-Mumbai-MH/Sr-Infra-Engineer---Data-Platforms--SQL-DBA---Cloud-_10127268",
+   "source": "workday",
+   "match": "pattern",
    "flags": [],
    "fresh": false,
-   "first_seen": "2026-11-14",
-   "new": false
-  },
-  {
-   "company": "General Mills",
-   "title": "Senior Data Engineer (10–12 Years' Experience Required)",
-   "location": "Mumbai Metropolitan Region",
-   "location_tags": [
-    "Mumbai"
-   ],
-   "posted": "2026-10-30",
-   "days_ago": 20,
-   "url": "https://in.linkedin.com/jobs/view/senior-data-engineer-10%E2%80%9312-years-experience-required-at-general-mills-4448965006",
-   "source": "linkedin",
-   "match": "title",
-   "flags": [],
-   "fresh": false,
-   "first_seen": "2026-11-14",
+   "first_seen": "2026-10-24",
    "new": false
   },
   {
    "company": "General Mills",
    "title": "CPW Data Engineer II",
-   "location": "Mumbai Metropolitan Region",
+   "location": "Powai, Mumbai, MH",
    "location_tags": [
     "Mumbai"
    ],
-   "posted": "2026-10-29",
-   "days_ago": 21,
-   "url": "https://in.linkedin.com/jobs/view/cpw-data-engineer-ii-at-general-mills-4448964045",
-   "source": "linkedin",
+   "posted": "2026-10-13",
+   "days_ago": 38,
+   "url": "https://genmills.wd1.myworkdayjobs.com/en-US/GMI_External_Careers/job/Powai-Mumbai-MH/CPW-Data-Engineer-II_10126069",
+   "source": "workday",
    "match": "title",
    "flags": [],
    "fresh": false,
-   "first_seen": "2026-11-14",
+   "first_seen": "2026-10-24",
    "new": false
   },
   {
    "company": "General Mills",
-   "title": "Data Engineer II (7–12 Years' Experience Required)",
-   "location": "Mumbai Metropolitan Region",
+   "title": "Consultant - OT Data Operations Engineering",
+   "location": "Mumbai Spectra Office",
    "location_tags": [
     "Mumbai"
    ],
-   "posted": "2026-10-29",
-   "days_ago": 21,
-   "url": "https://in.linkedin.com/jobs/view/data-engineer-ii-7%E2%80%9312-years-experience-required-at-general-mills-4448955334",
-   "source": "linkedin",
-   "match": "title",
+   "posted": "2026-09-30",
+   "days_ago": 51,
+   "url": "https://genmills.wd1.myworkdayjobs.com/en-US/GMI_External_Careers/job/Mumbai-Spectra-Office/Consultant---OT-Data-Operations-Engineering_10130625",
+   "source": "workday",
+   "match": "pattern",
+   "flags": [
+    "title borderline"
+   ],
+   "fresh": false,
+   "first_seen": "2026-10-24",
+   "new": false
+  },
+  {
+   "company": "General Mills",
+   "title": "Infrastructure Engineer II – Data Platforms",
+   "location": "Powai, Mumbai, MH",
+   "location_tags": [
+    "Mumbai"
+   ],
+   "posted": "2026-09-29",
+   "days_ago": 52,
+   "url": "https://genmills.wd1.myworkdayjobs.com/en-US/GMI_External_Careers/job/Powai-Mumbai-MH/Infrastructure-Engineer-II---Data-Platforms--Oracle-DBA-_10129206",
+   "source": "workday",
+   "match": "pattern",
    "flags": [],
    "fresh": false,
-   "first_seen": "2026-11-14",
+   "first_seen": "2026-10-24",
+   "new": false
+  },
+  {
+   "company": "General Mills",
+   "title": "Sr. Infrastructure Engineer – Data Platforms",
+   "location": "Powai, Mumbai, MH",
+   "location_tags": [
+    "Mumbai"
+   ],
+   "posted": "2026-09-21",
+   "days_ago": 60,
+   "url": "https://genmills.wd1.myworkdayjobs.com/en-US/GMI_External_Careers/job/Powai-Mumbai-MH/Sr-Infrastructure-Engineer---Data-Platforms--SQL-DBA-_10129203",
+   "source": "workday",
+   "match": "pattern",
+   "flags": [],
+   "fresh": false,
+   "first_seen": "2026-11-13",
    "new": false
   },
   {
@@ -1274,7 +1272,7 @@
     "Remote"
    ],
    "posted": "2026-10-19",
-   "days_ago": 31,
+   "days_ago": 32,
    "url": "https://jobs.lever.co/gohighlevel/30e5e3c1-c7e6-49fc-8598-2fd10b937ce0",
    "source": "lever",
    "match": "pattern",
@@ -1291,11 +1289,12 @@
     "Pune"
    ],
    "posted": "2026-10-13",
-   "days_ago": 37,
+   "days_ago": 38,
    "url": "https://in.linkedin.com/jobs/view/databricks-data-engineer-at-hitachi-solutions-india-pvt-ltd-4478105207",
    "source": "linkedin",
    "match": "title",
    "flags": [],
+   "crosscheck": true,
    "fresh": false,
    "first_seen": "2026-11-14",
    "new": false
@@ -1308,12 +1307,12 @@
     "Mumbai"
    ],
    "posted": "2026-11-19",
-   "days_ago": 0,
+   "days_ago": 1,
    "url": "https://in.linkedin.com/jobs/view/data-engineer-at-idfc-first-bank-4492133700",
    "source": "linkedin",
    "match": "title",
    "flags": [],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-11-19",
    "new": true
   },
@@ -1325,12 +1324,12 @@
     "Mumbai"
    ],
    "posted": "2026-11-19",
-   "days_ago": 0,
+   "days_ago": 1,
    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210809902",
    "source": "oracle",
    "match": "title",
    "flags": [],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-11-19",
    "new": true
   },
@@ -1342,12 +1341,12 @@
     "Mumbai"
    ],
    "posted": "2026-11-19",
-   "days_ago": 0,
+   "days_ago": 1,
    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210809888",
    "source": "oracle",
    "match": "keyword:databricks",
    "flags": [],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-11-19",
    "new": true
   },
@@ -1359,12 +1358,12 @@
     "Mumbai"
    ],
    "posted": "2026-11-17",
-   "days_ago": 2,
+   "days_ago": 3,
    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210791231",
    "source": "oracle",
    "match": "pattern",
    "flags": [],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-11-19",
    "new": true
   },
@@ -1376,7 +1375,7 @@
     "Mumbai"
    ],
    "posted": "2026-11-16",
-   "days_ago": 3,
+   "days_ago": 4,
    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210806251",
    "source": "oracle",
    "match": "title",
@@ -1393,7 +1392,7 @@
     "Pune"
    ],
    "posted": "2026-11-15",
-   "days_ago": 4,
+   "days_ago": 5,
    "url": "https://in.linkedin.com/jobs/view/vp-snowflake-data-engineer-risk-technology-at-jefferies-4387299334",
    "source": "linkedin",
    "match": "title",
@@ -1410,7 +1409,7 @@
     "Mumbai"
    ],
    "posted": "2026-11-13",
-   "days_ago": 6,
+   "days_ago": 7,
    "url": "https://in.linkedin.com/jobs/view/senior-software-development-engineer-data-engineer-at-jiostar-4472690997",
    "source": "linkedin",
    "match": "title",
@@ -1427,7 +1426,7 @@
     "Mumbai"
    ],
    "posted": "2026-11-12",
-   "days_ago": 7,
+   "days_ago": 8,
    "url": "https://in.linkedin.com/jobs/view/senior-data-engineer-at-jiostar-4435531653",
    "source": "linkedin",
    "match": "title",
@@ -1444,7 +1443,7 @@
     "Pune"
    ],
    "posted": "2026-11-09",
-   "days_ago": 10,
+   "days_ago": 11,
    "url": "https://in.linkedin.com/jobs/view/principal-data-engineer-data-products-at-kone-4435593803",
    "source": "linkedin",
    "match": "title",
@@ -1461,7 +1460,7 @@
     "Pune"
    ],
    "posted": "2026-11-18",
-   "days_ago": 1,
+   "days_ago": 2,
    "url": "https://in.linkedin.com/jobs/view/lead-engineer-data-at-m-g-india-4490864911",
    "source": "linkedin",
    "match": "pattern",
@@ -1478,7 +1477,7 @@
     "Pune"
    ],
    "posted": "2026-11-17",
-   "days_ago": 2,
+   "days_ago": 3,
    "url": "https://in.linkedin.com/jobs/view/vp-data-engineering-asset-management-at-m-g-india-4480054116",
    "source": "linkedin",
    "match": "title",
@@ -1489,13 +1488,30 @@
   },
   {
    "company": "Mastercard",
+   "title": "Senior Data Engineer",
+   "location": "Pune Division, Maharashtra, India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-11-19",
+   "days_ago": 1,
+   "url": "https://in.linkedin.com/jobs/view/senior-data-engineer-at-mastercard-4446202389",
+   "source": "linkedin",
+   "match": "title",
+   "flags": [],
+   "fresh": false,
+   "first_seen": "2026-11-14",
+   "new": false
+  },
+  {
+   "company": "Mastercard",
    "title": "Principal Data Engineer - Data Quality",
    "location": "Pune Division, Maharashtra, India",
    "location_tags": [
     "Pune"
    ],
    "posted": "2026-11-18",
-   "days_ago": 1,
+   "days_ago": 2,
    "url": "https://in.linkedin.com/jobs/view/principal-data-engineer-data-quality-at-mastercard-4473682999",
    "source": "linkedin",
    "match": "title",
@@ -1512,7 +1528,7 @@
     "Navi Mumbai"
    ],
    "posted": "2026-11-17",
-   "days_ago": 2,
+   "days_ago": 3,
    "url": "https://in.linkedin.com/jobs/view/data-engineer-ii-at-mastercard-4474075906",
    "source": "linkedin",
    "match": "title",
@@ -1529,7 +1545,7 @@
     "Pune"
    ],
    "posted": "2026-11-05",
-   "days_ago": 14,
+   "days_ago": 15,
    "url": "https://in.linkedin.com/jobs/view/sr-data-engineer-at-mastercard-4440181616",
    "source": "linkedin",
    "match": "title",
@@ -1540,48 +1556,14 @@
   },
   {
    "company": "Mastercard",
-   "title": "Principal Data Engineer (AWS, Databricks, Ai, ML Flow, Data Architecture, Apache Airflow)",
-   "location": "Pune Division, Maharashtra, India",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": "2026-11-04",
-   "days_ago": 15,
-   "url": "https://in.linkedin.com/jobs/view/principal-data-engineer-aws-databricks-ai-ml-flow-data-architecture-apache-airflow-at-mastercard-4468908637",
-   "source": "linkedin",
-   "match": "title",
-   "flags": [],
-   "fresh": false,
-   "first_seen": "2026-11-16",
-   "new": false
-  },
-  {
-   "company": "Mastercard",
    "title": "Lead Data Engineer",
    "location": "Pune Division, Maharashtra, India",
    "location_tags": [
     "Pune"
    ],
    "posted": "2026-10-30",
-   "days_ago": 20,
+   "days_ago": 21,
    "url": "https://in.linkedin.com/jobs/view/lead-data-engineer-at-mastercard-4454122491",
-   "source": "linkedin",
-   "match": "title",
-   "flags": [],
-   "fresh": false,
-   "first_seen": "2026-11-14",
-   "new": false
-  },
-  {
-   "company": "Mastercard",
-   "title": "Senior Data Engineer",
-   "location": "Pune Division, Maharashtra, India",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": "2026-10-28",
-   "days_ago": 22,
-   "url": "https://in.linkedin.com/jobs/view/senior-data-engineer-at-mastercard-4446202389",
    "source": "linkedin",
    "match": "title",
    "flags": [],
@@ -1597,7 +1579,7 @@
     "Mumbai"
    ],
    "posted": "2026-11-12",
-   "days_ago": 7,
+   "days_ago": 8,
    "url": "https://in.linkedin.com/jobs/view/senior-data-engineer-nr-2026-0240-at-media-net-4490300664",
    "source": "linkedin",
    "match": "title",
@@ -1608,37 +1590,19 @@
   },
   {
    "company": "MetLife",
-   "title": "Associate Big Data Engineer",
-   "location": "Pune Division, Maharashtra, India",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": "2026-11-16",
-   "days_ago": 3,
-   "url": "https://in.linkedin.com/jobs/view/associate-big-data-engineer-at-metlife-4490293394",
-   "source": "linkedin",
-   "match": "title",
-   "flags": [],
-   "crosscheck": true,
-   "fresh": false,
-   "first_seen": "2026-11-18",
-   "new": true
-  },
-  {
-   "company": "MetLife",
    "title": "Data Engineer",
    "location": "Pune, India",
    "location_tags": [
     "Pune"
    ],
    "posted": "2026-11-06",
-   "days_ago": 13,
-   "url": "https://www.metlifecareers.com/en_US/ml/JobDetail/Sr-Software-Platform-Engineer-I-Data-Engineer/21474",
+   "days_ago": 14,
+   "url": "https://www.metlifecareers.com/en_US/ml/JobDetail/Senior-Data-Engineer-Databricks-Data-Modeling-Architecture/21475",
    "source": "avature",
    "match": "title",
    "flags": [],
    "fresh": false,
-   "first_seen": "2026-11-14",
+   "first_seen": "2026-11-08",
    "new": false
   },
   {
@@ -1649,7 +1613,7 @@
     "Pune"
    ],
    "posted": "2026-11-04",
-   "days_ago": 15,
+   "days_ago": 16,
    "url": "https://www.metlifecareers.com/en_US/ml/JobDetail/Big-Data-Engineer-II/21452",
    "source": "avature",
    "match": "title",
@@ -1666,7 +1630,7 @@
     "Pune"
    ],
    "posted": "2026-11-04",
-   "days_ago": 15,
+   "days_ago": 16,
    "url": "https://www.metlifecareers.com/en_US/ml/JobDetail/Lead-Big-Data-Engineer/21473",
    "source": "avature",
    "match": "title",
@@ -1683,7 +1647,7 @@
     "Pune"
    ],
    "posted": "2026-11-04",
-   "days_ago": 15,
+   "days_ago": 16,
    "url": "https://www.metlifecareers.com/en_US/ml/JobDetail/Senior-Big-Data-Engineer-I/21417",
    "source": "avature",
    "match": "title",
@@ -1700,7 +1664,7 @@
     "Pune"
    ],
    "posted": "2026-11-15",
-   "days_ago": 4,
+   "days_ago": 5,
    "url": "https://in.linkedin.com/jobs/view/data-engineer-vp-at-mizuho-4490241534",
    "source": "linkedin",
    "match": "title",
@@ -1717,7 +1681,7 @@
     "Pune"
    ],
    "posted": "2026-11-11",
-   "days_ago": 8,
+   "days_ago": 9,
    "url": "https://in.linkedin.com/jobs/view/vp-l2-%E2%80%93-data-integration-engineer-at-mizuho-4488672783",
    "source": "linkedin",
    "match": "keyword:data integration",
@@ -1734,7 +1698,7 @@
     "Pune"
    ],
    "posted": "2026-11-03",
-   "days_ago": 16,
+   "days_ago": 17,
    "url": "https://in.linkedin.com/jobs/view/cloud-data-engineer-at-mizuho-4486041019",
    "source": "linkedin",
    "match": "title",
@@ -1751,7 +1715,7 @@
     "Pune"
    ],
    "posted": "2026-11-03",
-   "days_ago": 16,
+   "days_ago": 17,
    "url": "https://in.linkedin.com/jobs/view/data-platform-engineer-at-mizuho-4486025589",
    "source": "linkedin",
    "match": "keyword:data platform",
@@ -1762,13 +1726,32 @@
   },
   {
    "company": "Mondelez",
+   "title": "Data Engineering Lead - Finance",
+   "location": "Mumbai Metropolitan Region",
+   "location_tags": [
+    "Mumbai"
+   ],
+   "posted": "2026-11-19",
+   "days_ago": 1,
+   "url": "https://in.linkedin.com/jobs/view/data-engineering-lead-finance-at-mondel%C4%93z-international-4484939575",
+   "source": "linkedin",
+   "match": "title",
+   "flags": [
+    "company listed as 'Mondelēz International'"
+   ],
+   "fresh": false,
+   "first_seen": "2026-11-16",
+   "new": false
+  },
+  {
+   "company": "Mondelez",
    "title": "Associate Data Engineer",
    "location": "Mumbai Metropolitan Region",
    "location_tags": [
     "Mumbai"
    ],
    "posted": "2026-11-18",
-   "days_ago": 1,
+   "days_ago": 2,
    "url": "https://in.linkedin.com/jobs/view/associate-data-engineer-at-mondel%C4%93z-international-4476321691",
    "source": "linkedin",
    "match": "title",
@@ -1787,7 +1770,7 @@
     "Mumbai"
    ],
    "posted": "2026-11-18",
-   "days_ago": 1,
+   "days_ago": 2,
    "url": "https://in.linkedin.com/jobs/view/sr-data-engineer-d-a-data-enablement-engineering-at-mondel%C4%93z-international-4492065572",
    "source": "linkedin",
    "match": "title",
@@ -1806,7 +1789,7 @@
     "Mumbai"
    ],
    "posted": "2026-11-16",
-   "days_ago": 3,
+   "days_ago": 4,
    "url": "https://in.linkedin.com/jobs/view/associate-data-engineer-at-mondel%C4%93z-international-4489762065",
    "source": "linkedin",
    "match": "title",
@@ -1825,7 +1808,7 @@
     "Mumbai"
    ],
    "posted": "2026-11-13",
-   "days_ago": 6,
+   "days_ago": 7,
    "url": "https://in.linkedin.com/jobs/view/engenheiro-de-dados-data-engineer-at-mondel%C4%93z-international-4482713313",
    "source": "linkedin",
    "match": "title",
@@ -1844,7 +1827,7 @@
     "Mumbai"
    ],
    "posted": "2026-11-11",
-   "days_ago": 8,
+   "days_ago": 9,
    "url": "https://in.linkedin.com/jobs/view/associate-data-engineer-at-mondel%C4%93z-international-4489926979",
    "source": "linkedin",
    "match": "title",
@@ -1863,27 +1846,8 @@
     "Mumbai"
    ],
    "posted": "2026-11-11",
-   "days_ago": 8,
+   "days_ago": 9,
    "url": "https://in.linkedin.com/jobs/view/data-engineer-at-mondel%C4%93z-international-4489968966",
-   "source": "linkedin",
-   "match": "title",
-   "flags": [
-    "company listed as 'Mondelēz International'"
-   ],
-   "fresh": false,
-   "first_seen": "2026-11-16",
-   "new": false
-  },
-  {
-   "company": "Mondelez",
-   "title": "Data Engineering Lead - Finance",
-   "location": "Mumbai Metropolitan Region",
-   "location_tags": [
-    "Mumbai"
-   ],
-   "posted": "2026-10-29",
-   "days_ago": 21,
-   "url": "https://in.linkedin.com/jobs/view/data-engineering-lead-finance-at-mondel%C4%93z-international-4484939575",
    "source": "linkedin",
    "match": "title",
    "flags": [
@@ -1901,7 +1865,7 @@
     "Mumbai"
    ],
    "posted": "2026-10-18",
-   "days_ago": 32,
+   "days_ago": 33,
    "url": "https://in.linkedin.com/jobs/view/senior-data-engineer-at-nium-4478568767",
    "source": "linkedin",
    "match": "title",
@@ -1919,7 +1883,7 @@
     "Mumbai"
    ],
    "posted": "2026-10-17",
-   "days_ago": 33,
+   "days_ago": 34,
    "url": "https://in.linkedin.com/jobs/view/data-engineer-ii-at-nium-4478568766",
    "source": "linkedin",
    "match": "title",
@@ -1931,53 +1895,72 @@
   },
   {
    "company": "Northern Trust",
-   "title": "Lead Azure Data Engineer",
-   "location": "Pune Division, Maharashtra, India",
+   "title": "Sr Associate, Data Engineer",
+   "location": "Bangalore, India; Pune, India",
    "location_tags": [
     "Pune"
    ],
-   "posted": "2026-11-18",
-   "days_ago": 1,
-   "url": "https://in.linkedin.com/jobs/view/lead-azure-data-engineer-at-northern-trust-4482503205",
-   "source": "linkedin",
+   "posted": "2026-11-11",
+   "days_ago": 9,
+   "url": "https://ntrs.wd1.myworkdayjobs.com/en-US/northerntrust/job/Bangalore-India/Sr-Associate--Data-Engineer_R163498",
+   "source": "workday",
    "match": "title",
    "flags": [],
    "fresh": false,
-   "first_seen": "2026-11-14",
+   "first_seen": "2026-11-12",
    "new": false
   },
   {
    "company": "Northern Trust",
-   "title": "Senior Lead - Data Engineering",
-   "location": "Pune Division, Maharashtra, India",
+   "title": "Lead Azure Data Engineer",
+   "location": "Pune, India; Bangalore, India",
    "location_tags": [
     "Pune"
    ],
-   "posted": "2026-11-13",
-   "days_ago": 6,
-   "url": "https://in.linkedin.com/jobs/view/senior-lead-data-engineering-at-northern-trust-4453424220",
-   "source": "linkedin",
+   "posted": "2026-11-06",
+   "days_ago": 14,
+   "url": "https://ntrs.wd1.myworkdayjobs.com/en-US/northerntrust/job/Pune-India/Azure-Data-Engineer_R158442",
+   "source": "workday",
    "match": "title",
    "flags": [],
    "fresh": false,
-   "first_seen": "2026-11-14",
+   "first_seen": "2026-11-07",
    "new": false
   },
   {
    "company": "Northern Trust",
    "title": "Sr Lead - Cloud Data Platform Engg",
-   "location": "Pune Division, Maharashtra, India",
+   "location": "Pune, India",
    "location_tags": [
     "Pune"
    ],
-   "posted": "2026-11-04",
+   "posted": "2026-11-05",
    "days_ago": 15,
-   "url": "https://in.linkedin.com/jobs/view/sr-lead-cloud-data-platform-engg-at-northern-trust-4485511153",
-   "source": "linkedin",
+   "url": "https://ntrs.wd1.myworkdayjobs.com/en-US/northerntrust/job/Pune-India/Sr-Lead---Cloud-Data-Engg_R160748",
+   "source": "workday",
    "match": "keyword:data platform",
    "flags": [],
    "fresh": false,
-   "first_seen": "2026-11-14",
+   "first_seen": "2026-11-05",
+   "new": false
+  },
+  {
+   "company": "Northern Trust",
+   "title": "Director- Cloud Data Platform",
+   "location": "Pune, India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-10-30",
+   "days_ago": 21,
+   "url": "https://ntrs.wd1.myworkdayjobs.com/en-US/northerntrust/job/Pune-India/Manager---Cloud-Data-Platform-Operations_R158395",
+   "source": "workday",
+   "match": "keyword:data platform",
+   "flags": [
+    "title borderline"
+   ],
+   "fresh": false,
+   "first_seen": "2026-10-30",
    "new": false
   },
   {
@@ -1988,8 +1971,25 @@
     "Mumbai"
    ],
    "posted": "2026-11-16",
-   "days_ago": 3,
+   "days_ago": 4,
    "url": "https://in.linkedin.com/jobs/view/senior-data-engineer-at-procter-gamble-4467366679",
+   "source": "linkedin",
+   "match": "title",
+   "flags": [],
+   "fresh": false,
+   "first_seen": "2026-11-14",
+   "new": false
+  },
+  {
+   "company": "Priceline (Booking Holdings)",
+   "title": "Staff Data Engineer",
+   "location": "Mumbai, Maharashtra, India",
+   "location_tags": [
+    "Mumbai"
+   ],
+   "posted": "2026-11-19",
+   "days_ago": 1,
+   "url": "https://in.linkedin.com/jobs/view/staff-data-engineer-at-priceline-4440086642",
    "source": "linkedin",
    "match": "title",
    "flags": [],
@@ -2005,7 +2005,7 @@
     "Mumbai"
    ],
    "posted": "2026-11-06",
-   "days_ago": 13,
+   "days_ago": 14,
    "url": "https://in.linkedin.com/jobs/view/data-engineer-at-priceline-4479355818",
    "source": "linkedin",
    "match": "title",
@@ -2022,25 +2022,8 @@
     "Mumbai"
    ],
    "posted": "2026-10-30",
-   "days_ago": 20,
-   "url": "https://in.linkedin.com/jobs/view/senior-data-engineer-at-priceline-4467546456",
-   "source": "linkedin",
-   "match": "title",
-   "flags": [],
-   "fresh": false,
-   "first_seen": "2026-11-14",
-   "new": false
-  },
-  {
-   "company": "Priceline (Booking Holdings)",
-   "title": "Staff Data Engineer",
-   "location": "Mumbai, Maharashtra, India",
-   "location_tags": [
-    "Mumbai"
-   ],
-   "posted": "2026-10-29",
    "days_ago": 21,
-   "url": "https://in.linkedin.com/jobs/view/staff-data-engineer-at-priceline-4440086642",
+   "url": "https://in.linkedin.com/jobs/view/senior-data-engineer-at-priceline-4467546456",
    "source": "linkedin",
    "match": "title",
    "flags": [],
@@ -2056,7 +2039,7 @@
     "Pune"
    ],
    "posted": "2026-11-17",
-   "days_ago": 2,
+   "days_ago": 3,
    "url": "https://careers.principal.com/jobs/53764",
    "source": "jibe",
    "match": "title",
@@ -2064,7 +2047,7 @@
    "date_source": "posting page",
    "fresh": false,
    "first_seen": "2026-11-18",
-   "new": true
+   "new": false
   },
   {
    "company": "Rockwell Automation",
@@ -2074,14 +2057,14 @@
     "Pune"
    ],
    "posted": "2026-11-18",
-   "days_ago": 1,
+   "days_ago": 2,
    "url": "https://in.linkedin.com/jobs/view/data-engineer-at-rockwell-automation-4472058107",
    "source": "linkedin",
    "match": "title",
    "flags": [],
    "fresh": false,
    "first_seen": "2026-11-18",
-   "new": true
+   "new": false
   },
   {
    "company": "Rockwell Automation",
@@ -2091,7 +2074,7 @@
     "Pune"
    ],
    "posted": "2026-11-03",
-   "days_ago": 16,
+   "days_ago": 17,
    "url": "https://in.linkedin.com/jobs/view/senior-data-engineer-at-rockwell-automation-4458198247",
    "source": "linkedin",
    "match": "title",
@@ -2108,7 +2091,7 @@
     "Pune"
    ],
    "posted": "2026-11-03",
-   "days_ago": 16,
+   "days_ago": 17,
    "url": "https://in.linkedin.com/jobs/view/senior-data-engineer-at-rockwell-automation-4458154065",
    "source": "linkedin",
    "match": "title",
@@ -2125,7 +2108,7 @@
     "Pune"
    ],
    "posted": "2026-11-13",
-   "days_ago": 6,
+   "days_ago": 7,
    "url": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/525868",
    "source": "avature",
    "match": "title",
@@ -2143,7 +2126,7 @@
     "Pune"
    ],
    "posted": "2026-11-13",
-   "days_ago": 6,
+   "days_ago": 7,
    "url": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/525870",
    "source": "avature",
    "match": "keyword:dbt",
@@ -2152,6 +2135,24 @@
    "fresh": false,
    "first_seen": "2026-10-24",
    "new": false
+  },
+  {
+   "company": "Siemens Digital Industries Software",
+   "title": "Senior Analytics Engineer (m/f/d)",
+   "location": "Pune Division, Maharashtra, India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-10-16",
+   "days_ago": 35,
+   "url": "https://in.linkedin.com/jobs/view/senior-analytics-engineer-m-f-d-at-siemens-4479384806",
+   "source": "linkedin",
+   "match": "title",
+   "flags": [],
+   "crosscheck": true,
+   "fresh": true,
+   "first_seen": "2026-11-20",
+   "new": true
   },
   {
    "company": "Siemens Digital Industries Software",
@@ -2212,7 +2213,7 @@
     "Pune"
    ],
    "posted": "2026-10-28",
-   "days_ago": 22,
+   "days_ago": 23,
    "url": "https://jobs.ashbyhq.com/snowflake/1af751fb-d53e-43b0-a3bc-6fcc4004cafb",
    "source": "ashby",
    "match": "title",
@@ -2229,7 +2230,7 @@
     "Pune"
    ],
    "posted": "2026-11-09",
-   "days_ago": 10,
+   "days_ago": 11,
    "url": "https://jobs.vodafone.com/careers/job/563018698344659",
    "source": "eightfold",
    "match": "title",
@@ -2246,7 +2247,7 @@
     "Pune"
    ],
    "posted": "2026-11-03",
-   "days_ago": 16,
+   "days_ago": 17,
    "url": "https://jobs.vodafone.com/careers/job/563018698331053",
    "source": "eightfold",
    "match": "title",
@@ -2263,7 +2264,7 @@
     "Pune"
    ],
    "posted": "2026-11-02",
-   "days_ago": 17,
+   "days_ago": 18,
    "url": "https://jobs.vodafone.com/careers/job/563018698313894",
    "source": "eightfold",
    "match": "title",
@@ -2280,7 +2281,7 @@
     "Pune"
    ],
    "posted": "2026-09-22",
-   "days_ago": 58,
+   "days_ago": 59,
    "url": "https://jobs.vodafone.com/careers/job/563018697959104",
    "source": "eightfold",
    "match": "title",
@@ -2298,7 +2299,7 @@
     "Remote"
    ],
    "posted": "2026-11-06",
-   "days_ago": 13,
+   "days_ago": 14,
    "url": "https://in.linkedin.com/jobs/view/senior-data-engineer-%E2%80%93-microsoft-fabric-data-integration-pune-chennai-at-wolters-kluwer-4443133794",
    "source": "linkedin",
    "match": "title",
@@ -2315,7 +2316,7 @@
     "Pune"
    ],
    "posted": "2026-10-22",
-   "days_ago": 28,
+   "days_ago": 29,
    "url": "https://in.linkedin.com/jobs/view/staff-data-engineer-at-bp-4480034597",
    "source": "linkedin",
    "match": "title",
