@@ -232,13 +232,15 @@
  "https://genmills.wd1.myworkdayjobs.com/en-US/GMI_External_Careers/job/Powai-Mumbai-MH/Lead-Data-Engineer_10128222": {
   "company": "General Mills",
   "title": "Lead Data Engineer",
-  "status": "needs_linkedin",
-  "error": "workday: RetryError: HTTPSConnectionPool(host='genmills.wd1.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/genmills/GMI_External_Careers/job/Powai-Mumbai-MH",
-  "via": "workday",
+  "status": "ok",
+  "via": "linkedin-search",
   "tries": 1,
   "fetched_at": "2026-11-20T01:49:55+00:00",
-  "updated_at": "2026-11-20T01:49:55+00:00",
-  "li_tries": 0
+  "updated_at": "2026-11-20T05:15:42+00:00",
+  "li_tries": 1,
+  "li_checked_at": "2026-11-20T05:15:42+00:00",
+  "text": "Company Overview\nWe exist to make food the world loves. But we do more than that. Our company is a place that prioritizes being a force for good, a place to expand learning, explore new perspectives and reimagine new possibilities, every day. We look for people who want to bring their best — bold thinkers with big hearts who challenge one another and grow together. Because becoming the undisputed leader in food means surrounding ourselves with people who are hungry for what’s next.\nOverview\n- As a Lead Data Engineer, you will help shape how connected data drives business action across General Mills by designing scalable, sustainable data solutions and advancing modern data engineering practices.\n- You will work closely with data engineers, business analysts, architects, and cross-functional partners to define technical direction, enable strategic initiatives, and bring new data capabilities to life across global teams.\n- This is a strong opportunity to influence data strategy, modernize the data engineering ecosystem, and mentor technical talent in a highly collaborative environment.\nKey Accountabilities\n- Act as a data and analytics leader with strong technical and domain expertise to guide engineering decisions and delivery outcomes.\n- Lead Project team members to deliver data capabilities\n- Partner with business analysts and architects to define technical architectures for strategic projects and initiatives.\n- Evaluate, implement, and deploy emerging data engineering technologies, processes, and practices.\n- Makes pipeline architecture decisions based on standardized patterns and technologies\n- Lead the design and implementation of scalable data pipelines, data modelling and data quality frameworks.\n- Independently troubleshoot technical and performances issues and research root cause analysis in the cloud data ecosystem\n- Actively contributes work to the broader GMI data community and collaborates with others to refine common libraries\n- Mentor and guide data engineers, fostering innovation, technical excellence, and strong engineering practices within the team.\n- Assist in hiring & onboarding\nMinimum Qualifications\n- Education: Bachelor’s degree or equivalent practical experience in a relevant field.\n- 12+ years of experience in data engineering, data architecture, or related technology roles.\n- Strong experience with modern cloud platforms, preferably Google Cloud.\n- Hands-on experience in ETL processes, data warehousing, data quality, data observability, and structured and unstructured data systems.\n- Ability to work directly with business partners to design solutions and explain architecture trade-offs clearly.\n- Strong technical skills in SQL, Python, BigQuery, Composer, Dataflow, and dbt.\n- Experience in Data Modelling, Data Observability, Orchestration, and Prompt Engineering.\n- Familiarity with software engineering tools and delivery practices such as Git, GitHub Actions, Jira or Azure DevOps, and Agile ways of working.\n- Strong problem-solving and analytical skills with attention to detail.\n- Effective verbal and written communication skills, including the ability to explain technical concepts to non-technical stakeholders.\n- Collaborative, adaptable, self-driven, and able to take ownership from project initiation through completion.\nPreferred Qualifications\n- Strong hands-on coding skills in Python and SQL.\n- Experience developing procedures and scripts for data loading, transformation, and migration.\n- Familiarity with Kafka and distributed computing tools.\n- Broader experience with cloud technologies, with Google Cloud preferred.\n- Strong awareness of AI and its application in data engineering.\nELIGIBILITY\nApplicants must meet minimum age qualifications in the country in which the job is located.",
+  "li_url": "https://in.linkedin.com/jobs/view/lead-data-engineer-at-general-mills-4486768531"
  },
  "https://genmills.wd1.myworkdayjobs.com/en-US/GMI_External_Careers/job/Powai-Mumbai-MH/Sr-Infra-Engineer---Data-Platforms--SQL-DBA---Cloud-_10127268": {
   "company": "General Mills",
@@ -248,8 +250,9 @@
   "via": "workday",
   "tries": 1,
   "fetched_at": "2026-11-20T01:49:55+00:00",
-  "updated_at": "2026-11-20T01:49:55+00:00",
-  "li_tries": 0
+  "updated_at": "2026-11-20T05:15:51+00:00",
+  "li_tries": 0,
+  "li_checked_at": "2026-11-20T05:15:51+00:00"
  },
  "https://genmills.wd1.myworkdayjobs.com/en-US/GMI_External_Careers/job/Powai-Mumbai-MH/Sr-Infrastructure-Engineer---Data-Platforms--SQL-DBA-_10129203": {
   "company": "General Mills",
