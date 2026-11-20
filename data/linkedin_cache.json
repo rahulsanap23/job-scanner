@@ -166,21 +166,8 @@
 "jobs": []
 },
 "Barclays": {
-"checked_at": "2026-11-19T12:13:10+00:00",
+"checked_at": "2026-11-20T03:02:20+00:00",
 "jobs": [
-{
-"id": "https://in.linkedin.com/jobs/view/data-engineer-at-barclays-4482266928",
-"title": "Data Engineer",
-"company": "Barclays",
-"locations": [
-"Pune Division, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/data-engineer-at-barclays-4482266928",
-"posted": "2026-10-29",
-"remote": null,
-"country": null,
-"name_match": "exact"
-},
 {
 "id": "https://in.linkedin.com/jobs/view/data-engineer-at-barclays-4479496036",
 "title": "Data Engineer",
@@ -190,6 +177,19 @@
 ],
 "url": "https://in.linkedin.com/jobs/view/data-engineer-at-barclays-4479496036",
 "posted": "2026-10-22",
+"remote": null,
+"country": null,
+"name_match": "exact"
+},
+{
+"id": "https://in.linkedin.com/jobs/view/cloud-data-engineer-at-barclays-4490482125",
+"title": "Cloud Data Engineer",
+"company": "Barclays",
+"locations": [
+"Pune Division, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/cloud-data-engineer-at-barclays-4490482125",
+"posted": "2026-11-18",
 "remote": null,
 "country": null,
 "name_match": "exact"
@@ -208,27 +208,14 @@
 "name_match": "exact"
 },
 {
-"id": "https://in.linkedin.com/jobs/view/data-engineer-vp-at-barclays-4472627956",
-"title": "Data Engineer-VP",
+"id": "https://in.linkedin.com/jobs/view/data-engineer-at-barclays-4482266928",
+"title": "Data Engineer",
 "company": "Barclays",
 "locations": [
 "Pune Division, Maharashtra, India"
 ],
-"url": "https://in.linkedin.com/jobs/view/data-engineer-vp-at-barclays-4472627956",
-"posted": "2026-10-01",
-"remote": null,
-"country": null,
-"name_match": "exact"
-},
-{
-"id": "https://in.linkedin.com/jobs/view/cloud-data-engineer-at-barclays-4490482125",
-"title": "Cloud Data Engineer",
-"company": "Barclays",
-"locations": [
-"Pune Division, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/cloud-data-engineer-at-barclays-4490482125",
-"posted": "2026-11-18",
+"url": "https://in.linkedin.com/jobs/view/data-engineer-at-barclays-4482266928",
+"posted": "2026-10-29",
 "remote": null,
 "country": null,
 "name_match": "exact"
@@ -255,6 +242,19 @@
 ],
 "url": "https://in.linkedin.com/jobs/view/lead-cloud-data-engineer-at-barclays-4490483095",
 "posted": "2026-11-18",
+"remote": null,
+"country": null,
+"name_match": "exact"
+},
+{
+"id": "https://in.linkedin.com/jobs/view/data-engineer-vp-at-barclays-4472627956",
+"title": "Data Engineer-VP",
+"company": "Barclays",
+"locations": [
+"Pune Division, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/data-engineer-vp-at-barclays-4472627956",
+"posted": "2026-10-01",
 "remote": null,
 "country": null,
 "name_match": "exact"
@@ -292,21 +292,8 @@
 "jobs": []
 },
 "BlackRock": {
-"checked_at": "2026-11-19T12:13:10+00:00",
+"checked_at": "2026-11-20T03:02:20+00:00",
 "jobs": [
-{
-"id": "https://in.linkedin.com/jobs/view/data-engineer-aladdin-data-associate-at-blackrock-4488133317",
-"title": "Data Engineer, Aladdin Data, Associate",
-"company": "BlackRock",
-"locations": [
-"Mumbai, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/data-engineer-aladdin-data-associate-at-blackrock-4488133317",
-"posted": "2026-11-06",
-"remote": null,
-"country": null,
-"name_match": "exact"
-},
 {
 "id": "https://in.linkedin.com/jobs/view/data-engineer-aladdin-data-associate-at-blackrock-4490795129",
 "title": "Data Engineer, Aladdin Data, Associate",
@@ -316,6 +303,19 @@
 ],
 "url": "https://in.linkedin.com/jobs/view/data-engineer-aladdin-data-associate-at-blackrock-4490795129",
 "posted": "2026-11-13",
+"remote": null,
+"country": null,
+"name_match": "exact"
+},
+{
+"id": "https://in.linkedin.com/jobs/view/data-engineer-aladdin-data-associate-at-blackrock-4488133317",
+"title": "Data Engineer, Aladdin Data, Associate",
+"company": "BlackRock",
+"locations": [
+"Mumbai, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/data-engineer-aladdin-data-associate-at-blackrock-4488133317",
+"posted": "2026-11-06",
 "remote": null,
 "country": null,
 "name_match": "exact"
@@ -345,7 +345,7 @@
 "jobs": []
 },
 "BrowserStack": {
-"checked_at": "2026-11-19T12:13:10+00:00",
+"checked_at": "2026-11-20T03:02:20+00:00",
 "jobs": []
 },
 "CRED": {
@@ -2128,7 +2128,7 @@
 "jobs": []
 },
 "Teradata": {
-"checked_at": "2026-11-18T04:11:51+00:00",
+"checked_at": "2026-11-20T03:02:20+00:00",
 "jobs": []
 },
 "Tesla": {
