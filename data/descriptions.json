@@ -41,12 +41,13 @@
   "company": "BlackRock",
   "title": "Data Engineering - Aladdin Data, Director",
   "status": "needs_linkedin",
-  "error": "workday: RetryError: HTTPSConnectionPool(host='blackrock.wd1.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/blackrock/BlackRock_Professional/job/Mumbai-Indi",
+  "error": "LinkedIn try 1: no posting with the same company and title",
   "via": "workday",
   "tries": 1,
   "fetched_at": "2026-11-20T10:39:36+00:00",
-  "updated_at": "2026-11-20T10:39:36+00:00",
-  "li_tries": 0
+  "updated_at": "2026-11-20T17:11:56+00:00",
+  "li_tries": 1,
+  "li_checked_at": "2026-11-20T17:11:56+00:00"
  },
  "https://careers-apac-atlassian.icims.com/jobs/26569/principal-data-engineer/job": {
   "company": "Atlassian",
@@ -147,8 +148,9 @@
   "via": "page",
   "tries": 1,
   "fetched_at": "2026-11-20T10:39:36+00:00",
-  "updated_at": "2026-11-20T10:39:36+00:00",
-  "li_tries": 0
+  "updated_at": "2026-11-20T17:12:05+00:00",
+  "li_tries": 0,
+  "li_checked_at": "2026-11-20T17:12:05+00:00"
  },
  "https://careers.epam.com/en/vacancy/lead-systems-engineer-data-devops-mlops-bltx3zova01hptsib2q_en": {
   "company": "EPAM Systems",
