@@ -1,20 +1,16 @@
 {
  "meta": {
-  "generated_at": "2026-11-20T01:49:55+00:00",
+  "generated_at": "2026-11-20T10:39:35+00:00",
   "date": "2026-11-20",
   "recency_days": 60,
   "companies_total": 190,
-  "companies_scanned_ok": 98,
+  "companies_scanned_ok": 101,
   "companies_failed": [
    "AIG",
-   "Abbott",
-   "Air Products",
-   "AllianceBernstein (Equitable)",
-   "Amadeus",
+   "Allstate",
    "Autodesk",
    "Baker Hughes",
    "Barclays",
-   "BlackRock",
    "BrowserStack",
    "Cisco",
    "Citi",
@@ -22,17 +18,15 @@
    "CrowdStrike",
    "DBS Bank",
    "Deutsche Bank",
-   "Ecolab",
+   "Dow",
    "Equinix",
    "FIS",
+   "Fiserv",
    "Johnson & Johnson",
    "KONE",
    "LSEG",
    "M&G",
-   "MSD (Merck & Co.)",
    "Maersk",
-   "Marsh McLennan",
-   "Marvell",
    "Mastercard",
    "Medline",
    "Michelin",
@@ -41,16 +35,19 @@
    "Nvidia",
    "P&G",
    "Pfizer",
+   "Philips",
    "Priceline (Booking Holdings)",
    "Red Hat",
    "Rockwell Automation",
-   "S&P Global",
    "Salesforce",
    "Sandvik",
    "TIAA",
    "Telstra",
+   "Thermo Fisher Scientific",
    "VMware (Broadcom)",
+   "Voya",
    "Wolters Kluwer",
+   "Workday",
    "bp"
   ],
   "companies_not_scanned": [
@@ -101,18 +98,15 @@
    "Volkswagen Group Digital Solutions",
    "Yes Bank"
   ],
-  "jobs": 122,
+  "jobs": 120,
   "companies_with_jobs": 42,
   "uncertain": 15,
-  "fresh": 3,
-  "linkedin": "72 of 95 companies checked in the last 24 h; not checked in 24 h: TIAA, VMware (Broadcom), Telstra, Rockwell Automation, TeamViewer, Trajector, BMW TechWorks India, Volkswagen Group Digital Solutions and 15 more (this scan: stopped after 1 of 24 companies: LinkedIn answered 429)",
+  "fresh": 2,
+  "linkedin": "92 of 92 companies checked in the last 24 h (this scan: searched 26 companies)",
   "companies_checked_on_linkedin": [
    "3Pillar Global",
    "AIG",
-   "Abbott",
-   "Air Products",
-   "AllianceBernstein (Equitable)",
-   "Amadeus",
+   "Allstate",
    "Atlas Copco",
    "Autodesk",
    "Axis Bank",
@@ -122,7 +116,6 @@
    "Baker Hughes",
    "Barclays",
    "BillDesk",
-   "BlackRock",
    "BrowserStack",
    "Cimpress",
    "Cisco",
@@ -134,9 +127,9 @@
    "DBS Bank",
    "Dassault Systèmes",
    "Deutsche Bank",
+   "Dow",
    "Dream Sports",
    "ESTECO",
-   "Ecolab",
    "Equinix",
    "Eruditus",
    "FIS",
@@ -144,6 +137,7 @@
    "FedEx",
    "Federal Bank",
    "FirstCry",
+   "Fiserv",
    "HDFC Bank",
    "ICICI Bank",
    "IDFC FIRST Bank",
@@ -157,10 +151,7 @@
    "LSEG",
    "Lentra",
    "M&G",
-   "MSD (Merck & Co.)",
    "Maersk",
-   "Marsh McLennan",
-   "Marvell",
    "Mastercard",
    "Media.net",
    "Medline",
@@ -175,13 +166,13 @@
    "Nykaa",
    "P&G",
    "Pfizer",
+   "Philips",
    "PhonePe",
    "Postman",
    "Priceline (Booking Holdings)",
    "RBL Bank",
    "Red Hat",
    "Rockwell Automation",
-   "S&P Global",
    "SBI",
    "Salesforce",
    "Sandvik",
@@ -191,6 +182,7 @@
    "TeamViewer",
    "Telstra",
    "Tesla",
+   "Thermo Fisher Scientific",
    "Tietoevry",
    "Trajector",
    "UBS",
@@ -199,14 +191,16 @@
    "Vector Informatik",
    "Veritas Technologies",
    "Volkswagen Group Digital Solutions",
+   "Voya",
    "Wolters Kluwer",
+   "Workday",
    "Yes Bank",
    "bp"
   ],
-  "linkedin_crosscheck": "95 of 95 scanned companies cross-checked on LinkedIn in the last 4 days; 7 roles the careers sites missed",
-  "missed_by_site": 7,
+  "linkedin_crosscheck": "98 of 98 scanned companies cross-checked on LinkedIn in the last 4 days; 8 roles the careers sites missed",
+  "missed_by_site": 8,
   "scanner_alerts": [],
-  "rejected": 427
+  "rejected": 452
  },
  "jobs": [
   {
@@ -222,6 +216,7 @@
    "source": "linkedin",
    "match": "title",
    "flags": [],
+   "crosscheck": true,
    "fresh": false,
    "first_seen": "2026-11-13",
    "new": false
@@ -298,6 +293,23 @@
   },
   {
    "company": "Atlassian",
+   "title": "Senior Software Engineer - Trusted Data Platform",
+   "location": "Remote - India - Remote; Remote - Remote; Bengaluru - India -   Bengaluru,  560071 India",
+   "location_tags": [
+    "Remote"
+   ],
+   "posted": "2026-11-20",
+   "days_ago": 0,
+   "url": "https://careers-apac-atlassian.icims.com/jobs/26751/senior-software-engineer---trusted-data-platform/job",
+   "source": "atlassian",
+   "match": "keyword:data platform",
+   "flags": [],
+   "fresh": false,
+   "first_seen": "2026-10-29",
+   "new": false
+  },
+  {
+   "company": "Atlassian",
    "title": "Senior Engineering Manager - Data Platform",
    "location": "Bengaluru - India -   Bengaluru,  560071 India; Remote - Remote",
    "location_tags": [
@@ -328,23 +340,6 @@
    "flags": [],
    "fresh": false,
    "first_seen": "2026-10-30",
-   "new": false
-  },
-  {
-   "company": "Atlassian",
-   "title": "Senior Software Engineer - Trusted Data Platform",
-   "location": "Remote - India - Remote; Remote - Remote; Bengaluru - India -   Bengaluru,  560071 India",
-   "location_tags": [
-    "Remote"
-   ],
-   "posted": "2026-10-30",
-   "days_ago": 21,
-   "url": "https://careers-apac-atlassian.icims.com/jobs/26751/senior-software-engineer---trusted-data-platform/job",
-   "source": "atlassian",
-   "match": "keyword:data platform",
-   "flags": [],
-   "fresh": false,
-   "first_seen": "2026-10-29",
    "new": false
   },
   {
@@ -572,36 +567,70 @@
   },
   {
    "company": "BlackRock",
-   "title": "Data Engineer, Aladdin Data, Associate",
-   "location": "Mumbai, Maharashtra, India",
+   "title": "Data Engineering - Aladdin Data, Director",
+   "location": "Mumbai, India",
    "location_tags": [
     "Mumbai"
    ],
-   "posted": "2026-11-13",
-   "days_ago": 7,
-   "url": "https://in.linkedin.com/jobs/view/data-engineer-aladdin-data-associate-at-blackrock-4490795129",
-   "source": "linkedin",
+   "posted": "2026-11-20",
+   "days_ago": 0,
+   "url": "https://blackrock.wd1.myworkdayjobs.com/en-US/BlackRock_Professional/job/Mumbai-India/Data-Engineering---Aladdin-Data--Director_R267162",
+   "source": "workday",
+   "match": "title",
+   "flags": [],
+   "fresh": true,
+   "first_seen": "2026-11-20",
+   "new": true
+  },
+  {
+   "company": "BlackRock",
+   "title": "AI/ML Engineer, Aladdin Data, Associate",
+   "location": "Mumbai, India; Gurugram, India",
+   "location_tags": [
+    "Mumbai"
+   ],
+   "posted": "2026-11-17",
+   "days_ago": 3,
+   "url": "https://blackrock.wd1.myworkdayjobs.com/en-US/BlackRock_Professional/job/Mumbai-India/AI-ML-Engineer--Aladdin-Data--Associate_R267161",
+   "source": "workday",
+   "match": "pattern",
+   "flags": [],
+   "fresh": true,
+   "first_seen": "2026-11-20",
+   "new": true
+  },
+  {
+   "company": "BlackRock",
+   "title": "Data Engineer, Aladdin Data, Associate",
+   "location": "Mumbai, India; Gurugram, India",
+   "location_tags": [
+    "Mumbai"
+   ],
+   "posted": "2026-11-12",
+   "days_ago": 8,
+   "url": "https://blackrock.wd1.myworkdayjobs.com/en-US/BlackRock_Professional/job/Mumbai-India/Data-Engineer--Aladdin-Data--Associate_R267160",
+   "source": "workday",
    "match": "title",
    "flags": [],
    "fresh": false,
-   "first_seen": "2026-11-14",
+   "first_seen": "2026-11-12",
    "new": false
   },
   {
    "company": "BlackRock",
    "title": "Data Engineer, Aladdin Data, Associate",
-   "location": "Mumbai, Maharashtra, India",
+   "location": "Mumbai, India",
    "location_tags": [
     "Mumbai"
    ],
-   "posted": "2026-11-06",
-   "days_ago": 14,
-   "url": "https://in.linkedin.com/jobs/view/data-engineer-aladdin-data-associate-at-blackrock-4488133317",
-   "source": "linkedin",
+   "posted": "2026-11-05",
+   "days_ago": 15,
+   "url": "https://blackrock.wd1.myworkdayjobs.com/en-US/BlackRock_Professional/job/Mumbai-India/Data-Engineer--Aladdin-Data--Associate_R266920",
+   "source": "workday",
    "match": "title",
    "flags": [],
    "fresh": false,
-   "first_seen": "2026-11-14",
+   "first_seen": "2026-11-05",
    "new": false
   },
   {
@@ -742,23 +771,6 @@
   },
   {
    "company": "Citi",
-   "title": "PySpark Big Data Engineer",
-   "location": "Pune Division, Maharashtra, India",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": "2026-11-05",
-   "days_ago": 15,
-   "url": "https://in.linkedin.com/jobs/view/pyspark-big-data-engineer-at-citi-4486921427",
-   "source": "linkedin",
-   "match": "title",
-   "flags": [],
-   "fresh": false,
-   "first_seen": "2026-11-14",
-   "new": false
-  },
-  {
-   "company": "Citi",
    "title": "Senior Data Engineer",
    "location": "Pune Division, Maharashtra, India",
    "location_tags": [
@@ -822,7 +834,7 @@
    "match": "title",
    "flags": [],
    "crosscheck": true,
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-11-20",
    "new": true
   },
@@ -890,7 +902,7 @@
    "source": "epam",
    "match": "pattern",
    "flags": [],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-11-20",
    "new": true
   },
@@ -926,6 +938,23 @@
    "flags": [],
    "fresh": false,
    "first_seen": "2026-11-17",
+   "new": false
+  },
+  {
+   "company": "EPAM Systems",
+   "title": "Lead Systems Engineer - Data DevOps/MLOps",
+   "location": "Chennai, India; Bangalore, India; Pune, India; Coimbatore, India; Hyderabad, India; Gurgaon, India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-10-30",
+   "days_ago": 21,
+   "url": "https://careers.epam.com/en/vacancy/lead-systems-engineer-data-devops-mlops-bltagknkh9k1a5qyvd0_en",
+   "source": "epam",
+   "match": "pattern",
+   "flags": [],
+   "fresh": false,
+   "first_seen": "2026-11-09",
    "new": false
   },
   {
@@ -1167,8 +1196,8 @@
    "location_tags": [
     "Mumbai"
    ],
-   "posted": "2026-11-06",
-   "days_ago": 14,
+   "posted": "2026-11-05",
+   "days_ago": 15,
    "url": "https://genmills.wd1.myworkdayjobs.com/en-US/GMI_External_Careers/job/Powai-Mumbai-MH/Lead-Data-Engineer_10128222",
    "source": "workday",
    "match": "title",
@@ -1311,40 +1340,6 @@
    "url": "https://in.linkedin.com/jobs/view/data-engineer-at-idfc-first-bank-4492133700",
    "source": "linkedin",
    "match": "title",
-   "flags": [],
-   "fresh": false,
-   "first_seen": "2026-11-19",
-   "new": true
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Lead Software Engineer - Data analytics, Databricks",
-   "location": "Mumbai, Maharashtra, India",
-   "location_tags": [
-    "Mumbai"
-   ],
-   "posted": "2026-11-19",
-   "days_ago": 1,
-   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210809902",
-   "source": "oracle",
-   "match": "title",
-   "flags": [],
-   "fresh": false,
-   "first_seen": "2026-11-19",
-   "new": true
-  },
-  {
-   "company": "JPMorgan Chase",
-   "title": "Software Engineer III - Data analytics, Databricks",
-   "location": "Mumbai, Maharashtra, India",
-   "location_tags": [
-    "Mumbai"
-   ],
-   "posted": "2026-11-19",
-   "days_ago": 1,
-   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210809888",
-   "source": "oracle",
-   "match": "keyword:databricks",
    "flags": [],
    "fresh": false,
    "first_seen": "2026-11-19",
@@ -1597,12 +1592,12 @@
    ],
    "posted": "2026-11-06",
    "days_ago": 14,
-   "url": "https://www.metlifecareers.com/en_US/ml/JobDetail/Senior-Data-Engineer-Databricks-Data-Modeling-Architecture/21475",
+   "url": "https://www.metlifecareers.com/en_US/ml/JobDetail/Sr-Software-Platform-Engineer-I-Data-Engineer/21474",
    "source": "avature",
    "match": "title",
    "flags": [],
    "fresh": false,
-   "first_seen": "2026-11-08",
+   "first_seen": "2026-11-14",
    "new": false
   },
   {
@@ -1934,8 +1929,8 @@
    "location_tags": [
     "Pune"
    ],
-   "posted": "2026-11-05",
-   "days_ago": 15,
+   "posted": "2026-11-04",
+   "days_ago": 16,
    "url": "https://ntrs.wd1.myworkdayjobs.com/en-US/northerntrust/job/Pune-India/Sr-Lead---Cloud-Data-Engg_R160748",
    "source": "workday",
    "match": "keyword:data platform",
@@ -1951,8 +1946,8 @@
    "location_tags": [
     "Pune"
    ],
-   "posted": "2026-10-30",
-   "days_ago": 21,
+   "posted": "2026-10-29",
+   "days_ago": 22,
    "url": "https://ntrs.wd1.myworkdayjobs.com/en-US/northerntrust/job/Pune-India/Manager---Cloud-Data-Platform-Operations_R158395",
    "source": "workday",
    "match": "keyword:data platform",
@@ -2067,40 +2062,6 @@
    "new": false
   },
   {
-   "company": "Rockwell Automation",
-   "title": "Senior Data Engineer",
-   "location": "Pune District, Maharashtra, India",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": "2026-11-03",
-   "days_ago": 17,
-   "url": "https://in.linkedin.com/jobs/view/senior-data-engineer-at-rockwell-automation-4458198247",
-   "source": "linkedin",
-   "match": "title",
-   "flags": [],
-   "fresh": false,
-   "first_seen": "2026-11-14",
-   "new": false
-  },
-  {
-   "company": "Rockwell Automation",
-   "title": "Senior Data Engineer",
-   "location": "Pune Division, Maharashtra, India",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": "2026-11-03",
-   "days_ago": 17,
-   "url": "https://in.linkedin.com/jobs/view/senior-data-engineer-at-rockwell-automation-4458154065",
-   "source": "linkedin",
-   "match": "title",
-   "flags": [],
-   "fresh": false,
-   "first_seen": "2026-11-14",
-   "new": false
-  },
-  {
    "company": "Siemens Digital Industries Software",
    "title": "dbt Cloud Data Engineer",
    "location": "Pune",
@@ -2150,7 +2111,7 @@
    "match": "title",
    "flags": [],
    "crosscheck": true,
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-11-20",
    "new": true
   },
