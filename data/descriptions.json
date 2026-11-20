@@ -70,12 +70,13 @@
   "company": "EPAM Systems",
   "title": "Lead Data Software Engineer",
   "status": "needs_linkedin",
-  "error": "page: ValueError: description too short (13 chars)",
+  "error": "LinkedIn try 1: no posting with the same company and title",
   "via": "page",
   "tries": 1,
   "fetched_at": "2026-11-20T01:49:55+00:00",
-  "updated_at": "2026-11-20T01:49:55+00:00",
-  "li_tries": 0
+  "updated_at": "2026-11-20T02:38:06+00:00",
+  "li_tries": 1,
+  "li_checked_at": "2026-11-20T02:38:06+00:00"
  },
  "https://careers.epam.com/en/vacancy/lead-palantir-data-software-engineer-bltp8t6eryuvzmu4d7q_en": {
   "company": "EPAM Systems",
@@ -194,13 +195,15 @@
  "https://genmills.wd1.myworkdayjobs.com/en-US/GMI_External_Careers/job/Mumbai-Spectra-Office/Consultant---OT-Data-Operations-Engineering_10130625": {
   "company": "General Mills",
   "title": "Consultant - OT Data Operations Engineering",
-  "status": "needs_linkedin",
-  "error": "workday: RetryError: HTTPSConnectionPool(host='genmills.wd1.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/genmills/GMI_External_Careers/job/Mumbai-Spectra-",
-  "via": "workday",
+  "status": "ok",
+  "via": "linkedin-search",
   "tries": 1,
   "fetched_at": "2026-11-20T01:49:55+00:00",
-  "updated_at": "2026-11-20T01:49:55+00:00",
-  "li_tries": 0
+  "updated_at": "2026-11-20T02:38:13+00:00",
+  "li_tries": 1,
+  "li_checked_at": "2026-11-20T02:38:13+00:00",
+  "text": "Company Overview\nWe exist to make food the world loves. But we do more than that. Our company is a place that prioritizes being a force for good, a place to expand learning, explore new perspectives and reimagine new possibilities, every day. We look for people who want to bring their best — bold thinkers with big hearts who challenge one another and grow together. Because becoming the undisputed leader in food means surrounding ourselves with people who are hungry for what’s next.\nOverview\nThe GIC Supply Chain team manages end-to-end operations, encompassing planning, sourcing, manufacturing, logistics, and analytics. They strategically plan to meet market demands, optimize sourcing, ensure efficient production, and oversee the seamless movement of goods from production to delivery. The team employs advanced analytics throughout these processes, fostering adaptability and operational excellence. This collaborative approach ensures a well-coordinated supply chain that aligns with both organizational goals and dynamic market conditions. This role requires you to operate in 1.30 pm to 10.30 pm.\nKey Accountabilities\n- Design, configure, and deploy Ignition-based OT Data Operations gateways at the manufacturing edge, including virtual machines, Windows Server environments, plant networks, drivers, tags, MQTT brokers, historians, and security roles.\n- Implement and standardize sensor-to-signal workflows from PLC/SCADA connectivity through calculations and contextualization into MES and analytics platforms.\n- Collaborate with MES engineers, solution architects, and site controls engineers to ensure smooth integration of the OT Data Operations layer with TrakSYS MES, existing MQIS capabilities, and future MOM solutions.\n- Apply and maintain ISA-95-aligned data models for assets, materials, orders, and events, ensuring consistency across plants and use cases.\n- Partner with IT integration teams to design scalable and supportable integration patterns between OT systems, SAP, PLM, and enterprise analytics platforms.\n- Support the configuration, performance, and storage strategy of time-series databases, including SQL Server historian, QuestDB, and future platforms.\n- Define and implement monitoring, alerting, security controls, and operational runbooks for Ignition gateways, MQTT brokers, and associated infrastructure across pilot and production sites.\n- Support site rollout activities including lab validation, plant commissioning, troubleshooting, infrastructure sizing, and continuous improvement of deployment patterns.\n- Develop and maintain documentation, standards, playbooks, and training materials in partnership with Digital Controls & IS, Digital Core, plant engineering, and vendor teams to enable scalable deployment and local support.\nMinimum Qualifications\n- Education: Bachelor’s degree in Instrumentation, Electronics, Electrical, or IT Engineering from an accredited university.\n- Experience: 10+ years of experience in Controls Engineering, Manufacturing Systems Engineering, and Data Analytics, including 5+ years of relevant experience in OT Data Operations on Ignition.\n- Technical Skills: Strong experience in OT/industrial automation engineering, including PLC/SCADA, historians, industrial networks, and manufacturing data integration/MES implementation.\n- Platform Expertise: Direct hands-on experience with Inductive Automation Ignition, including gateway configuration, tag historian, alarming, MQTT modules, security/SSO, Perspective, and Jython scripting.\n- Data & Integration Knowledge: Knowledge of ISA-95 modeling concepts, Unified Namespace (UNS), asset hierarchy, and OT-to-IT integration architecture.\n- System & Connectivity Skills: Hands-on experience with PLC/SCADA connectivity, protocols such as OPC-UA, Modbus, vendor-specific drivers, scripting/configuration using Python, SQL, and Ignition scripting, and Windows/Linux server environments with virtualization.\n- Analytical & Technical Capability: Experience with time-series databases/historians, IIoT and MQTT broker technologies, and the ability to read and interpret P&IDs, control narratives, and plant network diagrams.\n- Soft Skills: Strong problem-solving, cross-functional collaboration, and written/verbal communication skills, including the ability to explain technical architectures to both technical and non-technical stakeholders.\n- Industry Experience: Experience working in regulated or highly controlled environments such as food manufacturing, pharma, or CPG\nPreferred Qualifications\n- Exposure to MES platforms such as TrakSYS or similar, and integration patterns with SAP or other enterprise systems\n- GCP certification\n- Background in Mathematics or Statistics\nELIGIBILITY\nApplicants must meet minimum age qualifications in the country in which the job is located.",
+  "li_url": "https://in.linkedin.com/jobs/view/consultant-ot-data-operations-engineering-at-general-mills-4471993731"
  },
  "https://genmills.wd1.myworkdayjobs.com/en-US/GMI_External_Careers/job/Powai-Mumbai-MH/CPW-Data-Engineer-II_10126069": {
   "company": "General Mills",
@@ -210,8 +213,9 @@
   "via": "workday",
   "tries": 1,
   "fetched_at": "2026-11-20T01:49:55+00:00",
-  "updated_at": "2026-11-20T01:49:55+00:00",
-  "li_tries": 0
+  "updated_at": "2026-11-20T02:38:29+00:00",
+  "li_tries": 0,
+  "li_checked_at": "2026-11-20T02:38:29+00:00"
  },
  "https://genmills.wd1.myworkdayjobs.com/en-US/GMI_External_Careers/job/Powai-Mumbai-MH/Infrastructure-Engineer-II---Data-Platforms--Oracle-DBA-_10129206": {
   "company": "General Mills",
