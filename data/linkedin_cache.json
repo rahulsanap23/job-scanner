@@ -4,7 +4,7 @@
 "jobs": []
 },
 "AIG": {
-"checked_at": "2026-11-20T02:38:06+00:00",
+"checked_at": "2026-11-20T11:41:02+00:00",
 "jobs": []
 },
 "Abbott": {
@@ -38,7 +38,7 @@
 "jobs": []
 },
 "Allstate": {
-"checked_at": "2026-11-19T11:39:53+00:00",
+"checked_at": "2026-11-20T11:41:02+00:00",
 "jobs": []
 },
 "Amadeus": {
@@ -2174,11 +2174,11 @@
 "jobs": []
 },
 "Visa": {
-"checked_at": "2026-11-18T11:45:29+00:00",
+"checked_at": "2026-11-20T11:41:02+00:00",
 "jobs": []
 },
 "Vodafone (VOIS)": {
-"checked_at": "2026-11-18T11:45:29+00:00",
+"checked_at": "2026-11-20T11:41:02+00:00",
 "jobs": [
 {
 "id": "https://in.linkedin.com/jobs/view/aws-data-engineer-vois-at-vois-4468599094",
@@ -2214,7 +2214,7 @@
 "Pune Division, Maharashtra, India"
 ],
 "url": "https://in.linkedin.com/jobs/view/deputy-manager-information-architect-at-vois-4484692396",
-"posted": "2026-11-03",
+"posted": "2026-11-19",
 "remote": null,
 "country": null,
 "name_match": "exact"
@@ -2254,6 +2254,19 @@
 ],
 "url": "https://in.linkedin.com/jobs/view/senior-executive-assistant-manager-teradata-developer-at-vois-4486242852",
 "posted": "2026-11-06",
+"remote": null,
+"country": null,
+"name_match": "exact"
+},
+{
+"id": "https://in.linkedin.com/jobs/view/ab-initio-developer-vois-at-vois-4491318012",
+"title": "Ab Initio Developer - VOIS",
+"company": "VOIS",
+"locations": [
+"Pune Division, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/ab-initio-developer-vois-at-vois-4491318012",
+"posted": "2026-11-18",
 "remote": null,
 "country": null,
 "name_match": "exact"
@@ -2314,7 +2327,7 @@
 "jobs": []
 },
 "_remote_india": {
-"checked_at": "2026-11-19T23:02:20+00:00",
+"checked_at": "2026-11-20T11:43:22+00:00",
 "jobs": [
 {
 "id": "https://in.linkedin.com/jobs/view/data-engineer-i-at-amazon-4481247187",
@@ -2371,34 +2384,6 @@
 "country": "India",
 "name_match": "exact",
 "target": "Wolters Kluwer"
-},
-{
-"id": "https://in.linkedin.com/jobs/view/data-engineer-senior-ii-12-at-fedex-4408784128",
-"title": "Data Engineer-Senior II-12",
-"company": "FedEx",
-"locations": [
-"Chennai, Tamil Nadu, India"
-],
-"url": "https://in.linkedin.com/jobs/view/data-engineer-senior-ii-12-at-fedex-4408784128",
-"posted": "2026-11-11",
-"remote": true,
-"country": "India",
-"name_match": "exact",
-"target": "FedEx"
-},
-{
-"id": "https://in.linkedin.com/jobs/view/data-engineer-senior-ii-11-at-fedex-4408784121",
-"title": "Data Engineer-Senior II-11",
-"company": "FedEx",
-"locations": [
-"Chennai, Tamil Nadu, India"
-],
-"url": "https://in.linkedin.com/jobs/view/data-engineer-senior-ii-11-at-fedex-4408784121",
-"posted": "2026-11-11",
-"remote": true,
-"country": "India",
-"name_match": "exact",
-"target": "FedEx"
 }
 ]
 },
