@@ -328,7 +328,7 @@
 ]
 },
 "BrightEdge": {
-"checked_at": "2026-11-18T19:12:37+00:00",
+"checked_at": "2026-11-20T23:59:17+00:00",
 "jobs": []
 },
 "BrowserStack": {
@@ -336,7 +336,7 @@
 "jobs": []
 },
 "CRED": {
-"checked_at": "2026-11-18T19:12:37+00:00",
+"checked_at": "2026-11-20T23:59:17+00:00",
 "jobs": []
 },
 "Canonical": {
@@ -1771,7 +1771,7 @@
 "jobs": []
 },
 "Philips": {
-"checked_at": "2026-11-19T23:01:59+00:00",
+"checked_at": "2026-11-20T23:59:17+00:00",
 "jobs": []
 },
 "PhonePe": {
@@ -1783,7 +1783,7 @@
 "jobs": []
 },
 "Priceline (Booking Holdings)": {
-"checked_at": "2026-11-19T23:58:56+00:00",
+"checked_at": "2026-11-20T23:59:17+00:00",
 "jobs": [
 {
 "id": "https://in.linkedin.com/jobs/view/senior-data-engineer-at-priceline-4467546456",
@@ -1793,7 +1793,7 @@
 "Mumbai, Maharashtra, India"
 ],
 "url": "https://in.linkedin.com/jobs/view/senior-data-engineer-at-priceline-4467546456",
-"posted": "2026-10-30",
+"posted": "2026-11-20",
 "remote": null,
 "country": null,
 "name_match": "exact"
@@ -2327,7 +2327,7 @@
 "jobs": []
 },
 "_remote_india": {
-"checked_at": "2026-11-20T11:43:22+00:00",
+"checked_at": "2026-11-21T00:00:07+00:00",
 "jobs": [
 {
 "id": "https://in.linkedin.com/jobs/view/data-engineer-i-at-amazon-4481247187",
@@ -2384,6 +2384,34 @@
 "country": "India",
 "name_match": "exact",
 "target": "Wolters Kluwer"
+},
+{
+"id": "https://in.linkedin.com/jobs/view/data-engineer-senior-ii-12-at-fedex-4408784128",
+"title": "Data Engineer-Senior II-12",
+"company": "FedEx",
+"locations": [
+"Chennai, Tamil Nadu, India"
+],
+"url": "https://in.linkedin.com/jobs/view/data-engineer-senior-ii-12-at-fedex-4408784128",
+"posted": "2026-11-11",
+"remote": true,
+"country": "India",
+"name_match": "exact",
+"target": "FedEx"
+},
+{
+"id": "https://in.linkedin.com/jobs/view/data-engineer-senior-ii-11-at-fedex-4408784121",
+"title": "Data Engineer-Senior II-11",
+"company": "FedEx",
+"locations": [
+"Chennai, Tamil Nadu, India"
+],
+"url": "https://in.linkedin.com/jobs/view/data-engineer-senior-ii-11-at-fedex-4408784121",
+"posted": "2026-11-11",
+"remote": true,
+"country": "India",
+"name_match": "exact",
+"target": "FedEx"
 }
 ]
 },
