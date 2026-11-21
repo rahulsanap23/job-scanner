@@ -808,11 +808,11 @@
 "jobs": []
 },
 "Emerson": {
-"checked_at": "2026-11-19T00:01:12+00:00",
+"checked_at": "2026-11-21T14:16:18+00:00",
 "jobs": []
 },
 "Emirates NBD": {
-"checked_at": "2026-11-19T02:38:19+00:00",
+"checked_at": "2026-11-21T14:16:18+00:00",
 "jobs": []
 },
 "Equinix": {
@@ -832,7 +832,7 @@
 "jobs": []
 },
 "Fanatics": {
-"checked_at": "2026-11-19T02:38:19+00:00",
+"checked_at": "2026-11-21T14:16:18+00:00",
 "jobs": []
 },
 "FedEx": {
@@ -1209,7 +1209,7 @@
 "jobs": []
 },
 "M&G": {
-"checked_at": "2026-11-20T18:14:47+00:00",
+"checked_at": "2026-11-21T14:16:18+00:00",
 "jobs": [
 {
 "id": "https://in.linkedin.com/jobs/view/lead-engineer-data-at-m-g-india-4490864911",
@@ -1244,7 +1244,7 @@
 "jobs": []
 },
 "Maersk": {
-"checked_at": "2026-11-20T18:14:47+00:00",
+"checked_at": "2026-11-21T14:16:18+00:00",
 "jobs": []
 },
 "Marsh McLennan": {
@@ -1449,7 +1449,7 @@
 ]
 },
 "Michelin": {
-"checked_at": "2026-11-20T20:19:06+00:00",
+"checked_at": "2026-11-21T14:16:18+00:00",
 "jobs": []
 },
 "Microsoft": {
@@ -1522,7 +1522,7 @@
 ]
 },
 "Mondelez": {
-"checked_at": "2026-11-20T22:05:00+00:00",
+"checked_at": "2026-11-21T14:16:18+00:00",
 "jobs": [
 {
 "id": "https://in.linkedin.com/jobs/view/sr-data-engineer-d-a-data-enablement-engineering-at-mondel%C4%93z-international-4492065572",
@@ -1551,19 +1551,6 @@
 "name_match": "loose"
 },
 {
-"id": "https://in.linkedin.com/jobs/view/engenheiro-de-dados-data-engineer-at-mondel%C4%93z-international-4482713313",
-"title": "Engenheiro de Dados | Data Engineer",
-"company": "Mondelēz International",
-"locations": [
-"Mumbai Metropolitan Region"
-],
-"url": "https://in.linkedin.com/jobs/view/engenheiro-de-dados-data-engineer-at-mondel%C4%93z-international-4482713313",
-"posted": "2026-11-13",
-"remote": null,
-"country": null,
-"name_match": "loose"
-},
-{
 "id": "https://in.linkedin.com/jobs/view/associate-data-engineer-at-mondel%C4%93z-international-4476321691",
 "title": "Associate Data Engineer",
 "company": "Mondelēz International",
@@ -1572,6 +1559,19 @@
 ],
 "url": "https://in.linkedin.com/jobs/view/associate-data-engineer-at-mondel%C4%93z-international-4476321691",
 "posted": "2026-11-18",
+"remote": null,
+"country": null,
+"name_match": "loose"
+},
+{
+"id": "https://in.linkedin.com/jobs/view/engenheiro-de-dados-data-engineer-at-mondel%C4%93z-international-4482713313",
+"title": "Engenheiro de Dados | Data Engineer",
+"company": "Mondelēz International",
+"locations": [
+"Mumbai Metropolitan Region"
+],
+"url": "https://in.linkedin.com/jobs/view/engenheiro-de-dados-data-engineer-at-mondel%C4%93z-international-4482713313",
+"posted": "2026-11-13",
 "remote": null,
 "country": null,
 "name_match": "loose"
