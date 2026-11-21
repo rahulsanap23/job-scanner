@@ -1066,7 +1066,7 @@
 "jobs": []
 },
 "IndusInd Bank": {
-"checked_at": "2026-11-19T10:31:56+00:00",
+"checked_at": "2026-11-21T21:54:31+00:00",
 "jobs": []
 },
 "JPMorgan Chase": {
@@ -1114,7 +1114,7 @@
 ]
 },
 "Jefferies": {
-"checked_at": "2026-11-19T10:31:56+00:00",
+"checked_at": "2026-11-21T21:54:31+00:00",
 "jobs": [
 {
 "id": "https://in.linkedin.com/jobs/view/vp-snowflake-data-engineer-risk-technology-at-jefferies-4387299334",
@@ -1145,7 +1145,7 @@
 ]
 },
 "Jio": {
-"checked_at": "2026-11-19T10:31:56+00:00",
+"checked_at": "2026-11-21T21:54:31+00:00",
 "jobs": []
 },
 "JioHotstar": {
@@ -1392,8 +1392,21 @@
 "jobs": []
 },
 "MetLife": {
-"checked_at": "2026-11-19T12:13:10+00:00",
+"checked_at": "2026-11-21T21:54:31+00:00",
 "jobs": [
+{
+"id": "https://in.linkedin.com/jobs/view/data-engineer-at-metlife-4488130676",
+"title": "Data Engineer",
+"company": "MetLife",
+"locations": [
+"Pune Division, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/data-engineer-at-metlife-4488130676",
+"posted": "2026-11-06",
+"remote": null,
+"country": null,
+"name_match": "exact"
+},
 {
 "id": "https://in.linkedin.com/jobs/view/data-engineer-at-metlife-4488124857",
 "title": "Data Engineer",
@@ -1416,19 +1429,6 @@
 ],
 "url": "https://in.linkedin.com/jobs/view/big-data-engineer-ii-at-metlife-4487299381",
 "posted": "2026-11-04",
-"remote": null,
-"country": null,
-"name_match": "exact"
-},
-{
-"id": "https://in.linkedin.com/jobs/view/data-engineer-at-metlife-4488130676",
-"title": "Data Engineer",
-"company": "MetLife",
-"locations": [
-"Pune Division, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/data-engineer-at-metlife-4488130676",
-"posted": "2026-11-06",
 "remote": null,
 "country": null,
 "name_match": "exact"
@@ -1466,11 +1466,11 @@
 "jobs": []
 },
 "Microsoft": {
-"checked_at": "2026-11-19T12:13:10+00:00",
+"checked_at": "2026-11-21T21:54:31+00:00",
 "jobs": []
 },
 "Mindtickle": {
-"checked_at": "2026-11-19T12:13:10+00:00",
+"checked_at": "2026-11-21T21:54:31+00:00",
 "jobs": []
 },
 "Mitsubishi Electric India": {
