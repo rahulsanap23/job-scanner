@@ -85,7 +85,7 @@
 "jobs": []
 },
 "Autodesk": {
-"checked_at": "2026-11-20T12:13:03+00:00",
+"checked_at": "2026-11-21T08:59:44+00:00",
 "jobs": []
 },
 "Automattic": {
@@ -166,7 +166,7 @@
 "jobs": []
 },
 "Barclays": {
-"checked_at": "2026-11-20T12:13:03+00:00",
+"checked_at": "2026-11-21T08:59:44+00:00",
 "jobs": [
 {
 "id": "https://in.linkedin.com/jobs/view/data-engineer-at-barclays-4479496036",
@@ -177,6 +177,19 @@
 ],
 "url": "https://in.linkedin.com/jobs/view/data-engineer-at-barclays-4479496036",
 "posted": "2026-10-22",
+"remote": null,
+"country": null,
+"name_match": "exact"
+},
+{
+"id": "https://in.linkedin.com/jobs/view/ifc-cloud-data-engineer-at-barclays-4476496341",
+"title": "IFC - Cloud Data Engineer",
+"company": "Barclays",
+"locations": [
+"Pune Division, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/ifc-cloud-data-engineer-at-barclays-4476496341",
+"posted": "2026-10-15",
 "remote": null,
 "country": null,
 "name_match": "exact"
@@ -208,6 +221,19 @@
 "name_match": "exact"
 },
 {
+"id": "https://in.linkedin.com/jobs/view/data-engineer-at-barclays-4491941704",
+"title": "Data Engineer",
+"company": "Barclays",
+"locations": [
+"Pune Division, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/data-engineer-at-barclays-4491941704",
+"posted": "2026-11-20",
+"remote": null,
+"country": null,
+"name_match": "exact"
+},
+{
 "id": "https://in.linkedin.com/jobs/view/data-engineering-lead-at-barclays-4491689547",
 "title": "Data Engineering Lead",
 "company": "Barclays",
@@ -215,7 +241,7 @@
 "Pune Division, Maharashtra, India"
 ],
 "url": "https://in.linkedin.com/jobs/view/data-engineering-lead-at-barclays-4491689547",
-"posted": "2026-11-20",
+"posted": "2026-11-21",
 "remote": null,
 "country": null,
 "name_match": "exact"
@@ -258,19 +284,6 @@
 "remote": null,
 "country": null,
 "name_match": "exact"
-},
-{
-"id": "https://in.linkedin.com/jobs/view/margin-data-analytics-at-barclays-4479430264",
-"title": "Margin Data & Analytics",
-"company": "Barclays",
-"locations": [
-"Pune Division, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/margin-data-analytics-at-barclays-4479430264",
-"posted": "2026-10-22",
-"remote": null,
-"country": null,
-"name_match": "exact"
 }
 ]
 },
@@ -279,7 +292,7 @@
 "jobs": []
 },
 "BlackRock": {
-"checked_at": "2026-11-20T03:02:20+00:00",
+"checked_at": "2026-11-21T08:59:44+00:00",
 "jobs": [
 {
 "id": "https://in.linkedin.com/jobs/view/data-engineer-aladdin-data-associate-at-blackrock-4490795129",
@@ -332,7 +345,7 @@
 "jobs": []
 },
 "BrowserStack": {
-"checked_at": "2026-11-20T12:13:03+00:00",
+"checked_at": "2026-11-21T08:59:44+00:00",
 "jobs": []
 },
 "CRED": {
@@ -352,7 +365,7 @@
 "jobs": []
 },
 "Cisco": {
-"checked_at": "2026-11-20T12:13:03+00:00",
+"checked_at": "2026-11-21T08:59:44+00:00",
 "jobs": [
 {
 "id": "https://in.linkedin.com/jobs/view/data-engineer-at-cisco-4467704802",
@@ -504,7 +517,7 @@
 "jobs": []
 },
 "Coinbase": {
-"checked_at": "2026-11-18T20:13:12+00:00",
+"checked_at": "2026-11-21T08:59:44+00:00",
 "jobs": []
 },
 "Confluent": {
@@ -512,7 +525,7 @@
 "jobs": []
 },
 "Coursera": {
-"checked_at": "2026-11-18T21:11:39+00:00",
+"checked_at": "2026-11-21T08:59:44+00:00",
 "jobs": []
 },
 "CrowdStrike": {
@@ -520,7 +533,7 @@
 "jobs": []
 },
 "Cummins": {
-"checked_at": "2026-11-18T21:11:39+00:00",
+"checked_at": "2026-11-21T08:59:44+00:00",
 "jobs": [
 {
 "id": "https://in.linkedin.com/jobs/view/data-engineer-senior-7-data-modeler-at-cummins-india-4461308101",
@@ -536,14 +549,27 @@
 "name_match": "exact"
 },
 {
-"id": "https://in.linkedin.com/jobs/view/data-engineer-senior-1-at-cummins-india-4457443885",
-"title": "Data Engineer - Senior 1",
+"id": "https://in.linkedin.com/jobs/view/data-engineer-senior-2-at-cummins-india-4492803691",
+"title": "Data Engineer - Senior 2",
 "company": "Cummins India",
 "locations": [
 "Pune Division, Maharashtra, India"
 ],
-"url": "https://in.linkedin.com/jobs/view/data-engineer-senior-1-at-cummins-india-4457443885",
-"posted": "2026-10-29",
+"url": "https://in.linkedin.com/jobs/view/data-engineer-senior-2-at-cummins-india-4492803691",
+"posted": "2026-11-20",
+"remote": null,
+"country": null,
+"name_match": "exact"
+},
+{
+"id": "https://in.linkedin.com/jobs/view/data-engineer-senior-3-at-cummins-india-4492809500",
+"title": "Data Engineer - Senior 3",
+"company": "Cummins India",
+"locations": [
+"Pune Division, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/data-engineer-senior-3-at-cummins-india-4492809500",
+"posted": "2026-11-20",
 "remote": null,
 "country": null,
 "name_match": "exact"
@@ -608,7 +634,7 @@
 "Pune Division, Maharashtra, India"
 ],
 "url": "https://in.linkedin.com/jobs/view/data-engineer-6-at-cummins-india-4457441873",
-"posted": "2026-10-28",
+"posted": "2026-11-19",
 "remote": null,
 "country": null,
 "name_match": "exact"
@@ -621,7 +647,7 @@
 "Pune Division, Maharashtra, India"
 ],
 "url": "https://in.linkedin.com/jobs/view/data-engineer-7-at-cummins-india-4457442827",
-"posted": "2026-10-29",
+"posted": "2026-11-20",
 "remote": null,
 "country": null,
 "name_match": "exact"

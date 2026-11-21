@@ -56,13 +56,13 @@
   "company": "EPAM Systems",
   "title": "Lead Systems Engineer - Data DevOps/MLOps",
   "status": "needs_linkedin",
-  "error": "page: ValueError: description too short (13 chars)",
+  "error": "LinkedIn try 1: no posting with the same company and title",
   "via": "page",
   "tries": 1,
   "fetched_at": "2026-11-20T10:39:36+00:00",
-  "updated_at": "2026-11-21T00:00:07+00:00",
-  "li_tries": 0,
-  "li_checked_at": "2026-11-21T00:00:07+00:00"
+  "updated_at": "2026-11-21T08:59:54+00:00",
+  "li_tries": 1,
+  "li_checked_at": "2026-11-21T08:59:54+00:00"
  },
  "https://careers.epam.com/en/vacancy/lead-systems-engineer-data-devops-mlops-bltx3zova01hptsib2q_en": {
   "company": "EPAM Systems",
@@ -155,9 +155,9 @@
   "via": "page",
   "tries": 1,
   "fetched_at": "2026-11-21T01:49:35+00:00",
-  "updated_at": "2026-11-21T03:02:31+00:00",
+  "updated_at": "2026-11-21T09:00:00+00:00",
   "li_tries": 0,
-  "li_checked_at": "2026-11-21T03:02:31+00:00"
+  "li_checked_at": "2026-11-21T09:00:00+00:00"
  },
  "https://eaton.eightfold.ai/careers/job/687239486196": {
   "company": "Eaton",
@@ -1036,13 +1036,15 @@
  "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Navi-Mumbai-India-Finicity/Senior-Data-Engineer_R-287943": {
   "company": "Mastercard",
   "title": "Data Engineer II",
-  "status": "needs_linkedin",
-  "error": "workday: RetryError: HTTPSConnectionPool(host='mastercard.wd1.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/mastercard/CorporateCareers/job/Navi-Mumbai-Ind",
-  "via": "workday",
+  "status": "ok",
+  "via": "linkedin-search",
   "tries": 1,
   "fetched_at": "2026-11-21T01:49:35+00:00",
-  "updated_at": "2026-11-21T01:49:35+00:00",
-  "li_tries": 0
+  "updated_at": "2026-11-21T08:59:44+00:00",
+  "li_tries": 1,
+  "li_checked_at": "2026-11-21T08:59:44+00:00",
+  "text": "Our Purpose\nMastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our technology and innovation, partnerships and networks combine to deliver a unique set of products and services that help people, businesses and governments realize their greatest potential.\nTitle And Summary\nData Engineer II\nOverview\nThe Open Finance Cloud Data Solutions team is looking for a Data Engineer II to help build and support scalable data products and platforms that power analytics, reporting, and business insights across Mastercard.\nThe ideal candidate is passionate about data, highly motivated, intellectually curious, analytical, and enjoys solving complex technical problems. This role will work closely with engineering, business intelligence, and business partners to deliver reliable, high-quality, and well-governed data solutions.\nRole\nIn This Position, You Will\n- Design, develop, and support data pipelines and data products on modern cloud data platforms.\n- Partner with engineering, BI, and business teams to understand requirements and deliver scalable data solutions.\n- Build and maintain data transformations, data models, and reporting datasets.\n- Monitor, troubleshoot, and improve the performance and reliability of production data processes.\n- Contribute to data governance, data quality, and documentation standards.\n- Participate in code reviews and support engineering best practices across the team.\n- Continuously identify opportunities to improve processes, tools, and data capabilities.\nAll About You\nThe ideal candidate for this position should:\n- Have experience developing and supporting data pipelines and data transformations.\n- Possess strong SQL and data modeling skills.\n- Be familiar with cloud-based data platforms and tools such as Databricks, Snowflake, dbt, Spark, or similar technologies.\n- Have an understanding of data warehousing, data governance, and data quality concepts.\n- Be skilled at troubleshooting technical problems and delivering sustainable solutions.\n- Be a strong communicator who can work effectively with technical and non-technical stakeholders.\n- Be self-motivated, curious, and eager to learn new technologies and approaches.\n- Always look for opportunities to improve processes and deliver better outcomes for customers and partners.\nCorporate Security Responsibility\nAll activities involving access to Mastercard assets, information, and networks comes with an inherent risk to the organization and, therefore, it is expected that every person working for, or on behalf of, Mastercard is responsible for information security and must:\n- Abide by Mastercard’s security policies and practices;\n- Ensure the confidentiality and integrity of the information being accessed;\n- Report any suspected information security violation or breach, and\n- Complete all periodic mandatory security trainings in accordance with Mastercard’s guidelines.",
+  "li_url": "https://in.linkedin.com/jobs/view/data-engineer-ii-at-mastercard-4474075906"
  },
  "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Lead-Data-Engineer_R-280352": {
   "company": "Mastercard",
