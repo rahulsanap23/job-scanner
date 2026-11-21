@@ -71,14 +71,14 @@
  "https://careers.epam.com/en/vacancy/lead-data-software-engineer-bltb7ba98d3cbf0fd8b_en": {
   "company": "EPAM Systems",
   "title": "Lead Data Software Engineer",
-  "status": "needs_linkedin",
-  "error": "LinkedIn try 2: no posting with the same company and title",
+  "status": "failed",
+  "error": "LinkedIn try 3: no posting with the same company and title",
   "via": "page",
   "tries": 1,
   "fetched_at": "2026-11-20T01:49:55+00:00",
-  "updated_at": "2026-11-21T15:59:02+00:00",
-  "li_tries": 2,
-  "li_checked_at": "2026-11-21T15:59:02+00:00"
+  "updated_at": "2026-11-21T23:51:26+00:00",
+  "li_tries": 3,
+  "li_checked_at": "2026-11-21T23:51:26+00:00"
  },
  "https://careers.epam.com/en/vacancy/lead-palantir-data-software-engineer-bltp8t6eryuvzmu4d7q_en": {
   "company": "EPAM Systems",
@@ -95,14 +95,14 @@
  "https://careers.epam.com/en/vacancy/lead-systems-engineer-data-devops-mlops-bltagknkh9k1a5qyvd0_en": {
   "company": "EPAM Systems",
   "title": "Lead Systems Engineer - Data DevOps/MLOps",
-  "status": "needs_linkedin",
-  "error": "LinkedIn try 2: no posting with the same company and title",
+  "status": "failed",
+  "error": "LinkedIn try 3: no posting with the same company and title",
   "via": "page",
   "tries": 1,
   "fetched_at": "2026-11-20T10:39:36+00:00",
-  "updated_at": "2026-11-21T19:02:46+00:00",
-  "li_tries": 2,
-  "li_checked_at": "2026-11-21T19:02:46+00:00"
+  "updated_at": "2026-11-21T23:51:34+00:00",
+  "li_tries": 3,
+  "li_checked_at": "2026-11-21T23:51:34+00:00"
  },
  "https://careers.epam.com/en/vacancy/lead-systems-engineer-data-devops-mlops-bltx3zova01hptsib2q_en": {
   "company": "EPAM Systems",
@@ -193,13 +193,13 @@
   "company": "HSBC",
   "title": "GCP, Bigquery, Pyspark/Senior Consultant Specialist",
   "status": "needs_linkedin",
-  "error": "LinkedIn try 1: no posting with the same company and title",
+  "error": "LinkedIn try 2: no posting with the same company and title",
   "via": "page",
   "tries": 1,
   "fetched_at": "2026-11-21T01:49:35+00:00",
-  "updated_at": "2026-11-21T17:58:55+00:00",
-  "li_tries": 1,
-  "li_checked_at": "2026-11-21T17:58:55+00:00"
+  "updated_at": "2026-11-21T23:51:20+00:00",
+  "li_tries": 2,
+  "li_checked_at": "2026-11-21T23:51:20+00:00"
  },
  "https://eaton.eightfold.ai/careers/job/687239486196": {
   "company": "Eaton",
