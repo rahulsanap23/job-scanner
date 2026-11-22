@@ -1218,7 +1218,7 @@
 "jobs": []
 },
 "KONE": {
-"checked_at": "2026-11-22T09:00:21+00:00",
+"checked_at": "2026-11-22T15:58:09+00:00",
 "jobs": [
 {
 "id": "https://in.linkedin.com/jobs/view/principal-data-engineer-data-products-at-kone-4435593803",
@@ -1240,7 +1240,7 @@
 "jobs": []
 },
 "LSEG": {
-"checked_at": "2026-11-21T13:13:06+00:00",
+"checked_at": "2026-11-22T15:58:09+00:00",
 "jobs": []
 },
 "Lentra": {
@@ -1248,7 +1248,7 @@
 "jobs": []
 },
 "M&G": {
-"checked_at": "2026-11-21T14:16:18+00:00",
+"checked_at": "2026-11-22T15:58:09+00:00",
 "jobs": [
 {
 "id": "https://in.linkedin.com/jobs/view/lead-engineer-data-at-m-g-india-4490864911",
@@ -1279,11 +1279,11 @@
 ]
 },
 "MSD (Merck & Co.)": {
-"checked_at": "2026-11-22T10:18:44+00:00",
+"checked_at": "2026-11-22T15:58:09+00:00",
 "jobs": []
 },
 "Maersk": {
-"checked_at": "2026-11-21T14:16:18+00:00",
+"checked_at": "2026-11-22T15:58:09+00:00",
 "jobs": []
 },
 "Marsh McLennan": {
@@ -2211,7 +2211,7 @@
 "jobs": []
 },
 "Ubisoft": {
-"checked_at": "2026-11-20T05:15:41+00:00",
+"checked_at": "2026-11-22T15:58:09+00:00",
 "jobs": []
 },
 "Upstox": {
@@ -2227,7 +2227,7 @@
 "jobs": []
 },
 "Veeam": {
-"checked_at": "2026-11-20T06:25:58+00:00",
+"checked_at": "2026-11-22T15:58:09+00:00",
 "jobs": []
 },
 "Veritas Technologies": {
@@ -2235,8 +2235,22 @@
 "jobs": []
 },
 "Vertiv": {
-"checked_at": "2026-11-20T06:25:58+00:00",
-"jobs": []
+"checked_at": "2026-11-22T15:58:09+00:00",
+"jobs": [
+{
+"id": "https://in.linkedin.com/jobs/view/operations-data-developer-at-vertiv-4492966432",
+"title": "Operations Data Developer",
+"company": "Vertiv",
+"locations": [
+"Ulhasnagar, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/operations-data-developer-at-vertiv-4492966432",
+"posted": "2026-11-20",
+"remote": null,
+"country": null,
+"name_match": "exact"
+}
+]
 },
 "Visa": {
 "checked_at": "2026-11-20T11:41:02+00:00",
