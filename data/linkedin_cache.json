@@ -1287,7 +1287,7 @@
 "jobs": []
 },
 "Marsh McLennan": {
-"checked_at": "2026-11-22T10:18:44+00:00",
+"checked_at": "2026-11-22T17:54:35+00:00",
 "jobs": []
 },
 "Marvell": {
@@ -1396,7 +1396,7 @@
 ]
 },
 "Medline": {
-"checked_at": "2026-11-22T10:18:44+00:00",
+"checked_at": "2026-11-22T17:54:35+00:00",
 "jobs": [
 {
 "id": "https://in.linkedin.com/jobs/view/technical-lead-bi-at-medline-4484653590",
@@ -1733,7 +1733,7 @@
 "jobs": []
 },
 "Northern Trust": {
-"checked_at": "2026-11-22T10:18:44+00:00",
+"checked_at": "2026-11-22T17:54:35+00:00",
 "jobs": [
 {
 "id": "https://in.linkedin.com/jobs/view/senior-lead-data-engineering-at-northern-trust-4453424220",
@@ -1777,7 +1777,7 @@
 ]
 },
 "Novartis": {
-"checked_at": "2026-11-21T15:05:15+00:00",
+"checked_at": "2026-11-22T17:54:35+00:00",
 "jobs": []
 },
 "Nutanix": {
@@ -2253,25 +2253,12 @@
 ]
 },
 "Visa": {
-"checked_at": "2026-11-20T11:41:02+00:00",
+"checked_at": "2026-11-22T17:54:35+00:00",
 "jobs": []
 },
 "Vodafone (VOIS)": {
-"checked_at": "2026-11-20T11:41:02+00:00",
+"checked_at": "2026-11-22T17:54:35+00:00",
 "jobs": [
-{
-"id": "https://in.linkedin.com/jobs/view/aws-data-engineer-vois-at-vois-4468599094",
-"title": "AWS Data Engineer - VOIS",
-"company": "VOIS",
-"locations": [
-"Pune Division, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/aws-data-engineer-vois-at-vois-4468599094",
-"posted": "2026-10-03",
-"remote": null,
-"country": null,
-"name_match": "exact"
-},
 {
 "id": "https://in.linkedin.com/jobs/view/aws-data-engineer-vois-at-vodafone-4487117380",
 "title": "AWS Data Engineer - VOIS",
@@ -2281,6 +2268,19 @@
 ],
 "url": "https://in.linkedin.com/jobs/view/aws-data-engineer-vois-at-vodafone-4487117380",
 "posted": "2026-11-08",
+"remote": null,
+"country": null,
+"name_match": "exact"
+},
+{
+"id": "https://in.linkedin.com/jobs/view/aws-data-engineer-vois-at-vois-4468599094",
+"title": "AWS Data Engineer - VOIS",
+"company": "VOIS",
+"locations": [
+"Pune Division, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/aws-data-engineer-vois-at-vois-4468599094",
+"posted": "2026-10-03",
 "remote": null,
 "country": null,
 "name_match": "exact"
@@ -2349,19 +2349,6 @@
 "remote": null,
 "country": null,
 "name_match": "exact"
-},
-{
-"id": "https://in.linkedin.com/jobs/view/process-mining-developer-vois-at-vois-4483047813",
-"title": "Process Mining Developer - VOIS",
-"company": "VOIS",
-"locations": [
-"Pune Division, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/process-mining-developer-vois-at-vois-4483047813",
-"posted": "2026-11-17",
-"remote": null,
-"country": null,
-"name_match": "exact"
 }
 ]
 },
@@ -2374,7 +2361,7 @@
 "jobs": []
 },
 "Whirlpool": {
-"checked_at": "2026-11-20T12:13:03+00:00",
+"checked_at": "2026-11-22T17:54:35+00:00",
 "jobs": []
 },
 "Wolters Kluwer": {
