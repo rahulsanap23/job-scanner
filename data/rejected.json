@@ -1,11 +1,31 @@
 {
 "meta": {
-"generated_at": "2026-11-23T02:00:17+00:00",
+"generated_at": "2026-11-23T10:41:32+00:00",
 "date": "2026-11-23",
 "recency_days": 60,
-"count": 397
+"count": 442
 },
 "rejected": [
+{
+"company": "AIG",
+"title": "Data Engineer Lead",
+"location": "NJ-Parsippany",
+"posted": "Posted 21 Days Ago",
+"reason": "location",
+"tags": [],
+"url": "https://aig.wd1.myworkdayjobs.com/en-US/aig/job/NJ-Parsippany/Data-Engineer-Lead_JR2603226",
+"source": "workday"
+},
+{
+"company": "AIG",
+"title": "Snowflake Platform Leader",
+"location": "NJ-Jersey City; NJ-Parsippany; NY-New York; NC-Charlotte",
+"posted": "2026-07-23",
+"reason": "location",
+"tags": [],
+"url": "https://aig.wd1.myworkdayjobs.com/en-US/aig/job/NJ-Jersey-City/AVP-II--Data-Platforms_JR2601545",
+"source": "workday"
+},
 {
 "company": "Airbnb",
 "title": "Data Engineer Tech Foundations",
@@ -200,6 +220,16 @@
 "reason": "location",
 "tags": [],
 "url": "https://www.amazon.jobs/en/jobs/10551531/data-engineer-i-dsp-analytics",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Engineer I, Data Engineer I",
+"location": "Bengaluru, Karnataka, IND; IN, KA, Bengaluru",
+"posted": "November 23, 2026",
+"reason": "location",
+"tags": [],
+"url": "https://www.amazon.jobs/en/jobs/10606861/data-engineer-i-data-engineer-i",
 "source": "amazon"
 },
 {
@@ -554,18 +584,6 @@
 },
 {
 "company": "Amazon",
-"title": "Associate, ML Data Operations, GO-AI Operations",
-"location": "Uttar Pradesh, IND; IN, UP, Uttar Pradesh - Virtual",
-"posted": "November 18, 2026",
-"reason": "title not a data-engineering role",
-"tags": [
-"Remote"
-],
-"url": "https://www.amazon.jobs/en/jobs/10606855/associate-ml-data-operations-go-ai-operations",
-"source": "amazon"
-},
-{
-"company": "Amazon",
 "title": "Data Center Engineering Operations Engineer",
 "location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
 "posted": "November 11, 2026",
@@ -670,30 +688,6 @@
 "Mumbai"
 ],
 "url": "https://www.amazon.jobs/en/jobs/10583669/infraops-cloudpath-manager-data-center-operations-data-center-operations",
-"source": "amazon"
-},
-{
-"company": "Amazon",
-"title": "InfraOps Cloudpath Manager, Data Center Operations, Data Center Operations",
-"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
-"posted": "November 16, 2026",
-"reason": "title not a data-engineering role",
-"tags": [
-"Mumbai"
-],
-"url": "https://www.amazon.jobs/en/jobs/10605700/infraops-cloudpath-manager-data-center-operations-data-center-operations",
-"source": "amazon"
-},
-{
-"company": "Amazon",
-"title": "InfraOps Cloudpath Manager, Data Center Operations, Data Center Operations",
-"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
-"posted": "November 16, 2026",
-"reason": "title not a data-engineering role",
-"tags": [
-"Mumbai"
-],
-"url": "https://www.amazon.jobs/en/jobs/10605702/infraops-cloudpath-manager-data-center-operations-data-center-operations",
 "source": "amazon"
 },
 {
@@ -869,28 +863,6 @@
 "source": "linkedin"
 },
 {
-"company": "Baker Hughes",
-"title": "Digital Technology Advisor - Data Science",
-"location": "IN-MH-MUMBAI-HIRANANDANI BUSINESS PARK POWAI",
-"posted": "Posted 2 Days Ago",
-"reason": "title not a data-engineering role",
-"tags": [
-"Mumbai"
-],
-"url": "https://bakerhughes.wd5.myworkdayjobs.com/en-US/BakerHughes/job/IN-MH-MUMBAI-HIRANANDANI-BUSINESS-PARK-POWAI/Digital-Technology-Advisor---Data-Science_R171140",
-"source": "workday"
-},
-{
-"company": "Bloomberg",
-"title": "Climate Data Utility Tech Team - Senior Data Engineer",
-"location": "London, United Kingdom",
-"posted": null,
-"reason": "location",
-"tags": [],
-"url": "https://bloomberg.avature.net/careers/JobDetail/Climate-Data-Utility-Tech-Team-Senior-Data-Engineer/46249",
-"source": "avature"
-},
-{
 "company": "Bloomberg",
 "title": "Cloud Site Reliability Engineer (SRE) - Data Management & Analytics Platform",
 "location": "Princeton, New Jersey, United States of America",
@@ -913,21 +885,21 @@
 {
 "company": "Bloomberg",
 "title": "Senior Data Management Professional - Data Engineering (Data AI)",
-"location": "New York, New York, United States of America",
-"posted": null,
-"reason": "location",
-"tags": [],
-"url": "https://bloomberg.avature.net/careers/JobDetail/Senior-Data-Management-Professional-Data-Engineering-Data-AI/45112",
-"source": "avature"
-},
-{
-"company": "Bloomberg",
-"title": "Senior Data Management Professional - Data Engineering (Data AI)",
 "location": "Princeton, New Jersey, United States of America",
 "posted": null,
 "reason": "location",
 "tags": [],
 "url": "https://bloomberg.avature.net/careers/JobDetail/Senior-Data-Management-Professional-Data-Engineering-Data-AI/20832",
+"source": "avature"
+},
+{
+"company": "Bloomberg",
+"title": "Senior Data Management Professional - Data Engineering (Data AI)",
+"location": "New York, New York, United States of America",
+"posted": null,
+"reason": "location",
+"tags": [],
+"url": "https://bloomberg.avature.net/careers/JobDetail/Senior-Data-Management-Professional-Data-Engineering-Data-AI/45112",
 "source": "avature"
 },
 {
@@ -962,6 +934,16 @@
 },
 {
 "company": "Bloomberg",
+"title": "Senior Data Management Professional – Metadata, Data Engineering & Automation - Knowledge Graph Group",
+"location": "Dublin, Ireland",
+"posted": null,
+"reason": "location",
+"tags": [],
+"url": "https://bloomberg.avature.net/careers/JobDetail/Senior-Data-Management-Professional-Metadata-Data-Engineering-Automation-Knowledge-Graph-Group/45270",
+"source": "avature"
+},
+{
+"company": "Bloomberg",
 "title": "Senior Software Engineer - Data License Plus",
 "location": "Dublin, Ireland",
 "posted": null,
@@ -982,12 +964,12 @@
 },
 {
 "company": "Bloomberg",
-"title": "Senior Software Engineer – Data and Platform Tools – Bloomberg Connects",
-"location": "New York, New York, United States of America",
+"title": "Team Leader - Data Engineering & Integration - Commodities Data",
+"location": "London, United Kingdom",
 "posted": null,
 "reason": "location",
 "tags": [],
-"url": "https://bloomberg.avature.net/careers/JobDetail/Senior-Software-Engineer-Data-and-Platform-Tools-Bloomberg-Connects/45014",
+"url": "https://bloomberg.avature.net/careers/JobDetail/Team-Leader-Data-Engineering-Integration-Commodities-Data/20834",
 "source": "avature"
 },
 {
@@ -1499,16 +1481,6 @@
 {
 "company": "Databricks",
 "title": "Senior Software Engineer - Distributed Data Systems",
-"location": "Bellevue, Washington",
-"posted": "2023-12-11T15:48:06-05:00",
-"reason": "location",
-"tags": [],
-"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6936994002",
-"source": "greenhouse"
-},
-{
-"company": "Databricks",
-"title": "Senior Software Engineer - Distributed Data Systems",
 "location": "San Francisco, California",
 "posted": "2019-11-14T17:28:57-05:00",
 "reason": "location",
@@ -1529,6 +1501,16 @@
 {
 "company": "Databricks",
 "title": "Senior Software Engineer - Distributed Data Systems",
+"location": "Bellevue, Washington",
+"posted": "2023-12-11T15:48:06-05:00",
+"reason": "location",
+"tags": [],
+"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6936994002",
+"source": "greenhouse"
+},
+{
+"company": "Databricks",
+"title": "Senior Software Engineer - Distributed Data Systems",
 "location": "Mountain View, California",
 "posted": "2023-06-23T18:46:50-04:00",
 "reason": "location",
@@ -1539,11 +1521,21 @@
 {
 "company": "Databricks",
 "title": "Senior Solutions Architect (EDW Enterprise Data Warehouse Migrations)",
-"location": "London, United Kingdom",
-"posted": "2026-08-17T03:46:40-04:00",
+"location": "Amsterdam, Netherlands",
+"posted": "2026-08-17T03:49:58-04:00",
 "reason": "location",
 "tags": [],
-"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8704938002",
+"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8720252002",
+"source": "greenhouse"
+},
+{
+"company": "Databricks",
+"title": "Senior Solutions Architect (EDW Enterprise Data Warehouse Migrations)",
+"location": "Paris, France",
+"posted": "2026-08-17T03:49:59-04:00",
+"reason": "location",
+"tags": [],
+"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8720251002",
 "source": "greenhouse"
 },
 {
@@ -1569,21 +1561,11 @@
 {
 "company": "Databricks",
 "title": "Senior Solutions Architect (EDW Enterprise Data Warehouse Migrations)",
-"location": "Amsterdam, Netherlands",
-"posted": "2026-08-17T03:49:58-04:00",
+"location": "London, United Kingdom",
+"posted": "2026-08-17T03:46:40-04:00",
 "reason": "location",
 "tags": [],
-"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8720252002",
-"source": "greenhouse"
-},
-{
-"company": "Databricks",
-"title": "Senior Solutions Architect (EDW Enterprise Data Warehouse Migrations)",
-"location": "Paris, France",
-"posted": "2026-08-17T03:49:59-04:00",
-"reason": "location",
-"tags": [],
-"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8720251002",
+"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8704938002",
 "source": "greenhouse"
 },
 {
@@ -1629,21 +1611,21 @@
 {
 "company": "Databricks",
 "title": "Sr. Designated Support Engineer - Spark",
-"location": "Seoul, South Korea",
-"posted": "2026-11-02T10:48:03-05:00",
-"reason": "location",
-"tags": [],
-"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8661520002",
-"source": "greenhouse"
-},
-{
-"company": "Databricks",
-"title": "Sr. Designated Support Engineer - Spark",
 "location": "Singapore",
 "posted": "2026-11-02T10:45:11-05:00",
 "reason": "location",
 "tags": [],
 "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8907735002",
+"source": "greenhouse"
+},
+{
+"company": "Databricks",
+"title": "Sr. Designated Support Engineer - Spark",
+"location": "Seoul, South Korea",
+"posted": "2026-11-02T10:48:03-05:00",
+"reason": "location",
+"tags": [],
+"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8661520002",
 "source": "greenhouse"
 },
 {
@@ -1709,21 +1691,21 @@
 {
 "company": "Databricks",
 "title": "Sr. Product Manager, Databricks Repos",
-"location": "San Francisco, California",
-"posted": "2025-12-05T16:31:10-05:00",
-"reason": "location",
-"tags": [],
-"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8326513002",
-"source": "greenhouse"
-},
-{
-"company": "Databricks",
-"title": "Sr. Product Manager, Databricks Repos",
 "location": "Seattle, Washington",
 "posted": "2025-12-05T16:31:12-05:00",
 "reason": "location",
 "tags": [],
 "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8326570002",
+"source": "greenhouse"
+},
+{
+"company": "Databricks",
+"title": "Sr. Product Manager, Databricks Repos",
+"location": "San Francisco, California",
+"posted": "2025-12-05T16:31:10-05:00",
+"reason": "location",
+"tags": [],
+"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8326513002",
 "source": "greenhouse"
 },
 {
@@ -1799,16 +1781,6 @@
 {
 "company": "Databricks",
 "title": "Staff Software Engineer - Distributed Data Systems",
-"location": "San Francisco, California",
-"posted": "2023-04-13T17:55:06-04:00",
-"reason": "location",
-"tags": [],
-"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=5646855002",
-"source": "greenhouse"
-},
-{
-"company": "Databricks",
-"title": "Staff Software Engineer - Distributed Data Systems",
 "location": "Mountain View, California",
 "posted": "2023-04-13T17:55:08-04:00",
 "reason": "location",
@@ -1824,6 +1796,16 @@
 "reason": "location",
 "tags": [],
 "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8012831002",
+"source": "greenhouse"
+},
+{
+"company": "Databricks",
+"title": "Staff Software Engineer - Distributed Data Systems",
+"location": "San Francisco, California",
+"posted": "2023-04-13T17:55:06-04:00",
+"reason": "location",
+"tags": [],
+"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=5646855002",
 "source": "greenhouse"
 },
 {
@@ -2222,7 +2204,7 @@
 "company": "Equinix",
 "title": "Staff - GCP Data Engineer",
 "location": "Bangalore Office BLS2",
-"posted": "Posted 25 Days Ago",
+"posted": "Posted 26 Days Ago",
 "reason": "location",
 "tags": [],
 "url": "https://equinix.wd1.myworkdayjobs.com/en-US/External/job/Bangalore-Office-BLS2/Staff---GCP-Data-Engineer_JR-161111",
@@ -2268,7 +2250,7 @@
 "company": "Equinix",
 "title": "Data Center Customer Operations IV",
 "location": "Mumbai",
-"posted": "Posted 3 Days Ago",
+"posted": "Posted 4 Days Ago",
 "reason": "title not a data-engineering role",
 "tags": [
 "Mumbai"
@@ -2280,7 +2262,7 @@
 "company": "Equinix",
 "title": "Manager, Data Center Critical Facilities",
 "location": "Mumbai",
-"posted": "Posted 25 Days Ago",
+"posted": "Posted 26 Days Ago",
 "reason": "title not a data-engineering role",
 "tags": [
 "Mumbai"
@@ -2301,11 +2283,11 @@
 {
 "company": "Fivetran",
 "title": "Senior Engineering Manager, dbt Engine",
-"location": "Denver, Colorado, United States, AMER",
-"posted": "2026-10-05T16:01:41-04:00",
+"location": "Oakland, California, United States, AMER",
+"posted": "2026-10-05T16:01:39-04:00",
 "reason": "location",
 "tags": [],
-"url": "https://www.fivetran.com/careers/job?gh_jid=8013525003",
+"url": "https://www.fivetran.com/careers/job?gh_jid=7818376003",
 "source": "greenhouse"
 },
 {
@@ -2321,11 +2303,11 @@
 {
 "company": "Fivetran",
 "title": "Senior Engineering Manager, dbt Engine",
-"location": "Oakland, California, United States, AMER",
-"posted": "2026-10-05T16:01:39-04:00",
+"location": "Denver, Colorado, United States, AMER",
+"posted": "2026-10-05T16:01:41-04:00",
 "reason": "location",
 "tags": [],
-"url": "https://www.fivetran.com/careers/job?gh_jid=7818376003",
+"url": "https://www.fivetran.com/careers/job?gh_jid=8013525003",
 "source": "greenhouse"
 },
 {
@@ -2447,6 +2429,331 @@
 ],
 "url": "https://jobs.ajg.com/jobs/60988",
 "source": "jibe"
+},
+{
+"company": "General Mills",
+"title": "Data Engineer I (5–8 Years' Experience Required)",
+"location": "Powai, Mumbai, MH",
+"posted": "2026-08-05",
+"reason": "older than 60 days",
+"tags": [
+"Mumbai"
+],
+"url": "https://genmills.wd1.myworkdayjobs.com/en-US/GMI_External_Careers/job/Powai-Mumbai-MH/Data-Engineer-I_10128893",
+"source": "workday"
+},
+{
+"company": "General Mills",
+"title": "Data Engineer II (7–12 Years' Experience Required)",
+"location": "Powai, Mumbai, MH",
+"posted": "2026-08-07",
+"reason": "older than 60 days",
+"tags": [
+"Mumbai"
+],
+"url": "https://genmills.wd1.myworkdayjobs.com/en-US/GMI_External_Careers/job/Powai-Mumbai-MH/Data-Engineer-II_10128894",
+"source": "workday"
+},
+{
+"company": "General Mills",
+"title": "Data Quality Engineer",
+"location": "Powai, Mumbai, MH",
+"posted": "2026-08-07",
+"reason": "older than 60 days",
+"tags": [
+"Mumbai"
+],
+"url": "https://genmills.wd1.myworkdayjobs.com/en-US/GMI_External_Careers/job/Powai-Mumbai-MH/Data-Quality-Engineer_10128974",
+"source": "workday"
+},
+{
+"company": "General Mills",
+"title": "Manager/Lead - Data Engineer",
+"location": "Powai, Mumbai, MH",
+"posted": "2026-08-07",
+"reason": "older than 60 days",
+"tags": [
+"Mumbai"
+],
+"url": "https://genmills.wd1.myworkdayjobs.com/en-US/GMI_External_Careers/job/Powai-Mumbai-MH/Manager---Data-Engineering_10128959",
+"source": "workday"
+},
+{
+"company": "General Mills",
+"title": "Senior Data Engineer (10–12 Years' Experience Required)",
+"location": "Powai, Mumbai, MH",
+"posted": "2026-08-07",
+"reason": "older than 60 days",
+"tags": [
+"Mumbai"
+],
+"url": "https://genmills.wd1.myworkdayjobs.com/en-US/GMI_External_Careers/job/Powai-Mumbai-MH/Senior-Data-Engineer_10128895",
+"source": "workday"
+},
+{
+"company": "General Mills",
+"title": "Senior Data Engineer (10–12 Years' Experience Required)",
+"location": "Powai, Mumbai, MH",
+"posted": "2026-08-05",
+"reason": "older than 60 days",
+"tags": [
+"Mumbai"
+],
+"url": "https://genmills.wd1.myworkdayjobs.com/en-US/GMI_External_Careers/job/Powai-Mumbai-MH/Senior-Data-Engineer--10-12-Years--Experience-Required-_10128292",
+"source": "workday"
+},
+{
+"company": "General Mills",
+"title": "Sr. Infrastructure Engineer – Data Platforms",
+"location": "Powai, Mumbai, MH",
+"posted": "2026-09-21",
+"reason": "older than 60 days",
+"tags": [
+"Mumbai"
+],
+"url": "https://genmills.wd1.myworkdayjobs.com/en-US/GMI_External_Careers/job/Powai-Mumbai-MH/Sr-Infrastructure-Engineer---Data-Platforms--SQL-DBA-_10129203",
+"source": "workday"
+},
+{
+"company": "General Mills",
+"title": "Data Engineer I (5–8 Years' Experience Required)",
+"location": "Mumbai Metropolitan Region",
+"posted": "2026-11-21",
+"reason": "on LinkedIn, but the careers site dropped it (older than 60 days)",
+"tags": [
+"Mumbai"
+],
+"url": "https://in.linkedin.com/jobs/view/data-engineer-i-5%E2%80%938-years-experience-required-at-general-mills-4448951881",
+"source": "linkedin"
+},
+{
+"company": "General Mills",
+"title": "Data Engineer II (7–12 Years' Experience Required)",
+"location": "Mumbai Metropolitan Region",
+"posted": "2026-11-20",
+"reason": "on LinkedIn, but the careers site dropped it (older than 60 days)",
+"tags": [
+"Mumbai"
+],
+"url": "https://in.linkedin.com/jobs/view/data-engineer-ii-7%E2%80%9312-years-experience-required-at-general-mills-4448955334",
+"source": "linkedin"
+},
+{
+"company": "General Mills",
+"title": "Senior Data Engineer (10–12 Years' Experience Required)",
+"location": "Mumbai Metropolitan Region",
+"posted": "2026-11-20",
+"reason": "on LinkedIn, but the careers site dropped it (older than 60 days)",
+"tags": [
+"Mumbai"
+],
+"url": "https://in.linkedin.com/jobs/view/senior-data-engineer-10%E2%80%9312-years-experience-required-at-general-mills-4448965006",
+"source": "linkedin"
+},
+{
+"company": "General Mills",
+"title": "Senior Data Engineer (10–12 Years' Experience Required)",
+"location": "Mumbai Metropolitan Region",
+"posted": "2026-11-20",
+"reason": "on LinkedIn, but the careers site dropped it (older than 60 days)",
+"tags": [
+"Mumbai"
+],
+"url": "https://in.linkedin.com/jobs/view/senior-data-engineer-10%E2%80%9312-years-experience-required-at-general-mills-4448964040",
+"source": "linkedin"
+},
+{
+"company": "General Mills",
+"title": "Assistant D&T Manager – Master Data Operations",
+"location": "Powai, Mumbai, MH",
+"posted": "Posted 26 Days Ago",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://genmills.wd1.myworkdayjobs.com/en-US/GMI_External_Careers/job/Powai-Mumbai-MH/Assistant-D-T-Manager---Master-Data-Operations_10131168",
+"source": "workday"
+},
+{
+"company": "General Mills",
+"title": "Consultant - Operational Technology Data Operations",
+"location": "Powai, Mumbai, MH",
+"posted": "Posted 30+ Days Ago",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://genmills.wd1.myworkdayjobs.com/en-US/GMI_External_Careers/job/Powai-Mumbai-MH/Consultant---Operational-Technology-Data-Operations_10129929",
+"source": "workday"
+},
+{
+"company": "General Mills",
+"title": "D&T Analyst I – Master Data Operations",
+"location": "Powai, Mumbai, MH",
+"posted": "Posted 30+ Days Ago",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://genmills.wd1.myworkdayjobs.com/en-US/GMI_External_Careers/job/Powai-Mumbai-MH/D-T-Analyst-I---Master-Data-Operations_10130743",
+"source": "workday"
+},
+{
+"company": "General Mills",
+"title": "D&T Analyst II - Data Stewardship",
+"location": "Powai, Mumbai, MH",
+"posted": "Posted 30+ Days Ago",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://genmills.wd1.myworkdayjobs.com/en-US/GMI_External_Careers/job/Powai-Mumbai-MH/Analyst-II---Data-Stewardship_10127260",
+"source": "workday"
+},
+{
+"company": "General Mills",
+"title": "D&T Analyst II – Data Foundations, Consumer",
+"location": "Powai, Mumbai, MH",
+"posted": "Posted 7 Days Ago",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://genmills.wd1.myworkdayjobs.com/en-US/GMI_External_Careers/job/Powai-Mumbai-MH/D-T-Analyst-II---Data-Foundations--Consumer_10131157",
+"source": "workday"
+},
+{
+"company": "General Mills",
+"title": "D&T Analyst II – Data Stewardship",
+"location": "Powai, Mumbai, MH",
+"posted": "Posted 30+ Days Ago",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://genmills.wd1.myworkdayjobs.com/en-US/GMI_External_Careers/job/Powai-Mumbai-MH/D-T-Analyst-II---Data-Stewardship_10124890-3",
+"source": "workday"
+},
+{
+"company": "General Mills",
+"title": "D&T Data Scientist I",
+"location": "Powai, Mumbai, MH",
+"posted": "Posted 30+ Days Ago",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://genmills.wd1.myworkdayjobs.com/en-US/GMI_External_Careers/job/Powai-Mumbai-MH/D-T-Data-Scientist-I_10129267-1",
+"source": "workday"
+},
+{
+"company": "General Mills",
+"title": "D&T Data Scientist II",
+"location": "Powai, Mumbai, MH",
+"posted": "Posted 7 Days Ago",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://genmills.wd1.myworkdayjobs.com/en-US/GMI_External_Careers/job/Powai-Mumbai-MH/D-T-Data-Scientist-II_10129266-1",
+"source": "workday"
+},
+{
+"company": "General Mills",
+"title": "D&T Manager – Data Tools",
+"location": "Powai, Mumbai, MH",
+"posted": "Posted 30+ Days Ago",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://genmills.wd1.myworkdayjobs.com/en-US/GMI_External_Careers/job/Powai-Mumbai-MH/Manager---Data-Tools_10116567",
+"source": "workday"
+},
+{
+"company": "General Mills",
+"title": "Data Scientist II",
+"location": "Powai, Mumbai, MH",
+"posted": "Posted 30+ Days Ago",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://genmills.wd1.myworkdayjobs.com/en-US/GMI_External_Careers/job/Powai-Mumbai-MH/Data-Scientist-II_10130044-1",
+"source": "workday"
+},
+{
+"company": "General Mills",
+"title": "Data Scientist II, Analytics Engine Optimization",
+"location": "Powai, Mumbai, MH",
+"posted": "Posted 18 Days Ago",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://genmills.wd1.myworkdayjobs.com/en-US/GMI_External_Careers/job/Powai-Mumbai-MH/Data-Scientist-II--Analytics-Engine-Optimization_10130502-1",
+"source": "workday"
+},
+{
+"company": "General Mills",
+"title": "ITQ Data Scientist II",
+"location": "Powai, Mumbai, MH",
+"posted": "Posted 30+ Days Ago",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://genmills.wd1.myworkdayjobs.com/en-US/GMI_External_Careers/job/Powai-Mumbai-MH/ITQ-Data-Scientist-II_10123257",
+"source": "workday"
+},
+{
+"company": "General Mills",
+"title": "Lead D&T Data Scientist",
+"location": "Powai, Mumbai, MH",
+"posted": "Posted 30+ Days Ago",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai",
+"Remote"
+],
+"url": "https://genmills.wd1.myworkdayjobs.com/en-US/GMI_External_Careers/job/Powai-Mumbai-MH/Lead-D-T-Data-Scientist_10129265",
+"source": "workday"
+},
+{
+"company": "General Mills",
+"title": "Lead Data Architect",
+"location": "Powai, Mumbai, MH",
+"posted": "Posted 30+ Days Ago",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://genmills.wd1.myworkdayjobs.com/en-US/GMI_External_Careers/job/Powai-Mumbai-MH/Lead-Data-Architect_10128968",
+"source": "workday"
+},
+{
+"company": "General Mills",
+"title": "Senior Data Scientist",
+"location": "Powai, Mumbai, MH",
+"posted": "Posted 30+ Days Ago",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://genmills.wd1.myworkdayjobs.com/en-US/GMI_External_Careers/job/Powai-Mumbai-MH/Senior-Data-Scientist_10128896",
+"source": "workday"
+},
+{
+"company": "General Mills",
+"title": "Sr. D&T Analyst – Data Foundations, Supply Chain",
+"location": "Powai, Mumbai, MH",
+"posted": "Posted 30+ Days Ago",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://genmills.wd1.myworkdayjobs.com/en-US/GMI_External_Careers/job/Powai-Mumbai-MH/Sr-Analyst---Data-Foundations--Supply-Chain_10128330",
+"source": "workday"
 },
 {
 "company": "GitLab",
@@ -2928,16 +3235,6 @@
 },
 {
 "company": "JPMorgan Chase",
-"title": "Lead Data Engineer - Python, Pyspark, AWS, Snowflake, AI",
-"location": "Hyderabad, Telangana, India",
-"posted": "2026-11-17",
-"reason": "location",
-"tags": [],
-"url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210807412",
-"source": "oracle"
-},
-{
-"company": "JPMorgan Chase",
 "title": "Lead Software Engineer - Python/Java, Snowflake, Spark, AWS",
 "location": "Hyderabad, Telangana, India",
 "posted": "2026-11-19",
@@ -2974,6 +3271,16 @@
 "reason": "location",
 "tags": [],
 "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210766537",
+"source": "oracle"
+},
+{
+"company": "JPMorgan Chase",
+"title": "Software Engineer II - Python, Spark, SQL, Java",
+"location": "Bengaluru, Karnataka, India",
+"posted": "2026-11-23",
+"reason": "location",
+"tags": [],
+"url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210802417",
 "source": "oracle"
 },
 {
@@ -3026,6 +3333,18 @@
 "Mumbai"
 ],
 "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210803316",
+"source": "oracle"
+},
+{
+"company": "JPMorgan Chase",
+"title": "Associate - Data Management - CAO Chief Data Office",
+"location": "Mumbai, Maharashtra, India",
+"posted": "2026-11-23",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210767543",
 "source": "oracle"
 },
 {
@@ -3155,6 +3474,96 @@
 "tags": [],
 "url": "https://careers.deere.com/careers/job/137483727855",
 "source": "eightfold"
+},
+{
+"company": "Johnson Controls",
+"title": "Security Data & SIEM Engineer",
+"location": "Bengaluru-Karnataka-India",
+"posted": "Posted 6 Days Ago",
+"reason": "location",
+"tags": [],
+"url": "https://jci.wd5.myworkdayjobs.com/en-US/JCI/job/Bengaluru-Karnataka-India/Security-Data---SIEM-Engineer_WD30285291",
+"source": "workday"
+},
+{
+"company": "Johnson Controls",
+"title": "Security Data & SIEM Engineer",
+"location": "Bengaluru-Karnataka-India",
+"posted": "Posted 6 Days Ago",
+"reason": "location",
+"tags": [],
+"url": "https://jci.wd5.myworkdayjobs.com/en-US/JCI/job/Bengaluru-Karnataka-India/Security-Data---SIEM-Engineer_WD30285292",
+"source": "workday"
+},
+{
+"company": "Johnson Controls",
+"title": "Security Data & SIEM Engineer",
+"location": "Bangalore-Karnataka-India",
+"posted": "Posted 28 Days Ago",
+"reason": "location",
+"tags": [],
+"url": "https://jci.wd5.myworkdayjobs.com/en-US/JCI/job/Bangalore-Karnataka-India/Security-Data---SIEM-Engineer_WD30283070",
+"source": "workday"
+},
+{
+"company": "Johnson Controls",
+"title": "Manager/Senior Manager - Data Center HVAC Sales",
+"location": "Mumbai-Maharashtra-India",
+"posted": "Posted 26 Days Ago",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://jci.wd5.myworkdayjobs.com/en-US/JCI/job/Mumbai-Maharashtra-India/Senior-Manager---Data-Center-HVAC-Sales--Mumbai-Gurgaon_WD30267348-1",
+"source": "workday"
+},
+{
+"company": "M&G",
+"title": "Head - Data Analysis - Asset Management",
+"location": "Mumbai",
+"posted": "Posted 3 Days Ago",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://mgpru.wd3.myworkdayjobs.com/en-US/mandgprudential/job/Mumbai/Head---Data-Analysis---Asset-Management_R20509",
+"source": "workday"
+},
+{
+"company": "M&G",
+"title": "Manager Data Privacy Lawyer",
+"location": "Pune",
+"posted": "Posted 3 Days Ago",
+"reason": "title not a data-engineering role",
+"tags": [
+"Pune"
+],
+"url": "https://mgpru.wd3.myworkdayjobs.com/en-US/mandgprudential/job/Pune/Manager-Data-Privacy-Lawyer_R20611",
+"source": "workday"
+},
+{
+"company": "M&G",
+"title": "Senior Analyst - Methodology & Assumption (M&A) Actuarial Policyholder Data Team",
+"location": "Mumbai",
+"posted": "Posted 11 Days Ago",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://mgpru.wd3.myworkdayjobs.com/en-US/mandgprudential/job/Mumbai/Manager---Methodology---Assumption--M-A--Actuarial-Policyholder-Data-Team_R20035",
+"source": "workday"
+},
+{
+"company": "M&G",
+"title": "Senior Manager - Data Scientist (AMVC)",
+"location": "Pune",
+"posted": "Posted 3 Days Ago",
+"reason": "title not a data-engineering role",
+"tags": [
+"Pune"
+],
+"url": "https://mgpru.wd3.myworkdayjobs.com/en-US/mandgprudential/job/Pune/Senior-Manager----Data-Scientist--AMVC-_R19280-1",
+"source": "workday"
 },
 {
 "company": "MetLife",
@@ -3480,6 +3889,70 @@
 "source": "lever"
 },
 {
+"company": "S&P Global",
+"title": "Data Engineer, Data Platforms",
+"location": "IN - CHENNAI PRESTIGE POLYGON BUILDING; IN - HYDERABAD ORION",
+"posted": "2026-11-10",
+"reason": "location",
+"tags": [],
+"url": "https://spgi.wd5.myworkdayjobs.com/en-US/SPGI_Careers/job/IN---CHENNAI-PRESTIGE-POLYGON-BUILDING/Data-Engineer--Data-Platforms_330903-2",
+"source": "workday"
+},
+{
+"company": "S&P Global",
+"title": "Director, Data Platform Engineering {Individual Contributor}",
+"location": "Hyderabad, Telangana",
+"posted": "Posted 6 Days Ago",
+"reason": "location",
+"tags": [],
+"url": "https://spgi.wd5.myworkdayjobs.com/en-US/SPGI_Careers/job/Hyderabad-Telangana/Distinguished-Engineer--Data-Platforms_330899-2",
+"source": "workday"
+},
+{
+"company": "S&P Global",
+"title": "ML Data Engineer",
+"location": "Hyderabad, Telangana",
+"posted": "Posted 3 Days Ago",
+"reason": "location",
+"tags": [],
+"url": "https://spgi.wd5.myworkdayjobs.com/en-US/SPGI_Careers/job/Hyderabad-Telangana/ML-Data-Engineer_332809",
+"source": "workday"
+},
+{
+"company": "S&P Global",
+"title": "Senior Data Engineer",
+"location": "Hyderabad, Telangana",
+"posted": "Posted 6 Days Ago",
+"reason": "location",
+"tags": [],
+"url": "https://spgi.wd5.myworkdayjobs.com/en-US/SPGI_Careers/job/Hyderabad-Telangana/Senior-Data-Engineer_330902-2",
+"source": "workday"
+},
+{
+"company": "S&P Global",
+"title": "Reference Data & Security Master Analyst",
+"location": "Mumbai, Maharastra",
+"posted": "Posted 5 Days Ago",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://spgi.wd5.myworkdayjobs.com/en-US/SPGI_Careers/job/Mumbai-Maharastra/Reference-Data---Security-Master-Analyst_327862-1",
+"source": "workday"
+},
+{
+"company": "S&P Global",
+"title": "Sr Specialist, Data & AI Governance",
+"location": "Mumbai, Maharastra",
+"posted": "Posted 5 Days Ago",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://spgi.wd5.myworkdayjobs.com/en-US/SPGI_Careers/job/Mumbai-Maharastra/Sr-Specialist--Data---AI-Governance_327948-1",
+"source": "workday"
+},
+{
 "company": "Siemens Digital Industries Software",
 "title": "Analytics Engineer & Service Manager",
 "location": "Thane",
@@ -3511,12 +3984,42 @@
 },
 {
 "company": "Siemens Digital Industries Software",
+"title": "Data Platform Ops Engineer",
+"location": "Bangalore",
+"posted": null,
+"reason": "location",
+"tags": [],
+"url": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/522298",
+"source": "avature"
+},
+{
+"company": "Siemens Digital Industries Software",
+"title": "IT Solution Expert-Data Pipeline and Retrieval Engineer (AI Capability)",
+"location": "Bangalore",
+"posted": null,
+"reason": "location",
+"tags": [],
+"url": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/527252",
+"source": "avature"
+},
+{
+"company": "Siemens Digital Industries Software",
 "title": "Senior Analytics Engineer",
 "location": "Bangalore",
 "posted": null,
 "reason": "location",
 "tags": [],
 "url": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/517524",
+"source": "avature"
+},
+{
+"company": "Siemens Digital Industries Software",
+"title": "Senior Analytics Engineer - Anaplan",
+"location": "Bangalore",
+"posted": null,
+"reason": "location",
+"tags": [],
+"url": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/517523",
 "source": "avature"
 },
 {
@@ -3537,6 +4040,18 @@
 "reason": "location",
 "tags": [],
 "url": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/509206",
+"source": "avature"
+},
+{
+"company": "Siemens Digital Industries Software",
+"title": "Procurement Data Specialist",
+"location": "Mumbai",
+"posted": null,
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/529811",
 "source": "avature"
 },
 {
@@ -4019,6 +4534,16 @@
 },
 {
 "company": "Veeam",
+"title": "Senior Sales Engineer - Data & AI Security",
+"location": "Seoul, Republic of Korea",
+"posted": "2026-08-05T00:47:25-04:00",
+"reason": "location",
+"tags": [],
+"url": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4781672101",
+"source": "greenhouse"
+},
+{
+"company": "Veeam",
 "title": "Solutions Engineer, Veeam Data Cloud Vault",
 "location": "Remote, France",
 "posted": "2026-08-11T11:44:57-04:00",
@@ -4026,16 +4551,6 @@
 "tags": [],
 "url": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4944762101",
 "source": "greenhouse"
-},
-{
-"company": "Vertiv",
-"title": "Operations Data Developer",
-"location": "Ambernath, India",
-"posted": "2026-11-20",
-"reason": "location",
-"tags": [],
-"url": "https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20286721",
-"source": "oracle"
 },
 {
 "company": "Vertiv",
