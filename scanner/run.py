@@ -18,7 +18,7 @@ import yaml
 from .adapters import ADAPTERS
 from .filters import RECENCY_DAYS, is_recent, location_tags, norm, parse_posted, title_match, today_utc
 from . import dates, linkedin
-from .http import POLITE_GIVE_UP, Http
+from .http import Http
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "data")
@@ -28,8 +28,10 @@ DROP_SHARE = 0.4    # flag a company whose postings fall under 40% of its recent
 DROP_MIN_AVG = 5    # ...but only when that average is at least this many postings
 VAGUE_RE = re.compile(r"(\d+)\s*\+")  # "30+ Days Ago": the site only says it is older than N days
 WORKDAY_WORKERS = 2   # Workday sites are scanned two at a time (their requests share one pacer, see http.py)
-RETRY_WAIT = 240      # seconds to wait before a second try at the sites that failed
-RETRY_BUDGET = 1800   # ...skipped if the first pass already took longer than this
+WORKDAY_BUDGET = 600  # seconds for all Workday sites in the first pass; the rest are skipped (and keep
+                      # their last good roles, see carry_forward) so blocked sites can't stretch the run
+RETRY_WAIT = 90       # seconds to wait before a second try at the sites that failed
+RETRY_BUDGET = 300    # seconds for the second try
 CARRY_HOURS = 48      # a site that fails keeps its roles from a successful scan up to this old
 
 
@@ -119,29 +121,31 @@ def scan_all(companies, today, workers=10, debug=False, log=print):
         log(f"{rep['company'][:28]:28} {rep['status']:11} fetched={rep.get('fetched', 0):4} "
             f"matched={rep.get('matched', 0):3} {'; '.join(rep.get('errors', []))[:120]}")
 
+    Http.polite_deadline(WORKDAY_BUDGET)
     with ThreadPoolExecutor(max_workers=workers) as ex, ThreadPoolExecutor(max_workers=WORKDAY_WORKERS) as wx:
         futs = {(wx if is_workday(c) else ex).submit(scan_company, c, today, debug): c for c in companies}
         for fut in as_completed(futs):
             done(fut, futs[fut])
+    Http.polite_deadline(None)
     return results
 
 
-def retry_failed(companies, results, today, started, debug=False, log=print, wait=RETRY_WAIT):
+def retry_failed(companies, results, today, debug=False, log=print, wait=RETRY_WAIT, budget=RETRY_BUDGET):
     """Second try, one site at a time, for the sites that failed (most often a 429 from Workday),
-    after a pause that lets the rate limit reset. A site that answers now replaces its failure."""
+    after a pause that lets the rate limit reset. At most `budget` seconds in all. A site that
+    answers now replaces its failure."""
     failed = [c for c in companies if results.get(c["name"], ([], {}))[1].get("status") == "error"]
     if not failed:
         return []
-    if time.time() - started > RETRY_BUDGET:
-        log(f"second try skipped: the first pass took {int(time.time() - started) // 60} min")
-        return []
     log(f"second try for {len(failed)} failed sites in {wait} s: " + ", ".join(c["name"] for c in failed))
     time.sleep(wait)
-    Http.reset_polite()
+    end = time.time() + budget
+    Http.polite_deadline(budget)
     recovered = []
     for c in failed:
-        if is_workday(c) and Http._failures >= POLITE_GIVE_UP:
-            continue  # Workday is still refusing: don't spend the run waiting on each site
+        if time.time() > end:
+            log(f"second try stopped: {budget // 60} min used")
+            break
         try:
             js, rep, _ = scan_company(c, today, debug)
         except Exception:  # noqa: BLE001
@@ -152,6 +156,7 @@ def retry_failed(companies, results, today, started, debug=False, log=print, wai
             recovered.append(c["name"])
         log(f"{rep['company'][:28]:28} {rep['status']:11} (second try) fetched={rep.get('fetched', 0):4} "
             f"{'; '.join(rep.get('errors', []))[:120]}")
+    Http.polite_deadline(None)
     return recovered
 
 
@@ -366,10 +371,9 @@ def main():
         wanted = {norm(x) for x in args.only.split(",")}
         companies = [c for c in companies if norm(c["name"]) in wanted]
 
-    started = time.time()
     log = lambda m: print(m, flush=True)  # noqa: E731
     results = scan_all(companies, today, args.workers, args.debug, log)
-    retry_failed(companies, results, today, started, args.debug, log)
+    retry_failed(companies, results, today, args.debug, log)
     jobs, reports = [], []
     for c in companies:
         js, rep = results[c["name"]]

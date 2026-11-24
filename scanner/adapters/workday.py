@@ -7,7 +7,8 @@ from ..http import RateLimited
 INDIA_ID = "c4f78be1a8f14da0ab49ce1162348a5e"  # Workday's global id for India
 PAGE = 20
 MAX_PAGES_PER_TERM = 50  # 1,000 postings per search term; a scan that still hits this is flagged
-FULL_LIST_MAX = 600      # India postings: up to this many are all read (no search terms) and filtered here
+FULL_LIST_MAX = 150      # India postings: up to this many are all read (no search terms) and filtered here;
+                         # above that, the per-term searches usually need fewer requests
 COUNTRY_RE = re.compile(r"^\s*(india|ind|in)\s*(\(.*\))?\s*$", re.I)
 CITY_RE = re.compile(r"pune|mumbai|bombay|maharashtra|\bindia\b|\bind\b", re.I)
 MULTI_RE = re.compile(r"^\d+\s+locations?$", re.I)

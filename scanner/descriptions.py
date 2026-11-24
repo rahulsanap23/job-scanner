@@ -316,6 +316,9 @@ def merge(ours_path, into=None):
 
 # ---------- daily scan step ----------
 
+WORKDAY_SECS = 240  # time allowed for Workday description pages in one scan
+
+
 def scan_step(workers=8, debug=False):
     """Careers-site fetch for roles without a description. A careers-site miss becomes
     needs_linkedin (linkedin-refresh then looks the role up on LinkedIn, a few per run);
@@ -331,6 +334,7 @@ def scan_step(workers=8, debug=False):
 
     per, tenants = load_config()
     started, now = time.time(), now_iso()
+    Http.polite_deadline(WORKDAY_SECS)  # Workday pages: never let a 429 stretch this step
     with ThreadPoolExecutor(max_workers=workers) as ex:
         results = list(ex.map(lambda j: (j, fetch_one(j, {"company": per.get(j["company"], {}),
                                                            "tenants": tenants})), todo))
