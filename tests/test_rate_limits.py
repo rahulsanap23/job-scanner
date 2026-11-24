@@ -27,7 +27,7 @@ def no_sleep(monkeypatch):
     slept = []
     monkeypatch.setattr(http_mod.time, "sleep", lambda s: slept.append(s))
     monkeypatch.setattr(http_mod.Http, "_next_at", 0.0)
-    monkeypatch.setattr(http_mod.Http, "_failures", 0)
+    monkeypatch.setattr(http_mod.Http, "_deadline", None)
     return slept
 
 
@@ -104,15 +104,16 @@ def test_retry_failed_replaces_a_recovered_site(monkeypatch):
     monkeypatch.setattr(run.time, "sleep", lambda s: None)
     monkeypatch.setattr(run, "scan_company", lambda c, today, debug=False:
                         ([{"title": "Data Engineer"}], {"company": c["name"], "status": "ok", "notes": []}, []))
-    got = run.retry_failed(companies, results, TODAY, run.time.time(), log=lambda m: None, wait=0)
+    got = run.retry_failed(companies, results, TODAY, log=lambda m: None, wait=0)
     assert got == ["A"] and results["A"][0] == [{"title": "Data Engineer"}]
     assert "answered on the second try" in results["A"][1]["notes"]
 
 
-def test_retry_failed_skipped_when_out_of_time(monkeypatch):
+def test_retry_failed_stops_when_its_time_is_used(monkeypatch):
     results = {"A": ([], {"company": "A", "status": "error"})}
+    monkeypatch.setattr(run.time, "sleep", lambda s: None)
     monkeypatch.setattr(run, "scan_company", lambda *a, **k: pytest.fail("rescanned"))
-    assert run.retry_failed([{"name": "A"}], results, TODAY, 0, log=lambda m: None, wait=0) == []
+    assert run.retry_failed([{"name": "A"}], results, TODAY, log=lambda m: None, wait=0, budget=-1) == []
 
 
 def test_carry_forward_keeps_recent_site_roles_only():
@@ -167,24 +168,18 @@ def test_refresh_skips_when_searched_recently(tmp_path, monkeypatch):
     assert logs and "skipping this run" in logs[0]
 
 
-def test_polite_http_fails_fast_after_repeated_blocks(no_sleep, monkeypatch):
-    monkeypatch.setattr(http_mod.Http, "_failures", 0)
+def test_polite_http_skips_requests_after_the_deadline(no_sleep, monkeypatch):
     calls = []
-
-    def always_429(*a, **k):
-        calls.append(1)
-        return Resp(429)
-
-    for _ in range(http_mod.POLITE_GIVE_UP):
-        h = http_mod.Http(polite=True)
-        monkeypatch.setattr(h.s, "request", always_429)
-        with pytest.raises(http_mod.RateLimited):
-            h.get("https://x.myworkdayjobs.com/a")
-    sent = len(calls)
     h = http_mod.Http(polite=True)
-    monkeypatch.setattr(h.s, "request", always_429)
-    with pytest.raises(http_mod.RateLimited, match="skipped"):
+    monkeypatch.setattr(h.s, "request", lambda *a, **k: calls.append(1) or Resp(200))
+    http_mod.Http.polite_deadline(-1)  # already used up
+    with pytest.raises(http_mod.RateLimited, match="not tried"):
         h.get("https://x.myworkdayjobs.com/a")
-    assert len(calls) == sent  # nothing sent: the breaker is open
-    http_mod.Http.reset_polite()
-    assert http_mod.Http._failures == 0
+    assert calls == []
+    http_mod.Http.polite_deadline(None)
+    assert h.get("https://x.myworkdayjobs.com/a").status_code == 200
+
+
+def test_workday_india_list_threshold_is_small():
+    # reading everything only pays off for short lists; longer ones use the term searches
+    assert workday.FULL_LIST_MAX <= 200

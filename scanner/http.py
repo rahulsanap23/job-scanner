@@ -13,9 +13,8 @@ TIMEOUT = 30
 
 
 POLITE_GAP = 0.8             # polite mode: at least this many seconds between requests (all polite sessions together)
-POLITE_429_WAITS = (60, 120)  # polite mode: waits before retrying a 429 (Retry-After wins if longer)
-POLITE_GIVE_UP = 3            # after this many polite requests fail on 429, the rest fail at once
-                              # (the site is blocking us; waiting minutes per company would only time out)
+POLITE_429_WAITS = (15,)     # polite mode: one short wait before retrying a 429. Longer waits don't help:
+                             # a 24 Nov test run waited 3 min per 429 and most sites still refused
 
 
 class RequestBudgetExceeded(Exception):
@@ -31,16 +30,18 @@ class Http:
 
     Polite sessions (Workday) share one pacer: every polite request in the process is spaced
     POLITE_GAP apart, and a 429 seen by one company pauses all of them (all Workday sites
-    sit behind the same rate limiter, which counts requests per IP address)."""
+    sit behind the same rate limiter, which counts requests per IP address). After the
+    deadline set with polite_deadline(), polite requests fail at once, so a site that keeps
+    refusing can never stretch the run."""
     _gate = threading.Lock()
-    _next_at = 0.0   # monotonic time before which no polite request may start
-    _failures = 0    # polite requests that ended in RateLimited since the last reset_polite()
+    _next_at = 0.0     # monotonic time before which no polite request may start
+    _deadline = None   # monotonic time after which polite requests are not sent
 
     @classmethod
-    def reset_polite(cls):
-        """Forget earlier 429 failures (before a second try, after a pause)."""
+    def polite_deadline(cls, secs):
+        """Polite requests are skipped once `secs` seconds from now have passed (None: no limit)."""
         with cls._gate:
-            cls._failures = 0
+            cls._deadline = None if secs is None else time.monotonic() + secs
 
     def __init__(self, max_requests=250, polite=False):
         """polite=True is for sites that rate-limit hard (Workday): requests are spaced
@@ -81,25 +82,22 @@ class Http:
             r = self.s.request(method, url, **kw)
             r.raise_for_status()
             return r
-        if Http._failures >= POLITE_GIVE_UP:
-            raise RateLimited(f"429: skipped, the site refused {Http._failures} requests in a row")
         after = 0
         for wait in (0,) + POLITE_429_WAITS:
             if wait:
-                self._cool_down(max(wait + random.random() * 10, after))
+                self._cool_down(max(wait + random.random() * 5, after))
             self._tick()
             self._pace()
+            if Http._deadline is not None and time.monotonic() > Http._deadline:
+                raise RateLimited("429: not tried, the time allowed for this platform was used up")
             r = self.s.request(method, url, **kw)
             if r.status_code != 429:
-                Http._failures = 0
                 r.raise_for_status()
                 return r
             try:
-                after = min(int(r.headers.get("Retry-After", "0")), 300)
+                after = min(int(r.headers.get("Retry-After", "0")), 60)
             except ValueError:
                 after = 0
-        with Http._gate:
-            Http._failures += 1
         raise RateLimited(f"429 Too Many Requests after waiting {sum(POLITE_429_WAITS)} s", response=r)
 
     def get(self, url, **kw):
