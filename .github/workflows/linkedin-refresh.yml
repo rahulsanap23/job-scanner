@@ -16,6 +16,9 @@ on:
       batch:
         description: "companies to search"
         default: "8"
+      trigger:
+        description: "manual = always run; cron = skip if LinkedIn was searched in the last 40 minutes"
+        default: manual
 
 permissions:
   contents: write
@@ -40,7 +43,12 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Search LinkedIn for the next batch
-        run: python -m scanner.linkedin_refresh --batch "${{ github.event.inputs.batch || '8' }}"
+        # GitHub's schedule and the external cron (docs/scheduling.md) both start this; --min-gap
+        # makes the second one in the same hour skip itself. A manual run always searches.
+        run: |
+          gap=""
+          if [ "${{ github.event_name }}" = "schedule" ] || [ "${{ github.event.inputs.trigger }}" = "cron" ]; then gap="--min-gap"; fi
+          python -m scanner.linkedin_refresh --batch "${{ github.event.inputs.batch || '8' }}" $gap
 
       - name: Commit the cache and descriptions
         run: |

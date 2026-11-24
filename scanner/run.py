@@ -18,7 +18,7 @@ import yaml
 from .adapters import ADAPTERS
 from .filters import RECENCY_DAYS, is_recent, location_tags, norm, parse_posted, title_match, today_utc
 from . import dates, linkedin
-from .http import Http
+from .http import POLITE_GIVE_UP, Http
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "data")
@@ -27,6 +27,10 @@ HISTORY_KEEP = 14   # scans of per-company posting counts kept in data/history.j
 DROP_SHARE = 0.4    # flag a company whose postings fall under 40% of its recent average
 DROP_MIN_AVG = 5    # ...but only when that average is at least this many postings
 VAGUE_RE = re.compile(r"(\d+)\s*\+")  # "30+ Days Ago": the site only says it is older than N days
+WORKDAY_WORKERS = 2   # Workday sites are scanned two at a time (their requests share one pacer, see http.py)
+RETRY_WAIT = 240      # seconds to wait before a second try at the sites that failed
+RETRY_BUDGET = 1800   # ...skipped if the first pass already took longer than this
+CARRY_HOURS = 48      # a site that fails keeps its roles from a successful scan up to this old
 
 
 def load_companies():
@@ -97,6 +101,93 @@ def example(rj):
     return f"{rj['reason']}: {rj['title']} | {rj['posted'] or rj['location'][:80]}"
 
 
+def is_workday(c):
+    return any(s.get("type") == "workday" for s in c.get("sources") or [])
+
+
+def scan_all(companies, today, workers=10, debug=False, log=print):
+    """Scan every company: Workday sites WORKDAY_WORKERS at a time (they rate-limit per IP address),
+    everything else `workers` at a time, both groups side by side. Returns {name: (jobs, report)}."""
+    results = {}
+
+    def done(fut, c):
+        try:
+            js, rep, _ = fut.result()
+        except Exception as e:  # noqa: BLE001
+            js, rep = [], {"company": c["name"], "status": "error", "errors": [str(e)[:200]]}
+        results[c["name"]] = (js, rep)
+        log(f"{rep['company'][:28]:28} {rep['status']:11} fetched={rep.get('fetched', 0):4} "
+            f"matched={rep.get('matched', 0):3} {'; '.join(rep.get('errors', []))[:120]}")
+
+    with ThreadPoolExecutor(max_workers=workers) as ex, ThreadPoolExecutor(max_workers=WORKDAY_WORKERS) as wx:
+        futs = {(wx if is_workday(c) else ex).submit(scan_company, c, today, debug): c for c in companies}
+        for fut in as_completed(futs):
+            done(fut, futs[fut])
+    return results
+
+
+def retry_failed(companies, results, today, started, debug=False, log=print, wait=RETRY_WAIT):
+    """Second try, one site at a time, for the sites that failed (most often a 429 from Workday),
+    after a pause that lets the rate limit reset. A site that answers now replaces its failure."""
+    failed = [c for c in companies if results.get(c["name"], ([], {}))[1].get("status") == "error"]
+    if not failed:
+        return []
+    if time.time() - started > RETRY_BUDGET:
+        log(f"second try skipped: the first pass took {int(time.time() - started) // 60} min")
+        return []
+    log(f"second try for {len(failed)} failed sites in {wait} s: " + ", ".join(c["name"] for c in failed))
+    time.sleep(wait)
+    Http.reset_polite()
+    recovered = []
+    for c in failed:
+        if is_workday(c) and Http._failures >= POLITE_GIVE_UP:
+            continue  # Workday is still refusing: don't spend the run waiting on each site
+        try:
+            js, rep, _ = scan_company(c, today, debug)
+        except Exception:  # noqa: BLE001
+            continue
+        if rep["status"] != "error":
+            rep["notes"].append("answered on the second try")
+            results[c["name"]] = (js, rep)
+            recovered.append(c["name"])
+        log(f"{rep['company'][:28]:28} {rep['status']:11} (second try) fetched={rep.get('fetched', 0):4} "
+            f"{'; '.join(rep.get('errors', []))[:120]}")
+    return recovered
+
+
+def carry_forward(reports, prev_jobs, history, today, now, log=print):
+    """Sites that failed today keep the roles of their last successful scan, if that scan is at most
+    CARRY_HOURS old (history.json logs successful scans only). Each carried role gets carried_from.
+    Returns {company: [jobs]}."""
+    cutoff = (now - timedelta(hours=CARRY_HOURS)).isoformat(timespec="seconds")
+    carried = {}
+    for rep in reports:
+        name = rep["company"]
+        if rep.get("status") != "error":
+            continue
+        last = (history.get(name) or [[""]])[-1][0]
+        if not last or last < cutoff:
+            continue
+        keep = []
+        for j in prev_jobs:
+            if j.get("company") != name or j.get("source") == "linkedin":
+                continue
+            j = {k: v for k, v in j.items() if k not in ("fresh", "new", "first_seen")}
+            if j.get("posted"):
+                j["days_ago"] = (today - datetime.fromisoformat(j["posted"]).date()).days
+                if j["days_ago"] > RECENCY_DAYS:
+                    continue
+            j["carried_from"] = j.get("carried_from") or last
+            keep.append(j)
+        if keep:
+            carried[name] = keep
+            rep["carried"] = {"from": last, "roles": len(keep)}
+            rep.setdefault("notes", []).append(f"site failed today; showing {len(keep)} roles from the scan at {last}")
+            rep["matched"] = rep.get("matched", 0) + len(keep)
+            log(f"{name}: site failed; keeping {len(keep)} roles from the scan at {last}")
+    return carried
+
+
 def scan_company(c, today, debug=False):
     started = time.time()
     rep = {"company": c["name"], "platforms": [], "status": "ok", "fetched": 0,
@@ -108,7 +199,7 @@ def scan_company(c, today, debug=False):
         rep["notes"].append(c.get("note") or "no public job API found")
         return [], rep, []
 
-    http = Http(max_requests=c.get("max_requests", 400))
+    http = Http(max_requests=c.get("max_requests", 400), polite=is_workday(c))
     raw, ok_sources = [], 0
     for src in sources:
         if src.get("fallback") and raw:
@@ -275,19 +366,23 @@ def main():
         wanted = {norm(x) for x in args.only.split(",")}
         companies = [c for c in companies if norm(c["name"]) in wanted]
 
+    started = time.time()
+    log = lambda m: print(m, flush=True)  # noqa: E731
+    results = scan_all(companies, today, args.workers, args.debug, log)
+    retry_failed(companies, results, today, started, args.debug, log)
     jobs, reports = [], []
-    with ThreadPoolExecutor(max_workers=args.workers) as ex:
-        futs = {ex.submit(scan_company, c, today, args.debug): c for c in companies}
-        for fut in as_completed(futs):
-            c = futs[fut]
-            try:
-                js, rep, _ = fut.result()
-            except Exception as e:  # noqa: BLE001
-                js, rep = [], {"company": c["name"], "status": "error", "errors": [str(e)[:200]]}
+    for c in companies:
+        js, rep = results[c["name"]]
+        jobs.extend(js)
+        reports.append(rep)
+
+    carried = {}
+    if not args.only:
+        prev = load_json(os.path.join(DATA, "jobs.json"), {}).get("jobs") or []
+        carried = carry_forward(reports, prev, load_json(os.path.join(DATA, "history.json"), {}),
+                                today, datetime.now(timezone.utc), log)
+        for js in carried.values():
             jobs.extend(js)
-            reports.append(rep)
-            print(f"{rep['company'][:28]:28} {rep['status']:11} fetched={rep.get('fetched', 0):4} "
-                  f"matched={rep.get('matched', 0):3} {'; '.join(rep.get('errors', []))[:120]}", flush=True)
 
     rejected = []
     for rep in reports:
@@ -318,7 +413,10 @@ def main():
             if name not in when and not remote.get(name):
                 continue
             rep = rep_by[name]
-            js, tm, rej = apply_filters(name, cards, today, "linkedin")
+            if name in carried:  # roles kept from the last good scan: LinkedIn adds only what they lack
+                js, rej = crosscheck(name, cards, carried[name], [], today)
+            else:
+                js, tm, rej = apply_filters(name, cards, today, "linkedin")
             rep["linkedin"] = {"checked_at": when.get(name) or remote_at, "fetched": len(cards),
                                "matched": len(js), "rejected_examples": [example(x) for x in rej][:5]}
             rep["matched"] = rep.get("matched", 0) + len(js)
@@ -396,6 +494,7 @@ def main():
         "companies_scanned_ok": sum(1 for r in reports if r["status"] in ("ok", "partial")),
         "companies_failed": sorted(r["company"] for r in reports if r["status"] == "error"),
         "companies_not_scanned": sorted(r["company"] for r in reports if r["status"] == "not scanned"),
+        "companies_carried": sorted(r["company"] for r in reports if r.get("carried")),
         "jobs": len(jobs), "companies_with_jobs": len({j["company"] for j in jobs}),
         "uncertain": sum(1 for j in jobs if j["flags"]),
         "fresh": sum(1 for j in jobs if j.get("fresh")),
