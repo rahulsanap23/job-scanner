@@ -25,11 +25,13 @@ from .filters import RECENCY_DAYS
 
 API = "https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search"
 PAUSE_SECS = 4.0   # plus up to 4 s of jitter between requests
-BACKOFF = (30, 90)  # waits before retrying a 429; then give up for this run
+BACKOFF = ()       # no retry on a 429: stop and keep what we have (retrying only makes the block last longer)
 PAGES = 1          # 10 results per page; the search is limited to Maharashtra, so one page is enough
 CACHE_DAYS = 4     # companies LinkedIn didn't let us check this run reuse results this recent
 FRESH_HOURS = 24   # a company checked this recently isn't searched again by the daily scan
 TIME_BUDGET = 600  # seconds; the rest of the companies wait for the next run
+SCAN_SEARCH_CAP = 6  # the daily scan searches at most this many companies itself (oldest check first);
+                     # the hourly refresh does the rest, so one blocked scan doesn't spend LinkedIn's patience
 POSTED_WITHIN = f"r{RECENCY_DAYS * 86400}"  # LinkedIn's "posted in the last N seconds" filter
 REMOTE_KEY = "_remote_india"  # cache entry for the general remote-India search
 REMOTE_PAGES = 3   # 10 results a page, newest first
@@ -92,7 +94,7 @@ def parse(page):
 
 
 def fetch_page(sess, params, http):
-    """One search page, paced; backs off on a 429 and raises RateLimited if LinkedIn keeps refusing."""
+    """One search page, paced; raises RateLimited at the first 429 (see BACKOFF)."""
     for wait in (0,) + BACKOFF:
         time.sleep(wait or PAUSE_SECS + random.random() * 4)
         r = sess.get(API, params=params, timeout=20)
@@ -270,6 +272,7 @@ def run_fallback(targets, http, cache_path, now, keep=None):
     fresh = (now - timedelta(hours=FRESH_HOURS)).isoformat(timespec="seconds")
     stale = [c for c in targets if (cache.get(c["name"]) or {}).get("checked_at", "") < fresh]
     stale.sort(key=lambda c: (cache.get(c["name"]) or {}).get("checked_at", ""))
+    stale = stale[:SCAN_SEARCH_CAP]
     run_note = "searched 0 companies"
     if stale:
         found, checked, run_note = scan_targets(stale, http)

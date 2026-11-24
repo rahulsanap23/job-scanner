@@ -15,6 +15,11 @@ company and title, and only a posting with the same title is used (see
 scanner/descriptions.py, linkedin_lookup). The scheduled Claude task then picks those roles'
 skills on its next run.
 
+Each run stops at LinkedIn's first 429 and keeps what it found. Failed careers sites are
+retried (SITE_RETRIES per run) before LinkedIn is searched for them. With --min-gap the run
+is skipped when another trigger already searched LinkedIn in the last MIN_GAP_MINUTES (the
+workflow is started both by GitHub's schedule and by an external cron, see docs/scheduling.md).
+
 Which companies (8 per run, every hour):
 - Fallback companies: the ones the latest scan sent to LinkedIn (no usable careers feed, or a
   site that failed or returned nothing). The list is rebuilt from the latest scan on every
@@ -45,6 +50,8 @@ FALLBACK_HOURS = 11     # a fallback company is due again this long after its la
 CROSSCHECK_HOURS = 20   # a cross-check company isn't searched again sooner than this
 CROSSCHECK_SHARE = 1 / 3
 REMOTE_HOURS = 12
+SITE_RETRIES = 2        # failed careers sites retried per run before searching LinkedIn for them
+MIN_GAP_MINUTES = 40    # with --min-gap: skip the run if LinkedIn was searched this recently (two triggers fired)
 CACHE = os.path.join(DATA, "linkedin_cache.json")
 REPORT = os.path.join(DATA, "scan_report.json")
 
@@ -94,7 +101,7 @@ def plan(companies, reports, cache, scanned_at, batch=BATCH, now=None):
         return (now - timedelta(hours=hours)).isoformat(timespec="seconds")
 
     # failed in the latest scan and not looked at on LinkedIn since: these go first
-    urgent = [c for c, r in wanted if site_failed(r) and checked(c) < (scanned_at or "")]
+    urgent = sorted((c for c, r in wanted if site_failed(r) and checked(c) < (scanned_at or "")), key=checked)
     first = {c["name"] for c in urgent}
     rest = sorted((c for c, _ in wanted if c["name"] not in first), key=checked)
     fb_due = urgent + [c for c in rest if checked(c) < iso(FALLBACK_HOURS)]
@@ -111,14 +118,22 @@ def plan(companies, reports, cache, scanned_at, batch=BATCH, now=None):
     return urgent, queue
 
 
-def refresh(batch=BATCH, dry_run=False, log=print):
+def last_search(cache):
+    return max((v.get("checked_at", "") for v in cache.values() if isinstance(v, dict)), default="")
+
+
+def refresh(batch=BATCH, dry_run=False, log=print, min_gap=0):
     meta, reports = load_report()
     if not reports:
         log("no scan report yet; nothing to refresh")
         return
-    companies = load_companies()
     cache = linkedin.load_cache(CACHE)
     now = datetime.now(timezone.utc)
+    last = last_search(cache)
+    if min_gap and last >= (now - timedelta(minutes=min_gap)).isoformat(timespec="seconds"):
+        log(f"LinkedIn was searched at {last}, less than {min_gap} min ago; skipping this run")
+        return
+    companies = load_companies()
     do_remote = remote_due(cache, now)
     slots = max(1, batch - linkedin.REMOTE_PAGES) if do_remote else batch  # the remote search uses a few slots
     urgent, queue = plan(companies, reports, cache, meta.get("generated_at"), slots, now)
@@ -126,9 +141,7 @@ def refresh(batch=BATCH, dry_run=False, log=print):
 
     today = today_utc()
     recovered = set()
-    for c in urgent:
-        if c not in queue:
-            continue
+    for c in [c for c in urgent if c in queue][:SITE_RETRIES]:
         try:
             _, rep, _ = scan_company(c, today)
         except Exception as e:  # noqa: BLE001
@@ -185,11 +198,13 @@ def main():
     ap.add_argument("--batch", type=int, default=BATCH)
     ap.add_argument("--dry-run", action="store_true", help="print the plan, search nothing")
     ap.add_argument("--merge", metavar="OURS", help="merge this cache file into data/linkedin_cache.json and exit")
+    ap.add_argument("--min-gap", nargs="?", type=int, const=MIN_GAP_MINUTES, default=0, metavar="MIN",
+                    help=f"skip if LinkedIn was searched in the last MIN minutes (default {MIN_GAP_MINUTES})")
     args = ap.parse_args()
     if args.merge:
         merge(args.merge)
     else:
-        refresh(args.batch, args.dry_run)
+        refresh(args.batch, args.dry_run, min_gap=args.min_gap)
 
 
 if __name__ == "__main__":

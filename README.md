@@ -9,6 +9,22 @@ linkedin-refresh (every hour)                          ──commits──▶  d
 Scheduled Claude task (daily 8 AM + 4 PM IST)          ──reads──▶  reviews flagged rows, publishes the board, sends a summary
 ```
 
+Both workflows are also started by a free external cron (cron-job.org), because GitHub's own
+schedule runs late or not at all when it is busy; whichever trigger comes second skips itself.
+Setup: [docs/scheduling.md](docs/scheduling.md).
+
+### Rate limits
+
+- **Workday** (about 60 companies) limits requests per IP address. Workday sites are scanned two at
+  a time, all their requests share one pacer (0.8 s apart), and a 429 pauses every Workday request
+  for 1–2 minutes before trying again (`scanner/http.py`, `polite=True`). When a company's India
+  list has at most 600 postings, it is read once in full and filtered here instead of one search
+  per term. Sites that still fail get a second try about 4 minutes after the first pass. A site
+  that fails both keeps the roles of its last successful scan for up to 48 hours (`carried_from`
+  on the role, `carried` in the scan report), and LinkedIn adds only roles those don't cover.
+- **LinkedIn** stops at the first 429 and keeps what it found. The daily scan searches at most
+  6 companies itself (oldest check first); the hourly refresh does the rest.
+
 ## What's where
 
 | Path | What it is |
@@ -26,7 +42,8 @@ Scheduled Claude task (daily 8 AM + 4 PM IST)          ──reads──▶  rev
 | `data/jobs.json` | Today's matching roles (with `new` and `flags`) |
 | `data/scan_report.json` | Per-company status: ok / partial / error / not scanned, with counts, examples of near misses, `alerts` and the LinkedIn cross-check result |
 | `data/rejected.json` | Every role with a data title that was dropped, and why (city, older than 60 days with its date, …): the answer to "why isn't this role on the board?" |
-| `data/history.json` | Each company's posting count for its last 14 scans; a big drop (or Workday paging cut short) shows up in `meta.scanner_alerts` and the board footer |
+| `data/history.json` | Each company's posting count for its last 14 successful scans; a big drop (or Workday paging cut short) shows up in `meta.scanner_alerts` and the board footer. Also tells a failed site how old its last good scan is |
+| `docs/scheduling.md` | One-time setup of the free external cron that starts both workflows on time |
 | `data/seen.json` | When each role was first seen (drives the NEW tag) |
 | `data/descriptions.json` | Full description per role URL: status `ok`, `needs_linkedin` (waiting for the LinkedIn lookup) or `failed` (not found anywhere) |
 | `probe/` | Maintenance helper for checking new careers endpoints from GitHub Actions |

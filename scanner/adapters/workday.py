@@ -2,10 +2,12 @@
 import re
 
 from ..filters import location_tags, title_match
+from ..http import RateLimited
 
 INDIA_ID = "c4f78be1a8f14da0ab49ce1162348a5e"  # Workday's global id for India
 PAGE = 20
 MAX_PAGES_PER_TERM = 50  # 1,000 postings per search term; a scan that still hits this is flagged
+FULL_LIST_MAX = 600      # India postings: up to this many are all read (no search terms) and filtered here
 COUNTRY_RE = re.compile(r"^\s*(india|ind|in)\s*(\(.*\))?\s*$", re.I)
 CITY_RE = re.compile(r"pune|mumbai|bombay|maharashtra|\bindia\b|\bind\b", re.I)
 MULTI_RE = re.compile(r"^\d+\s+locations?$", re.I)
@@ -72,6 +74,32 @@ def scan(src, http, terms=None):
     src["_note"] = how
 
     seen, capped = {}, []
+
+    def keep(posts):
+        for p in posts:
+            path = p.get("externalPath")
+            if path and path not in seen:
+                seen[path] = p
+
+    # Workday rate-limits hard, so ask as little as possible. When the India filter works and the
+    # list is short, read every India posting once (about total / 20 requests) and let the title
+    # filter pick the data roles, instead of one search per term (9 terms, each paged).
+    full = None
+    if applied:
+        full = http.post_json(api, {"appliedFacets": applied, "limit": PAGE, "offset": 0, "searchText": ""})
+    if full is not None and (full.get("total") or 0) <= FULL_LIST_MAX:
+        total = full.get("total") or 0
+        keep(full.get("jobPostings") or [])
+        offset = PAGE
+        while offset < total:
+            posts = http.post_json(api, {"appliedFacets": applied, "limit": PAGE,
+                                         "offset": offset, "searchText": ""}).get("jobPostings") or []
+            if not posts:
+                break
+            keep(posts)
+            offset += PAGE
+        src["_note"] = f"{how}; read all {total} India postings"
+        terms = []
     for term in terms:
         offset, total = 0, None
         for page in range(MAX_PAGES_PER_TERM):
@@ -80,10 +108,7 @@ def scan(src, http, terms=None):
             if total is None:
                 total = data.get("total") or 0
             posts = data.get("jobPostings") or []
-            for p in posts:
-                path = p.get("externalPath")
-                if path and path not in seen:
-                    seen[path] = p
+            keep(posts)
             offset += PAGE
             if not posts or offset >= total:
                 break
@@ -92,7 +117,7 @@ def scan(src, http, terms=None):
     if capped:
         src["_capped"] = capped  # paging cap hit: some postings were never read
 
-    jobs = []
+    jobs, details_ok = [], True
     for path, p in seen.items():
         loc = p.get("locationsText") or ""
         job = {
@@ -103,7 +128,7 @@ def scan(src, http, terms=None):
         }
         # "3 Locations" hides the cities and "30+ Days Ago" hides the date: the posting's own
         # data has both (location + additionalLocations, and startDate, the exact posting date)
-        if needs_detail(job):
+        if details_ok and needs_detail(job):
             try:
                 info = http.get_json(f"https://{host}/wday/cxs/{tenant}/{site}{path}").get("jobPostingInfo", {})
                 if MULTI_RE.match(loc.strip()):
@@ -111,6 +136,8 @@ def scan(src, http, terms=None):
                 job["posted"] = info.get("startDate") or job["posted"]
                 if info.get("remoteType"):
                     job["remote"] = info["remoteType"].lower().startswith("remote")
+            except RateLimited:  # keep what we have; don't wait out a 429 for every posting
+                details_ok = False
             except Exception:  # noqa: BLE001 - keep the posting with what we have
                 pass
         jobs.append(job)

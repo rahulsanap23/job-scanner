@@ -250,8 +250,8 @@ def load_config():
 
 
 def fetch_one(job, cfg):
-    http = Http(max_requests=6)
     name = platform(job)
+    http = Http(max_requests=6, polite=name == "workday")  # Workday: share the scan's pacing (see http.py)
     try:
         raw = FETCHERS[name](http, job, cfg) if name in FETCHERS else from_page(http, job["url"])
         text = to_text(raw)
