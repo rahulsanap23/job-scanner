@@ -4,11 +4,11 @@
 "jobs": []
 },
 "AIG": {
-"checked_at": "2026-11-23T02:43:35+00:00",
+"checked_at": "2026-11-24T11:40:56+00:00",
 "jobs": []
 },
 "Abbott": {
-"checked_at": "2026-11-23T10:53:23+00:00",
+"checked_at": "2026-11-24T11:40:56+00:00",
 "jobs": [
 {
 "id": "https://in.linkedin.com/jobs/view/data-engineer-%E2%80%93-commercial-enablement-at-abbott-4473283702",
@@ -26,7 +26,7 @@
 ]
 },
 "Air Products": {
-"checked_at": "2026-11-23T10:53:23+00:00",
+"checked_at": "2026-11-24T11:40:56+00:00",
 "jobs": []
 },
 "Airbnb": {
@@ -363,8 +363,21 @@
 ]
 },
 "Bloomberg": {
-"checked_at": "2026-11-20T22:05:00+00:00",
+"checked_at": "2026-11-24T11:40:56+00:00",
 "jobs": [
+{
+"id": "https://in.linkedin.com/jobs/view/senior-software-engineer-data-license-analytics-pune-at-bloomberg-4492605434",
+"title": "Senior Software Engineer - Data License Analytics, Pune",
+"company": "Bloomberg",
+"locations": [
+"Pune Division, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/senior-software-engineer-data-license-analytics-pune-at-bloomberg-4492605434",
+"posted": "2026-11-23",
+"remote": null,
+"country": null,
+"name_match": "exact"
+},
 {
 "id": "https://in.linkedin.com/jobs/view/senior-data-management-professional-%E2%80%93-process-automation-data-operations-company-financials-data-pune-at-bloomberg-4449206502",
 "title": "Senior Data Management Professional – Process Automation & Data Operations, Company Financials Data , Pune",
@@ -381,7 +394,7 @@
 ]
 },
 "BrightEdge": {
-"checked_at": "2026-11-20T23:59:17+00:00",
+"checked_at": "2026-11-24T11:40:56+00:00",
 "jobs": []
 },
 "BrowserStack": {
@@ -2407,7 +2420,7 @@
 "jobs": []
 },
 "_remote_india": {
-"checked_at": "2026-11-23T22:17:22+00:00",
+"checked_at": "2026-11-24T11:41:47+00:00",
 "jobs": [
 {
 "id": "https://in.linkedin.com/jobs/view/data-engineer-i-at-amazon-4481247187",
@@ -2506,6 +2519,20 @@
 "country": "India",
 "name_match": "exact",
 "target": "FedEx"
+},
+{
+"id": "https://in.linkedin.com/jobs/view/data-engineer-aladdin-data-associate-at-blackrock-4490795129",
+"title": "Data Engineer, Aladdin Data, Associate",
+"company": "BlackRock",
+"locations": [
+"Mumbai, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/data-engineer-aladdin-data-associate-at-blackrock-4490795129",
+"posted": "2026-11-13",
+"remote": true,
+"country": "India",
+"name_match": "exact",
+"target": "BlackRock"
 }
 ]
 },
