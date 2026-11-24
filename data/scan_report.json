@@ -1,18 +1,17 @@
 {
  "meta": {
-  "generated_at": "2026-11-24T10:22:27+00:00",
-  "date": "2026-11-24",
+  "generated_at": "2026-11-24T19:15:40+00:00",
+  "date": "2026-11-25",
   "recency_days": 60,
   "companies_total": 190,
-  "companies_scanned_ok": 88,
+  "companies_scanned_ok": 97,
   "companies_failed": [
    "AIG",
    "Abbott",
    "Air Products",
    "AllianceBernstein (Equitable)",
-   "Allstate",
+   "Amadeus",
    "Autodesk",
-   "Baker Hughes",
    "Barclays",
    "BlackRock",
    "BrowserStack",
@@ -23,7 +22,6 @@
    "DBS Bank",
    "Deutsche Bank",
    "Dow",
-   "Ecolab",
    "Equinix",
    "FIS",
    "Fiserv",
@@ -34,19 +32,14 @@
    "KONE",
    "LSEG",
    "M&G",
-   "MSD (Merck & Co.)",
    "Maersk",
-   "Marsh McLennan",
    "Marvell",
-   "Mastercard",
-   "Medline",
    "Michelin",
    "Mondelez",
    "Northern Trust",
    "Novartis",
    "Nvidia",
    "P&G",
-   "Pfizer",
    "Philips",
    "Priceline (Booking Holdings)",
    "Red Hat",
@@ -54,10 +47,8 @@
    "S&P Global",
    "Salesforce",
    "Sandvik",
-   "TIAA",
    "Telstra",
    "Thermo Fisher Scientific",
-   "VMware (Broadcom)",
    "Voya",
    "Wolters Kluwer",
    "Workday",
@@ -111,25 +102,25 @@
    "Volkswagen Group Digital Solutions",
    "Yes Bank"
   ],
-  "jobs": 118,
+  "companies_carried": [],
+  "jobs": 121,
   "companies_with_jobs": 44,
-  "uncertain": 15,
-  "fresh": 6,
-  "linkedin": "15 of 105 companies checked in the last 24 h; not checked in 24 h: PhonePe, BNP Paribas, Tesla, FedEx, UBS, Société Générale, SBI, Nvidia and 82 more (this scan: stopped after 2 of 92 companies: LinkedIn answered 429)",
+  "uncertain": 18,
+  "fresh": 1,
+  "linkedin": "17 of 96 companies checked in the last 24 h; not checked in 24 h: PhonePe, Nvidia, bp, BNP Paribas, Tesla, Johnson & Johnson, FedEx, UBS and 71 more (this scan: stopped after 2 of 6 companies: LinkedIn answered 429)",
   "companies_checked_on_linkedin": [
    "3Pillar Global",
    "AIG",
    "Abbott",
    "Air Products",
    "AllianceBernstein (Equitable)",
-   "Allstate",
+   "Amadeus",
    "Atlas Copco",
    "Autodesk",
    "Axis Bank",
    "BMW TechWorks India",
    "BNP Paribas",
    "BNY",
-   "Baker Hughes",
    "Barclays",
    "BillDesk",
    "BlackRock",
@@ -147,7 +138,6 @@
    "Dow",
    "Dream Sports",
    "ESTECO",
-   "Ecolab",
    "Equinix",
    "Eruditus",
    "FIS",
@@ -172,13 +162,9 @@
    "LSEG",
    "Lentra",
    "M&G",
-   "MSD (Merck & Co.)",
    "Maersk",
-   "Marsh McLennan",
    "Marvell",
-   "Mastercard",
    "Media.net",
-   "Medline",
    "Michelin",
    "Mitsubishi Electric India",
    "Mizuho",
@@ -190,7 +176,6 @@
    "Nvidia",
    "Nykaa",
    "P&G",
-   "Pfizer",
    "Philips",
    "PhonePe",
    "Postman",
@@ -204,7 +189,6 @@
    "Sandvik",
    "Sciative",
    "Société Générale",
-   "TIAA",
    "TeamViewer",
    "Telstra",
    "Tesla",
@@ -213,7 +197,6 @@
    "Trajector",
    "UBS",
    "Upstox",
-   "VMware (Broadcom)",
    "Vector Informatik",
    "Veritas Technologies",
    "Volkswagen Group Digital Solutions",
@@ -223,10 +206,10 @@
    "Yes Bank",
    "bp"
   ],
-  "linkedin_crosscheck": "85 of 85 scanned companies cross-checked on LinkedIn in the last 4 days; 10 roles the careers sites missed",
-  "missed_by_site": 10,
+  "linkedin_crosscheck": "94 of 94 scanned companies cross-checked on LinkedIn in the last 4 days; 11 roles the careers sites missed",
+  "missed_by_site": 11,
   "scanner_alerts": [],
-  "rejected": 390
+  "rejected": 415
  },
  "companies": [
   {
@@ -258,15 +241,15 @@
    "title_matches": 0,
    "matched": 0,
    "errors": [
-    "workday: RetryError: HTTPSConnectionPool(host='aig.wd1.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/aig/aig/jobs (Caused by ResponseError('too many 429 error responses'))"
+    "workday: RateLimited: 429 Too Many Requests after waiting 15 s"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
-   "requests": 1,
-   "secs": 9.2,
+   "requests": 2,
+   "secs": 37.0,
    "linkedin": {
-    "checked_at": "2026-11-23T02:43:35+00:00",
+    "checked_at": "2026-11-24T11:40:56+00:00",
     "fetched": 0,
     "matched": 0,
     "rejected_examples": []
@@ -282,15 +265,15 @@
    "title_matches": 0,
    "matched": 1,
    "errors": [
-    "workday: RetryError: HTTPSConnectionPool(host='abbott.wd5.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/abbott/abbottcareers/jobs (Caused by ResponseError('too many 429 error responses'))"
+    "workday: RateLimited: 429 Too Many Requests after waiting 15 s"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
-   "requests": 1,
-   "secs": 9.2,
+   "requests": 2,
+   "secs": 21.5,
    "linkedin": {
-    "checked_at": "2026-11-23T10:53:23+00:00",
+    "checked_at": "2026-11-24T11:40:56+00:00",
     "fetched": 1,
     "matched": 1,
     "rejected_examples": []
@@ -306,15 +289,15 @@
    "title_matches": 0,
    "matched": 0,
    "errors": [
-    "workday: RetryError: HTTPSConnectionPool(host='airproducts.wd5.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/airproducts/AP0001/jobs (Caused by ResponseError('too many 429 error responses'))"
+    "workday: RateLimited: 429: not tried, the time allowed for this platform was used up"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
-   "requests": 4,
-   "secs": 20.6,
+   "requests": 1,
+   "secs": 1.6,
    "linkedin": {
-    "checked_at": "2026-11-23T10:53:23+00:00",
+    "checked_at": "2026-11-24T11:40:56+00:00",
     "fetched": 0,
     "matched": 0,
     "rejected_examples": []
@@ -356,13 +339,13 @@
    "title_matches": 0,
    "matched": 0,
    "errors": [
-    "workday: RetryError: HTTPSConnectionPool(host='abglobal.wd1.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/abglobal/alliancebernsteincareers/jobs (Caused by ResponseError('too many 429 error respo"
+    "workday: RateLimited: 429: not tried, the time allowed for this platform was used up"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 9.2,
+   "secs": 1.6,
    "linkedin": {
     "checked_at": "2026-11-24T10:20:06+00:00",
     "fetched": 0,
@@ -375,23 +358,22 @@
    "platforms": [
     "workday"
    ],
-   "status": "error",
-   "fetched": 0,
+   "status": "ok",
+   "fetched": 4,
    "title_matches": 0,
    "matched": 0,
-   "errors": [
-    "workday: RetryError: HTTPSConnectionPool(host='allstate.wd5.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/allstate/allstate_careers/jobs (Caused by ResponseError('too many 429 error responses'))"
+   "errors": [],
+   "notes": [
+    "workday: Country=India; read all 4 India postings"
    ],
-   "notes": [],
    "careers_url": null,
    "rejected_examples": [],
-   "requests": 1,
-   "secs": 9.2,
-   "linkedin": {
+   "requests": 3,
+   "secs": 24.7,
+   "linkedin_crosscheck": {
     "checked_at": "2026-11-22T11:31:27+00:00",
     "fetched": 0,
-    "matched": 0,
-    "rejected_examples": []
+    "missed_by_site": 0
    }
   },
   {
@@ -399,22 +381,23 @@
    "platforms": [
     "workday"
    ],
-   "status": "ok",
-   "fetched": 7,
+   "status": "error",
+   "fetched": 0,
    "title_matches": 0,
    "matched": 0,
-   "errors": [],
-   "notes": [
-    "workday: locationCountry=India"
+   "errors": [
+    "workday: RateLimited: 429: not tried, the time allowed for this platform was used up"
    ],
+   "notes": [],
    "careers_url": "https://amadeus.wd502.myworkdayjobs.com/jobs",
    "rejected_examples": [],
-   "requests": 10,
-   "secs": 9.2,
-   "linkedin_crosscheck": {
+   "requests": 1,
+   "secs": 1.6,
+   "linkedin": {
     "checked_at": "2026-11-24T07:01:36+00:00",
     "fetched": 0,
-    "missed_by_site": 0
+    "matched": 0,
+    "rejected_examples": []
    }
   },
   {
@@ -440,7 +423,7 @@
     "location: Data Engineer I, DSP Analytics | Hyderabad, Telangana, IND; IN, TS, Hyderabad"
    ],
    "requests": 14,
-   "secs": 5.6,
+   "secs": 6.6,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-23T22:16:34+00:00",
     "fetched": 3,
@@ -472,9 +455,9 @@
     "atlassian"
    ],
    "status": "ok",
-   "fetched": 230,
-   "title_matches": 10,
-   "matched": 3,
+   "fetched": 229,
+   "title_matches": 11,
+   "matched": 4,
    "errors": [],
    "notes": [],
    "careers_url": null,
@@ -505,13 +488,13 @@
    "title_matches": 0,
    "matched": 0,
    "errors": [
-    "workday: RetryError: HTTPSConnectionPool(host='autodesk.wd1.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/autodesk/Ext/jobs (Caused by ResponseError('too many 429 error responses'))"
+    "workday: RateLimited: 429: not tried, the time allowed for this platform was used up"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 9.3,
+   "secs": 1.6,
    "linkedin": {
     "checked_at": "2026-11-22T11:31:27+00:00",
     "fetched": 0,
@@ -546,7 +529,7 @@
     "smartrecruiters"
    ],
    "status": "ok",
-   "fetched": 19,
+   "fetched": 18,
    "title_matches": 2,
    "matched": 1,
    "errors": [],
@@ -600,7 +583,7 @@
     "location: Senior AI Data Architect / Solution Engineer - India based | Bangalore, India"
    ],
    "requests": 10,
-   "secs": 8.8,
+   "secs": 10.3,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-24T07:01:36+00:00",
     "fetched": 0,
@@ -671,23 +654,22 @@
    "platforms": [
     "workday"
    ],
-   "status": "error",
-   "fetched": 0,
+   "status": "ok",
+   "fetched": 18,
    "title_matches": 0,
    "matched": 1,
-   "errors": [
-    "workday: RetryError: HTTPSConnectionPool(host='bakerhughes.wd5.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/bakerhughes/BakerHughes/jobs (Caused by ResponseError('too many 429 error responses'))"
+   "errors": [],
+   "notes": [
+    "workday: locationHierarchy in [Mumbai, Pune]; read all 18 India postings"
    ],
-   "notes": [],
    "careers_url": null,
    "rejected_examples": [],
-   "requests": 1,
-   "secs": 9.2,
-   "linkedin": {
+   "requests": 3,
+   "secs": 21.4,
+   "linkedin_crosscheck": {
     "checked_at": "2026-11-23T22:16:34+00:00",
     "fetched": 1,
-    "matched": 1,
-    "rejected_examples": []
+    "missed_by_site": 1
    }
   },
   {
@@ -701,15 +683,15 @@
    "title_matches": 0,
    "matched": 0,
    "errors": [
-    "workday: RetryError: HTTPSConnectionPool(host='ghr.wd1.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/ghr/lateral-ba_continuum/jobs (Caused by ResponseError('too many 429 error responses'))"
+    "workday: RateLimited: 429 Too Many Requests after waiting 15 s"
    ],
    "notes": [
     "used fallback source jobsyn"
    ],
    "careers_url": null,
    "rejected_examples": [],
-   "requests": 25,
-   "secs": 10.4,
+   "requests": 26,
+   "secs": 232.0,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-24T07:01:36+00:00",
     "fetched": 0,
@@ -726,13 +708,13 @@
    "title_matches": 0,
    "matched": 8,
    "errors": [
-    "workday: RetryError: HTTPSConnectionPool(host='barclays.wd3.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/barclays/External_Career_Site_Barclays/jobs (Caused by ResponseError('too many 429 error "
+    "workday: RateLimited: 429 Too Many Requests after waiting 15 s"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
-   "requests": 1,
-   "secs": 10.3,
+   "requests": 2,
+   "secs": 22.4,
    "linkedin": {
     "checked_at": "2026-11-23T22:16:34+00:00",
     "fetched": 9,
@@ -769,13 +751,13 @@
    "title_matches": 0,
    "matched": 3,
    "errors": [
-    "workday: RetryError: HTTPSConnectionPool(host='blackrock.wd1.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/blackrock/BlackRock_Professional/jobs (Caused by ResponseError('too many 429 error respo"
+    "workday: RateLimited: 429 Too Many Requests after waiting 15 s"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
-   "requests": 1,
-   "secs": 9.1,
+   "requests": 2,
+   "secs": 34.2,
    "linkedin": {
     "checked_at": "2026-11-23T22:41:26+00:00",
     "fetched": 3,
@@ -789,27 +771,27 @@
     "avature"
    ],
    "status": "ok",
-   "fetched": 115,
-   "title_matches": 12,
+   "fetched": 114,
+   "title_matches": 10,
    "matched": 1,
    "errors": [],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [
+    "location: Senior Data Management Professional – Metadata, Data Engineering & Automation - Knowledge Graph Group | Dublin, Ireland",
+    "location: Senior Data Management Professional - Data Engineering - Entities | New York, New York, United States of America",
     "location: Senior Data Management Professional - Data Engineering - Entities | Princeton, New Jersey, United States of America",
-    "location: Product Manager, Unstructured Data Platform MCP, Enterprise Data | London, United Kingdom",
     "location: Cloud Site Reliability Engineer (SRE) - Data Management & Analytics Platform | Princeton, New Jersey, United States of America",
-    "location: Team Leader - Data Engineering & Integration - Commodities Data | London, United Kingdom",
+    "location: Senior Data Management Professional - Data Engineering - OTC Composites & Instruments | Dublin, Ireland",
     "location: Senior Data Management Professional - Automation Engineer - Economics News | Princeton, New Jersey, United States of America",
-    "location: Senior Data Management Professional - Data Engineering (Data AI) | Princeton, New Jersey, United States of America",
     "location: Senior Data Management Professional – Automation Engineer - Economics News | New York, New York, United States of America",
-    "location: Senior Data Management Professional - Data Engineering - OTC Composites & Instruments | Dublin, Ireland"
+    "location: Senior Software Engineer - Data License Plus | Dublin, Ireland"
    ],
    "requests": 17,
-   "secs": 19.7,
+   "secs": 21.9,
    "linkedin_crosscheck": {
-    "checked_at": "2026-11-20T22:05:00+00:00",
-    "fetched": 1,
+    "checked_at": "2026-11-24T11:40:56+00:00",
+    "fetched": 2,
     "missed_by_site": 0
    }
   },
@@ -827,9 +809,9 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 5.4,
+   "secs": 0.4,
    "linkedin_crosscheck": {
-    "checked_at": "2026-11-20T23:59:17+00:00",
+    "checked_at": "2026-11-24T11:40:56+00:00",
     "fetched": 0,
     "missed_by_site": 0
    }
@@ -844,13 +826,13 @@
    "title_matches": 0,
    "matched": 0,
    "errors": [
-    "workday: RetryError: HTTPSConnectionPool(host='browserstack.wd3.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/browserstack/External/jobs (Caused by ResponseError('too many 429 error responses'))"
+    "workday: RateLimited: 429: not tried, the time allowed for this platform was used up"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 10.3,
+   "secs": 1.6,
    "linkedin": {
     "checked_at": "2026-11-23T22:41:26+00:00",
     "fetched": 0,
@@ -874,7 +856,7 @@
     "location: fraud analytics engineer | bengaluru; bengaluru"
    ],
    "requests": 1,
-   "secs": 9.9,
+   "secs": 1.2,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-20T23:59:17+00:00",
     "fetched": 0,
@@ -923,7 +905,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 9,
-   "secs": 2.6,
+   "secs": 2.8,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-21T03:02:31+00:00",
     "fetched": 0,
@@ -959,13 +941,13 @@
    "title_matches": 0,
    "matched": 1,
    "errors": [
-    "workday: RetryError: HTTPSConnectionPool(host='cisco.wd5.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/cisco/Cisco_Careers/jobs (Caused by ResponseError('too many 429 error responses'))"
+    "workday: RateLimited: 429 Too Many Requests after waiting 15 s"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
-   "requests": 1,
-   "secs": 9.2,
+   "requests": 2,
+   "secs": 18.1,
    "linkedin": {
     "checked_at": "2026-11-23T22:41:26+00:00",
     "fetched": 1,
@@ -983,13 +965,13 @@
    "title_matches": 0,
    "matched": 10,
    "errors": [
-    "workday: RetryError: HTTPSConnectionPool(host='citi.wd5.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/citi/2/jobs (Caused by ResponseError('too many 429 error responses'))"
+    "workday: RateLimited: 429 Too Many Requests after waiting 15 s"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
-   "requests": 1,
-   "secs": 9.2,
+   "requests": 2,
+   "secs": 35.9,
    "linkedin": {
     "checked_at": "2026-11-23T22:41:26+00:00",
     "fetched": 10,
@@ -1030,7 +1012,7 @@
    "careers_url": "https://careers.kula.ai/clevertap",
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.6,
+   "secs": 1.2,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-21T03:02:31+00:00",
     "fetched": 0,
@@ -1047,13 +1029,13 @@
    "title_matches": 0,
    "matched": 0,
    "errors": [
-    "workday: RetryError: HTTPSConnectionPool(host='cohesity.wd5.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/cohesity/Cohesity_Careers/jobs (Caused by ResponseError('too many 429 error responses'))"
+    "workday: RateLimited: 429: not tried, the time allowed for this platform was used up"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 9.2,
+   "secs": 1.6,
    "linkedin": {
     "checked_at": "2026-11-24T07:01:36+00:00",
     "fetched": 0,
@@ -1081,7 +1063,7 @@
     "location: Staff Data Engineer, Market Data | Remote - USA"
    ],
    "requests": 1,
-   "secs": 0.1,
+   "secs": 0.2,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-21T08:59:44+00:00",
     "fetched": 0,
@@ -1102,7 +1084,7 @@
    "careers_url": "https://careers.confluent.io/open-positions/india",
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.0,
+   "secs": 0.1,
    "linkedin": {
     "checked_at": "2026-11-24T07:01:36+00:00",
     "fetched": 0,
@@ -1141,13 +1123,13 @@
    "title_matches": 0,
    "matched": 0,
    "errors": [
-    "workday: RetryError: HTTPSConnectionPool(host='crowdstrike.wd5.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/crowdstrike/crowdstrikecareers/jobs (Caused by ResponseError('too many 429 error respo"
+    "workday: RateLimited: 429: not tried, the time allowed for this platform was used up"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 9.2,
+   "secs": 1.6,
    "linkedin": {
     "checked_at": "2026-11-22T13:13:49+00:00",
     "fetched": 0,
@@ -1161,7 +1143,7 @@
     "jobsyn"
    ],
    "status": "ok",
-   "fetched": 106,
+   "fetched": 108,
    "title_matches": 10,
    "matched": 1,
    "errors": [],
@@ -1178,7 +1160,7 @@
     "older than 60 days: Data Engineer - Senior 3 | 2026-08-25"
    ],
    "requests": 33,
-   "secs": 1.6,
+   "secs": 3.6,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-21T08:59:44+00:00",
     "fetched": 10,
@@ -1195,13 +1177,13 @@
    "title_matches": 0,
    "matched": 0,
    "errors": [
-    "workday: RetryError: HTTPSConnectionPool(host='dbs.wd3.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/dbs/DBS_Careers/jobs (Caused by ResponseError('too many 429 error responses'))"
+    "workday: RateLimited: 429 Too Many Requests after waiting 15 s"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
-   "requests": 1,
-   "secs": 10.3,
+   "requests": 2,
+   "secs": 18.2,
    "linkedin": {
     "checked_at": "2026-11-24T07:01:36+00:00",
     "fetched": 0,
@@ -1215,7 +1197,7 @@
     "ashby"
    ],
    "status": "ok",
-   "fetched": 79,
+   "fetched": 81,
    "title_matches": 1,
    "matched": 0,
    "errors": [],
@@ -1248,7 +1230,7 @@
    "careers_url": "https://jobs.dnv.com/locations/india",
    "rejected_examples": [],
    "requests": 10,
-   "secs": 4.7,
+   "secs": 5.7,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-21T11:32:34+00:00",
     "fetched": 0,
@@ -1280,7 +1262,7 @@
     "greenhouse"
    ],
    "status": "ok",
-   "fetched": 888,
+   "fetched": 889,
    "title_matches": 41,
    "matched": 0,
    "errors": [],
@@ -1292,9 +1274,9 @@
     "location: Engineering Manager - Databricks SQL Control Plane | Mountain View, California",
     "location: Senior Software Engineer - Data + AI Observability | Bengaluru, India",
     "location: Senior Software Engineer (Data Platform) | Bengaluru, India",
-    "location: Senior Software Engineer - Distributed Data Systems | Belgrade, Serbia",
     "location: Senior Software Engineer - Distributed Data Systems | Bellevue, Washington",
-    "location: Senior Software Engineer - Distributed Data Systems | San Francisco, California"
+    "location: Senior Software Engineer - Distributed Data Systems | San Francisco, California",
+    "location: Senior Software Engineer - Distributed Data Systems | Mountain View, California"
    ],
    "requests": 1,
    "secs": 0.3,
@@ -1314,13 +1296,13 @@
    "title_matches": 0,
    "matched": 2,
    "errors": [
-    "workday: RetryError: HTTPSConnectionPool(host='db.wd3.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/db/DBWebsite/jobs (Caused by ResponseError('too many 429 error responses'))"
+    "workday: RateLimited: 429 Too Many Requests after waiting 15 s"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
-   "requests": 1,
-   "secs": 10.3,
+   "requests": 2,
+   "secs": 19.0,
    "linkedin": {
     "checked_at": "2026-11-24T07:01:36+00:00",
     "fetched": 4,
@@ -1361,13 +1343,13 @@
    "title_matches": 0,
    "matched": 0,
    "errors": [
-    "workday: RetryError: HTTPSConnectionPool(host='dow.wd1.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/dow/ExternalCareers/jobs (Caused by ResponseError('too many 429 error responses'))"
+    "workday: RateLimited: 429 Too Many Requests after waiting 15 s"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
-   "requests": 1,
-   "secs": 9.2,
+   "requests": 2,
+   "secs": 33.0,
    "linkedin": {
     "checked_at": "2026-11-24T10:20:06+00:00",
     "fetched": 0,
@@ -1411,7 +1393,7 @@
     "older than 60 days: Software Engineer (Data Engineering) | 2022-12-24"
    ],
    "requests": 1,
-   "secs": 13.2,
+   "secs": 1.3,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-21T11:57:05+00:00",
     "fetched": 0,
@@ -1462,7 +1444,7 @@
     "location: Senior Palantir Data Software Engineer | Coimbatore, India"
    ],
    "requests": 36,
-   "secs": 12.1,
+   "secs": 14.6,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-21T13:13:06+00:00",
     "fetched": 0,
@@ -1494,7 +1476,7 @@
     "eightfold"
    ],
    "status": "ok",
-   "fetched": 116,
+   "fetched": 118,
    "title_matches": 2,
    "matched": 2,
    "errors": [],
@@ -1502,7 +1484,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 22,
-   "secs": 7.1,
+   "secs": 6.8,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-21T13:13:06+00:00",
     "fetched": 1,
@@ -1514,23 +1496,31 @@
    "platforms": [
     "workday"
    ],
-   "status": "error",
-   "fetched": 0,
-   "title_matches": 0,
+   "status": "ok",
+   "fetched": 120,
+   "title_matches": 9,
    "matched": 0,
-   "errors": [
-    "workday: RetryError: HTTPSConnectionPool(host='ecolab.wd1.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/ecolab/Ecolab_External/jobs (Caused by ResponseError('too many 429 error responses'))"
+   "errors": [],
+   "notes": [
+    "workday: locations in [IND - Haryana - Gurgaon, IND - Jharkhand - Jamshedpur, IND - Karnataka - Bangalore - EDC, IND - Maharashtra - Mumbai, IND - Maharashtra - Pune, IND - Tamil Nadu - Chennai]"
    ],
-   "notes": [],
    "careers_url": null,
-   "rejected_examples": [],
-   "requests": 1,
-   "secs": 9.2,
-   "linkedin": {
+   "rejected_examples": [
+    "location: Senior Data Engineer | IND - Karnataka - Bangalore - EDC",
+    "location: Lead Data Engineer | IND - Karnataka - Bangalore - EDC",
+    "location: Data Engineer | IND - Karnataka - Bangalore - EDC",
+    "location: AI engineer-Databricks Data Platform | IND - Karnataka - Bangalore - EDC",
+    "location: Microsoft Fabric Data Engineer | IND - Karnataka - Bangalore - EDC",
+    "location: Principal AI Engineer — AI & Data Platform | IND - Karnataka - Bangalore - EDC",
+    "location: AI Engineer-Data Databricks Pltform | IND - Karnataka - Bangalore - EDC",
+    "location: Principal AI Engineer — AI & Data Platform | IND - Karnataka - Bangalore - EDC"
+   ],
+   "requests": 18,
+   "secs": 42.7,
+   "linkedin_crosscheck": {
     "checked_at": "2026-11-22T13:13:49+00:00",
     "fetched": 0,
-    "matched": 0,
-    "rejected_examples": []
+    "missed_by_site": 0
    }
   },
   {
@@ -1539,7 +1529,7 @@
     "oracle"
    ],
    "status": "ok",
-   "fetched": 145,
+   "fetched": 146,
    "title_matches": 0,
    "matched": 0,
    "errors": [],
@@ -1549,7 +1539,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 17,
-   "secs": 11.0,
+   "secs": 10.5,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-21T14:16:18+00:00",
     "fetched": 0,
@@ -1574,7 +1564,7 @@
     "location: Senior Data Engineer - ETL Frameworks | India"
    ],
    "requests": 10,
-   "secs": 4.7,
+   "secs": 6.1,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-21T14:16:18+00:00",
     "fetched": 0,
@@ -1591,13 +1581,13 @@
    "title_matches": 0,
    "matched": 0,
    "errors": [
-    "workday: RetryError: HTTPSConnectionPool(host='equinix.wd1.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/equinix/External/jobs (Caused by ResponseError('too many 429 error responses'))"
+    "workday: RateLimited: 429: not tried, the time allowed for this platform was used up"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 9.1,
+   "secs": 1.6,
    "linkedin": {
     "checked_at": "2026-11-22T13:13:49+00:00",
     "fetched": 0,
@@ -1634,15 +1624,15 @@
    "title_matches": 0,
    "matched": 0,
    "errors": [
-    "workday: RetryError: HTTPSConnectionPool(host='fis.wd5.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/fis/SearchJobs/jobs (Caused by ResponseError('too many 429 error responses'))"
+    "workday: RateLimited: 429: not tried, the time allowed for this platform was used up"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 9.1,
+   "secs": 1.6,
    "linkedin": {
-    "checked_at": "2026-11-22T07:26:33+00:00",
+    "checked_at": "2026-11-24T19:15:24+00:00",
     "fetched": 0,
     "matched": 0,
     "rejected_examples": []
@@ -1740,7 +1730,7 @@
    "careers_url": "https://firstadvantage.applytojob.com/apply",
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.1,
+   "secs": 0.4,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-21T15:05:15+00:00",
     "fetched": 0,
@@ -1776,13 +1766,13 @@
    "title_matches": 0,
    "matched": 0,
    "errors": [
-    "workday: RetryError: HTTPSConnectionPool(host='fiserv.wd5.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/fiserv/EXT/jobs (Caused by ResponseError('too many 429 error responses'))"
+    "workday: RateLimited: 429 Too Many Requests after waiting 15 s"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
-   "requests": 1,
-   "secs": 9.1,
+   "requests": 4,
+   "secs": 39.8,
    "linkedin": {
     "checked_at": "2026-11-22T14:11:53+00:00",
     "fetched": 0,
@@ -1805,8 +1795,8 @@
    "rejected_examples": [
     "location: Principal Software Engineer, Data Lakes | Remote, Germany, EMEA",
     "location: Senior Engineering Manager, dbt Engine | Denver, Colorado, United States, AMER",
-    "location: Senior Engineering Manager, dbt Engine | Ontario, Canada",
     "location: Senior Engineering Manager, dbt Engine | Oakland, California, United States, AMER",
+    "location: Senior Engineering Manager, dbt Engine | Ontario, Canada",
     "location: Senior Staff Systems Engineer, Data & Integrations | Oakland, California, United States, AMER",
     "location: Senior Systems Engineer, Data and Integrations | Novi Sad, South Bačka, Serbia, EMEA",
     "location: Staff Software Engineer, dbt core | Bangalore, India"
@@ -1833,7 +1823,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.4,
+   "secs": 0.5,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-21T15:05:15+00:00",
     "fetched": 0,
@@ -1846,7 +1836,7 @@
     "jibe"
    ],
    "status": "ok",
-   "fetched": 191,
+   "fetched": 188,
    "title_matches": 12,
    "matched": 6,
    "errors": [],
@@ -1861,7 +1851,7 @@
     "older than 60 days: Senior Gen AI Data Engineer | 2026-09-11"
    ],
    "requests": 53,
-   "secs": 13.4,
+   "secs": 16.5,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-21T10:19:47+00:00",
     "fetched": 0,
@@ -1878,13 +1868,13 @@
    "title_matches": 0,
    "matched": 6,
    "errors": [
-    "workday: RetryError: HTTPSConnectionPool(host='genmills.wd1.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/genmills/GMI_External_Careers/jobs (Caused by ResponseError('too many 429 error responses"
+    "workday: RateLimited: 429: not tried, the time allowed for this platform was used up"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
-   "requests": 1,
-   "secs": 9.2,
+   "requests": 23,
+   "secs": 101.6,
    "linkedin": {
     "checked_at": "2026-11-22T15:01:32+00:00",
     "fetched": 6,
@@ -1898,7 +1888,7 @@
     "greenhouse"
    ],
    "status": "ok",
-   "fetched": 251,
+   "fetched": 253,
    "title_matches": 2,
    "matched": 0,
    "errors": [],
@@ -1909,7 +1899,7 @@
     "location: Staff Fullstack Engineer, Data Products (Golang / Node) | Remote, Canada; Remote, United States"
    ],
    "requests": 1,
-   "secs": 0.1,
+   "secs": 0.2,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-21T15:58:57+00:00",
     "fetched": 0,
@@ -1922,7 +1912,7 @@
     "greenhouse"
    ],
    "status": "ok",
-   "fetched": 20,
+   "fetched": 21,
    "title_matches": 0,
    "matched": 0,
    "errors": [],
@@ -1943,14 +1933,13 @@
     "goldman"
    ],
    "status": "ok",
-   "fetched": 491,
-   "title_matches": 7,
+   "fetched": 494,
+   "title_matches": 6,
    "matched": 0,
    "errors": [],
    "notes": [],
    "careers_url": "https://higher.gs.com/results",
    "rejected_examples": [
-    "location: Data Engineer - Lakehouse and AI Data Platform - Warsaw - Associate | Warsaw, Mazowieckie, Poland",
     "location: Global Banking & Markets, Quantitative Volatility Trading Data Engineer, Vice President, Hong Kong | Hong Kong, Hong Kong",
     "location: Data Engineer - Lakehouse and AI Data Platform - Warsaw - Associate/Vice President | Warsaw, Mazowieckie, Poland",
     "location: Data Engineer - Global Banking&Markets - Warsaw-Vice President-Software Engineering | Warsaw, Mazowieckie, Poland",
@@ -1958,8 +1947,8 @@
     "location: GBM - Transaction Banking Technology - Bengaluru - Vice President - Data Engineering | Bengaluru, Karnataka, India",
     "location: The Core Engineering - NFR & Controls Data Eng - Associate - Bengaluru | Bengaluru, Karnataka, India"
    ],
-   "requests": 14,
-   "secs": 1.7,
+   "requests": 15,
+   "secs": 2.8,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-21T15:58:57+00:00",
     "fetched": 1,
@@ -1980,7 +1969,7 @@
    "careers_url": "https://www.google.com/about/careers/applications/jobs/results?location=India",
    "rejected_examples": [],
    "requests": 24,
-   "secs": 1.2,
+   "secs": 3.1,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-21T16:59:58+00:00",
     "fetched": 0,
@@ -2012,7 +2001,7 @@
     "jibe"
    ],
    "status": "ok",
-   "fetched": 15,
+   "fetched": 14,
    "title_matches": 0,
    "matched": 0,
    "errors": [],
@@ -2020,7 +2009,7 @@
    "careers_url": "https://careers.here.com/jobs?location=India",
    "rejected_examples": [],
    "requests": 11,
-   "secs": 2.0,
+   "secs": 2.3,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-21T16:59:58+00:00",
     "fetched": 0,
@@ -2033,15 +2022,15 @@
     "jobsyn"
    ],
    "status": "ok",
-   "fetched": 58,
-   "title_matches": 1,
-   "matched": 1,
+   "fetched": 67,
+   "title_matches": 2,
+   "matched": 2,
    "errors": [],
    "notes": [],
    "careers_url": "https://mycareer.hsbc.com/en_GB/external/SearchJobs",
    "rejected_examples": [],
-   "requests": 24,
-   "secs": 1.1,
+   "requests": 25,
+   "secs": 3.7,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-21T16:59:58+00:00",
     "fetched": 0,
@@ -2065,7 +2054,7 @@
     "older than 60 days: Sr. Product Manager - Custom Objects & CRM Data Platform | 2026-09-10"
    ],
    "requests": 1,
-   "secs": 1.8,
+   "secs": 5.7,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-21T17:58:55+00:00",
     "fetched": 0,
@@ -2082,13 +2071,13 @@
    "title_matches": 0,
    "matched": 1,
    "errors": [
-    "workday: RetryError: HTTPSConnectionPool(host='hitachi.wd1.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/hitachi/hitachi/jobs (Caused by ResponseError('too many 429 error responses'))"
+    "workday: RateLimited: 429: not tried, the time allowed for this platform was used up"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 9.2,
+   "secs": 1.6,
    "linkedin": {
     "checked_at": "2026-11-22T15:01:32+00:00",
     "fetched": 1,
@@ -2102,7 +2091,7 @@
     "oracle"
    ],
    "status": "ok",
-   "fetched": 129,
+   "fetched": 128,
    "title_matches": 0,
    "matched": 0,
    "errors": [],
@@ -2112,7 +2101,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 16,
-   "secs": 8.4,
+   "secs": 9.2,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-21T17:58:55+00:00",
     "fetched": 0,
@@ -2125,7 +2114,7 @@
     "jibe"
    ],
    "status": "ok",
-   "fetched": 43,
+   "fetched": 42,
    "title_matches": 3,
    "matched": 0,
    "errors": [],
@@ -2136,8 +2125,8 @@
     "location: Senior ETL QA Analyst | Hyderabad, India; Hyderabad, India",
     "location: Senior Developer, Data Engineer | Hyderabad, India; Hyderabad, India"
    ],
-   "requests": 21,
-   "secs": 5.4,
+   "requests": 20,
+   "secs": 5.1,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-21T17:58:55+00:00",
     "fetched": 0,
@@ -2198,7 +2187,7 @@
    "careers_url": "https://jobs.lever.co/idt",
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.8,
+   "secs": 0.7,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-21T19:02:46+00:00",
     "fetched": 0,
@@ -2221,7 +2210,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 10,
-   "secs": 5.2,
+   "secs": 6.0,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-21T19:02:46+00:00",
     "fetched": 0,
@@ -2253,7 +2242,7 @@
     "oracle"
    ],
    "status": "ok",
-   "fetched": 267,
+   "fetched": 269,
    "title_matches": 17,
    "matched": 4,
    "errors": [],
@@ -2263,7 +2252,7 @@
    "careers_url": "https://careers.jpmorgan.com/",
    "rejected_examples": [
     "location: Lead Software Engineer - Python, Data, Cloud, AIML | Bengaluru, Karnataka, India",
-    "location: Lead Data Engineer - Python, Pyspark, AWS, Snowflake, AI | Hyderabad, Telangana, India",
+    "location: Lead Software Engineer- Backend AND Databricks/Data Platform | Bengaluru, Karnataka, India",
     "location: Software Engineer II - Python, Spark, SQL, Java | Bengaluru, Karnataka, India",
     "location: Software Engineer III - Java Developer + AWS + Spark + Databricks | Bengaluru, Karnataka, India",
     "location: Sr Lead Software Engineer - Data Engineering & Data Platform | Bengaluru, Karnataka, India",
@@ -2272,7 +2261,7 @@
     "location: Software Engineer III, Apache Spark, Python, Pyspark, AWS | Bengaluru, Karnataka, India"
    ],
    "requests": 23,
-   "secs": 10.0,
+   "secs": 9.9,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-21T19:02:46+00:00",
     "fetched": 3,
@@ -2349,11 +2338,11 @@
    "notes": [],
    "careers_url": null,
    "rejected_examples": [
-    "location: Mid-Level Software Engineer (Data Solutions) - Indaiatuba/SP | Indaiatuba,Sao Paulo,Brazil",
-    "location: Analytics Data Engineer - Campinas/SP | Campinas,Sao Paulo,Brazil"
+    "location: Analytics Data Engineer - Campinas/SP | Campinas,Sao Paulo,Brazil",
+    "location: Mid-Level Software Engineer (Data Solutions) - Indaiatuba/SP | Indaiatuba,Sao Paulo,Brazil"
    ],
-   "requests": 25,
-   "secs": 7.7,
+   "requests": 24,
+   "secs": 10.8,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-21T20:56:39+00:00",
     "fetched": 0,
@@ -2370,13 +2359,13 @@
    "title_matches": 0,
    "matched": 0,
    "errors": [
-    "workday: RetryError: HTTPSConnectionPool(host='jj.wd5.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/jj/jj/jobs (Caused by ResponseError('too many 429 error responses'))"
+    "workday: RateLimited: 429 Too Many Requests after waiting 15 s"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
-   "requests": 1,
-   "secs": 9.2,
+   "requests": 2,
+   "secs": 18.4,
    "linkedin": {
     "checked_at": "2026-11-22T15:01:32+00:00",
     "fetched": 0,
@@ -2394,15 +2383,15 @@
    "title_matches": 0,
    "matched": 0,
    "errors": [
-    "workday: RetryError: HTTPSConnectionPool(host='jci.wd5.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/jci/JCI/jobs (Caused by ResponseError('too many 429 error responses'))"
+    "workday: RateLimited: 429: not tried, the time allowed for this platform was used up"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
-   "requests": 2,
-   "secs": 12.6,
+   "requests": 1,
+   "secs": 1.6,
    "linkedin": {
-    "checked_at": "2026-11-22T09:00:21+00:00",
+    "checked_at": "2026-11-24T19:15:24+00:00",
     "fetched": 0,
     "matched": 0,
     "rejected_examples": []
@@ -2418,13 +2407,13 @@
    "title_matches": 0,
    "matched": 1,
    "errors": [
-    "workday: RetryError: HTTPSConnectionPool(host='kone.wd3.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/kone/Careers/jobs (Caused by ResponseError('too many 429 error responses'))"
+    "workday: RateLimited: 429: not tried, the time allowed for this platform was used up"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 10.3,
+   "secs": 1.6,
    "linkedin": {
     "checked_at": "2026-11-22T15:58:09+00:00",
     "fetched": 1,
@@ -2461,13 +2450,13 @@
    "title_matches": 0,
    "matched": 0,
    "errors": [
-    "workday: RetryError: HTTPSConnectionPool(host='lseg.wd3.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/lseg/Careers/jobs (Caused by ResponseError('too many 429 error responses'))"
+    "workday: RateLimited: 429: not tried, the time allowed for this platform was used up"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 10.3,
+   "secs": 1.6,
    "linkedin": {
     "checked_at": "2026-11-22T15:58:09+00:00",
     "fetched": 0,
@@ -2504,13 +2493,13 @@
    "title_matches": 0,
    "matched": 2,
    "errors": [
-    "workday: RetryError: HTTPSConnectionPool(host='mgpru.wd3.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/mgpru/mandgprudential/jobs (Caused by ResponseError('too many 429 error responses'))"
+    "workday: RateLimited: 429: not tried, the time allowed for this platform was used up"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 10.3,
+   "secs": 1.6,
    "linkedin": {
     "checked_at": "2026-11-22T15:58:09+00:00",
     "fetched": 2,
@@ -2523,23 +2512,27 @@
    "platforms": [
     "workday"
    ],
-   "status": "error",
-   "fetched": 0,
-   "title_matches": 0,
+   "status": "ok",
+   "fetched": 51,
+   "title_matches": 4,
    "matched": 0,
-   "errors": [
-    "workday: RetryError: HTTPSConnectionPool(host='msd.wd5.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/msd/SearchJobs/jobs (Caused by ResponseError('too many 429 error responses'))"
+   "errors": [],
+   "notes": [
+    "workday: locations in [IND - Andhra Pradesh - Vizag, IND - Chhattisgarh - Raigarh, IND - Gujarat - Rajkot, IND - Gujarat - Surat, IND - Maharashtra - Mumbai (WeWork), IND - Maharashtra - Pune (Wework)…]; read all 51 India postings"
    ],
-   "notes": [],
    "careers_url": null,
-   "rejected_examples": [],
-   "requests": 1,
-   "secs": 9.1,
-   "linkedin": {
+   "rejected_examples": [
+    "location: Junior Analytics Engineer | IND - Telangana - Hyderabad (Hitec City Raidurg)",
+    "location: Specialist, Analytics Engineer | IND - Telangana - Hyderabad (Hitec City Raidurg)",
+    "location: Specialist, Data Engineering | IND - Telangana - Hyderabad (Hitec City Raidurg)",
+    "location: Lead Semantic Data Engineer | CZE - Central Bohemian - Prague (Five); IND - Telangana - Hyderabad; IND - Telan"
+   ],
+   "requests": 5,
+   "secs": 7.6,
+   "linkedin_crosscheck": {
     "checked_at": "2026-11-22T15:58:09+00:00",
     "fetched": 0,
-    "matched": 0,
-    "rejected_examples": []
+    "missed_by_site": 0
    }
   },
   {
@@ -2552,13 +2545,13 @@
    "title_matches": 0,
    "matched": 0,
    "errors": [
-    "workday: RetryError: HTTPSConnectionPool(host='maersk.wd3.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/maersk/Maersk_Careers/jobs (Caused by ResponseError('too many 429 error responses'))"
+    "workday: RateLimited: 429 Too Many Requests after waiting 15 s"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
-   "requests": 1,
-   "secs": 10.3,
+   "requests": 2,
+   "secs": 22.6,
    "linkedin": {
     "checked_at": "2026-11-22T15:58:09+00:00",
     "fetched": 0,
@@ -2571,23 +2564,25 @@
    "platforms": [
     "workday"
    ],
-   "status": "error",
-   "fetched": 0,
-   "title_matches": 0,
+   "status": "ok",
+   "fetched": 78,
+   "title_matches": 2,
    "matched": 0,
-   "errors": [
-    "workday: RetryError: HTTPSConnectionPool(host='mmc.wd1.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/mmc/MMC/jobs (Caused by ResponseError('too many 429 error responses'))"
+   "errors": [],
+   "notes": [
+    "workday: Location_Country=India; read all 78 India postings"
    ],
-   "notes": [],
    "careers_url": null,
-   "rejected_examples": [],
-   "requests": 1,
-   "secs": 9.2,
-   "linkedin": {
+   "rejected_examples": [
+    "location: Oliver Wyman - Lead Data Engineer - Data and Analytics (DNA) - Gurugram, India | Gurugram - Horizon",
+    "location: Oliver Wyman - Data Engineer / Senior Data Engineer - Data and Analytics (DNA) - Gurugram, India | Gurugram - Horizon"
+   ],
+   "requests": 5,
+   "secs": 8.8,
+   "linkedin_crosscheck": {
     "checked_at": "2026-11-22T17:54:35+00:00",
     "fetched": 0,
-    "matched": 0,
-    "rejected_examples": []
+    "missed_by_site": 0
    }
   },
   {
@@ -2600,13 +2595,13 @@
    "title_matches": 0,
    "matched": 0,
    "errors": [
-    "workday: RetryError: HTTPSConnectionPool(host='marvell.wd1.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/marvell/MarvellCareers/jobs (Caused by ResponseError('too many 429 error responses'))"
+    "workday: RateLimited: 429: not tried, the time allowed for this platform was used up"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
-   "requests": 2,
-   "secs": 18.7,
+   "requests": 1,
+   "secs": 1.6,
    "linkedin": {
     "checked_at": "2026-11-22T11:31:27+00:00",
     "fetched": 0,
@@ -2619,23 +2614,28 @@
    "platforms": [
     "workday"
    ],
-   "status": "error",
-   "fetched": 0,
-   "title_matches": 0,
-   "matched": 5,
-   "errors": [
-    "workday: RetryError: HTTPSConnectionPool(host='mastercard.wd1.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/mastercard/CorporateCareers/jobs (Caused by ResponseError('too many 429 error responses"
+   "status": "ok",
+   "fetched": 131,
+   "title_matches": 11,
+   "matched": 6,
+   "errors": [],
+   "notes": [
+    "workday: locations in [Bangalore, India, Gurgaon, India, Hyderabad, India, Mumbai, India, Navi Mumbai, India (Finicity), Pune, India…]; read all 131 India postings"
    ],
-   "notes": [],
    "careers_url": null,
-   "rejected_examples": [],
-   "requests": 2,
-   "secs": 13.0,
-   "linkedin": {
+   "rejected_examples": [
+    "location: Lead Data Engineer | Hyderabad, India",
+    "location: Senior Data Engineer-4 | Hyderabad, India",
+    "location: Lead Data Engineer | Hyderabad, India",
+    "location: Senior Data Engineer | Hyderabad, India",
+    "older than 60 days: Sr Data Engineer | 2026-07-21"
+   ],
+   "requests": 12,
+   "secs": 87.6,
+   "linkedin_crosscheck": {
     "checked_at": "2026-11-23T01:54:38+00:00",
     "fetched": 6,
-    "matched": 5,
-    "rejected_examples": []
+    "missed_by_site": 0
    }
   },
   {
@@ -2662,23 +2662,22 @@
    "platforms": [
     "workday"
    ],
-   "status": "error",
-   "fetched": 0,
+   "status": "ok",
+   "fetched": 72,
    "title_matches": 0,
    "matched": 0,
-   "errors": [
-    "workday: RetryError: HTTPSConnectionPool(host='medline.wd5.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/medline/Medline/jobs (Caused by ResponseError('too many 429 error responses'))"
+   "errors": [],
+   "notes": [
+    "workday: Country=India; read all 72 India postings"
    ],
-   "notes": [],
    "careers_url": null,
    "rejected_examples": [],
-   "requests": 4,
-   "secs": 10.6,
-   "linkedin": {
+   "requests": 6,
+   "secs": 42.9,
+   "linkedin_crosscheck": {
     "checked_at": "2026-11-22T17:54:35+00:00",
     "fetched": 1,
-    "matched": 0,
-    "rejected_examples": []
+    "missed_by_site": 0
    }
   },
   {
@@ -2695,7 +2694,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 23.5,
+   "secs": 0.6,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-21T20:56:39+00:00",
     "fetched": 0,
@@ -2709,8 +2708,8 @@
    ],
    "status": "ok",
    "fetched": 11,
-   "title_matches": 6,
-   "matched": 5,
+   "title_matches": 7,
+   "matched": 6,
    "errors": [],
    "notes": [],
    "careers_url": null,
@@ -2736,13 +2735,13 @@
    "title_matches": 0,
    "matched": 0,
    "errors": [
-    "workday: RetryError: HTTPSConnectionPool(host='michelinhr.wd3.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/michelinhr/Michelin/jobs (Caused by ResponseError('too many 429 error responses'))"
+    "workday: RateLimited: 429: not tried, the time allowed for this platform was used up"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 10.3,
+   "secs": 1.6,
    "linkedin": {
     "checked_at": "2026-11-22T17:01:07+00:00",
     "fetched": 0,
@@ -2756,7 +2755,7 @@
     "eightfold"
    ],
    "status": "ok",
-   "fetched": 130,
+   "fetched": 131,
    "title_matches": 1,
    "matched": 0,
    "errors": [],
@@ -2766,7 +2765,7 @@
     "location: Solution Sales Advisory - Azure Databricks | India, Karnataka, Bangalore"
    ],
    "requests": 27,
-   "secs": 6.9,
+   "secs": 7.5,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-21T21:54:31+00:00",
     "fetched": 0,
@@ -2787,7 +2786,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 1.3,
+   "secs": 0.9,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-21T21:54:31+00:00",
     "fetched": 0,
@@ -2842,13 +2841,13 @@
    "title_matches": 0,
    "matched": 8,
    "errors": [
-    "workday: RetryError: HTTPSConnectionPool(host='mdlz.wd3.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/mdlz/External/jobs (Caused by ResponseError('too many 429 error responses'))"
+    "workday: RateLimited: 429 Too Many Requests after waiting 15 s"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
    "requests": 2,
-   "secs": 12.5,
+   "secs": 34.9,
    "linkedin": {
     "checked_at": "2026-11-22T17:01:07+00:00",
     "fetched": 8,
@@ -2862,7 +2861,7 @@
     "greenhouse"
    ],
    "status": "ok",
-   "fetched": 421,
+   "fetched": 418,
    "title_matches": 1,
    "matched": 0,
    "errors": [],
@@ -2893,7 +2892,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 16,
-   "secs": 4.5,
+   "secs": 5.1,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-21T23:51:20+00:00",
     "fetched": 0,
@@ -2906,7 +2905,7 @@
     "workable"
    ],
    "status": "ok",
-   "fetched": 10,
+   "fetched": 8,
    "title_matches": 1,
    "matched": 0,
    "errors": [],
@@ -2915,8 +2914,8 @@
    "rejected_examples": [
     "older than 60 days: Data Engineer II | 2026-09-17"
    ],
-   "requests": 2,
-   "secs": 0.1,
+   "requests": 1,
+   "secs": 0.2,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-21T23:51:20+00:00",
     "fetched": 0,
@@ -2937,7 +2936,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.4,
+   "secs": 0.5,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-22T02:37:12+00:00",
     "fetched": 0,
@@ -2950,7 +2949,7 @@
     "greenhouse"
    ],
    "status": "ok",
-   "fetched": 123,
+   "fetched": 125,
    "title_matches": 0,
    "matched": 0,
    "errors": [],
@@ -3009,7 +3008,7 @@
     "lever"
    ],
    "status": "ok",
-   "fetched": 31,
+   "fetched": 30,
    "title_matches": 0,
    "matched": 2,
    "errors": [],
@@ -3017,7 +3016,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.7,
+   "secs": 0.5,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-22T03:01:57+00:00",
     "fetched": 2,
@@ -3030,7 +3029,7 @@
     "csb"
    ],
    "status": "ok",
-   "fetched": 246,
+   "fetched": 239,
    "title_matches": 0,
    "matched": 0,
    "errors": [],
@@ -3038,7 +3037,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 26,
-   "secs": 3.6,
+   "secs": 5.8,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-22T03:01:57+00:00",
     "fetched": 0,
@@ -3055,13 +3054,13 @@
    "title_matches": 0,
    "matched": 2,
    "errors": [
-    "workday: RetryError: HTTPSConnectionPool(host='ntrs.wd1.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/ntrs/northerntrust/jobs (Caused by ResponseError('too many 429 error responses'))"
+    "workday: RateLimited: 429: not tried, the time allowed for this platform was used up"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 9.2,
+   "secs": 1.6,
    "linkedin": {
     "checked_at": "2026-11-22T17:54:35+00:00",
     "fetched": 3,
@@ -3079,13 +3078,13 @@
    "title_matches": 0,
    "matched": 0,
    "errors": [
-    "workday: RetryError: HTTPSConnectionPool(host='novartis.wd3.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/novartis/Novartis_Careers/jobs (Caused by ResponseError('too many 429 error responses'))"
+    "workday: RateLimited: 429 Too Many Requests after waiting 15 s"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
-   "requests": 1,
-   "secs": 10.3,
+   "requests": 2,
+   "secs": 17.7,
    "linkedin": {
     "checked_at": "2026-11-22T17:54:35+00:00",
     "fetched": 0,
@@ -3099,7 +3098,7 @@
     "jobvite"
    ],
    "status": "ok",
-   "fetched": 127,
+   "fetched": 128,
    "title_matches": 2,
    "matched": 0,
    "errors": [],
@@ -3110,7 +3109,7 @@
     "location: Sr. Manager, Analytics Engineering | San Jose, California"
    ],
    "requests": 1,
-   "secs": 0.7,
+   "secs": 1.0,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-22T06:09:52+00:00",
     "fetched": 0,
@@ -3127,13 +3126,13 @@
    "title_matches": 0,
    "matched": 0,
    "errors": [
-    "workday: RetryError: HTTPSConnectionPool(host='nvidia.wd5.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs (Caused by ResponseError('too many 429 error responses"
+    "workday: RateLimited: 429 Too Many Requests after waiting 15 s"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
-   "requests": 1,
-   "secs": 9.2,
+   "requests": 2,
+   "secs": 17.5,
    "linkedin": {
     "checked_at": "2026-11-22T19:04:47+00:00",
     "fetched": 0,
@@ -3166,8 +3165,8 @@
     "oracle"
    ],
    "status": "ok",
-   "fetched": 282,
-   "title_matches": 8,
+   "fetched": 291,
+   "title_matches": 7,
    "matched": 0,
    "errors": [],
    "notes": [
@@ -3181,11 +3180,10 @@
     "location: Principal Data Systems Software Engineer | BENGALURU, KARNATAKA, India",
     "location: Principal Data Systems Software Engineer | BENGALURU, KARNATAKA, India",
     "location: Principal Data Systems Engineer | BENGALURU, KARNATAKA, India",
-    "location: Principal Data Systems Software Engineer | BENGALURU, KARNATAKA, India",
     "location: Principal Data Systems Software Engineer | BENGALURU, KARNATAKA, India"
    ],
    "requests": 21,
-   "secs": 15.9,
+   "secs": 16.3,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-22T06:09:52+00:00",
     "fetched": 0,
@@ -3202,13 +3200,13 @@
    "title_matches": 0,
    "matched": 1,
    "errors": [
-    "workday: RetryError: HTTPSConnectionPool(host='pg.wd5.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/pg/1000/jobs (Caused by ResponseError('too many 429 error responses'))"
+    "workday: RateLimited: 429 Too Many Requests after waiting 15 s"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
-   "requests": 1,
-   "secs": 9.1,
+   "requests": 2,
+   "secs": 22.2,
    "linkedin": {
     "checked_at": "2026-11-22T10:18:44+00:00",
     "fetched": 1,
@@ -3230,7 +3228,7 @@
    "careers_url": "https://www.panasonic.aero/join-us",
    "rejected_examples": [],
    "requests": 21,
-   "secs": 1.8,
+   "secs": 3.1,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-22T03:01:57+00:00",
     "fetched": 0,
@@ -3242,23 +3240,23 @@
    "platforms": [
     "workday"
    ],
-   "status": "error",
-   "fetched": 0,
+   "status": "ok",
+   "fetched": 19,
    "title_matches": 0,
    "matched": 0,
-   "errors": [
-    "workday: RetryError: HTTPSConnectionPool(host='pfizer.wd1.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/pfizer/PfizerCareers/jobs (Caused by ResponseError('too many 429 error responses'))"
+   "errors": [],
+   "notes": [
+    "workday: Location_Country=India; read all 19 India postings",
+    "answered on the second try"
    ],
-   "notes": [],
    "careers_url": null,
    "rejected_examples": [],
-   "requests": 1,
-   "secs": 9.1,
-   "linkedin": {
+   "requests": 2,
+   "secs": 2.5,
+   "linkedin_crosscheck": {
     "checked_at": "2026-11-23T01:54:38+00:00",
     "fetched": 0,
-    "matched": 0,
-    "rejected_examples": []
+    "missed_by_site": 0
    }
   },
   {
@@ -3271,13 +3269,13 @@
    "title_matches": 0,
    "matched": 0,
    "errors": [
-    "workday: RetryError: HTTPSConnectionPool(host='philips.wd3.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/philips/jobs-and-careers/jobs (Caused by ResponseError('too many 429 error responses'))"
+    "workday: RateLimited: 429: not tried, the time allowed for this platform was used up"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
-   "requests": 2,
-   "secs": 12.1,
+   "requests": 1,
+   "secs": 1.6,
    "linkedin": {
     "checked_at": "2026-11-22T19:04:47+00:00",
     "fetched": 0,
@@ -3333,13 +3331,13 @@
    "title_matches": 0,
    "matched": 3,
    "errors": [
-    "workday: RetryError: HTTPSConnectionPool(host='priceline.wd1.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/priceline/Priceline/jobs (Caused by ResponseError('too many 429 error responses'))"
+    "workday: RateLimited: 429 Too Many Requests after waiting 15 s"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
-   "requests": 1,
-   "secs": 9.2,
+   "requests": 3,
+   "secs": 23.5,
    "linkedin": {
     "checked_at": "2026-11-23T10:39:11+00:00",
     "fetched": 3,
@@ -3353,17 +3351,18 @@
     "jibe"
    ],
    "status": "ok",
-   "fetched": 54,
-   "title_matches": 2,
+   "fetched": 52,
+   "title_matches": 3,
    "matched": 1,
    "errors": [],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [
-    "location: Consultant - Data Engineer | Hyderabad, India; Hyderabad, Telangana, India"
+    "location: Consultant - Data Engineer | Hyderabad, India; Hyderabad, Telangana, India",
+    "location: Lead Data Engineer (AWS, Data Pipelines) | Hyderabad, India; Hyderabad, Telangana, India"
    ],
-   "requests": 20,
-   "secs": 4.5,
+   "requests": 18,
+   "secs": 4.9,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-22T06:09:52+00:00",
     "fetched": 0,
@@ -3419,7 +3418,7 @@
     "greenhouse"
    ],
    "status": "ok",
-   "fetched": 25,
+   "fetched": 23,
    "title_matches": 0,
    "matched": 0,
    "errors": [],
@@ -3427,7 +3426,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.0,
+   "secs": 0.1,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-22T07:26:33+00:00",
     "fetched": 0,
@@ -3444,13 +3443,13 @@
    "title_matches": 0,
    "matched": 0,
    "errors": [
-    "workday: RetryError: HTTPSConnectionPool(host='redhat.wd5.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/redhat/Jobs/jobs (Caused by ResponseError('too many 429 error responses'))"
+    "workday: RateLimited: 429: not tried, the time allowed for this platform was used up"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 9.2,
+   "secs": 1.6,
    "linkedin": {
     "checked_at": "2026-11-22T19:04:47+00:00",
     "fetched": 0,
@@ -3474,7 +3473,7 @@
     "older than 60 days: Senior Data Engineer | 2026-07-30"
    ],
    "requests": 1,
-   "secs": 0.7,
+   "secs": 0.4,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-22T07:26:33+00:00",
     "fetched": 0,
@@ -3491,13 +3490,13 @@
    "title_matches": 0,
    "matched": 1,
    "errors": [
-    "workday: RetryError: HTTPSConnectionPool(host='rockwellautomation.wd1.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/rockwellautomation/External_Rockwell_Automation/jobs (Caused by ResponseError('"
+    "workday: RateLimited: 429: not tried, the time allowed for this platform was used up"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 9.2,
+   "secs": 1.6,
    "linkedin": {
     "checked_at": "2026-11-22T17:01:07+00:00",
     "fetched": 1,
@@ -3511,7 +3510,7 @@
     "greenhouse"
    ],
    "status": "ok",
-   "fetched": 220,
+   "fetched": 223,
    "title_matches": 0,
    "matched": 0,
    "errors": [],
@@ -3519,7 +3518,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.1,
+   "secs": 0.2,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-22T09:00:21+00:00",
     "fetched": 0,
@@ -3536,13 +3535,13 @@
    "title_matches": 0,
    "matched": 0,
    "errors": [
-    "workday: RetryError: HTTPSConnectionPool(host='spgi.wd5.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/spgi/SPGI_Careers/jobs (Caused by ResponseError('too many 429 error responses'))"
+    "workday: RateLimited: 429: not tried, the time allowed for this platform was used up"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 9.2,
+   "secs": 1.6,
    "linkedin": {
     "checked_at": "2026-11-22T11:31:27+00:00",
     "fetched": 0,
@@ -3564,7 +3563,7 @@
    "careers_url": "https://jobs.sap.com/",
    "rejected_examples": [],
    "requests": 21,
-   "secs": 0.8,
+   "secs": 1.9,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-22T09:00:21+00:00",
     "fetched": 0,
@@ -3600,13 +3599,13 @@
    "title_matches": 0,
    "matched": 0,
    "errors": [
-    "workday: RetryError: HTTPSConnectionPool(host='salesforce.wd12.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/salesforce/External_Career_Site/jobs (Caused by ResponseError('too many 429 error resp"
+    "workday: RateLimited: 429 Too Many Requests after waiting 15 s"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
-   "requests": 6,
-   "secs": 11.9,
+   "requests": 2,
+   "secs": 35.5,
    "linkedin": {
     "checked_at": "2026-11-23T00:22:34+00:00",
     "fetched": 1,
@@ -3625,14 +3624,14 @@
    "title_matches": 0,
    "matched": 0,
    "errors": [
-    "workday: RetryError: HTTPSConnectionPool(host='sandvik.wd3.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/sandvik/coromant-jobs/jobs (Caused by ResponseError('too many 429 error responses'))",
-    "workday: RetryError: HTTPSConnectionPool(host='sandvik.wd3.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/sandvik/seco-jobs/jobs (Caused by ResponseError('too many 429 error responses'))"
+    "workday: RateLimited: 429: not tried, the time allowed for this platform was used up",
+    "workday: RateLimited: 429: not tried, the time allowed for this platform was used up"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
    "requests": 2,
-   "secs": 20.6,
+   "secs": 3.2,
    "linkedin": {
     "checked_at": "2026-11-23T01:54:38+00:00",
     "fetched": 0,
@@ -3665,9 +3664,9 @@
     "avature"
    ],
    "status": "ok",
-   "fetched": 42,
+   "fetched": 40,
    "title_matches": 13,
-   "matched": 6,
+   "matched": 7,
    "errors": [],
    "notes": [],
    "careers_url": null,
@@ -3675,14 +3674,13 @@
     "location: Senior Data Engineer - AI Solutions | Bangalore",
     "location: Data Platform Ops Engineer | Bangalore",
     "location: Senior Data & Cloud Engineer | Cluj-Napoca",
-    "location: Senior Data Engineer - Sustainability (f/m/d) | Lisbon",
     "location: Senior Analytics Engineer | Bangalore",
     "location: Analytics Engineer & Service Manager | Thane",
     "location: Senior Analytics Engineer - Anaplan | Bangalore",
     "location: Data Engineer (w/m/d) | Frankfurt am Main"
    ],
-   "requests": 21,
-   "secs": 49.4,
+   "requests": 22,
+   "secs": 37.6,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-22T09:00:21+00:00",
     "fetched": 6,
@@ -3695,7 +3693,7 @@
     "ashby"
    ],
    "status": "ok",
-   "fetched": 374,
+   "fetched": 370,
    "title_matches": 18,
    "matched": 1,
    "errors": [],
@@ -3744,7 +3742,7 @@
     "csb_unify"
    ],
    "status": "ok",
-   "fetched": 140,
+   "fetched": 142,
    "title_matches": 0,
    "matched": 0,
    "errors": [],
@@ -3752,7 +3750,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 36,
-   "secs": 7.9,
+   "secs": 12.7,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-22T11:57:23+00:00",
     "fetched": 0,
@@ -3764,26 +3762,22 @@
    "platforms": [
     "workday"
    ],
-   "status": "error",
-   "fetched": 0,
+   "status": "ok",
+   "fetched": 70,
    "title_matches": 0,
    "matched": 0,
-   "errors": [
-    "workday: RetryError: HTTPSConnectionPool(host='tiaa.wd1.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/tiaa/Search/jobs (Caused by ResponseError('too many 429 error responses'))"
+   "errors": [],
+   "notes": [
+    "workday: Country=India; read all 70 India postings"
    ],
-   "notes": [],
    "careers_url": null,
    "rejected_examples": [],
-   "requests": 1,
-   "secs": 9.1,
-   "linkedin": {
+   "requests": 5,
+   "secs": 38.9,
+   "linkedin_crosscheck": {
     "checked_at": "2026-11-22T10:18:44+00:00",
     "fetched": 6,
-    "matched": 0,
-    "rejected_examples": [
-     "title not a data-engineering role: Associate - RADaR – Data & Analytics, R&C | 2026-11-20",
-     "title not a data-engineering role: Associate - RADaR – Data & Analytics, R&C | 2026-11-20"
-    ]
+    "missed_by_site": 0
    }
   },
   {
@@ -3841,13 +3835,13 @@
    "title_matches": 0,
    "matched": 0,
    "errors": [
-    "workday: RetryError: HTTPSConnectionPool(host='telstra.wd3.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/telstra/Telstra_Careers/jobs (Caused by ResponseError('too many 429 error responses'))"
+    "workday: RateLimited: 429: not tried, the time allowed for this platform was used up"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
-   "requests": 1,
-   "secs": 10.4,
+   "requests": 2,
+   "secs": 37.2,
    "linkedin": {
     "checked_at": "2026-11-23T01:54:38+00:00",
     "fetched": 0,
@@ -3869,7 +3863,7 @@
    "careers_url": "https://careers.teradata.com/jobs",
    "rejected_examples": [],
    "requests": 21,
-   "secs": 0.9,
+   "secs": 3.2,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-22T11:57:23+00:00",
     "fetched": 0,
@@ -3901,15 +3895,15 @@
     "csb_unify"
    ],
    "status": "ok",
-   "fetched": 11,
+   "fetched": 12,
    "title_matches": 0,
    "matched": 0,
    "errors": [],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
-   "requests": 9,
-   "secs": 3.3,
+   "requests": 11,
+   "secs": 3.8,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-22T13:13:49+00:00",
     "fetched": 0,
@@ -3926,13 +3920,13 @@
    "title_matches": 0,
    "matched": 0,
    "errors": [
-    "workday: RetryError: HTTPSConnectionPool(host='thermofisher.wd5.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/thermofisher/thermofishercareers/jobs (Caused by ResponseError('too many 429 error re"
+    "workday: RateLimited: 429 Too Many Requests after waiting 15 s"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
-   "requests": 1,
-   "secs": 9.2,
+   "requests": 2,
+   "secs": 19.8,
    "linkedin": {
     "checked_at": "2026-11-22T10:18:44+00:00",
     "fetched": 0,
@@ -3985,7 +3979,7 @@
     "location: Technology Partner - Databricks | Sunnyvale, California, United States; Sunnyvale, California, United States; Dall"
    ],
    "requests": 10,
-   "secs": 0.6,
+   "secs": 1.2,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-22T13:13:49+00:00",
     "fetched": 0,
@@ -3998,7 +3992,7 @@
     "lever"
    ],
    "status": "ok",
-   "fetched": 30,
+   "fetched": 32,
    "title_matches": 1,
    "matched": 0,
    "errors": [],
@@ -4008,7 +4002,7 @@
     "older than 60 days: Data Scientist - II ( 3- 5 Yrs, Databricks, Pyspark, Statistical Analysis, ML, DL) | 2026-07-29"
    ],
    "requests": 1,
-   "secs": 0.9,
+   "secs": 1.1,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-22T13:13:49+00:00",
     "fetched": 0,
@@ -4065,7 +4059,7 @@
     "greenhouse"
    ],
    "status": "ok",
-   "fetched": 116,
+   "fetched": 113,
    "title_matches": 2,
    "matched": 0,
    "errors": [],
@@ -4147,23 +4141,22 @@
    "platforms": [
     "workday"
    ],
-   "status": "error",
-   "fetched": 0,
+   "status": "ok",
+   "fetched": 79,
    "title_matches": 0,
    "matched": 0,
-   "errors": [
-    "workday: RetryError: HTTPSConnectionPool(host='broadcom.wd1.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/broadcom/External_Career/jobs (Caused by ResponseError('too many 429 error responses'))"
+   "errors": [],
+   "notes": [
+    "workday: locations in [IND-Bangalore Electronic City - S1, IND-Bangalore-Kalyani Vista II, IND-Hyderabad 115 IT Park Area, IND-Hyderabad 115 IT Park Area (Chennai Service Office), IND-Pune EON Kharadi Infrastructure, IND-Pune-Panchshil]; read all 79 India postings"
    ],
-   "notes": [],
    "careers_url": null,
    "rejected_examples": [],
-   "requests": 1,
-   "secs": 9.2,
-   "linkedin": {
+   "requests": 5,
+   "secs": 26.0,
+   "linkedin_crosscheck": {
     "checked_at": "2026-11-22T10:18:44+00:00",
     "fetched": 0,
-    "matched": 0,
-    "rejected_examples": []
+    "missed_by_site": 0
    }
   },
   {
@@ -4191,7 +4184,7 @@
     "greenhouse"
    ],
    "status": "ok",
-   "fetched": 194,
+   "fetched": 191,
    "title_matches": 7,
    "matched": 0,
    "errors": [],
@@ -4201,13 +4194,13 @@
     "location: Analytics Engineer, Data Management | Bucharest, Romania",
     "location: Data Analytics Engineer | San Jose, Costa Rica",
     "location: Sales Engineer - Data & AI Security | Remote, Spain",
+    "location: Senior Sales Engineer - Data & AI Security | Seoul, Republic of Korea",
     "location: Senior Sales Engineer - Data & AI Security | Munich, Germany",
     "location: Senior Sales Engineer - Data & AI Security | Remote, France",
-    "location: Senior Sales Engineer - Data & AI Security | Seoul, Republic of Korea",
     "location: Solutions Engineer, Veeam Data Cloud Vault | Remote, France"
    ],
    "requests": 1,
-   "secs": 0.1,
+   "secs": 0.2,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-22T15:58:09+00:00",
     "fetched": 0,
@@ -4239,7 +4232,7 @@
     "oracle"
    ],
    "status": "ok",
-   "fetched": 138,
+   "fetched": 143,
    "title_matches": 0,
    "matched": 0,
    "errors": [],
@@ -4249,7 +4242,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 16,
-   "secs": 8.4,
+   "secs": 8.6,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-22T15:58:09+00:00",
     "fetched": 1,
@@ -4270,7 +4263,7 @@
    "careers_url": "https://corporate.visa.com/en/jobs/",
    "rejected_examples": [],
    "requests": 5,
-   "secs": 0.3,
+   "secs": 0.6,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-22T17:54:35+00:00",
     "fetched": 0,
@@ -4283,7 +4276,7 @@
     "eightfold"
    ],
    "status": "ok",
-   "fetched": 140,
+   "fetched": 139,
    "title_matches": 12,
    "matched": 3,
    "errors": [],
@@ -4291,16 +4284,16 @@
    "careers_url": null,
    "rejected_examples": [
     "older than 60 days: AWS Data Engineer - VOIS | 2026-09-22",
+    "location: Data Core Engineer_Manager | Bangalore, Karnataka, India",
     "location: Manager_Data Core Engineer | Bangalore, Karnataka, India",
     "location: Manager_Data Core Engineer_BLR | Bangalore, Karnataka, India",
     "location: Voice & Data Core Network Operations Engineer - VOIS | Bangalore, Karnataka, India",
     "location: Voice & Data Core NOC Engineer - VOIS | Bangalore, Karnataka, India",
     "location: Voice & Data Core NOC Engineer - VOIS | Bangalore, Karnataka, India",
-    "location: Voice & Data Core NOC Engineer - VOIS | Bangalore, Karnataka, India",
-    "location: Data Core Engineer_Manager | Bangalore, Karnataka, India"
+    "location: Voice & Data Core NOC Engineer - VOIS | Bangalore, Karnataka, India"
    ],
    "requests": 26,
-   "secs": 7.8,
+   "secs": 10.0,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-22T17:54:35+00:00",
     "fetched": 7,
@@ -4336,13 +4329,13 @@
    "title_matches": 0,
    "matched": 0,
    "errors": [
-    "workday: RetryError: HTTPSConnectionPool(host='godirect.wd5.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/godirect/voya_jobs/jobs (Caused by ResponseError('too many 429 error responses'))"
+    "workday: RateLimited: 429: not tried, the time allowed for this platform was used up"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
-   "requests": 2,
-   "secs": 9.9,
+   "requests": 1,
+   "secs": 1.6,
    "linkedin": {
     "checked_at": "2026-11-22T17:01:07+00:00",
     "fetched": 0,
@@ -4364,7 +4357,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 11,
-   "secs": 2.8,
+   "secs": 2.9,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-22T17:54:35+00:00",
     "fetched": 0,
@@ -4381,13 +4374,13 @@
    "title_matches": 0,
    "matched": 1,
    "errors": [
-    "workday: RetryError: HTTPSConnectionPool(host='wk.wd3.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/wk/External/jobs (Caused by ResponseError('too many 429 error responses'))"
+    "workday: RateLimited: 429: not tried, the time allowed for this platform was used up"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
-   "requests": 3,
-   "secs": 12.3,
+   "requests": 1,
+   "secs": 1.6,
    "linkedin": {
     "checked_at": "2026-11-23T01:54:38+00:00",
     "fetched": 1,
@@ -4405,13 +4398,13 @@
    "title_matches": 0,
    "matched": 0,
    "errors": [
-    "workday: RetryError: HTTPSConnectionPool(host='workday.wd5.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/workday/Workday/jobs (Caused by ResponseError('too many 429 error responses'))"
+    "workday: RateLimited: 429: not tried, the time allowed for this platform was used up"
    ],
    "notes": [],
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 9.1,
+   "secs": 1.6,
    "linkedin": {
     "checked_at": "2026-11-22T17:01:07+00:00",
     "fetched": 0,
@@ -4433,7 +4426,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 13,
-   "secs": 4.3,
+   "secs": 3.9,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-22T19:04:47+00:00",
     "fetched": 0,
@@ -4454,7 +4447,7 @@
    "careers_url": "https://careers.wartsila.com/search/?locationsearch=India",
    "rejected_examples": [],
    "requests": 9,
-   "secs": 3.3,
+   "secs": 4.0,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-22T19:04:47+00:00",
     "fetched": 0,
@@ -4486,7 +4479,7 @@
     "ashby"
    ],
    "status": "ok",
-   "fetched": 8,
+   "fetched": 9,
    "title_matches": 0,
    "matched": 0,
    "errors": [],
@@ -4494,7 +4487,7 @@
    "careers_url": null,
    "rejected_examples": [],
    "requests": 1,
-   "secs": 0.0,
+   "secs": 0.1,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-22T19:04:47+00:00",
     "fetched": 0,
@@ -4507,8 +4500,8 @@
     "greenhouse"
    ],
    "status": "ok",
-   "fetched": 389,
-   "title_matches": 5,
+   "fetched": 391,
+   "title_matches": 4,
    "matched": 0,
    "errors": [],
    "notes": [],
@@ -4517,11 +4510,10 @@
     "location: Manager – AI & Data Platform Engineering | Remote - USA; Santa Clara, California, USA",
     "location: Principal GenAI Data Engineer | Bellevue, Washington, USA; Santa Clara, California, USA",
     "location: Principal Software Engineer - Intelligent Data Platform | Santa Clara, California, USA",
-    "location: Sr. Software Development Engineer - Java/ Agentic AI/ Big Data | Bangalore, IND",
-    "location: Staff Integration Engineer (Security Platform and Data Pipelines) | Bangalore, IND"
+    "location: Sr. Software Development Engineer - Java/ Agentic AI/ Big Data | Bangalore, IND"
    ],
    "requests": 1,
-   "secs": 0.1,
+   "secs": 0.2,
    "linkedin_crosscheck": {
     "checked_at": "2026-11-23T22:41:26+00:00",
     "fetched": 0,
@@ -4538,13 +4530,13 @@
    "title_matches": 0,
    "matched": 0,
    "errors": [
-    "workday: RetryError: HTTPSConnectionPool(host='bpinternational.wd3.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/bpinternational/bpCareers/jobs (Caused by ResponseError('too many 429 error respon"
+    "workday: RateLimited: 429 Too Many Requests after waiting 15 s"
    ],
    "notes": [],
    "careers_url": "https://www.bp.com/en/global/corporate/careers.html",
    "rejected_examples": [],
-   "requests": 1,
-   "secs": 10.4,
+   "requests": 2,
+   "secs": 37.4,
    "linkedin": {
     "checked_at": "2026-11-23T01:54:38+00:00",
     "fetched": 1,
