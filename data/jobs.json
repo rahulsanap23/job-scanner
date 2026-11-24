@@ -1,18 +1,17 @@
 {
  "meta": {
-  "generated_at": "2026-11-24T20:35:03+00:00",
+  "generated_at": "2026-11-24T20:54:39+00:00",
   "date": "2026-11-25",
   "recency_days": 60,
   "companies_total": 190,
-  "companies_scanned_ok": 95,
+  "companies_scanned_ok": 90,
   "companies_failed": [
    "AIG",
+   "Abbott",
    "Air Products",
    "AllianceBernstein (Equitable)",
-   "Allstate",
    "Amadeus",
    "Autodesk",
-   "Baker Hughes",
    "Barclays",
    "BrowserStack",
    "Cisco",
@@ -25,12 +24,15 @@
    "Ecolab",
    "Equinix",
    "FIS",
+   "Fiserv",
    "General Mills",
    "Hitachi (Vantara, Payment Services)",
+   "Johnson & Johnson",
    "Johnson Controls",
    "KONE",
    "LSEG",
    "M&G",
+   "MSD (Merck & Co.)",
    "Maersk",
    "Marsh McLennan",
    "Marvell",
@@ -39,13 +41,16 @@
    "Michelin",
    "Mondelez",
    "Northern Trust",
+   "Novartis",
    "Nvidia",
    "P&G",
+   "Pfizer",
    "Philips",
    "Priceline (Booking Holdings)",
    "Red Hat",
    "Rockwell Automation",
    "S&P Global",
+   "Salesforce",
    "Sandvik",
    "TIAA",
    "Telstra",
@@ -105,17 +110,17 @@
    "Yes Bank"
   ],
   "companies_carried": [],
-  "jobs": 123,
-  "companies_with_jobs": 44,
+  "jobs": 120,
+  "companies_with_jobs": 43,
   "uncertain": 16,
-  "fresh": 4,
-  "linkedin": "17 of 98 companies checked in the last 24 h; not checked in 24 h: PhonePe, Nvidia, bp, BNP Paribas, Tesla, FedEx, UBS, P&G and 73 more (this scan: stopped after 2 of 6 companies: LinkedIn answered 429)",
+  "fresh": 2,
+  "linkedin": "21 of 103 companies checked in the last 24 h; not checked in 24 h: PhonePe, Nvidia, bp, BNP Paribas, Tesla, Johnson & Johnson, FedEx, UBS and 74 more (this scan: searched 6 companies)",
   "companies_checked_on_linkedin": [
    "3Pillar Global",
    "AIG",
+   "Abbott",
    "Air Products",
    "AllianceBernstein (Equitable)",
-   "Allstate",
    "Amadeus",
    "Atlas Copco",
    "Autodesk",
@@ -123,7 +128,6 @@
    "BMW TechWorks India",
    "BNP Paribas",
    "BNY",
-   "Baker Hughes",
    "Barclays",
    "BillDesk",
    "BrowserStack",
@@ -148,6 +152,7 @@
    "FedEx",
    "Federal Bank",
    "FirstCry",
+   "Fiserv",
    "General Mills",
    "HDFC Bank",
    "Hitachi (Vantara, Payment Services)",
@@ -157,12 +162,14 @@
    "Jefferies",
    "Jio",
    "JioHotstar",
+   "Johnson & Johnson",
    "Johnson Controls",
    "KONE",
    "Kotak Mahindra Bank",
    "LSEG",
    "Lentra",
    "M&G",
+   "MSD (Merck & Co.)",
    "Maersk",
    "Marsh McLennan",
    "Marvell",
@@ -176,9 +183,11 @@
    "NPCI",
    "Netcore Cloud",
    "Northern Trust",
+   "Novartis",
    "Nvidia",
    "Nykaa",
    "P&G",
+   "Pfizer",
    "Philips",
    "PhonePe",
    "Postman",
@@ -188,6 +197,7 @@
    "Rockwell Automation",
    "S&P Global",
    "SBI",
+   "Salesforce",
    "Sandvik",
    "Sciative",
    "Société Générale",
@@ -210,10 +220,10 @@
    "Yes Bank",
    "bp"
   ],
-  "linkedin_crosscheck": "92 of 92 scanned companies cross-checked on LinkedIn in the last 4 days; 11 roles the careers sites missed",
-  "missed_by_site": 11,
+  "linkedin_crosscheck": "87 of 87 scanned companies cross-checked on LinkedIn in the last 4 days; 10 roles the careers sites missed",
+  "missed_by_site": 10,
   "scanner_alerts": [],
-  "rejected": 397
+  "rejected": 387
  },
  "jobs": [
   {
@@ -229,7 +239,6 @@
    "source": "linkedin",
    "match": "title",
    "flags": [],
-   "crosscheck": true,
    "fresh": false,
    "first_seen": "2026-11-13",
    "new": false
@@ -630,23 +639,6 @@
    "flags": [],
    "fresh": false,
    "first_seen": "2026-11-20",
-   "new": false
-  },
-  {
-   "company": "BlackRock",
-   "title": "Data Engineer, Aladdin Data, Associate",
-   "location": "Mumbai, India; Gurugram, India",
-   "location_tags": [
-    "Mumbai"
-   ],
-   "posted": "2026-11-12",
-   "days_ago": 13,
-   "url": "https://blackrock.wd1.myworkdayjobs.com/en-US/BlackRock_Professional/job/Mumbai-India/Data-Engineer--Aladdin-Data--Associate_R267160",
-   "source": "workday",
-   "match": "title",
-   "flags": [],
-   "fresh": false,
-   "first_seen": "2026-11-12",
    "new": false
   },
   {
@@ -1148,23 +1140,6 @@
    "new": false
   },
   {
-   "company": "Fiserv",
-   "title": "Lead - Data Engineer",
-   "location": "Pune - Trion Business Park, India",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": "2026-11-25",
-   "days_ago": 0,
-   "url": "https://fiserv.wd5.myworkdayjobs.com/en-US/EXT/job/Pune---Trion-Business-Park-India/Lead---Data-Engineer_R-10404839",
-   "source": "workday",
-   "match": "title",
-   "flags": [],
-   "fresh": true,
-   "first_seen": "2026-11-25",
-   "new": true
-  },
-  {
    "company": "Gallagher",
    "title": "Associate Lead Data Integration Engineer",
    "location": "Kochi, India; Pune, India; Kochi, Kerala, India",
@@ -1322,23 +1297,6 @@
    "fresh": false,
    "first_seen": "2026-11-14",
    "new": false
-  },
-  {
-   "company": "HSBC",
-   "title": "Data Engineer, Sr. Associate Director",
-   "location": "Pune, India",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": "2026-11-24",
-   "days_ago": 1,
-   "url": "https://dejobs.org/pune-ind/data-engineer-sr-associate-director/6B0CA8C289214C12B403F9E5EDAAE935/job/",
-   "source": "jobsyn",
-   "match": "title",
-   "flags": [],
-   "fresh": true,
-   "first_seen": "2026-11-25",
-   "new": true
   },
   {
    "company": "HSBC",
@@ -2048,8 +2006,8 @@
    "location_tags": [
     "Mumbai"
    ],
-   "posted": "2026-11-20",
-   "days_ago": 5,
+   "posted": "2026-11-24",
+   "days_ago": 1,
    "url": "https://in.linkedin.com/jobs/view/senior-data-engineer-at-procter-gamble-4467366679",
    "source": "linkedin",
    "match": "title",

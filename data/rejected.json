@@ -1,9 +1,9 @@
 {
 "meta": {
-"generated_at": "2026-11-24T20:35:03+00:00",
+"generated_at": "2026-11-24T20:54:39+00:00",
 "date": "2026-11-25",
 "recency_days": 60,
-"count": 397
+"count": 387
 },
 "rejected": [
 {
@@ -803,6 +803,18 @@
 "source": "linkedin"
 },
 {
+"company": "Baker Hughes",
+"title": "Digital Technology Advisor - Data Science",
+"location": "IN-MH-MUMBAI-HIRANANDANI BUSINESS PARK POWAI",
+"posted": "Posted 4 Days Ago",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://bakerhughes.wd5.myworkdayjobs.com/en-US/BakerHughes/job/IN-MH-MUMBAI-HIRANANDANI-BUSINESS-PARK-POWAI/Digital-Technology-Advisor---Data-Science_R171140",
+"source": "workday"
+},
+{
 "company": "BlackRock",
 "title": "Client Data Ops - Aladdin Data, Director",
 "location": "Gurugram, India",
@@ -810,6 +822,16 @@
 "reason": "location",
 "tags": [],
 "url": "https://blackrock.wd1.myworkdayjobs.com/en-US/BlackRock_Professional/job/Gurugram-India/Client-Data-Ops---Aladdin-Data---Director_R267037",
+"source": "workday"
+},
+{
+"company": "BlackRock",
+"title": "Data Engineer, Aladdin Data, Associate",
+"location": "2 Locations",
+"posted": "Posted 12 Days Ago",
+"reason": "location",
+"tags": [],
+"url": "https://blackrock.wd1.myworkdayjobs.com/en-US/BlackRock_Professional/job/Mumbai-India/Data-Engineer--Aladdin-Data--Associate_R267160",
 "source": "workday"
 },
 {
@@ -884,6 +906,16 @@
 "reason": "location",
 "tags": [],
 "url": "https://bloomberg.avature.net/careers/JobDetail/Senior-Data-Management-Professional-Data-Automation-Engineer-People-Data/45870",
+"source": "avature"
+},
+{
+"company": "Bloomberg",
+"title": "Senior Data Management Professional - Data Automation Engineer - People Data",
+"location": "Princeton, New Jersey, United States of America",
+"posted": null,
+"reason": "location",
+"tags": [],
+"url": "https://bloomberg.avature.net/careers/JobDetail/Senior-Data-Management-Professional-Data-Automation-Engineer-People-Data/20281",
 "source": "avature"
 },
 {
@@ -1423,11 +1455,11 @@
 {
 "company": "Databricks",
 "title": "Senior Software Engineer - Distributed Data Systems",
-"location": "Mountain View, California",
-"posted": "2023-06-23T18:46:50-04:00",
+"location": "Belgrade, Serbia",
+"posted": "2025-05-28T09:57:52-04:00",
 "reason": "location",
 "tags": [],
-"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6544325002",
+"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8012800002",
 "source": "greenhouse"
 },
 {
@@ -1453,11 +1485,11 @@
 {
 "company": "Databricks",
 "title": "Senior Software Engineer - Distributed Data Systems",
-"location": "Belgrade, Serbia",
-"posted": "2025-05-28T09:57:52-04:00",
+"location": "Mountain View, California",
+"posted": "2023-06-23T18:46:50-04:00",
 "reason": "location",
 "tags": [],
-"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8012800002",
+"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6544325002",
 "source": "greenhouse"
 },
 {
@@ -1468,6 +1500,16 @@
 "reason": "location",
 "tags": [],
 "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8720252002",
+"source": "greenhouse"
+},
+{
+"company": "Databricks",
+"title": "Senior Solutions Architect (EDW Enterprise Data Warehouse Migrations)",
+"location": "London, United Kingdom",
+"posted": "2026-08-17T03:46:40-04:00",
+"reason": "location",
+"tags": [],
+"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8704938002",
 "source": "greenhouse"
 },
 {
@@ -1488,16 +1530,6 @@
 "reason": "location",
 "tags": [],
 "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8720254002",
-"source": "greenhouse"
-},
-{
-"company": "Databricks",
-"title": "Senior Solutions Architect (EDW Enterprise Data Warehouse Migrations)",
-"location": "London, United Kingdom",
-"posted": "2026-08-17T03:46:40-04:00",
-"reason": "location",
-"tags": [],
-"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8704938002",
 "source": "greenhouse"
 },
 {
@@ -1653,21 +1685,21 @@
 {
 "company": "Databricks",
 "title": "Sr. Product Manager, Lakebase/Lakehouse",
-"location": "San Francisco, California",
-"posted": "2026-10-07T15:09:26-04:00",
-"reason": "location",
-"tags": [],
-"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8811265002",
-"source": "greenhouse"
-},
-{
-"company": "Databricks",
-"title": "Sr. Product Manager, Lakebase/Lakehouse",
 "location": "Seattle, Washington",
 "posted": "2026-10-07T15:09:28-04:00",
 "reason": "location",
 "tags": [],
 "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8876675002",
+"source": "greenhouse"
+},
+{
+"company": "Databricks",
+"title": "Sr. Product Manager, Lakebase/Lakehouse",
+"location": "San Francisco, California",
+"posted": "2026-10-07T15:09:26-04:00",
+"reason": "location",
+"tags": [],
+"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8811265002",
 "source": "greenhouse"
 },
 {
@@ -1733,21 +1765,21 @@
 {
 "company": "Databricks",
 "title": "Staff Software Engineer - Distributed Data Systems",
-"location": "San Francisco, California",
-"posted": "2023-04-13T17:55:06-04:00",
-"reason": "location",
-"tags": [],
-"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=5646855002",
-"source": "greenhouse"
-},
-{
-"company": "Databricks",
-"title": "Staff Software Engineer - Distributed Data Systems",
 "location": "Mountain View, California",
 "posted": "2023-04-13T17:55:08-04:00",
 "reason": "location",
 "tags": [],
 "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6544364002",
+"source": "greenhouse"
+},
+{
+"company": "Databricks",
+"title": "Staff Software Engineer - Distributed Data Systems",
+"location": "San Francisco, California",
+"posted": "2023-04-13T17:55:06-04:00",
+"reason": "location",
+"tags": [],
+"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=5646855002",
 "source": "greenhouse"
 },
 {
@@ -2987,78 +3019,6 @@
 "source": "eightfold"
 },
 {
-"company": "Johnson & Johnson",
-"title": "Manager Forward Deployed Engineer - Data & Intelligence",
-"location": "Hyderabad, Andhra Pradesh, India",
-"posted": "Posted 4 Days Ago",
-"reason": "location",
-"tags": [],
-"url": "https://jj.wd5.myworkdayjobs.com/en-US/jj/job/Hyderabad-Andhra-Pradesh-India/Manager-Forward-Deployed-Engineer---Data---Intelligence_R-112263",
-"source": "workday"
-},
-{
-"company": "Johnson & Johnson",
-"title": "Senior Analyst, HR Lakehouse / Medallion Engineer",
-"location": "Bangalore, Karnataka, India",
-"posted": "Posted Today",
-"reason": "location",
-"tags": [],
-"url": "https://jj.wd5.myworkdayjobs.com/en-US/jj/job/Bangalore-Karnataka-India/Senior-Analyst--HR-Lakehouse---Medallion-Engineer_R-107134",
-"source": "workday"
-},
-{
-"company": "MSD (Merck & Co.)",
-"title": "Junior Analytics Engineer",
-"location": "IND - Telangana - Hyderabad (Hitec City Raidurg)",
-"posted": "Posted Today",
-"reason": "location",
-"tags": [],
-"url": "https://msd.wd5.myworkdayjobs.com/en-US/SearchJobs/job/IND---Telangana---Hyderabad-Hitec-City-Raidurg/Junior-Analytics-Engineer_R429405-1",
-"source": "workday"
-},
-{
-"company": "MSD (Merck & Co.)",
-"title": "Lead Semantic Data Engineer",
-"location": "CZE - Central Bohemian - Prague (Five); IND - Telangana - Hyderabad; IND - Telangana - Hyderabad; IND - Telangana - Hyde",
-"posted": "2026-09-08",
-"reason": "location",
-"tags": [],
-"url": "https://msd.wd5.myworkdayjobs.com/en-US/SearchJobs/job/CZE---Central-Bohemian---Prague-Five/Lead-Semantic-Data-Engineer_R404411-1",
-"source": "workday"
-},
-{
-"company": "MSD (Merck & Co.)",
-"title": "Specialist, Analytics Engineer",
-"location": "IND - Telangana - Hyderabad (Hitec City Raidurg)",
-"posted": "Posted Today",
-"reason": "location",
-"tags": [],
-"url": "https://msd.wd5.myworkdayjobs.com/en-US/SearchJobs/job/IND---Telangana---Hyderabad-Hitec-City-Raidurg/Specialist--Analytics-Engineer_R429376",
-"source": "workday"
-},
-{
-"company": "MSD (Merck & Co.)",
-"title": "Specialist, Data Engineering",
-"location": "IND - Telangana - Hyderabad (Hitec City Raidurg)",
-"posted": "Posted Today",
-"reason": "location",
-"tags": [],
-"url": "https://msd.wd5.myworkdayjobs.com/en-US/SearchJobs/job/IND---Telangana---Hyderabad-Hitec-City-Raidurg/Specialist--Data-Engineering_R428291-1",
-"source": "workday"
-},
-{
-"company": "MSD (Merck & Co.)",
-"title": "Empower Master Data Analyst",
-"location": "IND - Maharashtra - Pune (Wework)",
-"posted": "Posted 26 Days Ago",
-"reason": "title not a data-engineering role",
-"tags": [
-"Pune"
-],
-"url": "https://msd.wd5.myworkdayjobs.com/en-US/SearchJobs/job/IND---Maharashtra---Pune-Wework/Empower-Master-Data-Analyst_R423257",
-"source": "workday"
-},
-{
 "company": "MetLife",
 "title": "Lead Data Engineer",
 "location": "Cary, United States",
@@ -3219,26 +3179,6 @@
 "source": "csb"
 },
 {
-"company": "Novartis",
-"title": "Associate Director, Cloud Data Platform Architecture",
-"location": "Barcelona Gran Vía; Hyderabad (Office)",
-"posted": "2026-11-24",
-"reason": "location",
-"tags": [],
-"url": "https://novartis.wd3.myworkdayjobs.com/en-US/Novartis_Careers/job/Barcelona-Gran-Va/Associate-Director--Cloud-Data-Platform-Architecture_REQ-10091828-1",
-"source": "workday"
-},
-{
-"company": "Novartis",
-"title": "Data Engineer",
-"location": "Hyderabad (Office)",
-"posted": "Posted Today",
-"reason": "location",
-"tags": [],
-"url": "https://novartis.wd3.myworkdayjobs.com/en-US/Novartis_Careers/job/Hyderabad-Office/Data-Engineer_REQ-10093347",
-"source": "workday"
-},
-{
 "company": "Nutanix",
 "title": "Sr. Data Platform Architect",
 "location": "San Jose, California",
@@ -3355,18 +3295,6 @@
 "source": "oracle"
 },
 {
-"company": "Pfizer",
-"title": "Senior Associate, Data Manager, Clinical Data Sciences",
-"location": "India - Mumbai",
-"posted": "Posted 28 Days Ago",
-"reason": "title not a data-engineering role",
-"tags": [
-"Mumbai"
-],
-"url": "https://pfizer.wd1.myworkdayjobs.com/en-US/PfizerCareers/job/India---Mumbai/Senior-Associate--Data-Manager--Clinical-Data-Sciences_4965924-1",
-"source": "workday"
-},
-{
 "company": "Principal Global Services",
 "title": "Consultant - Data Engineer",
 "location": "Hyderabad, India; Hyderabad, Telangana, India",
@@ -3444,36 +3372,6 @@
 ],
 "url": "https://jobs.lever.co/resilinc/19bcaf55-4863-40cf-b424-23001db20ef7",
 "source": "lever"
-},
-{
-"company": "Salesforce",
-"title": "Customer Success Manager – Informatica Implementation Experience (CDI / Data Governance/ MDM)",
-"location": "India - Bangalore",
-"posted": "Posted 25 Days Ago",
-"reason": "location",
-"tags": [],
-"url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Bangalore/Customer-Success-Manager--Informatica---ETL-implementation-_JR364032",
-"source": "workday"
-},
-{
-"company": "Salesforce",
-"title": "Senior Analyst - Data Analytics - SQL - Snowflake - Tableau",
-"location": "India - Hyderabad; India - Bangalore",
-"posted": "2026-11-24",
-"reason": "location",
-"tags": [],
-"url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Hyderabad/Senior-Analyst--Global-Incentive-Compensation-Operations_JR362815",
-"source": "workday"
-},
-{
-"company": "Salesforce",
-"title": "Success Guide - Informatica Product experience mandatory",
-"location": "India - Bangalore",
-"posted": "Posted 25 Days Ago",
-"reason": "location",
-"tags": [],
-"url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Bangalore/Success-Guide---Informatica-Product-experience-mandatory_JR351410",
-"source": "workday"
 },
 {
 "company": "Siemens Digital Industries Software",
