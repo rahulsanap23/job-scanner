@@ -38,7 +38,7 @@
 "jobs": []
 },
 "Allstate": {
-"checked_at": "2026-11-22T11:31:27+00:00",
+"checked_at": "2026-11-25T10:32:28+00:00",
 "jobs": []
 },
 "Amadeus": {
@@ -581,8 +581,16 @@
 "checked_at": "2026-11-24T07:01:36+00:00",
 "jobs": []
 },
+"Coinbase": {
+"checked_at": "2026-11-25T10:32:28+00:00",
+"jobs": []
+},
 "Confluent": {
 "checked_at": "2026-11-24T07:01:36+00:00",
+"jobs": []
+},
+"Coursera": {
+"checked_at": "2026-11-25T10:32:28+00:00",
 "jobs": []
 },
 "CrowdStrike": {
@@ -713,7 +721,7 @@
 ]
 },
 "Ecolab": {
-"checked_at": "2026-11-22T13:13:49+00:00",
+"checked_at": "2026-11-25T10:32:28+00:00",
 "jobs": []
 },
 "Emerson": {
@@ -725,7 +733,7 @@
 "jobs": []
 },
 "Equinix": {
-"checked_at": "2026-11-22T13:13:49+00:00",
+"checked_at": "2026-11-25T10:32:28+00:00",
 "jobs": []
 },
 "Eruditus": {
@@ -770,10 +778,6 @@
 },
 "Freshworks": {
 "checked_at": "2026-11-21T15:05:15+00:00",
-"jobs": []
-},
-"Gallagher": {
-"checked_at": "2026-11-21T10:19:47+00:00",
 "jobs": []
 },
 "General Mills": {
@@ -2263,7 +2267,7 @@
 "jobs": []
 },
 "_remote_india": {
-"checked_at": "2026-11-24T11:41:47+00:00",
+"checked_at": "2026-11-25T10:32:39+00:00",
 "jobs": [
 {
 "id": "https://in.linkedin.com/jobs/view/data-engineer-i-at-amazon-4481247187",
@@ -2306,76 +2310,6 @@
 "country": "India",
 "name_match": "exact",
 "target": "MetLife"
-},
-{
-"id": "https://in.linkedin.com/jobs/view/senior-data-engineer-%E2%80%93-microsoft-fabric-data-integration-pune-chennai-at-wolters-kluwer-4443133794",
-"title": "Senior Data Engineer – Microsoft Fabric & Data Integration - Pune/Chennai",
-"company": "Wolters Kluwer",
-"locations": [
-"Pune/Pimpri-Chinchwad Area"
-],
-"url": "https://in.linkedin.com/jobs/view/senior-data-engineer-%E2%80%93-microsoft-fabric-data-integration-pune-chennai-at-wolters-kluwer-4443133794",
-"posted": "2026-11-06",
-"remote": true,
-"country": "India",
-"name_match": "exact",
-"target": "Wolters Kluwer"
-},
-{
-"id": "https://in.linkedin.com/jobs/view/data-engineer-i-data-engineer-i-at-amazon-web-services-aws-4493641438",
-"title": "Data Engineer I, Data Engineer I",
-"company": "Amazon Web Services (AWS)",
-"locations": [
-"Bengaluru, Karnataka, India"
-],
-"url": "https://in.linkedin.com/jobs/view/data-engineer-i-data-engineer-i-at-amazon-web-services-aws-4493641438",
-"posted": "2026-11-23",
-"remote": true,
-"country": "India",
-"name_match": "loose",
-"target": "Amazon"
-},
-{
-"id": "https://in.linkedin.com/jobs/view/data-engineer-senior-ii-12-at-fedex-4408784128",
-"title": "Data Engineer-Senior II-12",
-"company": "FedEx",
-"locations": [
-"Chennai, Tamil Nadu, India"
-],
-"url": "https://in.linkedin.com/jobs/view/data-engineer-senior-ii-12-at-fedex-4408784128",
-"posted": "2026-11-11",
-"remote": true,
-"country": "India",
-"name_match": "exact",
-"target": "FedEx"
-},
-{
-"id": "https://in.linkedin.com/jobs/view/data-engineer-senior-ii-11-at-fedex-4408784121",
-"title": "Data Engineer-Senior II-11",
-"company": "FedEx",
-"locations": [
-"Chennai, Tamil Nadu, India"
-],
-"url": "https://in.linkedin.com/jobs/view/data-engineer-senior-ii-11-at-fedex-4408784121",
-"posted": "2026-11-11",
-"remote": true,
-"country": "India",
-"name_match": "exact",
-"target": "FedEx"
-},
-{
-"id": "https://in.linkedin.com/jobs/view/data-engineer-aladdin-data-associate-at-blackrock-4490795129",
-"title": "Data Engineer, Aladdin Data, Associate",
-"company": "BlackRock",
-"locations": [
-"Mumbai, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/data-engineer-aladdin-data-associate-at-blackrock-4490795129",
-"posted": "2026-11-13",
-"remote": true,
-"country": "India",
-"name_match": "exact",
-"target": "BlackRock"
 }
 ]
 },
