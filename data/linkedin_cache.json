@@ -105,7 +105,7 @@
 "jobs": []
 },
 "BMW TechWorks India": {
-"checked_at": "2026-11-22T10:18:44+00:00",
+"checked_at": "2026-11-25T19:47:48+00:00",
 "jobs": []
 },
 "BNP Paribas": {
@@ -670,42 +670,12 @@
 "checked_at": "2026-11-22T10:18:44+00:00",
 "jobs": []
 },
-"EPAM Systems": {
-"checked_at": "2026-11-21T13:13:06+00:00",
-"jobs": []
-},
 "ESTECO": {
 "checked_at": "2026-11-22T10:18:44+00:00",
 "jobs": []
 },
-"Eaton": {
-"checked_at": "2026-11-21T13:13:06+00:00",
-"jobs": [
-{
-"id": "https://in.linkedin.com/jobs/view/senior-engineer-data-analyst-at-eaton-4472194281",
-"title": "Senior Engineer - Data Analyst",
-"company": "Eaton",
-"locations": [
-"Pune Division, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/senior-engineer-data-analyst-at-eaton-4472194281",
-"posted": "2026-11-12",
-"remote": null,
-"country": null,
-"name_match": "exact"
-}
-]
-},
 "Ecolab": {
 "checked_at": "2026-11-25T10:32:28+00:00",
-"jobs": []
-},
-"Emerson": {
-"checked_at": "2026-11-21T14:16:18+00:00",
-"jobs": []
-},
-"Emirates NBD": {
-"checked_at": "2026-11-21T14:16:18+00:00",
 "jobs": []
 },
 "Equinix": {
@@ -724,10 +694,6 @@
 "checked_at": "2026-11-22T10:18:44+00:00",
 "jobs": []
 },
-"Fanatics": {
-"checked_at": "2026-11-21T14:16:18+00:00",
-"jobs": []
-},
 "FedEx": {
 "checked_at": "2026-11-23T01:54:38+00:00",
 "jobs": []
@@ -736,24 +702,12 @@
 "checked_at": "2026-11-23T01:54:38+00:00",
 "jobs": []
 },
-"First Advantage": {
-"checked_at": "2026-11-21T15:05:15+00:00",
-"jobs": []
-},
 "FirstCry": {
-"checked_at": "2026-11-22T10:18:44+00:00",
+"checked_at": "2026-11-25T19:47:48+00:00",
 "jobs": []
 },
 "Fiserv": {
 "checked_at": "2026-11-22T14:11:53+00:00",
-"jobs": []
-},
-"Fivetran": {
-"checked_at": "2026-11-21T15:05:15+00:00",
-"jobs": []
-},
-"Freshworks": {
-"checked_at": "2026-11-21T15:05:15+00:00",
 "jobs": []
 },
 "General Mills": {
@@ -839,50 +793,8 @@
 }
 ]
 },
-"GitLab": {
-"checked_at": "2026-11-21T15:58:57+00:00",
-"jobs": []
-},
-"GoDaddy": {
-"checked_at": "2026-11-21T15:58:57+00:00",
-"jobs": []
-},
-"Goldman Sachs": {
-"checked_at": "2026-11-21T15:58:57+00:00",
-"jobs": [
-{
-"id": "https://in.linkedin.com/jobs/view/global-banking-markets-mortgage-loan-engineering-lead-vice-president-mumbai-at-goldman-sachs-4478409386",
-"title": "Global Banking & Markets, Mortgage Loan Engineering Lead, Vice President, Mumbai",
-"company": "Goldman Sachs",
-"locations": [
-"Mumbai Metropolitan Region"
-],
-"url": "https://in.linkedin.com/jobs/view/global-banking-markets-mortgage-loan-engineering-lead-vice-president-mumbai-at-goldman-sachs-4478409386",
-"posted": "2026-11-04",
-"remote": null,
-"country": null,
-"name_match": "exact"
-}
-]
-},
-"Google": {
-"checked_at": "2026-11-21T16:59:58+00:00",
-"jobs": []
-},
 "HDFC Bank": {
 "checked_at": "2026-11-23T01:54:38+00:00",
-"jobs": []
-},
-"HERE Technologies": {
-"checked_at": "2026-11-21T16:59:58+00:00",
-"jobs": []
-},
-"HSBC": {
-"checked_at": "2026-11-21T16:59:58+00:00",
-"jobs": []
-},
-"HighLevel": {
-"checked_at": "2026-11-21T17:58:55+00:00",
 "jobs": []
 },
 "Hitachi (Vantara, Payment Services)": {
@@ -902,14 +814,6 @@
 "name_match": "exact"
 }
 ]
-},
-"Honeywell": {
-"checked_at": "2026-11-21T17:58:55+00:00",
-"jobs": []
-},
-"ICE": {
-"checked_at": "2026-11-21T17:58:55+00:00",
-"jobs": []
 },
 "ICICI Bank": {
 "checked_at": "2026-11-23T01:54:38+00:00",
@@ -946,61 +850,9 @@
 }
 ]
 },
-"IDT Corporation": {
-"checked_at": "2026-11-21T19:02:46+00:00",
-"jobs": []
-},
-"Icertis": {
-"checked_at": "2026-11-21T19:02:46+00:00",
-"jobs": []
-},
 "IndusInd Bank": {
 "checked_at": "2026-11-23T01:54:38+00:00",
 "jobs": []
-},
-"JPMorgan Chase": {
-"checked_at": "2026-11-21T19:02:46+00:00",
-"jobs": [
-{
-"id": "https://in.linkedin.com/jobs/view/lead-data-engineer-data-engineering-databricks-model-serving-ml-ops-data-architecture-and-modeling-at-jpmorganchase-4489790714",
-"title": "Lead Data Engineer - Data Engineering, Databricks, Model Serving, ML Ops, Data Architecture and modeling",
-"company": "JPMorganChase",
-"locations": [
-"Mumbai, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/lead-data-engineer-data-engineering-databricks-model-serving-ml-ops-data-architecture-and-modeling-at-jpmorganchase-4489790714",
-"posted": "2026-11-16",
-"remote": null,
-"country": null,
-"name_match": "exact"
-},
-{
-"id": "https://in.linkedin.com/jobs/view/wholesale-credit-risk%E2%80%AFassociate-product-strategy-at-jpmorganchase-4479261359",
-"title": "Wholesale Credit Risk Associate - Product Strategy",
-"company": "JPMorganChase",
-"locations": [
-"Mumbai, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/wholesale-credit-risk%E2%80%AFassociate-product-strategy-at-jpmorganchase-4479261359",
-"posted": "2026-11-04",
-"remote": null,
-"country": null,
-"name_match": "exact"
-},
-{
-"id": "https://in.linkedin.com/jobs/view/lead-software-engineer-python-data-ai-at-jpmorganchase-4482806688",
-"title": "Lead Software Engineer - Python, Data,AI",
-"company": "JPMorganChase",
-"locations": [
-"Mumbai, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/lead-software-engineer-python-data-ai-at-jpmorganchase-4482806688",
-"posted": "2026-11-17",
-"remote": null,
-"country": null,
-"name_match": "exact"
-}
-]
 },
 "Jefferies": {
 "checked_at": "2026-11-23T01:54:38+00:00",
@@ -1107,7 +959,7 @@
 "jobs": []
 },
 "Lentra": {
-"checked_at": "2026-11-22T10:18:44+00:00",
+"checked_at": "2026-11-25T19:47:48+00:00",
 "jobs": []
 },
 "M&G": {
@@ -1241,7 +1093,7 @@
 ]
 },
 "Media.net": {
-"checked_at": "2026-11-22T10:18:44+00:00",
+"checked_at": "2026-11-25T19:47:48+00:00",
 "jobs": [
 {
 "id": "https://in.linkedin.com/jobs/view/senior-data-engineer-nr-2026-0240-at-media-net-4490300664",
@@ -1557,7 +1409,7 @@
 "jobs": []
 },
 "Netcore Cloud": {
-"checked_at": "2026-11-22T10:18:44+00:00",
+"checked_at": "2026-11-25T19:47:48+00:00",
 "jobs": []
 },
 "Nium": {
@@ -2203,7 +2055,7 @@
 ]
 },
 "Volkswagen Group Digital Solutions": {
-"checked_at": "2026-11-22T10:18:44+00:00",
+"checked_at": "2026-11-25T19:47:48+00:00",
 "jobs": []
 },
 "Voya": {
