@@ -1,47 +1,56 @@
 {
  "meta": {
-  "generated_at": "2026-11-25T19:48:27+00:00",
+  "generated_at": "2026-11-25T20:09:12+00:00",
   "date": "2026-11-26",
   "recency_days": 60,
   "companies_total": 190,
-  "companies_scanned_ok": 100,
+  "companies_scanned_ok": 91,
   "companies_failed": [
+   "AIG",
    "Abbott",
    "Air Products",
    "AllianceBernstein (Equitable)",
+   "Allstate",
    "Amadeus",
    "Autodesk",
    "Baker Hughes",
    "Barclays",
+   "BlackRock",
    "BrowserStack",
+   "Cisco",
    "Citi",
    "Cohesity",
    "CrowdStrike",
    "DBS Bank",
    "Deutsche Bank",
+   "Ecolab",
    "Equinix",
    "FIS",
    "Fiserv",
    "General Mills",
    "Hitachi (Vantara, Payment Services)",
+   "Johnson & Johnson",
    "Johnson Controls",
    "KONE",
    "LSEG",
    "M&G",
+   "MSD (Merck & Co.)",
    "Maersk",
    "Marsh McLennan",
    "Marvell",
+   "Mastercard",
    "Medline",
    "Michelin",
    "Mondelez",
    "Northern Trust",
    "Novartis",
    "Nvidia",
+   "P&G",
    "Philips",
    "Priceline (Booking Holdings)",
    "Red Hat",
    "Rockwell Automation",
-   "Salesforce",
+   "S&P Global",
    "Sandvik",
    "Telstra",
    "Thermo Fisher Scientific",
@@ -99,17 +108,21 @@
    "Volkswagen Group Digital Solutions",
    "Yes Bank"
   ],
-  "companies_carried": [],
-  "jobs": 117,
-  "companies_with_jobs": 40,
-  "uncertain": 16,
-  "fresh": 2,
-  "linkedin": "19 of 93 companies checked in the last 24 h; not checked in 24 h: PhonePe, Nvidia, bp, Citi, BNP Paribas, Tesla, FedEx, UBS and 66 more (this scan: searched 6 companies)",
+  "companies_carried": [
+   "BlackRock"
+  ],
+  "jobs": 115,
+  "companies_with_jobs": 41,
+  "uncertain": 14,
+  "fresh": 0,
+  "linkedin": "23 of 102 companies checked in the last 24 h; not checked in 24 h: PhonePe, Nvidia, bp, Citi, BNP Paribas, Tesla, Johnson & Johnson, FedEx and 71 more (this scan: searched 6 companies)",
   "companies_checked_on_linkedin": [
    "3Pillar Global",
+   "AIG",
    "Abbott",
    "Air Products",
    "AllianceBernstein (Equitable)",
+   "Allstate",
    "Amadeus",
    "Atlas Copco",
    "Autodesk",
@@ -120,8 +133,10 @@
    "Baker Hughes",
    "Barclays",
    "BillDesk",
+   "BlackRock",
    "BrowserStack",
    "Cimpress",
+   "Cisco",
    "Citi",
    "Claroda",
    "Cohesity",
@@ -132,6 +147,7 @@
    "Deutsche Bank",
    "Dream Sports",
    "ESTECO",
+   "Ecolab",
    "Equinix",
    "Eruditus",
    "FIS",
@@ -149,15 +165,18 @@
    "Jefferies",
    "Jio",
    "JioHotstar",
+   "Johnson & Johnson",
    "Johnson Controls",
    "KONE",
    "Kotak Mahindra Bank",
    "LSEG",
    "Lentra",
    "M&G",
+   "MSD (Merck & Co.)",
    "Maersk",
    "Marsh McLennan",
    "Marvell",
+   "Mastercard",
    "Media.net",
    "Medline",
    "Michelin",
@@ -170,6 +189,7 @@
    "Novartis",
    "Nvidia",
    "Nykaa",
+   "P&G",
    "Philips",
    "PhonePe",
    "Postman",
@@ -177,8 +197,8 @@
    "RBL Bank",
    "Red Hat",
    "Rockwell Automation",
+   "S&P Global",
    "SBI",
-   "Salesforce",
    "Sandvik",
    "Sciative",
    "Société Générale",
@@ -200,10 +220,10 @@
    "Yes Bank",
    "bp"
   ],
-  "linkedin_crosscheck": "69 of 97 scanned companies cross-checked on LinkedIn in the last 4 days; 7 roles the careers sites missed",
+  "linkedin_crosscheck": "60 of 88 scanned companies cross-checked on LinkedIn in the last 4 days; 7 roles the careers sites missed",
   "missed_by_site": 7,
   "scanner_alerts": [],
-  "rejected": 412
+  "rejected": 369
  },
  "jobs": [
   {
@@ -586,40 +606,6 @@
   },
   {
    "company": "BlackRock",
-   "title": "AI/ML Engineer, Aladdin Data, VP",
-   "location": "Mumbai, India; Gurugram, India",
-   "location_tags": [
-    "Mumbai"
-   ],
-   "posted": "2026-11-25",
-   "days_ago": 1,
-   "url": "https://blackrock.wd1.myworkdayjobs.com/en-US/BlackRock_Professional/job/Mumbai-India/AI-ML-Engineer--Aladdin-Data--VP_R267163",
-   "source": "workday",
-   "match": "pattern",
-   "flags": [],
-   "fresh": true,
-   "first_seen": "2026-11-26",
-   "new": true
-  },
-  {
-   "company": "BlackRock",
-   "title": "Data Engineer, Aladdin Data, Vice President",
-   "location": "Mumbai, India; Gurugram, India",
-   "location_tags": [
-    "Mumbai"
-   ],
-   "posted": "2026-11-25",
-   "days_ago": 1,
-   "url": "https://blackrock.wd1.myworkdayjobs.com/en-US/BlackRock_Professional/job/Mumbai-India/Data-Engineer--Aladdin-Data--Vice-President_R267167",
-   "source": "workday",
-   "match": "title",
-   "flags": [],
-   "fresh": true,
-   "first_seen": "2026-11-26",
-   "new": true
-  },
-  {
-   "company": "BlackRock",
    "title": "Data Engineering - Aladdin Data, Director",
    "location": "Mumbai, India",
    "location_tags": [
@@ -631,6 +617,7 @@
    "source": "workday",
    "match": "title",
    "flags": [],
+   "carried_from": "2026-11-24T20:54:39+00:00",
    "fresh": false,
    "first_seen": "2026-11-20",
    "new": false
@@ -648,25 +635,9 @@
    "source": "workday",
    "match": "pattern",
    "flags": [],
+   "carried_from": "2026-11-24T20:54:39+00:00",
    "fresh": false,
    "first_seen": "2026-11-20",
-   "new": false
-  },
-  {
-   "company": "BlackRock",
-   "title": "Data Engineer, Aladdin Data, Associate",
-   "location": "Mumbai, India; Gurugram, India",
-   "location_tags": [
-    "Mumbai"
-   ],
-   "posted": "2026-11-12",
-   "days_ago": 14,
-   "url": "https://blackrock.wd1.myworkdayjobs.com/en-US/BlackRock_Professional/job/Mumbai-India/Data-Engineer--Aladdin-Data--Associate_R267160",
-   "source": "workday",
-   "match": "title",
-   "flags": [],
-   "fresh": false,
-   "first_seen": "2026-11-12",
    "new": false
   },
   {
@@ -682,6 +653,7 @@
    "source": "workday",
    "match": "title",
    "flags": [],
+   "carried_from": "2026-11-24T20:54:39+00:00",
    "fresh": false,
    "first_seen": "2026-11-05",
    "new": false
@@ -706,19 +678,19 @@
   },
   {
    "company": "Cisco",
-   "title": "Data Architect - 13+ years exp, Snowflake, dbt, Python",
-   "location": "Bangalore, India; Pune, India; Hyderabad, India",
+   "title": "Data Engineer",
+   "location": "Mumbai, Maharashtra, India",
    "location_tags": [
-    "Pune"
+    "Mumbai"
    ],
-   "posted": "2026-11-03",
-   "days_ago": 23,
-   "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Data-Architect---13--years-exp--Snowflake--dBT--Python_2017847",
-   "source": "workday",
-   "match": "keyword:dbt",
+   "posted": "2026-11-17",
+   "days_ago": 9,
+   "url": "https://in.linkedin.com/jobs/view/data-engineer-at-cisco-4467704802",
+   "source": "linkedin",
+   "match": "title",
    "flags": [],
    "fresh": false,
-   "first_seen": "2026-11-03",
+   "first_seen": "2026-11-14",
    "new": false
   },
   {
@@ -1518,90 +1490,86 @@
   {
    "company": "Mastercard",
    "title": "Lead Data Engineer",
-   "location": "Pune, India",
+   "location": "Pune Division, Maharashtra, India",
    "location_tags": [
     "Pune"
    ],
-   "posted": "2026-10-30",
-   "days_ago": 27,
-   "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Lead-Data-Engineer_R-280352",
-   "source": "workday",
+   "posted": "2026-11-21",
+   "days_ago": 5,
+   "url": "https://in.linkedin.com/jobs/view/lead-data-engineer-at-mastercard-4454122491",
+   "source": "linkedin",
    "match": "title",
    "flags": [],
    "fresh": false,
-   "first_seen": "2026-10-30",
+   "first_seen": "2026-11-14",
    "new": false
   },
   {
    "company": "Mastercard",
-   "title": "Lead Data Scientist (AI/ML, Python, Langchain, GenAI, Pyspark, SQL)",
-   "location": "Pune, India",
+   "title": "Senior Data Engineer",
+   "location": "Pune Division, Maharashtra, India",
    "location_tags": [
     "Pune"
    ],
-   "posted": "2026-10-30",
-   "days_ago": 27,
-   "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Lead-Data-Scientist--AI-ML--Python--Langchain--GenAI--Pyspark--SQL-_R-293966",
-   "source": "workday",
-   "match": "keyword:pyspark",
-   "flags": [
-    "title borderline"
-   ],
-   "fresh": false,
-   "first_seen": "2026-10-29",
-   "new": false
-  },
-  {
-   "company": "Mastercard",
-   "title": "Senior Data Scientist (AI, ML, Pyspark, SQL)",
-   "location": "Pune, India",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": "2026-10-30",
-   "days_ago": 27,
-   "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Senior-Data-Scientist--AI--ML--Pyspark--SQL-_R-293981",
-   "source": "workday",
-   "match": "keyword:pyspark",
-   "flags": [
-    "title borderline"
-   ],
-   "fresh": false,
-   "first_seen": "2026-10-29",
-   "new": false
-  },
-  {
-   "company": "Mastercard",
-   "title": "Data Engineer II",
-   "location": "Navi Mumbai, India (Finicity)",
-   "location_tags": [
-    "Navi Mumbai"
-   ],
-   "posted": "2026-10-06",
-   "days_ago": 51,
-   "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Navi-Mumbai-India-Finicity/Senior-Data-Engineer_R-287943",
-   "source": "workday",
+   "posted": "2026-11-19",
+   "days_ago": 7,
+   "url": "https://in.linkedin.com/jobs/view/senior-data-engineer-at-mastercard-4446202389",
+   "source": "linkedin",
    "match": "title",
    "flags": [],
    "fresh": false,
-   "first_seen": "2026-10-24",
+   "first_seen": "2026-11-14",
    "new": false
   },
   {
    "company": "Mastercard",
    "title": "Principal Data Engineer - Data Quality",
-   "location": "Pune, India",
+   "location": "Pune Division, Maharashtra, India",
    "location_tags": [
     "Pune"
    ],
-   "posted": "2026-10-05",
-   "days_ago": 52,
-   "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Principal-Data-Engineer---Data-Quality_R-292616-1",
-   "source": "workday",
+   "posted": "2026-11-18",
+   "days_ago": 8,
+   "url": "https://in.linkedin.com/jobs/view/principal-data-engineer-data-quality-at-mastercard-4473682999",
+   "source": "linkedin",
    "match": "title",
    "flags": [],
    "fresh": false,
-   "first_seen": "2026-10-24",
+   "first_seen": "2026-11-14",
+   "new": false
+  },
+  {
+   "company": "Mastercard",
+   "title": "Data Engineer II",
+   "location": "Navi Mumbai, Maharashtra, India",
+   "location_tags": [
+    "Navi Mumbai"
+   ],
+   "posted": "2026-11-17",
+   "days_ago": 9,
+   "url": "https://in.linkedin.com/jobs/view/data-engineer-ii-at-mastercard-4474075906",
+   "source": "linkedin",
+   "match": "title",
+   "flags": [],
+   "fresh": false,
+   "first_seen": "2026-11-14",
+   "new": false
+  },
+  {
+   "company": "Mastercard",
+   "title": "Sr Data Engineer",
+   "location": "Pune Division, Maharashtra, India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-11-05",
+   "days_ago": 21,
+   "url": "https://in.linkedin.com/jobs/view/sr-data-engineer-at-mastercard-4440181616",
+   "source": "linkedin",
+   "match": "title",
+   "flags": [],
+   "fresh": false,
+   "first_seen": "2026-11-14",
    "new": false
   },
   {
@@ -1647,12 +1615,12 @@
    ],
    "posted": "2026-11-06",
    "days_ago": 20,
-   "url": "https://www.metlifecareers.com/en_US/ml/JobDetail/Sr-Software-Platform-Engineer-I-Data-Engineer/21474",
+   "url": "https://www.metlifecareers.com/en_US/ml/JobDetail/Senior-Data-Engineer-Databricks-Data-Modeling-Architecture/21475",
    "source": "avature",
    "match": "title",
    "flags": [],
    "fresh": false,
-   "first_seen": "2026-11-14",
+   "first_seen": "2026-11-08",
    "new": false
   },
   {
@@ -1973,6 +1941,23 @@
    "url": "https://in.linkedin.com/jobs/view/sr-lead-cloud-data-platform-engg-at-northern-trust-4485511153",
    "source": "linkedin",
    "match": "keyword:data platform",
+   "flags": [],
+   "fresh": false,
+   "first_seen": "2026-11-14",
+   "new": false
+  },
+  {
+   "company": "P&G",
+   "title": "Senior Data Engineer",
+   "location": "Mumbai Metropolitan Region",
+   "location_tags": [
+    "Mumbai"
+   ],
+   "posted": "2026-11-24",
+   "days_ago": 2,
+   "url": "https://in.linkedin.com/jobs/view/senior-data-engineer-at-procter-gamble-4467366679",
+   "source": "linkedin",
+   "match": "title",
    "flags": [],
    "fresh": false,
    "first_seen": "2026-11-14",
