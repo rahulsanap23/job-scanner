@@ -1,18 +1,20 @@
 {
  "meta": {
-  "generated_at": "2026-11-24T20:54:39+00:00",
+  "generated_at": "2026-11-25T09:17:32+00:00",
   "date": "2026-11-25",
   "recency_days": 60,
   "companies_total": 190,
-  "companies_scanned_ok": 90,
+  "companies_scanned_ok": 88,
   "companies_failed": [
    "AIG",
    "Abbott",
    "Air Products",
    "AllianceBernstein (Equitable)",
+   "Allstate",
    "Amadeus",
    "Autodesk",
    "Barclays",
+   "BlackRock",
    "BrowserStack",
    "Cisco",
    "Citi",
@@ -109,18 +111,21 @@
    "Volkswagen Group Digital Solutions",
    "Yes Bank"
   ],
-  "companies_carried": [],
-  "jobs": 120,
-  "companies_with_jobs": 43,
+  "companies_carried": [
+   "BlackRock"
+  ],
+  "jobs": 121,
+  "companies_with_jobs": 44,
   "uncertain": 16,
   "fresh": 2,
-  "linkedin": "21 of 103 companies checked in the last 24 h; not checked in 24 h: PhonePe, Nvidia, bp, BNP Paribas, Tesla, Johnson & Johnson, FedEx, UBS and 74 more (this scan: searched 6 companies)",
+  "linkedin": "22 of 105 companies checked in the last 24 h; not checked in 24 h: PhonePe, Nvidia, bp, Citi, BNP Paribas, Tesla, Johnson & Johnson, FedEx and 75 more (this scan: searched 6 companies)",
   "companies_checked_on_linkedin": [
    "3Pillar Global",
    "AIG",
    "Abbott",
    "Air Products",
    "AllianceBernstein (Equitable)",
+   "Allstate",
    "Amadeus",
    "Atlas Copco",
    "Autodesk",
@@ -130,6 +135,7 @@
    "BNY",
    "Barclays",
    "BillDesk",
+   "BlackRock",
    "BrowserStack",
    "Cimpress",
    "Cisco",
@@ -220,10 +226,10 @@
    "Yes Bank",
    "bp"
   ],
-  "linkedin_crosscheck": "87 of 87 scanned companies cross-checked on LinkedIn in the last 4 days; 10 roles the careers sites missed",
-  "missed_by_site": 10,
+  "linkedin_crosscheck": "82 of 85 scanned companies cross-checked on LinkedIn in the last 4 days; 11 roles the careers sites missed",
+  "missed_by_site": 11,
   "scanner_alerts": [],
-  "rejected": 387
+  "rejected": 370
  },
  "jobs": [
   {
@@ -467,7 +473,7 @@
    "source": "linkedin",
    "match": "title",
    "flags": [],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-11-25",
    "new": true
   },
@@ -620,6 +626,7 @@
    "source": "workday",
    "match": "title",
    "flags": [],
+   "carried_from": "2026-11-24T20:54:39+00:00",
    "fresh": false,
    "first_seen": "2026-11-20",
    "new": false
@@ -637,6 +644,7 @@
    "source": "workday",
    "match": "pattern",
    "flags": [],
+   "carried_from": "2026-11-24T20:54:39+00:00",
    "fresh": false,
    "first_seen": "2026-11-20",
    "new": false
@@ -654,6 +662,7 @@
    "source": "workday",
    "match": "title",
    "flags": [],
+   "carried_from": "2026-11-24T20:54:39+00:00",
    "fresh": false,
    "first_seen": "2026-11-05",
    "new": false
@@ -661,20 +670,20 @@
   {
    "company": "Bloomberg",
    "title": "Senior Software Engineer - Data License Analytics, Pune",
-   "location": "Pune, India",
+   "location": "Pune Division, Maharashtra, India",
    "location_tags": [
     "Pune"
    ],
    "posted": "2026-11-23",
    "days_ago": 2,
-   "url": "https://bloomberg.avature.net/careers/JobDetail/Senior-Software-Engineer-Data-License-Analytics-Pune/46263",
-   "source": "avature",
+   "url": "https://in.linkedin.com/jobs/view/senior-software-engineer-data-license-analytics-pune-at-bloomberg-4492605434",
+   "source": "linkedin",
    "match": "title",
    "flags": [],
-   "date_source": "LinkedIn",
-   "fresh": false,
-   "first_seen": "2026-11-23",
-   "new": false
+   "crosscheck": true,
+   "fresh": true,
+   "first_seen": "2026-11-25",
+   "new": true
   },
   {
    "company": "Cisco",
@@ -1299,6 +1308,23 @@
    "new": false
   },
   {
+   "company": "Google",
+   "title": "Data Engineer",
+   "location": "Pune, India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-11-25",
+   "days_ago": 0,
+   "url": "https://dejobs.org/pune-ind/data-engineer/3D03783D1020420783AAE48DAAE048D4/job/",
+   "source": "jobsyn",
+   "match": "title",
+   "flags": [],
+   "fresh": true,
+   "first_seen": "2026-11-25",
+   "new": true
+  },
+  {
    "company": "HSBC",
    "title": "Lead Software Engineer Cloud Platforms, Data & AI / Associate Director, Software Engineering",
    "location": "Pune, India",
@@ -1370,36 +1396,36 @@
   },
   {
    "company": "JPMorgan Chase",
-   "title": "Lead Software Engineer Java, Python and Databricks",
+   "title": "Software Engineer III - Data analytics, Databricks",
    "location": "Mumbai, Maharashtra, India",
    "location_tags": [
     "Mumbai"
    ],
-   "posted": "2026-11-23",
-   "days_ago": 2,
-   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210793430",
+   "posted": "2026-11-25",
+   "days_ago": 0,
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210809888",
    "source": "oracle",
    "match": "keyword:databricks",
    "flags": [],
    "fresh": false,
-   "first_seen": "2026-11-24",
-   "new": true
+   "first_seen": "2026-11-19",
+   "new": false
   },
   {
    "company": "JPMorgan Chase",
-   "title": "Software Engineer III - React/UI, Python backend, ETL/Data Engineering",
+   "title": "Software Engineer III - Databricks, Python Pyspark",
    "location": "Mumbai, Maharashtra, India",
    "location_tags": [
     "Mumbai"
    ],
-   "posted": "2026-11-23",
-   "days_ago": 2,
-   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210808780",
+   "posted": "2026-11-25",
+   "days_ago": 0,
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210808660",
    "source": "oracle",
-   "match": "title",
+   "match": "keyword:pyspark",
    "flags": [],
    "fresh": false,
-   "first_seen": "2026-11-23",
+   "first_seen": "2026-11-19",
    "new": false
   },
   {
@@ -2187,7 +2213,7 @@
     "multiple locations - check",
     "title borderline"
    ],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-11-25",
    "new": true
   },

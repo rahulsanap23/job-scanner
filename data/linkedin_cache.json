@@ -570,7 +570,7 @@
 ]
 },
 "Claroda": {
-"checked_at": "2026-11-22T10:18:44+00:00",
+"checked_at": "2026-11-25T09:16:54+00:00",
 "jobs": []
 },
 "CleverTap": {
@@ -581,156 +581,13 @@
 "checked_at": "2026-11-24T07:01:36+00:00",
 "jobs": []
 },
-"Coinbase": {
-"checked_at": "2026-11-21T08:59:44+00:00",
-"jobs": []
-},
 "Confluent": {
 "checked_at": "2026-11-24T07:01:36+00:00",
-"jobs": []
-},
-"Coursera": {
-"checked_at": "2026-11-21T08:59:44+00:00",
 "jobs": []
 },
 "CrowdStrike": {
 "checked_at": "2026-11-25T03:03:41+00:00",
 "jobs": []
-},
-"Cummins": {
-"checked_at": "2026-11-21T08:59:44+00:00",
-"jobs": [
-{
-"id": "https://in.linkedin.com/jobs/view/data-engineer-senior-7-data-modeler-at-cummins-india-4461308101",
-"title": "Data Engineer - Senior 7 (Data Modeler)",
-"company": "Cummins India",
-"locations": [
-"Pune Division, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/data-engineer-senior-7-data-modeler-at-cummins-india-4461308101",
-"posted": "2026-11-06",
-"remote": null,
-"country": null,
-"name_match": "exact"
-},
-{
-"id": "https://in.linkedin.com/jobs/view/data-engineer-senior-2-at-cummins-india-4492803691",
-"title": "Data Engineer - Senior 2",
-"company": "Cummins India",
-"locations": [
-"Pune Division, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/data-engineer-senior-2-at-cummins-india-4492803691",
-"posted": "2026-11-20",
-"remote": null,
-"country": null,
-"name_match": "exact"
-},
-{
-"id": "https://in.linkedin.com/jobs/view/data-engineer-senior-3-at-cummins-india-4492809500",
-"title": "Data Engineer - Senior 3",
-"company": "Cummins India",
-"locations": [
-"Pune Division, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/data-engineer-senior-3-at-cummins-india-4492809500",
-"posted": "2026-11-20",
-"remote": null,
-"country": null,
-"name_match": "exact"
-},
-{
-"id": "https://in.linkedin.com/jobs/view/data-engineer-3-at-cummins-india-4456266011",
-"title": "Data Engineer 3",
-"company": "Cummins India",
-"locations": [
-"Pune Division, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/data-engineer-3-at-cummins-india-4456266011",
-"posted": "2026-11-16",
-"remote": null,
-"country": null,
-"name_match": "exact"
-},
-{
-"id": "https://in.linkedin.com/jobs/view/ai-data-engineer-senior-at-cummins-india-4472812918",
-"title": "AI Data Engineer - Senior",
-"company": "Cummins India",
-"locations": [
-"Pune Division, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/ai-data-engineer-senior-at-cummins-india-4472812918",
-"posted": "2026-11-14",
-"remote": null,
-"country": null,
-"name_match": "exact"
-},
-{
-"id": "https://in.linkedin.com/jobs/view/data-engineer-4-at-cummins-india-4456265177",
-"title": "Data Engineer 4",
-"company": "Cummins India",
-"locations": [
-"Pune Division, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/data-engineer-4-at-cummins-india-4456265177",
-"posted": "2026-11-15",
-"remote": null,
-"country": null,
-"name_match": "exact"
-},
-{
-"id": "https://in.linkedin.com/jobs/view/data-engineer-2-at-cummins-india-4456009301",
-"title": "Data Engineer 2",
-"company": "Cummins India",
-"locations": [
-"Pune Division, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/data-engineer-2-at-cummins-india-4456009301",
-"posted": "2026-11-15",
-"remote": null,
-"country": null,
-"name_match": "exact"
-},
-{
-"id": "https://in.linkedin.com/jobs/view/data-engineer-6-at-cummins-india-4457441873",
-"title": "Data Engineer 6",
-"company": "Cummins India",
-"locations": [
-"Pune Division, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/data-engineer-6-at-cummins-india-4457441873",
-"posted": "2026-11-19",
-"remote": null,
-"country": null,
-"name_match": "exact"
-},
-{
-"id": "https://in.linkedin.com/jobs/view/data-engineer-7-at-cummins-india-4457442827",
-"title": "Data Engineer 7",
-"company": "Cummins India",
-"locations": [
-"Pune Division, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/data-engineer-7-at-cummins-india-4457442827",
-"posted": "2026-11-20",
-"remote": null,
-"country": null,
-"name_match": "exact"
-},
-{
-"id": "https://in.linkedin.com/jobs/view/data-engineer-1-at-cummins-india-4456053014",
-"title": "Data Engineer 1",
-"company": "Cummins India",
-"locations": [
-"Pune Division, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/data-engineer-1-at-cummins-india-4456053014",
-"posted": "2026-11-13",
-"remote": null,
-"country": null,
-"name_match": "exact"
-}
-]
 },
 "DBS Bank": {
 "checked_at": "2026-11-24T07:01:36+00:00",
@@ -1913,7 +1770,7 @@
 "jobs": []
 },
 "RBL Bank": {
-"checked_at": "2026-11-22T10:18:44+00:00",
+"checked_at": "2026-11-25T09:16:54+00:00",
 "jobs": []
 },
 "Razorpay": {
@@ -1985,7 +1842,7 @@
 "jobs": []
 },
 "Sciative": {
-"checked_at": "2026-11-22T10:18:44+00:00",
+"checked_at": "2026-11-25T09:16:54+00:00",
 "jobs": []
 },
 "Siemens Digital Industries Software": {
@@ -2208,7 +2065,7 @@
 "jobs": []
 },
 "Trajector": {
-"checked_at": "2026-11-22T10:18:44+00:00",
+"checked_at": "2026-11-25T09:16:54+00:00",
 "jobs": []
 },
 "Truecaller": {
@@ -2228,7 +2085,7 @@
 "jobs": []
 },
 "Upstox": {
-"checked_at": "2026-11-22T10:18:44+00:00",
+"checked_at": "2026-11-25T09:16:54+00:00",
 "jobs": []
 },
 "VMware (Broadcom)": {
@@ -2244,7 +2101,7 @@
 "jobs": []
 },
 "Veritas Technologies": {
-"checked_at": "2026-11-22T10:18:44+00:00",
+"checked_at": "2026-11-25T09:16:54+00:00",
 "jobs": []
 },
 "Vertiv": {
