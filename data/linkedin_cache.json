@@ -49,37 +49,6 @@
 "checked_at": "2026-11-23T22:16:34+00:00",
 "jobs": []
 },
-"Atlas Copco": {
-"checked_at": "2026-11-22T10:18:44+00:00",
-"jobs": [
-{
-"id": "https://in.linkedin.com/jobs/view/senior-azure-data-engineer-at-atlas-copco-group-4487903093",
-"title": "Senior Azure Data Engineer",
-"company": "Atlas Copco Group",
-"locations": [
-"Pune Division, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/senior-azure-data-engineer-at-atlas-copco-group-4487903093",
-"posted": "2026-11-09",
-"remote": null,
-"country": null,
-"name_match": "exact"
-},
-{
-"id": "https://in.linkedin.com/jobs/view/commercial-senior-data-engineer-at-atlas-copco-group-4477516618",
-"title": "Commercial Senior Data Engineer",
-"company": "Atlas Copco Group",
-"locations": [
-"Pune Division, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/commercial-senior-data-engineer-at-atlas-copco-group-4477516618",
-"posted": "2026-11-02",
-"remote": null,
-"country": null,
-"name_match": "exact"
-}
-]
-},
 "Atlassian": {
 "checked_at": "2026-11-23T22:41:26+00:00",
 "jobs": []
@@ -727,8 +696,16 @@
 "checked_at": "2026-11-25T22:35:31+00:00",
 "jobs": []
 },
+"DNV": {
+"checked_at": "2026-11-26T15:20:52+00:00",
+"jobs": []
+},
 "Dassault Systèmes": {
 "checked_at": "2026-11-23T01:54:38+00:00",
+"jobs": []
+},
+"Databricks": {
+"checked_at": "2026-11-26T15:20:52+00:00",
 "jobs": []
 },
 "Deutsche Bank": {
@@ -796,10 +773,6 @@
 "checked_at": "2026-11-26T09:04:18+00:00",
 "jobs": []
 },
-"ESTECO": {
-"checked_at": "2026-11-22T10:18:44+00:00",
-"jobs": []
-},
 "Ecolab": {
 "checked_at": "2026-11-25T10:32:28+00:00",
 "jobs": []
@@ -808,16 +781,8 @@
 "checked_at": "2026-11-25T10:32:28+00:00",
 "jobs": []
 },
-"Eruditus": {
-"checked_at": "2026-11-22T10:18:44+00:00",
-"jobs": []
-},
 "FIS": {
 "checked_at": "2026-11-24T20:53:57+00:00",
-"jobs": []
-},
-"FORVIA": {
-"checked_at": "2026-11-22T10:18:44+00:00",
 "jobs": []
 },
 "FedEx": {
@@ -1134,7 +1099,7 @@
 "jobs": []
 },
 "Maersk": {
-"checked_at": "2026-11-22T15:58:09+00:00",
+"checked_at": "2026-11-26T15:20:52+00:00",
 "jobs": []
 },
 "Marsh McLennan": {
@@ -1265,12 +1230,22 @@
 ]
 },
 "Michelin": {
-"checked_at": "2026-11-22T17:01:07+00:00",
-"jobs": []
-},
-"Mitsubishi Electric India": {
-"checked_at": "2026-11-22T10:18:44+00:00",
-"jobs": []
+"checked_at": "2026-11-26T15:20:52+00:00",
+"jobs": [
+{
+"id": "https://in.linkedin.com/jobs/view/databricks-platform-expert-at-michelin-4495012605",
+"title": "Databricks Platform Expert",
+"company": "Michelin",
+"locations": [
+"Pune Division, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/databricks-platform-expert-at-michelin-4495012605",
+"posted": "2026-11-26",
+"remote": null,
+"country": null,
+"name_match": "exact"
+}
+]
 },
 "Mizuho": {
 "checked_at": "2026-11-23T01:54:38+00:00",
@@ -1330,7 +1305,7 @@
 ]
 },
 "Mondelez": {
-"checked_at": "2026-11-22T17:01:07+00:00",
+"checked_at": "2026-11-26T15:20:52+00:00",
 "jobs": [
 {
 "id": "https://in.linkedin.com/jobs/view/data-engineering-lead-finance-at-mondel%C4%93z-international-4484939575",
@@ -1346,58 +1321,6 @@
 "name_match": "loose"
 },
 {
-"id": "https://in.linkedin.com/jobs/view/associate-data-engineer-at-mondel%C4%93z-international-4476321691",
-"title": "Associate Data Engineer",
-"company": "Mondelēz International",
-"locations": [
-"Mumbai Metropolitan Region"
-],
-"url": "https://in.linkedin.com/jobs/view/associate-data-engineer-at-mondel%C4%93z-international-4476321691",
-"posted": "2026-11-18",
-"remote": null,
-"country": null,
-"name_match": "loose"
-},
-{
-"id": "https://in.linkedin.com/jobs/view/sr-data-engineer-d-a-data-enablement-engineering-at-mondel%C4%93z-international-4492065572",
-"title": "Sr Data Engineer, D&A Data Enablement & Engineering",
-"company": "Mondelēz International",
-"locations": [
-"Mumbai Metropolitan Region"
-],
-"url": "https://in.linkedin.com/jobs/view/sr-data-engineer-d-a-data-enablement-engineering-at-mondel%C4%93z-international-4492065572",
-"posted": "2026-11-18",
-"remote": null,
-"country": null,
-"name_match": "loose"
-},
-{
-"id": "https://in.linkedin.com/jobs/view/engenheiro-de-dados-data-engineer-at-mondel%C4%93z-international-4482713313",
-"title": "Engenheiro de Dados | Data Engineer",
-"company": "Mondelēz International",
-"locations": [
-"Mumbai Metropolitan Region"
-],
-"url": "https://in.linkedin.com/jobs/view/engenheiro-de-dados-data-engineer-at-mondel%C4%93z-international-4482713313",
-"posted": "2026-11-13",
-"remote": null,
-"country": null,
-"name_match": "loose"
-},
-{
-"id": "https://in.linkedin.com/jobs/view/associate-data-engineer-at-mondel%C4%93z-international-4489926979",
-"title": "Associate Data Engineer",
-"company": "Mondelēz International",
-"locations": [
-"Mumbai Metropolitan Region"
-],
-"url": "https://in.linkedin.com/jobs/view/associate-data-engineer-at-mondel%C4%93z-international-4489926979",
-"posted": "2026-11-11",
-"remote": null,
-"country": null,
-"name_match": "loose"
-},
-{
 "id": "https://in.linkedin.com/jobs/view/data-engineer-at-mondel%C4%93z-international-4489968966",
 "title": "Data Engineer",
 "company": "Mondelēz International",
@@ -1406,32 +1329,6 @@
 ],
 "url": "https://in.linkedin.com/jobs/view/data-engineer-at-mondel%C4%93z-international-4489968966",
 "posted": "2026-11-11",
-"remote": null,
-"country": null,
-"name_match": "loose"
-},
-{
-"id": "https://in.linkedin.com/jobs/view/associate-data-engineer-at-mondel%C4%93z-international-4489762065",
-"title": "Associate Data Engineer",
-"company": "Mondelēz International",
-"locations": [
-"Mumbai Metropolitan Region"
-],
-"url": "https://in.linkedin.com/jobs/view/associate-data-engineer-at-mondel%C4%93z-international-4489762065",
-"posted": "2026-11-16",
-"remote": null,
-"country": null,
-"name_match": "loose"
-},
-{
-"id": "https://in.linkedin.com/jobs/view/associate-data-engineer-at-mondel%C4%93z-international-4489757161",
-"title": "Associate Data Engineer",
-"company": "Mondelēz International",
-"locations": [
-"Mumbai Metropolitan Region"
-],
-"url": "https://in.linkedin.com/jobs/view/associate-data-engineer-at-mondel%C4%93z-international-4489757161",
-"posted": "2026-11-16",
 "remote": null,
 "country": null,
 "name_match": "loose"
@@ -1496,10 +1393,6 @@
 },
 "Nvidia": {
 "checked_at": "2026-11-22T19:04:47+00:00",
-"jobs": []
-},
-"Nykaa": {
-"checked_at": "2026-11-22T10:18:44+00:00",
 "jobs": []
 },
 "P&G": {
@@ -1640,30 +1533,8 @@
 "checked_at": "2026-11-25T09:16:54+00:00",
 "jobs": []
 },
-"Snowflake": {
-"checked_at": "2026-11-22T11:31:27+00:00",
-"jobs": [
-{
-"id": "https://in.linkedin.com/jobs/view/data-engineer-at-snowflake-4484427163",
-"title": "Data Engineer",
-"company": "Snowflake",
-"locations": [
-"Pune Division, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/data-engineer-at-snowflake-4484427163",
-"posted": "2026-11-18",
-"remote": null,
-"country": null,
-"name_match": "exact"
-}
-]
-},
 "Société Générale": {
 "checked_at": "2026-11-23T01:54:38+00:00",
-"jobs": []
-},
-"Standard Chartered": {
-"checked_at": "2026-11-22T11:57:23+00:00",
 "jobs": []
 },
 "TIAA": {
@@ -1740,24 +1611,12 @@
 "checked_at": "2026-11-23T01:54:38+00:00",
 "jobs": []
 },
-"Tekion": {
-"checked_at": "2026-11-22T11:57:23+00:00",
-"jobs": []
-},
 "Telstra": {
 "checked_at": "2026-11-23T01:54:38+00:00",
 "jobs": []
 },
-"Teradata": {
-"checked_at": "2026-11-22T11:57:23+00:00",
-"jobs": []
-},
 "Tesla": {
 "checked_at": "2026-11-23T01:54:38+00:00",
-"jobs": []
-},
-"Tetra Pak": {
-"checked_at": "2026-11-22T13:13:49+00:00",
 "jobs": []
 },
 "Thermo Fisher Scientific": {
@@ -1768,24 +1627,8 @@
 "checked_at": "2026-11-23T01:54:38+00:00",
 "jobs": []
 },
-"Tiger Analytics": {
-"checked_at": "2026-11-22T13:13:49+00:00",
-"jobs": []
-},
-"TomTom": {
-"checked_at": "2026-11-22T13:13:49+00:00",
-"jobs": []
-},
 "Trajector": {
 "checked_at": "2026-11-25T09:16:54+00:00",
-"jobs": []
-},
-"Truecaller": {
-"checked_at": "2026-11-22T15:01:32+00:00",
-"jobs": []
-},
-"Twilio": {
-"checked_at": "2026-11-22T15:01:32+00:00",
 "jobs": []
 },
 "UBS": {
@@ -1802,10 +1645,6 @@
 },
 "VMware (Broadcom)": {
 "checked_at": "2026-11-24T20:53:57+00:00",
-"jobs": []
-},
-"Vector Informatik": {
-"checked_at": "2026-11-22T10:18:44+00:00",
 "jobs": []
 },
 "Veeam": {
@@ -1975,7 +1814,7 @@
 "jobs": []
 },
 "_remote_india": {
-"checked_at": "2026-11-25T22:35:49+00:00",
+"checked_at": "2026-11-26T15:21:11+00:00",
 "jobs": [
 {
 "id": "https://in.linkedin.com/jobs/view/data-engineer-i-at-amazon-4481247187",
