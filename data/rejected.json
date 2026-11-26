@@ -1,9 +1,9 @@
 {
 "meta": {
-"generated_at": "2026-11-26T19:31:54+00:00",
+"generated_at": "2026-11-26T19:50:00+00:00",
 "date": "2026-11-27",
 "recency_days": 60,
-"count": 373
+"count": 394
 },
 "rejected": [
 {
@@ -825,6 +825,18 @@
 "source": "linkedin"
 },
 {
+"company": "Baker Hughes",
+"title": "Digital Technology Advisor - Data Science",
+"location": "IN-MH-MUMBAI-HIRANANDANI BUSINESS PARK POWAI",
+"posted": "Posted Today",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://bakerhughes.wd5.myworkdayjobs.com/en-US/BakerHughes/job/IN-MH-MUMBAI-HIRANANDANI-BUSINESS-PARK-POWAI/Digital-Technology-Advisor---Data-Science_R171140",
+"source": "workday"
+},
+{
 "company": "Bloomberg",
 "title": "Product Manager, Unstructured Data Platform MCP, Enterprise Data",
 "location": "London, United Kingdom",
@@ -1463,6 +1475,16 @@
 {
 "company": "Databricks",
 "title": "Senior Solutions Architect (EDW Enterprise Data Warehouse Migrations)",
+"location": "Paris, France",
+"posted": "2026-08-17T03:49:59-04:00",
+"reason": "location",
+"tags": [],
+"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8720251002",
+"source": "greenhouse"
+},
+{
+"company": "Databricks",
+"title": "Senior Solutions Architect (EDW Enterprise Data Warehouse Migrations)",
 "location": "London, United Kingdom",
 "posted": "2026-08-17T03:46:40-04:00",
 "reason": "location",
@@ -1478,16 +1500,6 @@
 "reason": "location",
 "tags": [],
 "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8720253002",
-"source": "greenhouse"
-},
-{
-"company": "Databricks",
-"title": "Senior Solutions Architect (EDW Enterprise Data Warehouse Migrations)",
-"location": "Paris, France",
-"posted": "2026-08-17T03:49:59-04:00",
-"reason": "location",
-"tags": [],
-"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8720251002",
 "source": "greenhouse"
 },
 {
@@ -1553,21 +1565,21 @@
 {
 "company": "Databricks",
 "title": "Sr. Designated Support Engineer - Spark",
-"location": "Seoul, South Korea",
-"posted": "2026-11-02T10:48:03-05:00",
-"reason": "location",
-"tags": [],
-"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8661520002",
-"source": "greenhouse"
-},
-{
-"company": "Databricks",
-"title": "Sr. Designated Support Engineer - Spark",
 "location": "Singapore",
 "posted": "2026-11-02T10:45:11-05:00",
 "reason": "location",
 "tags": [],
 "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8907735002",
+"source": "greenhouse"
+},
+{
+"company": "Databricks",
+"title": "Sr. Designated Support Engineer - Spark",
+"location": "Seoul, South Korea",
+"posted": "2026-11-02T10:48:03-05:00",
+"reason": "location",
+"tags": [],
+"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8661520002",
 "source": "greenhouse"
 },
 {
@@ -1593,16 +1605,6 @@
 {
 "company": "Databricks",
 "title": "Sr. Product Manager, Databricks AI",
-"location": "Seattle, Washington",
-"posted": "2025-08-25T14:19:53-04:00",
-"reason": "location",
-"tags": [],
-"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8136204002",
-"source": "greenhouse"
-},
-{
-"company": "Databricks",
-"title": "Sr. Product Manager, Databricks AI",
 "location": "San Francisco, California",
 "posted": "2025-08-25T14:19:01-04:00",
 "reason": "location",
@@ -1612,12 +1614,12 @@
 },
 {
 "company": "Databricks",
-"title": "Sr. Product Manager, Databricks Free Edition",
+"title": "Sr. Product Manager, Databricks AI",
 "location": "Seattle, Washington",
-"posted": "2025-10-31T12:57:29-04:00",
+"posted": "2025-08-25T14:19:53-04:00",
 "reason": "location",
 "tags": [],
-"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8235785002",
+"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8136204002",
 "source": "greenhouse"
 },
 {
@@ -1632,12 +1634,12 @@
 },
 {
 "company": "Databricks",
-"title": "Sr. Product Manager, Databricks Repos",
-"location": "San Francisco, California",
-"posted": "2025-12-05T16:31:10-05:00",
+"title": "Sr. Product Manager, Databricks Free Edition",
+"location": "Seattle, Washington",
+"posted": "2025-10-31T12:57:29-04:00",
 "reason": "location",
 "tags": [],
-"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8326513002",
+"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8235785002",
 "source": "greenhouse"
 },
 {
@@ -1652,12 +1654,12 @@
 },
 {
 "company": "Databricks",
-"title": "Sr. Product Manager, Lakebase/Lakehouse",
-"location": "Seattle, Washington",
-"posted": "2026-10-07T15:09:28-04:00",
+"title": "Sr. Product Manager, Databricks Repos",
+"location": "San Francisco, California",
+"posted": "2025-12-05T16:31:10-05:00",
 "reason": "location",
 "tags": [],
-"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8876675002",
+"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8326513002",
 "source": "greenhouse"
 },
 {
@@ -1668,6 +1670,16 @@
 "reason": "location",
 "tags": [],
 "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8811265002",
+"source": "greenhouse"
+},
+{
+"company": "Databricks",
+"title": "Sr. Product Manager, Lakebase/Lakehouse",
+"location": "Seattle, Washington",
+"posted": "2026-10-07T15:09:28-04:00",
+"reason": "location",
+"tags": [],
+"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8876675002",
 "source": "greenhouse"
 },
 {
@@ -1713,11 +1725,11 @@
 {
 "company": "Databricks",
 "title": "Staff Software Engineer - Distributed Data Systems",
-"location": "Bellevue, Washington",
-"posted": "2023-12-11T15:53:57-05:00",
+"location": "Belgrade, Serbia",
+"posted": "2025-05-28T09:58:13-04:00",
 "reason": "location",
 "tags": [],
-"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6937001002",
+"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8012831002",
 "source": "greenhouse"
 },
 {
@@ -1733,11 +1745,11 @@
 {
 "company": "Databricks",
 "title": "Staff Software Engineer - Distributed Data Systems",
-"location": "Belgrade, Serbia",
-"posted": "2025-05-28T09:58:13-04:00",
+"location": "Bellevue, Washington",
+"posted": "2023-12-11T15:53:57-05:00",
 "reason": "location",
 "tags": [],
-"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8012831002",
+"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6937001002",
 "source": "greenhouse"
 },
 {
@@ -1789,6 +1801,18 @@
 "tags": [],
 "url": "https://job-boards.greenhouse.io/doordashindia/jobs/8200625",
 "source": "greenhouse"
+},
+{
+"company": "Dow",
+"title": "Business Data Specialist - Product/Material",
+"location": "Navi Mumbai (IND)",
+"posted": "Posted Yesterday",
+"reason": "title not a data-engineering role",
+"tags": [
+"Navi Mumbai"
+],
+"url": "https://dow.wd1.myworkdayjobs.com/en-US/ExternalCareers/job/Navi-Mumbai-IND/Business-Data-Specialist---Product-Material_R2069436",
+"source": "workday"
 },
 {
 "company": "Drivetrain",
@@ -2067,6 +2091,18 @@
 "tags": [],
 "url": "https://fa-evlo-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/66158",
 "source": "oracle"
+},
+{
+"company": "Fiserv",
+"title": "Sr. Data Scientist",
+"location": "Pune - Trion Business Park, India",
+"posted": "Posted Today",
+"reason": "title not a data-engineering role",
+"tags": [
+"Pune"
+],
+"url": "https://fiserv.wd5.myworkdayjobs.com/en-US/EXT/job/Pune---Trion-Business-Park-India/Sr-Data-Scientist_R-10407619",
+"source": "workday"
 },
 {
 "company": "Fivetran",
@@ -2871,6 +2907,48 @@
 "source": "eightfold"
 },
 {
+"company": "MSD (Merck & Co.)",
+"title": "Junior Analytics Engineer",
+"location": "IND - Telangana - Hyderabad (Hitec City Raidurg)",
+"posted": "Posted 2 Days Ago",
+"reason": "location",
+"tags": [],
+"url": "https://msd.wd5.myworkdayjobs.com/en-US/SearchJobs/job/IND---Telangana---Hyderabad-Hitec-City-Raidurg/Junior-Analytics-Engineer_R429405-1",
+"source": "workday"
+},
+{
+"company": "MSD (Merck & Co.)",
+"title": "Specialist, Analytics Engineer",
+"location": "IND - Telangana - Hyderabad (Hitec City Raidurg)",
+"posted": "Posted 2 Days Ago",
+"reason": "location",
+"tags": [],
+"url": "https://msd.wd5.myworkdayjobs.com/en-US/SearchJobs/job/IND---Telangana---Hyderabad-Hitec-City-Raidurg/Specialist--Analytics-Engineer_R429376",
+"source": "workday"
+},
+{
+"company": "MSD (Merck & Co.)",
+"title": "Specialist, Data Engineering",
+"location": "IND - Telangana - Hyderabad (Hitec City Raidurg)",
+"posted": "Posted 2 Days Ago",
+"reason": "location",
+"tags": [],
+"url": "https://msd.wd5.myworkdayjobs.com/en-US/SearchJobs/job/IND---Telangana---Hyderabad-Hitec-City-Raidurg/Specialist--Data-Engineering_R428291-1",
+"source": "workday"
+},
+{
+"company": "MSD (Merck & Co.)",
+"title": "Empower Master Data Analyst",
+"location": "IND - Maharashtra - Pune (Wework)",
+"posted": "Posted 28 Days Ago",
+"reason": "title not a data-engineering role",
+"tags": [
+"Pune"
+],
+"url": "https://msd.wd5.myworkdayjobs.com/en-US/SearchJobs/job/IND---Maharashtra---Pune-Wework/Empower-Master-Data-Analyst_R423257",
+"source": "workday"
+},
+{
 "company": "MetLife",
 "title": "Big Data Engineer I",
 "location": "Hyderabad, India",
@@ -3187,6 +3265,36 @@
 "source": "oracle"
 },
 {
+"company": "P&G",
+"title": "Data Engineer (Databricks)",
+"location": "HYDERABAD OFFICE INDIA PSC PGH",
+"posted": "Posted 16 Days Ago",
+"reason": "location",
+"tags": [],
+"url": "https://pg.wd5.myworkdayjobs.com/en-US/1000/job/HYDERABAD-OFFICE-INDIA-PSC-PGH/Data-Engineer--Databricks-_R000162190",
+"source": "workday"
+},
+{
+"company": "P&G",
+"title": "Senior Data Engineer",
+"location": "HYDERABAD OFFICE APAC PSC GDOP",
+"posted": "Posted 30+ Days Ago",
+"reason": "location",
+"tags": [],
+"url": "https://pg.wd5.myworkdayjobs.com/en-US/1000/job/HYDERABAD-OFFICE-APAC-PSC-GDOP/Senior-Data-Engineer_R000159103",
+"source": "workday"
+},
+{
+"company": "P&G",
+"title": "Senior Data Engineer (TOP Organization)",
+"location": "HYDERABAD OFFICE APAC PSC GDOP",
+"posted": "Posted 30+ Days Ago",
+"reason": "location",
+"tags": [],
+"url": "https://pg.wd5.myworkdayjobs.com/en-US/1000/job/HYDERABAD-OFFICE-APAC-PSC-GDOP/Senior-Data-Engineer--TOP-Organization-_R000157842",
+"source": "workday"
+},
+{
 "company": "PubMatic",
 "title": "Data Engineer – Mobile Monetization – Big Data, GenAI & Mobile AdTech",
 "location": "Redwood City, US",
@@ -3244,6 +3352,26 @@
 ],
 "url": "https://jobs.lever.co/resilinc/19bcaf55-4863-40cf-b424-23001db20ef7",
 "source": "lever"
+},
+{
+"company": "Salesforce",
+"title": "Customer Success Manager – Informatica Implementation Experience (CDI / Data Governance/ MDM)",
+"location": "India - Bangalore",
+"posted": "Posted 27 Days Ago",
+"reason": "location",
+"tags": [],
+"url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Bangalore/Customer-Success-Manager--Informatica---ETL-implementation-_JR364032",
+"source": "workday"
+},
+{
+"company": "Salesforce",
+"title": "Success Guide - Informatica Product experience mandatory",
+"location": "India - Bangalore",
+"posted": "Posted 27 Days Ago",
+"reason": "location",
+"tags": [],
+"url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Bangalore/Success-Guide---Informatica-Product-experience-mandatory_JR351410",
+"source": "workday"
 },
 {
 "company": "Siemens Digital Industries Software",
@@ -3554,6 +3682,98 @@
 ],
 "url": "https://jobs.tetrapak.com/job/Data-Analyst/101193-en_GB/",
 "source": "csb_unify"
+},
+{
+"company": "Thermo Fisher Scientific",
+"title": "AWS Data Platform Architect (AI & Graph)",
+"location": "Bangalore, India",
+"posted": "Posted 27 Days Ago",
+"reason": "location",
+"tags": [],
+"url": "https://thermofisher.wd5.myworkdayjobs.com/en-US/thermofishercareers/job/Bangalore-India/AWS-Data-Platform-Architect--AI---Graph-_R-01348307-1",
+"source": "workday"
+},
+{
+"company": "Thermo Fisher Scientific",
+"title": "Data Analyst – Analytics Engineering & AI",
+"location": "Bangalore, India",
+"posted": "Posted 30+ Days Ago",
+"reason": "location",
+"tags": [],
+"url": "https://thermofisher.wd5.myworkdayjobs.com/en-US/thermofishercareers/job/Bangalore-India/Data-Analyst---Analytics-Engineering---AI_R-01369315-1",
+"source": "workday"
+},
+{
+"company": "Thermo Fisher Scientific",
+"title": "Senior Data Analyst – Analytics Engineering & AI",
+"location": "Bangalore, India",
+"posted": "Posted 30+ Days Ago",
+"reason": "location",
+"tags": [],
+"url": "https://thermofisher.wd5.myworkdayjobs.com/en-US/thermofishercareers/job/Bangalore-India/Senior-Data-Analyst---Analytics-Engineering---AI_R-01369316",
+"source": "workday"
+},
+{
+"company": "Thermo Fisher Scientific",
+"title": "Senior Data Engineer",
+"location": "Hyderabad, India",
+"posted": "Posted 23 Days Ago",
+"reason": "location",
+"tags": [],
+"url": "https://thermofisher.wd5.myworkdayjobs.com/en-US/thermofishercareers/job/Hyderabad-India/Senior-Data-Engineer_R-01338302",
+"source": "workday"
+},
+{
+"company": "Thermo Fisher Scientific",
+"title": "Senior Data Engineer",
+"location": "Hyderabad, India",
+"posted": "Posted 23 Days Ago",
+"reason": "location",
+"tags": [],
+"url": "https://thermofisher.wd5.myworkdayjobs.com/en-US/thermofishercareers/job/Hyderabad-India/Senior-Data-Engineer_R-01371611-1",
+"source": "workday"
+},
+{
+"company": "Thermo Fisher Scientific",
+"title": "Senior Project Manager - Data Platform Transformation",
+"location": "Bangalore, India",
+"posted": "Posted 30+ Days Ago",
+"reason": "location",
+"tags": [],
+"url": "https://thermofisher.wd5.myworkdayjobs.com/en-US/thermofishercareers/job/Bangalore-India/Senior-Project-Manager---Data-Platform-Transformation_R-01370116",
+"source": "workday"
+},
+{
+"company": "Thermo Fisher Scientific",
+"title": "Senior Software Engineer — Python | Data Governance and Analytics",
+"location": "Bangalore, India",
+"posted": "Posted 14 Days Ago",
+"reason": "location",
+"tags": [],
+"url": "https://thermofisher.wd5.myworkdayjobs.com/en-US/thermofishercareers/job/Bangalore-India/Senior-Software-Engineer---Python---Data-Governance-and-Analytics_R-01375917",
+"source": "workday"
+},
+{
+"company": "Thermo Fisher Scientific",
+"title": "Sr. Data Platform Engineer",
+"location": "Bangalore, India",
+"posted": "Posted 30+ Days Ago",
+"reason": "location",
+"tags": [],
+"url": "https://thermofisher.wd5.myworkdayjobs.com/en-US/thermofishercareers/job/Bangalore-India/Sr-Data-Platform-Engineer_R-01370119-1",
+"source": "workday"
+},
+{
+"company": "Thermo Fisher Scientific",
+"title": "Senior Data Scientist – AI/ML",
+"location": "Mumbai, India",
+"posted": "Posted 30+ Days Ago",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://thermofisher.wd5.myworkdayjobs.com/en-US/thermofishercareers/job/Mumbai-India/Senior-Data-Scientist---AI-ML_R-01370487",
+"source": "workday"
 },
 {
 "company": "Tiger Analytics",
