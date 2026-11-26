@@ -793,7 +793,7 @@
 "jobs": []
 },
 "Dream Sports": {
-"checked_at": "2026-11-22T10:18:44+00:00",
+"checked_at": "2026-11-26T09:04:18+00:00",
 "jobs": []
 },
 "ESTECO": {
@@ -1494,20 +1494,12 @@
 "checked_at": "2026-11-22T17:54:35+00:00",
 "jobs": []
 },
-"Nutanix": {
-"checked_at": "2026-11-22T06:09:52+00:00",
-"jobs": []
-},
 "Nvidia": {
 "checked_at": "2026-11-22T19:04:47+00:00",
 "jobs": []
 },
 "Nykaa": {
 "checked_at": "2026-11-22T10:18:44+00:00",
-"jobs": []
-},
-"Oracle": {
-"checked_at": "2026-11-22T06:09:52+00:00",
 "jobs": []
 },
 "P&G": {
@@ -1588,28 +1580,12 @@
 }
 ]
 },
-"Principal Global Services": {
-"checked_at": "2026-11-22T06:09:52+00:00",
-"jobs": []
-},
-"PubMatic": {
-"checked_at": "2026-11-22T07:26:33+00:00",
-"jobs": []
-},
 "RBL Bank": {
 "checked_at": "2026-11-25T09:16:54+00:00",
 "jobs": []
 },
-"Razorpay": {
-"checked_at": "2026-11-22T07:26:33+00:00",
-"jobs": []
-},
 "Red Hat": {
 "checked_at": "2026-11-22T19:04:47+00:00",
-"jobs": []
-},
-"Resilinc": {
-"checked_at": "2026-11-22T07:26:33+00:00",
 "jobs": []
 },
 "Rockwell Automation": {
@@ -1630,16 +1606,8 @@
 }
 ]
 },
-"Rubrik": {
-"checked_at": "2026-11-22T09:00:21+00:00",
-"jobs": []
-},
 "S&P Global": {
 "checked_at": "2026-11-25T03:03:41+00:00",
-"jobs": []
-},
-"SAP": {
-"checked_at": "2026-11-22T09:00:21+00:00",
 "jobs": []
 },
 "SBI": {
@@ -1671,89 +1639,6 @@
 "Sciative": {
 "checked_at": "2026-11-25T09:16:54+00:00",
 "jobs": []
-},
-"Siemens Digital Industries Software": {
-"checked_at": "2026-11-22T09:00:21+00:00",
-"jobs": [
-{
-"id": "https://in.linkedin.com/jobs/view/dbt-cloud-data-engineer-at-siemens-digital-industries-software-4481371786",
-"title": "dbt Cloud Data Engineer",
-"company": "Siemens Digital Industries Software",
-"locations": [
-"Pune Division, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/dbt-cloud-data-engineer-at-siemens-digital-industries-software-4481371786",
-"posted": "2026-11-13",
-"remote": null,
-"country": null,
-"name_match": "exact"
-},
-{
-"id": "https://in.linkedin.com/jobs/view/analytics-engineer-service-manager-at-siemens-4487153100",
-"title": "Analytics Engineer & Service Manager",
-"company": "Siemens",
-"locations": [
-"Thane, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/analytics-engineer-service-manager-at-siemens-4487153100",
-"posted": "2026-11-09",
-"remote": null,
-"country": null,
-"name_match": "exact"
-},
-{
-"id": "https://in.linkedin.com/jobs/view/software-engineer-senior-at-siemens-digital-industries-software-4481390059",
-"title": "Software Engineer - Senior",
-"company": "Siemens Digital Industries Software",
-"locations": [
-"Pune Division, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/software-engineer-senior-at-siemens-digital-industries-software-4481390059",
-"posted": "2026-11-13",
-"remote": null,
-"country": null,
-"name_match": "exact"
-},
-{
-"id": "https://in.linkedin.com/jobs/view/sr-software-engineer-datawarehouse-at-siemens-healthineers-4486994260",
-"title": "Sr. Software Engineer (Datawarehouse)",
-"company": "Siemens Healthineers",
-"locations": [
-"Pune District, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/sr-software-engineer-datawarehouse-at-siemens-healthineers-4486994260",
-"posted": "2026-11-06",
-"remote": null,
-"country": null,
-"name_match": "loose"
-},
-{
-"id": "https://in.linkedin.com/jobs/view/senior-analytics-engineer-m-f-d-at-siemens-4479384806",
-"title": "Senior Analytics Engineer (m/f/d)",
-"company": "Siemens",
-"locations": [
-"Pune Division, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/senior-analytics-engineer-m-f-d-at-siemens-4479384806",
-"posted": "2026-10-16",
-"remote": null,
-"country": null,
-"name_match": "exact"
-},
-{
-"id": "https://in.linkedin.com/jobs/view/dbt-cloud-solution-architect-at-siemens-digital-industries-software-4481391076",
-"title": "dbt Cloud Solution Architect",
-"company": "Siemens Digital Industries Software",
-"locations": [
-"Pune Division, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/dbt-cloud-solution-architect-at-siemens-digital-industries-software-4481391076",
-"posted": "2026-11-13",
-"remote": null,
-"country": null,
-"name_match": "exact"
-}
-]
 },
 "Snowflake": {
 "checked_at": "2026-11-22T11:31:27+00:00",
