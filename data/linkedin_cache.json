@@ -49,6 +49,24 @@
 "checked_at": "2026-11-23T22:16:34+00:00",
 "jobs": []
 },
+"Atlas Copco": {
+"checked_at": "2026-11-26T19:31:17+00:00",
+"jobs": [
+{
+"id": "https://in.linkedin.com/jobs/view/senior-azure-data-engineer-at-atlas-copco-group-4487903093",
+"title": "Senior Azure Data Engineer",
+"company": "Atlas Copco Group",
+"locations": [
+"Pune Division, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/senior-azure-data-engineer-at-atlas-copco-group-4487903093",
+"posted": "2026-11-09",
+"remote": null,
+"country": null,
+"name_match": "exact"
+}
+]
+},
 "Atlassian": {
 "checked_at": "2026-11-23T22:41:26+00:00",
 "jobs": []
@@ -781,8 +799,16 @@
 "checked_at": "2026-11-25T10:32:28+00:00",
 "jobs": []
 },
+"Eruditus": {
+"checked_at": "2026-11-26T19:31:17+00:00",
+"jobs": []
+},
 "FIS": {
 "checked_at": "2026-11-24T20:53:57+00:00",
+"jobs": []
+},
+"FORVIA": {
+"checked_at": "2026-11-26T19:31:17+00:00",
 "jobs": []
 },
 "FedEx": {
@@ -1094,16 +1120,8 @@
 }
 ]
 },
-"MSD (Merck & Co.)": {
-"checked_at": "2026-11-22T15:58:09+00:00",
-"jobs": []
-},
 "Maersk": {
 "checked_at": "2026-11-26T15:20:52+00:00",
-"jobs": []
-},
-"Marsh McLennan": {
-"checked_at": "2026-11-22T17:54:35+00:00",
 "jobs": []
 },
 "Marvell": {
@@ -1211,24 +1229,6 @@
 }
 ]
 },
-"Medline": {
-"checked_at": "2026-11-22T17:54:35+00:00",
-"jobs": [
-{
-"id": "https://in.linkedin.com/jobs/view/technical-lead-bi-at-medline-4484653590",
-"title": "Technical Lead - BI",
-"company": "Medline",
-"locations": [
-"Pune Division, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/technical-lead-bi-at-medline-4484653590",
-"posted": "2026-11-03",
-"remote": null,
-"country": null,
-"name_match": "exact"
-}
-]
-},
 "Michelin": {
 "checked_at": "2026-11-26T15:20:52+00:00",
 "jobs": [
@@ -1246,6 +1246,10 @@
 "name_match": "exact"
 }
 ]
+},
+"Mitsubishi Electric India": {
+"checked_at": "2026-11-26T19:31:17+00:00",
+"jobs": []
 },
 "Mizuho": {
 "checked_at": "2026-11-23T01:54:38+00:00",
@@ -1343,56 +1347,8 @@
 "checked_at": "2026-11-25T20:08:41+00:00",
 "jobs": []
 },
-"Northern Trust": {
-"checked_at": "2026-11-22T17:54:35+00:00",
-"jobs": [
-{
-"id": "https://in.linkedin.com/jobs/view/senior-lead-data-engineering-at-northern-trust-4453424220",
-"title": "Senior Lead - Data Engineering",
-"company": "Northern Trust",
-"locations": [
-"Pune Division, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/senior-lead-data-engineering-at-northern-trust-4453424220",
-"posted": "2026-11-13",
-"remote": null,
-"country": null,
-"name_match": "exact"
-},
-{
-"id": "https://in.linkedin.com/jobs/view/sr-lead-cloud-data-platform-engg-at-northern-trust-4485511153",
-"title": "Sr Lead - Cloud Data Platform Engg",
-"company": "Northern Trust",
-"locations": [
-"Pune Division, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/sr-lead-cloud-data-platform-engg-at-northern-trust-4485511153",
-"posted": "2026-11-04",
-"remote": null,
-"country": null,
-"name_match": "exact"
-},
-{
-"id": "https://in.linkedin.com/jobs/view/sr-lead-sw-eng-at-northern-trust-4481870573",
-"title": "Sr Lead, SW Eng",
-"company": "Northern Trust",
-"locations": [
-"Pune Division, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/sr-lead-sw-eng-at-northern-trust-4481870573",
-"posted": "2026-11-17",
-"remote": null,
-"country": null,
-"name_match": "exact"
-}
-]
-},
-"Novartis": {
-"checked_at": "2026-11-22T17:54:35+00:00",
-"jobs": []
-},
-"Nvidia": {
-"checked_at": "2026-11-22T19:04:47+00:00",
+"Nykaa": {
+"checked_at": "2026-11-26T19:31:17+00:00",
 "jobs": []
 },
 "P&G": {
@@ -1415,10 +1371,6 @@
 },
 "Pfizer": {
 "checked_at": "2026-11-23T01:54:38+00:00",
-"jobs": []
-},
-"Philips": {
-"checked_at": "2026-11-22T19:04:47+00:00",
 "jobs": []
 },
 "PhonePe": {
@@ -1476,28 +1428,6 @@
 "RBL Bank": {
 "checked_at": "2026-11-25T09:16:54+00:00",
 "jobs": []
-},
-"Red Hat": {
-"checked_at": "2026-11-22T19:04:47+00:00",
-"jobs": []
-},
-"Rockwell Automation": {
-"checked_at": "2026-11-22T17:01:07+00:00",
-"jobs": [
-{
-"id": "https://in.linkedin.com/jobs/view/data-engineer-at-rockwell-automation-4472058107",
-"title": "Data Engineer",
-"company": "Rockwell Automation",
-"locations": [
-"Pune Division, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/data-engineer-at-rockwell-automation-4472058107",
-"posted": "2026-11-18",
-"remote": null,
-"country": null,
-"name_match": "exact"
-}
-]
 },
 "S&P Global": {
 "checked_at": "2026-11-25T03:03:41+00:00",
@@ -1635,10 +1565,6 @@
 "checked_at": "2026-11-23T01:54:38+00:00",
 "jobs": []
 },
-"Ubisoft": {
-"checked_at": "2026-11-22T15:58:09+00:00",
-"jobs": []
-},
 "Upstox": {
 "checked_at": "2026-11-25T09:16:54+00:00",
 "jobs": []
@@ -1647,166 +1573,24 @@
 "checked_at": "2026-11-24T20:53:57+00:00",
 "jobs": []
 },
-"Veeam": {
-"checked_at": "2026-11-22T15:58:09+00:00",
+"Vector Informatik": {
+"checked_at": "2026-11-26T19:31:17+00:00",
 "jobs": []
 },
 "Veritas Technologies": {
 "checked_at": "2026-11-25T09:16:54+00:00",
 "jobs": []
 },
-"Vertiv": {
-"checked_at": "2026-11-22T15:58:09+00:00",
-"jobs": [
-{
-"id": "https://in.linkedin.com/jobs/view/operations-data-developer-at-vertiv-4492966432",
-"title": "Operations Data Developer",
-"company": "Vertiv",
-"locations": [
-"Ulhasnagar, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/operations-data-developer-at-vertiv-4492966432",
-"posted": "2026-11-20",
-"remote": null,
-"country": null,
-"name_match": "exact"
-}
-]
-},
-"Visa": {
-"checked_at": "2026-11-22T17:54:35+00:00",
-"jobs": []
-},
-"Vodafone (VOIS)": {
-"checked_at": "2026-11-22T17:54:35+00:00",
-"jobs": [
-{
-"id": "https://in.linkedin.com/jobs/view/aws-data-engineer-vois-at-vodafone-4487117380",
-"title": "AWS Data Engineer - VOIS",
-"company": "Vodafone",
-"locations": [
-"Pune Division, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/aws-data-engineer-vois-at-vodafone-4487117380",
-"posted": "2026-11-08",
-"remote": null,
-"country": null,
-"name_match": "exact"
-},
-{
-"id": "https://in.linkedin.com/jobs/view/aws-data-engineer-vois-at-vois-4468599094",
-"title": "AWS Data Engineer - VOIS",
-"company": "VOIS",
-"locations": [
-"Pune Division, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/aws-data-engineer-vois-at-vois-4468599094",
-"posted": "2026-10-03",
-"remote": null,
-"country": null,
-"name_match": "exact"
-},
-{
-"id": "https://in.linkedin.com/jobs/view/deputy-manager-information-architect-at-vois-4484692396",
-"title": "Deputy Manager- Information Architect",
-"company": "VOIS",
-"locations": [
-"Pune Division, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/deputy-manager-information-architect-at-vois-4484692396",
-"posted": "2026-11-19",
-"remote": null,
-"country": null,
-"name_match": "exact"
-},
-{
-"id": "https://in.linkedin.com/jobs/view/deputy-manager-at-vois-4488239315",
-"title": "Deputy Manager",
-"company": "VOIS",
-"locations": [
-"Pune Division, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/deputy-manager-at-vois-4488239315",
-"posted": "2026-11-11",
-"remote": null,
-"country": null,
-"name_match": "exact"
-},
-{
-"id": "https://in.linkedin.com/jobs/view/ab-initio-developer-at-vois-4488228794",
-"title": "Ab Initio Developer",
-"company": "VOIS",
-"locations": [
-"Pune Division, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/ab-initio-developer-at-vois-4488228794",
-"posted": "2026-11-11",
-"remote": null,
-"country": null,
-"name_match": "exact"
-},
-{
-"id": "https://in.linkedin.com/jobs/view/senior-executive-assistant-manager-teradata-developer-at-vois-4486242852",
-"title": "Senior Executive/ Assistant Manager- Teradata Developer",
-"company": "VOIS",
-"locations": [
-"Pune Division, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/senior-executive-assistant-manager-teradata-developer-at-vois-4486242852",
-"posted": "2026-11-06",
-"remote": null,
-"country": null,
-"name_match": "exact"
-},
-{
-"id": "https://in.linkedin.com/jobs/view/ab-initio-developer-vois-at-vois-4491318012",
-"title": "Ab Initio Developer - VOIS",
-"company": "VOIS",
-"locations": [
-"Pune Division, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/ab-initio-developer-vois-at-vois-4491318012",
-"posted": "2026-11-18",
-"remote": null,
-"country": null,
-"name_match": "exact"
-}
-]
-},
 "Volkswagen Group Digital Solutions": {
 "checked_at": "2026-11-25T20:08:41+00:00",
-"jobs": []
-},
-"Voya": {
-"checked_at": "2026-11-22T17:01:07+00:00",
-"jobs": []
-},
-"Whirlpool": {
-"checked_at": "2026-11-22T17:54:35+00:00",
 "jobs": []
 },
 "Wolters Kluwer": {
 "checked_at": "2026-11-23T01:54:38+00:00",
 "jobs": []
 },
-"Workday": {
-"checked_at": "2026-11-22T17:01:07+00:00",
-"jobs": []
-},
-"Worldline": {
-"checked_at": "2026-11-22T19:04:47+00:00",
-"jobs": []
-},
-"Wärtsilä": {
-"checked_at": "2026-11-22T19:04:47+00:00",
-"jobs": []
-},
 "Yes Bank": {
 "checked_at": "2026-11-23T01:54:38+00:00",
-"jobs": []
-},
-"Zapier": {
-"checked_at": "2026-11-22T19:04:47+00:00",
 "jobs": []
 },
 "Zscaler": {
