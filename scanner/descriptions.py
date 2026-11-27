@@ -428,7 +428,7 @@ def linkedin_lookup(batch=LI_BATCH, log=print):
         try:
             time.sleep(li.PAUSE_SECS + random.random() * 4)
             r = sess.get(li.API, timeout=20, params={"keywords": f"{job['title']} {li.search_name(c)}",
-                                                    "location": "India", "f_TPR": "r2592000"})
+                                                    "location": "India"})
             if r.status_code in (429, 999) or r.status_code >= 400:
                 v["li_tries"] -= 1  # not the role's fault: try it again next run
                 log(f"descriptions: LinkedIn answered {r.status_code}; stopping this run")

@@ -32,7 +32,15 @@ FRESH_HOURS = 24   # a company checked this recently isn't searched again by the
 TIME_BUDGET = 600  # seconds; the rest of the companies wait for the next run
 SCAN_SEARCH_CAP = 6  # the daily scan searches at most this many companies itself (oldest check first);
                      # the hourly refresh does the rest, so one blocked scan doesn't spend LinkedIn's patience
-POSTED_WITHIN = f"r{RECENCY_DAYS * 86400}"  # LinkedIn's "posted in the last N seconds" filter
+# LinkedIn's "posted in the last N seconds" filter; with no age limit it isn't sent, so every
+# role LinkedIn still lists is found, however old
+POSTED_WITHIN = f"r{RECENCY_DAYS * 86400}" if RECENCY_DAYS else None
+
+
+def _since(params):
+    if POSTED_WITHIN:
+        params["f_TPR"] = POSTED_WITHIN
+    return params
 REMOTE_KEY = "_remote_india"  # cache entry for the general remote-India search
 REMOTE_PAGES = 3   # 10 results a page, newest first
 CARD = re.compile(r"<li>(.*?)</li>", re.S)
@@ -124,8 +132,8 @@ def scan_remote(companies, http, pages=REMOTE_PAGES, log=print):
     sess, out, seen = _session(http), [], set()
     try:
         for page in range(pages):
-            cards = fetch_page(sess, {"keywords": "data engineer", "location": "India", "f_WT": "2",
-                                      "f_TPR": POSTED_WITHIN, "start": page * 10}, http)
+            cards = fetch_page(sess, _since({"keywords": "data engineer", "location": "India", "f_WT": "2",
+                                             "start": page * 10}), http)
             for card in cards:
                 if card["id"] in seen:
                     continue
@@ -199,8 +207,8 @@ def scan_targets(targets, http, log=print):
             if time.time() - started > TIME_BUDGET:
                 raise RateLimited(f"time budget of {TIME_BUDGET // 60} min used")
             for page in range(PAGES):
-                params = {"keywords": f"data engineer {search_name(c)}", "location": "Maharashtra, India",
-                          "f_TPR": POSTED_WITHIN, "start": page * 10}
+                params = _since({"keywords": f"data engineer {search_name(c)}", "location": "Maharashtra, India",
+                                 "start": page * 10})
                 cards = fetch_page(sess, params, http)
                 for card in cards:
                     if card["id"] in seen:

@@ -1,7 +1,10 @@
-"""Coverage changes: 60-day window, exact dates, dropped-roles log, LinkedIn cross-check, scanner alerts."""
+"""Coverage changes: age limit (off by default, 60 days when switched on), exact dates, dropped-roles log,
+LinkedIn cross-check, scanner alerts."""
 from datetime import date, datetime, timezone
 
-from scanner import dates, linkedin
+import pytest
+
+from scanner import dates, filters, linkedin, run
 from scanner.adapters.workday import needs_detail
 from scanner.run import apply_filters, crosscheck, fill_dates_from_linkedin, scanner_alerts, title_key
 
@@ -13,7 +16,27 @@ def raw(title, loc="Pune, India", posted="2026-11-01", url=None, **kw):
     return {"title": title, "locations": [loc], "posted": posted, "url": url or f"https://x/{title}/{loc}", **kw}
 
 
-def test_window_is_60_days_and_rejects_are_logged():
+@pytest.fixture
+def limit60(monkeypatch):
+    """Switch the optional age limit on (it is off by default)."""
+    monkeypatch.setattr(filters, "RECENCY_DAYS", 60)
+    monkeypatch.setattr(run, "RECENCY_DAYS", 60)
+
+
+def test_no_age_limit_by_default_keeps_old_roles():
+    assert filters.RECENCY_DAYS is None and linkedin.POSTED_WITHIN is None
+    jobs, _, rej = apply_filters("Acme", [raw("Data Engineer", posted="2026-06-05"),
+                                          raw("Senior Data Engineer", posted="Posted 60+ Days Ago")], T, "rippling")
+    assert [j["title"] for j in jobs] == ["Data Engineer", "Senior Data Engineer"] and rej == []
+    assert jobs[0]["days_ago"] == 161 and jobs[1]["posted"] is None
+    k = {**site("Data Engineer"), "posted": None, "days_ago": None}
+    jobs, rejected = [k], []
+    fill_dates_from_linkedin([k], [card("Data Engineer", posted="2026-08-01")], T, jobs, rejected)
+    assert jobs == [k] and k["posted"] == "2026-08-01" and rejected == []
+    assert "f_TPR" not in linkedin._since({"keywords": "x"})
+
+
+def test_window_is_60_days_and_rejects_are_logged(limit60):
     jobs, n, rej = apply_filters("Acme", [
         raw("Senior Data Engineer", posted="2026-09-20"),          # 54 days: kept
         raw("Data Engineer", posted="2026-09-01"),                 # 73 days: dropped, logged
@@ -29,7 +52,7 @@ def test_window_is_60_days_and_rejects_are_logged():
     assert old["posted"] == "2026-09-01" and old["tags"] == ["Pune"]
 
 
-def test_vague_date_is_unknown_not_31_days():
+def test_vague_date_is_unknown_not_31_days(limit60):
     jobs, _, _ = apply_filters("Acme", [raw("Senior Data Engineer", posted="Posted 30+ Days Ago")], T, "workday")
     assert jobs[0]["posted"] is None and jobs[0]["date_note"] == "site only says Posted 30+ Days Ago"
     jobs, _, rej = apply_filters("Acme", [raw("Senior Data Engineer", posted="Posted 60+ Days Ago")], T, "x")
@@ -89,7 +112,7 @@ def test_crosscheck_adds_only_what_the_site_missed():
     assert any(x["reason"].startswith("on LinkedIn, but the careers site dropped it (older than 60 days)") for x in rej)
 
 
-def test_linkedin_date_fills_undated_site_role():
+def test_linkedin_date_fills_undated_site_role(limit60):
     j = {**site("Senior Data Engineer"), "posted": None, "days_ago": None}
     jobs, rejected = [j], []
     fill_dates_from_linkedin([j], [card("Sr Data Engineer", posted="2026-10-30")], T, jobs, rejected)
@@ -120,7 +143,6 @@ def test_remote_cache_entry():
     assert set(by) == {"Acme", "Beta"} and when == "2026-11-13T01:00:00+00:00"
     assert linkedin.fresh_entry(cache, "Acme", NOW) is None  # older than CACHE_DAYS
     assert linkedin.add_unique([{"id": "1"}], [{"id": "1"}, {"id": "3"}]) == [{"id": "1"}, {"id": "3"}]
-    assert linkedin.POSTED_WITHIN == "r5184000"
 
 
 def test_dedupe_keeps_two_openings_with_the_same_title():

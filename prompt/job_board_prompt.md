@@ -42,18 +42,18 @@ careers page and a LinkedIn search link, so nothing is dropped silently.
 
 Step 0d — LinkedIn fallback and cross-check
 LinkedIn's public, logged-out job search is used in two ways, with one search per company ("data
-engineer <company>", Maharashtra, posted in the last 60 days, first 10 results), paced a few seconds apart.
+engineer <company>", Maharashtra, any posting date, first 10 results), paced a few seconds apart.
 - Fallback: for every company whose own site gave nothing today (status "not scanned" or "error", or a
   site that returned zero postings), LinkedIn is the only source. This list is rebuilt from the latest
   scan every time, so it grows and shrinks as sites fail and recover.
 - Cross-check: every other company is searched too. A LinkedIn role that passes Part 1 counts as already
   covered when the careers site gave the same title (words compared after normalising; bare numbers
   such as "-4" ignored, levels such as II/III not) in an overlapping location tag. If the careers site
-  had that role but dropped it (for example older than 60 days by its exact date), the careers site wins
+  had that role but dropped it (for example for its location), the careers site wins
   and the LinkedIn copy is only logged. Anything else is a role the careers-site scan missed: it is
   added with `crosscheck: true` and shown as "via LinkedIn · missed by careers site". These rows are not
   flagged for review just for being cross-check finds.
-- Remote India: twice a day, one general search ("data engineer", India, remote, 60 days, 3 pages) is
+- Remote India: twice a day, one general search ("data engineer", India, remote, any posting date, 3 pages) is
   matched against every target company's name, for remote roles listed as just "India" that the
   Maharashtra searches don't show. Matches are marked remote in India and feed both uses above.
 LinkedIn usually stops answering after about a dozen searches from one machine, so the searching is
@@ -80,7 +80,7 @@ from the remote-India search above (the location filter needs a city or a remote
 
 Step 0e — Logs that explain a missing role
 - `data/rejected.json`: every posting with a data title that was dropped, with its reason (location,
-  older than 60 days with the exact date, a LinkedIn copy of a role the careers site dropped), plus
+  a LinkedIn copy of a role the careers site dropped), plus
   titles with the word "data" in Pune/Mumbai/remote that the title rules left out. Answer "why isn't X
   on the board?" from this file.
 - `data/history.json`: each company's posting count for its last 14 scans. A company is flagged in
@@ -153,13 +153,15 @@ Keep only rows whose location mentions Pune, Mumbai, Navi Mumbai, or a remote ro
 - A posting whose location is only "Multiple Locations" (some Avature sites) is kept and flagged
   "multiple locations - check", unless the text names a non-Indian country.
 
-Step 4 — Filter by recency
-Keep rows posted within the last 60 days (India date). Relative dates ("Posted 5 Days Ago",
+Step 4 — Posting dates (no age limit)
+There is no age limit: every role still listed on a careers site or on LinkedIn is kept, however old
+(since 27 Nov 2026; `RECENCY_DAYS` in scanner/filters.py brings a limit back if set to a number of
+days). Dates are still read for the "posted" column. Relative dates ("Posted 5 Days Ago",
 "2 weeks ago", "Yesterday") are converted to a day count. Exact dates come first:
 - Workday lists anything older than 30 days only as "Posted 30+ Days Ago". For roles that already pass
   the title filter and are in Pune/Mumbai/remote, the scanner opens the posting's own data and reads its
   exact `startDate` (the date it was last posted; a reposted role shows the repost date).
-- A vague "N+ days" with N under 60 that still has no exact date counts as unknown, not N+1 days.
+- A vague "N+ days" that still has no exact date counts as unknown, not N+1 days.
 - Roles with no date (Goldman Sachs, Jobvite, JazzHR, Kula and some page scrapers): the scanner reads
   `datePosted` from the posting page's hidden schema.org data; failing that, LinkedIn's date for the
   same title and city (`date_source`). Rows still without a date are kept ("date not given").
@@ -221,7 +223,7 @@ Step 10 — Header and summary stats
 - Eyebrow: "Career-site scan · Pune · Mumbai · Navi Mumbai · Remote India · <scan date>"
 - Title: "Data engineering roles at your target companies"
 - One-sentence subhead naming the checks each listing passed: own careers site, data-engineering title
-  or skill, location, posted in the last 60 days or undated, plus the LinkedIn fallback and cross-check.
+  or skill, location (any posting date), plus the LinkedIn fallback and cross-check.
 - Four stats: matching roles · companies hiring · new since last scan (roles that first appeared in
   this run) · careers sites scanned (scanned OK / total target companies).
 - NEW pill and the "New (2 days)" filter mark roles first seen in the last two days.

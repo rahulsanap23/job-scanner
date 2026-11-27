@@ -116,7 +116,7 @@ def test_retry_failed_stops_when_its_time_is_used(monkeypatch):
     assert run.retry_failed([{"name": "A"}], results, TODAY, log=lambda m: None, wait=0, budget=-1) == []
 
 
-def test_carry_forward_keeps_recent_site_roles_only():
+def test_carry_forward_keeps_recent_site_roles_only(monkeypatch):
     prev = [{"company": "A", "title": "Data Engineer", "source": "workday", "posted": "2026-11-20",
              "days_ago": 3, "location_tags": ["Pune"], "fresh": True, "new": True, "first_seen": "2026-11-20"},
             {"company": "A", "title": "Old", "source": "workday", "posted": "2026-08-01", "location_tags": ["Pune"]},
@@ -126,9 +126,13 @@ def test_carry_forward_keeps_recent_site_roles_only():
     reports = [{"company": "A", "status": "error", "notes": []}, {"company": "B", "status": "error", "notes": []}]
     carried = run.carry_forward(reports, prev, history, TODAY, NOW, log=lambda m: None)
     assert list(carried) == ["A"]  # B's last good scan is older than CARRY_HOURS
-    (j,) = carried["A"]
+    assert [j["title"] for j in carried["A"]] == ["Data Engineer", "Old"]  # no age limit: old roles kept too
+    from scanner import filters
+    monkeypatch.setattr(filters, "RECENCY_DAYS", 60)  # with the optional age limit on, the old role goes
+    (j,) = run.carry_forward([{"company": "A", "status": "error", "notes": []}], prev, history, TODAY, NOW,
+                             log=lambda m: None)["A"]
     assert j["title"] == "Data Engineer" and j["days_ago"] == 4 and j["carried_from"] == "2026-11-23T10:00:00+00:00"
-    assert "fresh" not in j and reports[0]["carried"] == {"from": "2026-11-23T10:00:00+00:00", "roles": 1}
+    assert "fresh" not in j and reports[0]["carried"] == {"from": "2026-11-23T10:00:00+00:00", "roles": 2}
 
 
 def test_linkedin_stops_at_first_429(monkeypatch):

@@ -6,7 +6,8 @@ tuned without touching the scrapers.
 import re
 from datetime import date, datetime, timedelta, timezone
 
-RECENCY_DAYS = 60  # roles posted in the last 60 days (India date) are kept
+RECENCY_DAYS = None  # no age limit: every role still listed on a careers site or LinkedIn is kept
+                     # (set a number of days here to bring a limit back)
 
 # ---------------------------------------------------------------- normalising
 
@@ -262,9 +263,14 @@ def _safe_date(y, mo, d):
         return None
 
 
-def is_recent(posted, today=None, days=RECENCY_DAYS):
-    """Unknown posting dates are kept (Step 4)."""
-    if posted is None:
+_LIMIT = object()
+
+
+def is_recent(posted, today=None, days=_LIMIT):
+    """Unknown posting dates are kept (Step 4). No age limit (RECENCY_DAYS None): every role is kept."""
+    if days is _LIMIT:
+        days = RECENCY_DAYS
+    if posted is None or days is None:
         return True
     today = today or today_utc()
     return (today - posted).days <= days

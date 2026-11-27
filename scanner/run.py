@@ -67,7 +67,7 @@ def apply_filters(company, raw, today, source):
         tags, notes = location_tags(r.get("locations"), r.get("remote"), r.get("country"))
         raw_posted = r.get("posted")
         vague = VAGUE_RE.search(raw_posted) if isinstance(raw_posted, str) else None
-        if vague and int(vague.group(1)) < RECENCY_DAYS:
+        if vague and (RECENCY_DAYS is None or int(vague.group(1)) < RECENCY_DAYS):
             posted = None  # "30+ days" could be 31 or 300 days: unknown, not 31
         else:
             posted = parse_posted(raw_posted, today)
@@ -180,7 +180,7 @@ def carry_forward(reports, prev_jobs, history, today, now, log=print):
             j = {k: v for k, v in j.items() if k not in ("fresh", "new", "first_seen")}
             if j.get("posted"):
                 j["days_ago"] = (today - datetime.fromisoformat(j["posted"]).date()).days
-                if j["days_ago"] > RECENCY_DAYS:
+                if not is_recent(datetime.fromisoformat(j["posted"]).date(), today):
                     continue
             j["carried_from"] = j.get("carried_from") or last
             keep.append(j)
@@ -191,6 +191,10 @@ def carry_forward(reports, prev_jobs, history, today, now, log=print):
             rep["matched"] = rep.get("matched", 0) + len(keep)
             log(f"{name}: site failed; keeping {len(keep)} roles from the scan at {last}")
     return carried
+
+
+def date_of(j):
+    return datetime.fromisoformat(j["posted"]).date()
 
 
 def scan_company(c, today, debug=False):
@@ -232,7 +236,7 @@ def scan_company(c, today, debug=False):
     # roles with no date: read datePosted from the posting page; drop it if that's too old
     if any(not j["posted"] for j in found):
         if dates.fill_missing(found, http, today):
-            for j in [j for j in found if j["posted"] and j["days_ago"] > RECENCY_DAYS]:
+            for j in [j for j in found if j["posted"] and not is_recent(date_of(j), today)]:
                 found.remove(j)
                 rejects.append({**reject(c["name"], {"title": j["title"], "locations": [j["location"]], "url": j["url"]},
                                          f"older than {RECENCY_DAYS} days", source, j["location_tags"]),
@@ -297,7 +301,7 @@ def fill_dates_from_linkedin(site_jobs, cards, today, jobs, rejected):
             if d and title_key(card.get("title")) == title_key(j["title"]) and set(tags) & set(j["location_tags"]):
                 j["posted"], j["days_ago"], j["date_source"] = d.isoformat(), (today - d).days, "LinkedIn"
                 j.pop("date_note", None)
-                if j["days_ago"] > RECENCY_DAYS:
+                if not is_recent(d, today):
                     jobs.remove(j)
                     rejected.append({**reject(j["company"], {"title": j["title"], "locations": [j["location"]],
                                                              "url": j["url"]}, f"older than {RECENCY_DAYS} days",
