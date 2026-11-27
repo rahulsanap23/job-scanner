@@ -87,6 +87,37 @@
 "checked_at": "2026-11-25T20:08:41+00:00",
 "jobs": []
 },
+"BNP Paribas": {
+"checked_at": "2026-11-27T10:55:47+00:00",
+"jobs": [
+{
+"id": "https://in.linkedin.com/jobs/view/assistant-manager-data-engineer-at-bnp-paribas-4489932102",
+"title": "Assistant Manager - Data Engineer",
+"company": "BNP Paribas",
+"locations": [
+"Mumbai, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/assistant-manager-data-engineer-at-bnp-paribas-4489932102",
+"posted": "2026-11-11",
+"remote": null,
+"country": null,
+"name_match": "exact"
+},
+{
+"id": "https://in.linkedin.com/jobs/view/python-data-engineer-at-bnp-paribas-4490745382",
+"title": "Python Data Engineer",
+"company": "BNP Paribas",
+"locations": [
+"Mumbai, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/python-data-engineer-at-bnp-paribas-4490745382",
+"posted": "2026-11-13",
+"remote": null,
+"country": null,
+"name_match": "exact"
+}
+]
+},
 "Baker Hughes": {
 "checked_at": "2026-11-24T18:57:01+00:00",
 "jobs": []
@@ -729,6 +760,10 @@
 "checked_at": "2026-11-26T19:49:27+00:00",
 "jobs": []
 },
+"FedEx": {
+"checked_at": "2026-11-27T10:55:47+00:00",
+"jobs": []
+},
 "FirstCry": {
 "checked_at": "2026-11-25T20:08:41+00:00",
 "jobs": []
@@ -1187,6 +1222,10 @@
 "checked_at": "2026-11-27T10:51:35+00:00",
 "jobs": []
 },
+"PhonePe": {
+"checked_at": "2026-11-27T10:55:47+00:00",
+"jobs": []
+},
 "RBL Bank": {
 "checked_at": "2026-11-25T09:16:54+00:00",
 "jobs": []
@@ -1273,12 +1312,20 @@
 }
 ]
 },
+"Tesla": {
+"checked_at": "2026-11-27T10:55:47+00:00",
+"jobs": []
+},
 "Thermo Fisher Scientific": {
 "checked_at": "2026-11-24T20:53:57+00:00",
 "jobs": []
 },
 "Trajector": {
 "checked_at": "2026-11-25T09:16:54+00:00",
+"jobs": []
+},
+"UBS": {
+"checked_at": "2026-11-27T10:55:47+00:00",
 "jobs": []
 },
 "Upstox": {
@@ -1409,6 +1456,24 @@
 "country": "India",
 "name_match": "exact",
 "target": "FedEx"
+}
+]
+},
+"bp": {
+"checked_at": "2026-11-27T10:55:47+00:00",
+"jobs": [
+{
+"id": "https://in.linkedin.com/jobs/view/staff-enterprise-technology-engineer-at-bp-4493822225",
+"title": "Staff enterprise technology engineer",
+"company": "bp",
+"locations": [
+"Pune Division, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/staff-enterprise-technology-engineer-at-bp-4493822225",
+"posted": "2026-11-26",
+"remote": null,
+"country": null,
+"name_match": "exact"
 }
 ]
 }

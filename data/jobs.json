@@ -1,13 +1,11 @@
 {
  "meta": {
-  "generated_at": "2026-11-27T09:33:40+00:00",
+  "generated_at": "2026-11-27T10:56:24+00:00",
   "date": "2026-11-27",
   "recency_days": 60,
-  "companies_total": 190,
-  "companies_scanned_ok": 91,
+  "companies_total": 191,
+  "companies_scanned_ok": 106,
   "companies_failed": [
-   "AIG",
-   "Abbott",
    "Air Products",
    "AllianceBernstein (Equitable)",
    "Amadeus",
@@ -16,45 +14,33 @@
    "Barclays",
    "BlackRock",
    "BrowserStack",
-   "Cisco",
    "Cohesity",
    "CrowdStrike",
    "DBS Bank",
    "Deutsche Bank",
-   "Dow",
    "Ecolab",
    "Equinix",
    "FIS",
-   "Fiserv",
    "General Mills",
    "Hitachi (Vantara, Payment Services)",
    "Johnson Controls",
    "KONE",
    "LSEG",
    "M&G",
-   "MSD (Merck & Co.)",
    "Maersk",
    "Marsh McLennan",
    "Marvell",
-   "Mastercard",
-   "Medline",
    "Michelin",
    "Mondelez",
    "Northern Trust",
    "Novartis",
-   "P&G",
-   "Pfizer",
+   "Nvidia",
    "Philips",
-   "Priceline (Booking Holdings)",
    "Red Hat",
    "Rockwell Automation",
    "S&P Global",
-   "Salesforce",
    "Sandvik",
-   "TIAA",
    "Telstra",
-   "Thermo Fisher Scientific",
-   "VMware (Broadcom)",
    "Voya",
    "Wolters Kluwer",
    "Workday",
@@ -109,36 +95,31 @@
    "Yes Bank"
   ],
   "companies_carried": [
-   "Cisco",
-   "Fiserv",
-   "P&G"
+   "Nvidia"
   ],
-  "jobs": 126,
+  "jobs": 125,
   "companies_with_jobs": 38,
-  "uncertain": 14,
-  "fresh": 8,
-  "linkedin": "17 of 102 companies checked in the last 24 h; not checked in 24 h: PhonePe, bp, BNP Paribas, Tesla, FedEx, UBS, P&G, Société Générale and 77 more (this scan: searched 6 companies)",
+  "uncertain": 15,
+  "fresh": 0,
+  "linkedin": "20 of 88 companies checked in the last 24 h; not checked in 24 h: Société Générale, Barclays, Deutsche Bank, SBI, Mizuho, HDFC Bank, BNY, ICICI Bank and 60 more (this scan: searched 6 companies)",
   "companies_checked_on_linkedin": [
-   "AIG",
-   "Abbott",
    "Air Products",
    "AllianceBernstein (Equitable)",
    "Amadeus",
    "Atlas Copco",
    "Autodesk",
    "BMW TechWorks India",
+   "BNP Paribas",
    "Baker Hughes",
    "Barclays",
    "BlackRock",
    "BrowserStack",
-   "Cisco",
    "Claroda",
    "Cohesity",
    "Confluent",
    "CrowdStrike",
    "DBS Bank",
    "Deutsche Bank",
-   "Dow",
    "Dream Sports",
    "Ecolab",
    "Equinix",
@@ -147,7 +128,6 @@
    "FORVIA",
    "FedEx",
    "FirstCry",
-   "Fiserv",
    "General Mills",
    "Hitachi (Vantara, Payment Services)",
    "Johnson Controls",
@@ -155,40 +135,37 @@
    "LSEG",
    "Lentra",
    "M&G",
-   "MSD (Merck & Co.)",
    "Maersk",
    "Marsh McLennan",
    "Marvell",
    "Media.net",
-   "Medline",
    "Michelin",
    "Mitsubishi Electric India",
    "Mondelez",
    "Netcore Cloud",
    "Northern Trust",
    "Novartis",
+   "Nvidia",
    "Nykaa",
-   "P&G",
-   "Priceline (Booking Holdings)",
+   "PhonePe",
    "RBL Bank",
    "S&P Global",
-   "Salesforce",
    "Sciative",
-   "TIAA",
-   "Thermo Fisher Scientific",
+   "Tesla",
    "Trajector",
+   "UBS",
    "Upstox",
-   "VMware (Broadcom)",
    "Vector Informatik",
    "Veritas Technologies",
    "Volkswagen Group Digital Solutions",
    "Wolters Kluwer",
-   "Workday"
+   "Workday",
+   "bp"
   ],
-  "linkedin_crosscheck": "23 of 88 scanned companies cross-checked on LinkedIn in the last 4 days; 3 roles the careers sites missed",
-  "missed_by_site": 4,
+  "linkedin_crosscheck": "35 of 103 scanned companies cross-checked on LinkedIn in the last 4 days; 5 roles the careers sites missed",
+  "missed_by_site": 5,
   "scanner_alerts": [],
-  "rejected": 401
+  "rejected": 459
  },
  "jobs": [
   {
@@ -204,6 +181,7 @@
    "source": "linkedin",
    "match": "title",
    "flags": [],
+   "crosscheck": true,
    "fresh": false,
    "first_seen": "2026-11-13",
    "new": false
@@ -364,6 +342,40 @@
    "flags": [],
    "fresh": false,
    "first_seen": "2026-11-15",
+   "new": false
+  },
+  {
+   "company": "BNP Paribas",
+   "title": "Python Data Engineer",
+   "location": "Mumbai, Maharashtra, India",
+   "location_tags": [
+    "Mumbai"
+   ],
+   "posted": "2026-11-13",
+   "days_ago": 14,
+   "url": "https://in.linkedin.com/jobs/view/python-data-engineer-at-bnp-paribas-4490745382",
+   "source": "linkedin",
+   "match": "title",
+   "flags": [],
+   "fresh": false,
+   "first_seen": "2026-11-14",
+   "new": false
+  },
+  {
+   "company": "BNP Paribas",
+   "title": "Assistant Manager - Data Engineer",
+   "location": "Mumbai, Maharashtra, India",
+   "location_tags": [
+    "Mumbai"
+   ],
+   "posted": "2026-11-11",
+   "days_ago": 16,
+   "url": "https://in.linkedin.com/jobs/view/assistant-manager-data-engineer-at-bnp-paribas-4489932102",
+   "source": "linkedin",
+   "match": "title",
+   "flags": [],
+   "fresh": false,
+   "first_seen": "2026-11-12",
    "new": false
   },
   {
@@ -573,55 +585,19 @@
   {
    "company": "Bloomberg",
    "title": "Senior Software Engineer - Data License Analytics, Pune",
-   "location": "Pune, India",
+   "location": "Pune Division, Maharashtra, India",
    "location_tags": [
     "Pune"
    ],
    "posted": "2026-11-23",
    "days_ago": 4,
-   "url": "https://bloomberg.avature.net/careers/JobDetail/Senior-Software-Engineer-Data-License-Analytics-Pune/46263",
-   "source": "avature",
-   "match": "title",
-   "flags": [],
-   "date_source": "LinkedIn",
-   "fresh": false,
-   "first_seen": "2026-11-23",
-   "new": false
-  },
-  {
-   "company": "Cisco",
-   "title": "Data Engineer",
-   "location": "Mumbai, Maharashtra, India",
-   "location_tags": [
-    "Mumbai"
-   ],
-   "posted": "2026-11-17",
-   "days_ago": 10,
-   "url": "https://in.linkedin.com/jobs/view/data-engineer-at-cisco-4467704802",
+   "url": "https://in.linkedin.com/jobs/view/senior-software-engineer-data-license-analytics-pune-at-bloomberg-4492605434",
    "source": "linkedin",
    "match": "title",
    "flags": [],
    "crosscheck": true,
    "fresh": false,
-   "first_seen": "2026-11-14",
-   "new": false
-  },
-  {
-   "company": "Cisco",
-   "title": "Data Architect - 13+ years exp, Snowflake, dbt, Python",
-   "location": "Bangalore, India; Pune, India; Hyderabad, India",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": "2026-11-03",
-   "days_ago": 24,
-   "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Data-Architect---13--years-exp--Snowflake--dBT--Python_2017847",
-   "source": "workday",
-   "match": "keyword:dbt",
-   "flags": [],
-   "carried_from": "2026-11-26T09:04:29+00:00",
-   "fresh": false,
-   "first_seen": "2026-11-03",
+   "first_seen": "2026-11-25",
    "new": false
   },
   {
@@ -637,7 +613,7 @@
    "source": "workday",
    "match": "title",
    "flags": [],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-11-27",
    "new": true
   },
@@ -815,6 +791,40 @@
   },
   {
    "company": "Citi",
+   "title": "Senior Data Platform Engineer",
+   "location": "Chennai Tamil Nadu India; Pune Maharashtra India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-11-18",
+   "days_ago": 9,
+   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Chennai-Tamil-Nadu-India/Senior-Data-Platform-Engineer_261000618",
+   "source": "workday",
+   "match": "keyword:data platform",
+   "flags": [],
+   "fresh": false,
+   "first_seen": "2026-11-26",
+   "new": true
+  },
+  {
+   "company": "Citi",
+   "title": "Data Engineer Python Developer",
+   "location": "Pune Maharashtra India; 1/124, SHIVAJI GARDENS, MOONLI",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-11-17",
+   "days_ago": 10,
+   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Data-Engineer-Python-Developer_26975041",
+   "source": "workday",
+   "match": "title",
+   "flags": [],
+   "fresh": false,
+   "first_seen": "2026-11-26",
+   "new": true
+  },
+  {
+   "company": "Citi",
    "title": "Senior Data Platform Engineer - Vice President",
    "location": "Pune Maharashtra India",
    "location_tags": [
@@ -951,24 +961,6 @@
   },
   {
    "company": "Citi",
-   "title": "Lead Data Engineer - Assistant Vice President",
-   "location": "Pune Maharashtra India",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": "2026-11-05",
-   "days_ago": 22,
-   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Lead-Data-Engineer--Big-Data--Hadoop--Hive--Python--Spark----Assistant-Vice-President---C12---Pune_25877329-1",
-   "source": "workday",
-   "match": "title",
-   "flags": [],
-   "date_source": "LinkedIn",
-   "fresh": true,
-   "first_seen": "2026-11-27",
-   "new": true
-  },
-  {
-   "company": "Citi",
    "title": "Lead Java Spark and Big Data Developer - Vice President",
    "location": "Pune Maharashtra India",
    "location_tags": [
@@ -983,24 +975,6 @@
    "fresh": false,
    "first_seen": "2026-11-13",
    "new": false
-  },
-  {
-   "company": "Citi",
-   "title": "Senior Databricks Engineer, Apache Spark and AWS - Vice President",
-   "location": "Pune Maharashtra India",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": "2026-11-05",
-   "days_ago": 22,
-   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Senior-Databricks-Engineer--Apache-Spark-and-AWS---Vice-President_26988514",
-   "source": "workday",
-   "match": "keyword:spark",
-   "flags": [],
-   "date_source": "LinkedIn",
-   "fresh": true,
-   "first_seen": "2026-11-27",
-   "new": true
   },
   {
    "company": "Citi",
@@ -1072,6 +1046,24 @@
   },
   {
    "company": "Citi",
+   "title": "Python ETL Developer",
+   "location": "1/124, SHIVAJI GARDENS, MOONLI; Pune Maharashtra India",
+   "location_tags": [
+    "Pune",
+    "Remote"
+   ],
+   "posted": "2026-11-02",
+   "days_ago": 25,
+   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/1124-SHIVAJI-GARDENS-MOONLI/Python-ETL-Developer_261002630",
+   "source": "workday",
+   "match": "keyword:etl",
+   "flags": [],
+   "fresh": false,
+   "first_seen": "2026-11-02",
+   "new": false
+  },
+  {
+   "company": "Citi",
    "title": "Big Data and Apache Spark Developer - Assistant Vice President",
    "location": "Pune Maharashtra India",
    "location_tags": [
@@ -1123,6 +1115,57 @@
   },
   {
    "company": "Citi",
+   "title": "Senior Software Engineer - Python and Data - Vice President",
+   "location": "Pune Maharashtra India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-10-23",
+   "days_ago": 35,
+   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Senior-Software-Engineer---Python-and-Data---Vice-President_261002381-1",
+   "source": "workday",
+   "match": "pattern",
+   "flags": [],
+   "fresh": false,
+   "first_seen": "2026-10-24",
+   "new": false
+  },
+  {
+   "company": "Citi",
+   "title": "Java Spark AngularJS App Development Manager AVP",
+   "location": "Pune Maharashtra India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-10-22",
+   "days_ago": 36,
+   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Applications-Development-Manager-Java---C12---PUNE_26964351",
+   "source": "workday",
+   "match": "keyword:spark",
+   "flags": [],
+   "fresh": false,
+   "first_seen": "2026-10-24",
+   "new": false
+  },
+  {
+   "company": "Citi",
+   "title": "Senior PySpark Python Data Engineer - Assistant Vice President",
+   "location": "Pune Maharashtra India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-10-21",
+   "days_ago": 37,
+   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Senior-PySpark-Python-Data-Engineer---Assistant-Vice-President_261000757",
+   "source": "workday",
+   "match": "title",
+   "flags": [],
+   "fresh": false,
+   "first_seen": "2026-11-13",
+   "new": false
+  },
+  {
+   "company": "Citi",
    "title": "Data Engineer - Python, AI",
    "location": "Pune Maharashtra India",
    "location_tags": [
@@ -1134,134 +1177,6 @@
    "source": "workday",
    "match": "title",
    "flags": [],
-   "fresh": false,
-   "first_seen": "2026-10-24",
-   "new": false
-  },
-  {
-   "company": "Citi",
-   "title": "Application Developer - Java Spark Big Data - Assistant Vice President - C12 - Pune",
-   "location": "Pune Maharashtra India",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": null,
-   "days_ago": null,
-   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Application-Developer---Java-Spark-Big-Data---Assistant-Vice-President---C12---Pune_25842776-1",
-   "source": "workday",
-   "match": "title",
-   "flags": [],
-   "date_note": "site only says Posted 30+ Days Ago",
-   "fresh": true,
-   "first_seen": "2026-11-27",
-   "new": true
-  },
-  {
-   "company": "Citi",
-   "title": "Application Developer - Java Spark Big Data - Assistant Vice President - C12 - Pune",
-   "location": "Pune Maharashtra India",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": null,
-   "days_ago": null,
-   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Application-Developer---Java-Spark-Big-Data---Assistant-Vice-President---C12---Pune_25842781-1",
-   "source": "workday",
-   "match": "title",
-   "flags": [],
-   "date_note": "site only says Posted 30+ Days Ago",
-   "fresh": true,
-   "first_seen": "2026-11-27",
-   "new": true
-  },
-  {
-   "company": "Citi",
-   "title": "Data Architect (Hadoop, Spark) -VP-C13 - PUNE",
-   "location": "Pune Maharashtra India",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": null,
-   "days_ago": null,
-   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Data-Architect--Hadoop--Spark---VP-C13---PUNE_25884304",
-   "source": "workday",
-   "match": "keyword:spark",
-   "flags": [],
-   "date_note": "site only says Posted 30+ Days Ago",
-   "fresh": true,
-   "first_seen": "2026-11-27",
-   "new": true
-  },
-  {
-   "company": "Citi",
-   "title": "Java Spark AngularJS App Development Manager AVP",
-   "location": "Pune Maharashtra India",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": null,
-   "days_ago": null,
-   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Applications-Development-Manager-Java---C12---PUNE_26964351",
-   "source": "workday",
-   "match": "keyword:spark",
-   "flags": [],
-   "date_note": "site only says Posted 30+ Days Ago",
-   "fresh": false,
-   "first_seen": "2026-10-24",
-   "new": false
-  },
-  {
-   "company": "Citi",
-   "title": "Officer- ETL Automation tester -QA - C10 -Hybrid- PUNE",
-   "location": "Pune Maharashtra India",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": null,
-   "days_ago": null,
-   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Officer--ETL-Automation-tester--QA---C10--Hybrid--PUNE_25883567",
-   "source": "workday",
-   "match": "keyword:etl",
-   "flags": [
-    "title borderline"
-   ],
-   "date_note": "site only says Posted 30+ Days Ago",
-   "fresh": true,
-   "first_seen": "2026-11-27",
-   "new": true
-  },
-  {
-   "company": "Citi",
-   "title": "Senior PySpark Python Data Engineer - Assistant Vice President",
-   "location": "Pune Maharashtra India",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": null,
-   "days_ago": null,
-   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Senior-PySpark-Python-Data-Engineer---Assistant-Vice-President_261000757",
-   "source": "workday",
-   "match": "title",
-   "flags": [],
-   "date_note": "site only says Posted 30+ Days Ago",
-   "fresh": false,
-   "first_seen": "2026-11-13",
-   "new": false
-  },
-  {
-   "company": "Citi",
-   "title": "Senior Software Engineer - Python and Data - Vice President",
-   "location": "Pune Maharashtra India",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": null,
-   "days_ago": null,
-   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Senior-Software-Engineer---Python-and-Data---Vice-President_261002381-1",
-   "source": "workday",
-   "match": "pattern",
-   "flags": [],
-   "date_note": "site only says Posted 30+ Days Ago",
    "fresh": false,
    "first_seen": "2026-10-24",
    "new": false
@@ -1532,13 +1447,12 @@
    "location_tags": [
     "Pune"
    ],
-   "posted": "2026-11-25",
-   "days_ago": 2,
+   "posted": "2026-11-24",
+   "days_ago": 3,
    "url": "https://fiserv.wd5.myworkdayjobs.com/en-US/EXT/job/Pune---Trion-Business-Park-India/Lead---Data-Engineer_R-10404839",
    "source": "workday",
    "match": "title",
    "flags": [],
-   "carried_from": "2026-11-26T19:50:00+00:00",
    "fresh": false,
    "first_seen": "2026-11-26",
    "new": true
@@ -1879,6 +1793,95 @@
    "new": false
   },
   {
+   "company": "Mastercard",
+   "title": "Lead Data Engineer",
+   "location": "Pune, India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-10-29",
+   "days_ago": 29,
+   "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Lead-Data-Engineer_R-280352",
+   "source": "workday",
+   "match": "title",
+   "flags": [],
+   "fresh": false,
+   "first_seen": "2026-10-30",
+   "new": false
+  },
+  {
+   "company": "Mastercard",
+   "title": "Lead Data Scientist (AI/ML, Python, Langchain, GenAI, Pyspark, SQL)",
+   "location": "Pune, India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-10-29",
+   "days_ago": 29,
+   "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Lead-Data-Scientist--AI-ML--Python--Langchain--GenAI--Pyspark--SQL-_R-293966",
+   "source": "workday",
+   "match": "keyword:pyspark",
+   "flags": [
+    "title borderline"
+   ],
+   "fresh": false,
+   "first_seen": "2026-10-29",
+   "new": false
+  },
+  {
+   "company": "Mastercard",
+   "title": "Senior Data Scientist (AI, ML, Pyspark, SQL)",
+   "location": "Pune, India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-10-29",
+   "days_ago": 29,
+   "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Senior-Data-Scientist--AI--ML--Pyspark--SQL-_R-293981",
+   "source": "workday",
+   "match": "keyword:pyspark",
+   "flags": [
+    "title borderline"
+   ],
+   "fresh": false,
+   "first_seen": "2026-10-29",
+   "new": false
+  },
+  {
+   "company": "Mastercard",
+   "title": "Data Engineer II",
+   "location": "Navi Mumbai, India (Finicity)",
+   "location_tags": [
+    "Navi Mumbai"
+   ],
+   "posted": "2026-10-06",
+   "days_ago": 52,
+   "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Navi-Mumbai-India-Finicity/Senior-Data-Engineer_R-287943",
+   "source": "workday",
+   "match": "title",
+   "flags": [],
+   "fresh": false,
+   "first_seen": "2026-10-24",
+   "new": false
+  },
+  {
+   "company": "Mastercard",
+   "title": "Principal Data Engineer - Data Quality",
+   "location": "Pune, India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-10-05",
+   "days_ago": 53,
+   "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Principal-Data-Engineer---Data-Quality_R-292616-1",
+   "source": "workday",
+   "match": "title",
+   "flags": [],
+   "fresh": false,
+   "first_seen": "2026-10-24",
+   "new": false
+  },
+  {
    "company": "Media.net",
    "title": "Senior Data Engineer (NR-2026-0240)",
    "location": "Mumbai, Maharashtra, India",
@@ -1921,12 +1924,12 @@
    ],
    "posted": "2026-11-06",
    "days_ago": 21,
-   "url": "https://www.metlifecareers.com/en_US/ml/JobDetail/Senior-Data-Engineer-Databricks-Data-Modeling-Architecture/21475",
+   "url": "https://www.metlifecareers.com/en_US/ml/JobDetail/Sr-Software-Platform-Engineer-I-Data-Engineer/21474",
    "source": "avature",
    "match": "title",
    "flags": [],
    "fresh": false,
-   "first_seen": "2026-11-08",
+   "first_seen": "2026-11-14",
    "new": false
   },
   {
@@ -2101,7 +2104,7 @@
    "source": "linkedin",
    "match": "title",
    "flags": [],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-11-27",
    "new": true
   },
@@ -2135,78 +2138,26 @@
    "source": "workday",
    "match": "title",
    "flags": [],
+   "carried_from": "2026-11-27T09:33:40+00:00",
    "fresh": false,
    "first_seen": "2026-10-24",
    "new": false
   },
   {
-   "company": "P&G",
+   "company": "Priceline (Booking Holdings)",
    "title": "Senior Data Engineer",
-   "location": "MUMBAI GENERAL OFFICE",
+   "location": "Mumbai",
    "location_tags": [
     "Mumbai"
    ],
-   "posted": "2026-11-24",
-   "days_ago": 3,
-   "url": "https://pg.wd5.myworkdayjobs.com/en-US/1000/job/MUMBAI-GENERAL-OFFICE/Senior-Data-Engineer_R000158699",
+   "posted": "2026-09-30",
+   "days_ago": 58,
+   "url": "https://priceline.wd1.myworkdayjobs.com/en-US/Priceline/job/Mumbai/Senior-Data-Engineer_R5797",
    "source": "workday",
    "match": "title",
    "flags": [],
-   "date_source": "LinkedIn",
-   "carried_from": "2026-11-26T19:50:00+00:00",
    "fresh": false,
-   "first_seen": "2026-11-13",
-   "new": false
-  },
-  {
-   "company": "Priceline (Booking Holdings)",
-   "title": "Senior Data Engineer",
-   "location": "Mumbai, Maharashtra, India",
-   "location_tags": [
-    "Mumbai"
-   ],
-   "posted": "2026-11-20",
-   "days_ago": 7,
-   "url": "https://in.linkedin.com/jobs/view/senior-data-engineer-at-priceline-4467546456",
-   "source": "linkedin",
-   "match": "title",
-   "flags": [],
-   "fresh": false,
-   "first_seen": "2026-11-14",
-   "new": false
-  },
-  {
-   "company": "Priceline (Booking Holdings)",
-   "title": "Staff Data Engineer",
-   "location": "Mumbai, Maharashtra, India",
-   "location_tags": [
-    "Mumbai"
-   ],
-   "posted": "2026-11-19",
-   "days_ago": 8,
-   "url": "https://in.linkedin.com/jobs/view/staff-data-engineer-at-priceline-4440086642",
-   "source": "linkedin",
-   "match": "title",
-   "flags": [],
-   "fresh": false,
-   "first_seen": "2026-11-14",
-   "new": false
-  },
-  {
-   "company": "Priceline (Booking Holdings)",
-   "title": "Data Engineer",
-   "location": "Mumbai, Maharashtra, India",
-   "location_tags": [
-    "Mumbai"
-   ],
-   "posted": "2026-11-06",
-   "days_ago": 21,
-   "url": "https://in.linkedin.com/jobs/view/data-engineer-at-priceline-4479355818",
-   "source": "linkedin",
-   "match": "title",
-   "flags": [],
-   "fresh": false,
-   "first_seen": "2026-11-14",
+   "first_seen": "2026-10-24",
    "new": false
   },
   {
