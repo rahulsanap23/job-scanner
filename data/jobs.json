@@ -1,15 +1,16 @@
 {
  "meta": {
-  "generated_at": "2026-11-27T12:09:33+00:00",
+  "generated_at": "2026-11-27T12:32:23+00:00",
   "date": "2026-11-27",
-  "recency_days": null,
+  "recency_days": 365,
   "companies_total": 191,
-  "companies_scanned_ok": 94,
+  "companies_scanned_ok": 95,
   "companies_failed": [
    "AIG",
    "Abbott",
    "Air Products",
    "AllianceBernstein (Equitable)",
+   "Allstate",
    "Amadeus",
    "Autodesk",
    "Baker Hughes",
@@ -22,7 +23,6 @@
    "CrowdStrike",
    "DBS Bank",
    "Deutsche Bank",
-   "Dow",
    "Ecolab",
    "Equinix",
    "FIS",
@@ -40,23 +40,22 @@
    "Marvell",
    "Medline",
    "Michelin",
-   "Mondelez",
    "Northern Trust",
    "Novartis",
    "Nvidia",
+   "Pfizer",
    "Philips",
-   "Priceline (Booking Holdings)",
    "Red Hat",
    "Rockwell Automation",
    "S&P Global",
-   "Salesforce",
    "Sandvik",
    "Telstra",
    "Thermo Fisher Scientific",
    "VMware (Broadcom)",
    "Voya",
    "Wolters Kluwer",
-   "Workday"
+   "Workday",
+   "bp"
   ],
   "companies_not_scanned": [
    "3Pillar Global",
@@ -109,19 +108,19 @@
   "companies_carried": [
    "Citi",
    "Fiserv",
-   "Nvidia",
-   "Priceline (Booking Holdings)"
+   "Nvidia"
   ],
-  "jobs": 155,
-  "companies_with_jobs": 50,
-  "uncertain": 19,
-  "fresh": 25,
-  "linkedin": "26 of 100 companies checked in the last 24 h; not checked in 24 h: Citi, Johnson & Johnson, Barclays, Deutsche Bank, SBI, Mizuho, Cisco, HDFC Bank and 66 more (this scan: stopped after 1 of 6 companies: LinkedIn answered 429)",
+  "jobs": 154,
+  "companies_with_jobs": 48,
+  "uncertain": 16,
+  "fresh": 1,
+  "linkedin": "26 of 99 companies checked in the last 24 h; not checked in 24 h: Citi, Johnson & Johnson, Barclays, Deutsche Bank, SBI, Allstate, Mizuho, Cisco and 65 more (this scan: stopped after 0 of 6 companies: LinkedIn answered 429)",
   "companies_checked_on_linkedin": [
    "AIG",
    "Abbott",
    "Air Products",
    "AllianceBernstein (Equitable)",
+   "Allstate",
    "Amadeus",
    "Atlas Copco",
    "Autodesk",
@@ -139,7 +138,6 @@
    "CrowdStrike",
    "DBS Bank",
    "Deutsche Bank",
-   "Dow",
    "Dream Sports",
    "Ecolab",
    "Equinix",
@@ -165,19 +163,18 @@
    "Medline",
    "Michelin",
    "Mitsubishi Electric India",
-   "Mondelez",
    "Netcore Cloud",
    "Northern Trust",
    "Novartis",
    "Nvidia",
    "Nykaa",
+   "Pfizer",
    "Philips",
    "PhonePe",
    "RBL Bank",
    "Red Hat",
    "Rockwell Automation",
    "S&P Global",
-   "Salesforce",
    "Sciative",
    "Société Générale",
    "Tesla",
@@ -190,12 +187,13 @@
    "Veritas Technologies",
    "Volkswagen Group Digital Solutions",
    "Wolters Kluwer",
-   "Workday"
+   "Workday",
+   "bp"
   ],
-  "linkedin_crosscheck": "26 of 91 scanned companies cross-checked on LinkedIn in the last 4 days; 4 roles the careers sites missed",
+  "linkedin_crosscheck": "26 of 92 scanned companies cross-checked on LinkedIn in the last 4 days; 4 roles the careers sites missed",
   "missed_by_site": 5,
   "scanner_alerts": [],
-  "rejected": 431
+  "rejected": 444
  },
  "jobs": [
   {
@@ -386,7 +384,7 @@
    "source": "smartrecruiters",
    "match": "keyword:snowflake",
    "flags": [],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-11-27",
    "new": true
   },
@@ -662,44 +660,6 @@
    "fresh": false,
    "first_seen": "2026-11-25",
    "new": false
-  },
-  {
-   "company": "Canonical",
-   "title": "Python and Kubernetes Software Engineer - Data, Workflows, AI/ML & Analytics",
-   "location": "Home based - Worldwide",
-   "location_tags": [
-    "Remote"
-   ],
-   "posted": "2024-04-11",
-   "days_ago": 960,
-   "url": "https://job-boards.greenhouse.io/canonical/jobs/5703396",
-   "source": "greenhouse",
-   "match": "title",
-   "flags": [
-    "remote - country not stated"
-   ],
-   "fresh": true,
-   "first_seen": "2026-11-27",
-   "new": true
-  },
-  {
-   "company": "Canonical",
-   "title": "Engineering Manager - Data Platform",
-   "location": "Home based - Worldwide",
-   "location_tags": [
-    "Remote"
-   ],
-   "posted": "2024-02-02",
-   "days_ago": 1029,
-   "url": "https://job-boards.greenhouse.io/canonical/jobs/5667860",
-   "source": "greenhouse",
-   "match": "keyword:data platform",
-   "flags": [
-    "remote - country not stated"
-   ],
-   "fresh": true,
-   "first_seen": "2026-11-27",
-   "new": true
   },
   {
    "company": "Cisco",
@@ -1381,7 +1341,7 @@
    "source": "jobsyn",
    "match": "title",
    "flags": [],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-11-27",
    "new": true
   },
@@ -1398,7 +1358,7 @@
    "source": "jobsyn",
    "match": "title",
    "flags": [],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-11-27",
    "new": true
   },
@@ -1415,7 +1375,7 @@
    "source": "jobsyn",
    "match": "title",
    "flags": [],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-11-27",
    "new": true
   },
@@ -1432,7 +1392,7 @@
    "source": "jobsyn",
    "match": "title",
    "flags": [],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-11-27",
    "new": true
   },
@@ -1449,7 +1409,7 @@
    "source": "jobsyn",
    "match": "title",
    "flags": [],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-11-27",
    "new": true
   },
@@ -1466,7 +1426,7 @@
    "source": "jobsyn",
    "match": "title",
    "flags": [],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-11-27",
    "new": true
   },
@@ -1483,7 +1443,7 @@
    "source": "jobsyn",
    "match": "title",
    "flags": [],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-11-27",
    "new": true
   },
@@ -1500,7 +1460,7 @@
    "source": "jobsyn",
    "match": "title",
    "flags": [],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-11-27",
    "new": true
   },
@@ -1517,7 +1477,7 @@
    "source": "jobsyn",
    "match": "title",
    "flags": [],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-11-27",
    "new": true
   },
@@ -1554,40 +1514,6 @@
    "fresh": false,
    "first_seen": "2026-11-16",
    "new": false
-  },
-  {
-   "company": "Drivetrain",
-   "title": "Product Manager - Data Platform",
-   "location": "India",
-   "location_tags": [
-    "Remote"
-   ],
-   "posted": "2024-12-26",
-   "days_ago": 701,
-   "url": "https://jobs.lever.co/drivetrain/12f4d396-83dd-466b-89ca-eb7ce9fa4194",
-   "source": "lever",
-   "match": "keyword:data platform",
-   "flags": [],
-   "fresh": true,
-   "first_seen": "2026-11-27",
-   "new": true
-  },
-  {
-   "company": "Drivetrain",
-   "title": "Software Engineer (Data Engineering)",
-   "location": "India",
-   "location_tags": [
-    "Remote"
-   ],
-   "posted": "2022-12-24",
-   "days_ago": 1434,
-   "url": "https://jobs.lever.co/drivetrain/c677fe8d-8f9d-483e-b523-62c77e1a0fb7",
-   "source": "lever",
-   "match": "title",
-   "flags": [],
-   "fresh": true,
-   "first_seen": "2026-11-27",
-   "new": true
   },
   {
    "company": "EPAM Systems",
@@ -1725,7 +1651,7 @@
    "source": "epam",
    "match": "title",
    "flags": [],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-11-27",
    "new": true
   },
@@ -1742,7 +1668,7 @@
    "source": "epam",
    "match": "title",
    "flags": [],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-11-27",
    "new": true
   },
@@ -1848,7 +1774,7 @@
    "source": "rippling",
    "match": "title",
    "flags": [],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-11-27",
    "new": true
   },
@@ -1866,7 +1792,7 @@
    "source": "rippling",
    "match": "title",
    "flags": [],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-11-27",
    "new": true
   },
@@ -1976,7 +1902,7 @@
    "match": "title",
    "flags": [],
    "date_source": "posting page",
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-11-27",
    "new": true
   },
@@ -2169,7 +2095,7 @@
    "source": "lever",
    "match": "keyword:data platform",
    "flags": [],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-11-27",
    "new": true
   },
@@ -2260,6 +2186,24 @@
   },
   {
    "company": "Mastercard",
+   "title": "Sr Data Engineer",
+   "location": "Pune, India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-11-05",
+   "days_ago": 22,
+   "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Sr-Tester-Data-Engineer_R-271045",
+   "source": "workday",
+   "match": "title",
+   "flags": [],
+   "date_source": "LinkedIn",
+   "fresh": false,
+   "first_seen": "2026-11-27",
+   "new": true
+  },
+  {
+   "company": "Mastercard",
    "title": "Lead Data Engineer",
    "location": "Pune, India",
    "location_tags": [
@@ -2346,23 +2290,6 @@
    "fresh": false,
    "first_seen": "2026-10-24",
    "new": false
-  },
-  {
-   "company": "Mastercard",
-   "title": "Sr Data Engineer",
-   "location": "Pune, India",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": "2026-07-21",
-   "days_ago": 129,
-   "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Sr-Tester-Data-Engineer_R-271045",
-   "source": "workday",
-   "match": "title",
-   "flags": [],
-   "fresh": true,
-   "first_seen": "2026-11-27",
-   "new": true
   },
   {
    "company": "Media.net",
@@ -2468,40 +2395,53 @@
   },
   {
    "company": "Mondelez",
-   "title": "Data Engineering Lead - Finance",
-   "location": "Mumbai Metropolitan Region",
+   "title": "Data Intelligence Agentic Engineer",
+   "location": "Mumbai, India",
    "location_tags": [
     "Mumbai"
    ],
-   "posted": "2026-11-19",
-   "days_ago": 8,
-   "url": "https://in.linkedin.com/jobs/view/data-engineering-lead-finance-at-mondel%C4%93z-international-4484939575",
-   "source": "linkedin",
-   "match": "title",
-   "flags": [
-    "company listed as 'Mondelēz International'"
-   ],
-   "fresh": false,
-   "first_seen": "2026-11-16",
-   "new": false
+   "posted": "2026-11-20",
+   "days_ago": 7,
+   "url": "https://mdlz.wd3.myworkdayjobs.com/en-US/External/job/Mumbai-India/Data-Intelligence-Agentic-Engineer_R-181997",
+   "source": "workday",
+   "match": "pattern",
+   "flags": [],
+   "fresh": true,
+   "first_seen": "2026-11-27",
+   "new": true
   },
   {
    "company": "Mondelez",
    "title": "Data Engineer",
-   "location": "Mumbai Metropolitan Region",
+   "location": "Mumbai, India",
    "location_tags": [
     "Mumbai"
    ],
    "posted": "2026-11-11",
    "days_ago": 16,
-   "url": "https://in.linkedin.com/jobs/view/data-engineer-at-mondel%C4%93z-international-4489968966",
-   "source": "linkedin",
+   "url": "https://mdlz.wd3.myworkdayjobs.com/en-US/External/job/Mumbai-India/Data-Engineer_R-178824",
+   "source": "workday",
    "match": "title",
-   "flags": [
-    "company listed as 'Mondelēz International'"
-   ],
+   "flags": [],
    "fresh": false,
-   "first_seen": "2026-11-16",
+   "first_seen": "2026-11-13",
+   "new": false
+  },
+  {
+   "company": "Mondelez",
+   "title": "Data Engineering Lead - Finance",
+   "location": "Mumbai, India",
+   "location_tags": [
+    "Mumbai"
+   ],
+   "posted": "2026-10-29",
+   "days_ago": 29,
+   "url": "https://mdlz.wd3.myworkdayjobs.com/en-US/External/job/Mumbai-India/Data-Engineering-Lead---Finance_R-172150-2",
+   "source": "workday",
+   "match": "title",
+   "flags": [],
+   "fresh": false,
+   "first_seen": "2026-10-29",
    "new": false
   },
   {
@@ -2667,13 +2607,31 @@
    "location_tags": [
     "Mumbai"
    ],
-   "posted": "2026-09-30",
-   "days_ago": 58,
+   "posted": null,
+   "days_ago": null,
    "url": "https://priceline.wd1.myworkdayjobs.com/en-US/Priceline/job/Mumbai/Senior-Data-Engineer_R5797",
    "source": "workday",
    "match": "title",
    "flags": [],
-   "carried_from": "2026-11-27T10:56:24+00:00",
+   "date_note": "site only says Posted 30+ Days Ago",
+   "fresh": false,
+   "first_seen": "2026-10-24",
+   "new": false
+  },
+  {
+   "company": "Priceline (Booking Holdings)",
+   "title": "Staff Data Engineer",
+   "location": "Mumbai",
+   "location_tags": [
+    "Mumbai"
+   ],
+   "posted": null,
+   "days_ago": null,
+   "url": "https://priceline.wd1.myworkdayjobs.com/en-US/Priceline/job/Mumbai/Staff-Data-Architect_R5735",
+   "source": "workday",
+   "match": "title",
+   "flags": [],
+   "date_note": "site only says Posted 30+ Days Ago",
    "fresh": false,
    "first_seen": "2026-10-24",
    "new": false
@@ -2709,7 +2667,7 @@
    "source": "greenhouse",
    "match": "title",
    "flags": [],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-11-27",
    "new": true
   },
@@ -2726,7 +2684,7 @@
    "source": "lever",
    "match": "title",
    "flags": [],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-11-27",
    "new": true
   },
@@ -2757,6 +2715,23 @@
    "url": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/525818",
    "source": "avature",
    "match": "title",
+   "flags": [
+    "multiple locations - check"
+   ],
+   "fresh": false,
+   "first_seen": "2026-10-24",
+   "new": false
+  },
+  {
+   "company": "Siemens Digital Industries Software",
+   "title": "Snowflake Platform Senior Developer",
+   "location": "Multiple Locations",
+   "location_tags": [],
+   "posted": null,
+   "days_ago": null,
+   "url": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/507816",
+   "source": "avature",
+   "match": "keyword:snowflake",
    "flags": [
     "multiple locations - check"
    ],
@@ -2830,7 +2805,7 @@
    "flags": [
     "title borderline"
    ],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-11-27",
    "new": true
   },
@@ -2898,7 +2873,7 @@
    "source": "eightfold",
    "match": "title",
    "flags": [],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-11-27",
    "new": true
   },
