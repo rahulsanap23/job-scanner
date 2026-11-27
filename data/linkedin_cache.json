@@ -1,8 +1,4 @@
 {
-"3Pillar Global": {
-"checked_at": "2026-11-23T01:54:38+00:00",
-"jobs": []
-},
 "AIG": {
 "checked_at": "2026-11-24T11:40:56+00:00",
 "jobs": []
@@ -83,10 +79,6 @@
 "checked_at": "2026-11-24T07:01:36+00:00",
 "jobs": []
 },
-"Axis Bank": {
-"checked_at": "2026-11-23T01:54:38+00:00",
-"jobs": []
-},
 "BMC Software": {
 "checked_at": "2026-11-24T07:01:36+00:00",
 "jobs": []
@@ -94,68 +86,6 @@
 "BMW TechWorks India": {
 "checked_at": "2026-11-25T20:08:41+00:00",
 "jobs": []
-},
-"BNP Paribas": {
-"checked_at": "2026-11-23T01:54:38+00:00",
-"jobs": [
-{
-"id": "https://in.linkedin.com/jobs/view/assistant-manager-data-engineer-at-bnp-paribas-4489932102",
-"title": "Assistant Manager - Data Engineer",
-"company": "BNP Paribas",
-"locations": [
-"Mumbai, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/assistant-manager-data-engineer-at-bnp-paribas-4489932102",
-"posted": "2026-11-11",
-"remote": null,
-"country": null,
-"name_match": "exact"
-},
-{
-"id": "https://in.linkedin.com/jobs/view/senior-python-engineer-%E2%80%94-technical-lead-at-bnp-paribas-4490731993",
-"title": "Senior Python Engineer — Technical Lead",
-"company": "BNP Paribas",
-"locations": [
-"Mumbai, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/senior-python-engineer-%E2%80%94-technical-lead-at-bnp-paribas-4490731993",
-"posted": "2026-11-13",
-"remote": null,
-"country": null,
-"name_match": "exact"
-},
-{
-"id": "https://in.linkedin.com/jobs/view/python-data-engineer-at-bnp-paribas-4490745382",
-"title": "Python Data Engineer",
-"company": "BNP Paribas",
-"locations": [
-"Mumbai, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/python-data-engineer-at-bnp-paribas-4490745382",
-"posted": "2026-11-13",
-"remote": null,
-"country": null,
-"name_match": "exact"
-}
-]
-},
-"BNY": {
-"checked_at": "2026-11-23T01:54:38+00:00",
-"jobs": [
-{
-"id": "https://in.linkedin.com/jobs/view/senior-specialist-data-transfer-integration-quality-at-bny-4491500604",
-"title": "Senior Specialist, Data Transfer, Integration & Quality",
-"company": "BNY",
-"locations": [
-"Mumbai Metropolitan Region"
-],
-"url": "https://in.linkedin.com/jobs/view/senior-specialist-data-transfer-integration-quality-at-bny-4491500604",
-"posted": "2026-11-16",
-"remote": null,
-"country": null,
-"name_match": "exact"
-}
-]
 },
 "Baker Hughes": {
 "checked_at": "2026-11-24T18:57:01+00:00",
@@ -300,10 +230,6 @@
 }
 ]
 },
-"BillDesk": {
-"checked_at": "2026-11-23T01:54:38+00:00",
-"jobs": []
-},
 "BlackRock": {
 "checked_at": "2026-11-23T22:41:26+00:00",
 "jobs": [
@@ -397,10 +323,6 @@
 },
 "Chargebee": {
 "checked_at": "2026-11-24T18:57:01+00:00",
-"jobs": []
-},
-"Cimpress": {
-"checked_at": "2026-11-23T01:54:38+00:00",
 "jobs": []
 },
 "Cisco": {
@@ -718,10 +640,6 @@
 "checked_at": "2026-11-26T15:20:52+00:00",
 "jobs": []
 },
-"Dassault Systèmes": {
-"checked_at": "2026-11-23T01:54:38+00:00",
-"jobs": []
-},
 "Databricks": {
 "checked_at": "2026-11-26T15:20:52+00:00",
 "jobs": []
@@ -809,14 +727,6 @@
 },
 "FORVIA": {
 "checked_at": "2026-11-26T19:49:27+00:00",
-"jobs": []
-},
-"FedEx": {
-"checked_at": "2026-11-23T01:54:38+00:00",
-"jobs": []
-},
-"Federal Bank": {
-"checked_at": "2026-11-23T01:54:38+00:00",
 "jobs": []
 },
 "FirstCry": {
@@ -924,10 +834,6 @@
 }
 ]
 },
-"HDFC Bank": {
-"checked_at": "2026-11-23T01:54:38+00:00",
-"jobs": []
-},
 "Hitachi (Vantara, Payment Services)": {
 "checked_at": "2026-11-25T22:35:31+00:00",
 "jobs": [
@@ -940,111 +846,6 @@
 ],
 "url": "https://in.linkedin.com/jobs/view/databricks-data-engineer-at-hitachi-solutions-india-pvt-ltd-4478105207",
 "posted": "2026-10-13",
-"remote": null,
-"country": null,
-"name_match": "exact"
-}
-]
-},
-"ICICI Bank": {
-"checked_at": "2026-11-23T01:54:38+00:00",
-"jobs": []
-},
-"IDFC FIRST Bank": {
-"checked_at": "2026-11-23T01:54:38+00:00",
-"jobs": [
-{
-"id": "https://in.linkedin.com/jobs/view/data-engineer-at-idfc-first-bank-4472570098",
-"title": "Data Engineer",
-"company": "IDFC FIRST Bank",
-"locations": [
-"Thane, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/data-engineer-at-idfc-first-bank-4472570098",
-"posted": "2026-11-13",
-"remote": null,
-"country": null,
-"name_match": "exact"
-},
-{
-"id": "https://in.linkedin.com/jobs/view/data-engineer-at-idfc-first-bank-4492133700",
-"title": "Data Engineer",
-"company": "IDFC FIRST Bank",
-"locations": [
-"Mumbai, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/data-engineer-at-idfc-first-bank-4492133700",
-"posted": "2026-11-19",
-"remote": null,
-"country": null,
-"name_match": "exact"
-}
-]
-},
-"IndusInd Bank": {
-"checked_at": "2026-11-23T01:54:38+00:00",
-"jobs": []
-},
-"Jefferies": {
-"checked_at": "2026-11-23T01:54:38+00:00",
-"jobs": [
-{
-"id": "https://in.linkedin.com/jobs/view/vp-snowflake-data-engineer-risk-technology-at-jefferies-4387299334",
-"title": "VP - Snowflake Data Engineer - Risk Technology",
-"company": "Jefferies",
-"locations": [
-"Pune Division, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/vp-snowflake-data-engineer-risk-technology-at-jefferies-4387299334",
-"posted": "2026-11-15",
-"remote": null,
-"country": null,
-"name_match": "exact"
-},
-{
-"id": "https://in.linkedin.com/jobs/view/vp-senior-java-engineer-ib-tech-and-crm-analytics-at-jefferies-4471890703",
-"title": "VP - Senior Java Engineer - IB Tech and CRM/ Analytics",
-"company": "Jefferies",
-"locations": [
-"Pune Division, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/vp-senior-java-engineer-ib-tech-and-crm-analytics-at-jefferies-4471890703",
-"posted": "2026-11-06",
-"remote": null,
-"country": null,
-"name_match": "exact"
-}
-]
-},
-"Jio": {
-"checked_at": "2026-11-23T01:54:38+00:00",
-"jobs": []
-},
-"JioHotstar": {
-"checked_at": "2026-11-23T01:54:38+00:00",
-"jobs": [
-{
-"id": "https://in.linkedin.com/jobs/view/senior-data-engineer-at-jiostar-4435531653",
-"title": "Senior Data Engineer",
-"company": "JioStar",
-"locations": [
-"Mumbai, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/senior-data-engineer-at-jiostar-4435531653",
-"posted": "2026-11-12",
-"remote": null,
-"country": null,
-"name_match": "exact"
-},
-{
-"id": "https://in.linkedin.com/jobs/view/senior-software-development-engineer-data-engineer-at-jiostar-4472690997",
-"title": "Senior Software Development Engineer - Data Engineer",
-"company": "JioStar",
-"locations": [
-"Mumbai Metropolitan Region"
-],
-"url": "https://in.linkedin.com/jobs/view/senior-software-development-engineer-data-engineer-at-jiostar-4472690997",
-"posted": "2026-11-13",
 "remote": null,
 "country": null,
 "name_match": "exact"
@@ -1076,10 +877,6 @@
 "name_match": "exact"
 }
 ]
-},
-"Kotak Mahindra Bank": {
-"checked_at": "2026-11-23T01:54:38+00:00",
-"jobs": []
 },
 "LSEG": {
 "checked_at": "2026-11-26T05:07:07+00:00",
@@ -1120,6 +917,10 @@
 }
 ]
 },
+"MSD (Merck & Co.)": {
+"checked_at": "2026-11-27T09:14:46+00:00",
+"jobs": []
+},
 "Maersk": {
 "checked_at": "2026-11-26T15:20:52+00:00",
 "jobs": []
@@ -1131,89 +932,6 @@
 "Marvell": {
 "checked_at": "2026-11-25T03:03:41+00:00",
 "jobs": []
-},
-"Mastercard": {
-"checked_at": "2026-11-23T01:54:38+00:00",
-"jobs": [
-{
-"id": "https://in.linkedin.com/jobs/view/data-engineer-ii-at-mastercard-4474075906",
-"title": "Data Engineer II",
-"company": "Mastercard",
-"locations": [
-"Navi Mumbai, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/data-engineer-ii-at-mastercard-4474075906",
-"posted": "2026-11-17",
-"remote": null,
-"country": null,
-"name_match": "exact"
-},
-{
-"id": "https://in.linkedin.com/jobs/view/lead-data-engineer-at-mastercard-4454122491",
-"title": "Lead Data Engineer",
-"company": "Mastercard",
-"locations": [
-"Pune Division, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/lead-data-engineer-at-mastercard-4454122491",
-"posted": "2026-11-21",
-"remote": null,
-"country": null,
-"name_match": "exact"
-},
-{
-"id": "https://in.linkedin.com/jobs/view/principal-data-engineer-data-quality-at-mastercard-4473682999",
-"title": "Principal Data Engineer - Data Quality",
-"company": "Mastercard",
-"locations": [
-"Pune Division, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/principal-data-engineer-data-quality-at-mastercard-4473682999",
-"posted": "2026-11-18",
-"remote": null,
-"country": null,
-"name_match": "exact"
-},
-{
-"id": "https://in.linkedin.com/jobs/view/senior-data-engineer-at-mastercard-4446202389",
-"title": "Senior Data Engineer",
-"company": "Mastercard",
-"locations": [
-"Pune Division, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/senior-data-engineer-at-mastercard-4446202389",
-"posted": "2026-11-19",
-"remote": null,
-"country": null,
-"name_match": "exact"
-},
-{
-"id": "https://in.linkedin.com/jobs/view/sr-data-engineer-at-mastercard-4440181616",
-"title": "Sr Data Engineer",
-"company": "Mastercard",
-"locations": [
-"Pune Division, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/sr-data-engineer-at-mastercard-4440181616",
-"posted": "2026-11-05",
-"remote": null,
-"country": null,
-"name_match": "exact"
-},
-{
-"id": "https://in.linkedin.com/jobs/view/lead-software-engineer-at-mastercard-4475697858",
-"title": "Lead Software Engineer",
-"company": "Mastercard",
-"locations": [
-"Pune Division, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/lead-software-engineer-at-mastercard-4475697858",
-"posted": "2026-11-02",
-"remote": null,
-"country": null,
-"name_match": "exact"
-}
-]
 },
 "Media.net": {
 "checked_at": "2026-11-25T20:08:41+00:00",
@@ -1227,6 +945,24 @@
 ],
 "url": "https://in.linkedin.com/jobs/view/senior-data-engineer-nr-2026-0240-at-media-net-4490300664",
 "posted": "2026-11-12",
+"remote": null,
+"country": null,
+"name_match": "exact"
+}
+]
+},
+"Medline": {
+"checked_at": "2026-11-27T09:14:46+00:00",
+"jobs": [
+{
+"id": "https://in.linkedin.com/jobs/view/technical-lead-bi-at-medline-4484653590",
+"title": "Technical Lead - BI",
+"company": "Medline",
+"locations": [
+"Pune Division, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/technical-lead-bi-at-medline-4484653590",
+"posted": "2026-11-24",
 "remote": null,
 "country": null,
 "name_match": "exact"
@@ -1254,63 +990,6 @@
 "Mitsubishi Electric India": {
 "checked_at": "2026-11-26T19:49:27+00:00",
 "jobs": []
-},
-"Mizuho": {
-"checked_at": "2026-11-23T01:54:38+00:00",
-"jobs": [
-{
-"id": "https://in.linkedin.com/jobs/view/data-engineer-vp-at-mizuho-4490241534",
-"title": "Data Engineer VP",
-"company": "Mizuho",
-"locations": [
-"Pune City, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/data-engineer-vp-at-mizuho-4490241534",
-"posted": "2026-11-15",
-"remote": null,
-"country": null,
-"name_match": "exact"
-},
-{
-"id": "https://in.linkedin.com/jobs/view/vp-l2-%E2%80%93-data-integration-engineer-at-mizuho-4488672783",
-"title": "VP-L2 – Data Integration Engineer",
-"company": "Mizuho",
-"locations": [
-"Pune City, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/vp-l2-%E2%80%93-data-integration-engineer-at-mizuho-4488672783",
-"posted": "2026-11-11",
-"remote": null,
-"country": null,
-"name_match": "exact"
-},
-{
-"id": "https://in.linkedin.com/jobs/view/cloud-data-engineer-at-mizuho-4486041019",
-"title": "Cloud Data Engineer",
-"company": "Mizuho",
-"locations": [
-"Pune City, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/cloud-data-engineer-at-mizuho-4486041019",
-"posted": "2026-11-03",
-"remote": null,
-"country": null,
-"name_match": "exact"
-},
-{
-"id": "https://in.linkedin.com/jobs/view/data-platform-engineer-at-mizuho-4486025589",
-"title": "Data Platform Engineer",
-"company": "Mizuho",
-"locations": [
-"Pune City, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/data-platform-engineer-at-mizuho-4486025589",
-"posted": "2026-11-03",
-"remote": null,
-"country": null,
-"name_match": "exact"
-}
-]
 },
 "Mondelez": {
 "checked_at": "2026-11-26T15:20:52+00:00",
@@ -1343,12 +1022,73 @@
 }
 ]
 },
-"NPCI": {
-"checked_at": "2026-11-23T01:54:38+00:00",
-"jobs": []
-},
 "Netcore Cloud": {
 "checked_at": "2026-11-25T20:08:41+00:00",
+"jobs": []
+},
+"Northern Trust": {
+"checked_at": "2026-11-27T09:14:46+00:00",
+"jobs": [
+{
+"id": "https://in.linkedin.com/jobs/view/lead-azure-data-engineer-at-northern-trust-4482503205",
+"title": "Lead Azure Data Engineer",
+"company": "Northern Trust",
+"locations": [
+"Pune Division, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/lead-azure-data-engineer-at-northern-trust-4482503205",
+"posted": "2026-11-18",
+"remote": null,
+"country": null,
+"name_match": "exact"
+},
+{
+"id": "https://in.linkedin.com/jobs/view/data-engineer-at-northern-trust-4493003204",
+"title": "Data Engineer",
+"company": "Northern Trust",
+"locations": [
+"Pune Division, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/data-engineer-at-northern-trust-4493003204",
+"posted": "2026-11-24",
+"remote": null,
+"country": null,
+"name_match": "exact"
+},
+{
+"id": "https://in.linkedin.com/jobs/view/sr-lead-cloud-data-platform-engg-at-northern-trust-4485511153",
+"title": "Sr Lead - Cloud Data Platform Engg",
+"company": "Northern Trust",
+"locations": [
+"Pune Division, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/sr-lead-cloud-data-platform-engg-at-northern-trust-4485511153",
+"posted": "2026-11-25",
+"remote": null,
+"country": null,
+"name_match": "exact"
+},
+{
+"id": "https://in.linkedin.com/jobs/view/sr-lead-sw-eng-at-northern-trust-4481870573",
+"title": "Sr Lead, SW Eng",
+"company": "Northern Trust",
+"locations": [
+"Pune Division, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/sr-lead-sw-eng-at-northern-trust-4481870573",
+"posted": "2026-11-17",
+"remote": null,
+"country": null,
+"name_match": "exact"
+}
+]
+},
+"Novartis": {
+"checked_at": "2026-11-27T09:14:46+00:00",
+"jobs": []
+},
+"Nvidia": {
+"checked_at": "2026-11-27T09:14:46+00:00",
 "jobs": []
 },
 "Nykaa": {
@@ -1372,18 +1112,6 @@
 "name_match": "exact"
 }
 ]
-},
-"Pfizer": {
-"checked_at": "2026-11-23T01:54:38+00:00",
-"jobs": []
-},
-"PhonePe": {
-"checked_at": "2026-11-23T01:54:38+00:00",
-"jobs": []
-},
-"Postman": {
-"checked_at": "2026-11-23T01:54:38+00:00",
-"jobs": []
 },
 "Priceline (Booking Holdings)": {
 "checked_at": "2026-11-23T10:39:11+00:00",
@@ -1437,20 +1165,12 @@
 "checked_at": "2026-11-25T03:03:41+00:00",
 "jobs": []
 },
-"SBI": {
-"checked_at": "2026-11-23T01:54:38+00:00",
-"jobs": []
-},
-"Sandvik": {
-"checked_at": "2026-11-23T01:54:38+00:00",
+"Salesforce": {
+"checked_at": "2026-11-27T09:14:46+00:00",
 "jobs": []
 },
 "Sciative": {
 "checked_at": "2026-11-25T09:16:54+00:00",
-"jobs": []
-},
-"Société Générale": {
-"checked_at": "2026-11-23T01:54:38+00:00",
 "jobs": []
 },
 "TIAA": {
@@ -1523,32 +1243,12 @@
 }
 ]
 },
-"TeamViewer": {
-"checked_at": "2026-11-23T01:54:38+00:00",
-"jobs": []
-},
-"Telstra": {
-"checked_at": "2026-11-23T01:54:38+00:00",
-"jobs": []
-},
-"Tesla": {
-"checked_at": "2026-11-23T01:54:38+00:00",
-"jobs": []
-},
 "Thermo Fisher Scientific": {
 "checked_at": "2026-11-24T20:53:57+00:00",
 "jobs": []
 },
-"Tietoevry": {
-"checked_at": "2026-11-23T01:54:38+00:00",
-"jobs": []
-},
 "Trajector": {
 "checked_at": "2026-11-25T09:16:54+00:00",
-"jobs": []
-},
-"UBS": {
-"checked_at": "2026-11-23T01:54:38+00:00",
 "jobs": []
 },
 "Upstox": {
@@ -1569,14 +1269,6 @@
 },
 "Volkswagen Group Digital Solutions": {
 "checked_at": "2026-11-25T20:08:41+00:00",
-"jobs": []
-},
-"Wolters Kluwer": {
-"checked_at": "2026-11-23T01:54:38+00:00",
-"jobs": []
-},
-"Yes Bank": {
-"checked_at": "2026-11-23T01:54:38+00:00",
 "jobs": []
 },
 "Zscaler": {
@@ -1683,24 +1375,6 @@
 "country": "India",
 "name_match": "exact",
 "target": "FedEx"
-}
-]
-},
-"bp": {
-"checked_at": "2026-11-23T01:54:38+00:00",
-"jobs": [
-{
-"id": "https://in.linkedin.com/jobs/view/palantir-foundry-engineer-at-bp-4490887428",
-"title": "Palantir Foundry Engineer",
-"company": "bp",
-"locations": [
-"Pune Division, Maharashtra, India"
-],
-"url": "https://in.linkedin.com/jobs/view/palantir-foundry-engineer-at-bp-4490887428",
-"posted": "2026-11-18",
-"remote": null,
-"country": null,
-"name_match": "exact"
 }
 ]
 }
