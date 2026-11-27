@@ -1,43 +1,5 @@
 [
  {
-  "name": "forbes_smartrecruiters",
-  "url": "https://api.smartrecruiters.com/v1/companies/ForbesAdvisor/postings?limit=100",
-  "method": "GET",
-  "status": 200,
-  "final_url": "https://api.smartrecruiters.com/v1/companies/ForbesAdvisor/postings?limit=100",
-  "ctype": "application/json; charset=utf-8",
-  "length": 52,
-  "json_shape": {
-   "offset": 0,
-   "limit": 100,
-   "totalFound": 0,
-   "content": [
-    0
-   ]
-  },
-  "snippet": "{\"offset\":0,\"limit\":100,\"totalFound\":0,\"content\":[]}",
-  "secs": 0.13
- },
- {
-  "name": "forbes_smartrecruiters_lc",
-  "url": "https://api.smartrecruiters.com/v1/companies/forbesadvisor/postings?limit=100",
-  "method": "GET",
-  "status": 200,
-  "final_url": "https://api.smartrecruiters.com/v1/companies/forbesadvisor/postings?limit=100",
-  "ctype": "application/json; charset=utf-8",
-  "length": 52,
-  "json_shape": {
-   "offset": 0,
-   "limit": 100,
-   "totalFound": 0,
-   "content": [
-    0
-   ]
-  },
-  "snippet": "{\"offset\":0,\"limit\":100,\"totalFound\":0,\"content\":[]}",
-  "secs": 0.14
- },
- {
   "name": "forbes_rippling_api",
   "url": "https://api.rippling.com/platform/api/ats/v1/board/forbes-advisor/jobs",
   "method": "GET",
@@ -62,18 +24,112 @@
    }
   ],
   "snippet": "[{\"uuid\":\"a5806adc-e255-4029-9653-85546cd56284\",\"name\":\"Accounts Payable Specialist (Remote)\",\"department\":{\"id\":\"Finance\",\"label\":\"Finance\"},\"url\":\"https://ats.rippling.com/forbes-advisor/jobs/a5806adc-e255-4029-9653-85546cd56284\",\"workLocation\":{\"label\":\"Wilmington, DE\",\"id\":\"Wilmington, DE\"}},{\"uuid\":\"0622fcab-9ddf-488c-96ea-436d71ebf7bf\",\"name\":\" Business Analytics Manager (Remote)\",\"department\":{\"id\":\"Strategy\",\"label\":\"Strategy\"},\"url\":\"https://ats.rippling.com/forbes-advisor/jobs/0622fcab-9ddf-488c-96ea-436d71ebf7bf\",\"workLocation\":{\"label\":\"Ontario, Canada\",\"id\":\"Ontario, Canada\"}},{\"uuid\":\"52de5525-33b3-4db5-b586-197afa1a7dbd\",\"name\":\" Business Analytics Manager (Remote)\",\"department\":{\"id\":\"Strategy\",\"label\":\"Strategy\"},\"url\":\"https://ats.rippling.com/forbes-advisor/jobs/52de5525-33b3-4db5-b586-197afa1a7dbd\",\"workLocation\":{\"label\":\"London, United Kingdom\",\"id\":\"London, United Kingdom\"}},{\"uuid\":\"0dc9469c-2707-4da9-b195-3ab906f6b379\",\"name\":\"CMS Manager\",\"department\":{\"id\":\"Strategy\",\"label\":\"Strategy\"},\"url\":\"https://ats.rippling.com/forbes-advisor/jobs/0dc9469c-2707-4da9-b195-3ab906f6b379\",\"workLocation\":{\"label\":\"Chennai, India\",\"id\":\"Chennai, India\"}},{\"uuid\":\"116edf98-d690-45e7-8cbd-929882ce8cee\",\"name\":\"CMS Specialist\",\"department\":{\"id\":\"Strategy\",\"label\":\"Strategy\"},\"url\":\"https://ats.rippling.com/forbes-advisor/jobs/116edf98-d690-45e7-8cbd-929882ce8cee\",\"workLocation\":{\"label\":\"Remote (India)\",\"id\":\"Remote (India)\"}},{\"uuid\":\"32b8101c-ffe2-44a3-9f10-2d3ab96",
-  "secs": 0.14
+  "secs": 0.38
  },
  {
-  "name": "forbes_rippling_page",
-  "url": "https://ats.rippling.com/forbes-advisor/jobs",
+  "name": "forbes_rippling_job_api",
+  "url": "https://api.rippling.com/platform/api/ats/v1/board/forbes-advisor/jobs/a5806adc-e255-4029-9653-85546cd56284",
   "method": "GET",
   "status": 200,
-  "final_url": "https://ats.rippling.com/forbes-advisor/jobs",
+  "final_url": "https://api.rippling.com/platform/api/ats/v1/board/forbes-advisor/jobs/a5806adc-e255-4029-9653-85546cd56284",
+  "ctype": "application/json",
+  "length": 22288,
+  "json_shape": {
+   "uuid": "a5806adc-e255-4029-9653-85546cd56284",
+   "name": "Accounts Payable Specialist (Remote)",
+   "description": {
+    "company": "<div><body><p style='font-family:\"Basel Grotesk\",Arial,sans-serif;font-size:11pt",
+    "role": "<div><body><p style='font-family:\"Basel Grotesk\",Arial,sans-serif;font-size:11pt"
+   },
+   "workLocations": [
+    1,
+    "Wilmington, DE"
+   ],
+   "department": {
+    "name": "Finance",
+    "base_department": "Finance",
+    "department_tree": [
+     1,
+     "Finance"
+    ]
+   },
+   "employmentType": {
+    "label": "SALARIED_FT",
+    "id": "Salaried, full-time"
+   },
+   "createdOn": "2026-10-29T11:11:35.528000-07:00",
+   "activeJobApplication": {
+    "additionalQuestions": [
+     1,
+     {
+      "form": "...",
+      "name": "...",
+      "id": "..."
+     }
+    ],
+    "basicQuestions": [
+     10,
+     {
+      "oid": "...",
+      "fieldType": "...",
+      "title": "...",
+      "required": "..."
+     }
+    ]
+   },
+   "eeocQuestionnaireEnabled": false,
+   "eeocQuestionnaireEnabledForJobPost": false,
+   "url": "https://ats.rippling.com/forbes-advisor/jobs/a5806adc-e255-4029-9653-85546cd5628",
+   "board": {
+    "boardType": "RIPPLING",
+    "slug": "forbes-advisor",
+    "logo": {
+     "name": "Forbes Advisor Logo_Black_Blue_Horizontal.png",
+     "url": "https://secured-assets.ripplingcdn.com/us1/ats/6709a104dd9c152bd08df713/ats_publ",
+     "type": "image/png"
+    },
+    "banner": {
+     "name": "",
+     "url": null,
+     "type": ""
+    },
+    "title": "Smart Financial Decisions Made Simple",
+    "subtitle": "",
+    "boardURL": "https://ats.rippling.com/forbes-advisor/jobs",
+    "fontType": "TREBUCHET_MS_SANS_SERIF",
+    "linkColor": "#3453a7",
+    "buttonColor": "#2c816a",
+    "buttonTextColor": null,
+    "legalNotice": "<meta name=\"rteConfig\" content=\"{&quot;version&quot;:&quot;0.426.0&quot;,&quot;p",
+    "noOpeningsMessage": null,
+    "groupJobsByLocation": false,
+    "showBoardLogoOnJobPost": true,
+    "showCompanyInfoUnderJobPost": false,
+    "companyName": "Forbes Advisor",
+    "isTest": false
+   },
+   "payRangeDetails": [
+    0
+   ],
+   "applicationConfirmationTemplate": "676093a7358e05cd6d3837d5",
+   "hasAIEvaluationsEnabled": true,
+   "companyName": "Forbes Advisor",
+   "unlistedFromSearch": false,
+   "jsonLd": null
+  },
+  "snippet": "{\"uuid\":\"a5806adc-e255-4029-9653-85546cd56284\",\"name\":\"Accounts Payable Specialist (Remote)\",\"description\":{\"company\":\"<div><body><p style='font-family:\\\"Basel Grotesk\\\",Arial,sans-serif;font-size:11pt;font-weight:400;line-height:1.6;letter-spacing:0.25px;margin:4px 0px;padding:0px;'><span style=\\\"white-space:pre-wrap;\\\">At Forbes Advisor, our mission is to help readers turn their aspirations into reality. We arm people with trusted advice and guidance so they can make informed decisions they feel confident in and get back to doing the things they care about most.</span></p><p style='font-family:\\\"Basel Grotesk\\\",Arial,sans-serif;font-size:11pt;font-weight:400;line-height:1.6;letter-spacing:0.25px;margin:4px 0px;padding:0px;'><br></p><p style='font-family:\\\"Basel Grotesk\\\",Arial,sans-serif;font-size:11pt;font-weight:400;line-height:1.6;letter-spacing:0.25px;margin:4px 0px;padding:0px;'><span style=\\\"white-space:pre-wrap;\\\">We are an experienced team of industry experts dedicated to helping readers make smart decisions and choose the right products with ease. Forbes Advisor boasts decades of experience across dozens of geographies and teams, including Content, SEO, Business Intelligence, Finance, HR, Marketing, Production, Technology and Sales. The team brings rich industry knowledge to Forbes Advisor's global coverage of consumer credit, debt, health, home improvement, banking, investing, credit cards, small business, education, insurance, loans, real estate and travel.</span",
+  "secs": 0.27
+ },
+ {
+  "name": "forbes_rippling_job_page",
+  "url": "https://ats.rippling.com/forbes-advisor/jobs/a5806adc-e255-4029-9653-85546cd56284",
+  "method": "GET",
+  "status": 200,
+  "final_url": "https://ats.rippling.com/forbes-advisor/jobs/a5806adc-e255-4029-9653-85546cd56284",
   "ctype": "text/html; charset=utf-8",
-  "length": 206392,
-  "html_title": "Smart Financial Decisions Made Simple | Forbes Advisor",
-  "snippet": "<!DOCTYPE html><html lang=\"en-US\"><head><meta charSet=\"utf-8\" data-next-head=\"\"/><meta name=\"viewport\" content=\"width=device-width\" data-next-head=\"\"/><title data-next-head=\"\">Smart Financial Decisions Made Simple | Forbes Advisor</title><meta property=\"og:type\" content=\"website\" data-next-head=\"\"/><meta property=\"og:title\" content=\"Smart Financial Decisions Made Simple | Forbes Advisor\" data-next-head=\"\"/><link rel=\"canonical\" href=\"https://ats.rippling.com/forbes-advisor/jobs\"/><link rel=\"alternate\" hrefLang=\"de-DE\" href=\"https://ats.rippling.com/de-DE/forbes-advisor/jobs\"/><link rel=\"alternate\" hrefLang=\"en-AU\" href=\"https://ats.rippling.com/en-AU/forbes-advisor/jobs\"/><link rel=\"alternate\" hrefLang=\"en-CA\" href=\"https://ats.rippling.com/en-CA/forbes-advisor/jobs\"/><link rel=\"alternate\" hrefLang=\"en-US\" href=\"https://ats.rippling.com/forbes-advisor/jobs\"/><link rel=\"alternate\" hrefLang=\"en-GB\" href=\"https://ats.rippling.com/en-GB/forbes-advisor/jobs\"/><link rel=\"alternate\" hrefLang=\"es\" href=\"https://ats.rippling.com/es-419/forbes-advisor/jobs\"/><link rel=\"alternate\" hrefLang=\"es-ES\" href=\"https://ats.rippling.com/es-ES/forbes-advisor/jobs\"/><link rel=\"alternate\" hrefLang=\"fr-CA\" href=\"https://ats.rippling.com/fr-CA/forbes-advisor/jobs\"/><link rel=\"alternate\" hrefLang=\"fr-FR\" href=\"https://ats.rippling.com/fr-FR/forbes-advisor/jobs\"/><link rel=\"alternate\" hrefLang=\"nl-NL\" href=\"https://ats.rippling.com/nl-NL/forbes-advisor/jobs\"/><link rel=\"alternate\" hrefLang=\"pl-PL\" href",
-  "secs": 0.35
+  "length": 207608,
+  "html_title": "Accounts Payable Specialist (Remote)",
+  "snippet": "<!DOCTYPE html><html lang=\"en-US\"><head><meta charSet=\"utf-8\" data-next-head=\"\"/><meta name=\"viewport\" content=\"width=device-width\" data-next-head=\"\"/><title data-next-head=\"\">Accounts Payable Specialist (Remote)</title><meta property=\"og:type\" content=\"article\" data-next-head=\"\"/><meta property=\"og:site_name\" content=\"Rippling Recruiting\" data-next-head=\"\"/><meta property=\"og:title\" content=\"Accounts Payable Specialist (Remote) | Smart Financial Decisions Made Simple\" data-next-head=\"\"/><meta property=\"og:description\" content=\" Forbes Advisor is looking for a detail-oriented and reliable full-time Accounts Payable Specialist. This role will report to the Financial ...\" data-next-head=\"\"/><link rel=\"canonical\" href=\"https://ats.rippling.com/forbes-advisor/jobs/a5806adc-e255-4029-9653-85546cd56284\"/><link rel=\"alternate\" hrefLang=\"de-DE\" href=\"https://ats.rippling.com/de-DE/forbes-advisor/jobs/a5806adc-e255-4029-9653-85546cd56284\"/><link rel=\"alternate\" hrefLang=\"en-AU\" href=\"https://ats.rippling.com/en-AU/forbes-advisor/jobs/a5806adc-e255-4029-9653-85546cd56284\"/><link rel=\"alternate\" hrefLang=\"en-CA\" href=\"https://ats.rippling.com/en-CA/forbes-advisor/jobs/a5806adc-e255-4029-9653-85546cd56284\"/><link rel=\"alternate\" hrefLang=\"en-US\" href=\"https://ats.rippling.com/forbes-advisor/jobs/a5806adc-e255-4029-9653-85546cd56284\"/><link rel=\"alternate\" hrefLang=\"en-GB\" href=\"https://ats.rippling.com/en-GB/forbes-advisor/jobs/a5806adc-e255-4029-9653-85546cd56284\"/><link rel=\"alternate\"",
+  "secs": 0.33
  }
 ]
