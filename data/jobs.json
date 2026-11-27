@@ -1,11 +1,13 @@
 {
  "meta": {
-  "generated_at": "2026-11-27T10:56:24+00:00",
+  "generated_at": "2026-11-27T12:09:33+00:00",
   "date": "2026-11-27",
-  "recency_days": 60,
+  "recency_days": null,
   "companies_total": 191,
-  "companies_scanned_ok": 106,
+  "companies_scanned_ok": 94,
   "companies_failed": [
+   "AIG",
+   "Abbott",
    "Air Products",
    "AllianceBernstein (Equitable)",
    "Amadeus",
@@ -14,37 +16,47 @@
    "Barclays",
    "BlackRock",
    "BrowserStack",
+   "Cisco",
+   "Citi",
    "Cohesity",
    "CrowdStrike",
    "DBS Bank",
    "Deutsche Bank",
+   "Dow",
    "Ecolab",
    "Equinix",
    "FIS",
+   "Fiserv",
    "General Mills",
    "Hitachi (Vantara, Payment Services)",
+   "Johnson & Johnson",
    "Johnson Controls",
    "KONE",
    "LSEG",
    "M&G",
+   "MSD (Merck & Co.)",
    "Maersk",
    "Marsh McLennan",
    "Marvell",
+   "Medline",
    "Michelin",
    "Mondelez",
    "Northern Trust",
    "Novartis",
    "Nvidia",
    "Philips",
+   "Priceline (Booking Holdings)",
    "Red Hat",
    "Rockwell Automation",
    "S&P Global",
+   "Salesforce",
    "Sandvik",
    "Telstra",
+   "Thermo Fisher Scientific",
+   "VMware (Broadcom)",
    "Voya",
    "Wolters Kluwer",
-   "Workday",
-   "bp"
+   "Workday"
   ],
   "companies_not_scanned": [
    "3Pillar Global",
@@ -95,14 +107,19 @@
    "Yes Bank"
   ],
   "companies_carried": [
-   "Nvidia"
+   "Citi",
+   "Fiserv",
+   "Nvidia",
+   "Priceline (Booking Holdings)"
   ],
-  "jobs": 125,
-  "companies_with_jobs": 38,
-  "uncertain": 15,
-  "fresh": 0,
-  "linkedin": "20 of 88 companies checked in the last 24 h; not checked in 24 h: Société Générale, Barclays, Deutsche Bank, SBI, Mizuho, HDFC Bank, BNY, ICICI Bank and 60 more (this scan: searched 6 companies)",
+  "jobs": 155,
+  "companies_with_jobs": 50,
+  "uncertain": 19,
+  "fresh": 25,
+  "linkedin": "26 of 100 companies checked in the last 24 h; not checked in 24 h: Citi, Johnson & Johnson, Barclays, Deutsche Bank, SBI, Mizuho, Cisco, HDFC Bank and 66 more (this scan: stopped after 1 of 6 companies: LinkedIn answered 429)",
   "companies_checked_on_linkedin": [
+   "AIG",
+   "Abbott",
    "Air Products",
    "AllianceBernstein (Equitable)",
    "Amadeus",
@@ -114,12 +131,15 @@
    "Barclays",
    "BlackRock",
    "BrowserStack",
+   "Cisco",
+   "Citi",
    "Claroda",
    "Cohesity",
    "Confluent",
    "CrowdStrike",
    "DBS Bank",
    "Deutsche Bank",
+   "Dow",
    "Dream Sports",
    "Ecolab",
    "Equinix",
@@ -128,17 +148,21 @@
    "FORVIA",
    "FedEx",
    "FirstCry",
+   "Fiserv",
    "General Mills",
    "Hitachi (Vantara, Payment Services)",
+   "Johnson & Johnson",
    "Johnson Controls",
    "KONE",
    "LSEG",
    "Lentra",
    "M&G",
+   "MSD (Merck & Co.)",
    "Maersk",
    "Marsh McLennan",
    "Marvell",
    "Media.net",
+   "Medline",
    "Michelin",
    "Mitsubishi Electric India",
    "Mondelez",
@@ -147,25 +171,31 @@
    "Novartis",
    "Nvidia",
    "Nykaa",
+   "Philips",
    "PhonePe",
    "RBL Bank",
+   "Red Hat",
+   "Rockwell Automation",
    "S&P Global",
+   "Salesforce",
    "Sciative",
+   "Société Générale",
    "Tesla",
+   "Thermo Fisher Scientific",
    "Trajector",
    "UBS",
    "Upstox",
+   "VMware (Broadcom)",
    "Vector Informatik",
    "Veritas Technologies",
    "Volkswagen Group Digital Solutions",
    "Wolters Kluwer",
-   "Workday",
-   "bp"
+   "Workday"
   ],
-  "linkedin_crosscheck": "35 of 103 scanned companies cross-checked on LinkedIn in the last 4 days; 5 roles the careers sites missed",
+  "linkedin_crosscheck": "26 of 91 scanned companies cross-checked on LinkedIn in the last 4 days; 4 roles the careers sites missed",
   "missed_by_site": 5,
   "scanner_alerts": [],
-  "rejected": 459
+  "rejected": 431
  },
  "jobs": [
   {
@@ -181,7 +211,6 @@
    "source": "linkedin",
    "match": "title",
    "flags": [],
-   "crosscheck": true,
    "fresh": false,
    "first_seen": "2026-11-13",
    "new": false
@@ -342,6 +371,40 @@
    "flags": [],
    "fresh": false,
    "first_seen": "2026-11-15",
+   "new": false
+  },
+  {
+   "company": "Avaloq",
+   "title": "Senior Snowflake Data & AI Platform Engineer",
+   "location": "Pune, Maharashtra, India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-05-04",
+   "days_ago": 207,
+   "url": "https://jobs.smartrecruiters.com/Avaloq1/744000124351105",
+   "source": "smartrecruiters",
+   "match": "keyword:snowflake",
+   "flags": [],
+   "fresh": true,
+   "first_seen": "2026-11-27",
+   "new": true
+  },
+  {
+   "company": "BMC Software",
+   "title": "Senior Data Engineer",
+   "location": "Pune, India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-09-16",
+   "days_ago": 72,
+   "url": "https://jobs.bmc.com/Careers/JobDetail/GTM-Data-Specialist-II-India/47535",
+   "source": "avature",
+   "match": "title",
+   "flags": [],
+   "fresh": false,
+   "first_seen": "2026-11-13",
    "new": false
   },
   {
@@ -601,6 +664,61 @@
    "new": false
   },
   {
+   "company": "Canonical",
+   "title": "Python and Kubernetes Software Engineer - Data, Workflows, AI/ML & Analytics",
+   "location": "Home based - Worldwide",
+   "location_tags": [
+    "Remote"
+   ],
+   "posted": "2024-04-11",
+   "days_ago": 960,
+   "url": "https://job-boards.greenhouse.io/canonical/jobs/5703396",
+   "source": "greenhouse",
+   "match": "title",
+   "flags": [
+    "remote - country not stated"
+   ],
+   "fresh": true,
+   "first_seen": "2026-11-27",
+   "new": true
+  },
+  {
+   "company": "Canonical",
+   "title": "Engineering Manager - Data Platform",
+   "location": "Home based - Worldwide",
+   "location_tags": [
+    "Remote"
+   ],
+   "posted": "2024-02-02",
+   "days_ago": 1029,
+   "url": "https://job-boards.greenhouse.io/canonical/jobs/5667860",
+   "source": "greenhouse",
+   "match": "keyword:data platform",
+   "flags": [
+    "remote - country not stated"
+   ],
+   "fresh": true,
+   "first_seen": "2026-11-27",
+   "new": true
+  },
+  {
+   "company": "Cisco",
+   "title": "Data Engineer",
+   "location": "Mumbai, Maharashtra, India",
+   "location_tags": [
+    "Mumbai"
+   ],
+   "posted": "2026-11-17",
+   "days_ago": 10,
+   "url": "https://in.linkedin.com/jobs/view/data-engineer-at-cisco-4467704802",
+   "source": "linkedin",
+   "match": "title",
+   "flags": [],
+   "fresh": false,
+   "first_seen": "2026-11-14",
+   "new": false
+  },
+  {
    "company": "Citi",
    "title": "Java and Data Engineering Technology Lead - Vice President",
    "location": "Pune Maharashtra India",
@@ -613,6 +731,7 @@
    "source": "workday",
    "match": "title",
    "flags": [],
+   "carried_from": "2026-11-27T10:56:24+00:00",
    "fresh": false,
    "first_seen": "2026-11-27",
    "new": true
@@ -630,6 +749,7 @@
    "source": "workday",
    "match": "title",
    "flags": [],
+   "carried_from": "2026-11-27T10:56:24+00:00",
    "fresh": false,
    "first_seen": "2026-11-05",
    "new": false
@@ -647,6 +767,7 @@
    "source": "workday",
    "match": "title",
    "flags": [],
+   "carried_from": "2026-11-27T10:56:24+00:00",
    "fresh": false,
    "first_seen": "2026-11-26",
    "new": true
@@ -664,6 +785,7 @@
    "source": "workday",
    "match": "title",
    "flags": [],
+   "carried_from": "2026-11-27T10:56:24+00:00",
    "fresh": false,
    "first_seen": "2026-11-26",
    "new": true
@@ -681,6 +803,7 @@
    "source": "workday",
    "match": "title",
    "flags": [],
+   "carried_from": "2026-11-27T10:56:24+00:00",
    "fresh": false,
    "first_seen": "2026-11-26",
    "new": true
@@ -700,6 +823,7 @@
    "flags": [
     "title borderline"
    ],
+   "carried_from": "2026-11-27T10:56:24+00:00",
    "fresh": false,
    "first_seen": "2026-11-26",
    "new": true
@@ -717,6 +841,7 @@
    "source": "workday",
    "match": "title",
    "flags": [],
+   "carried_from": "2026-11-27T10:56:24+00:00",
    "fresh": false,
    "first_seen": "2026-11-26",
    "new": true
@@ -734,6 +859,7 @@
    "source": "workday",
    "match": "pattern",
    "flags": [],
+   "carried_from": "2026-11-27T10:56:24+00:00",
    "fresh": false,
    "first_seen": "2026-11-26",
    "new": true
@@ -751,6 +877,7 @@
    "source": "workday",
    "match": "title",
    "flags": [],
+   "carried_from": "2026-11-27T10:56:24+00:00",
    "fresh": false,
    "first_seen": "2026-11-26",
    "new": true
@@ -768,6 +895,7 @@
    "source": "workday",
    "match": "title",
    "flags": [],
+   "carried_from": "2026-11-27T10:56:24+00:00",
    "fresh": false,
    "first_seen": "2026-11-26",
    "new": true
@@ -785,6 +913,7 @@
    "source": "workday",
    "match": "title",
    "flags": [],
+   "carried_from": "2026-11-27T10:56:24+00:00",
    "fresh": false,
    "first_seen": "2026-11-26",
    "new": true
@@ -802,6 +931,7 @@
    "source": "workday",
    "match": "keyword:data platform",
    "flags": [],
+   "carried_from": "2026-11-27T10:56:24+00:00",
    "fresh": false,
    "first_seen": "2026-11-26",
    "new": true
@@ -819,6 +949,7 @@
    "source": "workday",
    "match": "title",
    "flags": [],
+   "carried_from": "2026-11-27T10:56:24+00:00",
    "fresh": false,
    "first_seen": "2026-11-26",
    "new": true
@@ -836,6 +967,7 @@
    "source": "workday",
    "match": "keyword:data platform",
    "flags": [],
+   "carried_from": "2026-11-27T10:56:24+00:00",
    "fresh": false,
    "first_seen": "2026-10-24",
    "new": false
@@ -853,6 +985,7 @@
    "source": "workday",
    "match": "keyword:spark",
    "flags": [],
+   "carried_from": "2026-11-27T10:56:24+00:00",
    "fresh": false,
    "first_seen": "2026-11-26",
    "new": true
@@ -870,6 +1003,7 @@
    "source": "workday",
    "match": "title",
    "flags": [],
+   "carried_from": "2026-11-27T10:56:24+00:00",
    "fresh": false,
    "first_seen": "2026-11-26",
    "new": true
@@ -887,6 +1021,7 @@
    "source": "workday",
    "match": "keyword:data platform",
    "flags": [],
+   "carried_from": "2026-11-27T10:56:24+00:00",
    "fresh": false,
    "first_seen": "2026-11-13",
    "new": false
@@ -904,6 +1039,7 @@
    "source": "workday",
    "match": "title",
    "flags": [],
+   "carried_from": "2026-11-27T10:56:24+00:00",
    "fresh": false,
    "first_seen": "2026-10-24",
    "new": false
@@ -921,6 +1057,7 @@
    "source": "workday",
    "match": "title",
    "flags": [],
+   "carried_from": "2026-11-27T10:56:24+00:00",
    "fresh": false,
    "first_seen": "2026-11-06",
    "new": false
@@ -938,6 +1075,7 @@
    "source": "workday",
    "match": "title",
    "flags": [],
+   "carried_from": "2026-11-27T10:56:24+00:00",
    "fresh": false,
    "first_seen": "2026-11-06",
    "new": false
@@ -955,6 +1093,7 @@
    "source": "workday",
    "match": "title",
    "flags": [],
+   "carried_from": "2026-11-27T10:56:24+00:00",
    "fresh": false,
    "first_seen": "2026-11-06",
    "new": false
@@ -972,8 +1111,27 @@
    "source": "workday",
    "match": "title",
    "flags": [],
+   "carried_from": "2026-11-27T10:56:24+00:00",
    "fresh": false,
    "first_seen": "2026-11-13",
+   "new": false
+  },
+  {
+   "company": "Citi",
+   "title": "Senior Databricks Engineer, Apache Spark and AWS - Vice President",
+   "location": "Pune Division, Maharashtra, India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-11-05",
+   "days_ago": 22,
+   "url": "https://in.linkedin.com/jobs/view/senior-databricks-engineer-apache-spark-and-aws-vice-president-at-citi-4486910770",
+   "source": "linkedin",
+   "match": "keyword:spark",
+   "flags": [],
+   "crosscheck": true,
+   "fresh": false,
+   "first_seen": "2026-11-14",
    "new": false
   },
   {
@@ -989,6 +1147,7 @@
    "source": "workday",
    "match": "title",
    "flags": [],
+   "carried_from": "2026-11-27T10:56:24+00:00",
    "fresh": false,
    "first_seen": "2026-11-03",
    "new": false
@@ -1006,6 +1165,7 @@
    "source": "workday",
    "match": "title",
    "flags": [],
+   "carried_from": "2026-11-27T10:56:24+00:00",
    "fresh": false,
    "first_seen": "2026-11-04",
    "new": false
@@ -1023,6 +1183,7 @@
    "source": "workday",
    "match": "title",
    "flags": [],
+   "carried_from": "2026-11-27T10:56:24+00:00",
    "fresh": false,
    "first_seen": "2026-11-04",
    "new": false
@@ -1040,6 +1201,7 @@
    "source": "workday",
    "match": "keyword:hadoop",
    "flags": [],
+   "carried_from": "2026-11-27T10:56:24+00:00",
    "fresh": false,
    "first_seen": "2026-11-03",
    "new": false
@@ -1058,6 +1220,7 @@
    "source": "workday",
    "match": "keyword:etl",
    "flags": [],
+   "carried_from": "2026-11-27T10:56:24+00:00",
    "fresh": false,
    "first_seen": "2026-11-02",
    "new": false
@@ -1075,6 +1238,7 @@
    "source": "workday",
    "match": "title",
    "flags": [],
+   "carried_from": "2026-11-27T10:56:24+00:00",
    "fresh": false,
    "first_seen": "2026-10-30",
    "new": false
@@ -1092,6 +1256,7 @@
    "source": "workday",
    "match": "pattern",
    "flags": [],
+   "carried_from": "2026-11-27T10:56:24+00:00",
    "fresh": false,
    "first_seen": "2026-10-28",
    "new": false
@@ -1109,6 +1274,7 @@
    "source": "workday",
    "match": "title",
    "flags": [],
+   "carried_from": "2026-11-27T10:56:24+00:00",
    "fresh": false,
    "first_seen": "2026-11-05",
    "new": false
@@ -1126,6 +1292,7 @@
    "source": "workday",
    "match": "pattern",
    "flags": [],
+   "carried_from": "2026-11-27T10:56:24+00:00",
    "fresh": false,
    "first_seen": "2026-10-24",
    "new": false
@@ -1143,6 +1310,7 @@
    "source": "workday",
    "match": "keyword:spark",
    "flags": [],
+   "carried_from": "2026-11-27T10:56:24+00:00",
    "fresh": false,
    "first_seen": "2026-10-24",
    "new": false
@@ -1160,6 +1328,7 @@
    "source": "workday",
    "match": "title",
    "flags": [],
+   "carried_from": "2026-11-27T10:56:24+00:00",
    "fresh": false,
    "first_seen": "2026-11-13",
    "new": false
@@ -1177,6 +1346,7 @@
    "source": "workday",
    "match": "title",
    "flags": [],
+   "carried_from": "2026-11-27T10:56:24+00:00",
    "fresh": false,
    "first_seen": "2026-10-24",
    "new": false
@@ -1197,6 +1367,159 @@
    "fresh": false,
    "first_seen": "2026-10-28",
    "new": false
+  },
+  {
+   "company": "Cummins",
+   "title": "Data Engineer - Senior 7 (Data Modeler)",
+   "location": "Pune, India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-09-02",
+   "days_ago": 86,
+   "url": "https://dejobs.org/pune-ind/data-engineer-senior-7-data-modeler/6F2A2A4283EA4F038A692AAA736917BA/job/",
+   "source": "jobsyn",
+   "match": "title",
+   "flags": [],
+   "fresh": true,
+   "first_seen": "2026-11-27",
+   "new": true
+  },
+  {
+   "company": "Cummins",
+   "title": "Data Engineer - Senior 2",
+   "location": "Pune, India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-08-25",
+   "days_ago": 94,
+   "url": "https://dejobs.org/pune-ind/data-engineer-senior-2/3304B36B8ADC4967ABD826E08672533E/job/",
+   "source": "jobsyn",
+   "match": "title",
+   "flags": [],
+   "fresh": true,
+   "first_seen": "2026-11-27",
+   "new": true
+  },
+  {
+   "company": "Cummins",
+   "title": "Data Engineer - Senior 3",
+   "location": "Pune, India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-08-25",
+   "days_ago": 94,
+   "url": "https://dejobs.org/pune-ind/data-engineer-senior-3/12817029DE2F41F784CDD209E2EF53CA/job/",
+   "source": "jobsyn",
+   "match": "title",
+   "flags": [],
+   "fresh": true,
+   "first_seen": "2026-11-27",
+   "new": true
+  },
+  {
+   "company": "Cummins",
+   "title": "Data Engineer 6",
+   "location": "Pune, India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-08-25",
+   "days_ago": 94,
+   "url": "https://dejobs.org/pune-ind/data-engineer-6/EC3E07EC4169486689A2D84B1DFCE76E/job/",
+   "source": "jobsyn",
+   "match": "title",
+   "flags": [],
+   "fresh": true,
+   "first_seen": "2026-11-27",
+   "new": true
+  },
+  {
+   "company": "Cummins",
+   "title": "Data Engineer 7",
+   "location": "Pune, India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-08-25",
+   "days_ago": 94,
+   "url": "https://dejobs.org/pune-ind/data-engineer-7/1E098F80DD5E46FCAB0511E017B97AD5/job/",
+   "source": "jobsyn",
+   "match": "title",
+   "flags": [],
+   "fresh": true,
+   "first_seen": "2026-11-27",
+   "new": true
+  },
+  {
+   "company": "Cummins",
+   "title": "Data Engineer 3",
+   "location": "Pune, India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-08-21",
+   "days_ago": 98,
+   "url": "https://dejobs.org/pune-ind/data-engineer-3/EF378C1A607948588665064D0D2F5702/job/",
+   "source": "jobsyn",
+   "match": "title",
+   "flags": [],
+   "fresh": true,
+   "first_seen": "2026-11-27",
+   "new": true
+  },
+  {
+   "company": "Cummins",
+   "title": "Data Engineer 4",
+   "location": "Pune, India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-08-21",
+   "days_ago": 98,
+   "url": "https://dejobs.org/pune-ind/data-engineer-4/37AEFF8A2F3F4D24974D63135E1BD7B6/job/",
+   "source": "jobsyn",
+   "match": "title",
+   "flags": [],
+   "fresh": true,
+   "first_seen": "2026-11-27",
+   "new": true
+  },
+  {
+   "company": "Cummins",
+   "title": "Data Engineer 1",
+   "location": "Pune, India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-08-20",
+   "days_ago": 99,
+   "url": "https://dejobs.org/pune-ind/data-engineer-1/B00061033C5A4D938EA8D44C4576551A/job/",
+   "source": "jobsyn",
+   "match": "title",
+   "flags": [],
+   "fresh": true,
+   "first_seen": "2026-11-27",
+   "new": true
+  },
+  {
+   "company": "Cummins",
+   "title": "Data Engineer 2",
+   "location": "Pune, India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-08-20",
+   "days_ago": 99,
+   "url": "https://dejobs.org/pune-ind/data-engineer-2/F4CEE0D94718448F92B67DD09440D451/job/",
+   "source": "jobsyn",
+   "match": "title",
+   "flags": [],
+   "fresh": true,
+   "first_seen": "2026-11-27",
+   "new": true
   },
   {
    "company": "Deutsche Bank",
@@ -1231,6 +1554,40 @@
    "fresh": false,
    "first_seen": "2026-11-16",
    "new": false
+  },
+  {
+   "company": "Drivetrain",
+   "title": "Product Manager - Data Platform",
+   "location": "India",
+   "location_tags": [
+    "Remote"
+   ],
+   "posted": "2024-12-26",
+   "days_ago": 701,
+   "url": "https://jobs.lever.co/drivetrain/12f4d396-83dd-466b-89ca-eb7ce9fa4194",
+   "source": "lever",
+   "match": "keyword:data platform",
+   "flags": [],
+   "fresh": true,
+   "first_seen": "2026-11-27",
+   "new": true
+  },
+  {
+   "company": "Drivetrain",
+   "title": "Software Engineer (Data Engineering)",
+   "location": "India",
+   "location_tags": [
+    "Remote"
+   ],
+   "posted": "2022-12-24",
+   "days_ago": 1434,
+   "url": "https://jobs.lever.co/drivetrain/c677fe8d-8f9d-483e-b523-62c77e1a0fb7",
+   "source": "lever",
+   "match": "title",
+   "flags": [],
+   "fresh": true,
+   "first_seen": "2026-11-27",
+   "new": true
   },
   {
    "company": "EPAM Systems",
@@ -1285,40 +1642,6 @@
   },
   {
    "company": "EPAM Systems",
-   "title": "Lead Systems Engineer - Data DevOps/MLOps",
-   "location": "Chennai, India; Bangalore, India; Pune, India; Coimbatore, India; Hyderabad, India; Gurgaon, India",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": "2026-10-30",
-   "days_ago": 28,
-   "url": "https://careers.epam.com/en/vacancy/lead-systems-engineer-data-devops-mlops-bltagknkh9k1a5qyvd0_en",
-   "source": "epam",
-   "match": "pattern",
-   "flags": [],
-   "fresh": false,
-   "first_seen": "2026-11-09",
-   "new": false
-  },
-  {
-   "company": "EPAM Systems",
-   "title": "Lead Systems Engineer - Data DevOps/MLOps",
-   "location": "Coimbatore, India; Bangalore, India; Hyderabad, India; Chennai, India; Pune, India; Gurgaon, India",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": "2026-10-30",
-   "days_ago": 28,
-   "url": "https://careers.epam.com/en/vacancy/lead-systems-engineer-data-devops-mlops-bltx3zova01hptsib2q_en",
-   "source": "epam",
-   "match": "pattern",
-   "flags": [],
-   "fresh": false,
-   "first_seen": "2026-10-29",
-   "new": false
-  },
-  {
-   "company": "EPAM Systems",
    "title": "Senior Data Quality Engineer",
    "location": "Hyderabad, India; Bangalore, India; Pune, India; Coimbatore, India; Chennai, India; Gurgaon, India",
    "location_tags": [
@@ -1369,6 +1692,59 @@
    "fresh": false,
    "first_seen": "2026-11-14",
    "new": false
+  },
+  {
+   "company": "EPAM Systems",
+   "title": "Data Quality Engineer",
+   "location": "Gurgaon, India; Hyderabad, India; Bangalore, India; Pune, India; Chennai, India; Coimbatore, India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-09-16",
+   "days_ago": 72,
+   "url": "https://careers.epam.com/en/vacancy/data-quality-engineer-blt06hk69sc08xdo078_en",
+   "source": "epam",
+   "match": "pattern",
+   "flags": [
+    "title borderline"
+   ],
+   "fresh": false,
+   "first_seen": "2026-11-13",
+   "new": false
+  },
+  {
+   "company": "EPAM Systems",
+   "title": "Lead Snowflake Data Engineer",
+   "location": "Gurgaon, India; Pune, India; Hyderabad, India; Bangalore, India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-08-31",
+   "days_ago": 88,
+   "url": "https://careers.epam.com/en/vacancy/lead-snowflake-data-engineer-bltri8nn5hn2fkrw0o2_en",
+   "source": "epam",
+   "match": "title",
+   "flags": [],
+   "fresh": true,
+   "first_seen": "2026-11-27",
+   "new": true
+  },
+  {
+   "company": "EPAM Systems",
+   "title": "Senior Snowflake Data Engineer",
+   "location": "Gurgaon, India; Pune, India; Hyderabad, India; Bangalore, India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-08-31",
+   "days_ago": 88,
+   "url": "https://careers.epam.com/en/vacancy/senior-snowflake-data-engineer-bltaz533psg1z1o36xt_en",
+   "source": "epam",
+   "match": "title",
+   "flags": [],
+   "fresh": true,
+   "first_seen": "2026-11-27",
+   "new": true
   },
   {
    "company": "Eaton",
@@ -1453,8 +1829,45 @@
    "source": "workday",
    "match": "title",
    "flags": [],
+   "carried_from": "2026-11-27T10:56:24+00:00",
    "fresh": false,
    "first_seen": "2026-11-26",
+   "new": true
+  },
+  {
+   "company": "Forbes Advisor",
+   "title": "Data Engineer L3",
+   "location": "Remote (Chennai, IN); Remote (Mumbai, IN)",
+   "location_tags": [
+    "Mumbai",
+    "Remote"
+   ],
+   "posted": "2026-08-06",
+   "days_ago": 113,
+   "url": "https://ats.rippling.com/forbes-advisor/jobs/477b1631-756b-4da5-8f6d-a9728fe77f7b",
+   "source": "rippling",
+   "match": "title",
+   "flags": [],
+   "fresh": true,
+   "first_seen": "2026-11-27",
+   "new": true
+  },
+  {
+   "company": "Forbes Advisor",
+   "title": "Data Engineer - L2",
+   "location": "Remote (Chennai, India); Remote (Mumbai, India)",
+   "location_tags": [
+    "Mumbai",
+    "Remote"
+   ],
+   "posted": "2026-06-05",
+   "days_ago": 175,
+   "url": "https://ats.rippling.com/forbes-advisor/jobs/51bf18cc-3fe2-401b-8741-db5dc9ec65c3",
+   "source": "rippling",
+   "match": "title",
+   "flags": [],
+   "fresh": true,
+   "first_seen": "2026-11-27",
    "new": true
   },
   {
@@ -1530,6 +1943,42 @@
    "fresh": false,
    "first_seen": "2026-10-24",
    "new": false
+  },
+  {
+   "company": "Gallagher",
+   "title": "Gen AI Data Engineer",
+   "location": "Bangalore, India; Pune, India; Gurugram, India; Bangalore, Karnataka, India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-09-15",
+   "days_ago": 73,
+   "url": "https://jobs.ajg.com/jobs/59184",
+   "source": "jibe",
+   "match": "title",
+   "flags": [],
+   "date_source": "posting page",
+   "fresh": false,
+   "first_seen": "2026-11-13",
+   "new": false
+  },
+  {
+   "company": "Gallagher",
+   "title": "Senior Gen AI Data Engineer",
+   "location": "Bangalore, India; Pune, India; Gurugram, India; Bangalore, Karnataka, India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-09-11",
+   "days_ago": 77,
+   "url": "https://jobs.ajg.com/jobs/59182",
+   "source": "jibe",
+   "match": "title",
+   "flags": [],
+   "date_source": "posting page",
+   "fresh": true,
+   "first_seen": "2026-11-27",
+   "new": true
   },
   {
    "company": "General Mills",
@@ -1708,6 +2157,23 @@
    "new": false
   },
   {
+   "company": "HighLevel",
+   "title": "Sr. Product Manager - Custom Objects & CRM Data Platform",
+   "location": "India",
+   "location_tags": [
+    "Remote"
+   ],
+   "posted": "2026-09-10",
+   "days_ago": 78,
+   "url": "https://jobs.lever.co/gohighlevel/ffc2572e-12ce-4ad2-a0cd-7e8eca60a185",
+   "source": "lever",
+   "match": "keyword:data platform",
+   "flags": [],
+   "fresh": true,
+   "first_seen": "2026-11-27",
+   "new": true
+  },
+  {
    "company": "Hitachi (Vantara, Payment Services)",
    "title": "Databricks Data Engineer",
    "location": "Pune Division, Maharashtra, India",
@@ -1882,6 +2348,23 @@
    "new": false
   },
   {
+   "company": "Mastercard",
+   "title": "Sr Data Engineer",
+   "location": "Pune, India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-07-21",
+   "days_ago": 129,
+   "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Sr-Tester-Data-Engineer_R-271045",
+   "source": "workday",
+   "match": "title",
+   "flags": [],
+   "fresh": true,
+   "first_seen": "2026-11-27",
+   "new": true
+  },
+  {
    "company": "Media.net",
    "title": "Senior Data Engineer (NR-2026-0240)",
    "location": "Mumbai, Maharashtra, India",
@@ -2041,6 +2524,23 @@
    "new": true
   },
   {
+   "company": "Mrsool",
+   "title": "Data Engineer II",
+   "location": "India",
+   "location_tags": [
+    "Remote"
+   ],
+   "posted": "2026-09-17",
+   "days_ago": 71,
+   "url": "https://apply.workable.com/mrsool-3/j/0928A9FFB1/",
+   "source": "workable",
+   "match": "title",
+   "flags": [],
+   "fresh": false,
+   "first_seen": "2026-11-13",
+   "new": false
+  },
+  {
    "company": "Nium",
    "title": "Data Engineer II",
    "location": "Mumbai",
@@ -2144,6 +2644,23 @@
    "new": false
   },
   {
+   "company": "P&G",
+   "title": "Senior Data Engineer",
+   "location": "MUMBAI GENERAL OFFICE",
+   "location_tags": [
+    "Mumbai"
+   ],
+   "posted": "2026-09-21",
+   "days_ago": 67,
+   "url": "https://pg.wd5.myworkdayjobs.com/en-US/1000/job/MUMBAI-GENERAL-OFFICE/Senior-Data-Engineer_R000158699",
+   "source": "workday",
+   "match": "title",
+   "flags": [],
+   "fresh": false,
+   "first_seen": "2026-11-13",
+   "new": false
+  },
+  {
    "company": "Priceline (Booking Holdings)",
    "title": "Senior Data Engineer",
    "location": "Mumbai",
@@ -2156,6 +2673,7 @@
    "source": "workday",
    "match": "title",
    "flags": [],
+   "carried_from": "2026-11-27T10:56:24+00:00",
    "fresh": false,
    "first_seen": "2026-10-24",
    "new": false
@@ -2177,6 +2695,40 @@
    "fresh": false,
    "first_seen": "2026-11-18",
    "new": false
+  },
+  {
+   "company": "PubMatic",
+   "title": "Senior / Software Engineer - Data Analytics",
+   "location": "Pune, IN",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-03-09",
+   "days_ago": 263,
+   "url": "https://pubmatic.com/job/?gh_jid=5146913008",
+   "source": "greenhouse",
+   "match": "title",
+   "flags": [],
+   "fresh": true,
+   "first_seen": "2026-11-27",
+   "new": true
+  },
+  {
+   "company": "Resilinc",
+   "title": "Senior Data Engineer",
+   "location": "India",
+   "location_tags": [
+    "Remote"
+   ],
+   "posted": "2026-07-30",
+   "days_ago": 120,
+   "url": "https://jobs.lever.co/resilinc/98e013c3-84ff-4596-8712-6401c0fb3d55",
+   "source": "lever",
+   "match": "title",
+   "flags": [],
+   "fresh": true,
+   "first_seen": "2026-11-27",
+   "new": true
   },
   {
    "company": "Siemens Digital Industries Software",
@@ -2264,6 +2816,25 @@
    "new": false
   },
   {
+   "company": "TomTom",
+   "title": "Data Scientist - II ( 3- 5 Yrs, Databricks, Pyspark, Statistical Analysis, ML, DL)",
+   "location": "Pune, India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-07-29",
+   "days_ago": 121,
+   "url": "https://jobs.eu.lever.co/tomtom/8aa05b97-8887-4a07-a480-fe1f86c76479",
+   "source": "lever",
+   "match": "keyword:pyspark",
+   "flags": [
+    "title borderline"
+   ],
+   "fresh": true,
+   "first_seen": "2026-11-27",
+   "new": true
+  },
+  {
    "company": "Vodafone (VOIS)",
    "title": "AWS Data Engineer - VOIS",
    "location": "Pune, Maharashtra, India",
@@ -2313,6 +2884,23 @@
    "fresh": false,
    "first_seen": "2026-11-02",
    "new": false
+  },
+  {
+   "company": "Vodafone (VOIS)",
+   "title": "OSS Performance Management & Analytics Engineer(InfoVista & Kibana) -Pune",
+   "location": "Pune, Maharashtra, India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-08-12",
+   "days_ago": 107,
+   "url": "https://jobs.vodafone.com/careers/job/563018697780540",
+   "source": "eightfold",
+   "match": "title",
+   "flags": [],
+   "fresh": true,
+   "first_seen": "2026-11-27",
+   "new": true
   },
   {
    "company": "Wolters Kluwer",

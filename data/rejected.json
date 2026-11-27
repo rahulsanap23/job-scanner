@@ -1,31 +1,11 @@
 {
 "meta": {
-"generated_at": "2026-11-27T10:56:24+00:00",
+"generated_at": "2026-11-27T12:09:33+00:00",
 "date": "2026-11-27",
-"recency_days": 60,
-"count": 459
+"recency_days": null,
+"count": 431
 },
 "rejected": [
-{
-"company": "AIG",
-"title": "Data Engineer Lead",
-"location": "NJ-Parsippany",
-"posted": "Posted 25 Days Ago",
-"reason": "location",
-"tags": [],
-"url": "https://aig.wd1.myworkdayjobs.com/en-US/aig/job/NJ-Parsippany/Data-Engineer-Lead_JR2603226",
-"source": "workday"
-},
-{
-"company": "AIG",
-"title": "Snowflake Platform Leader",
-"location": "NJ-Jersey City; NJ-Parsippany; NY-New York; NC-Charlotte",
-"posted": "2026-07-23",
-"reason": "location",
-"tags": [],
-"url": "https://aig.wd1.myworkdayjobs.com/en-US/aig/job/NJ-Jersey-City/AVP-II--Data-Platforms_JR2601545",
-"source": "workday"
-},
 {
 "company": "Airbnb",
 "title": "Senior Data Software Engineer",
@@ -492,6 +472,16 @@
 },
 {
 "company": "Amazon",
+"title": "Software Dev Engineer II, Business Data Technologies",
+"location": "Bengaluru, Karnataka, IND; IN, KA, Bengaluru",
+"posted": "September 22, 2026",
+"reason": "location",
+"tags": [],
+"url": "https://www.amazon.jobs/en/jobs/10555707/software-dev-engineer-ii-business-data-technologies",
+"source": "amazon"
+},
+{
+"company": "Amazon",
 "title": "Software Development Engineer - Agentic Data Infrastructure, Partner Data And Analytics",
 "location": "Chennai, Tamil Nadu, IND; IN, TN, Chennai",
 "posted": "November 17, 2026",
@@ -548,6 +538,91 @@
 },
 {
 "company": "Amazon",
+"title": "Associate, ML Data Operations, GO-AI Operations",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai - Virtual",
+"posted": "December  1, 2025",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai",
+"Remote"
+],
+"url": "https://www.amazon.jobs/en/jobs/3134249/associate-ml-data-operations-go-ai-operations",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Center Engineering Operations , DCEO",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "August 16, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10503190/data-center-engineering-operations-dceo",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Center Engineering Operations , DCEO",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "May 22, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10428030/data-center-engineering-operations-dceo",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Center Engineering Operations , DCEO",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "May 22, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10428027/data-center-engineering-operations-dceo",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Center Engineering Operations , DCEO",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "May 23, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10428881/data-center-engineering-operations-dceo",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Center Engineering Operations , DCEO",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "May 21, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10426361/data-center-engineering-operations-dceo",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Center Engineering Operations , DCEO",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "May 22, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10427833/data-center-engineering-operations-dceo",
+"source": "amazon"
+},
+{
+"company": "Amazon",
 "title": "Data Center Engineering Operations Engineer",
 "location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
 "posted": "November 26, 2026",
@@ -568,6 +643,30 @@
 "Mumbai"
 ],
 "url": "https://www.amazon.jobs/en/jobs/10602084/data-center-engineering-operations-engineer",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Center Engineering Operations Engineer",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "October 19, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10582439/data-center-engineering-operations-engineer",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Center Engineering Operations Engineer, BOM144 DCEO",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "October 19, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10582335/data-center-engineering-operations-engineer-bom144-dceo",
 "source": "amazon"
 },
 {
@@ -656,6 +755,318 @@
 },
 {
 "company": "Amazon",
+"title": "Data Center Manager, Data Center Operations",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "September 11, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10537158/data-center-manager-data-center-operations",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Center Manager, Data Center Operations",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "September 11, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10537159/data-center-manager-data-center-operations",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Center Manager, Data Center Operations",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "September 11, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10537160/data-center-manager-data-center-operations",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Center Manager, Data Center Operations",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "August 18, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10504615/data-center-manager-data-center-operations",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Center Manager, Data Center Operations",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "August 25, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10513526/data-center-manager-data-center-operations",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Center Manager, Data Center Operations",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "June 17, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10451111/data-center-manager-data-center-operations",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Center Manager, Data Center Operations",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "May 22, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10428031/data-center-manager-data-center-operations",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Center Manager, Data Center Operations",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "March  5, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/3196835/data-center-manager-data-center-operations",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Center Material Associate, IT Services (Warehouse)",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "October 22, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10585984/data-center-material-associate-it-services-warehouse",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Center Operations Cluster Manager, BOM - DCO",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "May 27, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10431230/data-center-operations-cluster-manager-bom-dco",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Center Operations Tech (L4), Data Center Operations (DCO)",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "September  8, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10531336/data-center-operations-tech-l4-data-center-operations-dco",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Center Operations Tech (L4), Data Center Operations (DCO)",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "September  8, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10531335/data-center-operations-tech-l4-data-center-operations-dco",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Center Operations Tech (L4), Data Center Operations (DCO)",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "September  1, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10523327/data-center-operations-tech-l4-data-center-operations-dco",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Center Operations Tech, Data Center Operations (DCO)",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "October  5, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10568655/data-center-operations-tech-data-center-operations-dco",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Center Operations Tech, Data Center Operations (DCO)",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "September 11, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10537164/data-center-operations-tech-data-center-operations-dco",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Center Operations Tech, Data Center Operations (DCO)",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "September  1, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10523321/data-center-operations-tech-data-center-operations-dco",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Center Operations Tech, Data Center Operations (DCO)",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "September  1, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10523320/data-center-operations-tech-data-center-operations-dco",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Center Operations Tech, Data Center Operations (DCO)",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "September  1, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10523326/data-center-operations-tech-data-center-operations-dco",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Center Operations Technician, Data Center Operations (DCO)",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "October  5, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10568703/data-center-operations-technician-data-center-operations-dco",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Center Operations Technician, Data Center Operations (DCO)",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "September 20, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10554211/data-center-operations-technician-data-center-operations-dco",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Center Operations Technician, Data Center Operations (DCO)",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "August 12, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10499622/data-center-operations-technician-data-center-operations-dco",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Center Operations Technician, Data Center Operations (DCO)",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "August 12, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10499601/data-center-operations-technician-data-center-operations-dco",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Center Operations Technician, Data Center Operations (DCO)",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "August 12, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10499598/data-center-operations-technician-data-center-operations-dco",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Center Operations Technician, Data Center Operations (DCO)",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "August 12, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10499606/data-center-operations-technician-data-center-operations-dco",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Center Operations Technician, Data Center Operations (DCO)",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "August 12, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10499599/data-center-operations-technician-data-center-operations-dco",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Center Operations Technician, Data Center Operations (DCO)",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "August 12, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10499605/data-center-operations-technician-data-center-operations-dco",
+"source": "amazon"
+},
+{
+"company": "Amazon",
 "title": "Data Center Security Specialist, APJC ASSET Team",
 "location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
 "posted": "November 25, 2026",
@@ -664,6 +1075,174 @@
 "Mumbai"
 ],
 "url": "https://www.amazon.jobs/en/jobs/10613773/data-center-security-specialist-apjc-asset-team",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Center Technician (DCO), Data Center Operations",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "October 15, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10579662/data-center-technician-dco-data-center-operations",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Center Technician (DCO), Data Center Operations",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "February 13, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/3180556/data-center-technician-dco-data-center-operations",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Center Technician (DCO), Data Center Operations (DCO)",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "August 31, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10521643/data-center-technician-dco-data-center-operations-dco",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Center Technician (DCO), Data Center Operations (DCO)",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "August 11, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10498275/data-center-technician-dco-data-center-operations-dco",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Center Technician , Data Center Operations (DCO)",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "October  5, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10568652/data-center-technician-data-center-operations-dco",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Center Technician , Data Center Operations (DCO)",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "September  1, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10523323/data-center-technician-data-center-operations-dco",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Center Technician , Data Center Operations (DCO)",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "September  1, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10523324/data-center-technician-data-center-operations-dco",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Center Technician , Data Center Operations (DCO)",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "September  1, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10523325/data-center-technician-data-center-operations-dco",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Center Technician , Data Center Operations (DCO)",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "May 22, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10428045/data-center-technician-data-center-operations-dco",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Center Technician , Data Center Operations (DCO)",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "May 22, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10428044/data-center-technician-data-center-operations-dco",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Center Technician , Data Center Operations (DCO)",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "May 22, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10428041/data-center-technician-data-center-operations-dco",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Center Technician , Data Center Operations (DCO)",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "May 13, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10418162/data-center-technician-data-center-operations-dco",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Center Technician , Data Center Operations (DCO)",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "March  2, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/3192787/data-center-technician-data-center-operations-dco",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Center Technician L4, Data Center Operations (DCO)",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "September  1, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10523319/data-center-technician-l4-data-center-operations-dco",
 "source": "amazon"
 },
 {
@@ -680,6 +1259,354 @@
 },
 {
 "company": "Amazon",
+"title": "Data Center Technician, Data Center Operations (DCO)",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "October 15, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10579674/data-center-technician-data-center-operations-dco",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Center Technician, Data Center Operations (DCO)",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "October 20, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10583616/data-center-technician-data-center-operations-dco",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Center Technician, Data Center Operations (DCO)",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "September 10, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10535692/data-center-technician-data-center-operations-dco",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Center Technician, Data Center Operations (DCO)",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "September 10, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10535690/data-center-technician-data-center-operations-dco",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Center Technician, Data Center Operations (DCO)",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "September 16, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10544309/data-center-technician-data-center-operations-dco",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Center Technician, Data Center Operations (DCO)",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "September  1, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10523322/data-center-technician-data-center-operations-dco",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Center Technician, Data Center Operations (DCO)",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "August 31, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10521653/data-center-technician-data-center-operations-dco",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Center Technician, Data Center Operations (DCO)",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "August 31, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10521654/data-center-technician-data-center-operations-dco",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Center Technician, Data Center Operations (DCO)",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "August 31, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10521655/data-center-technician-data-center-operations-dco",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Center Technician, Data Center Operations (DCO)",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "August 31, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10521656/data-center-technician-data-center-operations-dco",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Center Technician, Data Center Operations (DCO)",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "August 31, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10521657/data-center-technician-data-center-operations-dco",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Center Technician, Data Center Operations (DCO)",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "August 31, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10521648/data-center-technician-data-center-operations-dco",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Center Technician, Data Center Operations (DCO)",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "August 31, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10521647/data-center-technician-data-center-operations-dco",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Center Technician, Data Center Operations (DCO)",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "August 31, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10521649/data-center-technician-data-center-operations-dco",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Center Technician, Data Center Operations (DCO)",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "August 31, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10521650/data-center-technician-data-center-operations-dco",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Center Technician, Data Center Operations (DCO)",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "August 31, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10521652/data-center-technician-data-center-operations-dco",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Center Technician, Data Center Operations (DCO)",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "August 31, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10521651/data-center-technician-data-center-operations-dco",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Centre Engineering Operations (DCEO) Facility Manager, Infraops",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "October 15, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10579592/data-centre-engineering-operations-dceo-facility-manager-infraops",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Centre Engineering Operations Cluster Manager, AWS Data Center Operations",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "November 26, 2025",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/3132982/data-centre-engineering-operations-cluster-manager-aws-data-center-operations",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Centre Engineering Operations Engineer, Data Centre Engineering Operations",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "May 25, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10429128/data-centre-engineering-operations-engineer-data-centre-engineering-operations",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Centre Engineering Operations Engineer, Data Centre Engineering Operations",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "May 26, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10429588/data-centre-engineering-operations-engineer-data-centre-engineering-operations",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Centre Engineering Operations Engineer, Data Centre Engineering Operations",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "May 28, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10432642/data-centre-engineering-operations-engineer-data-centre-engineering-operations",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Centre Engineering Operations Engineer, Data Centre Engineering Operations (Level 4)",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "October  5, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10568705/data-centre-engineering-operations-engineer-data-centre-engineering-operations-level-4",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Centre Engineering Operations Engineer, Data Centre Engineering Operations engineer",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "September 22, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10555722/data-centre-engineering-operations-engineer-data-centre-engineering-operations-engineer",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Centre Engineering Operations, Data Centre Engineering Operations",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "October  5, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10568706/data-centre-engineering-operations-data-centre-engineering-operations",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Centre Engineering Operations, Data Centre Engineering Operations",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "November 16, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10605742/data-centre-engineering-operations-data-centre-engineering-operations",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Centre Engineering Operations, Data Centre Engineering Operations",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "September 22, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10555723/data-centre-engineering-operations-data-centre-engineering-operations",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Centre Engineering Operations, Data Centre Engineering Operations",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "August 14, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10502052/data-centre-engineering-operations-data-centre-engineering-operations",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Data Centre Engineering Operations, Data Centre Engineering Operations",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "February 13, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/3180559/data-centre-engineering-operations-data-centre-engineering-operations",
+"source": "amazon"
+},
+{
+"company": "Amazon",
 "title": "Expansion Transaction Manager , APAC Data Center Supply Solutions",
 "location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
 "posted": "November 21, 2026",
@@ -688,6 +1615,18 @@
 "Mumbai"
 ],
 "url": "https://www.amazon.jobs/en/jobs/10610938/expansion-transaction-manager-apac-data-center-supply-solutions",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "ID-LB Cabling Infrastructure Tech, Data Center Operations",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "September  3, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10528285/id-lb-cabling-infrastructure-tech-data-center-operations",
 "source": "amazon"
 },
 {
@@ -712,6 +1651,78 @@
 "Mumbai"
 ],
 "url": "https://www.amazon.jobs/en/jobs/10583670/infraops-cloudpath-manager-data-center-operations-data-center-operations",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Real Estate Development Manager, AWS Data Center Supply Solutions",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "August 12, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10499637/real-estate-development-manager-aws-data-center-supply-solutions",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Site Acquisitions & Strategic Negotiations Manager - AWS Data Center Infrastructure (Colo) (APAC), AWS Infrastructure - Data Center Supply Solutions (APAC)",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "September  3, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10528140/site-acquisitions-strategic-negotiations-manager-aws-data-center-infrastructure-colo-apac-aws-infrastructure-data-center-supply-solutions-apac",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Snr Manager Design Engineering - India, Data Center Engineering",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "September 30, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10565307/snr-manager-design-engineering-india-data-center-engineering",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Sr. Procurement Category Manager, Data Center Sourcing and Procurement (DCSP)",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "September  1, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10523040/sr-procurement-category-manager-data-center-sourcing-and-procurement-dcsp",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Sr. Project Construction Manager , AWS Data Center Capacity Delivery (DCCD)",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "June 11, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10445576/sr-project-construction-manager-aws-data-center-capacity-delivery-dccd",
+"source": "amazon"
+},
+{
+"company": "Amazon",
+"title": "Sr. Project Manager, AWS Data Center Capacity Delivery",
+"location": "Mumbai, Maharashtra, IND; IN, MH, Mumbai",
+"posted": "May 27, 2026",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://www.amazon.jobs/en/jobs/10431339/sr-project-manager-aws-data-center-capacity-delivery",
 "source": "amazon"
 },
 {
@@ -787,18 +1798,6 @@
 "source": "atlassian"
 },
 {
-"company": "Avaloq",
-"title": "Senior Snowflake Data & AI Platform Engineer",
-"location": "Pune, Maharashtra, India",
-"posted": "2026-05-04",
-"reason": "older than 60 days",
-"tags": [
-"Pune"
-],
-"url": "https://jobs.smartrecruiters.com/Avaloq1/744000124351105",
-"source": "smartrecruiters"
-},
-{
 "company": "BMC Software",
 "title": "Senior AI Data Architect / Solution Engineer - Flexible across Portugal, Spain, Ireland, India",
 "location": "Lisbon, Portugal",
@@ -816,18 +1815,6 @@
 "reason": "location",
 "tags": [],
 "url": "https://jobs.bmc.com/Careers/JobDetail/Sr-Data-Scientist-India/47230",
-"source": "avature"
-},
-{
-"company": "BMC Software",
-"title": "Senior Data Engineer",
-"location": "Pune, India",
-"posted": "2026-09-16",
-"reason": "older than 60 days",
-"tags": [
-"Pune"
-],
-"url": "https://jobs.bmc.com/Careers/JobDetail/GTM-Data-Specialist-II-India/47535",
 "source": "avature"
 },
 {
@@ -932,16 +1919,6 @@
 },
 {
 "company": "Bloomberg",
-"title": "Team Leader - Data Engineering & Integration - Commodities Data",
-"location": "London, United Kingdom",
-"posted": null,
-"reason": "location",
-"tags": [],
-"url": "https://bloomberg.avature.net/careers/JobDetail/Team-Leader-Data-Engineering-Integration-Commodities-Data/20834",
-"source": "avature"
-},
-{
-"company": "Bloomberg",
 "title": "Senior Data Management Professional – Process Automation & Data Operations, Company Financials Data , Pune",
 "location": "Pune, India",
 "posted": null,
@@ -1015,510 +1992,6 @@
 "source": "greenhouse"
 },
 {
-"company": "Canonical",
-"title": "Engineering Manager - Data Platform",
-"location": "Home based - Worldwide",
-"posted": "2024-02-02",
-"reason": "older than 60 days",
-"tags": [
-"Remote"
-],
-"url": "https://job-boards.greenhouse.io/canonical/jobs/5667860",
-"source": "greenhouse"
-},
-{
-"company": "Canonical",
-"title": "Python and Kubernetes Software Engineer - Data, Workflows, AI/ML & Analytics",
-"location": "Home based - Worldwide",
-"posted": "2024-04-11",
-"reason": "older than 60 days",
-"tags": [
-"Remote"
-],
-"url": "https://job-boards.greenhouse.io/canonical/jobs/5703396",
-"source": "greenhouse"
-},
-{
-"company": "Cisco",
-"title": "Data Engineer",
-"location": "Bangalore, India",
-"posted": "Posted 21 Days Ago",
-"reason": "location",
-"tags": [],
-"url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Data-Engineer_2021621",
-"source": "workday"
-},
-{
-"company": "Cisco",
-"title": "Data Engineer",
-"location": "Bangalore, India",
-"posted": "Posted 21 Days Ago",
-"reason": "location",
-"tags": [],
-"url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Data-Engineer_2021631",
-"source": "workday"
-},
-{
-"company": "Cisco",
-"title": "Data Engineer",
-"location": "Hyderabad, India",
-"posted": "Posted 30+ Days Ago",
-"reason": "location",
-"tags": [],
-"url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Hyderabad-India/Data-Engineer_2021955-1",
-"source": "workday"
-},
-{
-"company": "Cisco",
-"title": "Software Engineer | C/C++, L2/L3 Protocols, Data Plane | 4-8 years",
-"location": "Bangalore, India",
-"posted": "Posted 8 Days Ago",
-"reason": "location",
-"tags": [],
-"url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Software-Engineer---C-C----L2-L3-Protocols--Data-Plane---4-8-years_2030187-1",
-"source": "workday"
-},
-{
-"company": "Cisco",
-"title": "Software Engineer | C/C++, L2/L3 Protocols, Data Plane | 8-12 years",
-"location": "Bangalore, India",
-"posted": "Posted 8 Days Ago",
-"reason": "location",
-"tags": [],
-"url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Software-Engineer---C-C----L2-L3-Protocols--Data-Plane---8-12-years_2029975-1",
-"source": "workday"
-},
-{
-"company": "Cisco",
-"title": "Data Engineer",
-"location": "Mumbai, India; Bangalore, India",
-"posted": "2026-09-15",
-"reason": "older than 60 days",
-"tags": [
-"Mumbai"
-],
-"url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Mumbai-India/Data-Engineer_2015732-1",
-"source": "workday"
-},
-{
-"company": "Cisco",
-"title": "Data Engineer",
-"location": "Mumbai, Maharashtra, India",
-"posted": "2026-11-17",
-"reason": "on LinkedIn, but the careers site dropped it (older than 60 days)",
-"tags": [
-"Mumbai"
-],
-"url": "https://in.linkedin.com/jobs/view/data-engineer-at-cisco-4467704802",
-"source": "linkedin"
-},
-{
-"company": "Citi",
-"title": "AVP C12- Data Engineering (Pyspark, Cloud, Hive, Scala)- Bangalore",
-"location": "Bangalore Karnataka India; Chennai Tamil Nadu India",
-"posted": "2024-06-03",
-"reason": "location",
-"tags": [],
-"url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Bangalore-Karnataka-India/AVP-C12--Data-Engineering--Pyspark--Cloud--Hive--Scala---Bangalore_24750545",
-"source": "workday"
-},
-{
-"company": "Citi",
-"title": "Application Support Analyst - SQL and Data Warehousing",
-"location": "DLF CYBERCITY 12B",
-"posted": "Posted 30+ Days Ago",
-"reason": "location",
-"tags": [],
-"url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/DLF-CYBERCITY-12B/Application-Support-Analyst---SQL-and-Data-Warehousing_26998514-1",
-"source": "workday"
-},
-{
-"company": "Citi",
-"title": "Applications Developer Salesforce and ETL",
-"location": "DLF CYBERCITY 12B",
-"posted": "Posted 30+ Days Ago",
-"reason": "location",
-"tags": [],
-"url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/DLF-CYBERCITY-12B/Applications-Developer-Salesforce-and-ETL_26996176",
-"source": "workday"
-},
-{
-"company": "Citi",
-"title": "Data Engineer",
-"location": "1/124, SHIVAJI GARDENS, MOONLI",
-"posted": "Posted 10 Days Ago",
-"reason": "location",
-"tags": [],
-"url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/1124-SHIVAJI-GARDENS-MOONLI/Data-Engineer_261003213",
-"source": "workday"
-},
-{
-"company": "Citi",
-"title": "Data Engineer",
-"location": "DLF CYBERCITY 12B",
-"posted": "Posted 9 Days Ago",
-"reason": "location",
-"tags": [],
-"url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/DLF-CYBERCITY-12B/Data-Engineer_261004570-1",
-"source": "workday"
-},
-{
-"company": "Citi",
-"title": "Data Engineer - Bigdata Technologies",
-"location": "1/124, SHIVAJI GARDENS, MOONLI",
-"posted": "Posted 11 Days Ago",
-"reason": "location",
-"tags": [],
-"url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/1124-SHIVAJI-GARDENS-MOONLI/Data-Engineer---Bigdata-Technologies_261001065",
-"source": "workday"
-},
-{
-"company": "Citi",
-"title": "Data Engineer Pyspark",
-"location": "DLF CYBERCITY 12B",
-"posted": "Posted 21 Days Ago",
-"reason": "location",
-"tags": [],
-"url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/DLF-CYBERCITY-12B/Data-Engineer-Pyspark_261002487",
-"source": "workday"
-},
-{
-"company": "Citi",
-"title": "Data Platform Application Support Lead- Abinitio-ETL",
-"location": "Chennai Tamil Nadu India",
-"posted": "Posted 16 Days Ago",
-"reason": "location",
-"tags": [],
-"url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Chennai-Tamil-Nadu-India/Data-Platform-Application-Support-Lead--Abinitio-ETL_261005648",
-"source": "workday"
-},
-{
-"company": "Citi",
-"title": "Java spark Developer",
-"location": "DLF CYBERCITY 12B",
-"posted": "Posted 30+ Days Ago",
-"reason": "location",
-"tags": [],
-"url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/DLF-CYBERCITY-12B/Java-spark-Developer_26991300-1",
-"source": "workday"
-},
-{
-"company": "Citi",
-"title": "Pyspark Engineer",
-"location": "DLF CYBERCITY 12B",
-"posted": "Posted 29 Days Ago",
-"reason": "location",
-"tags": [],
-"url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/DLF-CYBERCITY-12B/Pyspark-Engineer_261000138",
-"source": "workday"
-},
-{
-"company": "Citi",
-"title": "Senior Java Spark Developer - Assistant Vice President",
-"location": "DLF CYBERCITY 12B",
-"posted": "Posted 30+ Days Ago",
-"reason": "location",
-"tags": [],
-"url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/DLF-CYBERCITY-12B/Senior-Java-Spark-Developer---Assistant-Vice-President_26988930",
-"source": "workday"
-},
-{
-"company": "Citi",
-"title": "Senior Spark Bigdata Engineer",
-"location": "Chennai Tamil Nadu India",
-"posted": "Posted 3 Days Ago",
-"reason": "location",
-"tags": [],
-"url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Chennai-Tamil-Nadu-India/Senior-Spark-Bigdata-Engineer_261008448",
-"source": "workday"
-},
-{
-"company": "Citi",
-"title": "Spark / Scala Application Development Lead - Vice President",
-"location": "1/124, SHIVAJI GARDENS, MOONLI",
-"posted": "Posted 23 Days Ago",
-"reason": "location",
-"tags": [],
-"url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/1124-SHIVAJI-GARDENS-MOONLI/Spark---Scala-Application-Development-Lead---Vice-President_261001827",
-"source": "workday"
-},
-{
-"company": "Citi",
-"title": "Application Developer - Java Spark Big Data - Assistant Vice President - C12 - Pune",
-"location": "Pune Maharashtra India",
-"posted": "2025-04-16",
-"reason": "older than 60 days",
-"tags": [
-"Pune"
-],
-"url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Application-Developer---Java-Spark-Big-Data---Assistant-Vice-President---C12---Pune_25842776-1",
-"source": "workday"
-},
-{
-"company": "Citi",
-"title": "Application Developer - Java Spark Big Data - Assistant Vice President - C12 - Pune",
-"location": "Pune Maharashtra India",
-"posted": "2025-04-16",
-"reason": "older than 60 days",
-"tags": [
-"Pune"
-],
-"url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Application-Developer---Java-Spark-Big-Data---Assistant-Vice-President---C12---Pune_25842781-1",
-"source": "workday"
-},
-{
-"company": "Citi",
-"title": "Data Architect (Hadoop, Spark) -VP-C13 - PUNE",
-"location": "Pune Maharashtra India",
-"posted": "2025-07-14",
-"reason": "older than 60 days",
-"tags": [
-"Pune"
-],
-"url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Data-Architect--Hadoop--Spark---VP-C13---PUNE_25884304",
-"source": "workday"
-},
-{
-"company": "Citi",
-"title": "Data Engineer - C10",
-"location": "Pune Maharashtra India",
-"posted": "2025-03-04",
-"reason": "older than 60 days",
-"tags": [
-"Pune"
-],
-"url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Data-Engineer---C10_25840723",
-"source": "workday"
-},
-{
-"company": "Citi",
-"title": "Data Engineer - C11",
-"location": "Pune Maharashtra India",
-"posted": "2025-03-04",
-"reason": "older than 60 days",
-"tags": [
-"Pune"
-],
-"url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Data-Engineer---C11_25840727",
-"source": "workday"
-},
-{
-"company": "Citi",
-"title": "Lead Data Engineer - Assistant Vice President",
-"location": "Pune Maharashtra India",
-"posted": "2025-09-25",
-"reason": "older than 60 days",
-"tags": [
-"Pune"
-],
-"url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Lead-Data-Engineer--Big-Data--Hadoop--Hive--Python--Spark----Assistant-Vice-President---C12---Pune_25877329-1",
-"source": "workday"
-},
-{
-"company": "Citi",
-"title": "Officer - Data Engineer (Big Data, Python, PySpark)",
-"location": "Pune Maharashtra India",
-"posted": "2025-10-07",
-"reason": "older than 60 days",
-"tags": [
-"Pune"
-],
-"url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Officer---Data-Engineer--Big-Data--Python--PySpark-_25909874",
-"source": "workday"
-},
-{
-"company": "Citi",
-"title": "Officer- ETL Automation tester -QA - C10 -Hybrid- PUNE",
-"location": "Pune Maharashtra India",
-"posted": "2025-07-10",
-"reason": "older than 60 days",
-"tags": [
-"Pune"
-],
-"url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Officer--ETL-Automation-tester--QA---C10--Hybrid--PUNE_25883567",
-"source": "workday"
-},
-{
-"company": "Citi",
-"title": "Senior Big Data Developer",
-"location": "Pune Maharashtra India",
-"posted": "2024-06-18",
-"reason": "older than 60 days",
-"tags": [
-"Pune"
-],
-"url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Senior-Big-Data-Developer_24760472",
-"source": "workday"
-},
-{
-"company": "Citi",
-"title": "Senior Databricks Engineer, Apache Spark and AWS - Vice President",
-"location": "Pune Maharashtra India",
-"posted": "2026-08-25",
-"reason": "older than 60 days",
-"tags": [
-"Pune"
-],
-"url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Senior-Databricks-Engineer--Apache-Spark-and-AWS---Vice-President_26988514",
-"source": "workday"
-},
-{
-"company": "Citi",
-"title": "Senior Software Engineer - Core Java & Apache Spark",
-"location": "Chennai Tamil Nadu India; Pune Maharashtra India",
-"posted": "2026-06-04",
-"reason": "older than 60 days",
-"tags": [
-"Pune"
-],
-"url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Chennai-Tamil-Nadu-India/Senior-Software-Engineer---Core-Java---Apache-Spark_26959667-4",
-"source": "workday"
-},
-{
-"company": "Citi",
-"title": "Senior Databricks Engineer, Apache Spark and AWS - Vice President",
-"location": "Pune Division, Maharashtra, India",
-"posted": "2026-11-05",
-"reason": "on LinkedIn, but the careers site dropped it (older than 60 days)",
-"tags": [
-"Pune"
-],
-"url": "https://in.linkedin.com/jobs/view/senior-databricks-engineer-apache-spark-and-aws-vice-president-at-citi-4486910770",
-"source": "linkedin"
-},
-{
-"company": "Citi",
-"title": "Business Data Analytics Group Manager - Senior Vice President",
-"location": "Pune Maharashtra India",
-"posted": "Posted 30+ Days Ago",
-"reason": "title not a data-engineering role",
-"tags": [
-"Pune"
-],
-"url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Business-Data-Analytics-Group-Manager---Senior-Vice-President_26996581",
-"source": "workday"
-},
-{
-"company": "Citi",
-"title": "Business Data Intermediate Analyst",
-"location": "Mumbai Maharashtra India",
-"posted": "Posted 30+ Days Ago",
-"reason": "title not a data-engineering role",
-"tags": [
-"Mumbai"
-],
-"url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Mumbai-Maharashtra-India/Business-Data-Intermediate-Analyst_26980385-1",
-"source": "workday"
-},
-{
-"company": "Citi",
-"title": "Data & Credit Bureau Attributes Specialist (AVP) - Consumer Credit Risk",
-"location": "Mumbai Maharashtra India",
-"posted": "Posted 30+ Days Ago",
-"reason": "title not a data-engineering role",
-"tags": [
-"Mumbai"
-],
-"url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Mumbai-Maharashtra-India/Data---Credit-Bureau-Attributes-Specialist--AVP----Consumer-Credit-Risk_25908417",
-"source": "workday"
-},
-{
-"company": "Citi",
-"title": "Financial Data Modeling_Vice President_Pune",
-"location": "Pune Maharashtra India",
-"posted": "Posted 30+ Days Ago",
-"reason": "title not a data-engineering role",
-"tags": [
-"Pune"
-],
-"url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Financial-Data-Modeling-Vice-President-Pune_24786081-1",
-"source": "workday"
-},
-{
-"company": "Citi",
-"title": "Generative AI Data Scientist - Deep Learning and LLM",
-"location": "Pune Maharashtra India",
-"posted": "Posted 25 Days Ago",
-"reason": "title not a data-engineering role",
-"tags": [
-"Pune"
-],
-"url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Generative-AI-Data-Scientist---Deep-Learning-and-LLM_261000784-1",
-"source": "workday"
-},
-{
-"company": "Citi",
-"title": "ICM In-Business Quality Assurance – Data Analytics",
-"location": "Mumbai Maharashtra India",
-"posted": "Posted 30+ Days Ago",
-"reason": "title not a data-engineering role",
-"tags": [
-"Mumbai"
-],
-"url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Mumbai-Maharashtra-India/ICM-In-Business-Quality-Assurance---Data-Analytics_24719498",
-"source": "workday"
-},
-{
-"company": "Citi",
-"title": "ICM In-Business Quality Assurance – Data Analytics",
-"location": "Mumbai Maharashtra India",
-"posted": "Posted 30+ Days Ago",
-"reason": "title not a data-engineering role",
-"tags": [
-"Mumbai"
-],
-"url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Mumbai-Maharashtra-India/ICM-In-Business-Quality-Assurance---Data-Analytics_24719511-1",
-"source": "workday"
-},
-{
-"company": "Citi",
-"title": "In Business QA Credit Underwriting - Data Analytics - (AVP)",
-"location": "BANDRA KURLA COMPLEX PLOTS C21 & C36, BLOCK G MUMBAI",
-"posted": "Posted 30+ Days Ago",
-"reason": "title not a data-engineering role",
-"tags": [
-"Mumbai"
-],
-"url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/BANDRA-KURLA-COMPLEX-PLOTS-C21--C36-BLOCK-G-MUMBAI/Assistant-Vice-President---Credit-Underwriter---Data-Analytic--Python----IBQA---C12---Mumbai_24814550",
-"source": "workday"
-},
-{
-"company": "Citi",
-"title": "Reference Data Management Representative",
-"location": "Pune Maharashtra India",
-"posted": "Posted 7 Days Ago",
-"reason": "title not a data-engineering role",
-"tags": [
-"Pune"
-],
-"url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Reference-Data-Management-Representative_261005246",
-"source": "workday"
-},
-{
-"company": "Citi",
-"title": "Reference Data Services Rep",
-"location": "Pune Maharashtra India",
-"posted": "Posted 30+ Days Ago",
-"reason": "title not a data-engineering role",
-"tags": [
-"Pune"
-],
-"url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Reference-Data-Services-Rep_25928553-1",
-"source": "workday"
-},
-{
-"company": "Citi",
-"title": "Senior Machine Learning Data Scientist - Assistant Vice President",
-"location": "Pune Maharashtra India",
-"posted": "Posted 30+ Days Ago",
-"reason": "title not a data-engineering role",
-"tags": [
-"Pune"
-],
-"url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Senior-Machine-Learning-Data-Scientist---Assistant-Vice-President_26998598",
-"source": "workday"
-},
-{
 "company": "Coinbase",
 "title": "Senior Market Data Engineer",
 "location": "Remote - USA",
@@ -1567,222 +2040,6 @@
 "tags": [],
 "url": "https://www.coinbase.com/careers/positions/8144836?gh_jid=8144836",
 "source": "greenhouse"
-},
-{
-"company": "Cummins",
-"title": "Data Engineer - Senior 2",
-"location": "Pune, India",
-"posted": "2026-08-25",
-"reason": "older than 60 days",
-"tags": [
-"Pune"
-],
-"url": "https://dejobs.org/pune-ind/data-engineer-senior-2/3304B36B8ADC4967ABD826E08672533E/job/",
-"source": "jobsyn"
-},
-{
-"company": "Cummins",
-"title": "Data Engineer - Senior 3",
-"location": "Pune, India",
-"posted": "2026-08-25",
-"reason": "older than 60 days",
-"tags": [
-"Pune"
-],
-"url": "https://dejobs.org/pune-ind/data-engineer-senior-3/12817029DE2F41F784CDD209E2EF53CA/job/",
-"source": "jobsyn"
-},
-{
-"company": "Cummins",
-"title": "Data Engineer - Senior 7 (Data Modeler)",
-"location": "Pune, India",
-"posted": "2026-09-02",
-"reason": "older than 60 days",
-"tags": [
-"Pune"
-],
-"url": "https://dejobs.org/pune-ind/data-engineer-senior-7-data-modeler/6F2A2A4283EA4F038A692AAA736917BA/job/",
-"source": "jobsyn"
-},
-{
-"company": "Cummins",
-"title": "Data Engineer 1",
-"location": "Pune, India",
-"posted": "2026-08-20",
-"reason": "older than 60 days",
-"tags": [
-"Pune"
-],
-"url": "https://dejobs.org/pune-ind/data-engineer-1/B00061033C5A4D938EA8D44C4576551A/job/",
-"source": "jobsyn"
-},
-{
-"company": "Cummins",
-"title": "Data Engineer 2",
-"location": "Pune, India",
-"posted": "2026-08-20",
-"reason": "older than 60 days",
-"tags": [
-"Pune"
-],
-"url": "https://dejobs.org/pune-ind/data-engineer-2/F4CEE0D94718448F92B67DD09440D451/job/",
-"source": "jobsyn"
-},
-{
-"company": "Cummins",
-"title": "Data Engineer 3",
-"location": "Pune, India",
-"posted": "2026-08-21",
-"reason": "older than 60 days",
-"tags": [
-"Pune"
-],
-"url": "https://dejobs.org/pune-ind/data-engineer-3/EF378C1A607948588665064D0D2F5702/job/",
-"source": "jobsyn"
-},
-{
-"company": "Cummins",
-"title": "Data Engineer 4",
-"location": "Pune, India",
-"posted": "2026-08-21",
-"reason": "older than 60 days",
-"tags": [
-"Pune"
-],
-"url": "https://dejobs.org/pune-ind/data-engineer-4/37AEFF8A2F3F4D24974D63135E1BD7B6/job/",
-"source": "jobsyn"
-},
-{
-"company": "Cummins",
-"title": "Data Engineer 6",
-"location": "Pune, India",
-"posted": "2026-08-25",
-"reason": "older than 60 days",
-"tags": [
-"Pune"
-],
-"url": "https://dejobs.org/pune-ind/data-engineer-6/EC3E07EC4169486689A2D84B1DFCE76E/job/",
-"source": "jobsyn"
-},
-{
-"company": "Cummins",
-"title": "Data Engineer 7",
-"location": "Pune, India",
-"posted": "2026-08-25",
-"reason": "older than 60 days",
-"tags": [
-"Pune"
-],
-"url": "https://dejobs.org/pune-ind/data-engineer-7/1E098F80DD5E46FCAB0511E017B97AD5/job/",
-"source": "jobsyn"
-},
-{
-"company": "Cummins",
-"title": "Data Engineer - Senior 2",
-"location": "Pune Division, Maharashtra, India",
-"posted": "2026-11-20",
-"reason": "on LinkedIn, but the careers site dropped it (older than 60 days)",
-"tags": [
-"Pune"
-],
-"url": "https://in.linkedin.com/jobs/view/data-engineer-senior-2-at-cummins-india-4492803691",
-"source": "linkedin"
-},
-{
-"company": "Cummins",
-"title": "Data Engineer - Senior 3",
-"location": "Pune Division, Maharashtra, India",
-"posted": "2026-11-20",
-"reason": "on LinkedIn, but the careers site dropped it (older than 60 days)",
-"tags": [
-"Pune"
-],
-"url": "https://in.linkedin.com/jobs/view/data-engineer-senior-3-at-cummins-india-4492809500",
-"source": "linkedin"
-},
-{
-"company": "Cummins",
-"title": "Data Engineer - Senior 7 (Data Modeler)",
-"location": "Pune Division, Maharashtra, India",
-"posted": "2026-11-06",
-"reason": "on LinkedIn, but the careers site dropped it (older than 60 days)",
-"tags": [
-"Pune"
-],
-"url": "https://in.linkedin.com/jobs/view/data-engineer-senior-7-data-modeler-at-cummins-india-4461308101",
-"source": "linkedin"
-},
-{
-"company": "Cummins",
-"title": "Data Engineer 1",
-"location": "Pune Division, Maharashtra, India",
-"posted": "2026-11-13",
-"reason": "on LinkedIn, but the careers site dropped it (older than 60 days)",
-"tags": [
-"Pune"
-],
-"url": "https://in.linkedin.com/jobs/view/data-engineer-1-at-cummins-india-4456053014",
-"source": "linkedin"
-},
-{
-"company": "Cummins",
-"title": "Data Engineer 2",
-"location": "Pune Division, Maharashtra, India",
-"posted": "2026-11-15",
-"reason": "on LinkedIn, but the careers site dropped it (older than 60 days)",
-"tags": [
-"Pune"
-],
-"url": "https://in.linkedin.com/jobs/view/data-engineer-2-at-cummins-india-4456009301",
-"source": "linkedin"
-},
-{
-"company": "Cummins",
-"title": "Data Engineer 3",
-"location": "Pune Division, Maharashtra, India",
-"posted": "2026-11-16",
-"reason": "on LinkedIn, but the careers site dropped it (older than 60 days)",
-"tags": [
-"Pune"
-],
-"url": "https://in.linkedin.com/jobs/view/data-engineer-3-at-cummins-india-4456266011",
-"source": "linkedin"
-},
-{
-"company": "Cummins",
-"title": "Data Engineer 4",
-"location": "Pune Division, Maharashtra, India",
-"posted": "2026-11-15",
-"reason": "on LinkedIn, but the careers site dropped it (older than 60 days)",
-"tags": [
-"Pune"
-],
-"url": "https://in.linkedin.com/jobs/view/data-engineer-4-at-cummins-india-4456265177",
-"source": "linkedin"
-},
-{
-"company": "Cummins",
-"title": "Data Engineer 6",
-"location": "Pune Division, Maharashtra, India",
-"posted": "2026-11-19",
-"reason": "on LinkedIn, but the careers site dropped it (older than 60 days)",
-"tags": [
-"Pune"
-],
-"url": "https://in.linkedin.com/jobs/view/data-engineer-6-at-cummins-india-4457441873",
-"source": "linkedin"
-},
-{
-"company": "Cummins",
-"title": "Data Engineer 7",
-"location": "Pune Division, Maharashtra, India",
-"posted": "2026-11-20",
-"reason": "on LinkedIn, but the careers site dropped it (older than 60 days)",
-"tags": [
-"Pune"
-],
-"url": "https://in.linkedin.com/jobs/view/data-engineer-7-at-cummins-india-4457442827",
-"source": "linkedin"
 },
 {
 "company": "Cummins",
@@ -2289,52 +2546,6 @@
 "source": "greenhouse"
 },
 {
-"company": "Dow",
-"title": "Business Data Specialist - Product/Material",
-"location": "Navi Mumbai (IND)",
-"posted": "Posted 2 Days Ago",
-"reason": "title not a data-engineering role",
-"tags": [
-"Navi Mumbai"
-],
-"url": "https://dow.wd1.myworkdayjobs.com/en-US/ExternalCareers/job/Navi-Mumbai-IND/Business-Data-Specialist---Product-Material_R2069436",
-"source": "workday"
-},
-{
-"company": "Drivetrain",
-"title": "Product Manager - Data Platform",
-"location": "India; India",
-"posted": "2024-12-26",
-"reason": "older than 60 days",
-"tags": [
-"Remote"
-],
-"url": "https://jobs.lever.co/drivetrain/12f4d396-83dd-466b-89ca-eb7ce9fa4194",
-"source": "lever"
-},
-{
-"company": "Drivetrain",
-"title": "Software Engineer (Data Engineering)",
-"location": "India; India",
-"posted": "2022-12-24",
-"reason": "older than 60 days",
-"tags": [
-"Remote"
-],
-"url": "https://jobs.lever.co/drivetrain/c677fe8d-8f9d-483e-b523-62c77e1a0fb7",
-"source": "lever"
-},
-{
-"company": "EPAM Systems",
-"title": "Lead Data Software Engineer",
-"location": "Chennai, India; Coimbatore, India",
-"posted": "2026-08-31T06:52:02.542Z",
-"reason": "location",
-"tags": [],
-"url": "https://careers.epam.com/en/vacancy/lead-data-software-engineer-bltaji29tbeaw5b1ay3_en",
-"source": "epam"
-},
-{
 "company": "EPAM Systems",
 "title": "Lead Palantir Data Software Engineer",
 "location": "Chennai, India",
@@ -2352,16 +2563,6 @@
 "reason": "location",
 "tags": [],
 "url": "https://careers.epam.com/en/vacancy/lead-palantir-data-software-engineer-bltxzgfkqf390qudpxg_en",
-"source": "epam"
-},
-{
-"company": "EPAM Systems",
-"title": "Lead Snowflake Data Engineer",
-"location": "Coimbatore, India; Chennai, India",
-"posted": "2026-08-31T06:52:00.758Z",
-"reason": "location",
-"tags": [],
-"url": "https://careers.epam.com/en/vacancy/lead-snowflake-data-engineer-bltxknjeihe7xa73q0u_en",
 "source": "epam"
 },
 {
@@ -2426,50 +2627,14 @@
 },
 {
 "company": "EPAM Systems",
-"title": "Data Quality Engineer",
-"location": "Gurgaon, India; Hyderabad, India; Bangalore, India; Pune, India; Chennai, India; Coimbatore, India",
-"posted": "2026-09-16",
-"reason": "older than 60 days",
-"tags": [
-"Pune"
-],
-"url": "https://careers.epam.com/en/vacancy/data-quality-engineer-blt06hk69sc08xdo078_en",
-"source": "epam"
-},
-{
-"company": "EPAM Systems",
-"title": "Lead Snowflake Data Engineer",
-"location": "Gurgaon, India; Pune, India; Hyderabad, India; Bangalore, India",
-"posted": "2026-08-31",
-"reason": "older than 60 days",
-"tags": [
-"Pune"
-],
-"url": "https://careers.epam.com/en/vacancy/lead-snowflake-data-engineer-bltri8nn5hn2fkrw0o2_en",
-"source": "epam"
-},
-{
-"company": "EPAM Systems",
-"title": "Senior Snowflake Data Engineer",
-"location": "Gurgaon, India; Pune, India; Hyderabad, India; Bangalore, India",
-"posted": "2026-08-31",
-"reason": "older than 60 days",
-"tags": [
-"Pune"
-],
-"url": "https://careers.epam.com/en/vacancy/senior-snowflake-data-engineer-bltaz533psg1z1o36xt_en",
-"source": "epam"
-},
-{
-"company": "EPAM Systems",
-"title": "Lead Business Analyst - Asset Management Data & Reporting",
-"location": "Jaipur, India; Coimbatore, India; Chennai, India; Hyderabad, India; Bangalore, India; Pune, India",
-"posted": "2026-11-09T10:03:24.206Z",
+"title": "Data Technology Consultant (AI Consultant)",
+"location": "Gurgaon, India; Coimbatore, India; Chennai, India; Pune, India; Bangalore, India; Hyderabad, India",
+"posted": "2026-10-30T07:51:57.690Z",
 "reason": "title not a data-engineering role",
 "tags": [
 "Pune"
 ],
-"url": "https://careers.epam.com/en/vacancy/lead-business-analyst-asset-management-data-reporting-bltxnf5zn4d04ab1izz_en",
+"url": "https://careers.epam.com/en/vacancy/data-technology-consultant-ai-consultant-bltfu962017v3tl9tg3_en",
 "source": "epam"
 },
 {
@@ -2579,18 +2744,6 @@
 "source": "oracle"
 },
 {
-"company": "Fiserv",
-"title": "Sr. Data Scientist",
-"location": "Pune - Trion Business Park, India",
-"posted": "Posted Yesterday",
-"reason": "title not a data-engineering role",
-"tags": [
-"Pune"
-],
-"url": "https://fiserv.wd5.myworkdayjobs.com/en-US/EXT/job/Pune---Trion-Business-Park-India/Sr-Data-Scientist_R-10407619",
-"source": "workday"
-},
-{
 "company": "Fivetran",
 "title": "Principal Software Engineer, Data Lakes",
 "location": "Remote, Germany, EMEA",
@@ -2661,58 +2814,6 @@
 "source": "greenhouse"
 },
 {
-"company": "Forbes Advisor",
-"title": "Data Engineer - L2",
-"location": "Remote (Chennai, India); Remote (Mumbai, India)",
-"posted": "2026-06-05",
-"reason": "older than 60 days",
-"tags": [
-"Mumbai",
-"Remote"
-],
-"url": "https://ats.rippling.com/forbes-advisor/jobs/51bf18cc-3fe2-401b-8741-db5dc9ec65c3",
-"source": "rippling"
-},
-{
-"company": "Forbes Advisor",
-"title": "Data Engineer - L2",
-"location": "Remote (Chennai, India); Remote (Mumbai, India)",
-"posted": "2026-06-05",
-"reason": "older than 60 days",
-"tags": [
-"Mumbai",
-"Remote"
-],
-"url": "https://ats.rippling.com/forbes-advisor/jobs/51bf18cc-3fe2-401b-8741-db5dc9ec65c3",
-"source": "rippling"
-},
-{
-"company": "Forbes Advisor",
-"title": "Data Engineer L3",
-"location": "Remote (Chennai, IN); Remote (Mumbai, IN)",
-"posted": "2026-08-06",
-"reason": "older than 60 days",
-"tags": [
-"Mumbai",
-"Remote"
-],
-"url": "https://ats.rippling.com/forbes-advisor/jobs/477b1631-756b-4da5-8f6d-a9728fe77f7b",
-"source": "rippling"
-},
-{
-"company": "Forbes Advisor",
-"title": "Data Engineer L3",
-"location": "Remote (Chennai, IN); Remote (Mumbai, IN)",
-"posted": "2026-08-06",
-"reason": "older than 60 days",
-"tags": [
-"Mumbai",
-"Remote"
-],
-"url": "https://ats.rippling.com/forbes-advisor/jobs/477b1631-756b-4da5-8f6d-a9728fe77f7b",
-"source": "rippling"
-},
-{
 "company": "Gallagher",
 "title": "Data Engineering Manager",
 "location": "Rolling Meadows, Illinois; Rolling Meadows, Illinois, United States",
@@ -2740,42 +2841,6 @@
 "reason": "location",
 "tags": [],
 "url": "https://jobs.ajg.com/jobs/59368",
-"source": "jibe"
-},
-{
-"company": "Gallagher",
-"title": "Gen AI Data Engineer",
-"location": "Bangalore, India; Pune, India; Gurugram, India; Bangalore, Karnataka, India",
-"posted": "2026-09-15",
-"reason": "older than 60 days",
-"tags": [
-"Pune"
-],
-"url": "https://jobs.ajg.com/jobs/59184",
-"source": "jibe"
-},
-{
-"company": "Gallagher",
-"title": "Senior Gen AI Data Engineer",
-"location": "Bangalore, India; Pune, India; Gurugram, India; Bangalore, Karnataka, India",
-"posted": "2026-09-11",
-"reason": "older than 60 days",
-"tags": [
-"Pune"
-],
-"url": "https://jobs.ajg.com/jobs/59182",
-"source": "jibe"
-},
-{
-"company": "Gallagher",
-"title": "Senior Gen AI Data Engineer",
-"location": "Bangalore, India; Pune, India; Gurugram, India; Bangalore, Karnataka, India",
-"posted": "2026-09-11",
-"reason": "older than 60 days",
-"tags": [
-"Pune"
-],
-"url": "https://jobs.ajg.com/jobs/59085",
 "source": "jibe"
 },
 {
@@ -3082,18 +3147,6 @@
 "reason": "location",
 "tags": [],
 "url": "https://jobs.lever.co/gohighlevel/ff29a1fa-05bb-49b4-b945-23a63d9a4110",
-"source": "lever"
-},
-{
-"company": "HighLevel",
-"title": "Sr. Product Manager - Custom Objects & CRM Data Platform",
-"location": "India; India",
-"posted": "2026-09-10",
-"reason": "older than 60 days",
-"tags": [
-"Remote"
-],
-"url": "https://jobs.lever.co/gohighlevel/ffc2572e-12ce-4ad2-a0cd-7e8eca60a185",
 "source": "lever"
 },
 {
@@ -3415,92 +3468,6 @@
 "source": "eightfold"
 },
 {
-"company": "Johnson & Johnson",
-"title": "Manager Forward Deployed Engineer - Data & Intelligence",
-"location": "Hyderabad, Andhra Pradesh, India",
-"posted": "Posted 7 Days Ago",
-"reason": "location",
-"tags": [],
-"url": "https://jj.wd5.myworkdayjobs.com/en-US/jj/job/Hyderabad-Andhra-Pradesh-India/Manager-Forward-Deployed-Engineer---Data---Intelligence_R-112263",
-"source": "workday"
-},
-{
-"company": "Johnson & Johnson",
-"title": "Senior Analyst, HR Lakehouse / Medallion Engineer",
-"location": "Bangalore, Karnataka, India",
-"posted": "Posted 3 Days Ago",
-"reason": "location",
-"tags": [],
-"url": "https://jj.wd5.myworkdayjobs.com/en-US/jj/job/Bangalore-Karnataka-India/Senior-Analyst--HR-Lakehouse---Medallion-Engineer_R-107134",
-"source": "workday"
-},
-{
-"company": "Johnson & Johnson",
-"title": "Senior Associate / Assistant Manager – Business Analytics & Data",
-"location": "Mumbai, India",
-"posted": "Posted Today",
-"reason": "title not a data-engineering role",
-"tags": [
-"Mumbai"
-],
-"url": "https://jj.wd5.myworkdayjobs.com/en-US/jj/job/Mumbai-India/Senior-Associate---Assistant-Manager---Business-Analytics---Data_R-108719",
-"source": "workday"
-},
-{
-"company": "MSD (Merck & Co.)",
-"title": "Junior Analytics Engineer",
-"location": "IND - Telangana - Hyderabad (Hitec City Raidurg)",
-"posted": "Posted 3 Days Ago",
-"reason": "location",
-"tags": [],
-"url": "https://msd.wd5.myworkdayjobs.com/en-US/SearchJobs/job/IND---Telangana---Hyderabad-Hitec-City-Raidurg/Junior-Analytics-Engineer_R429405-1",
-"source": "workday"
-},
-{
-"company": "MSD (Merck & Co.)",
-"title": "Specialist, Analytics Engineer",
-"location": "IND - Telangana - Hyderabad (Hitec City Raidurg)",
-"posted": "Posted 3 Days Ago",
-"reason": "location",
-"tags": [],
-"url": "https://msd.wd5.myworkdayjobs.com/en-US/SearchJobs/job/IND---Telangana---Hyderabad-Hitec-City-Raidurg/Specialist--Analytics-Engineer_R429376",
-"source": "workday"
-},
-{
-"company": "MSD (Merck & Co.)",
-"title": "Specialist, Data Engineering",
-"location": "IND - Telangana - Hyderabad (Hitec City Raidurg)",
-"posted": "Posted 3 Days Ago",
-"reason": "location",
-"tags": [],
-"url": "https://msd.wd5.myworkdayjobs.com/en-US/SearchJobs/job/IND---Telangana---Hyderabad-Hitec-City-Raidurg/Specialist--Data-Engineering_R428291-1",
-"source": "workday"
-},
-{
-"company": "MSD (Merck & Co.)",
-"title": "Empower Master Data Analyst",
-"location": "IND - Maharashtra - Pune (Wework)",
-"posted": "Posted 29 Days Ago",
-"reason": "title not a data-engineering role",
-"tags": [
-"Pune"
-],
-"url": "https://msd.wd5.myworkdayjobs.com/en-US/SearchJobs/job/IND---Maharashtra---Pune-Wework/Empower-Master-Data-Analyst_R423257",
-"source": "workday"
-},
-{
-"company": "MSD (Merck & Co.)",
-"title": "Senior Specialist , Data Science",
-"location": "IND - Maharashtra - Pune (Wework)",
-"posted": "Posted Today",
-"reason": "title not a data-engineering role",
-"tags": [
-"Pune"
-],
-"url": "https://msd.wd5.myworkdayjobs.com/en-US/SearchJobs/job/IND---Maharashtra---Pune-Wework/Senior-Specialist---Data-Science_R429172-1",
-"source": "workday"
-},
-{
 "company": "Mastercard",
 "title": "Lead Data Engineer",
 "location": "Hyderabad, India",
@@ -3552,18 +3519,6 @@
 },
 {
 "company": "Mastercard",
-"title": "Sr Data Engineer",
-"location": "Pune, India",
-"posted": "2026-07-21",
-"reason": "older than 60 days",
-"tags": [
-"Pune"
-],
-"url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Sr-Tester-Data-Engineer_R-271045",
-"source": "workday"
-},
-{
-"company": "Mastercard",
 "title": "Senior Specialist - Global Product Management - Data Analytics and Agentic AI",
 "location": "Pune, India",
 "posted": "Posted 30+ Days Ago",
@@ -3572,18 +3527,6 @@
 "Pune"
 ],
 "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Senior-Specialist---Global-Product-Management---Data-Analytics-and-Agentic-AI_R-288650",
-"source": "workday"
-},
-{
-"company": "Medline",
-"title": "Data Scientist",
-"location": "Pune",
-"posted": "Posted 30+ Days Ago",
-"reason": "title not a data-engineering role",
-"tags": [
-"Pune"
-],
-"url": "https://medline.wd5.myworkdayjobs.com/en-US/Medline/job/Pune/Sr-Assoc-Developer-IT_R2615946",
 "source": "workday"
 },
 {
@@ -3678,18 +3621,6 @@
 },
 {
 "company": "Mrsool",
-"title": "Data Engineer II",
-"location": "India; India",
-"posted": "2026-09-17",
-"reason": "older than 60 days",
-"tags": [
-"Remote"
-],
-"url": "https://apply.workable.com/mrsool-3/j/0928A9FFB1/",
-"source": "workable"
-},
-{
-"company": "Mrsool",
 "title": "Data Analyst",
 "location": "India; India",
 "posted": "2026-10-05T00:00:00.000Z",
@@ -3735,6 +3666,16 @@
 ],
 "url": "https://careers.nomura.com/Nomura/job/Mumbai-OPS-CS-Client-Data/1444836900/",
 "source": "csb"
+},
+{
+"company": "Nutanix",
+"title": "Senior Data Engineer",
+"location": "Bangalore, India",
+"posted": null,
+"reason": "location",
+"tags": [],
+"url": "https://jobs.jobvite.com/nutanix/job/oslPAfwW",
+"source": "jobvite"
 },
 {
 "company": "Nutanix",
@@ -3933,30 +3874,6 @@
 "source": "workday"
 },
 {
-"company": "P&G",
-"title": "Senior Data Engineer",
-"location": "MUMBAI GENERAL OFFICE",
-"posted": "2026-09-21",
-"reason": "older than 60 days",
-"tags": [
-"Mumbai"
-],
-"url": "https://pg.wd5.myworkdayjobs.com/en-US/1000/job/MUMBAI-GENERAL-OFFICE/Senior-Data-Engineer_R000158699",
-"source": "workday"
-},
-{
-"company": "P&G",
-"title": "Senior Data Engineer",
-"location": "Mumbai Metropolitan Region",
-"posted": "2026-11-24",
-"reason": "on LinkedIn, but the careers site dropped it (older than 60 days)",
-"tags": [
-"Mumbai"
-],
-"url": "https://in.linkedin.com/jobs/view/senior-data-engineer-at-procter-gamble-4467366679",
-"source": "linkedin"
-},
-{
 "company": "Pfizer",
 "title": "Senior Associate, Data Manager, Clinical Data Sciences",
 "location": "India - Mumbai",
@@ -3969,18 +3886,6 @@
 "source": "workday"
 },
 {
-"company": "Priceline (Booking Holdings)",
-"title": "Staff Data Engineer",
-"location": "Mumbai",
-"posted": "2026-09-25",
-"reason": "older than 60 days",
-"tags": [
-"Mumbai"
-],
-"url": "https://priceline.wd1.myworkdayjobs.com/en-US/Priceline/job/Mumbai/Staff-Data-Architect_R5735",
-"source": "workday"
-},
-{
 "company": "PubMatic",
 "title": "Data Engineer – Mobile Monetization – Big Data, GenAI & Mobile AdTech",
 "location": "Redwood City, US",
@@ -3988,18 +3893,6 @@
 "reason": "location",
 "tags": [],
 "url": "https://pubmatic.com/job/?gh_jid=5478870008",
-"source": "greenhouse"
-},
-{
-"company": "PubMatic",
-"title": "Senior / Software Engineer - Data Analytics",
-"location": "Pune, IN",
-"posted": "2026-03-09",
-"reason": "older than 60 days",
-"tags": [
-"Pune"
-],
-"url": "https://pubmatic.com/job/?gh_jid=5146913008",
 "source": "greenhouse"
 },
 {
@@ -4016,18 +3909,6 @@
 },
 {
 "company": "Resilinc",
-"title": "Senior Data Engineer",
-"location": "India; India",
-"posted": "2026-07-30",
-"reason": "older than 60 days",
-"tags": [
-"Remote"
-],
-"url": "https://jobs.lever.co/resilinc/98e013c3-84ff-4596-8712-6401c0fb3d55",
-"source": "lever"
-},
-{
-"company": "Resilinc",
 "title": "Engineering, Product & Data Science Future Opportunities",
 "location": "Bangalore; Bangalore; Pune; India; Gurgaon",
 "posted": 1738177088867,
@@ -4040,26 +3921,6 @@
 "source": "lever"
 },
 {
-"company": "Salesforce",
-"title": "Customer Success Manager – Informatica Implementation Experience (CDI / Data Governance/ MDM)",
-"location": "India - Bangalore",
-"posted": "Posted 28 Days Ago",
-"reason": "location",
-"tags": [],
-"url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Bangalore/Customer-Success-Manager--Informatica---ETL-implementation-_JR364032",
-"source": "workday"
-},
-{
-"company": "Salesforce",
-"title": "Success Guide - Informatica Product experience mandatory",
-"location": "India - Bangalore",
-"posted": "Posted 28 Days Ago",
-"reason": "location",
-"tags": [],
-"url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Bangalore/Success-Guide---Informatica-Product-experience-mandatory_JR351410",
-"source": "workday"
-},
-{
 "company": "Siemens Digital Industries Software",
 "title": "Analytics Engineer & Service Manager",
 "location": "Thane",
@@ -4067,16 +3928,6 @@
 "reason": "location",
 "tags": [],
 "url": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/528785",
-"source": "avature"
-},
-{
-"company": "Siemens Digital Industries Software",
-"title": "CBI/ATS Data Testing Engineer",
-"location": "Singapore",
-"posted": null,
-"reason": "location",
-"tags": [],
-"url": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/529136",
 "source": "avature"
 },
 {
@@ -4416,98 +4267,6 @@
 "source": "csb_unify"
 },
 {
-"company": "Thermo Fisher Scientific",
-"title": "AWS Data Platform Architect (AI & Graph)",
-"location": "Bangalore, India",
-"posted": "Posted 28 Days Ago",
-"reason": "location",
-"tags": [],
-"url": "https://thermofisher.wd5.myworkdayjobs.com/en-US/thermofishercareers/job/Bangalore-India/AWS-Data-Platform-Architect--AI---Graph-_R-01348307-1",
-"source": "workday"
-},
-{
-"company": "Thermo Fisher Scientific",
-"title": "Data Analyst – Analytics Engineering & AI",
-"location": "Bangalore, India",
-"posted": "Posted 30+ Days Ago",
-"reason": "location",
-"tags": [],
-"url": "https://thermofisher.wd5.myworkdayjobs.com/en-US/thermofishercareers/job/Bangalore-India/Data-Analyst---Analytics-Engineering---AI_R-01369315-1",
-"source": "workday"
-},
-{
-"company": "Thermo Fisher Scientific",
-"title": "Senior Data Analyst – Analytics Engineering & AI",
-"location": "Bangalore, India",
-"posted": "Posted 30+ Days Ago",
-"reason": "location",
-"tags": [],
-"url": "https://thermofisher.wd5.myworkdayjobs.com/en-US/thermofishercareers/job/Bangalore-India/Senior-Data-Analyst---Analytics-Engineering---AI_R-01369316",
-"source": "workday"
-},
-{
-"company": "Thermo Fisher Scientific",
-"title": "Senior Data Engineer",
-"location": "Hyderabad, India",
-"posted": "Posted 24 Days Ago",
-"reason": "location",
-"tags": [],
-"url": "https://thermofisher.wd5.myworkdayjobs.com/en-US/thermofishercareers/job/Hyderabad-India/Senior-Data-Engineer_R-01338302",
-"source": "workday"
-},
-{
-"company": "Thermo Fisher Scientific",
-"title": "Senior Data Engineer",
-"location": "Hyderabad, India",
-"posted": "Posted 24 Days Ago",
-"reason": "location",
-"tags": [],
-"url": "https://thermofisher.wd5.myworkdayjobs.com/en-US/thermofishercareers/job/Hyderabad-India/Senior-Data-Engineer_R-01371611-1",
-"source": "workday"
-},
-{
-"company": "Thermo Fisher Scientific",
-"title": "Senior Project Manager - Data Platform Transformation",
-"location": "Bangalore, India",
-"posted": "Posted 30+ Days Ago",
-"reason": "location",
-"tags": [],
-"url": "https://thermofisher.wd5.myworkdayjobs.com/en-US/thermofishercareers/job/Bangalore-India/Senior-Project-Manager---Data-Platform-Transformation_R-01370116",
-"source": "workday"
-},
-{
-"company": "Thermo Fisher Scientific",
-"title": "Senior Software Engineer — Python | Data Governance and Analytics",
-"location": "Bangalore, India",
-"posted": "Posted 15 Days Ago",
-"reason": "location",
-"tags": [],
-"url": "https://thermofisher.wd5.myworkdayjobs.com/en-US/thermofishercareers/job/Bangalore-India/Senior-Software-Engineer---Python---Data-Governance-and-Analytics_R-01375917",
-"source": "workday"
-},
-{
-"company": "Thermo Fisher Scientific",
-"title": "Sr. Data Platform Engineer",
-"location": "Bangalore, India",
-"posted": "Posted 30+ Days Ago",
-"reason": "location",
-"tags": [],
-"url": "https://thermofisher.wd5.myworkdayjobs.com/en-US/thermofishercareers/job/Bangalore-India/Sr-Data-Platform-Engineer_R-01370119-1",
-"source": "workday"
-},
-{
-"company": "Thermo Fisher Scientific",
-"title": "Senior Data Scientist – AI/ML",
-"location": "Mumbai, India",
-"posted": "Posted 30+ Days Ago",
-"reason": "title not a data-engineering role",
-"tags": [
-"Mumbai"
-],
-"url": "https://thermofisher.wd5.myworkdayjobs.com/en-US/thermofishercareers/job/Mumbai-India/Senior-Data-Scientist---AI-ML_R-01370487",
-"source": "workday"
-},
-{
 "company": "Tiger Analytics",
 "title": "Azure Data Engineer",
 "location": "Chicago, Illinois, United States; Chicago, Illinois, United States",
@@ -4626,18 +4385,6 @@
 "tags": [],
 "url": "https://apply.workable.com/tiger-analytics/j/83F54268FF/",
 "source": "workable"
-},
-{
-"company": "TomTom",
-"title": "Data Scientist - II ( 3- 5 Yrs, Databricks, Pyspark, Statistical Analysis, ML, DL)",
-"location": "Pune, India; Pune, India",
-"posted": "2026-07-29",
-"reason": "older than 60 days",
-"tags": [
-"Pune"
-],
-"url": "https://jobs.eu.lever.co/tomtom/8aa05b97-8887-4a07-a480-fe1f86c76479",
-"source": "lever"
 },
 {
 "company": "Truecaller",
@@ -4849,18 +4596,6 @@
 "reason": "location",
 "tags": [],
 "url": "https://jobs.vodafone.com/careers/job/563018698141820",
-"source": "eightfold"
-},
-{
-"company": "Vodafone (VOIS)",
-"title": "OSS Performance Management & Analytics Engineer(InfoVista & Kibana) -Pune",
-"location": "Pune, Maharashtra, India",
-"posted": "2026-08-12",
-"reason": "older than 60 days",
-"tags": [
-"Pune"
-],
-"url": "https://jobs.vodafone.com/careers/job/563018697780540",
 "source": "eightfold"
 },
 {
