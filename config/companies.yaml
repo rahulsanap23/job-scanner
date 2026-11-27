@@ -1095,3 +1095,10 @@ companies:
     host: mgpru.wd3.myworkdayjobs.com
     tenant: mgpru
     site: mandgprudential
+- name: Forbes Advisor
+  aliases:
+  - Forbes Marketplace
+  sources:
+  - type: rippling
+    slug: forbes-advisor
+  careers_url: https://ats.rippling.com/forbes-advisor/jobs

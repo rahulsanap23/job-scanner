@@ -208,9 +208,14 @@ def linkedin(http, job, cfg):
     return m.group(1) if m else ld_description(page)
 
 
+def rippling(http, job, cfg):
+    from .adapters import rippling as rp
+    return rp.description(http, job["url"])
+
+
 FETCHERS = {"workday": workday, "greenhouse": greenhouse, "lever": lever, "ashby": ashby,
             "smartrecruiters": smartrecruiters, "oracle": oracle, "eightfold": eightfold,
-            "atlassian": atlassian, "jibe": jibe, "linkedin": linkedin}
+            "atlassian": atlassian, "jibe": jibe, "linkedin": linkedin, "rippling": rippling}
 
 
 def platform(job):
@@ -221,7 +226,7 @@ def platform(job):
     host = urlparse(job.get("url") or "").netloc
     for key, name in (("myworkdayjobs", "workday"), ("greenhouse", "greenhouse"), ("lever.co", "lever"),
                       ("ashbyhq", "ashby"), ("smartrecruiters", "smartrecruiters"), ("oraclecloud", "oracle"),
-                      ("eightfold", "eightfold"), ("linkedin.com", "linkedin")):
+                      ("eightfold", "eightfold"), ("linkedin.com", "linkedin"), ("rippling.com", "rippling")):
         if key in host:
             return name
     return "page"

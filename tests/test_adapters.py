@@ -53,3 +53,33 @@ def test_epam_job():
     assert j["locations"] == ["Pune, India", "Hyderabad, India"]
     assert j["url"] == "https://careers.epam.com/en/vacancy/senior-data-engineer-blt1_en"
     assert j["remote"] is None and j["country"] == "India"
+
+
+def test_rippling_scan_reads_details_for_data_titles_only():
+    from scanner.adapters import rippling
+
+    class FakeHttp:
+        def __init__(self):
+            self.urls = []
+
+        def get_json(self, url):
+            self.urls.append(url)
+            if url.endswith("/jobs"):
+                return [{"uuid": "a1", "name": "Data Engineer - L2 ", "url": "https://ats.rippling.com/forbes-advisor/jobs/a1",
+                         "workLocation": {"label": "Remote (Chennai, India)"}},
+                        {"uuid": "b2", "name": "Accounts Payable Specialist", "workLocation": {"label": "Wilmington, DE"}}]
+            return {"workLocations": ["Remote (Chennai, India)", "Remote (Mumbai, India)"],
+                    "createdOn": "2026-11-20T10:00:00.000000-08:00"}
+
+    http = FakeHttp()
+    jobs = rippling.scan({"slug": "forbes-advisor"}, http)
+    de, ap = jobs
+    assert de["title"] == "Data Engineer - L2" and de["remote"] and de["country"] == "India"
+    assert de["locations"] == ["Remote (Chennai, India)", "Remote (Mumbai, India)"]
+    assert de["posted"].startswith("2026-11-20")
+    assert ap["posted"] is None and ap["remote"] is None and ap["country"] is None
+    assert ap["url"] == "https://ats.rippling.com/forbes-advisor/jobs/b2"
+    assert len(http.urls) == 2  # list + one detail (data title only)
+
+    from scanner.filters import location_tags
+    assert "Mumbai" in location_tags(de["locations"], de["remote"], de["country"])[0]

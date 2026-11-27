@@ -35,7 +35,7 @@ Setup: [docs/scheduling.md](docs/scheduling.md).
 | `scanner/run.py` | Runs every company, applies the filters, writes `data/` |
 | `scanner/filters.py` | Title, location and recency rules (Part 1 of the prompt): roles posted in the last 60 days |
 | `scanner/dates.py` | Fills in dates the careers-site list didn't give, from the posting page's hidden `datePosted` |
-| `scanner/adapters/` | One reader per careers platform (Workday, Greenhouse, Lever, Ashby, Oracle, Eightfold, SuccessFactors, Avature, …) |
+| `scanner/adapters/` | One reader per careers platform (Workday, Greenhouse, Lever, Ashby, Oracle, Eightfold, SuccessFactors, Avature, Rippling, …) |
 | `scanner/linkedin.py` | LinkedIn's public job search, matched by company name: the only source for companies whose own site gave nothing, and a cross-check for every other company (roles their site scan missed are added as "missed by careers site"); plus a remote-India search |
 | `scanner/linkedin_refresh.py`, `.github/workflows/linkedin-refresh.yml` | Searches LinkedIn for 8 companies every hour and keeps `data/linkedin_cache.json` fresh for the next scan: fallback companies about twice a day, at least a third of the searches for the cross-check, and the remote-India search twice a day; also looks up a few job descriptions the careers sites didn't give (same company and title only) |
 | `scanner/descriptions.py` | Saves each board role's full job description to `data/descriptions.json`, once per role: careers site first (in the daily scan), LinkedIn as the fallback (in linkedin-refresh, up to 3 tries). The scheduled Claude task reads it to pick each role's top 10 skills |
