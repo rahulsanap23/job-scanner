@@ -34,6 +34,15 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Start from the latest data
+        # A run that waited in the queue (behind another run of this workflow) was checked out at
+        # the commit it was triggered on. Move to the latest commit, so it sees what the run before
+        # it saved (skip checks, seen.json, history.json, the LinkedIn cache).
+        run: |
+          git fetch -q --depth=1 origin "$GITHUB_REF_NAME"
+          git reset -q --hard FETCH_HEAD
+          git log -1 --format="data as of %cI (%s)"
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
