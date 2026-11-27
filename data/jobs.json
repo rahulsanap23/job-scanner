@@ -1,16 +1,15 @@
 {
  "meta": {
-  "generated_at": "2026-11-27T09:15:28+00:00",
+  "generated_at": "2026-11-27T09:33:40+00:00",
   "date": "2026-11-27",
   "recency_days": 60,
   "companies_total": 190,
-  "companies_scanned_ok": 87,
+  "companies_scanned_ok": 91,
   "companies_failed": [
    "AIG",
    "Abbott",
    "Air Products",
    "AllianceBernstein (Equitable)",
-   "Allstate",
    "Amadeus",
    "Autodesk",
    "Baker Hughes",
@@ -18,7 +17,6 @@
    "BlackRock",
    "BrowserStack",
    "Cisco",
-   "Citi",
    "Cohesity",
    "CrowdStrike",
    "DBS Bank",
@@ -30,7 +28,6 @@
    "Fiserv",
    "General Mills",
    "Hitachi (Vantara, Payment Services)",
-   "Johnson & Johnson",
    "Johnson Controls",
    "KONE",
    "LSEG",
@@ -45,7 +42,6 @@
    "Mondelez",
    "Northern Trust",
    "Novartis",
-   "Nvidia",
    "P&G",
    "Pfizer",
    "Philips",
@@ -114,22 +110,19 @@
   ],
   "companies_carried": [
    "Cisco",
-   "Citi",
    "Fiserv",
-   "Nvidia",
    "P&G"
   ],
   "jobs": 126,
   "companies_with_jobs": 38,
-  "uncertain": 13,
-  "fresh": 1,
-  "linkedin": "17 of 106 companies checked in the last 24 h; not checked in 24 h: PhonePe, bp, Citi, BNP Paribas, Tesla, Johnson & Johnson, FedEx, UBS and 81 more (this scan: searched 6 companies)",
+  "uncertain": 14,
+  "fresh": 8,
+  "linkedin": "17 of 102 companies checked in the last 24 h; not checked in 24 h: PhonePe, bp, BNP Paribas, Tesla, FedEx, UBS, P&G, Société Générale and 77 more (this scan: searched 6 companies)",
   "companies_checked_on_linkedin": [
    "AIG",
    "Abbott",
    "Air Products",
    "AllianceBernstein (Equitable)",
-   "Allstate",
    "Amadeus",
    "Atlas Copco",
    "Autodesk",
@@ -139,7 +132,6 @@
    "BlackRock",
    "BrowserStack",
    "Cisco",
-   "Citi",
    "Claroda",
    "Cohesity",
    "Confluent",
@@ -158,7 +150,6 @@
    "Fiserv",
    "General Mills",
    "Hitachi (Vantara, Payment Services)",
-   "Johnson & Johnson",
    "Johnson Controls",
    "KONE",
    "LSEG",
@@ -176,7 +167,6 @@
    "Netcore Cloud",
    "Northern Trust",
    "Novartis",
-   "Nvidia",
    "Nykaa",
    "P&G",
    "Priceline (Booking Holdings)",
@@ -192,12 +182,13 @@
    "Vector Informatik",
    "Veritas Technologies",
    "Volkswagen Group Digital Solutions",
-   "Wolters Kluwer"
+   "Wolters Kluwer",
+   "Workday"
   ],
-  "linkedin_crosscheck": "20 of 84 scanned companies cross-checked on LinkedIn in the last 4 days; 3 roles the careers sites missed",
-  "missed_by_site": 5,
+  "linkedin_crosscheck": "23 of 88 scanned companies cross-checked on LinkedIn in the last 4 days; 3 roles the careers sites missed",
+  "missed_by_site": 4,
   "scanner_alerts": [],
-  "rejected": 368
+  "rejected": 401
  },
  "jobs": [
   {
@@ -635,6 +626,23 @@
   },
   {
    "company": "Citi",
+   "title": "Java and Data Engineering Technology Lead - Vice President",
+   "location": "Pune Maharashtra India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-11-26",
+   "days_ago": 1,
+   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Java-and-Data-Engineering-Technology-Lead---Vice-President_26988320",
+   "source": "workday",
+   "match": "title",
+   "flags": [],
+   "fresh": true,
+   "first_seen": "2026-11-27",
+   "new": true
+  },
+  {
+   "company": "Citi",
    "title": "Lead Data Engineer - Assistant Vice President",
    "location": "Pune Maharashtra India",
    "location_tags": [
@@ -646,28 +654,9 @@
    "source": "workday",
    "match": "title",
    "flags": [],
-   "carried_from": "2026-11-26T09:04:29+00:00",
    "fresh": false,
    "first_seen": "2026-11-05",
    "new": false
-  },
-  {
-   "company": "Citi",
-   "title": "Senior Big Data Engineer",
-   "location": "Pune Maharashtra India",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": "2026-11-25",
-   "days_ago": 2,
-   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Senior-Big-Data-Engineer_261010219",
-   "source": "workday",
-   "match": "title",
-   "flags": [],
-   "carried_from": "2026-11-26T09:04:29+00:00",
-   "fresh": false,
-   "first_seen": "2026-11-26",
-   "new": true
   },
   {
    "company": "Citi",
@@ -682,7 +671,6 @@
    "source": "workday",
    "match": "title",
    "flags": [],
-   "carried_from": "2026-11-26T09:04:29+00:00",
    "fresh": false,
    "first_seen": "2026-11-26",
    "new": true
@@ -700,7 +688,6 @@
    "source": "workday",
    "match": "title",
    "flags": [],
-   "carried_from": "2026-11-26T09:04:29+00:00",
    "fresh": false,
    "first_seen": "2026-11-26",
    "new": true
@@ -718,7 +705,6 @@
    "source": "workday",
    "match": "title",
    "flags": [],
-   "carried_from": "2026-11-26T09:04:29+00:00",
    "fresh": false,
    "first_seen": "2026-11-26",
    "new": true
@@ -738,7 +724,6 @@
    "flags": [
     "title borderline"
    ],
-   "carried_from": "2026-11-26T09:04:29+00:00",
    "fresh": false,
    "first_seen": "2026-11-26",
    "new": true
@@ -756,7 +741,6 @@
    "source": "workday",
    "match": "title",
    "flags": [],
-   "carried_from": "2026-11-26T09:04:29+00:00",
    "fresh": false,
    "first_seen": "2026-11-26",
    "new": true
@@ -774,7 +758,6 @@
    "source": "workday",
    "match": "pattern",
    "flags": [],
-   "carried_from": "2026-11-26T09:04:29+00:00",
    "fresh": false,
    "first_seen": "2026-11-26",
    "new": true
@@ -792,7 +775,6 @@
    "source": "workday",
    "match": "title",
    "flags": [],
-   "carried_from": "2026-11-26T09:04:29+00:00",
    "fresh": false,
    "first_seen": "2026-11-26",
    "new": true
@@ -810,7 +792,6 @@
    "source": "workday",
    "match": "title",
    "flags": [],
-   "carried_from": "2026-11-26T09:04:29+00:00",
    "fresh": false,
    "first_seen": "2026-11-26",
    "new": true
@@ -828,43 +809,6 @@
    "source": "workday",
    "match": "title",
    "flags": [],
-   "carried_from": "2026-11-26T09:04:29+00:00",
-   "fresh": false,
-   "first_seen": "2026-11-26",
-   "new": true
-  },
-  {
-   "company": "Citi",
-   "title": "Senior Data Platform Engineer",
-   "location": "Chennai Tamil Nadu India; Pune Maharashtra India",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": "2026-11-18",
-   "days_ago": 9,
-   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Chennai-Tamil-Nadu-India/Senior-Data-Platform-Engineer_261000618",
-   "source": "workday",
-   "match": "keyword:data platform",
-   "flags": [],
-   "carried_from": "2026-11-26T09:04:29+00:00",
-   "fresh": false,
-   "first_seen": "2026-11-26",
-   "new": true
-  },
-  {
-   "company": "Citi",
-   "title": "Data Engineer Python Developer",
-   "location": "Pune Maharashtra India; 1/124, SHIVAJI GARDENS, MOONLI",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": "2026-11-17",
-   "days_ago": 10,
-   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Data-Engineer-Python-Developer_26975041",
-   "source": "workday",
-   "match": "title",
-   "flags": [],
-   "carried_from": "2026-11-26T09:04:29+00:00",
    "fresh": false,
    "first_seen": "2026-11-26",
    "new": true
@@ -882,7 +826,6 @@
    "source": "workday",
    "match": "keyword:data platform",
    "flags": [],
-   "carried_from": "2026-11-26T09:04:29+00:00",
    "fresh": false,
    "first_seen": "2026-10-24",
    "new": false
@@ -900,7 +843,6 @@
    "source": "workday",
    "match": "keyword:spark",
    "flags": [],
-   "carried_from": "2026-11-26T09:04:29+00:00",
    "fresh": false,
    "first_seen": "2026-11-26",
    "new": true
@@ -918,7 +860,6 @@
    "source": "workday",
    "match": "title",
    "flags": [],
-   "carried_from": "2026-11-26T09:04:29+00:00",
    "fresh": false,
    "first_seen": "2026-11-26",
    "new": true
@@ -936,7 +877,6 @@
    "source": "workday",
    "match": "keyword:data platform",
    "flags": [],
-   "carried_from": "2026-11-26T09:04:29+00:00",
    "fresh": false,
    "first_seen": "2026-11-13",
    "new": false
@@ -954,7 +894,6 @@
    "source": "workday",
    "match": "title",
    "flags": [],
-   "carried_from": "2026-11-26T09:04:29+00:00",
    "fresh": false,
    "first_seen": "2026-10-24",
    "new": false
@@ -972,7 +911,6 @@
    "source": "workday",
    "match": "title",
    "flags": [],
-   "carried_from": "2026-11-26T09:04:29+00:00",
    "fresh": false,
    "first_seen": "2026-11-06",
    "new": false
@@ -990,7 +928,6 @@
    "source": "workday",
    "match": "title",
    "flags": [],
-   "carried_from": "2026-11-26T09:04:29+00:00",
    "fresh": false,
    "first_seen": "2026-11-06",
    "new": false
@@ -1008,10 +945,27 @@
    "source": "workday",
    "match": "title",
    "flags": [],
-   "carried_from": "2026-11-26T09:04:29+00:00",
    "fresh": false,
    "first_seen": "2026-11-06",
    "new": false
+  },
+  {
+   "company": "Citi",
+   "title": "Lead Data Engineer - Assistant Vice President",
+   "location": "Pune Maharashtra India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-11-05",
+   "days_ago": 22,
+   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Lead-Data-Engineer--Big-Data--Hadoop--Hive--Python--Spark----Assistant-Vice-President---C12---Pune_25877329-1",
+   "source": "workday",
+   "match": "title",
+   "flags": [],
+   "date_source": "LinkedIn",
+   "fresh": true,
+   "first_seen": "2026-11-27",
+   "new": true
   },
   {
    "company": "Citi",
@@ -1026,7 +980,6 @@
    "source": "workday",
    "match": "title",
    "flags": [],
-   "carried_from": "2026-11-26T09:04:29+00:00",
    "fresh": false,
    "first_seen": "2026-11-13",
    "new": false
@@ -1034,20 +987,20 @@
   {
    "company": "Citi",
    "title": "Senior Databricks Engineer, Apache Spark and AWS - Vice President",
-   "location": "Pune Division, Maharashtra, India",
+   "location": "Pune Maharashtra India",
    "location_tags": [
     "Pune"
    ],
    "posted": "2026-11-05",
    "days_ago": 22,
-   "url": "https://in.linkedin.com/jobs/view/senior-databricks-engineer-apache-spark-and-aws-vice-president-at-citi-4486910770",
-   "source": "linkedin",
+   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Senior-Databricks-Engineer--Apache-Spark-and-AWS---Vice-President_26988514",
+   "source": "workday",
    "match": "keyword:spark",
    "flags": [],
-   "crosscheck": true,
-   "fresh": false,
-   "first_seen": "2026-11-14",
-   "new": false
+   "date_source": "LinkedIn",
+   "fresh": true,
+   "first_seen": "2026-11-27",
+   "new": true
   },
   {
    "company": "Citi",
@@ -1062,7 +1015,6 @@
    "source": "workday",
    "match": "title",
    "flags": [],
-   "carried_from": "2026-11-26T09:04:29+00:00",
    "fresh": false,
    "first_seen": "2026-11-03",
    "new": false
@@ -1080,7 +1032,6 @@
    "source": "workday",
    "match": "title",
    "flags": [],
-   "carried_from": "2026-11-26T09:04:29+00:00",
    "fresh": false,
    "first_seen": "2026-11-04",
    "new": false
@@ -1098,7 +1049,6 @@
    "source": "workday",
    "match": "title",
    "flags": [],
-   "carried_from": "2026-11-26T09:04:29+00:00",
    "fresh": false,
    "first_seen": "2026-11-04",
    "new": false
@@ -1116,46 +1066,8 @@
    "source": "workday",
    "match": "keyword:hadoop",
    "flags": [],
-   "carried_from": "2026-11-26T09:04:29+00:00",
    "fresh": false,
    "first_seen": "2026-11-03",
-   "new": false
-  },
-  {
-   "company": "Citi",
-   "title": "Python ETL Developer",
-   "location": "1/124, SHIVAJI GARDENS, MOONLI; Pune Maharashtra India",
-   "location_tags": [
-    "Pune",
-    "Remote"
-   ],
-   "posted": "2026-11-02",
-   "days_ago": 25,
-   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/1124-SHIVAJI-GARDENS-MOONLI/Python-ETL-Developer_261002630",
-   "source": "workday",
-   "match": "keyword:etl",
-   "flags": [],
-   "carried_from": "2026-11-26T09:04:29+00:00",
-   "fresh": false,
-   "first_seen": "2026-11-02",
-   "new": false
-  },
-  {
-   "company": "Citi",
-   "title": "Python ETL Developer",
-   "location": "1/124, SHIVAJI GARDENS, MOONLI; Pune Maharashtra India",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": "2026-11-02",
-   "days_ago": 25,
-   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/1124-SHIVAJI-GARDENS-MOONLI/Python-ETL-Developer_261002631",
-   "source": "workday",
-   "match": "keyword:etl",
-   "flags": [],
-   "carried_from": "2026-11-26T09:04:29+00:00",
-   "fresh": false,
-   "first_seen": "2026-11-02",
    "new": false
   },
   {
@@ -1171,7 +1083,6 @@
    "source": "workday",
    "match": "title",
    "flags": [],
-   "carried_from": "2026-11-26T09:04:29+00:00",
    "fresh": false,
    "first_seen": "2026-10-30",
    "new": false
@@ -1189,7 +1100,6 @@
    "source": "workday",
    "match": "pattern",
    "flags": [],
-   "carried_from": "2026-11-26T09:04:29+00:00",
    "fresh": false,
    "first_seen": "2026-10-28",
    "new": false
@@ -1207,81 +1117,8 @@
    "source": "workday",
    "match": "title",
    "flags": [],
-   "carried_from": "2026-11-26T09:04:29+00:00",
    "fresh": false,
    "first_seen": "2026-11-05",
-   "new": false
-  },
-  {
-   "company": "Citi",
-   "title": "Senior Software Engineer - Python and Data - Vice President",
-   "location": "Pune Maharashtra India",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": "2026-10-23",
-   "days_ago": 35,
-   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Senior-Software-Engineer---Python-and-Data---Vice-President_261002381-1",
-   "source": "workday",
-   "match": "pattern",
-   "flags": [],
-   "carried_from": "2026-11-26T09:04:29+00:00",
-   "fresh": false,
-   "first_seen": "2026-10-24",
-   "new": false
-  },
-  {
-   "company": "Citi",
-   "title": "Java Spark AngularJS App Development Manager AVP",
-   "location": "Pune Maharashtra India",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": "2026-10-22",
-   "days_ago": 36,
-   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Applications-Development-Manager-Java---C12---PUNE_26964351",
-   "source": "workday",
-   "match": "keyword:spark",
-   "flags": [],
-   "carried_from": "2026-11-26T09:04:29+00:00",
-   "fresh": false,
-   "first_seen": "2026-10-24",
-   "new": false
-  },
-  {
-   "company": "Citi",
-   "title": "Senior PySpark Python Data Engineer - Assistant Vice President",
-   "location": "Pune Maharashtra India",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": "2026-10-21",
-   "days_ago": 37,
-   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Senior-PySpark-Python-Data-Engineer---Assistant-Vice-President_261000757",
-   "source": "workday",
-   "match": "title",
-   "flags": [],
-   "carried_from": "2026-11-26T09:04:29+00:00",
-   "fresh": false,
-   "first_seen": "2026-11-13",
-   "new": false
-  },
-  {
-   "company": "Citi",
-   "title": "Senior PySpark Python Data Engineer - Assistant Vice President",
-   "location": "Pune Maharashtra India",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": "2026-10-15",
-   "days_ago": 43,
-   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Senior-Technical-Data-Analyst---Assistant-Vice-President_26994298",
-   "source": "workday",
-   "match": "title",
-   "flags": [],
-   "carried_from": "2026-11-26T09:04:29+00:00",
-   "fresh": false,
-   "first_seen": "2026-10-24",
    "new": false
   },
   {
@@ -1297,7 +1134,134 @@
    "source": "workday",
    "match": "title",
    "flags": [],
-   "carried_from": "2026-11-26T09:04:29+00:00",
+   "fresh": false,
+   "first_seen": "2026-10-24",
+   "new": false
+  },
+  {
+   "company": "Citi",
+   "title": "Application Developer - Java Spark Big Data - Assistant Vice President - C12 - Pune",
+   "location": "Pune Maharashtra India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": null,
+   "days_ago": null,
+   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Application-Developer---Java-Spark-Big-Data---Assistant-Vice-President---C12---Pune_25842776-1",
+   "source": "workday",
+   "match": "title",
+   "flags": [],
+   "date_note": "site only says Posted 30+ Days Ago",
+   "fresh": true,
+   "first_seen": "2026-11-27",
+   "new": true
+  },
+  {
+   "company": "Citi",
+   "title": "Application Developer - Java Spark Big Data - Assistant Vice President - C12 - Pune",
+   "location": "Pune Maharashtra India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": null,
+   "days_ago": null,
+   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Application-Developer---Java-Spark-Big-Data---Assistant-Vice-President---C12---Pune_25842781-1",
+   "source": "workday",
+   "match": "title",
+   "flags": [],
+   "date_note": "site only says Posted 30+ Days Ago",
+   "fresh": true,
+   "first_seen": "2026-11-27",
+   "new": true
+  },
+  {
+   "company": "Citi",
+   "title": "Data Architect (Hadoop, Spark) -VP-C13 - PUNE",
+   "location": "Pune Maharashtra India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": null,
+   "days_ago": null,
+   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Data-Architect--Hadoop--Spark---VP-C13---PUNE_25884304",
+   "source": "workday",
+   "match": "keyword:spark",
+   "flags": [],
+   "date_note": "site only says Posted 30+ Days Ago",
+   "fresh": true,
+   "first_seen": "2026-11-27",
+   "new": true
+  },
+  {
+   "company": "Citi",
+   "title": "Java Spark AngularJS App Development Manager AVP",
+   "location": "Pune Maharashtra India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": null,
+   "days_ago": null,
+   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Applications-Development-Manager-Java---C12---PUNE_26964351",
+   "source": "workday",
+   "match": "keyword:spark",
+   "flags": [],
+   "date_note": "site only says Posted 30+ Days Ago",
+   "fresh": false,
+   "first_seen": "2026-10-24",
+   "new": false
+  },
+  {
+   "company": "Citi",
+   "title": "Officer- ETL Automation tester -QA - C10 -Hybrid- PUNE",
+   "location": "Pune Maharashtra India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": null,
+   "days_ago": null,
+   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Officer--ETL-Automation-tester--QA---C10--Hybrid--PUNE_25883567",
+   "source": "workday",
+   "match": "keyword:etl",
+   "flags": [
+    "title borderline"
+   ],
+   "date_note": "site only says Posted 30+ Days Ago",
+   "fresh": true,
+   "first_seen": "2026-11-27",
+   "new": true
+  },
+  {
+   "company": "Citi",
+   "title": "Senior PySpark Python Data Engineer - Assistant Vice President",
+   "location": "Pune Maharashtra India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": null,
+   "days_ago": null,
+   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Senior-PySpark-Python-Data-Engineer---Assistant-Vice-President_261000757",
+   "source": "workday",
+   "match": "title",
+   "flags": [],
+   "date_note": "site only says Posted 30+ Days Ago",
+   "fresh": false,
+   "first_seen": "2026-11-13",
+   "new": false
+  },
+  {
+   "company": "Citi",
+   "title": "Senior Software Engineer - Python and Data - Vice President",
+   "location": "Pune Maharashtra India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": null,
+   "days_ago": null,
+   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Senior-Software-Engineer---Python-and-Data---Vice-President_261002381-1",
+   "source": "workday",
+   "match": "pattern",
+   "flags": [],
+   "date_note": "site only says Posted 30+ Days Ago",
    "fresh": false,
    "first_seen": "2026-10-24",
    "new": false
@@ -2171,7 +2135,6 @@
    "source": "workday",
    "match": "title",
    "flags": [],
-   "carried_from": "2026-11-26T19:50:00+00:00",
    "fresh": false,
    "first_seen": "2026-10-24",
    "new": false

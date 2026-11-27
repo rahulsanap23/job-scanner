@@ -79,8 +79,8 @@
   "error": "page: ValueError: description too short (13 chars)",
   "via": "page",
   "tries": 1,
-  "fetched_at": "2026-11-27T09:15:29+00:00",
-  "updated_at": "2026-11-27T09:15:29+00:00",
+  "fetched_at": "2026-11-27T09:33:40+00:00",
+  "updated_at": "2026-11-27T09:33:40+00:00",
   "li_tries": 0
  },
  "https://careers.epam.com/en/vacancy/lead-systems-engineer-data-devops-mlops-bltx3zova01hptsib2q_en": {
@@ -90,8 +90,8 @@
   "error": "page: ValueError: description too short (13 chars)",
   "via": "page",
   "tries": 1,
-  "fetched_at": "2026-11-27T09:15:29+00:00",
-  "updated_at": "2026-11-27T09:15:29+00:00",
+  "fetched_at": "2026-11-27T09:33:40+00:00",
+  "updated_at": "2026-11-27T09:33:40+00:00",
   "li_tries": 0
  },
  "https://careers.epam.com/en/vacancy/senior-data-quality-engineer-blt0h7rslhs5rrvx5dd_en": {
@@ -164,39 +164,6 @@
   "li_tries": 0,
   "li_checked_at": "2026-11-26T15:21:11+00:00"
  },
- "https://citi.wd5.myworkdayjobs.com/en-US/2/job/1124-SHIVAJI-GARDENS-MOONLI/Python-ETL-Developer_261002630": {
-  "company": "Citi",
-  "title": "Python ETL Developer",
-  "status": "needs_linkedin",
-  "error": "workday: RateLimited: 429: not tried, the time allowed for this platform was used up",
-  "via": "workday",
-  "tries": 1,
-  "fetched_at": "2026-11-26T09:04:29+00:00",
-  "updated_at": "2026-11-26T09:04:29+00:00",
-  "li_tries": 0
- },
- "https://citi.wd5.myworkdayjobs.com/en-US/2/job/1124-SHIVAJI-GARDENS-MOONLI/Python-ETL-Developer_261002631": {
-  "company": "Citi",
-  "title": "Python ETL Developer",
-  "status": "needs_linkedin",
-  "error": "workday: RateLimited: 429: not tried, the time allowed for this platform was used up",
-  "via": "workday",
-  "tries": 1,
-  "fetched_at": "2026-11-26T09:04:29+00:00",
-  "updated_at": "2026-11-26T09:04:29+00:00",
-  "li_tries": 0
- },
- "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Chennai-Tamil-Nadu-India/Senior-Data-Platform-Engineer_261000618": {
-  "company": "Citi",
-  "title": "Senior Data Platform Engineer",
-  "status": "needs_linkedin",
-  "error": "workday: RateLimited: 429 Too Many Requests after waiting 15 s",
-  "via": "workday",
-  "tries": 1,
-  "fetched_at": "2026-11-26T09:04:29+00:00",
-  "updated_at": "2026-11-26T09:04:29+00:00",
-  "li_tries": 0
- },
  "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Mumbai-Maharashtra-India/Audit-Manager---AI-Technology--Cyber--Data-and-GenAI-Engineering---VP---MUMBAI_261012043": {
   "company": "Citi",
   "title": "Audit Manager - AI Technology, Cyber, Data and GenAI Engineering - VP - MUMBAI",
@@ -217,6 +184,28 @@
   "tries": 1,
   "fetched_at": "2026-11-26T09:04:29+00:00",
   "updated_at": "2026-11-26T09:04:29+00:00",
+  "li_tries": 0
+ },
+ "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Application-Developer---Java-Spark-Big-Data---Assistant-Vice-President---C12---Pune_25842776-1": {
+  "company": "Citi",
+  "title": "Application Developer - Java Spark Big Data - Assistant Vice President - C12 - Pune",
+  "status": "needs_linkedin",
+  "error": "workday: RateLimited: 429 Too Many Requests after waiting 15 s",
+  "via": "workday",
+  "tries": 1,
+  "fetched_at": "2026-11-27T09:33:40+00:00",
+  "updated_at": "2026-11-27T09:33:40+00:00",
+  "li_tries": 0
+ },
+ "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Application-Developer---Java-Spark-Big-Data---Assistant-Vice-President---C12---Pune_25842781-1": {
+  "company": "Citi",
+  "title": "Application Developer - Java Spark Big Data - Assistant Vice President - C12 - Pune",
+  "status": "needs_linkedin",
+  "error": "workday: RateLimited: 429 Too Many Requests after waiting 15 s",
+  "via": "workday",
+  "tries": 1,
+  "fetched_at": "2026-11-27T09:33:40+00:00",
+  "updated_at": "2026-11-27T09:33:40+00:00",
   "li_tries": 0
  },
  "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Applications-Development-Manager-Java---C12---PUNE_26964351": {
@@ -284,6 +273,17 @@
   "updated_at": "2026-11-26T09:04:29+00:00",
   "li_tries": 0
  },
+ "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Data-Architect--Hadoop--Spark---VP-C13---PUNE_25884304": {
+  "company": "Citi",
+  "title": "Data Architect (Hadoop, Spark) -VP-C13 - PUNE",
+  "status": "needs_linkedin",
+  "error": "workday: RateLimited: 429 Too Many Requests after waiting 15 s",
+  "via": "workday",
+  "tries": 1,
+  "fetched_at": "2026-11-27T09:33:40+00:00",
+  "updated_at": "2026-11-27T09:33:40+00:00",
+  "li_tries": 0
+ },
  "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Data-Engineer---Python--AI_26965263": {
   "company": "Citi",
   "title": "Data Engineer - Python, AI",
@@ -311,17 +311,6 @@
   "title": "Data Engineer_Hadoop, Scala, Java, Spark, Hive",
   "status": "needs_linkedin",
   "error": "workday: RateLimited: 429 Too Many Requests after waiting 15 s",
-  "via": "workday",
-  "tries": 1,
-  "fetched_at": "2026-11-26T09:04:29+00:00",
-  "updated_at": "2026-11-26T09:04:29+00:00",
-  "li_tries": 0
- },
- "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Data-Engineer-Python-Developer_26975041": {
-  "company": "Citi",
-  "title": "Data Engineer Python Developer",
-  "status": "needs_linkedin",
-  "error": "workday: RateLimited: 429: not tried, the time allowed for this platform was used up",
   "via": "workday",
   "tries": 1,
   "fetched_at": "2026-11-26T09:04:29+00:00",
@@ -382,6 +371,17 @@
   "fetched_at": "2026-11-26T09:04:29+00:00",
   "updated_at": "2026-11-26T09:04:29+00:00"
  },
+ "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Java-and-Data-Engineering-Technology-Lead---Vice-President_26988320": {
+  "company": "Citi",
+  "title": "Java and Data Engineering Technology Lead - Vice President",
+  "status": "needs_linkedin",
+  "error": "workday: RateLimited: 429 Too Many Requests after waiting 15 s",
+  "via": "workday",
+  "tries": 1,
+  "fetched_at": "2026-11-27T09:33:40+00:00",
+  "updated_at": "2026-11-27T09:33:40+00:00",
+  "li_tries": 0
+ },
  "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Lead-Data-Engineer---Assistant-Vice-President_261005399": {
   "company": "Citi",
   "title": "Lead Data Engineer - Assistant Vice President",
@@ -391,6 +391,17 @@
   "tries": 1,
   "fetched_at": "2026-11-26T09:04:29+00:00",
   "updated_at": "2026-11-26T09:04:29+00:00",
+  "li_tries": 0
+ },
+ "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Lead-Data-Engineer--Big-Data--Hadoop--Hive--Python--Spark----Assistant-Vice-President---C12---Pune_25877329-1": {
+  "company": "Citi",
+  "title": "Lead Data Engineer - Assistant Vice President",
+  "status": "needs_linkedin",
+  "error": "workday: RateLimited: 429 Too Many Requests after waiting 15 s",
+  "via": "workday",
+  "tries": 1,
+  "fetched_at": "2026-11-27T09:33:40+00:00",
+  "updated_at": "2026-11-27T09:33:40+00:00",
   "li_tries": 0
  },
  "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Lead-Java-Spark-and-Big-Data-Developer---Vice-President_261002964": {
@@ -415,15 +426,15 @@
   "updated_at": "2026-11-26T09:04:29+00:00",
   "li_tries": 0
  },
- "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Senior-Big-Data-Engineer_261010219": {
+ "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Officer--ETL-Automation-tester--QA---C10--Hybrid--PUNE_25883567": {
   "company": "Citi",
-  "title": "Senior Big Data Engineer",
+  "title": "Officer- ETL Automation tester -QA - C10 -Hybrid- PUNE",
   "status": "needs_linkedin",
   "error": "workday: RateLimited: 429 Too Many Requests after waiting 15 s",
   "via": "workday",
   "tries": 1,
-  "fetched_at": "2026-11-26T09:04:29+00:00",
-  "updated_at": "2026-11-26T09:04:29+00:00",
+  "fetched_at": "2026-11-27T09:33:40+00:00",
+  "updated_at": "2026-11-27T09:33:40+00:00",
   "li_tries": 0
  },
  "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Senior-Data-Developer---Assistant-Vice-President_261009203": {
@@ -492,6 +503,17 @@
   "updated_at": "2026-11-26T09:04:29+00:00",
   "li_tries": 0
  },
+ "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Senior-Databricks-Engineer--Apache-Spark-and-AWS---Vice-President_26988514": {
+  "company": "Citi",
+  "title": "Senior Databricks Engineer, Apache Spark and AWS - Vice President",
+  "status": "needs_linkedin",
+  "error": "workday: RateLimited: 429 Too Many Requests after waiting 15 s",
+  "via": "workday",
+  "tries": 1,
+  "fetched_at": "2026-11-27T09:33:40+00:00",
+  "updated_at": "2026-11-27T09:33:40+00:00",
+  "li_tries": 0
+ },
  "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Senior-Java-Spark-Developer---Assistant-Vice-President_261002413": {
   "company": "Citi",
   "title": "Senior Java Spark Developer - Assistant Vice President",
@@ -517,17 +539,6 @@
  "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Senior-Software-Engineer---Python-and-Data---Vice-President_261002381-1": {
   "company": "Citi",
   "title": "Senior Software Engineer - Python and Data - Vice President",
-  "status": "needs_linkedin",
-  "error": "workday: RateLimited: 429: not tried, the time allowed for this platform was used up",
-  "via": "workday",
-  "tries": 1,
-  "fetched_at": "2026-11-26T09:04:29+00:00",
-  "updated_at": "2026-11-26T09:04:29+00:00",
-  "li_tries": 0
- },
- "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Senior-Technical-Data-Analyst---Assistant-Vice-President_26994298": {
-  "company": "Citi",
-  "title": "Senior PySpark Python Data Engineer - Assistant Vice President",
   "status": "needs_linkedin",
   "error": "workday: RateLimited: 429: not tried, the time allowed for this platform was used up",
   "via": "workday",
@@ -691,8 +702,8 @@
   "text": "About This Role\nData Engineer, Aladdin Data, Associate\nLocation: Mumbai, India\nJob level: Associate\nYour team\nThe Alternative Data Pipeline Engineering team supports Aladdin, BlackRock's investment management and technology platform, by building and operating reliable data products that acquire, transform, model, and distribute diverse datasets for investment, analytics, and platform use cases. The team partners across engineering, product, data specialists, and data consumers, with a focus on making high-quality data reliably and efficiently available.\nYour role and impact\nAs a Data Engineer, you will build and support enterprise data pipelines and data platforms that enable scalable processing of structured and semi-structured data. You will apply strong Python and Structured Query Language (SQL) skills and work with Snowflake and modern data engineering technologies to deliver solutions from requirements and technical design through implementation, deployment, and production support. Your work will improve the quality, observability, reliability, and maintainability of production data products while simplifying how new datasets are onboarded and processed.\nYour Responsibilities\nIn every role at BlackRock, you'll be expected to apply sound judgement and critical thinking to solve complex problems, adapt as the business evolves, and combine the curiosity to explore new approaches and technologies with the rigor to challenge the results. The scope of this role also includes the following responsibilities:\n- Design, develop, test, deploy, and maintain production-grade data pipelines and reusable ingestion and transformation components for structured and semi-structured data.\n- Develop scalable data models and extract, load, and transform (ELT) transformations, using advanced SQL to support complex workloads while optimizing performance, scalability, and cost.\n- Develop and operate reliable directed acyclic graph-based workflow orchestration frameworks for data and batch processing while implementing automated data-quality checks, reconciliation, lineage, alerting, monitoring, and failure handling.\n- Build modular, maintainable, well-tested solutions and improve engineering productivity through reusable frameworks, automation, and responsibly governed artificial intelligence (AI)-assisted development.\n- Partner with product teams, data specialists, and consumers to translate requirements into dependable solutions, taking end-to-end ownership and communicating progress, risks, and issues.\n- Diagnose production issues and improve reliability, observability, and resilience while contributing to modernization and migration of existing data pipelines to BlackRock's enterprise data platform.\nYour Experience\n- Bachelor's degree in Computer Science, Engineering, or a related discipline, or equivalent practical experience, with at least 4 years of hands-on experience building and supporting enterprise data pipelines, platforms, or data-intensive applications.\n- Strong Python development skills with experience in modular design, error handling, logging, automated testing, Git-based development, peer review, and continuous integration and continuous delivery practices.\n- Advanced SQL and strong hands-on Snowflake experience, including complex transformations, schema design, semi-structured data, ELT patterns, query troubleshooting, and performance and cost optimization.\n- Practical experience developing and troubleshooting data workflows, combined with a strong understanding of data warehousing and modeling concepts, including dimensional and historical data design.\n- Strong analytical, problem-solving, communication, and collaboration skills, with the ability to diagnose complex data and production issues and take ownership in an agile, globally distributed environment.\n- Experience with large-scale distributed data analytics engines and exposure to modern transformation, application programming interface (API), data-format, distributed event streaming and messaging, and Azure or Amazon Web Services (AWS) cloud technologies.\n- Experience with reusable data-engineering capabilities, governance and lineage, cloud or legacy modernization, financial or alternative data, and secure AI-assisted software development is beneficial.\nOur Benefits\nTo help you stay energized, engaged and inspired, we offer a wide range of benefits including a strong retirement plan, tuition reimbursement, comprehensive healthcare, support for working parents and Flexible Time Off (FTO) so you can relax, recharge and be there for the people you care about.\nOur hybrid work model\nBlackRock’s hybrid work model is designed to enable a culture of collaboration and apprenticeship that enriches the experience of our employees, while supporting flexibility for all. Employees are currently required to work at least 4 days in the office per week, with the flexibility to work from home 1 day a week. Some business groups may require more time in the office due to their roles and responsibilities. We remain focused on increasing the impactful moments that arise when we work together in person – aligned with our commitment to performance and innovation. As a new joiner, you can count on this hybrid model to accelerate your learning and onboarding experience here at BlackRock.\nGuidance on AI use for candidates\nAt BlackRock, AI has long been part of how we work – enhancing decision-making, improving operations, and helping us deliver better outcomes for clients. We encourage candidates to use AI thoughtfully to learn, prepare, and work more effectively; but during our interview process, we want to focus on getting to know you through your own experiences, thinking, and judgment. To support you, we’ve provided guidance on when and how to use AI during our hiring process so you can approach each step with confidence and showcase your best self.\nAbout BlackRock\nAt BlackRock, we are all connected by one mission: to help more and more people experience financial well-being. Our clients, and the people they serve, are saving for retirement, paying for their children’s educations, buying homes and starting businesses. Their investments also help to strengthen the global economy: support businesses small and large; finance infrastructure projects that connect and power cities; and facilitate innovations that drive progress.\nThis mission would not be possible without our smartest investment – the one we make in our employees. It’s why we’re dedicated to creating an environment where our colleagues feel welcomed, valued and supported with networks, benefits and development opportunities to help them thrive.\nTo learn more about BlackRock, please visit Careers.BlackRock.com. We also encourage you to get to know us on LinkedIn, Instagram, YouTube, X, and TikTok.\nBlackRock is proud to be an Equal Opportunity Employer. We evaluate qualified applicants without regard to age, disability, family status, gender identity, race, religion, sex, sexual orientation and other protected attributes at law.",
   "via": "linkedin",
   "tries": 1,
-  "fetched_at": "2026-11-27T09:15:29+00:00",
-  "updated_at": "2026-11-27T09:15:29+00:00"
+  "fetched_at": "2026-11-27T09:33:40+00:00",
+  "updated_at": "2026-11-27T09:33:40+00:00"
  },
  "https://in.linkedin.com/jobs/view/data-engineer-aladdin-data-associate-at-blackrock-4490795129": {
   "company": "BlackRock",
@@ -771,8 +782,8 @@
   "text": "About Northern Trust\nAs a global leader in innovative wealth management, asset servicing, asset management and banking services, Northern Trust (Nasdaq: NTRS) is proud to guide the world’s most successful individuals, families, corporations and institutions.\nSince 1889, we have aligned our efforts with our three guiding Principles That Endure: Service, Expertise, and Integrity. Together, they reflect the three cornerstones of business conduct which we strive to instill in our employees, whom we call partners, and to provide to our clients and the communities we serve worldwide.\nWith more than 135 years of financial experience and over 24,000 partners, we serve the world’s most sophisticated clients using leading technology and exceptional service.\nResponsibilities\nExpert knowledge of .net, C#, Python, node.js based applications including handling databases such as SQL server\nDevelop automated data pipelines and data stores in Snowflake. This includes designing, implementing, testing, debugging, and deploying.\nBuild metadata driven solution that is reusable and highly configurable.\nAutomate testing and deployment in Snowflake across Azure.\nPartner with business analysts to groom stories and implement those stories.\nWork on an agile team to quickly iterate and release solutions.\nProvide technical advice and assist end-users in solving problems.\nContinuously learn new skills and make improvement in the product.\nQualifications\nExperience and Skills\nMinimum of a B.S. in Computer Science, MIS or related degree\n9+ years of overall experience and 3+ years of related experience in Data Engineering.\nIn Depth Knowledge Of\n- NET, C#,\nPython, node.js\nSnowflake\nSQL\nData Vault 2.0 or Dimensional Data Model\nExperience With\nData Pipelines, ELT or ETL\nRelational or Columnar databases\nSigma reporting or Power BI or Tableau\nAgile methodologies, Scrum or Kanban\nCI/CD pipeline\nAzure cloud services\nExperience With One Or More Of Below Is Desirable\nAirflow\nPython\nDBT\nConfluence and ADO\nFamiliarity with buy-side financial operations and an understanding of related concepts (Portfolio Management, Security Master, Risk, Compliance,\nAccounting).\nCompetencies\nAnalysis: Identify and understand issues, problems and opportunities; compare data from different sources to draw conclusions.\nCommunication: Clearly convey information and ideas through a variety of media to individuals or groups in a manner that engages the audience and\nhelps them understand and retain the message.\nExercising Judgment and Decision Making: Use effective approaches for choosing a course of action or developing appropriate solutions;\nrecommend or take action that is consistent with available facts, constraints and probable consequences.\nTechnical and Professional Knowledge: Demonstrate a high level of technical and professional skill or knowledge; remains current with developments and trends in areas of expertise.\nBuilding Effective Relationships: Develop and use collaborative relationships to facilitate the accomplishment of work goals.\nClient Focus: Make internal and external clients and their needs a primary focus of actions; develop and sustain productive client relationships\nWorking with Us\nAs a Northern Trust partner, you will be part of a flexible and collaborative work culture, which has a strong history of financial strength and stability. Movement within the organization is encouraged, senior leaders are accessible, and you can take pride in working for a company committed to an inclusive workplace and assisting the communities we serve.\nPhilanthropy is deeply rooted in Northern Trust’s history and is an essential element of our culture. Employees around the world give their time and talent to work for the greater good of their communities.\nReasonable Accommodation\nNorthern Trust is committed to working with and providing adjustments to individuals with health conditions and disabilities. If you need a reasonable accommodation for any part of the employment process, please email our HR Service Center at MyHRHelp@ntrs.com, or alternatively you can discuss your individual requirements with the recruiter you are working with.\nAbout Our Pune Office\nThe Northern Trust Pune office, established in 2016, is now home to over 3,000 employees. The office handles various functions, including Operations for Asset Servicing and Wealth Management, as well as delivering critical technology solutions that support business operations across the globe.\nOur Pune team takes our commitment to service to heart. In 2024, they volunteered more than 10,000+ hours into the communities where they live and work. Learn more.",
   "via": "linkedin",
   "tries": 1,
-  "fetched_at": "2026-11-27T09:15:29+00:00",
-  "updated_at": "2026-11-27T09:15:29+00:00"
+  "fetched_at": "2026-11-27T09:33:40+00:00",
+  "updated_at": "2026-11-27T09:33:40+00:00"
  },
  "https://in.linkedin.com/jobs/view/data-engineer-at-priceline-4479355818": {
   "company": "Priceline (Booking Holdings)",
@@ -871,8 +882,8 @@
   "text": "About This Role\nYour team\n- The BlackRock Data Office (BDO) advances the firm’s enterprise data strategy by building trusted, scalable, and governed data products and platforms. SIGNAL is a strategic initiative focused on creating a modern client and commercial intelligence ecosystem by bringing together enterprise data, analytics, and artificial intelligence (AI).\n- As part of SIGNAL, you will partner across product, engineering, AI, data governance, architecture, and the business to build the data foundation powering next-generation client intelligence and engagement capabilities.\nYour role and impact\n- As a Data Engineering Director, you will provide hands-on technical and architectural leadership for the data capabilities underpinning SIGNAL. You will help define the architecture, establish engineering standards, and work closely with teams from technical discovery and prototyping through production delivery and adoption.\n- A key part of the role is rapidly learning and leveraging BlackRock’s internally developed Data Platform as a Service (dPaaS) capabilities. You will champion a reuse-first approach, extending existing platform capabilities where appropriate before building new solutions.\n- You will lead engineering across structured, semi-structured, and unstructured data, creating trusted, reusable, and AI-ready data products that power applications, analytics, generative AI, and agentic experiences.\nYour Responsibilities\n- In every role at BlackRock, you'll be expected to apply sound judgement and critical thinking to solve complex problems, adapt as the business evolves, and combine the curiosity to explore new approaches and technologies with the rigor to challenge the results. The scope of this role also includes the following responsibilities:\n- Define and evolve SIGNAL’s target-state data architecture and provide hands-on engineering leadership from technical discovery and prototyping through production delivery.\n- Rapidly learn and leverage internal Data Platform as a Service (dPaaS) capabilities, making pragmatic reuse, extension, or build decisions based on scalability, interoperability, business outcomes, and speed to market.\n- Architect scalable integration and processing across client, product, sales, marketing, servicing, behavioral, and external data, spanning batch and real-time workloads, application programming interfaces (APIs), workflow orchestration, and event streaming.\n- Design structured and unstructured data capabilities including ingestion, parsing, metadata extraction, chunking, indexing, search, semantic retrieval, embeddings, vector retrieval, knowledge graphs, and retrieval-augmented generation (RAG).\n- Establish engineering standards for data quality, metadata, lineage, governance, observability, security, resilience, and performance.\n- Build reusable data services for applications, analytics, AI models, agents, and downstream platforms while partnering across product, platform, AI, governance, engineering, and business teams to drive delivery and adoption.\n- Mentor engineers and foster a culture of technical excellence, ownership, collaboration, and accountability.\nYour Experience\n- Demonstrated experience in data engineering, data architecture, distributed systems, or large-scale software engineering, including delivery of scalable enterprise data platforms and products.\n- Strong hands-on engineering skills in Python, Java and/or Scala, SQL, Snowflake, and dbt, with experience in distributed data processing, batch and real-time pipelines, APIs, event streaming, and workflow orchestration.\n- Ability to rapidly learn and leverage internal platforms and dPaaS capabilities, applying strong architectural judgment across scalability, reliability, security, cost, maintainability, and speed.\n- Experience with structured, semi-structured, and unstructured data and AI-ready architectures, including document processing, metadata extraction, semantic search, embeddings, vector retrieval, knowledge graphs, and RAG.\n- Strong knowledge of data modeling, data quality, metadata, lineage, governance, security, observability, and production engineering.\n- Experience with Microsoft Azure, enterprise-grade container orchestration platforms supporting declarative infrastructure and horizontal scaling, containerized environments, continuous integration and continuous delivery (CI/CD), and infrastructure automation, with exposure to generative AI, machine learning, semantic technologies, and agentic architectures.\n- Demonstrated ability to influence technical direction across teams, communicate effectively with senior technology and business stakeholders, and mentor and develop engineering talent.\nOur Benefits\nTo help you stay energized, engaged and inspired, we offer a wide range of benefits including a strong retirement plan, tuition reimbursement, comprehensive healthcare, support for working parents and Flexible Time Off (FTO) so you can relax, recharge and be there for the people you care about.\nOur hybrid work model\nBlackRock’s hybrid work model is designed to enable a culture of collaboration and apprenticeship that enriches the experience of our employees, while supporting flexibility for all. Employees are currently required to work at least 4 days in the office per week, with the flexibility to work from home 1 day a week. Some business groups may require more time in the office due to their roles and responsibilities. We remain focused on increasing the impactful moments that arise when we work together in person – aligned with our commitment to performance and innovation. As a new joiner, you can count on this hybrid model to accelerate your learning and onboarding experience here at BlackRock.\nGuidance on AI use for candidates\nAt BlackRock, AI has long been part of how we work – enhancing decision-making, improving operations, and helping us deliver better outcomes for clients. We encourage candidates to use AI thoughtfully to learn, prepare, and work more effectively; but during our interview process, we want to focus on getting to know you through your own experiences, thinking, and judgment. To support you, we’ve provided guidance on when and how to use AI during our hiring process so you can approach each step with confidence and showcase your best self.\nAbout BlackRock\nAt BlackRock, we are all connected by one mission: to help more and more people experience financial well-being. Our clients, and the people they serve, are saving for retirement, paying for their children’s educations, buying homes and starting businesses. Their investments also help to strengthen the global economy: support businesses small and large; finance infrastructure projects that connect and power cities; and facilitate innovations that drive progress.\nThis mission would not be possible without our smartest investment – the one we make in our employees. It’s why we’re dedicated to creating an environment where our colleagues feel welcomed, valued and supported with networks, benefits and development opportunities to help them thrive.\nTo learn more about BlackRock, please visit Careers.BlackRock.com. We also encourage you to get to know us on LinkedIn, Instagram, YouTube, X, and TikTok.\nBlackRock is proud to be an Equal Opportunity Employer. We evaluate qualified applicants without regard to age, disability, family status, gender identity, race, religion, sex, sexual orientation and other protected attributes at law.",
   "via": "linkedin",
   "tries": 1,
-  "fetched_at": "2026-11-27T09:15:29+00:00",
-  "updated_at": "2026-11-27T09:15:29+00:00"
+  "fetched_at": "2026-11-27T09:33:40+00:00",
+  "updated_at": "2026-11-27T09:33:40+00:00"
  },
  "https://in.linkedin.com/jobs/view/data-engineering-lead-at-barclays-4491689547": {
   "company": "Barclays",
@@ -931,8 +942,8 @@
   "text": "About Northern Trust\nAs a global leader in innovative wealth management, asset servicing, asset management and banking services, Northern Trust (Nasdaq: NTRS) is proud to guide the world’s most successful individuals, families, corporations and institutions.\nSince 1889, we have aligned our efforts with our three guiding Principles That Endure: Service, Expertise, and Integrity. Together, they reflect the three cornerstones of business conduct which we strive to instill in our employees, whom we call partners, and to provide to our clients and the communities we serve worldwide.\nWith more than 135 years of financial experience and over 24,000 partners, we serve the world’s most sophisticated clients using leading technology and exceptional service.\nRole Summary\nWe are seeking an experienced Azure Data Engineer to support Procurement modernization initiatives that enable secure and reliable data exchange across multiple Procurement applications. The successful candidate will design and develop scalable cloud-based data solutions using Azure Data Factory, Azure Data Lake, Azure Functions, Terraform, SQL, and Python. The role requires strong data engineering and data modeling experience, along with the ability to collaborate effectively with developers, analysts, and business stakeholders.\nKey Responsibilities\n- Design, develop, and maintain scalable data pipelines and ETL processes using Azure cloud services.\n- Build and support data integration solutions using Azure Data Factory, Azure Data Lake, Azure SQL, Azure Functions, and Terraform.\n- Develop robust data models that support integration and reporting requirements across Procurement applications.\n- Collaborate with developers, analysts, and business stakeholders to understand requirements and translate them into reliable and efficient data solutions.\n- Optimize data processing and storage solutions for performance, scalability, reliability, and cost efficiency.\n- Implement data security and compliance controls in alignment with organizational standards, industry best practices, and applicable regulatory requirements.\n- Troubleshoot data pipeline issues and support the timely resolution of production incidents.\n- Develop and maintain technical documentation covering data architecture, integration processes, data models, and engineering standards.\n- Contribute to code reviews, testing, deployment, and continuous improvement of engineering practices.\nRequired Skills\n- 9+ years of relevant technology experience, including at least 5 years of data engineering experience.\n- 5 years of hands-on experience with Azure Data Factory.\n- 5 years of experience in data engineering and data modeling.\n- 5 years of hands-on experience with Terraform.\n- 5 years of strong SQL experience.\n- 3 years of experience with Azure Functions.\n- 2 years of Python experience.\n- Experience working with Azure Data Lake, Azure Storage, and Azure SQL.\n- Experience designing and supporting scalable ETL and data integration solutions.\n- Strong analytical, problem-solving, communication, and collaboration skills.\nPreferred Qualifications\n- Bachelor's or Master's degree in Computer Science, Engineering, Information Technology, or a related field.\n- Experience with Azure Databricks.\n- Working knowledge of React.\n- Familiarity with CI/CD and automated deployment practices.\n- Experience supporting cloud-based data platforms in an enterprise environment.\n- Exposure to Procurement systems or Procurement data integrations.\nWorking with Us\nAs a Northern Trust partner, you will be part of a flexible and collaborative work culture, which has a strong history of financial strength and stability. Movement within the organization is encouraged, senior leaders are accessible, and you can take pride in working for a company committed to an inclusive workplace and assisting the communities we serve.\nPhilanthropy is deeply rooted in Northern Trust’s history and is an essential element of our culture. Employees around the world give their time and talent to work for the greater good of their communities.\nReasonable Accommodation\nNorthern Trust is committed to working with and providing adjustments to individuals with health conditions and disabilities. If you need a reasonable accommodation for any part of the employment process, please email our HR Service Center at MyHRHelp@ntrs.com, or alternatively you can discuss your individual requirements with the recruiter you are working with.\nAbout Our Pune Office\nThe Northern Trust Pune office, established in 2016, is now home to over 3,000 employees. The office handles various functions, including Operations for Asset Servicing and Wealth Management, as well as delivering critical technology solutions that support business operations across the globe.\nOur Pune team takes our commitment to service to heart. In 2024, they volunteered more than 10,000+ hours into the communities where they live and work. Learn more.",
   "via": "linkedin",
   "tries": 1,
-  "fetched_at": "2026-11-27T09:15:29+00:00",
-  "updated_at": "2026-11-27T09:15:29+00:00"
+  "fetched_at": "2026-11-27T09:33:40+00:00",
+  "updated_at": "2026-11-27T09:33:40+00:00"
  },
  "https://in.linkedin.com/jobs/view/lead-cloud-data-engineer-at-barclays-4490483095": {
   "company": "Barclays",
@@ -1034,16 +1045,6 @@
   "fetched_at": "2026-11-13T01:44:40+00:00",
   "updated_at": "2026-11-13T01:44:40+00:00"
  },
- "https://in.linkedin.com/jobs/view/senior-databricks-engineer-apache-spark-and-aws-vice-president-at-citi-4486910770": {
-  "company": "Citi",
-  "title": "Senior Databricks Engineer, Apache Spark and AWS - Vice President",
-  "status": "ok",
-  "text": "We are looking for a highly skilled Senior Databricks Engineer to contribute to the engineering, modernization, and continuous evolution of data processing platform on Databricks on AWS. While supporting the transition from the legacy Cloudera Hadoop platform to Databricks on AWS, this role will continue to play a key part in enhancing performance, simplifying pipelines, and delivering new capabilities on the Databricks platform over the long term.\nThe ideal candidate is a strong hands‑on Spark engineer with solid design experience, capable of contributing to architectural decisions while leading complex implementation and optimization efforts.\nResponsibilities:\n- Platform Engineering & Modernization\n- Refactor and modernize existing Spark pipelines to Databricks native architectures\n- Eliminate legacy Hadoop dependencies and adopt cloud native AWS patterns\n- Enhance and extend existing processing logic using optimized Spark (JavaSpark / PySpark) on Databricks\n- Databricks Native Development\n- Build and optimize solutions using Databricks features, including Delta Lake, Databricks Workflows for orchestration and Auto scaling and job clusters\n- Design & Solution Engineering\n- Contribute to low and mid level architecture and design\n- Translate high level architecture into detailed technical designs\n- Define data models, pipeline patterns, and reusable components\n- Ensure solutions are scalable, maintainable, and production ready\n- Performance Optimization & Simplification\n- Analyze, improve Spark job performance and simplify complex or over engineered pipelines into standardized, efficient patterns\n- Engineering Standards & Best Practices\n- Follow and contribute to Databricks and Spark engineering standards\n- Write clean, modular, and testable code\n- Contribute to shared frameworks, reusable libraries, and quality standards\n- Collaboration & Stakeholder Engagement\n- Work closely with senior architects, platform teams, and DevOps engineers\n- Provide technical inputs, troubleshooting support, and implementation guidance\n- Participate in design discussions and technical decision making\n- Testing & Quality Assurance\n- Develop unit, integration, and data validation tests\n- Support production releases and post deployment validation\nQualifications:\nCore Technical Skills\n- 10+ years in data engineering or distributed systems\n- Strong expertise in Apache Spark (JavaSpark / PySpark), Databricks on AWS, and Delta Lake\n- Experience on SQL\n- Experience with AWS services and large‑scale distributed data processing\nModernization & Optimization Experience\n- Experience modernizing or refactoring legacy data platforms into cloud‑based architectures\n- Strong background in Spark performance tuning and large‑scale batch optimization\nDesign Capability\n- Ability to translate architecture into implementable designs\n- Understanding of data modeling and pipeline orchestration patterns\nBehavioral Competencies\n- Strong problem‑solving mindset for complex distributed systems\n- Comfortable working in time‑bound, high‑impact environments\n- Proactive, accountable, and collaborative\n- Clear communication skills across global teams\nEducation:\n- Bachelor’s degree/University degree or equivalent experience\n------------------------------------------------------\nJob Family Group:\nTechnology\n------------------------------------------------------\nJob Family:\nApplications Development\n------------------------------------------------------\nTime Type:\nFull time\n------------------------------------------------------\nMost Relevant Skills\nPlease see the requirements listed above.\n------------------------------------------------------\nOther Relevant Skills\nFor complementary skills, please see above and/or contact the recruiter.\n------------------------------------------------------\nCiti is an equal opportunity employer, and qualified candidates will receive consideration without regard to their race, color, religion, sex, sexual orientation, gender identity, national origin, disability, status as a protected veteran, or any other characteristic protected by law.\nIf you are a person with a disability and need a reasonable accommodation to use our search tools and/or apply for a career opportunity review Accessibility at Citi.\nView Citi’s EEO Policy Statement and the Know Your Rights poster.",
-  "via": "linkedin",
-  "tries": 1,
-  "fetched_at": "2026-11-26T19:50:00+00:00",
-  "updated_at": "2026-11-26T19:50:00+00:00"
- },
  "https://in.linkedin.com/jobs/view/sr-lead-cloud-data-platform-engg-at-northern-trust-4485511153": {
   "company": "Northern Trust",
   "title": "Sr Lead - Cloud Data Platform Engg",
@@ -1051,8 +1052,8 @@
   "text": "About Northern Trust\nAs a global leader in innovative wealth management, asset servicing, asset management and banking services, Northern Trust (Nasdaq: NTRS) is proud to guide the world’s most successful individuals, families, corporations and institutions.\nSince 1889, we have aligned our efforts with our three guiding Principles That Endure: Service, Expertise, and Integrity. Together, they reflect the three cornerstones of business conduct which we strive to instill in our employees, whom we call partners, and to provide to our clients and the communities we serve worldwide.\nWith more than 135 years of financial experience and over 24,000 partners, we serve the world’s most sophisticated clients using leading technology and exceptional service.\nKey Responsibilities\n✅ Design, engineer, and operate enterprise cloud data platform services\n✅ Curate and manage data platform capabilities consumed by application, analytics, and data teams\n✅ Define platform standards, governance, security controls, and operational best practices\n✅ Implement Infrastructure as Code (IaC), GitOps, CI/CD, and platform automation\n✅ Architect cloud networking, authentication, authorization, and integration patterns\n✅ Ensure platform reliability, resilience, observability, and operational excellence\n✅ Drive Platform Adoption, Self-service Capabilities, And Developer Experience\nDesired Experience\n- Strong Cloud Platform Engineering background, preferably on Azure\n- Experience managing and operating data platform technologies such as: SnowflakeDatabricksAzure SynapseSQL ServerPostgreSQLOracle\n- Infrastructure as Code (Terraform preferred)\n- GitHub Actions / CI/CD pipelines\n- GitOps and platform automation\n- Cloud security, IAM, secrets management, and policy enforcement\n- Network architecture and connectivity design\n- Platform monitoring, reliability, and operational support models\nNice to Have\n- Data Lake/Lakehouse architecture exposure\n- Python or scripting for platform automation\n- Experience supporting AI/ML and analytics platforms\n- Financial Services domain experience\nWhat We're Looking For\nWe are not seeking a traditional Data Engineer focused primarily on data pipelines, ETL development, or analytics use cases. We are looking for a Platform Engineer who builds, governs, automates, and operates cloud data platform services that enable teams across the enterprise.\nWorking with Us\nAs a Northern Trust partner, you will be part of a flexible and collaborative work culture, which has a strong history of financial strength and stability. Movement within the organization is encouraged, senior leaders are accessible, and you can take pride in working for a company committed to an inclusive workplace and assisting the communities we serve.\nPhilanthropy is deeply rooted in Northern Trust’s history and is an essential element of our culture. Employees around the world give their time and talent to work for the greater good of their communities.\nReasonable Accommodation\nNorthern Trust is committed to working with and providing adjustments to individuals with health conditions and disabilities. If you need a reasonable accommodation for any part of the employment process, please email our HR Service Center at MyHRHelp@ntrs.com, or alternatively you can discuss your individual requirements with the recruiter you are working with.\nAbout Our Pune Office\nThe Northern Trust Pune office, established in 2016, is now home to over 3,000 employees. The office handles various functions, including Operations for Asset Servicing and Wealth Management, as well as delivering critical technology solutions that support business operations across the globe.\nOur Pune team takes our commitment to service to heart. In 2024, they volunteered more than 10,000+ hours into the communities where they live and work. Learn more.",
   "via": "linkedin",
   "tries": 1,
-  "fetched_at": "2026-11-27T09:15:29+00:00",
-  "updated_at": "2026-11-27T09:15:29+00:00"
+  "fetched_at": "2026-11-27T09:33:40+00:00",
+  "updated_at": "2026-11-27T09:33:40+00:00"
  },
  "https://in.linkedin.com/jobs/view/staff-data-engineer-at-priceline-4440086642": {
   "company": "Priceline (Booking Holdings)",
@@ -1226,8 +1227,8 @@
   "text": "We have an exciting and rewarding opportunity for you to take your software engineering career to the next level.\nAs a Software Engineer III at JPMorgan Chase within the Corporate Technology, you serve as a seasoned member of an agile team to design and deliver trusted market-leading technology products in a secure, stable, and scalable way. You are responsible for carrying out critical technology solutions across multiple technical areas within various business functions in support of the firm’s business objectives.\nJob responsibilities\n- Executes software solutions, design, development, and technical troubleshooting with ability to think beyond routine or conventional approaches to build solutions or breakdown technical problems\n- Creates secure and high-quality production code and maintains algorithms that run synchronously with appropriate systems\n- Leverages enterprise-authorized AI coding assist tools within the work environment to improve code quality, delivery speed, and productivity across complex deliverables (e.g., code generation/refactoring, unit test creation, documentation), while validating outputs through peer review, automated testing, and secure coding standards; contributes learnings and reusable patterns to improve broader team effectiveness.\n- Applies knowledge of tools within the Software Development Life Cycle toolchain, including enterprise-authorized AI-assisted development and automation capabilities, to improve the value realized by automation.\n- Produces architecture and design artifacts for complex applications while being accountable for ensuring design constraints are met by software code development\n- Gathers, analyzes, synthesizes, and develops visualizations and reporting from large, diverse data sets in service of continuous improvement of software applications and systems\n- Proactively identifies hidden problems and patterns in data and uses these insights to drive improvements to coding hygiene and system architecture\nRequired qualifications, capabilities, and skills\n- (i) - A. Formal training or certification on software engineering concepts and 5+ years applied experience (NAMR/APAC – India / LATAM / Hong Kong)\n(ii) - B. Formal training or certification on software engineering concepts and advanced applied experience (EMEA / LATAM – Brazil)\n(iii) - C. Singapore: follow local country guidance\n- Hands-on practical experience in system design, application development, testing, and operational stability\n- Experience in developing, debugging, and maintaining code in a large corporate environment with one or more modern programming languages and database querying languages\n- Hands-on experience using enterprise-authorized AI-assisted software development tools within the work environment (e.g., for coding, test creation, troubleshooting, or documentation) with demonstrated ability to critically evaluate, validate, and refine AI-generated outputs for correctness, performance, and security.\n- Understanding of responsible AI use in engineering workflows, including data sensitivity considerations, secure handling of inputs/outputs, and adherence to resiliency and security expectations; ability to guide peers on safe and effective usage within team practices.\n- Overall knowledge of the Software Development Life Cycle\n- Solid understanding of agile methodologies such as CI/CD, Application Resiliency, and Security\nPreferred qualifications, capabilities, and skills\n- Familiarity with modern front-end technologies\n- Exposure to cloud technologies\n- Experience in SQL, Databricks, ETL, ETL Tools (Cognos, BO), Java, Pentaho,",
   "via": "oracle",
   "tries": 1,
-  "fetched_at": "2026-11-27T09:15:29+00:00",
-  "updated_at": "2026-11-27T09:15:29+00:00"
+  "fetched_at": "2026-11-27T09:33:40+00:00",
+  "updated_at": "2026-11-27T09:33:40+00:00"
  },
  "https://morganstanley.eightfold.ai/careers/job/549801331698": {
   "company": "Morgan Stanley",
