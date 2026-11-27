@@ -1,26 +1,6 @@
 [
- {
-  "name": "MizuhoAm_facets",
-  "url": "https://mizuho.wd1.myworkdayjobs.com/wday/cxs/mizuho/mizuhoamericas/jobs",
-  "method": "POST",
-  "json": {
-   "appliedFacets": {},
-   "limit": 1,
-   "offset": 0,
-   "searchText": ""
-  },
-  "save": true
- },
- {
-  "name": "MizuhoAm_pune",
-  "url": "https://mizuho.wd1.myworkdayjobs.com/wday/cxs/mizuho/mizuhoamericas/jobs",
-  "method": "POST",
-  "json": {
-   "appliedFacets": {},
-   "limit": 20,
-   "offset": 0,
-   "searchText": "data engineer pune"
-  },
-  "save": true
- }
+ {"name": "forbes_smartrecruiters", "url": "https://api.smartrecruiters.com/v1/companies/ForbesAdvisor/postings?limit=100", "method": "GET"},
+ {"name": "forbes_smartrecruiters_lc", "url": "https://api.smartrecruiters.com/v1/companies/forbesadvisor/postings?limit=100", "method": "GET"},
+ {"name": "forbes_rippling_api", "url": "https://api.rippling.com/platform/api/ats/v1/board/forbes-advisor/jobs", "method": "GET"},
+ {"name": "forbes_rippling_page", "url": "https://ats.rippling.com/forbes-advisor/jobs", "method": "GET"}
 ]
