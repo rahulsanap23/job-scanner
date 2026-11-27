@@ -1,7 +1,7 @@
 """amazon.jobs search JSON (India only)."""
 
 PAGE = 100
-MAX_PAGES_PER_TERM = 15  # newest first; enough to reach older roles still open (no age limit)
+MAX_PAGES_PER_TERM = 15  # newest first; enough to reach roles up to a year old
 
 
 def scan(src, http):

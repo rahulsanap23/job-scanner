@@ -126,9 +126,9 @@ def test_carry_forward_keeps_recent_site_roles_only(monkeypatch):
     reports = [{"company": "A", "status": "error", "notes": []}, {"company": "B", "status": "error", "notes": []}]
     carried = run.carry_forward(reports, prev, history, TODAY, NOW, log=lambda m: None)
     assert list(carried) == ["A"]  # B's last good scan is older than CARRY_HOURS
-    assert [j["title"] for j in carried["A"]] == ["Data Engineer", "Old"]  # no age limit: old roles kept too
+    assert [j["title"] for j in carried["A"]] == ["Data Engineer", "Old"]  # 2026-08-01 is within 365 days
     from scanner import filters
-    monkeypatch.setattr(filters, "RECENCY_DAYS", 60)  # with the optional age limit on, the old role goes
+    monkeypatch.setattr(filters, "RECENCY_DAYS", 60)  # with a 60-day limit, the old role goes
     (j,) = run.carry_forward([{"company": "A", "status": "error", "notes": []}], prev, history, TODAY, NOW,
                              log=lambda m: None)["A"]
     assert j["title"] == "Data Engineer" and j["days_ago"] == 4 and j["carried_from"] == "2026-11-23T10:00:00+00:00"

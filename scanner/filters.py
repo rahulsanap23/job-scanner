@@ -6,8 +6,7 @@ tuned without touching the scrapers.
 import re
 from datetime import date, datetime, timedelta, timezone
 
-RECENCY_DAYS = None  # no age limit: every role still listed on a careers site or LinkedIn is kept
-                     # (set a number of days here to bring a limit back)
+RECENCY_DAYS = 365  # roles posted in the last 365 days (India date) are kept (None: no age limit)
 
 # ---------------------------------------------------------------- normalising
 
@@ -267,7 +266,7 @@ _LIMIT = object()
 
 
 def is_recent(posted, today=None, days=_LIMIT):
-    """Unknown posting dates are kept (Step 4). No age limit (RECENCY_DAYS None): every role is kept."""
+    """Unknown posting dates are kept (Step 4). RECENCY_DAYS None would mean no age limit."""
     if days is _LIMIT:
         days = RECENCY_DAYS
     if posted is None or days is None:

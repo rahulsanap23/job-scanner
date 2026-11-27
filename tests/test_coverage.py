@@ -1,4 +1,4 @@
-"""Coverage changes: age limit (off by default, 60 days when switched on), exact dates, dropped-roles log,
+"""Coverage changes: age limit (365 days; the older tests switch it to 60), exact dates, dropped-roles log,
 LinkedIn cross-check, scanner alerts."""
 from datetime import date, datetime, timezone
 
@@ -18,22 +18,24 @@ def raw(title, loc="Pune, India", posted="2026-11-01", url=None, **kw):
 
 @pytest.fixture
 def limit60(monkeypatch):
-    """Switch the optional age limit on (it is off by default)."""
+    """Use a 60-day limit (the default is 365 days)."""
     monkeypatch.setattr(filters, "RECENCY_DAYS", 60)
     monkeypatch.setattr(run, "RECENCY_DAYS", 60)
 
 
-def test_no_age_limit_by_default_keeps_old_roles():
-    assert filters.RECENCY_DAYS is None and linkedin.POSTED_WITHIN is None
-    jobs, _, rej = apply_filters("Acme", [raw("Data Engineer", posted="2026-06-05"),
-                                          raw("Senior Data Engineer", posted="Posted 60+ Days Ago")], T, "rippling")
-    assert [j["title"] for j in jobs] == ["Data Engineer", "Senior Data Engineer"] and rej == []
+def test_default_limit_is_365_days():
+    assert filters.RECENCY_DAYS == 365 and linkedin.POSTED_WITHIN == "r31536000"
+    assert linkedin._since({"keywords": "x"})["f_TPR"] == "r31536000"
+    jobs, _, rej = apply_filters("Acme", [raw("Data Engineer", posted="2026-06-05"),          # 161 days: kept
+                                          raw("Senior Data Engineer", posted="Posted 60+ Days Ago"),  # unknown: kept
+                                          raw("Lead Data Engineer", posted="2025-10-01")], T, "rippling")  # 408 days
+    assert [j["title"] for j in jobs] == ["Data Engineer", "Senior Data Engineer"]
     assert jobs[0]["days_ago"] == 161 and jobs[1]["posted"] is None
+    assert [x["reason"] for x in rej] == ["older than 365 days"]
     k = {**site("Data Engineer"), "posted": None, "days_ago": None}
     jobs, rejected = [k], []
     fill_dates_from_linkedin([k], [card("Data Engineer", posted="2026-08-01")], T, jobs, rejected)
     assert jobs == [k] and k["posted"] == "2026-08-01" and rejected == []
-    assert "f_TPR" not in linkedin._since({"keywords": "x"})
 
 
 def test_window_is_60_days_and_rejects_are_logged(limit60):

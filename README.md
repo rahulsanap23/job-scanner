@@ -33,7 +33,7 @@ Setup: [docs/scheduling.md](docs/scheduling.md).
 | --- | --- |
 | `config/companies.yaml` | The target companies and which careers platform each one's jobs come from |
 | `scanner/run.py` | Runs every company, applies the filters, writes `data/` |
-| `scanner/filters.py` | Title and location rules (Part 1 of the prompt). No age limit: every role still listed is kept, however old (`RECENCY_DAYS` brings one back) |
+| `scanner/filters.py` | Title, location and recency rules (Part 1 of the prompt): roles posted in the last 365 days (`RECENCY_DAYS`) |
 | `scanner/dates.py` | Fills in dates the careers-site list didn't give, from the posting page's hidden `datePosted` |
 | `scanner/adapters/` | One reader per careers platform (Workday, Greenhouse, Lever, Ashby, Oracle, Eightfold, SuccessFactors, Avature, Rippling, …) |
 | `scanner/linkedin.py` | LinkedIn's public job search, matched by company name: the only source for companies whose own site gave nothing, and a cross-check for every other company (roles their site scan missed are added as "missed by careers site"); plus a remote-India search |
@@ -43,7 +43,7 @@ Setup: [docs/scheduling.md](docs/scheduling.md).
 | `prompt/job_board_prompt.md` | The full spec: sources, filters, page structure, design |
 | `data/jobs.json` | Today's matching roles (with `new` and `flags`) |
 | `data/scan_report.json` | Per-company status: ok / partial / error / not scanned, with counts, examples of near misses, `alerts` and the LinkedIn cross-check result |
-| `data/rejected.json` | Every role with a data title that was dropped, and why (city, title, …): the answer to "why isn't this role on the board?" |
+| `data/rejected.json` | Every role with a data title that was dropped, and why (city, older than 365 days with its date, …): the answer to "why isn't this role on the board?" |
 | `data/history.json` | Each company's posting count for its last 14 successful scans; a big drop (or Workday paging cut short) shows up in `meta.scanner_alerts` and the board footer. Also tells a failed site how old its last good scan is |
 | `docs/scheduling.md` | One-time setup of the free external cron that starts both workflows on time |
 | `data/seen.json` | When each role was first seen (drives the NEW tag) |
@@ -63,4 +63,4 @@ Edit `config/companies.yaml`. The header of that file shows how to read platform
 URL. A company with no `sources` is still listed on the board under "not scanned automatically" with a
 link, so it is never silently skipped. Check `data/scan_report.json` after the next run: `fetched` is
 how many India postings were read, `title_matches` how many had a data title, and
-`rejected_examples` shows near misses (wrong city, for example); `data/rejected.json` has all of them.
+`rejected_examples` shows near misses (wrong city or older than 365 days); `data/rejected.json` has all of them.

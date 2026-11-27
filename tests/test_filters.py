@@ -63,7 +63,8 @@ def test_dates():
     assert not is_recent(parse_posted("Posted 61 Days Ago", T), T, days=60)
     assert not is_recent(parse_posted("Posted 60+ Days Ago", T), T, days=60)  # "60+" is older than 60
     assert is_recent(parse_posted("2 weeks ago", T), T, days=60)
-    assert is_recent(parse_posted("Posted 400 Days Ago", T), T)          # default: no age limit
+    assert is_recent(parse_posted("Posted 300 Days Ago", T), T)          # default: 365 days
+    assert not is_recent(parse_posted("Posted 400 Days Ago", T), T)
     assert parse_posted("October 20, 2026", T) == date(2026, 10, 20)
     assert parse_posted("Oct 20, 2026", T) == date(2026, 10, 20)
     assert parse_posted("20-Oct-2026", T) == date(2026, 10, 20)

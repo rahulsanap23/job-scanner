@@ -32,8 +32,8 @@ FRESH_HOURS = 24   # a company checked this recently isn't searched again by the
 TIME_BUDGET = 600  # seconds; the rest of the companies wait for the next run
 SCAN_SEARCH_CAP = 6  # the daily scan searches at most this many companies itself (oldest check first);
                      # the hourly refresh does the rest, so one blocked scan doesn't spend LinkedIn's patience
-# LinkedIn's "posted in the last N seconds" filter; with no age limit it isn't sent, so every
-# role LinkedIn still lists is found, however old
+# LinkedIn's "posted in the last N seconds" filter (the same 365 days as the careers sites;
+# not sent if RECENCY_DAYS is None)
 POSTED_WITHIN = f"r{RECENCY_DAYS * 86400}" if RECENCY_DAYS else None
 
 
