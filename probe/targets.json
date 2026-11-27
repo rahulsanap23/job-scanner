@@ -1,6 +1,5 @@
 [
- {"name": "forbes_smartrecruiters", "url": "https://api.smartrecruiters.com/v1/companies/ForbesAdvisor/postings?limit=100", "method": "GET"},
- {"name": "forbes_smartrecruiters_lc", "url": "https://api.smartrecruiters.com/v1/companies/forbesadvisor/postings?limit=100", "method": "GET"},
- {"name": "forbes_rippling_api", "url": "https://api.rippling.com/platform/api/ats/v1/board/forbes-advisor/jobs", "method": "GET"},
- {"name": "forbes_rippling_page", "url": "https://ats.rippling.com/forbes-advisor/jobs", "method": "GET"}
+ {"name": "forbes_rippling_api", "url": "https://api.rippling.com/platform/api/ats/v1/board/forbes-advisor/jobs", "method": "GET", "save": true},
+ {"name": "forbes_rippling_job_api", "url": "https://api.rippling.com/platform/api/ats/v1/board/forbes-advisor/jobs/a5806adc-e255-4029-9653-85546cd56284", "method": "GET", "save": true},
+ {"name": "forbes_rippling_job_page", "url": "https://ats.rippling.com/forbes-advisor/jobs/a5806adc-e255-4029-9653-85546cd56284", "method": "GET", "save": true}
 ]
