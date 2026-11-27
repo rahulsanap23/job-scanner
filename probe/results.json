@@ -1,80 +1,79 @@
 [
  {
-  "name": "MizuhoAm_facets",
-  "url": "https://mizuho.wd1.myworkdayjobs.com/wday/cxs/mizuho/mizuhoamericas/jobs",
-  "method": "POST",
+  "name": "forbes_smartrecruiters",
+  "url": "https://api.smartrecruiters.com/v1/companies/ForbesAdvisor/postings?limit=100",
+  "method": "GET",
   "status": 200,
-  "final_url": "https://mizuho.wd1.myworkdayjobs.com/wday/cxs/mizuho/mizuhoamericas/jobs",
-  "ctype": "application/json",
-  "length": 3095,
+  "final_url": "https://api.smartrecruiters.com/v1/companies/ForbesAdvisor/postings?limit=100",
+  "ctype": "application/json; charset=utf-8",
+  "length": 52,
   "json_shape": {
-   "total": 114,
-   "jobPostings": [
-    1,
-    {
-     "title": "Investment & Corporate Banking – Healthcare, Analyst",
-     "externalPath": "/job/New-York-NY-1271-AOA6th-Ave/Investment---Corporate-Banking---Healthcare--An",
-     "locationsText": "New York, NY (1271 AOA/6th Ave)",
-     "postedOn": "Posted Today",
-     "bulletFields": [
-      1,
-      "..."
-     ]
-    }
-   ],
-   "facets": [
-    4,
-    {
-     "facetParameter": "jobFamilyGroup",
-     "descriptor": "Job Category",
-     "values": [
-      13,
-      "..."
-     ]
-    }
-   ],
-   "userAuthenticated": false
+   "offset": 0,
+   "limit": 100,
+   "totalFound": 0,
+   "content": [
+    0
+   ]
   },
-  "snippet": "{\"total\":114,\"jobPostings\":[{\"title\":\"Investment & Corporate Banking – Healthcare, Analyst\",\"externalPath\":\"/job/New-York-NY-1271-AOA6th-Ave/Investment---Corporate-Banking---Healthcare--Analyst_R7461-1\",\"locationsText\":\"New York, NY (1271 AOA/6th Ave)\",\"postedOn\":\"Posted Today\",\"bulletFields\":[\"R7461\"]}],\"facets\":[{\"facetParameter\":\"jobFamilyGroup\",\"descriptor\":\"Job Category\",\"values\":[{\"descriptor\":\"Investment & Corporate Banking\",\"id\":\"6c507b7295da107a6615fea08dd99b0d\",\"count\":40},{\"descriptor\":\"Information Technology\",\"id\":\"6c507b7295da107a661607dfe8419b15\",\"count\":28},{\"descriptor\":\"Finance\",\"id\":\"6c507b7295da107a6616033fe3bc9b11\",\"count\":18},{\"descriptor\":\"Risk Management\",\"id\":\"6c507b7295da107a66161886fc069b23\",\"count\":11},{\"descriptor\":\"Operations\",\"id\":\"6c507b7295da107a661610e4a2e79b1d\",\"count\":5},{\"descriptor\":\"Legal\",\"id\":\"bd4bf8e2e7411001ceac4b993d680000\",\"count\":4},{\"descriptor\":\"Equity\",\"id\":\"e2908a27d8a701011ab8cd9b6b4d0000\",\"count\":2},{\"descriptor\":\"Fixed Income\",\"id\":\"19b34d8a191d01011aea05906f9e0000\",\"count\":2},{\"descriptor\":\"Treasury\",\"id\":\"6c507b7295da107a66161b440afb9b25\",\"count\":1},{\"descriptor\":\"Administration\",\"id\":\"6c507b7295da107a6615f7d569ea9b07\",\"count\":1},{\"descriptor\":\"United Kingdom Job Profiles\",\"id\":\"f3385d20bcc910010f86c1edf7180000\",\"count\":1},{\"descriptor\":\"Germany Job Profiles\",\"id\":\"f3385d20bcc910010f7e81be42180000\",\"count\":1},{\"descriptor\":\"Canada\",\"id\":\"2151ee4fe31b01588a32878407014414\",\"count\":1}]},{\"facetParameter\":\"workerSubType\",\"desc",
-  "secs": 0.58
+  "snippet": "{\"offset\":0,\"limit\":100,\"totalFound\":0,\"content\":[]}",
+  "secs": 0.13
  },
  {
-  "name": "MizuhoAm_pune",
-  "url": "https://mizuho.wd1.myworkdayjobs.com/wday/cxs/mizuho/mizuhoamericas/jobs",
-  "method": "POST",
+  "name": "forbes_smartrecruiters_lc",
+  "url": "https://api.smartrecruiters.com/v1/companies/forbesadvisor/postings?limit=100",
+  "method": "GET",
   "status": 200,
-  "final_url": "https://mizuho.wd1.myworkdayjobs.com/wday/cxs/mizuho/mizuhoamericas/jobs",
-  "ctype": "application/json",
-  "length": 919,
+  "final_url": "https://api.smartrecruiters.com/v1/companies/forbesadvisor/postings?limit=100",
+  "ctype": "application/json; charset=utf-8",
+  "length": 52,
   "json_shape": {
-   "total": 1,
-   "jobPostings": [
-    1,
-    {
-     "title": "Compute & Storage Engineering Lead",
-     "externalPath": "/job/NYC-1285/Compute---Storage-Engineering-Lead_R7510-3",
-     "locationsText": "NYC (1285)",
-     "postedOn": "Posted 14 Days Ago",
-     "bulletFields": [
-      1,
-      "..."
-     ]
-    }
-   ],
-   "facets": [
-    4,
-    {
-     "facetParameter": "jobFamilyGroup",
-     "descriptor": "Job Category",
-     "values": [
-      1,
-      "..."
-     ]
-    }
-   ],
-   "userAuthenticated": false
+   "offset": 0,
+   "limit": 100,
+   "totalFound": 0,
+   "content": [
+    0
+   ]
   },
-  "snippet": "{\"total\":1,\"jobPostings\":[{\"title\":\"Compute & Storage Engineering Lead\",\"externalPath\":\"/job/NYC-1285/Compute---Storage-Engineering-Lead_R7510-3\",\"locationsText\":\"NYC (1285)\",\"postedOn\":\"Posted 14 Days Ago\",\"bulletFields\":[\"R7510\"]}],\"facets\":[{\"facetParameter\":\"jobFamilyGroup\",\"descriptor\":\"Job Category\",\"values\":[{\"descriptor\":\"Information Technology\",\"id\":\"6c507b7295da107a661607dfe8419b15\",\"count\":1}]},{\"facetParameter\":\"workerSubType\",\"descriptor\":\"Job Type\",\"values\":[{\"descriptor\":\"Regular\",\"id\":\"6c507b7295da1079f02ac930f27836e2\",\"count\":1}]},{\"facetParameter\":\"timeType\",\"descriptor\":\"Time Type\",\"values\":[{\"descriptor\":\"Full time\",\"id\":\"ae35010887eb1077911604a93b576527\",\"count\":1}]},{\"facetParameter\":\"locationMainGroup\",\"values\":[{\"facetParameter\":\"locations\",\"descriptor\":\"Locations\",\"values\":[{\"descriptor\":\"NYC (1285)\",\"id\":\"293b8374f97a10016738647b16f40000\",\"count\":1}]}]}],\"userAuthenticated\":false}",
-  "secs": 0.56
+  "snippet": "{\"offset\":0,\"limit\":100,\"totalFound\":0,\"content\":[]}",
+  "secs": 0.14
+ },
+ {
+  "name": "forbes_rippling_api",
+  "url": "https://api.rippling.com/platform/api/ats/v1/board/forbes-advisor/jobs",
+  "method": "GET",
+  "status": 200,
+  "final_url": "https://api.rippling.com/platform/api/ats/v1/board/forbes-advisor/jobs",
+  "ctype": "application/json",
+  "length": 18491,
+  "json_shape": [
+   61,
+   {
+    "uuid": "a5806adc-e255-4029-9653-85546cd56284",
+    "name": "Accounts Payable Specialist (Remote)",
+    "department": {
+     "id": "Finance",
+     "label": "Finance"
+    },
+    "url": "https://ats.rippling.com/forbes-advisor/jobs/a5806adc-e255-4029-9653-85546cd5628",
+    "workLocation": {
+     "label": "Wilmington, DE",
+     "id": "Wilmington, DE"
+    }
+   }
+  ],
+  "snippet": "[{\"uuid\":\"a5806adc-e255-4029-9653-85546cd56284\",\"name\":\"Accounts Payable Specialist (Remote)\",\"department\":{\"id\":\"Finance\",\"label\":\"Finance\"},\"url\":\"https://ats.rippling.com/forbes-advisor/jobs/a5806adc-e255-4029-9653-85546cd56284\",\"workLocation\":{\"label\":\"Wilmington, DE\",\"id\":\"Wilmington, DE\"}},{\"uuid\":\"0622fcab-9ddf-488c-96ea-436d71ebf7bf\",\"name\":\" Business Analytics Manager (Remote)\",\"department\":{\"id\":\"Strategy\",\"label\":\"Strategy\"},\"url\":\"https://ats.rippling.com/forbes-advisor/jobs/0622fcab-9ddf-488c-96ea-436d71ebf7bf\",\"workLocation\":{\"label\":\"Ontario, Canada\",\"id\":\"Ontario, Canada\"}},{\"uuid\":\"52de5525-33b3-4db5-b586-197afa1a7dbd\",\"name\":\" Business Analytics Manager (Remote)\",\"department\":{\"id\":\"Strategy\",\"label\":\"Strategy\"},\"url\":\"https://ats.rippling.com/forbes-advisor/jobs/52de5525-33b3-4db5-b586-197afa1a7dbd\",\"workLocation\":{\"label\":\"London, United Kingdom\",\"id\":\"London, United Kingdom\"}},{\"uuid\":\"0dc9469c-2707-4da9-b195-3ab906f6b379\",\"name\":\"CMS Manager\",\"department\":{\"id\":\"Strategy\",\"label\":\"Strategy\"},\"url\":\"https://ats.rippling.com/forbes-advisor/jobs/0dc9469c-2707-4da9-b195-3ab906f6b379\",\"workLocation\":{\"label\":\"Chennai, India\",\"id\":\"Chennai, India\"}},{\"uuid\":\"116edf98-d690-45e7-8cbd-929882ce8cee\",\"name\":\"CMS Specialist\",\"department\":{\"id\":\"Strategy\",\"label\":\"Strategy\"},\"url\":\"https://ats.rippling.com/forbes-advisor/jobs/116edf98-d690-45e7-8cbd-929882ce8cee\",\"workLocation\":{\"label\":\"Remote (India)\",\"id\":\"Remote (India)\"}},{\"uuid\":\"32b8101c-ffe2-44a3-9f10-2d3ab96",
+  "secs": 0.14
+ },
+ {
+  "name": "forbes_rippling_page",
+  "url": "https://ats.rippling.com/forbes-advisor/jobs",
+  "method": "GET",
+  "status": 200,
+  "final_url": "https://ats.rippling.com/forbes-advisor/jobs",
+  "ctype": "text/html; charset=utf-8",
+  "length": 206392,
+  "html_title": "Smart Financial Decisions Made Simple | Forbes Advisor",
+  "snippet": "<!DOCTYPE html><html lang=\"en-US\"><head><meta charSet=\"utf-8\" data-next-head=\"\"/><meta name=\"viewport\" content=\"width=device-width\" data-next-head=\"\"/><title data-next-head=\"\">Smart Financial Decisions Made Simple | Forbes Advisor</title><meta property=\"og:type\" content=\"website\" data-next-head=\"\"/><meta property=\"og:title\" content=\"Smart Financial Decisions Made Simple | Forbes Advisor\" data-next-head=\"\"/><link rel=\"canonical\" href=\"https://ats.rippling.com/forbes-advisor/jobs\"/><link rel=\"alternate\" hrefLang=\"de-DE\" href=\"https://ats.rippling.com/de-DE/forbes-advisor/jobs\"/><link rel=\"alternate\" hrefLang=\"en-AU\" href=\"https://ats.rippling.com/en-AU/forbes-advisor/jobs\"/><link rel=\"alternate\" hrefLang=\"en-CA\" href=\"https://ats.rippling.com/en-CA/forbes-advisor/jobs\"/><link rel=\"alternate\" hrefLang=\"en-US\" href=\"https://ats.rippling.com/forbes-advisor/jobs\"/><link rel=\"alternate\" hrefLang=\"en-GB\" href=\"https://ats.rippling.com/en-GB/forbes-advisor/jobs\"/><link rel=\"alternate\" hrefLang=\"es\" href=\"https://ats.rippling.com/es-419/forbes-advisor/jobs\"/><link rel=\"alternate\" hrefLang=\"es-ES\" href=\"https://ats.rippling.com/es-ES/forbes-advisor/jobs\"/><link rel=\"alternate\" hrefLang=\"fr-CA\" href=\"https://ats.rippling.com/fr-CA/forbes-advisor/jobs\"/><link rel=\"alternate\" hrefLang=\"fr-FR\" href=\"https://ats.rippling.com/fr-FR/forbes-advisor/jobs\"/><link rel=\"alternate\" hrefLang=\"nl-NL\" href=\"https://ats.rippling.com/nl-NL/forbes-advisor/jobs\"/><link rel=\"alternate\" hrefLang=\"pl-PL\" href",
+  "secs": 0.35
  }
 ]
