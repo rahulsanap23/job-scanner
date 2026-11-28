@@ -1,10 +1,10 @@
 {
  "meta": {
-  "generated_at": "2026-11-27T19:25:27+00:00",
+  "generated_at": "2026-11-28T00:47:51+00:00",
   "date": "2026-11-28",
   "recency_days": 365,
   "companies_total": 191,
-  "companies_scanned_ok": 90,
+  "companies_scanned_ok": 89,
   "companies_failed": [
    "AIG",
    "Abbott",
@@ -36,6 +36,7 @@
    "LSEG",
    "M&G",
    "MSD (Merck & Co.)",
+   "Maersk",
    "Marsh McLennan",
    "Marvell",
    "Mastercard",
@@ -113,17 +114,18 @@
   "companies_carried": [
    "Citi",
    "Fiserv",
+   "Maersk",
    "Mastercard",
    "Mondelez",
    "Nvidia",
    "P&G",
    "Priceline (Booking Holdings)"
   ],
-  "jobs": 156,
+  "jobs": 159,
   "companies_with_jobs": 49,
-  "uncertain": 15,
-  "fresh": 1,
-  "linkedin": "33 of 104 companies checked in the last 24 h; not checked in 24 h: Citi, Johnson & Johnson, P&G, Barclays, Deutsche Bank, Allstate, Mizuho, Cisco and 63 more (this scan: stopped after 1 of 6 companies: LinkedIn answered 429)",
+  "uncertain": 16,
+  "fresh": 3,
+  "linkedin": "30 of 105 companies checked in the last 24 h; not checked in 24 h: Citi, Johnson & Johnson, P&G, Barclays, Deutsche Bank, Allstate, Mizuho, HDFC Bank and 67 more (this scan: stopped after 0 of 6 companies: LinkedIn answered 429)",
   "companies_checked_on_linkedin": [
    "AIG",
    "Abbott",
@@ -140,7 +142,6 @@
    "BlackRock",
    "BrowserStack",
    "Cisco",
-   "Citi",
    "Claroda",
    "Cohesity",
    "Confluent",
@@ -166,6 +167,7 @@
    "Lentra",
    "M&G",
    "MSD (Merck & Co.)",
+   "Maersk",
    "Marsh McLennan",
    "Marvell",
    "Mastercard",
@@ -183,6 +185,7 @@
    "Pfizer",
    "Philips",
    "PhonePe",
+   "Priceline (Booking Holdings)",
    "RBL Bank",
    "Red Hat",
    "Rockwell Automation",
@@ -209,8 +212,8 @@
    "Workday",
    "bp"
   ],
-  "linkedin_crosscheck": "22 of 87 scanned companies cross-checked on LinkedIn in the last 4 days; 4 roles the careers sites missed",
-  "missed_by_site": 5,
+  "linkedin_crosscheck": "17 of 86 scanned companies cross-checked on LinkedIn in the last 4 days; 4 roles the careers sites missed",
+  "missed_by_site": 4,
   "scanner_alerts": [],
   "rejected": 427
  },
@@ -613,6 +616,74 @@
   },
   {
    "company": "BlackRock",
+   "title": "Data Engineer, Aladdin Data, Associate",
+   "location": "Mumbai, Maharashtra, India",
+   "location_tags": [
+    "Mumbai"
+   ],
+   "posted": "2026-11-27",
+   "days_ago": 1,
+   "url": "https://in.linkedin.com/jobs/view/data-engineer-aladdin-data-associate-at-blackrock-4488133317",
+   "source": "linkedin",
+   "match": "title",
+   "flags": [],
+   "fresh": false,
+   "first_seen": "2026-11-14",
+   "new": false
+  },
+  {
+   "company": "BlackRock",
+   "title": "Data Engineer, Vice President",
+   "location": "Mumbai, Maharashtra, India",
+   "location_tags": [
+    "Mumbai"
+   ],
+   "posted": "2026-11-27",
+   "days_ago": 1,
+   "url": "https://in.linkedin.com/jobs/view/data-engineer-vice-president-at-blackrock-4495802106",
+   "source": "linkedin",
+   "match": "title",
+   "flags": [],
+   "fresh": true,
+   "first_seen": "2026-11-28",
+   "new": true
+  },
+  {
+   "company": "BlackRock",
+   "title": "Lead Data Engineer, Portfolio Management Group, Associate",
+   "location": "Mumbai, Maharashtra, India",
+   "location_tags": [
+    "Mumbai"
+   ],
+   "posted": "2026-11-27",
+   "days_ago": 1,
+   "url": "https://in.linkedin.com/jobs/view/lead-data-engineer-portfolio-management-group-associate-at-blackrock-4495591669",
+   "source": "linkedin",
+   "match": "title",
+   "flags": [],
+   "fresh": true,
+   "first_seen": "2026-11-28",
+   "new": true
+  },
+  {
+   "company": "BlackRock",
+   "title": "Data Engineer, Aladdin Data, Vice President",
+   "location": "Mumbai, Maharashtra, India",
+   "location_tags": [
+    "Mumbai"
+   ],
+   "posted": "2026-11-26",
+   "days_ago": 2,
+   "url": "https://in.linkedin.com/jobs/view/data-engineer-aladdin-data-vice-president-at-blackrock-4495279253",
+   "source": "linkedin",
+   "match": "title",
+   "flags": [],
+   "fresh": true,
+   "first_seen": "2026-11-28",
+   "new": true
+  },
+  {
+   "company": "BlackRock",
    "title": "Data Engineering - Aladdin Data, Director",
    "location": "Mumbai, Maharashtra, India",
    "location_tags": [
@@ -638,23 +709,6 @@
    "posted": "2026-11-13",
    "days_ago": 15,
    "url": "https://in.linkedin.com/jobs/view/data-engineer-aladdin-data-associate-at-blackrock-4490795129",
-   "source": "linkedin",
-   "match": "title",
-   "flags": [],
-   "fresh": false,
-   "first_seen": "2026-11-14",
-   "new": false
-  },
-  {
-   "company": "BlackRock",
-   "title": "Data Engineer, Aladdin Data, Associate",
-   "location": "Mumbai, Maharashtra, India",
-   "location_tags": [
-    "Mumbai"
-   ],
-   "posted": "2026-11-06",
-   "days_ago": 22,
-   "url": "https://in.linkedin.com/jobs/view/data-engineer-aladdin-data-associate-at-blackrock-4488133317",
    "source": "linkedin",
    "match": "title",
    "flags": [],
@@ -1093,24 +1147,6 @@
    "carried_from": "2026-11-27T10:56:24+00:00",
    "fresh": false,
    "first_seen": "2026-11-13",
-   "new": false
-  },
-  {
-   "company": "Citi",
-   "title": "Senior Databricks Engineer, Apache Spark and AWS - Vice President",
-   "location": "Pune Division, Maharashtra, India",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": "2026-11-05",
-   "days_ago": 23,
-   "url": "https://in.linkedin.com/jobs/view/senior-databricks-engineer-apache-spark-and-aws-vice-president-at-citi-4486910770",
-   "source": "linkedin",
-   "match": "keyword:spark",
-   "flags": [],
-   "crosscheck": true,
-   "fresh": false,
-   "first_seen": "2026-11-14",
    "new": false
   },
   {
@@ -2059,7 +2095,7 @@
    "source": "jobsyn",
    "match": "title",
    "flags": [],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-11-28",
    "new": true
   },
@@ -2233,6 +2269,7 @@
    "source": "workday",
    "match": "title",
    "flags": [],
+   "carried_from": "2026-11-27T19:25:27+00:00",
    "fresh": false,
    "first_seen": "2026-11-13",
    "new": false
@@ -2250,6 +2287,7 @@
    "source": "workday",
    "match": "title",
    "flags": [],
+   "carried_from": "2026-11-27T19:25:27+00:00",
    "fresh": false,
    "first_seen": "2026-10-24",
    "new": false
@@ -2410,12 +2448,12 @@
    ],
    "posted": "2026-11-06",
    "days_ago": 22,
-   "url": "https://www.metlifecareers.com/en_US/ml/JobDetail/Sr-Software-Platform-Engineer-I-Data-Engineer/21474",
+   "url": "https://www.metlifecareers.com/en_US/ml/JobDetail/Senior-Data-Engineer-Databricks-Data-Modeling-Architecture/21475",
    "source": "avature",
    "match": "title",
    "flags": [],
    "fresh": false,
-   "first_seen": "2026-11-14",
+   "first_seen": "2026-11-08",
    "new": false
   },
   {
@@ -2795,6 +2833,23 @@
    "posted": null,
    "days_ago": null,
    "url": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/525818",
+   "source": "avature",
+   "match": "title",
+   "flags": [
+    "multiple locations - check"
+   ],
+   "fresh": false,
+   "first_seen": "2026-10-24",
+   "new": false
+  },
+  {
+   "company": "Siemens Digital Industries Software",
+   "title": "Senior Data Engineer",
+   "location": "Multiple Locations",
+   "location_tags": [],
+   "posted": null,
+   "days_ago": null,
+   "url": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/524101",
    "source": "avature",
    "match": "title",
    "flags": [
