@@ -63,8 +63,16 @@
 }
 ]
 },
+"Atlassian": {
+"checked_at": "2026-11-28T04:51:43+00:00",
+"jobs": []
+},
 "Autodesk": {
 "checked_at": "2026-11-24T18:57:01+00:00",
+"jobs": []
+},
+"Automattic": {
+"checked_at": "2026-11-28T04:51:43+00:00",
 "jobs": []
 },
 "Avaloq": {
@@ -704,7 +712,7 @@
 ]
 },
 "DBS Bank": {
-"checked_at": "2026-11-24T07:01:36+00:00",
+"checked_at": "2026-11-28T04:51:43+00:00",
 "jobs": []
 },
 "DDN": {
@@ -720,7 +728,7 @@
 "jobs": []
 },
 "Deutsche Bank": {
-"checked_at": "2026-11-24T07:01:36+00:00",
+"checked_at": "2026-11-28T04:51:43+00:00",
 "jobs": [
 {
 "id": "https://in.linkedin.com/jobs/view/bigdata-hadoop-scala-engineer-avp-at-deutsche-bank-4472111802",
@@ -762,14 +770,27 @@
 "name_match": "exact"
 },
 {
-"id": "https://in.linkedin.com/jobs/view/senior-developer-as-at-deutsche-bank-4491561213",
-"title": "Senior Developer, AS",
+"id": "https://in.linkedin.com/jobs/view/full-stack-reporting-lead-vp-at-deutsche-bank-4471631553",
+"title": "Full Stack Reporting Lead, VP",
 "company": "Deutsche Bank",
 "locations": [
 "Pune Division, Maharashtra, India"
 ],
-"url": "https://in.linkedin.com/jobs/view/senior-developer-as-at-deutsche-bank-4491561213",
-"posted": "2026-11-17",
+"url": "https://in.linkedin.com/jobs/view/full-stack-reporting-lead-vp-at-deutsche-bank-4471631553",
+"posted": "2026-09-24",
+"remote": null,
+"country": null,
+"name_match": "exact"
+},
+{
+"id": "https://in.linkedin.com/jobs/view/full-stack-reporting-lead-vp-at-deutsche-bank-4471628815",
+"title": "Full Stack Reporting Lead, VP",
+"company": "Deutsche Bank",
+"locations": [
+"Pune Division, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/full-stack-reporting-lead-vp-at-deutsche-bank-4471628815",
+"posted": "2026-09-24",
 "remote": null,
 "country": null,
 "name_match": "exact"
@@ -777,7 +798,7 @@
 ]
 },
 "Dow": {
-"checked_at": "2026-11-24T10:20:06+00:00",
+"checked_at": "2026-11-28T04:51:43+00:00",
 "jobs": []
 },
 "Dream Sports": {
