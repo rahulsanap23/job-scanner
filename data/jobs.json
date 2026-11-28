@@ -1,10 +1,10 @@
 {
  "meta": {
-  "generated_at": "2026-11-28T00:47:51+00:00",
+  "generated_at": "2026-11-28T08:36:43+00:00",
   "date": "2026-11-28",
   "recency_days": 365,
   "companies_total": 191,
-  "companies_scanned_ok": 89,
+  "companies_scanned_ok": 93,
   "companies_failed": [
    "AIG",
    "Abbott",
@@ -13,6 +13,7 @@
    "Allstate",
    "Amadeus",
    "Autodesk",
+   "Automattic",
    "Baker Hughes",
    "Barclays",
    "BlackRock",
@@ -23,7 +24,6 @@
    "CrowdStrike",
    "DBS Bank",
    "Deutsche Bank",
-   "Dow",
    "Ecolab",
    "Equinix",
    "FIS",
@@ -37,9 +37,7 @@
    "M&G",
    "MSD (Merck & Co.)",
    "Maersk",
-   "Marsh McLennan",
    "Marvell",
-   "Mastercard",
    "Medline",
    "Michelin",
    "Mondelez",
@@ -47,9 +45,7 @@
    "Novartis",
    "Nvidia",
    "P&G",
-   "Pfizer",
    "Philips",
-   "Priceline (Booking Holdings)",
    "Red Hat",
    "Rockwell Automation",
    "S&P Global",
@@ -115,17 +111,15 @@
    "Citi",
    "Fiserv",
    "Maersk",
-   "Mastercard",
    "Mondelez",
    "Nvidia",
-   "P&G",
-   "Priceline (Booking Holdings)"
+   "P&G"
   ],
-  "jobs": 159,
-  "companies_with_jobs": 49,
-  "uncertain": 16,
-  "fresh": 3,
-  "linkedin": "30 of 105 companies checked in the last 24 h; not checked in 24 h: Citi, Johnson & Johnson, P&G, Barclays, Deutsche Bank, Allstate, Mizuho, HDFC Bank and 67 more (this scan: stopped after 0 of 6 companies: LinkedIn answered 429)",
+  "jobs": 163,
+  "companies_with_jobs": 50,
+  "uncertain": 15,
+  "fresh": 0,
+  "linkedin": "45 of 101 companies checked in the last 24 h; not checked in 24 h: Johnson & Johnson, P&G, Barclays, Allstate, Maersk, Thermo Fisher Scientific, Mondelez, Baker Hughes and 48 more (this scan: searched 6 companies)",
   "companies_checked_on_linkedin": [
    "AIG",
    "Abbott",
@@ -135,20 +129,23 @@
    "Amadeus",
    "Atlas Copco",
    "Autodesk",
+   "Automattic",
+   "Axis Bank",
    "BMW TechWorks India",
    "BNP Paribas",
+   "BNY",
    "Baker Hughes",
    "Barclays",
    "BlackRock",
    "BrowserStack",
    "Cisco",
+   "Citi",
    "Claroda",
    "Cohesity",
    "Confluent",
    "CrowdStrike",
    "DBS Bank",
    "Deutsche Bank",
-   "Dow",
    "Dream Sports",
    "Ecolab",
    "Equinix",
@@ -159,7 +156,10 @@
    "FirstCry",
    "Fiserv",
    "General Mills",
+   "HDFC Bank",
    "Hitachi (Vantara, Payment Services)",
+   "ICICI Bank",
+   "Jio",
    "Johnson & Johnson",
    "Johnson Controls",
    "KONE",
@@ -168,13 +168,12 @@
    "M&G",
    "MSD (Merck & Co.)",
    "Maersk",
-   "Marsh McLennan",
    "Marvell",
-   "Mastercard",
    "Media.net",
    "Medline",
    "Michelin",
    "Mitsubishi Electric India",
+   "Mizuho",
    "Mondelez",
    "Netcore Cloud",
    "Northern Trust",
@@ -182,10 +181,8 @@
    "Nvidia",
    "Nykaa",
    "P&G",
-   "Pfizer",
    "Philips",
    "PhonePe",
-   "Priceline (Booking Holdings)",
    "RBL Bank",
    "Red Hat",
    "Rockwell Automation",
@@ -212,10 +209,10 @@
    "Workday",
    "bp"
   ],
-  "linkedin_crosscheck": "17 of 86 scanned companies cross-checked on LinkedIn in the last 4 days; 4 roles the careers sites missed",
-  "missed_by_site": 4,
+  "linkedin_crosscheck": "22 of 90 scanned companies cross-checked on LinkedIn in the last 4 days; 4 roles the careers sites missed",
+  "missed_by_site": 5,
   "scanner_alerts": [],
-  "rejected": 427
+  "rejected": 436
  },
  "jobs": [
   {
@@ -644,7 +641,7 @@
    "source": "linkedin",
    "match": "title",
    "flags": [],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-11-28",
    "new": true
   },
@@ -661,7 +658,7 @@
    "source": "linkedin",
    "match": "title",
    "flags": [],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-11-28",
    "new": true
   },
@@ -678,7 +675,7 @@
    "source": "linkedin",
    "match": "title",
    "flags": [],
-   "fresh": true,
+   "fresh": false,
    "first_seen": "2026-11-28",
    "new": true
   },
@@ -747,6 +744,24 @@
    "source": "linkedin",
    "match": "title",
    "flags": [],
+   "fresh": false,
+   "first_seen": "2026-11-14",
+   "new": false
+  },
+  {
+   "company": "Citi",
+   "title": "Senior Databricks Engineer, Apache Spark and AWS - Vice President",
+   "location": "Pune Division, Maharashtra, India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-11-27",
+   "days_ago": 1,
+   "url": "https://in.linkedin.com/jobs/view/senior-databricks-engineer-apache-spark-and-aws-vice-president-at-citi-4486910770",
+   "source": "linkedin",
+   "match": "keyword:spark",
+   "flags": [],
+   "crosscheck": true,
    "fresh": false,
    "first_seen": "2026-11-14",
    "new": false
@@ -2294,25 +2309,6 @@
   },
   {
    "company": "Mastercard",
-   "title": "Sr Data Engineer",
-   "location": "Pune, India",
-   "location_tags": [
-    "Pune"
-   ],
-   "posted": "2026-11-05",
-   "days_ago": 23,
-   "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Sr-Tester-Data-Engineer_R-271045",
-   "source": "workday",
-   "match": "title",
-   "flags": [],
-   "date_source": "LinkedIn",
-   "carried_from": "2026-11-27T12:32:23+00:00",
-   "fresh": false,
-   "first_seen": "2026-11-27",
-   "new": true
-  },
-  {
-   "company": "Mastercard",
    "title": "Lead Data Engineer",
    "location": "Pune, India",
    "location_tags": [
@@ -2324,7 +2320,6 @@
    "source": "workday",
    "match": "title",
    "flags": [],
-   "carried_from": "2026-11-27T12:32:23+00:00",
    "fresh": false,
    "first_seen": "2026-10-30",
    "new": false
@@ -2344,7 +2339,6 @@
    "flags": [
     "title borderline"
    ],
-   "carried_from": "2026-11-27T12:32:23+00:00",
    "fresh": false,
    "first_seen": "2026-10-29",
    "new": false
@@ -2364,7 +2358,6 @@
    "flags": [
     "title borderline"
    ],
-   "carried_from": "2026-11-27T12:32:23+00:00",
    "fresh": false,
    "first_seen": "2026-10-29",
    "new": false
@@ -2382,7 +2375,6 @@
    "source": "workday",
    "match": "title",
    "flags": [],
-   "carried_from": "2026-11-27T12:32:23+00:00",
    "fresh": false,
    "first_seen": "2026-10-24",
    "new": false
@@ -2400,10 +2392,26 @@
    "source": "workday",
    "match": "title",
    "flags": [],
-   "carried_from": "2026-11-27T12:32:23+00:00",
    "fresh": false,
    "first_seen": "2026-10-24",
    "new": false
+  },
+  {
+   "company": "Mastercard",
+   "title": "Sr Data Engineer",
+   "location": "Pune, India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-07-21",
+   "days_ago": 130,
+   "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Sr-Tester-Data-Engineer_R-271045",
+   "source": "workday",
+   "match": "title",
+   "flags": [],
+   "fresh": false,
+   "first_seen": "2026-11-27",
+   "new": true
   },
   {
    "company": "Media.net",
@@ -2448,12 +2456,12 @@
    ],
    "posted": "2026-11-06",
    "days_ago": 22,
-   "url": "https://www.metlifecareers.com/en_US/ml/JobDetail/Senior-Data-Engineer-Databricks-Data-Modeling-Architecture/21475",
+   "url": "https://www.metlifecareers.com/en_US/ml/JobDetail/Sr-Software-Platform-Engineer-I-Data-Engineer/21474",
    "source": "avature",
    "match": "title",
    "flags": [],
    "fresh": false,
-   "first_seen": "2026-11-08",
+   "first_seen": "2026-11-14",
    "new": false
   },
   {
@@ -2506,6 +2514,74 @@
    "fresh": false,
    "first_seen": "2026-11-27",
    "new": true
+  },
+  {
+   "company": "Mizuho",
+   "title": "Data Engineer VP",
+   "location": "Pune City, Maharashtra, India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-11-15",
+   "days_ago": 13,
+   "url": "https://in.linkedin.com/jobs/view/data-engineer-vp-at-mizuho-4490241534",
+   "source": "linkedin",
+   "match": "title",
+   "flags": [],
+   "fresh": false,
+   "first_seen": "2026-11-17",
+   "new": false
+  },
+  {
+   "company": "Mizuho",
+   "title": "VP-L2 – Data Integration Engineer",
+   "location": "Pune City, Maharashtra, India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-11-11",
+   "days_ago": 17,
+   "url": "https://in.linkedin.com/jobs/view/vp-l2-%E2%80%93-data-integration-engineer-at-mizuho-4488672783",
+   "source": "linkedin",
+   "match": "keyword:data integration",
+   "flags": [],
+   "fresh": false,
+   "first_seen": "2026-11-13",
+   "new": false
+  },
+  {
+   "company": "Mizuho",
+   "title": "Cloud Data Engineer",
+   "location": "Pune City, Maharashtra, India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-11-03",
+   "days_ago": 25,
+   "url": "https://in.linkedin.com/jobs/view/cloud-data-engineer-at-mizuho-4486041019",
+   "source": "linkedin",
+   "match": "title",
+   "flags": [],
+   "fresh": false,
+   "first_seen": "2026-11-13",
+   "new": false
+  },
+  {
+   "company": "Mizuho",
+   "title": "Data Platform Engineer",
+   "location": "Pune City, Maharashtra, India",
+   "location_tags": [
+    "Pune"
+   ],
+   "posted": "2026-11-03",
+   "days_ago": 25,
+   "url": "https://in.linkedin.com/jobs/view/data-platform-engineer-at-mizuho-4486025589",
+   "source": "linkedin",
+   "match": "keyword:data platform",
+   "flags": [],
+   "fresh": false,
+   "first_seen": "2026-11-13",
+   "new": false
   },
   {
    "company": "Mondelez",
@@ -2725,14 +2801,12 @@
    "location_tags": [
     "Mumbai"
    ],
-   "posted": null,
-   "days_ago": null,
+   "posted": "2026-09-30",
+   "days_ago": 59,
    "url": "https://priceline.wd1.myworkdayjobs.com/en-US/Priceline/job/Mumbai/Senior-Data-Engineer_R5797",
    "source": "workday",
    "match": "title",
    "flags": [],
-   "date_note": "site only says Posted 30+ Days Ago",
-   "carried_from": "2026-11-27T12:32:23+00:00",
    "fresh": false,
    "first_seen": "2026-10-24",
    "new": false
@@ -2744,14 +2818,12 @@
    "location_tags": [
     "Mumbai"
    ],
-   "posted": null,
-   "days_ago": null,
+   "posted": "2026-09-25",
+   "days_ago": 64,
    "url": "https://priceline.wd1.myworkdayjobs.com/en-US/Priceline/job/Mumbai/Staff-Data-Architect_R5735",
    "source": "workday",
    "match": "title",
    "flags": [],
-   "date_note": "site only says Posted 30+ Days Ago",
-   "carried_from": "2026-11-27T12:32:23+00:00",
    "fresh": false,
    "first_seen": "2026-10-24",
    "new": false
@@ -2833,23 +2905,6 @@
    "posted": null,
    "days_ago": null,
    "url": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/525818",
-   "source": "avature",
-   "match": "title",
-   "flags": [
-    "multiple locations - check"
-   ],
-   "fresh": false,
-   "first_seen": "2026-10-24",
-   "new": false
-  },
-  {
-   "company": "Siemens Digital Industries Software",
-   "title": "Senior Data Engineer",
-   "location": "Multiple Locations",
-   "location_tags": [],
-   "posted": null,
-   "days_ago": null,
-   "url": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/524101",
    "source": "avature",
    "match": "title",
    "flags": [

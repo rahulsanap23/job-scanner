@@ -75,6 +75,10 @@
 "checked_at": "2026-11-28T04:51:43+00:00",
 "jobs": []
 },
+"Axis Bank": {
+"checked_at": "2026-11-28T08:36:02+00:00",
+"jobs": []
+},
 "BMW TechWorks India": {
 "checked_at": "2026-11-25T20:08:41+00:00",
 "jobs": []
@@ -104,6 +108,24 @@
 ],
 "url": "https://in.linkedin.com/jobs/view/python-data-engineer-at-bnp-paribas-4490745382",
 "posted": "2026-11-13",
+"remote": null,
+"country": null,
+"name_match": "exact"
+}
+]
+},
+"BNY": {
+"checked_at": "2026-11-28T08:36:02+00:00",
+"jobs": [
+{
+"id": "https://in.linkedin.com/jobs/view/senior-specialist-data-transfer-integration-quality-at-bny-4491500604",
+"title": "Senior Specialist, Data Transfer, Integration & Quality",
+"company": "BNY",
+"locations": [
+"Mumbai Metropolitan Region"
+],
+"url": "https://in.linkedin.com/jobs/view/senior-specialist-data-transfer-integration-quality-at-bny-4491500604",
+"posted": "2026-11-16",
 "remote": null,
 "country": null,
 "name_match": "exact"
@@ -926,6 +948,10 @@
 }
 ]
 },
+"HDFC Bank": {
+"checked_at": "2026-11-28T08:36:02+00:00",
+"jobs": []
+},
 "Hitachi (Vantara, Payment Services)": {
 "checked_at": "2026-11-25T22:35:31+00:00",
 "jobs": [
@@ -943,6 +969,14 @@
 "name_match": "exact"
 }
 ]
+},
+"ICICI Bank": {
+"checked_at": "2026-11-28T08:36:02+00:00",
+"jobs": []
+},
+"Jio": {
+"checked_at": "2026-11-28T08:36:02+00:00",
+"jobs": []
 },
 "Johnson & Johnson": {
 "checked_at": "2026-11-26T05:07:07+00:00",
@@ -1152,6 +1186,63 @@
 "Mitsubishi Electric India": {
 "checked_at": "2026-11-26T19:49:27+00:00",
 "jobs": []
+},
+"Mizuho": {
+"checked_at": "2026-11-28T08:36:02+00:00",
+"jobs": [
+{
+"id": "https://in.linkedin.com/jobs/view/cloud-data-engineer-at-mizuho-4486041019",
+"title": "Cloud Data Engineer",
+"company": "Mizuho",
+"locations": [
+"Pune City, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/cloud-data-engineer-at-mizuho-4486041019",
+"posted": "2026-11-03",
+"remote": null,
+"country": null,
+"name_match": "exact"
+},
+{
+"id": "https://in.linkedin.com/jobs/view/data-engineer-vp-at-mizuho-4490241534",
+"title": "Data Engineer VP",
+"company": "Mizuho",
+"locations": [
+"Pune City, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/data-engineer-vp-at-mizuho-4490241534",
+"posted": "2026-11-15",
+"remote": null,
+"country": null,
+"name_match": "exact"
+},
+{
+"id": "https://in.linkedin.com/jobs/view/data-platform-engineer-at-mizuho-4486025589",
+"title": "Data Platform Engineer",
+"company": "Mizuho",
+"locations": [
+"Pune City, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/data-platform-engineer-at-mizuho-4486025589",
+"posted": "2026-11-03",
+"remote": null,
+"country": null,
+"name_match": "exact"
+},
+{
+"id": "https://in.linkedin.com/jobs/view/vp-l2-%E2%80%93-data-integration-engineer-at-mizuho-4488672783",
+"title": "VP-L2 – Data Integration Engineer",
+"company": "Mizuho",
+"locations": [
+"Pune City, Maharashtra, India"
+],
+"url": "https://in.linkedin.com/jobs/view/vp-l2-%E2%80%93-data-integration-engineer-at-mizuho-4488672783",
+"posted": "2026-11-11",
+"remote": null,
+"country": null,
+"name_match": "exact"
+}
+]
 },
 "Mondelez": {
 "checked_at": "2026-11-26T15:20:52+00:00",

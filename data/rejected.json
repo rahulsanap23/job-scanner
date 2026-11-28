@@ -1,9 +1,9 @@
 {
 "meta": {
-"generated_at": "2026-11-28T00:47:51+00:00",
+"generated_at": "2026-11-28T08:36:43+00:00",
 "date": "2026-11-28",
 "recency_days": 365,
-"count": 427
+"count": 436
 },
 "rejected": [
 {
@@ -1840,6 +1840,18 @@
 "source": "avature"
 },
 {
+"company": "BNY",
+"title": "Senior Specialist, Data Transfer, Integration & Quality",
+"location": "Mumbai Metropolitan Region",
+"posted": "2026-11-16",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://in.linkedin.com/jobs/view/senior-specialist-data-transfer-integration-quality-at-bny-4491500604",
+"source": "linkedin"
+},
+{
 "company": "BlackRock",
 "title": "Vice President, IT Data Analytics",
 "location": "Mumbai, Maharashtra, India",
@@ -1864,11 +1876,11 @@
 {
 "company": "Bloomberg",
 "title": "Senior Data Management Professional - Data Automation Engineer - People Data",
-"location": "Princeton, New Jersey, United States of America",
+"location": "New York, New York, United States of America",
 "posted": null,
 "reason": "location",
 "tags": [],
-"url": "https://bloomberg.avature.net/careers/JobDetail/Senior-Data-Management-Professional-Data-Automation-Engineer-People-Data/20281",
+"url": "https://bloomberg.avature.net/careers/JobDetail/Senior-Data-Management-Professional-Data-Automation-Engineer-People-Data/45870",
 "source": "avature"
 },
 {
@@ -1903,12 +1915,12 @@
 },
 {
 "company": "Bloomberg",
-"title": "Senior Software Engineer - Data Governance & Management Platforms",
-"location": "New York, New York, United States of America",
+"title": "Senior Data Management Professional – Metadata, Data Engineering & Automation - Knowledge Graph Group",
+"location": "Dublin, Ireland",
 "posted": null,
 "reason": "location",
 "tags": [],
-"url": "https://bloomberg.avature.net/careers/JobDetail/Senior-Software-Engineer-Data-Governance-Management-Platforms/20462",
+"url": "https://bloomberg.avature.net/careers/JobDetail/Senior-Data-Management-Professional-Metadata-Data-Engineering-Automation-Knowledge-Graph-Group/45270",
 "source": "avature"
 },
 {
@@ -2592,6 +2604,18 @@
 "tags": [],
 "url": "https://job-boards.greenhouse.io/doordashindia/jobs/8200625",
 "source": "greenhouse"
+},
+{
+"company": "Dow",
+"title": "Business Data Specialist - Product/Material",
+"location": "Navi Mumbai (IND)",
+"posted": "Posted 3 Days Ago",
+"reason": "title not a data-engineering role",
+"tags": [
+"Navi Mumbai"
+],
+"url": "https://dow.wd1.myworkdayjobs.com/en-US/ExternalCareers/job/Navi-Mumbai-IND/Business-Data-Specialist---Product-Material_R2069436",
+"source": "workday"
 },
 {
 "company": "Drivetrain",
@@ -3371,16 +3395,6 @@
 },
 {
 "company": "JPMorgan Chase",
-"title": "Software Engineer III - Data Engineer",
-"location": "Hyderabad, Telangana, India",
-"posted": "2026-11-26",
-"reason": "location",
-"tags": [],
-"url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210793381",
-"source": "oracle"
-},
-{
-"company": "JPMorgan Chase",
 "title": "Software Engineer III - Java Developer + AWS + Spark + Databricks",
 "location": "Bengaluru, Karnataka, India",
 "posted": "2026-11-22",
@@ -3552,6 +3566,100 @@
 "source": "eightfold"
 },
 {
+"company": "Marsh McLennan",
+"title": "Oliver Wyman - Data Engineer / Senior Data Engineer - Data and Analytics (DNA) - Gurugram, India",
+"location": "Gurugram - Horizon",
+"posted": "Posted 30+ Days Ago",
+"reason": "location",
+"tags": [],
+"url": "https://mmc.wd1.myworkdayjobs.com/en-US/MMC/job/Gurugram---Horizon/Oliver-Wyman---Data-Engineer---Senior-Data-Engineer---Data-and-Analytics--DNA----Gurugram--India_R_341755-1",
+"source": "workday"
+},
+{
+"company": "Marsh McLennan",
+"title": "Oliver Wyman - Lead Data Engineer - Data and Analytics (DNA) - Gurugram, India",
+"location": "Gurugram - Horizon",
+"posted": "Posted 30+ Days Ago",
+"reason": "location",
+"tags": [],
+"url": "https://mmc.wd1.myworkdayjobs.com/en-US/MMC/job/Gurugram---Horizon/Oliver-Wyman---Lead-Data-Engineer---Data-and-Analytics--DNA----Gurugram--India_R_341756-1",
+"source": "workday"
+},
+{
+"company": "Marsh McLennan",
+"title": "IJP - Senior Manager - Data Science",
+"location": "Mumbai - Hiranandani",
+"posted": "Posted 30+ Days Ago",
+"reason": "title not a data-engineering role",
+"tags": [
+"Mumbai"
+],
+"url": "https://mmc.wd1.myworkdayjobs.com/en-US/MMC/job/Mumbai---Hiranandani/IJP---Senior-Manager---Data-Science_R_351761",
+"source": "workday"
+},
+{
+"company": "Mastercard",
+"title": "Lead Data Engineer",
+"location": "Hyderabad, India",
+"posted": "Posted 24 Days Ago",
+"reason": "location",
+"tags": [],
+"url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Hyderabad-India/Lead-Data-Engineer_R-292041-1",
+"source": "workday"
+},
+{
+"company": "Mastercard",
+"title": "Lead Data Engineer",
+"location": "Hyderabad, India",
+"posted": "Posted 29 Days Ago",
+"reason": "location",
+"tags": [],
+"url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Hyderabad-India/Lead-Data-Engineer_R-292042",
+"source": "workday"
+},
+{
+"company": "Mastercard",
+"title": "Senior Data Engineer",
+"location": "Hyderabad, India",
+"posted": "Posted 29 Days Ago",
+"reason": "location",
+"tags": [],
+"url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Hyderabad-India/Senior-Data-Engineer_R-292448",
+"source": "workday"
+},
+{
+"company": "Mastercard",
+"title": "Senior Data Engineer-4",
+"location": "Hyderabad, India",
+"posted": "Posted 29 Days Ago",
+"reason": "location",
+"tags": [],
+"url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Hyderabad-India/Senior-Data-Engineer-4_R-292034",
+"source": "workday"
+},
+{
+"company": "Mastercard",
+"title": "Vice President, Data Engineering",
+"location": "Hyderabad, India",
+"posted": "Posted Yesterday",
+"reason": "location",
+"tags": [],
+"url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Hyderabad-India/Vice-President--Data-Engineering_R-292460",
+"source": "workday"
+},
+{
+"company": "Mastercard",
+"title": "Senior Specialist - Global Product Management - Data Analytics and Agentic AI",
+"location": "Pune, India",
+"posted": "Posted 30+ Days Ago",
+"reason": "title not a data-engineering role",
+"tags": [
+"Pune"
+],
+"url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Senior-Specialist---Global-Product-Management---Data-Analytics-and-Agentic-AI_R-288650",
+"source": "workday"
+},
+{
 "company": "MetLife",
 "title": "Big Data Engineer I",
 "location": "Hyderabad, India",
@@ -3569,16 +3677,6 @@
 "reason": "location",
 "tags": [],
 "url": "https://www.metlifecareers.com/en_US/ml/JobDetail/Lead-Data-Engineer/16086",
-"source": "avature"
-},
-{
-"company": "MetLife",
-"title": "Principal Data and AI Product Engineer",
-"location": "Cary, United States",
-"posted": "28-Sep-2026",
-"reason": "location",
-"tags": [],
-"url": "https://www.metlifecareers.com/en_US/ml/JobDetail/Principal-Data-and-AI-Product-Engineer/20769",
 "source": "avature"
 },
 {
